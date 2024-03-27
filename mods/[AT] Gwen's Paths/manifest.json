@@ -1,0 +1,12 @@
+﻿{
+	"Name": "AT_Gwen_Paths",
+	"Author": "Gweniaczek",
+	"Version": "1.1.0",
+	"Description": "My paths and flooring retextures for Alternative Textures mod.",
+	"UniqueID": "Gweniaczek.AT_Gwen_Paths",
+	"UpdateKeys": ["Nexus:8683"],
+	"ContentPackFor": {
+	"UniqueID": "PeacefulEnd.AlternativeTextures",
+	"MinimumVersion": "6.10.0"
+  }
+}

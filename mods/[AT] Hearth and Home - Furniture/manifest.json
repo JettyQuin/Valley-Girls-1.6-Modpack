@@ -1,0 +1,13 @@
+﻿{
+  "Name": "[AT] Hearth and Home - Furniture",
+  "Author": "hypnagogie",
+  "Version": "1.0.0",
+  "Description": "Furniture texture pack for Alternative Textures",
+  "UniqueID": "Hypnagogie.AT.HearthHomeFurniture",
+  "UpdateKeys": ["Nexus:18487"],
+  "Dependencies": [],
+  "ContentPackFor": {
+    "UniqueID": "PeacefulEnd.AlternativeTextures",
+    "MinimumVersion": "6.10.0"
+  }
+}

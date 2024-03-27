@@ -1,0 +1,9 @@
+{
+  "ItemName": "Basic Window",
+  "Type": "Furniture",
+  "Seasons": ["Spring"],
+  "TextureWidth": 32,
+  "TextureHeight": 32,
+  "Keywords": ["Hearth", "hnh"],
+  "Variations": 14
+}

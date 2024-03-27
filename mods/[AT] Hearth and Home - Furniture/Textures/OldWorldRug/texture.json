@@ -1,0 +1,8 @@
+{
+  "ItemName": "Old World Rug",
+  "Type": "Furniture",
+  "TextureWidth": 64,
+  "TextureHeight": 48,
+  "Keywords": ["Hearth", "hnh"],
+  "Variations": 18
+}

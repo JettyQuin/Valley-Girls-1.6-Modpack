@@ -1,0 +1,8 @@
+{
+  "ItemName": "Budget TV",
+  "Type": "Furniture",
+  "TextureWidth": 32,
+  "TextureHeight": 48,
+  "Keywords": ["Hearth", "hnh"],
+  "Variations": 6
+}

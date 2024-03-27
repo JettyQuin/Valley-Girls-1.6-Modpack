@@ -1,0 +1,17 @@
+﻿{
+	"Name": "[CP] Shyzie's String Lights",
+	"Author": "Shyzie",
+	"Version": "1.0.0",
+	"Description": "Various buildable string lights.",
+	"UniqueID": "Shyzie.StringLights.CP",
+	"UpdateKeys": ["Nexus:20973"],
+	"ContentPackFor": {
+		"UniqueID": "Pathoschild.ContentPatcher",
+	},
+	"Dependencies": [
+		{
+			"UniqueID": "spacechase0.SpaceCore",
+			"IsRequired": false
+		}
+	]
+}

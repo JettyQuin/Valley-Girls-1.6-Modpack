@@ -1,0 +1,318 @@
+{
+	"Format": "2.0.0",
+
+	"ConfigSchema": {
+
+		"Mushrooms": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Terrain Features"
+			},
+
+		"SmallCrystals": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Terrain Features"
+			},
+
+		"LargeCrystal": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Terrain Features"
+			},
+
+		"WaterPlants": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Terrain Features"
+			},
+
+		"WaterfallColor": {
+			"AllowValues": "vanilla",
+			/*"AllowValues": "vanilla, yri_default, yri_dblue, yri_green, yri_grey, yri_lblue, yri_pastel, yri_purple, yri_red, yri_rose",*/
+			"Default": "vanilla",
+			"Section": "Water"
+			},
+
+		/*"WaterfallMist": {
+			"AllowValues": "true, false",
+			"Default": "false",
+			"Section": "Water"
+			},*/
+
+		/*"ShadowEffects": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Lighting & Ambiance"
+			},*/
+
+	    "SparklingLights": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Lighting & Ambiance"
+			},
+
+		"Fairies": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Lighting & Ambiance"
+			}	
+		},
+
+	"Changes": [
+	
+	//Load map
+	{
+		"Action": "EditData",
+		"Target": "Data/AdditionalFarms",
+		"Entries": {
+			"Sevinae.EnchantedGroveFarm/EnchantedGroveFarm": {
+				"ID": "Sevinae.EnchantedGroveFarm/EnchantedGroveFarm",
+				"TooltipStringPath": "Strings/UI:Enchanted_Grove_Farm",
+				"MapName": "Enchanted_Grove_Farm",
+				"IconTexture": "Mods/Sevinae.EnchantedGroveFarm/Icon",
+				/*"WorldMapTexture": "Mods/Sevinae.EnchantedGroveFarm/WorldMap"*/
+			}
+		}
+	},
+	{
+		"Action": "EditData",
+		"Target": "Strings/UI",
+		"Entries": { "Enchanted_Grove_Farm": "Enchanted Grove Farm_Beyond the secret woods lies an enchanted grove waiting to be tended..." },
+	},
+	{
+		"Action": "Load",
+		"Target": "Maps/Enchanted_Grove_Farm",
+		"FromFile": "assets/EnchantedGrove.tmx",
+	},
+	{
+		"Action": "Load",
+		"Target": "Mods/Sevinae.EnchantedGroveFarm/Icon",
+		"FromFile": "assets/Enchanted_Grove_Icon.png",
+	},
+
+	//Farmhouse Properties
+	{
+		"Action": "EditMap",
+		"Target": "Maps/Enchanted_Grove_Farm",
+		"MapProperties": { "FarmHouseFurniture": "1466 1 4 0 1602 2 1 0 1616 4 1 0 1616 7 1 0 0 4 4 0 1134 5 4 0 1748 5 4 0 1792 8 4 0 1376 10 4 0 1377 1 10 0 1618 6 8 0" }
+	},
+
+	//Mushrooms
+	{    
+		"Action": "EditMap",
+		"Target": "Maps/Enchanted_Grove_Farm",
+		"FromFile": "assets/Options/Add_Mushrooms.tbin",
+		"When": { "Mushrooms": "true"},
+		"ToArea": { "X": 0, "Y": 0, "Width": 120, "Height": 120 }
+	},
+	
+	//Small Crystals
+	{    
+		"Action": "EditMap",
+		"Target": "Maps/Enchanted_Grove_Farm",
+		"FromFile": "assets/Options/Add_SmallCrystals.tbin",
+		"When": { "SmallCrystals": "true"},
+		"ToArea": { "X": 0, "Y": 0, "Width": 120, "Height": 120 }
+	},
+
+	//Large Crystal
+	{    
+		"Action": "EditMap",
+		"Target": "Maps/Enchanted_Grove_Farm",
+		"FromFile": "assets/Options/Add_LargeCrystal.tbin",
+		"When": { "LargeCrystal": "true"},
+		"ToArea": { "X": 0, "Y": 0, "Width": 120, "Height": 120 }
+	},
+
+	//Water Plants
+	{    
+		"Action": "EditMap",
+		"Target": "Maps/Enchanted_Grove_Farm",
+		"FromFile": "assets/Options/Add_WaterPlants.tbin",
+		"When": { "WaterPlants": "true"},
+		"ToArea": { "X": 0, "Y": 0, "Width": 120, "Height": 120 }
+	},
+
+	//Change Waterfall Colors
+	{    
+		"Action": "EditMap",
+		"Target": "Maps/Enchanted_Grove_Farm",
+		"FromFile": "assets/Options/Waterfalls_Default.tbin",
+		"When": { "WaterfallColor": "vanilla"},
+		"ToArea": { "X": 0, "Y": 0, "Width": 120, "Height": 120 }
+	},
+	/*
+	{    
+		"Action": "EditMap",
+		"Target": "Maps/Enchanted_Grove_Farm",
+		"FromFile": "assets/Options/Modular_Waterfalls/All_Seasons/Yri/Default/Waterfalls_yri_Default.tbin",
+		"When": { "WaterfallColor": "yri_default"},
+		"ToArea": { "X": 0, "Y": 0, "Width": 120, "Height": 120 }
+	},
+	{    
+		"Action": "EditMap",
+		"Target": "Maps/Enchanted_Grove_Farm",
+		"FromFile": "assets/Options/Modular_Waterfalls/All_Seasons/Yri/DarkBlue/Waterfalls_yri_DBlue.tbin",
+		"When": { "WaterfallColor": "yri_dblue"},
+		"ToArea": { "X": 0, "Y": 0, "Width": 120, "Height": 120 }
+	},
+	{    
+		"Action": "EditMap",
+		"Target": "Maps/Enchanted_Grove_Farm",
+		"FromFile": "assets/Options/Modular_Waterfalls/All_Seasons/Yri/Green/Waterfalls_yri_Green.tbin",
+		"When": { "WaterfallColor": "yri_green"},
+		"ToArea": { "X": 0, "Y": 0, "Width": 120, "Height": 120 }
+	},
+	{    
+		"Action": "EditMap",
+		"Target": "Maps/Enchanted_Grove_Farm",
+		"FromFile": "assets/Options/Modular_Waterfalls/All_Seasons/Yri/Grey/Waterfalls_yri_Grey.tbin",
+		"When": { "WaterfallColor": "yri_grey"},
+		"ToArea": { "X": 0, "Y": 0, "Width": 120, "Height": 120 }
+	},
+	{    
+		"Action": "EditMap",
+		"Target": "Maps/Enchanted_Grove_Farm",
+		"FromFile": "assets/Options/Modular_Waterfalls/All_Seasons/Yri/LightBlue/Waterfalls_yri_LBlue.tbin",
+		"When": { "WaterfallColor": "yri_lblue"},
+		"ToArea": { "X": 0, "Y": 0, "Width": 120, "Height": 120 }
+	},
+	{    
+		"Action": "EditMap",
+		"Target": "Maps/Enchanted_Grove_Farm",
+		"FromFile": "assets/Options/Modular_Waterfalls/All_Seasons/Yri/Pastel/Waterfalls_yri_Pastel.tbin",
+		"When": { "WaterfallColor": "yri_pastel"},
+		"ToArea": { "X": 0, "Y": 0, "Width": 120, "Height": 120 }
+	},
+	{    
+		"Action": "EditMap",
+		"Target": "Maps/Enchanted_Grove_Farm",
+		"FromFile": "assets/Options/Modular_Waterfalls/All_Seasons/Yri/Purple/Waterfalls_yri_Purple.tbin",
+		"When": { "WaterfallColor": "yri_purple"},
+		"ToArea": { "X": 0, "Y": 0, "Width": 120, "Height": 120 }
+	},
+	{    
+		"Action": "EditMap",
+		"Target": "Maps/Enchanted_Grove_Farm",
+		"FromFile": "assets/Options/Modular_Waterfalls/All_Seasons/Yri/Red/Waterfalls_yri_Red.tbin",
+		"When": { "WaterfallColor": "yri_red"},
+		"ToArea": { "X": 0, "Y": 0, "Width": 120, "Height": 120 }
+	},
+	{    
+		"Action": "EditMap",
+		"Target": "Maps/Enchanted_Grove_Farm",
+		"FromFile": "assets/Options/Modular_Waterfalls/All_Seasons/Yri/Rose/Waterfalls_yri_rose.tbin",
+		"When": { "WaterfallColor": "yri_rose"},
+		"ToArea": { "X": 0, "Y": 0, "Width": 120, "Height": 120 }
+	},*/
+
+	/*
+	//Change Waterfall Mist Colors. Match to the waterfall color.
+	{    
+		"Action": "EditMap",
+		"Target": "Maps/Enchanted_Grove_Farm",
+		"FromFile": "assets/Options/Modular_Waterfalls/All_Seasons/Yri/Default/Waterfall_Mist_yri_Default.tbin",
+		"When": { "WaterfallMist": "true", "WaterfallColor": "yri_default"},
+		"ToArea": { "X": 0, "Y": 0, "Width": 120, "Height": 120 }
+	},
+	{    
+		"Action": "EditMap",
+		"Target": "Maps/Enchanted_Grove_Farm",
+		"FromFile": "assets/Options/Modular_Waterfalls/All_Seasons/Yri/DarkBlue/Waterfall_Mist_yri_DBlue.tbin",
+		"When": { "WaterfallMist": "true", "WaterfallColor": "yri_dblue"},
+		"ToArea": { "X": 0, "Y": 0, "Width": 120, "Height": 120 }
+	},
+	{    
+		"Action": "EditMap",
+		"Target": "Maps/Enchanted_Grove_Farm",
+		"FromFile": "assets/Options/Modular_Waterfalls/All_Seasons/Yri/Green/Waterfall_Mist_yri_Green.tbin",
+		"When": { "WaterfallMist": "true", "WaterfallColor": "yri_green"},
+		"ToArea": { "X": 0, "Y": 0, "Width": 120, "Height": 120 }
+	},
+	{    
+		"Action": "EditMap",
+		"Target": "Maps/Enchanted_Grove_Farm",
+		"FromFile": "assets/Options/Modular_Waterfalls/All_Seasons/Yri/Grey/Waterfall_Mist_yri_Grey.tbin",
+		"When": { "WaterfallMist": "true", "WaterfallColor": "yri_grey"},
+		"ToArea": { "X": 0, "Y": 0, "Width": 120, "Height": 120 }
+	},
+	{    
+		"Action": "EditMap",
+		"Target": "Maps/Enchanted_Grove_Farm",
+		"FromFile": "assets/Options/Modular_Waterfalls/All_Seasons/Yri/LightBlue/Waterfall_Mist_yri_LBlue.tbin",
+		"When": { "WaterfallMist": "true", "WaterfallColor": "yri_lblue"},
+		"ToArea": { "X": 0, "Y": 0, "Width": 120, "Height": 120 }
+	},
+	{    
+		"Action": "EditMap",
+		"Target": "Maps/Enchanted_Grove_Farm",
+		"FromFile": "assets/Options/Modular_Waterfalls/All_Seasons/Yri/Pastel/Waterfall_Mist_yri_Pastel.tbin",
+		"When": { "WaterfallMist": "true", "WaterfallColor": "yri_pastel"},
+		"ToArea": { "X": 0, "Y": 0, "Width": 120, "Height": 120 }
+	},
+	{    
+		"Action": "EditMap",
+		"Target": "Maps/Enchanted_Grove_Farm",
+		"FromFile": "assets/Options/Modular_Waterfalls/All_Seasons/Yri/Purple/Waterfall_Mist_yri_Purple.tbin",
+		"When": { "WaterfallMist": "true", "WaterfallColor": "yri_purple"},
+		"ToArea": { "X": 0, "Y": 0, "Width": 120, "Height": 120 }
+	},
+	{    
+		"Action": "EditMap",
+		"Target": "Maps/Enchanted_Grove_Farm",
+		"FromFile": "assets/Options/Modular_Waterfalls/All_Seasons/Yri/Red/Waterfall_Mist_yri_Red.tbin",
+		"When": { "WaterfallMist": "true", "WaterfallColor": "yri_red"},
+		"ToArea": { "X": 0, "Y": 0, "Width": 120, "Height": 120 }
+	},
+	{    
+		"Action": "EditMap",
+		"Target": "Maps/Enchanted_Grove_Farm",
+		"FromFile": "assets/Options/Modular_Waterfalls/All_Seasons/Yri/Rose/Waterfall_Mist_yri_rose.tbin",
+		"When": { "WaterfallMist": "true", "WaterfallColor": "yri_rose"},
+		"ToArea": { "X": 0, "Y": 0, "Width": 120, "Height": 120 }
+	},*/
+
+	//Apply sparkling lights
+	{    
+		"Action": "EditMap",
+		"Target": "Maps/Enchanted_Grove_Farm",
+		"FromFile": "assets/Options/Sparkling_Lights.tbin",
+		"When": { "SparklingLights": "true"},
+		"ToArea": { "X": 0, "Y": 0, "Width": 120, "Height": 120 }
+	},
+
+	//Apply fairies
+	{    
+		"Action": "EditMap",
+		"Target": "Maps/Enchanted_Grove_Farm",
+		"FromFile": "assets/Options/Fairies.tbin",
+		"When": { "Fairies": "true"},
+		"ToArea": { "X": 0, "Y": 0, "Width": 120, "Height": 120 }
+	},
+	/*//Apply shadow effects
+	{    
+		"Action": "EditMap",
+		"Target": "Maps/Enchanted_Grove_Farm",
+		"FromFile": "assets/Options/Shadow_Effect.tbin",
+		"When": { "ShadowEffects": "true"},
+		"ToArea": { "X": 0, "Y": 0, "Width": 120, "Height": 120 }
+	},*/
+	//Add minecart
+	{
+		"Action": "EditData",
+		"Target": "Data/Minecarts",
+		"TargetField": [ "Default", "Destinations" ],
+		"Entries": {
+			"Farm": {
+				"ID": "Farm",
+				"DisplayName": "Farm",
+				"TargetLocation": "Farm",
+				"TargetTile": { "X": 33, "Y": 9 },
+                "TargetDirection": "down"
+
+			}
+		}
+	}
+	]
+}

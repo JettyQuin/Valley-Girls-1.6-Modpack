@@ -1,0 +1,14 @@
+{
+    "Format": "2.0.0",
+    "Changes": [
+ 		{
+			"Action": "Include",
+			"FromFile": "data/objects.json"
+		},
+		{ 
+            "Action": "Load",
+			"Target": "StunkyMcDoo.MushroomsofFerngill.cp/objects",
+            "FromFile": "assets/objects.png"
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "ItemName": "Stone Chest",
+    "Type": "Craftable",
+    "Keywords": [ "Soft" ],
+    "TextureWidth": 16,
+    "TextureHeight": 32,
+    "ManualVariations": [
+      {
+        "Id": 0,
+        "Name": "Cutesy Storage Box"
+      }
+  ]
+}

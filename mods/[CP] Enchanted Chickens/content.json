@@ -1,0 +1,850 @@
+{
+	"Format": "2.0.0",
+    "Changes": [
+
+{
+            "LogName": "Load data for Enchanted Egg",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries":	{
+			  "{{ModId}}_EnchantedEgg": {
+				"Name": "{{ModId}}_EnchantedEgg",
+				"DisplayName": "Enchanted Egg",
+				"Description": "A glittering egg. How did the chicken manage that?",
+				"Type": "Basic",
+				"Category": -5, //eggs
+				"Price": 600,
+				"Texture": "Objects/{{ModId}}_enchantedegg",
+				"SpriteIndex": 0,
+				"Edibility": 10,
+				"IsDrink": false,
+				"Buffs": null,
+				"GeodeDropsDefaultItems": false,
+				"GeodeDrops": null,
+				"ArtifactSpotChances": null,
+				"ExcludeFromFishingCollection": true,
+				"ExcludeFromShippingCollection": false,
+				"ExcludeFromRandomSale": false,
+				"ContextTags":null,
+				"CustomFields": null
+			  }
+			}
+		},
+		{
+			"LogName": "Load data for Enchanted Mayonnaise",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries":	{
+			  "{{ModId}}_EnchantedMayonnaise": {
+				"Name": "{{ModId}}_EnchantedMayonnaise",
+				"DisplayName": "Enchanted Mayonnaise",
+				"Description": "A spreadable pink substance that seems to give off the faintest glow.",
+				"Type": "Basic",
+				"Category": -26, //ArtisanGoods
+				"Price": 1000,
+				"GiftTastes":
+				{
+					"Love": ["Gus", "Sebastian", "Harvey", "Sophia"],
+					"Like": ["Demetrius", "Shane", "Kent", "Leah", "Abigail", "Dwarf", "Haley", "Pam", "Vincent", "Wizard", "Jas", "Alex",  "Kent", "Linus", "Marnie", "Pierre", "Sam"],				},
+				"Texture": "Objects/{{ModId}}_enchanted_mayonnaise",
+				"SpriteIndex": 0,
+				"Edibility": 20,
+				"IsDrink": true,
+				"Buffs": null,
+				"GeodeDropsDefaultItems": false,
+				"GeodeDrops": null,
+				"ArtifactSpotChances": null,
+				"ExcludeFromFishingCollection": true,
+				"ExcludeFromShippingCollection": false,
+				"ExcludeFromRandomSale": false,
+				"ContextTags":null,
+				"CustomFields": null
+			  }
+			}
+		},
+		{
+            		"LogName": "Edit Machine data to produce Enchanted Mayonnaise",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)24", "OutputRules" ],
+			"Entries": {
+				"{{ModId}}_AlpacaYarn": {
+					"Id": "{{ModId}}_EnchantedMayonnaise",
+					"Triggers": 
+						[
+							{
+								"RequiredItemId": "{{ModId}}_EnchantedEgg"
+							}
+						],
+					"OutputItem":
+						[
+							{
+								"ItemId": "{{ModId}}_EnchantedMayonnaise"
+							}
+						],
+					"MinutesUntilReady": 200
+				}
+			}
+		},
+            {
+            "LogName": "Load data for Blue Enchanted Chicken",
+            "Action": "EditData",
+            "Target": "Data/FarmAnimals",
+            "Entries": {
+                "Blue Enchanted Chicken": {
+                    "DisplayName": "Blue Enchanted Chicken", 
+                    "House": "Coop",
+                    "Gender": "Female",
+                    "PurchasePrice": 10000,
+                    "ShopTexture": "Animals/{{ModId}}_animal_shop_enchantedchicken",
+                    "ShopSourceRect": {
+                        "X": 0,
+                        "Y": 0,
+                        "Width": 32,
+                        "Height": 16
+                    },
+					"ShopDisplayName": "Enchanted Chicken",
+					"ShopDescription": "Colorful chickens rumored to be enchanted by the magic of fairies. Some claim that fairies once rode these beloved birds.",
+					"AlternatePurchaseTypes": [
+      {
+        "Condition": null,
+        "AnimalIds": [
+          "Blue Enchanted Chicken",
+          "Pink Enchanted Chicken",
+          "Black Enchanted Chicken",
+          "Green Enchanted Chicken",
+          "Lavender Enchanted Chicken",
+          "Peach Enchanted Chicken",
+          "Purple Enchanted Chicken",
+          "Raspberry Enchanted Chicken",
+          "Sky Enchanted Chicken",
+          "Strawberry Enchanted Chicken",
+          "Teal Enchanted Chicken",
+          "Watermelon Enchanted Chicken",
+        ]
+      }
+    ],
+
+					"ShopMissingBuildingDescription": "[LocalizedText Strings\\StringsFromCSFiles:Utility.cs.5926]",
+                    "RequiredBuilding": "Deluxe Coop",
+                    "ProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "{{ModId}}_EnchantedEgg"
+                        }
+                    ],
+                    "DeluxeProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 1000,
+                            "ItemId": "872"
+                        }
+                    ],
+                    "Sound": "cluck",
+                    "BabySound": null,
+                    "Texture": "Animals/{{ModId}}_blueenchantedchicken",
+                    "BabyTexture": "Animals/{{ModId}}_blueenchantedchicken_baby",
+					"UseFlippedRightForLeft": false,
+                    "SpriteWidth": 16,
+                    "SpriteHeight": 16,
+                    "ShowInSummitCredits": true,
+                }
+            }
+        },
+            {
+            "LogName": "Load data for Pink Enchanted Chicken",
+            "Action": "EditData",
+            "Target": "Data/FarmAnimals",
+            "Entries": {
+                "Pink Enchanted Chicken": {
+                    "DisplayName": "Pink Enchanted Chicken", 
+                    "House": "Coop",
+                    "Gender": "Female",
+                    "PurchasePrice": -1,
+                    "ShopTexture": "Animals/{{ModId}}_animal_shop_enchantedchicken",
+                    "ShopSourceRect": {
+                        "X": 0,
+                        "Y": 0,
+                        "Width": 32,
+                        "Height": 16
+                    },
+					"ShopDisplayName": "Enchanted Chicken",
+					"ShopDescription": "Colorful chickens rumored to be enchanted by the magic of fairies. Some claim that fairies once rode these beloved birds.",
+					"ShopMissingBuildingDescription": "[LocalizedText Strings\\StringsFromCSFiles:Utility.cs.5926]",
+                    "RequiredBuilding": "Deluxe Coop",
+                    "ProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "{{ModId}}_EnchantedEgg"
+                        }
+                    ],
+                    "DeluxeProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 1000,
+                            "ItemId": "872"
+                        }
+                    ],
+                    "Sound": "cluck",
+                    "BabySound": null,
+                    "Texture": "Animals/{{ModId}}_pinkenchantedchicken",
+                    "BabyTexture": "Animals/{{ModId}}_pinkenchantedchicken_baby",
+					"UseFlippedRightForLeft": false,
+                    "SpriteWidth": 16,
+                    "SpriteHeight": 16,
+                    "ShowInSummitCredits": true,
+                }
+            }
+        },
+            {
+            "LogName": "Load data for Black Enchanted Chicken",
+            "Action": "EditData",
+            "Target": "Data/FarmAnimals",
+            "Entries": {
+                "Black Enchanted Chicken": {
+                    "DisplayName": "Black Enchanted Chicken", 
+                    "House": "Coop",
+                    "Gender": "Female",
+                    "PurchasePrice": -1,
+                    "ShopTexture": "Animals/{{ModId}}_animal_shop_enchantedchicken",
+                    "ShopSourceRect": {
+                        "X": 0,
+                        "Y": 0,
+                        "Width": 32,
+                        "Height": 16
+                    },
+					"ShopDisplayName": "Enchanted Chicken",
+					"ShopDescription": "Colorful chickens rumored to be enchanted by the magic of fairies. Some claim that fairies once rode these beloved birds.",
+					"ShopMissingBuildingDescription": "[LocalizedText Strings\\StringsFromCSFiles:Utility.cs.5926]",
+                    "RequiredBuilding": "Deluxe Coop",
+                    "ProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "{{ModId}}_EnchantedEgg"
+                        }
+                    ],
+                    "DeluxeProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 1000,
+                            "ItemId": "872"
+                        }
+                    ],
+                    "Sound": "cluck",
+                    "BabySound": null,
+                    "Texture": "Animals/{{ModId}}_blackenchantedchicken",
+                    "BabyTexture": "Animals/{{ModId}}_blackenchantedchicken_baby",
+					"UseFlippedRightForLeft": false,
+                    "SpriteWidth": 16,
+                    "SpriteHeight": 16,
+                    "ShowInSummitCredits": true,
+                }
+            }
+        },
+            {
+            "LogName": "Load data for Green Enchanted Chicken",
+            "Action": "EditData",
+            "Target": "Data/FarmAnimals",
+            "Entries": {
+                "Green Enchanted Chicken": {
+                    "DisplayName": "Green Enchanted Chicken", 
+                    "House": "Coop",
+                    "Gender": "Female",
+                    "PurchasePrice": -1,
+                    "ShopTexture": "Animals/{{ModId}}_animal_shop_enchantedchicken",
+                    "ShopSourceRect": {
+                        "X": 0,
+                        "Y": 0,
+                        "Width": 32,
+                        "Height": 16
+                    },
+					"ShopDisplayName": "Enchanted Chicken",
+					"ShopDescription": "Colorful chickens rumored to be enchanted by the magic of fairies. Some claim that fairies once rode these beloved birds.",
+					"ShopMissingBuildingDescription": "[LocalizedText Strings\\StringsFromCSFiles:Utility.cs.5926]",
+                    "RequiredBuilding": "Deluxe Coop",
+                    "ProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "{{ModId}}_EnchantedEgg"
+                        }
+                    ],
+                    "DeluxeProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 1000,
+                            "ItemId": "872"
+                        }
+                    ],
+                    "Sound": "cluck",
+                    "BabySound": null,
+                    "Texture": "Animals/{{ModId}}_greenenchantedchicken",
+                    "BabyTexture": "Animals/{{ModId}}_greenenchantedchicken_baby",
+					"UseFlippedRightForLeft": false,
+                    "SpriteWidth": 16,
+                    "SpriteHeight": 16,
+                    "ShowInSummitCredits": true,
+                }
+            }
+        },
+            {
+            "LogName": "Load data for Lavender Enchanted Chicken",
+            "Action": "EditData",
+            "Target": "Data/FarmAnimals",
+            "Entries": {
+                "Lavender Enchanted Chicken": {
+                    "DisplayName": "Lavender Enchanted Chicken", 
+                    "House": "Coop",
+                    "Gender": "Female",
+                    "PurchasePrice": -1,
+                    "ShopTexture": "Animals/{{ModId}}_animal_shop_enchantedchicken",
+                    "ShopSourceRect": {
+                        "X": 0,
+                        "Y": 0,
+                        "Width": 32,
+                        "Height": 16
+                    },
+					"ShopDisplayName": "Enchanted Chicken",
+					"ShopDescription": "Colorful chickens rumored to be enchanted by the magic of fairies. Some claim that fairies once rode these beloved birds.",
+					"ShopMissingBuildingDescription": "[LocalizedText Strings\\StringsFromCSFiles:Utility.cs.5926]",
+                    "RequiredBuilding": "Deluxe Coop",
+                    "ProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "{{ModId}}_EnchantedEgg"
+                        }
+                    ],
+                    "DeluxeProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 1000,
+                            "ItemId": "872"
+                        }
+                    ],
+                    "Sound": "cluck",
+                    "BabySound": null,
+                    "Texture": "Animals/{{ModId}}_lavenderenchantedchicken",
+                    "BabyTexture": "Animals/{{ModId}}_lavenderenchantedchicken_baby",
+					"UseFlippedRightForLeft": false,
+                    "SpriteWidth": 16,
+                    "SpriteHeight": 16,
+                    "ShowInSummitCredits": true,
+                }
+            }
+        },
+            {
+            "LogName": "Load data for Peach Enchanted Chicken",
+            "Action": "EditData",
+            "Target": "Data/FarmAnimals",
+            "Entries": {
+                "Peach Enchanted Chicken": {
+                    "DisplayName": "Peach Enchanted Chicken", 
+                    "House": "Coop",
+                    "Gender": "Female",
+                    "PurchasePrice": -1,
+                    "ShopTexture": "Animals/{{ModId}}_animal_shop_enchantedchicken",
+                    "ShopSourceRect": {
+                        "X": 0,
+                        "Y": 0,
+                        "Width": 32,
+                        "Height": 16
+                    },
+					"ShopDisplayName": "Enchanted Chicken",
+					"ShopDescription": "Colorful chickens rumored to be enchanted by the magic of fairies. Some claim that fairies once rode these beloved birds.",
+					"ShopMissingBuildingDescription": "[LocalizedText Strings\\StringsFromCSFiles:Utility.cs.5926]",
+                    "RequiredBuilding": "Deluxe Coop",
+                    "ProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "{{ModId}}_EnchantedEgg"
+                        }
+                    ],
+                    "DeluxeProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 1000,
+                            "ItemId": "872"
+                        }
+                    ],
+                    "Sound": "cluck",
+                    "BabySound": null,
+                    "Texture": "Animals/{{ModId}}_peachenchantedchicken",
+                    "BabyTexture": "Animals/{{ModId}}_peachenchantedchicken_baby",
+					"UseFlippedRightForLeft": false,
+                    "SpriteWidth": 16,
+                    "SpriteHeight": 16,
+                    "ShowInSummitCredits": true,
+                }
+            }
+        },
+            {
+            "LogName": "Load data for Purple Enchanted Chicken",
+            "Action": "EditData",
+            "Target": "Data/FarmAnimals",
+            "Entries": {
+                "Purple Enchanted Chicken": {
+                    "DisplayName": "Purple Enchanted Chicken", 
+                    "House": "Coop",
+                    "Gender": "Female",
+                    "PurchasePrice": -1,
+                    "ShopTexture": "Animals/{{ModId}}_animal_shop_enchantedchicken",
+                    "ShopSourceRect": {
+                        "X": 0,
+                        "Y": 0,
+                        "Width": 32,
+                        "Height": 16
+                    },
+					"ShopDisplayName": "Enchanted Chicken",
+					"ShopDescription": "Colorful chickens rumored to be enchanted by the magic of fairies. Some claim that fairies once rode these beloved birds.",
+					"ShopMissingBuildingDescription": "[LocalizedText Strings\\StringsFromCSFiles:Utility.cs.5926]",
+                    "RequiredBuilding": "Deluxe Coop",
+                    "ProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "{{ModId}}_EnchantedEgg"
+                        }
+                    ],
+                    "DeluxeProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 1000,
+                            "ItemId": "872"
+                        }
+                    ],
+                    "Sound": "cluck",
+                    "BabySound": null,
+                    "Texture": "Animals/{{ModId}}_purpleenchantedchicken",
+                    "BabyTexture": "Animals/{{ModId}}_purpleenchantedchicken_baby",
+					"UseFlippedRightForLeft": false,
+                    "SpriteWidth": 16,
+                    "SpriteHeight": 16,
+                    "ShowInSummitCredits": true,
+                }
+            }
+        },
+            {
+            "LogName": "Load data for Raspberry Enchanted Chicken",
+            "Action": "EditData",
+            "Target": "Data/FarmAnimals",
+            "Entries": {
+                "Raspberry Enchanted Chicken": {
+                    "DisplayName": "Raspberry Enchanted Chicken", 
+                    "House": "Coop",
+                    "Gender": "Female",
+                    "PurchasePrice": -1,
+                    "ShopTexture": "Animals/{{ModId}}_animal_shop_enchantedchicken",
+                    "ShopSourceRect": {
+                        "X": 0,
+                        "Y": 0,
+                        "Width": 32,
+                        "Height": 16
+                    },
+					"ShopDisplayName": "Enchanted Chicken",
+					"ShopDescription": "Colorful chickens rumored to be enchanted by the magic of fairies. Some claim that fairies once rode these beloved birds.",
+					"ShopMissingBuildingDescription": "[LocalizedText Strings\\StringsFromCSFiles:Utility.cs.5926]",
+                    "RequiredBuilding": "Deluxe Coop",
+                    "ProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "{{ModId}}_EnchantedEgg"
+                        }
+                    ],
+                    "DeluxeProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 1000,
+                            "ItemId": "872"
+                        }
+                    ],
+                    "Sound": "cluck",
+                    "BabySound": null,
+                    "Texture": "Animals/{{ModId}}_raspberryenchantedchicken",
+                    "BabyTexture": "Animals/{{ModId}}_raspberryenchantedchicken_baby",
+					"UseFlippedRightForLeft": false,
+                    "SpriteWidth": 16,
+                    "SpriteHeight": 16,
+                    "ShowInSummitCredits": true,
+                }
+            }
+        },
+            {
+            "LogName": "Load data for Sky Enchanted Chicken",
+            "Action": "EditData",
+            "Target": "Data/FarmAnimals",
+            "Entries": {
+                "Sky Enchanted Chicken": {
+                    "DisplayName": "Sky Enchanted Chicken", 
+                    "House": "Coop",
+                    "Gender": "Female",
+                    "PurchasePrice": -1,
+                    "ShopTexture": "Animals/{{ModId}}_animal_shop_enchantedchicken",
+                    "ShopSourceRect": {
+                        "X": 0,
+                        "Y": 0,
+                        "Width": 32,
+                        "Height": 16
+                    },
+					"ShopDisplayName": "Enchanted Chicken",
+					"ShopDescription": "Colorful chickens rumored to be enchanted by the magic of fairies. Some claim that fairies once rode these beloved birds.",
+					"ShopMissingBuildingDescription": "[LocalizedText Strings\\StringsFromCSFiles:Utility.cs.5926]",
+                    "RequiredBuilding": "Deluxe Coop",
+                    "ProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "{{ModId}}_EnchantedEgg"
+                        }
+                    ],
+                    "DeluxeProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 1000,
+                            "ItemId": "872"
+                        }
+                    ],
+                    "Sound": "cluck",
+                    "BabySound": null,
+                    "Texture": "Animals/{{ModId}}_skyenchantedchicken",
+                    "BabyTexture": "Animals/{{ModId}}_skyenchantedchicken_baby",
+					"UseFlippedRightForLeft": false,
+                    "SpriteWidth": 16,
+                    "SpriteHeight": 16,
+                    "ShowInSummitCredits": true,
+                }
+            }
+        },
+            {
+            "LogName": "Load data for Strawberry Enchanted Chicken",
+            "Action": "EditData",
+            "Target": "Data/FarmAnimals",
+            "Entries": {
+                "Strawberry Enchanted Chicken": {
+                    "DisplayName": "Strawberry Enchanted Chicken", 
+                    "House": "Coop",
+                    "Gender": "Female",
+                    "PurchasePrice": -1,
+                    "ShopTexture": "Animals/{{ModId}}_animal_shop_enchantedchicken",
+                    "ShopSourceRect": {
+                        "X": 0,
+                        "Y": 0,
+                        "Width": 32,
+                        "Height": 16
+                    },
+					"ShopDisplayName": "Enchanted Chicken",
+					"ShopDescription": "Colorful chickens rumored to be enchanted by the magic of fairies. Some claim that fairies once rode these beloved birds.",
+					"ShopMissingBuildingDescription": "[LocalizedText Strings\\StringsFromCSFiles:Utility.cs.5926]",
+                    "RequiredBuilding": "Deluxe Coop",
+                    "ProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "{{ModId}}_EnchantedEgg"
+                        }
+                    ],
+                    "DeluxeProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 1000,
+                            "ItemId": "872"
+                        }
+                    ],
+                    "Sound": "cluck",
+                    "BabySound": null,
+                    "Texture": "Animals/{{ModId}}_strawberryenchantedchicken",
+                    "BabyTexture": "Animals/{{ModId}}_strawberryenchantedchicken_baby",
+					"UseFlippedRightForLeft": false,
+                    "SpriteWidth": 16,
+                    "SpriteHeight": 16,
+                    "ShowInSummitCredits": true,
+                }
+            }
+        },
+            {
+            "LogName": "Load data for Teal Enchanted Chicken",
+            "Action": "EditData",
+            "Target": "Data/FarmAnimals",
+            "Entries": {
+                "Teal Enchanted Chicken": {
+                    "DisplayName": "Teal Enchanted Chicken", 
+                    "House": "Coop",
+                    "Gender": "Female",
+                    "PurchasePrice": -1,
+                    "ShopTexture": "Animals/{{ModId}}_animal_shop_enchantedchicken",
+                    "ShopSourceRect": {
+                        "X": 0,
+                        "Y": 0,
+                        "Width": 32,
+                        "Height": 16
+                    },
+					"ShopDisplayName": "Enchanted Chicken",
+					"ShopDescription": "Colorful chickens rumored to be enchanted by the magic of fairies. Some claim that fairies once rode these beloved birds.",
+					"ShopMissingBuildingDescription": "[LocalizedText Strings\\StringsFromCSFiles:Utility.cs.5926]",
+                    "RequiredBuilding": "Deluxe Coop",
+                    "ProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "{{ModId}}_EnchantedEgg"
+                        }
+                    ],
+                    "DeluxeProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 1000,
+                            "ItemId": "872"
+                        }
+                    ],
+                    "Sound": "cluck",
+                    "BabySound": null,
+                    "Texture": "Animals/{{ModId}}_tealenchantedchicken",
+                    "BabyTexture": "Animals/{{ModId}}_tealenchantedchicken_baby",
+					"UseFlippedRightForLeft": false,
+                    "SpriteWidth": 16,
+                    "SpriteHeight": 16,
+                    "ShowInSummitCredits": true,
+                }
+            }
+        },
+            {
+            "LogName": "Load data for Watermelon Enchanted Chicken",
+            "Action": "EditData",
+            "Target": "Data/FarmAnimals",
+            "Entries": {
+                "Watermelon Enchanted Chicken": {
+                    "DisplayName": "Watermelon Enchanted Chicken", 
+                    "House": "Coop",
+                    "Gender": "Female",
+                    "PurchasePrice": -1,
+                    "ShopTexture": "Animals/{{ModId}}_animal_shop_enchantedchicken",
+                    "ShopSourceRect": {
+                        "X": 0,
+                        "Y": 0,
+                        "Width": 32,
+                        "Height": 16
+                    },
+					"ShopDisplayName": "Enchanted Chicken",
+					"ShopDescription": "Colorful chickens rumored to be enchanted by the magic of fairies. Some claim that fairies once rode these beloved birds.",
+					"ShopMissingBuildingDescription": "[LocalizedText Strings\\StringsFromCSFiles:Utility.cs.5926]",
+                    "RequiredBuilding": "Deluxe Coop",
+                    "ProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "{{ModId}}_EnchantedEgg"
+                        }
+                    ],
+                    "DeluxeProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 1000,
+                            "ItemId": "872"
+                        }
+                    ],
+                    "Sound": "cluck",
+                    "BabySound": null,
+                    "Texture": "Animals/{{ModId}}_watermelonenchantedchicken",
+                    "BabyTexture": "Animals/{{ModId}}_watermelonenchantedchicken_baby",
+					"UseFlippedRightForLeft": false,
+                    "SpriteWidth": 16,
+                    "SpriteHeight": 16,
+                    "ShowInSummitCredits": true,
+                }
+            }
+        },
+        {
+            "LogName": "Load Sprite for Enchanted Egg",
+            "Action": "Load",
+            "Target": "Objects/{{ModId}}_enchantedegg",
+            "FromFile": "assets/enchantedegg.png"
+        },
+        {
+            "LogName": "Load Sprite for Enchanted Mayonnaise",
+            "Action": "Load",
+            "Target": "Objects/{{ModId}}_enchanted_mayonnaise",
+            "FromFile": "assets/enchantedmayo.png"
+        },
+        {
+            "LogName": "Load shopSprite for Enchanted Chickens",
+            "Action": "Load",
+            "Target": "Animals/{{ModId}}_animal_shop_enchantedchicken",
+            "FromFile": "assets/animal_shop_enchantedchicken.png"
+        },
+        {
+            "LogName": "Load babySprite for Blue Enchanted Chicken",
+            "Action": "Load",
+            "Target": "Animals/{{ModId}}_blueenchantedchicken_baby",
+            "FromFile": "assets/babyblueenchantedchicken.png"
+        },
+        {
+            "LogName": "Load adultSprite for Blue Enchanted Chicken",
+            "Action": "Load",
+            "Target": "Animals/{{ModId}}_blueenchantedchicken",
+            "FromFile": "assets/blueenchantedchicken.png"
+        },
+        {
+            "LogName": "Load babySprite for Pink Enchanted Chicken",
+            "Action": "Load",
+            "Target": "Animals/{{ModId}}_pinkenchantedchicken_baby",
+            "FromFile": "assets/babypinkenchantedchicken.png"
+        },
+        {
+            "LogName": "Load adultSprite for Pink Enchanted Chicken",
+            "Action": "Load",
+            "Target": "Animals/{{ModId}}_pinkenchantedchicken",
+            "FromFile": "assets/pinkenchantedchicken.png"
+        },
+        {
+            "LogName": "Load babySprite for Black Enchanted Chicken",
+            "Action": "Load",
+            "Target": "Animals/{{ModId}}_blackenchantedchicken_baby",
+            "FromFile": "assets/babyblackenchantedchicken.png"
+        },
+        {
+            "LogName": "Load adultSprite for Black Enchanted Chicken",
+            "Action": "Load",
+            "Target": "Animals/{{ModId}}_blackenchantedchicken",
+            "FromFile": "assets/blackenchantedchicken.png"
+        },
+        {
+            "LogName": "Load babySprite for Green Enchanted Chicken",
+            "Action": "Load",
+            "Target": "Animals/{{ModId}}_greenenchantedchicken_baby",
+            "FromFile": "assets/babygreenenchantedchicken.png"
+        },
+        {
+            "LogName": "Load adultSprite for Green Enchanted Chicken",
+            "Action": "Load",
+            "Target": "Animals/{{ModId}}_greenenchantedchicken",
+            "FromFile": "assets/greenenchantedchicken.png"
+        },
+        {
+            "LogName": "Load babySprite for Lavender Enchanted Chicken",
+            "Action": "Load",
+            "Target": "Animals/{{ModId}}_lavenderenchantedchicken_baby",
+            "FromFile": "assets/babylavenderenchantedchicken.png"
+        },
+        {
+            "LogName": "Load adultSprite for Lavender Enchanted Chicken",
+            "Action": "Load",
+            "Target": "Animals/{{ModId}}_lavenderenchantedchicken",
+            "FromFile": "assets/lavenderenchantedchicken.png"
+        },
+        {
+            "LogName": "Load babySprite for Peach Enchanted Chicken",
+            "Action": "Load",
+            "Target": "Animals/{{ModId}}_peachenchantedchicken_baby",
+            "FromFile": "assets/babypeachenchantedchicken.png"
+        },
+        {
+            "LogName": "Load adultSprite for Peach Enchanted Chicken",
+            "Action": "Load",
+            "Target": "Animals/{{ModId}}_peachenchantedchicken",
+            "FromFile": "assets/peachenchantedchicken.png"
+        },
+        {
+            "LogName": "Load babySprite for Purple Enchanted Chicken",
+            "Action": "Load",
+            "Target": "Animals/{{ModId}}_purpleenchantedchicken_baby",
+            "FromFile": "assets/babypurpleenchantedchicken.png"
+        },
+        {
+            "LogName": "Load adultSprite for Purple Enchanted Chicken",
+            "Action": "Load",
+            "Target": "Animals/{{ModId}}_purpleenchantedchicken",
+            "FromFile": "assets/purpleenchantedchicken.png"
+        },
+        {
+            "LogName": "Load babySprite for Raspberry Enchanted Chicken",
+            "Action": "Load",
+            "Target": "Animals/{{ModId}}_raspberryenchantedchicken_baby",
+            "FromFile": "assets/babyraspberryenchantedchicken.png"
+        },
+        {
+            "LogName": "Load adultSprite for Raspberry Enchanted Chicken",
+            "Action": "Load",
+            "Target": "Animals/{{ModId}}_raspberryenchantedchicken",
+            "FromFile": "assets/raspberryenchantedchicken.png"
+        },
+        {
+            "LogName": "Load babySprite for Sky Enchanted Chicken",
+            "Action": "Load",
+            "Target": "Animals/{{ModId}}_skyenchantedchicken_baby",
+            "FromFile": "assets/babyskyenchantedchicken.png"
+        },
+        {
+            "LogName": "Load adultSprite for Sky Enchanted Chicken",
+            "Action": "Load",
+            "Target": "Animals/{{ModId}}_skyenchantedchicken",
+            "FromFile": "assets/skyenchantedchicken.png"
+        },
+        {
+            "LogName": "Load babySprite for Strawberry Enchanted Chicken",
+            "Action": "Load",
+            "Target": "Animals/{{ModId}}_strawberryenchantedchicken_baby",
+            "FromFile": "assets/babystrawberryenchantedchicken.png"
+        },
+        {
+            "LogName": "Load adultSprite for Strawberry Enchanted Chicken",
+            "Action": "Load",
+            "Target": "Animals/{{ModId}}_strawberryenchantedchicken",
+            "FromFile": "assets/strawberryenchantedchicken.png"
+        },
+        {
+            "LogName": "Load babySprite for Teal Enchanted Chicken",
+            "Action": "Load",
+            "Target": "Animals/{{ModId}}_tealenchantedchicken_baby",
+            "FromFile": "assets/babytealenchantedchicken.png"
+        },
+        {
+            "LogName": "Load adultSprite for Teal Enchanted Chicken",
+            "Action": "Load",
+            "Target": "Animals/{{ModId}}_tealenchantedchicken",
+            "FromFile": "assets/tealenchantedchicken.png"
+        },
+        {
+            "LogName": "Load babySprite for Watermelon Enchanted Chicken",
+            "Action": "Load",
+            "Target": "Animals/{{ModId}}_watermelonenchantedchicken_baby",
+            "FromFile": "assets/babywatermelonenchantedchicken.png"
+        },
+        {
+            "LogName": "Load adultSprite for Watermelon Enchanted Chicken",
+            "Action": "Load",
+            "Target": "Animals/{{ModId}}_watermelonenchantedchicken",
+            "FromFile": "assets/watermelonenchantedchicken.png"
+        },
+
+
+    ]
+}

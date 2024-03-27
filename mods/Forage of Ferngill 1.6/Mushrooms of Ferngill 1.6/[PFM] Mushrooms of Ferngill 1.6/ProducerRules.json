@@ -1,0 +1,72 @@
+[
+//MUSHROOM BOX
+	{
+        "ProducerQualifiedItemId": "(BC)128",
+	    "InputIdentifier":  null,
+        "MinutesUntilReady": 1600,
+        "SubtractTimeOfDay": true,
+        "OutputIdentifier": "404",
+        "AdditionalOutputs": [
+            {
+                "OutputProbability": 0.2,
+                "OutputIdentifier": "White Mushroom"
+            },
+            {
+                "OutputProbability": 0.0375,
+                "OutputIdentifier": "281"
+            },
+			{
+                "OutputProbability": 0.0375,
+                "OutputIdentifier": "Dew Cup Mushroom"
+            },
+			{
+                "OutputProbability": 0.0375,
+                "OutputIdentifier": "Muffin Bell Mushroom"
+            },
+            {
+                "OutputProbability": 0.020,
+                "OutputIdentifier": "257"
+            },
+			{
+                "OutputProbability": 0.020,
+                "OutputIdentifier": "Plump Belly Mushroom"
+            },
+			{
+                "OutputProbability": 0.020,
+                "OutputIdentifier": "Stalk Cluster Mushroom"
+            },
+            {
+                "OutputProbability": 0.005,
+                "OutputIdentifier": "420"
+			},
+            {
+                "OutputProbability": 0.005,
+                "OutputIdentifier": "422"
+            },
+            {
+                "OutputProbability": 0,
+                "OutputIdentifier": "Yellow Mushroom"
+            },
+            {
+                "OutputProbability": 0,
+                "OutputIdentifier": "Black Mushroom"
+            },
+            {
+                "OutputProbability": 0,
+                "OutputIdentifier": "Spring Cap Mushroom"
+            },
+            {
+                "OutputProbability": 0,
+                "OutputIdentifier": "Ridge Puff Mushroom"
+            },
+            {
+                "OutputProbability": 0,
+                "OutputIdentifier": "Woodland Stool Mushroom"
+            },
+            {
+                "OutputProbability": 0,
+                "OutputIdentifier": "Tooting Funnel Mushroom"
+            }
+		]
+	}
+]

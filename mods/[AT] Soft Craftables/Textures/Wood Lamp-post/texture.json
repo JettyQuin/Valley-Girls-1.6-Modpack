@@ -1,0 +1,13 @@
+{
+    "ItemName": "Wood Lamp-post",
+    "Type": "Craftable",
+    "Keywords": [ "Soft" ],
+    "TextureWidth": 16,
+    "TextureHeight": 32,
+    "ManualVariations": [
+      {
+        "Id": 0,
+        "Name": "Rose Quartz Angel Lamp"
+      }
+  ]
+}

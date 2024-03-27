@@ -1,0 +1,8 @@
+{
+	"ItemName": "Rustic Plank Floor",
+	"Type": "Flooring",
+	"Seasons": ["Summer", "Spring", "Fall"],
+	"TextureWidth": 64,
+	"TextureHeight": 64,
+	"Variations": 1
+}

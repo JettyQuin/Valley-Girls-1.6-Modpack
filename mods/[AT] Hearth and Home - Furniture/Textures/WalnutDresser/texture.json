@@ -1,0 +1,8 @@
+{
+  "ItemName": "Walnut Dresser",
+  "Type": "Furniture",
+  "TextureWidth": 80,
+  "TextureHeight": 48,
+  "Keywords": ["Hearth", "hnh"],
+  "Variations": 18
+}

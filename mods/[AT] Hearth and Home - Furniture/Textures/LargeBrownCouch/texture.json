@@ -1,0 +1,8 @@
+{
+  "ItemName": "Large Brown Couch",
+  "Type": "Furniture",
+  "TextureWidth": 160,
+  "TextureHeight": 160,
+  "Keywords": ["Hearth", "hnh"],
+  "Variations": 18
+}

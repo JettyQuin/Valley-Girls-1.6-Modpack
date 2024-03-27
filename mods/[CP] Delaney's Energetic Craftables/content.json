@@ -1,0 +1,779 @@
+{
+    "Format": "1.30.4",
+    "Changes": [
+      {
+		 "LogName":"Lightning Rod",
+         "Action": "EditImage",
+		 "PatchMode":"Replace",
+         "Target": "TileSheets/craftables",
+         "FromFile": "assets/craftable.png",
+		 "FromArea":{"X":16,"Y":32,"Width":16,"Height":32},
+         "ToArea": { "X":16, "Y":32,"Width":16,"Height":32}
+      },
+	  {
+		 "LogName":"Bee House",
+         "Action": "EditImage",
+		 "PatchMode":"Replace",
+         "Target": "TileSheets/craftables",
+         "FromFile": "assets/craftable.png",
+		 "FromArea":{"X":32,"Y":32,"Width":32,"Height":32},
+         "ToArea": { "X":32, "Y":32,"Width":32,"Height":32}
+      },
+	  {
+		 "LogName":"Keg",
+         "Action": "EditImage",
+		 "PatchMode":"Replace",
+         "Target": "TileSheets/craftables",
+         "FromFile": "assets/craftable.png",
+		 "FromArea":{"X":64,"Y":32,"Width":16,"Height":32},
+         "ToArea": { "X":64, "Y":32,"Width":16,"Height":32}
+      },
+	  {
+		 "LogName":"Furnace",
+         "Action": "EditImage",
+		 "PatchMode":"Replace",
+         "Target": "TileSheets/craftables",
+         "FromFile": "assets/craftable.png",
+		 "FromArea":{"X":80,"Y":32,"Width":32,"Height":32},
+         "ToArea": { "X":80, "Y":32,"Width":32,"Height":32}
+      },
+	  {
+		 "LogName":"Preserves Jar",
+         "Action": "EditImage",
+		 "PatchMode":"Replace",
+         "Target": "TileSheets/craftables",
+         "FromFile": "assets/craftable.png",
+		 "FromArea":{"X":112,"Y":32,"Width":16,"Height":32},
+         "ToArea": { "X":112, "Y":32,"Width":16,"Height":32}
+      },
+	  {
+		 "LogName":"Cheese Press",
+         "Action": "EditImage",
+		 "PatchMode":"Replace",
+         "Target": "TileSheets/craftables",
+         "FromFile": "assets/craftable.png",
+		 "FromArea":{"X":0,"Y":64,"Width":16,"Height":32},
+         "ToArea": { "X":0, "Y":64,"Width":16,"Height":32}
+      },
+	  {
+		 "LogName":"Loom",
+         "Action": "EditImage",
+		 "PatchMode":"Replace",
+         "Target": "TileSheets/craftables",
+         "FromFile": "assets/craftable.png",
+		 "FromArea":{"X":16,"Y":64,"Width":32,"Height":32},
+         "ToArea": { "X":16, "Y":64,"Width":32,"Height":32}
+      },
+	  {
+		 "LogName":"Oil Maker",
+         "Action": "EditImage",
+		 "PatchMode":"Replace",
+         "Target": "TileSheets/craftables",
+         "FromFile": "assets/craftable.png",
+		 "FromArea":{"X":48,"Y":64,"Width":16,"Height":32},
+         "ToArea": { "X":48, "Y":64,"Width":16,"Height":32}
+      },
+	  {
+		 "LogName":"Recycling Machine",
+         "Action": "EditImage",
+		 "PatchMode":"Replace",
+         "Target": "TileSheets/craftables",
+         "FromFile": "assets/craftable.png",
+		 "FromArea":{"X":64,"Y":64,"Width":16,"Height":32},
+         "ToArea": { "X":64, "Y":64,"Width":16,"Height":32}
+      },
+	  {
+		 "LogName":"Crystalarium",
+         "Action": "EditImage",
+		 "PatchMode":"Replace",
+         "Target": "TileSheets/craftables",
+         "FromFile": "assets/craftable.png",
+		 "FromArea":{"X":80,"Y":64,"Width":16,"Height":32},
+         "ToArea": { "X":80, "Y":64,"Width":16,"Height":32}
+      },
+	  {
+		 "LogName":"Mayonnaise Machine",
+         "Action": "EditImage",
+		 "PatchMode":"Replace",
+         "Target": "TileSheets/craftables",
+         "FromFile": "assets/craftable.png",
+		 "FromArea":{"X":0,"Y":96,"Width":16,"Height":32},
+         "ToArea": { "X":0, "Y":96,"Width":16,"Height":32}
+      },
+	  {
+		 "LogName":"Seed Maker",
+         "Action": "EditImage",
+		 "PatchMode":"Replace",
+         "Target": "TileSheets/craftables",
+         "FromFile": "assets/craftable.png",
+		 "FromArea":{"X":16,"Y":96,"Width":16,"Height":32},
+         "ToArea": { "X":16, "Y":96,"Width":16,"Height":32}
+      },
+	  {
+		 "LogName":"Stone Cairn",
+         "Action": "EditImage",
+		 "PatchMode":"Replace",
+         "Target": "TileSheets/craftables",
+         "FromFile": "assets/craftable.png",
+		 "FromArea":{"X":0,"Y":128,"Width":16,"Height":32},
+         "ToArea": { "X":0, "Y":128,"Width":16,"Height":32}
+      },
+	  {
+		 "LogName":"Suit Of Armor",
+         "Action": "EditImage",
+		 "PatchMode":"Replace",
+         "Target": "TileSheets/craftables",
+         "FromFile": "assets/craftable.png",
+		 "FromArea":{"X":16,"Y":128,"Width":16,"Height":32},
+         "ToArea": { "X":16, "Y":128,"Width":16,"Height":32}
+      },
+	  {
+		 "LogName":"Sign Of The Vessel",
+         "Action": "EditImage",
+		 "PatchMode":"Replace",
+         "Target": "TileSheets/craftables",
+         "FromFile": "assets/craftable.png",
+		 "FromArea":{"X":32,"Y":128,"Width":16,"Height":32},
+         "ToArea": { "X":32, "Y":128,"Width":16,"Height":32}
+      },
+	  {
+		 "LogName":"Basic Log",
+         "Action": "EditImage",
+		 "PatchMode":"Replace",
+         "Target": "TileSheets/craftables",
+         "FromFile": "assets/craftable.png",
+		 "FromArea":{"X":48,"Y":128,"Width":16,"Height":32},
+         "ToArea": { "X":48, "Y":128,"Width":16,"Height":32}
+      },
+	  {
+		 "LogName":"Lawn Flamingo",
+         "Action": "EditImage",
+		 "PatchMode":"Replace",
+         "Target": "TileSheets/craftables",
+         "FromFile": "assets/craftable.png",
+		 "FromArea":{"X":64,"Y":128,"Width":16,"Height":32},
+         "ToArea": { "X":64, "Y":128,"Width":16,"Height":32}
+      },
+	  {
+		 "LogName":"Wood Sign",
+         "Action": "EditImage",
+		 "PatchMode":"Replace",
+         "Target": "TileSheets/craftables",
+         "FromFile": "assets/craftable.png",
+		 "FromArea":{"X":80,"Y":128,"Width":16,"Height":32},
+         "ToArea": { "X":80, "Y":128,"Width":16,"Height":32}
+      },
+	  {
+		 "LogName":"Stone Sign",
+         "Action": "EditImage",
+		 "PatchMode":"Replace",
+         "Target": "TileSheets/craftables",
+         "FromFile": "assets/craftable.png",
+		 "FromArea":{"X":96,"Y":128,"Width":16,"Height":32},
+         "ToArea": { "X":96, "Y":128,"Width":16,"Height":32}
+      },
+	  {
+		 "LogName":"Dark Sign",
+         "Action": "EditImage",
+		 "PatchMode":"Replace",
+         "Target": "TileSheets/craftables",
+         "FromFile": "assets/craftable.png",
+		 "FromArea":{"X":112,"Y":128,"Width":16,"Height":32},
+         "ToArea": { "X":112, "Y":128,"Width":16,"Height":32}
+      },
+	  {
+		 "LogName":"Cane",
+         "Action": "EditImage",
+		 "PatchMode":"Replace",
+         "Target": "TileSheets/craftables",
+         "FromFile": "assets/craftable.png",
+		 "FromArea":{"X":0,"Y":160,"Width":80,"Height":32},
+         "ToArea": { "X":0, "Y":160,"Width":80,"Height":32}
+      },
+	  {
+		 "LogName":"Ornamental Hay Bale",
+         "Action": "EditImage",
+		 "PatchMode":"Replace",
+         "Target": "TileSheets/craftables",
+         "FromFile": "assets/craftable.png",
+		 "FromArea":{"X":80,"Y":160,"Width":16,"Height":32},
+         "ToArea": { "X":80, "Y":160,"Width":16,"Height":32}
+      },
+	  {
+		 "LogName":"Log Section",
+         "Action": "EditImage",
+		 "PatchMode":"Replace",
+         "Target": "TileSheets/craftables",
+         "FromFile": "assets/craftable.png",
+		 "FromArea":{"X":96,"Y":160,"Width":16,"Height":32},
+         "ToArea": { "X":96, "Y":160,"Width":16,"Height":32}
+      },
+	  {
+		 "LogName":"Grave Stone",
+         "Action": "EditImage",
+		 "PatchMode":"Replace",
+         "Target": "TileSheets/craftables",
+         "FromFile": "assets/craftable.png",
+		 "FromArea":{"X":112,"Y":160,"Width":16,"Height":32},
+         "ToArea": { "X":112, "Y":160,"Width":16,"Height":32}
+      },
+	  {
+		 "LogName":"Seasonal Decor",
+         "Action": "EditImage",
+		 "PatchMode":"Replace",
+         "Target": "TileSheets/craftables",
+         "FromFile": "assets/craftable.png",
+		 "FromArea":{"X":0,"Y":192,"Width":64,"Height":32},
+         "ToArea": { "X":0, "Y":192,"Width":64,"Height":32}
+      },
+	  {
+		 "LogName":"Stone Frog",
+         "Action": "EditImage",
+		 "PatchMode":"Replace",
+         "Target": "TileSheets/craftables",
+         "FromFile": "assets/craftable.png",
+		 "FromArea":{"X":64,"Y":192,"Width":16,"Height":32},
+         "ToArea": { "X":64, "Y":192,"Width":16,"Height":32}
+      },
+	  {
+		 "LogName":"Stone Parrot",
+         "Action": "EditImage",
+		 "PatchMode":"Replace",
+         "Target": "TileSheets/craftables",
+         "FromFile": "assets/craftable.png",
+		 "FromArea":{"X":80,"Y":192,"Width":16,"Height":32},
+         "ToArea": { "X":80, "Y":192,"Width":16,"Height":32}
+      },
+	  {
+		 "LogName":"Stone Owl",
+         "Action": "EditImage",
+		 "PatchMode":"Replace",
+         "Target": "TileSheets/craftables",
+         "FromFile": "assets/craftable.png",
+		 "FromArea":{"X":96,"Y":192,"Width":16,"Height":32},
+         "ToArea": { "X":96, "Y":192,"Width":16,"Height":32}
+      },
+	  {
+		 "LogName":"Junimos",
+         "Action": "EditImage",
+		 "PatchMode":"Replace",
+         "Target": "TileSheets/craftables",
+         "FromFile": "assets/craftable.png",
+		 "FromArea":{"X":112,"Y":192,"Width":16,"Height":32},
+         "ToArea": { "X":112, "Y":192,"Width":16,"Height":32}
+      },
+	  {
+		 "LogName":"Garden Pot",
+         "Action": "EditImage",
+		 "PatchMode":"Replace",
+         "Target": "TileSheets/craftables",
+         "FromFile": "assets/craftable.png",
+		 "FromArea":{"X":96,"Y":224,"Width":32,"Height":32},
+         "ToArea": { "X":96, "Y":224,"Width":32,"Height":32}
+      },
+	  {
+		 "LogName":"Staircase",
+         "Action": "EditImage",
+		 "PatchMode":"Replace",
+         "Target": "TileSheets/craftables",
+         "FromFile": "assets/craftable.png",
+		 "FromArea":{"X":112,"Y":256,"Width":16,"Height":32},
+         "ToArea": { "X":112, "Y":256,"Width":16,"Height":32}
+      },
+	  {
+		 "LogName":"Wicked Statue",
+         "Action": "EditImage",
+		 "PatchMode":"Replace",
+         "Target": "TileSheets/craftables",
+         "FromFile": "assets/craftable.png",
+		 "FromArea":{"X":48,"Y":320,"Width":32,"Height":32},
+         "ToArea": { "X":48, "Y":320,"Width":32,"Height":32}
+      },
+	  {
+		 "LogName":"Bone Mill",
+         "Action": "EditImage",
+		 "PatchMode":"Replace",
+         "Target": "TileSheets/craftables",
+         "FromFile": "assets/craftable.png",
+		 "FromArea":{"X":32,"Y":352,"Width":16,"Height":32},
+         "ToArea": { "X":32, "Y":352,"Width":16,"Height":32}
+      },
+	  {
+		 "LogName":"Hay Hopper",
+         "Action": "EditImage",
+		 "PatchMode":"Replace",
+         "Target": "TileSheets/craftables",
+         "FromFile": "assets/craftable.png",
+		 "FromArea":{"X":48,"Y":384,"Width":32,"Height":32},
+         "ToArea": { "X":48, "Y":384,"Width":32,"Height":32}
+      },
+	  {
+		 "LogName":"Incubator",
+         "Action": "EditImage",
+		 "PatchMode":"Replace",
+         "Target": "TileSheets/craftables",
+         "FromFile": "assets/craftable.png",
+		 "FromArea":{"X":80,"Y":384,"Width":48,"Height":32},
+         "ToArea": { "X":80, "Y":384,"Width":48,"Height":32}
+      },
+	  {
+		 "LogName":"Heater",
+         "Action": "EditImage",
+		 "PatchMode":"Replace",
+         "Target": "TileSheets/craftables",
+         "FromFile": "assets/craftable.png",
+		 "FromArea":{"X":0,"Y":416,"Width":16,"Height":32},
+         "ToArea": { "X":0, "Y":416,"Width":16,"Height":32}
+      },
+	  {
+		 "LogName":"Tapper",
+         "Action": "EditImage",
+		 "PatchMode":"Replace",
+         "Target": "TileSheets/craftables",
+         "FromFile": "assets/craftable.png",
+		 "FromArea":{"X":16,"Y":416,"Width":32,"Height":32},
+         "ToArea": { "X":16, "Y":416,"Width":32,"Height":32}
+      },
+	  {
+		 "LogName":"Plush Bunny",
+         "Action": "EditImage",
+		 "PatchMode":"Replace",
+         "Target": "TileSheets/craftables",
+         "FromFile": "assets/craftable.png",
+		 "FromArea":{"X":48,"Y":416,"Width":16,"Height":32},
+         "ToArea": { "X":48, "Y":416,"Width":16,"Height":32}
+      },
+	  {
+		 "LogName":"Tub o' Flowers",
+         "Action": "EditImage",
+		 "PatchMode":"Replace",
+         "Target": "TileSheets/craftables",
+         "FromFile": "assets/craftable.png",
+		 "FromArea":{"X":64,"Y":416,"Width":32,"Height":32},
+         "ToArea": { "X":64, "Y":416,"Width":32,"Height":32}
+      },
+	  {
+		 "LogName":"Dried Sunflowers",
+         "Action": "EditImage",
+		 "PatchMode":"Replace",
+         "Target": "TileSheets/craftables",
+         "FromFile": "assets/craftable.png",
+		 "FromArea":{"X":0,"Y":448,"Width":16,"Height":32},
+         "ToArea": { "X":0, "Y":448,"Width":16,"Height":32}
+      },
+	  {
+		 "LogName":"Charcoal Kiln",
+         "Action": "EditImage",
+		 "PatchMode":"Replace",
+         "Target": "TileSheets/craftables",
+         "FromFile": "assets/craftable.png",
+		 "FromArea":{"X":32,"Y":448,"Width":32,"Height":32},
+         "ToArea": { "X":32, "Y":448,"Width":32,"Height":32}
+      },
+	  {
+		 "LogName":"Stardew Hero Trophy",
+         "Action": "EditImage",
+		 "PatchMode":"Replace",
+         "Target": "TileSheets/craftables",
+         "FromFile": "assets/craftable.png",
+		 "FromArea":{"X":64,"Y":448,"Width":16,"Height":32},
+         "ToArea": { "X":64, "Y":448,"Width":16,"Height":32}
+      },
+	  {
+		 "LogName":"Soda Machine",
+         "Action": "EditImage",
+		 "PatchMode":"Replace",
+         "Target": "TileSheets/craftables",
+         "FromFile": "assets/craftable.png",
+		 "FromArea":{"X":80,"Y":448,"Width":16,"Height":32},
+         "ToArea": { "X":80, "Y":448,"Width":16,"Height":32}
+      },
+	  {
+		 "LogName":"Statue Of Endless Fortune",
+         "Action": "EditImage",
+		 "PatchMode":"Replace",
+         "Target": "TileSheets/craftables",
+         "FromFile": "assets/craftable.png",
+		 "FromArea":{"X":112,"Y":480,"Width":16,"Height":32},
+         "ToArea": { "X":112, "Y":480,"Width":16,"Height":32}
+      },
+	  {
+		 "LogName":"Mushroom",
+         "Action": "EditImage",
+		 "PatchMode":"Replace",
+         "Target": "TileSheets/craftables",
+         "FromFile": "assets/craftable.png",
+		 "FromArea":{"X":0,"Y":512,"Width":32,"Height":32},
+         "ToArea": { "X":0, "Y":512,"Width":32,"Height":32}
+      },
+	  {
+		 "LogName":"Chest",
+         "Action": "EditImage",
+		 "PatchMode":"Replace",
+         "Target": "TileSheets/craftables",
+         "FromFile": "assets/craftable.png",
+		 "FromArea":{"X":32,"Y":512,"Width":96,"Height":32},
+         "ToArea": { "X":32,"Y":512,"Width":96,"Height":32}
+      },
+	  {
+		 "LogName":"Prairie King Arcade System",
+         "Action": "EditImage",
+		 "PatchMode":"Replace",
+         "Target": "TileSheets/craftables",
+         "FromFile": "assets/craftable.png",
+		 "FromArea":{"X":80,"Y":544,"Width":32,"Height":32},
+         "ToArea": { "X":80,"Y":544,"Width":32,"Height":32}
+      },
+	  {
+		 "LogName":"Wooden Brazier",
+         "Action": "EditImage",
+		 "PatchMode":"Replace",
+         "Target": "TileSheets/craftables",
+         "FromFile": "assets/craftable.png",
+		 "FromArea":{"X":112,"Y":544,"Width":16,"Height":32},
+         "ToArea": { "X":112,"Y":544,"Width":16,"Height":32}
+      },
+	  {
+		 "LogName":"Stone Brazier",
+         "Action": "EditImage",
+		 "PatchMode":"Replace",
+         "Target": "TileSheets/craftables",
+         "FromFile": "assets/craftable.png",
+		 "FromArea":{"X":0,"Y":576,"Width":16,"Height":32},
+         "ToArea": { "X":0,"Y":576,"Width":16,"Height":32}
+      },
+	  {
+		 "LogName":"Gold Brazier",
+         "Action": "EditImage",
+		 "PatchMode":"Replace",
+         "Target": "TileSheets/craftables",
+         "FromFile": "assets/craftable.png",
+		 "FromArea":{"X":16,"Y":576,"Width":16,"Height":32},
+         "ToArea": { "X":16,"Y":576,"Width":16,"Height":32}
+      },
+	  {
+		 "LogName":"campfire",
+         "Action": "EditImage",
+		 "PatchMode":"Replace",
+         "Target": "TileSheets/craftables",
+         "FromFile": "assets/craftable.png",
+		 "FromArea":{"X":32,"Y":576,"Width":16,"Height":32},
+         "ToArea": { "X":32,"Y":576,"Width":16,"Height":32}
+      },
+	  {
+		 "LogName":"Stump Brazier",
+         "Action": "EditImage",
+		 "PatchMode":"Replace",
+         "Target": "TileSheets/craftables",
+         "FromFile": "assets/craftable.png",
+		 "FromArea":{"X":48,"Y":576,"Width":16,"Height":32},
+         "ToArea": { "X":48,"Y":576,"Width":16,"Height":32}
+      },
+	  {
+		 "LogName":"Carved Brazier",
+         "Action": "EditImage",
+		 "PatchMode":"Replace",
+         "Target": "TileSheets/craftables",
+         "FromFile": "assets/craftable.png",
+		 "FromArea":{"X":64,"Y":576,"Width":16,"Height":32},
+         "ToArea": { "X":64,"Y":576,"Width":16,"Height":32}
+      },
+	  {
+		 "LogName":"Skull Brazier",
+         "Action": "EditImage",
+		 "PatchMode":"Replace",
+         "Target": "TileSheets/craftables",
+         "FromFile": "assets/craftable.png",
+		 "FromArea":{"X":80,"Y":576,"Width":16,"Height":32},
+         "ToArea": { "X":80,"Y":576,"Width":16,"Height":32}
+      },
+	  {
+		 "LogName":"Barrel Brazier",
+         "Action": "EditImage",
+		 "PatchMode":"Replace",
+         "Target": "TileSheets/craftables",
+         "FromFile": "assets/craftable.png",
+		 "FromArea":{"X":96,"Y":576,"Width":16,"Height":32},
+         "ToArea": { "X":96,"Y":576,"Width":16,"Height":32}
+      },
+	  {
+		 "LogName":"Marble Brazier",
+         "Action": "EditImage",
+		 "PatchMode":"Replace",
+         "Target": "TileSheets/craftables",
+         "FromFile": "assets/craftable.png",
+		 "FromArea":{"X":112,"Y":576,"Width":16,"Height":32},
+         "ToArea": { "X":112,"Y":576,"Width":16,"Height":32}
+      },
+	  {
+		 "LogName":"Wood Lamp-post",
+         "Action": "EditImage",
+		 "PatchMode":"Replace",
+         "Target": "TileSheets/craftables",
+         "FromFile": "assets/craftable.png",
+		 "FromArea":{"X":0,"Y":608,"Width":16,"Height":32},
+         "ToArea": { "X":0,"Y":608,"Width":16,"Height":32}
+      },
+	  {
+		 "LogName":"Iron Lamp-post",
+         "Action": "EditImage",
+		 "PatchMode":"Replace",
+         "Target": "TileSheets/craftables",
+         "FromFile": "assets/craftable.png",
+		 "FromArea":{"X":16,"Y":608,"Width":16,"Height":32},
+         "ToArea": { "X":16,"Y":608,"Width":16,"Height":32}
+      },
+	  {
+		 "LogName":"Worm Bin",
+         "Action": "EditImage",
+		 "PatchMode":"Replace",
+         "Target": "TileSheets/craftables",
+         "FromFile": "assets/craftable.png",
+		 "FromArea":{"X":32,"Y":608,"Width":16,"Height":32},
+         "ToArea": { "X":32,"Y":608,"Width":16,"Height":32}
+      },
+	  {
+		 "LogName":"Slime Incubator",
+         "Action": "EditImage",
+		 "PatchMode":"Replace",
+         "Target": "TileSheets/craftables",
+         "FromFile": "assets/craftable.png",
+		 "FromArea":{"X":64,"Y":608,"Width":32,"Height":32},
+         "ToArea": { "X":64,"Y":608,"Width":32,"Height":32}
+      },
+	  {
+		 "LogName":"Slime Egg-Press",
+         "Action": "EditImage",
+		 "PatchMode":"Replace",
+         "Target": "TileSheets/craftables",
+         "FromFile": "assets/craftable.png",
+		 "FromArea":{"X":96,"Y":608,"Width":16,"Height":32},
+         "ToArea": { "X":96,"Y":608,"Width":16,"Height":32}
+      },
+	  {
+		 "LogName":"Junimo Kart Arcade System",
+         "Action": "EditImage",
+		 "PatchMode":"Replace",
+         "Target": "TileSheets/craftables",
+         "FromFile": "assets/craftable.png",
+		 "FromArea":{"X":112,"Y":608,"Width":16,"Height":32},
+         "ToArea": { "X":112,"Y":608,"Width":16,"Height":32}
+      },
+	  {
+		 "LogName":"Statue Of Perfection",
+         "Action": "EditImage",
+		 "PatchMode":"Replace",
+         "Target": "TileSheets/craftables",
+         "FromFile": "assets/craftable.png",
+		 "FromArea":{"X":0,"Y":640,"Width":16,"Height":32},
+         "ToArea": { "X":0,"Y":640,"Width":16,"Height":32}
+      },
+	  {
+		 "LogName":"Cask",
+         "Action": "EditImage",
+		 "PatchMode":"Replace",
+         "Target": "TileSheets/craftables",
+         "FromFile": "assets/craftable.png",
+		 "FromArea":{"X":48,"Y":640,"Width":16,"Height":32},
+         "ToArea": { "X":48,"Y":640,"Width":16,"Height":32}
+      },
+	  {
+		 "LogName":"Auto-Grabber",
+         "Action": "EditImage",
+		 "PatchMode":"Replace",
+         "Target": "TileSheets/craftables",
+         "FromFile": "assets/craftable.png",
+		 "FromArea":{"X":80,"Y":640,"Width":32,"Height":32},
+         "ToArea": { "X":80,"Y":640,"Width":32,"Height":32}
+      },
+	  {
+		 "LogName":"Chest2",
+         "Action": "EditImage",
+		 "PatchMode":"Replace",
+         "Target": "TileSheets/craftables",
+         "FromFile": "assets/craftable.png",
+		 "FromArea":{"X":0,"Y":672,"Width":96,"Height":64},
+         "ToArea": { "X":0,"Y":672,"Width":96,"Height":64}
+      },
+	  {
+		 "LogName":"Geode Crusher",
+         "Action": "EditImage",
+		 "PatchMode":"Replace",
+         "Target": "TileSheets/craftables",
+         "FromFile": "assets/craftable.png",
+		 "FromArea":{"X":80,"Y":640,"Width":32,"Height":32},
+         "ToArea": { "X":80,"Y":640,"Width":32,"Height":32}
+      },
+	  {
+		 "LogName":"Workbench",
+         "Action": "EditImage",
+		 "PatchMode":"Replace",
+         "Target": "TileSheets/craftables",
+         "FromFile": "assets/craftable.png",
+		 "FromArea":{"X":0,"Y":832,"Width":16,"Height":32},
+         "ToArea": { "X":0,"Y":832,"Width":16,"Height":32}
+      },
+	  {
+		 "LogName":"Jukebox",
+         "Action": "EditImage",
+		 "PatchMode":"Replace",
+         "Target": "TileSheets/craftables",
+         "FromFile": "assets/craftable.png",
+		 "FromArea":{"X":16,"Y":832,"Width":32,"Height":32},
+         "ToArea": { "X":16,"Y":832,"Width":32,"Height":32}
+      },
+	  {
+		 "LogName":"Wood Chipper",
+         "Action": "EditImage",
+		 "PatchMode":"Replace",
+         "Target": "TileSheets/craftables",
+         "FromFile": "assets/craftable.png",
+		 "FromArea":{"X":48,"Y":832,"Width":48,"Height":32},
+         "ToArea": { "X":48,"Y":832,"Width":48,"Height":32}
+      },
+	  {
+		 "LogName":"Telephone",
+         "Action": "EditImage",
+		 "PatchMode":"Replace",
+         "Target": "TileSheets/craftables",
+         "FromFile": "assets/craftable.png",
+		 "FromArea":{"X":96,"Y":832,"Width":32,"Height":32},
+         "ToArea": { "X":96,"Y":832,"Width":32,"Height":32}
+      },
+	  {
+		 "LogName":"Solar Panel",
+         "Action": "EditImage",
+		 "PatchMode":"Replace",
+         "Target": "TileSheets/craftables",
+         "FromFile": "assets/craftable.png",
+		 "FromArea":{"X":112,"Y":896,"Width":16,"Height":32},
+         "ToArea": { "X":112,"Y":896,"Width":16,"Height":32}
+      },
+	  {
+		 "LogName":"Stone Chest",
+         "Action": "EditImage",
+		 "PatchMode":"Replace",
+         "Target": "TileSheets/craftables",
+         "FromFile": "assets/craftable.png",
+		 "FromArea":{"X":0,"Y":928,"Width":96,"Height":64},
+         "ToArea": { "X":0,"Y":928,"Width":96,"Height":64}
+      },
+	  {
+		 "LogName":"Mini-Obelisk",
+         "Action": "EditImage",
+		 "PatchMode":"Replace",
+         "Target": "TileSheets/craftables",
+         "FromFile": "assets/craftable.png",
+		 "FromArea":{"X":96,"Y":928,"Width":16,"Height":32},
+         "ToArea": { "X":96,"Y":928,"Width":16,"Height":32}
+      },
+	  {
+		 "LogName":"Farm Computer",
+         "Action": "EditImage",
+		 "PatchMode":"Replace",
+         "Target": "TileSheets/craftables",
+         "FromFile": "assets/craftable.png",
+		 "FromArea":{"X":112,"Y":928,"Width":16,"Height":32},
+         "ToArea": { "X":112,"Y":928,"Width":16,"Height":32}
+      },
+	  {
+		 "LogName":"Coffee Maker",
+         "Action": "EditImage",
+		 "PatchMode":"Replace",
+         "Target": "TileSheets/craftables",
+         "FromFile": "assets/craftable.png",
+		 "FromArea":{"X":96,"Y":960,"Width":16,"Height":32},
+         "ToArea": { "X":96,"Y":960,"Width":16,"Height":32}
+      },
+	  {
+		 "LogName":"Sewing Machine",
+         "Action": "EditImage",
+		 "PatchMode":"Replace",
+         "Target": "TileSheets/craftables",
+         "FromFile": "assets/craftable.png",
+		 "FromArea":{"X":112,"Y":960,"Width":16,"Height":32},
+         "ToArea": { "X":112,"Y":960,"Width":16,"Height":32}
+      },
+	  {
+		 "LogName":"Mini-Shipping Bin",
+         "Action": "EditImage",
+		 "PatchMode":"Replace",
+         "Target": "TileSheets/craftables",
+         "FromFile": "assets/craftable.png",
+		 "FromArea":{"X":0,"Y":992,"Width":96,"Height":32},
+         "ToArea": { "X":0,"Y":992,"Width":96,"Height":32}
+      },
+	  {
+		 "LogName":"Ostrich Incubator",
+         "Action": "EditImage",
+		 "PatchMode":"Replace",
+         "Target": "TileSheets/craftables",
+         "FromFile": "assets/craftable.png",
+		 "FromArea":{"X":96,"Y":992,"Width":32,"Height":32},
+         "ToArea": { "X":96,"Y":992,"Width":32,"Height":32}
+      },
+	  {
+		 "LogName":"Junimo Chest",
+         "Action": "EditImage",
+		 "PatchMode":"Replace",
+         "Target": "TileSheets/craftables",
+         "FromFile": "assets/craftable.png",
+		 "FromArea":{"X":0,"Y":1024,"Width":96,"Height":32},
+         "ToArea": { "X":0,"Y":1024,"Width":96,"Height":32}
+      },
+	  {
+		 "LogName":"Heavy Tapper",
+         "Action": "EditImage",
+		 "PatchMode":"Replace",
+         "Target": "TileSheets/craftables",
+         "FromFile": "assets/craftable.png",
+		 "FromArea":{"X":0,"Y":1056,"Width":16,"Height":32},
+         "ToArea": { "X":0,"Y":1056,"Width":16,"Height":32}
+      },
+	  {
+		 "LogName":"Deconstructor",
+         "Action": "EditImage",
+		 "PatchMode":"Replace",
+         "Target": "TileSheets/craftables",
+         "FromFile": "assets/craftable.png",
+		 "FromArea":{"X":16,"Y":1056,"Width":16,"Height":32},
+         "ToArea": { "X":16,"Y":1056,"Width":16,"Height":32}
+      },
+	  {
+		 "LogName":"Auto-Petter",
+         "Action": "EditImage",
+		 "PatchMode":"Replace",
+         "Target": "TileSheets/craftables",
+         "FromFile": "assets/craftable.png",
+		 "FromArea":{"X":0,"Y":1088,"Width":48,"Height":32},
+         "ToArea": { "X":0,"Y":1088,"Width":48,"Height":32}
+      },
+	  {
+		 "LogName":"Hopper",
+         "Action": "EditImage",
+		 "PatchMode":"Replace",
+         "Target": "TileSheets/craftables",
+         "FromFile": "assets/craftable.png",
+		 "FromArea":{"X":48,"Y":1088,"Width":48,"Height":32},
+         "ToArea": { "X":48,"Y":1088,"Width":48,"Height":32}
+      },
+	  {
+		 "LogName":"Statue Of True Perfection",
+         "Action": "EditImage",
+		 "PatchMode":"Replace",
+         "Target": "TileSheets/craftables",
+         "FromFile": "assets/craftable.png",
+		 "FromArea":{"X":0,"Y":1120,"Width":16,"Height":32},
+         "ToArea": { "X":0,"Y":1120,"Width":16,"Height":32}
+      },
+	  {
+		 "LogName":"Loom Rotate",
+         "Action": "EditImage",
+		 "PatchMode":"Replace",
+         "Target": "Maps/springobjects",
+         "FromFile": "assets/loom.png",
+		 "FromArea":{"X":0,"Y":0,"Width":16,"Height":16},
+         "ToArea": { "X":48,"Y":288,"Width":16,"Height":16}
+      },
+   ]
+}

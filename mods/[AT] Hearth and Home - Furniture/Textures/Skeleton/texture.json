@@ -1,0 +1,8 @@
+{
+  "ItemName": "Skeleton",
+  "Type": "Furniture",
+  "TextureWidth": 16,
+  "TextureHeight": 32,
+  "Keywords": ["Hearth", "hnh", "knitting"],
+  "Variations": 1
+}

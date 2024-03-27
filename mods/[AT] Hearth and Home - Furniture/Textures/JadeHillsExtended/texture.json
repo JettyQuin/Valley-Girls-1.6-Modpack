@@ -1,0 +1,8 @@
+{
+  "ItemName": "'Jade Hills Extended'",
+  "Type": "Furniture",
+  "TextureWidth": 64,
+  "TextureHeight": 32,
+  "Keywords": ["Hearth", "hnh"],
+  "Variations": 3
+}

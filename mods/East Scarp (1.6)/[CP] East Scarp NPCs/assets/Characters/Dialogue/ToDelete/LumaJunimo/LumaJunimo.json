@@ -1,0 +1,67 @@
+{ //Most dialogue written by RainydayJules (and some by Kat)
+    "LumaIntro": "You can see us, human stranger? Hmm, intriguing... you stink of the filth of the city.#$b#But perhaps, you are not all bad.#$b#We the junimo have no names...but we are fond of the name 'Luma', so you may call us that, if you like.$1", //Make this into an event?
+    //Mon
+    "Mon": "Today is a good day to enjoy flowers, but we would ask you not to pick them.#$b#The flowers are for the bees, not for humans to put in a vase to wilt.$2",
+    "Mon2": "Take time to stop and smell the flowers, human stranger.#$b#Hmmm... you may pick one today - but please leave the rest for the bees!$1",
+    "fall_Mon": "We spent all today brushing leaves out of hut... then the wind blew them back in, It is so frustrating.$a",
+    "summer_Mon": "It's really hot today. We think today is a good day to stay under shade of trees. You may join us for a time.",
+    "winter_Mon": "It is cold... So cold... Maybe we shall stay inside and keep warm today. Would you not wish to do the same too, human person?",
+    "Mon6": "Junimo do not keep books. Our history is given to each other. It is worrying, though; what if one day there are not enough junimo to tell?",
+    "Mon8": "There are books in your museum that contain things we would like to know. Bring one back to the orchard, and you will read aloud to us.",
+    "Mon10": "Today is a lovely day, and it is lovelier for seeing you.$1",
+    "summer_Mon10": "For everything we have taught you, you have taught us. It is a good exchange.",
+    //Tue
+    "Tue": "Ugh...you stink of city, human stranger. You should take a dip in pond, that would fix it right up!$1",
+    "Tue4": "Hello human person. You smell of earth. Don't look shocked! It's a good smell, much better than city-stink!$1",
+    "Tue6": "How long have we lived in this place, you ask? Is it not considered rude amongst your kin to ask a being their age?$2#$b#Hah, we jest! We've been here for the span of one, two, maybe even three, human lives. A long time for you, perhaps, but not so long for us.$1",
+    "Tue8": "There's a being in the mountains almost as old as us. Have you met him?#$b#He would bring us gifts from his mountain. We gave him seeds, once. We wonder if they grew.",
+    "summer_Tue4": "What flowers do you grow on your farm, human person?#$b#We may visit sometime to see if you're doing it right.",
+    "summer_Tue2": "Why must human people swim in fake smells? Cover yourself in real flowers, not stinky wax and liquids!",
+    "winter_Tue6": "Are you eating well, human person? Not too many Miner's Treats! Very sugary-sweet.",
+    "winter_Tue8": "We think you should pause and take deep breaths every day. Your lungs have filled with city smog far too long.",
+    "winter_Tue10": "The sight of you has become most pleasing, human person. The smell is bearable.",
+    //Wed
+    "Wed": "Do you come here for the fruit, human stranger? That's fine, we are happy to share.$1#$e#It would be a shame for it all to rot.$2",
+    "summer_Wed2": "We have been very busy. Slimes decided to have beach day, and much time was needed to remove sand from bodies.",
+    "Wed4": "We have had human friends before, @, many many years ago.#$b#Every night, we cast forth the bridge and hope it will guide their offspring home.", //This could also be part of an event?
+    "Wed6": "Too many dogs in east of valley. They are scaring the slimes! Please tell them be quiet.",
+    "summer_Wed4": "Not enough clouds in the sky today. Too bright sun hurts junimo eyes!",
+    "Wed10": "The orchard is truly beautiful. We are proud of ourself for taking care of it well!",
+    //Thu
+    "Thu": "We keep this place beautiful and clean; please do not leave any city-litter-mess behind, human person.",
+    "Thu2": "Too many human people in the valley now. Leaving many things behind. Yes, garbage, but friends too. Sad.",
+    "Thu4": "Would you like to stay with us a while, @? Share a tale from the village, perhaps?",
+    "fall_Thu4": "Is your house full of wonderful things? Orchard house was once, but all were taken away.",
+    "Thu6": "Much disgusting waste floats in the valley water. Perhaps you can convince fellow human people to stop and clean once in a while?",
+    "Thu10": "Human person! It is good to see you today. And we are glad you like to see us.",
+    //Fri
+    "Fri": "Ugh... we are most unhappy with the slimes today...#$b#Why? Oh, they made a huge mess of our orchard, again.$a",
+    "Fri2": "Why can human people learn junimo language, but we cannot learn theirs? Very unfair.",
+    "summer_Fri2": "We would like to teach the slimes to swim, but they so scared of water. Perhaps they must learn to float?",
+    "Fri4": "The human person in the mountains digs through litter-buckets and creates a big mess. We give him fruit instead, perhaps?",
+    "fall_Fri4": "A slime choked on berry seed. Very scary, but they are alright. We wonder, where are their mouths? Where is our mouth?",
+    "Fri8": "Junimo and slimes were as kin, once.$2#$b#Until something changed them, and twisted them toxic and bad.$2",
+    "summer_Fri6": "Honey is colored by flowers, much like junimo. Perhaps it is another distant relative?",
+    //Sat
+    "spring_Sat": "Spring is our favorite season. Do not tell the other ones! We must not show preference, or they will be sad.",
+    "Sat": "Today is our day to tidy the hut. Please keep your dirty feet outside, human person!$a",
+    "Sat4": "Some days we wish junimo had more fingers, to hold more things. Pencil and paper to write letters, maybe.",
+    "winter_Sat6": "We understand they attack human people, but makes us sad to see adventurers hurt slimes. One day we all live in harmony, we know it!",
+    "Sat6": "We admire the human person who teaches the small ones. They are just as rowdy as slimes!",
+    "Sat8": "Did you leave behind your city people friends when you arrived, human person? Make them come here! They will be much happier, and we promise to be nice and polite.",
+    "Sat10": "It is good to have more friends. The more we have, the wiser we become. You are wise too, now.",
+    //Sun
+    "Sun": "The other junimo say we ask too many questions: Why? When? How? They tell us we must seek the answers for ourself.$2#$b#So, we seek, and the questions guide us here, but still the answers are elusive.",
+    "sun4": "There are things only known by the barn animal, cow and goat and sheep. Do you have any? May we meet them?",
+    "Sun6": "We wonder, which flower is your favorite type? Why do we ask? We have many seeds. Why not plant ones a friend would like?",
+    "fall_Sun6": "We understand they attack human people, but makes us sad to see adventurers hurt slimes. One day we all live in harmony, we know it!",
+    "fall_Sun8": "Junimo and slimes were as kin, once. Until something changed them, and twisted them toxic and bad.",
+    "fall_Sun10": "Everybody likes you because you give them presents. If we give the slimes presents, will they be friends again?",
+    "Sun8": "Our hut is nice and cozy now. Would you like to visit? Oh right, the door too small...",
+    "summer_Sun4": "The valley has bloomed brighter since you arrived, human person. Thank you for bringing your magic.",
+    "fall_Sun4": "Leaves crunch under our feet today. It is sad they are dead, but the feeling is wonderful.",
+    //conversation topics
+    "joja_begin": "You have some gall to show your face here, human person. Now we've been displaced from our home, and the blue-blight creeps across our land.$a",
+    //Gift TAstes
+    "AcceptGift_(O)Raisins":"We love the concentrated sweetness. For us, it is the taste of happiness."
+}

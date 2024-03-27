@@ -1,0 +1,565 @@
+{
+    "Changes": [
+///ADDING MUSHROOMS
+ {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "FOF_Black_Mushroom": {
+                    "Name": "Black Mushroom",
+					"DisplayName": "{{i18n:Black-Mushroom.name}}",
+					"Description": "{{i18n:Black-Mushroom.description}}",
+                    "Price": 200,
+                    "Type": "Forage",
+                    "Category": -81,
+                    "Texture": "StunkyMcDoo.MushroomsofFerngill.cp/objects",
+                    "SpriteIndex": 0,
+                    "Edibility": -35,
+                    "ContextTags": ["color_black", "forage_item", "mushroom_item", "forage_item_mines",]
+                },
+                "FOF_Dew_Cup_Mushroom": {
+                    "Name": "Dew Cup Mushroom",
+					"DisplayName": "{{i18n:Dew-Cup-Mushroom.name}}",
+					"Description": "{{i18n:Dew-Cup-Mushroom.description}}",
+                    "Price": 140,
+                    "Type": "Forage",
+                    "Category": -81,
+                    "Texture": "StunkyMcDoo.MushroomsofFerngill.cp/objects",
+                    "SpriteIndex": 1,
+                    "Edibility": 20,
+                    "ContextTags": ["color_yellow", "forage_item", "mushroom_item", "forage_item_mines",]
+                },
+                "FOF_Muffin_Bell_Mushroom": {
+                    "Name": "Muffin Bell Mushroom",
+					"DisplayName": "{{i18n:Muffin-Bell-Mushroom.name}}",
+					"Description": "{{i18n:Muffin-Bell-Mushroom.description}}",
+                    "Price": 150,
+                    "Type": "Forage",
+                    "Category": -81,
+                    "Texture": "StunkyMcDoo.MushroomsofFerngill.cp/objects",
+                    "SpriteIndex": 2,
+                    "Edibility": 25,
+                    "ContextTags": ["color_orange", "forage_item", "mushroom_item", "forage_item_mines",]
+                }, 
+                "FOF_Plump_Belly_Mushroom": {
+                    "Name": "Plump Belly Mushroom",
+					"DisplayName": "{{i18n:Plump-Belly-Mushroom.name}}",
+					"Description": "{{i18n:Plump-Belly-Mushroom.description}}",
+                    "Price": 170,
+                    "Type": "Forage",
+                    "Category": -81,
+                    "Texture": "StunkyMcDoo.MushroomsofFerngill.cp/objects",
+                    "SpriteIndex": 3,
+                    "Edibility": 30,
+                    "ContextTags": ["color_brown", "forage_item", "mushroom_item", "forage_item_mines",]
+                },
+                "FOF_Stalk_Cluster_Mushroom": {
+                    "Name": "Stalk Cluster Mushroom",
+					"DisplayName": "{{i18n:Stalk-Cluster-Mushroom.name}}",
+					"Description": "{{i18n:Stalk-Cluster-Mushroom.description}}",
+                    "Price": 170,
+                    "Type": "Forage",
+                    "Category": -81,
+                    "Texture": "StunkyMcDoo.MushroomsofFerngill.cp/objects",
+                    "SpriteIndex": 4,
+                    "Edibility": 24,
+                    "ContextTags": ["color_brown", "forage_item", "mushroom_item", "forage_item_mines",]
+                },
+                "FOF_White_Mushroom": {
+                    "Name": "White Mushroom",
+					"DisplayName": "{{i18n:White-Mushroom.name}}",
+					"Description": "{{i18n:White-Mushroom.description}}",
+                    "Price": 40,
+                    "Type": "Forage",
+                    "Category": -81,
+                    "Texture": "StunkyMcDoo.MushroomsofFerngill.cp/objects",
+                    "SpriteIndex": 5,
+                    "Edibility": 15,
+                    "ContextTags": ["color_white", "forage_item", "mushroom_item", "forage_item_mines",]
+                },
+                "FOF_Yellow_Mushroom": {
+                    "Name": "Yellow Mushroom",
+					"DisplayName": "{{i18n:Yellow-Mushroom.name}}",
+					"Description": "{{i18n:Yellow-Mushroom.description}}",
+                    "Price": 40,
+                    "Type": "Forage",
+                    "Category": -81,
+                    "Texture": "StunkyMcDoo.MushroomsofFerngill.cp/objects",
+                    "SpriteIndex": 6,
+                    "Edibility": 15,
+                    "ContextTags": ["color_yellow", "forage_item", "mushroom_item", "forage_item_mines",]
+                },
+                "FOF_Spring_Cap_Mushroom": {
+                    "Name": "Spring Cap Mushroom",
+					"DisplayName": "{{i18n:Spring-Cap-Mushroom.name}}",
+					"Description": "{{i18n:Spring-Cap-Mushroom.description}}",
+                    "Price": 75,
+                    "Type": "Forage",
+                    "Category": -81,
+                    "Texture": "StunkyMcDoo.MushroomsofFerngill.cp/objects",
+                    "SpriteIndex": 7,
+                    "Edibility": 15,
+                    "ContextTags": ["color_red", "forage_item", "mushroom_item", "forage_item_mines",]
+                },
+                "FOF_Tooting_Funnel_Mushroom": {
+                    "Name": "Tooting Funnel Mushroom",
+					"DisplayName": "{{i18n:Tooting-Funnel-Mushroom.name}}",
+					"Description": "{{i18n:Tooting-Funnel-Mushroom.description}}",
+                    "Price": 135,
+                    "Type": "Forage",
+                    "Category": -81,
+                    "Texture": "StunkyMcDoo.MushroomsofFerngill.cp/objects",
+                    "SpriteIndex": 8,
+                    "Edibility": 18,
+                    "ContextTags": ["color_white", "forage_item", "mushroom_item", "forage_item_mines",]
+                },
+                "FOF_Ridge_Puff_Mushroom": {
+                    "Name": "Ridge Puff Mushroom",
+					"DisplayName": "{{i18n:Ridge-Puff-Mushroom.name}}",
+					"Description": "{{i18n:Ridge-Puff-Mushroom.description}}",
+                    "Price": 135,
+                    "Type": "Forage",
+                    "Category": -81,
+                    "Texture": "StunkyMcDoo.MushroomsofFerngill.cp/objects",
+                    "SpriteIndex": 9,
+                    "Edibility": 18,
+                    "ContextTags": ["color_brown", "forage_item", "mushroom_item", "forage_item_mines",]
+                },
+                "FOF_Woodland_Stool_Mushroom": {
+                    "Name": "Woodland Stool Mushroom",
+					"DisplayName": "{{i18n:Woodland-Stool-Mushroom.name}}",
+					"Description": "{{i18n:Woodland-Stool-Mushroom.description}}",
+                    "Price": 135,
+                    "Type": "Forage",
+                    "Category": -81,
+                    "Texture": "StunkyMcDoo.MushroomsofFerngill.cp/objects",
+                    "SpriteIndex": 10,
+                    "Edibility": 18,
+                    "ContextTags": ["color_brown", "forage_item", "mushroom_item", "forage_item_mines",]
+                },
+///ADDING MEALS
+                "FOF_Garlic_Mushrooms": {
+                    "Name": "Garlic Mushrooms",
+					"DisplayName": "{{i18n:Garlic-Mushrooms.name}}",
+					"Description": "{{i18n:Garlic-Mushrooms.description}}",
+                    "Price": 200,
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Texture": "StunkyMcDoo.MushroomsofFerngill.cp/objects",
+                    "SpriteIndex": 12,
+                    "Edibility": 54,
+					"Buffs": [
+					    {
+							"Id": "Food",
+							"BuffId": null,
+							"IconTexture": null,
+							"IconSpriteIndex": 0,
+							"Duration": 600,
+							"IsDebuff": false,
+							"GlowColor": null,
+							"CustomAttributes": {
+								"Farming": 0.0,
+								"Fishing": 0.0,
+								"Mining": 0.0,
+								"Luck": 0.0,
+								"Foraging": 0.0,
+								"MaxStamina": 0.0,
+								"MagnetRadius": 0.0,
+								"Speed": 0.0,
+								"Defense": 2.0,
+								"Attack": 0.0
+								},
+							"CustomFields": null
+						},
+					]
+                },
+                "FOF_Mushroom_and_Leek_Risotto": {
+                    "Name": "Mushroom and Leek Risotto",
+					"DisplayName": "{{i18n:Mushroom-Leek-Risotto.name}}",
+					"Description": "{{i18n:Mushroom-Leek-Risotto.description}}",
+                    "Price": 365,
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Texture": "StunkyMcDoo.MushroomsofFerngill.cp/objects",
+                    "SpriteIndex": 13,
+                    "Edibility": 85,
+                },
+                "FOF_Wild_Mushroom_Soup": {
+                    "Name": "Wild Mushroom Soup",
+					"DisplayName": "{{i18n:Wild-Mushroom-Soup.name}}",
+					"Description": "{{i18n:Wild-Mushroom-Soup.description}}",
+                    "Price": 225,
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Texture": "StunkyMcDoo.MushroomsofFerngill.cp/objects",
+                    "SpriteIndex": 14,
+                    "Edibility": 65,
+					"Buffs": [
+					    {
+							"Id": "Food",
+							"BuffId": null,
+							"IconTexture": null,
+							"IconSpriteIndex": 0,
+							"Duration": 420,
+							"IsDebuff": false,
+							"GlowColor": null,
+							"CustomAttributes": {
+								"Farming": 0.0,
+								"Fishing": 0.0,
+								"Mining": 0.0,
+								"Luck": 0.0,
+								"Foraging": 0.0,
+								"MaxStamina": 0.0,
+								"MagnetRadius": 25.0,
+								"Speed": 0.0,
+								"Defense": 0.0,
+								"Attack": 0.0
+								},
+							"CustomFields": null
+						},
+					]
+                },
+                "FOF_Mushroom_Tart": {
+                    "Name": "Mushroom Tart",
+					"DisplayName": "{{i18n:Mushroom-Tart.name}}",
+					"Description": "{{i18n:Mushroom-Tart.description}}",
+                    "Price": 420,
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Texture": "StunkyMcDoo.MushroomsofFerngill.cp/objects",
+                    "SpriteIndex": 15,
+                    "Edibility": 60,
+				},
+                "FOF_Witches_Elixir": {
+                    "Name": "Witches Elixer",
+					"DisplayName": "{{i18n:Witches-Elixir.name}}",
+					"Description": "{{i18n:Witches-Elixir.description}}",
+                    "Price": 500,
+                    "Type": "ArtisanGoods",
+                    "Category": -7,
+                    "Texture": "StunkyMcDoo.MushroomsofFerngill.cp/objects",
+                    "SpriteIndex": 16,
+                    "Edibility": -80,
+					"Buffs": [
+					    {
+							"Id": "Food",
+							"BuffId": null,
+							"IconTexture": null,
+							"IconSpriteIndex": 0,
+							"Duration": 300,
+							"IsDebuff": false,
+							"GlowColor": null,
+							"CustomAttributes": {
+								"Farming": 0.0,
+								"Fishing": 0.0,
+								"Mining": 0.0,
+								"Luck": 0.0,
+								"Foraging": 0.0,
+								"MaxStamina": 0.0,
+								"MagnetRadius": 25.0,
+								"Speed": 3.0,
+								"Defense": 3.0,
+								"Attack": 3.0
+								},
+							"CustomFields": null
+						},
+					]
+                },
+                "FOF_Mushroom_Ale_Pie": {
+                    "Name": "Mushroom and Ale Pie",
+					"DisplayName": "{{i18n:Mushroom-Ale-Pie.name}}",
+					"Description": "{{i18n:Mushroom-Ale-Pie.description}}",
+                    "Price": 250,
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Texture": "StunkyMcDoo.MushroomsofFerngill.cp/objects",
+                    "SpriteIndex": 17,
+                    "Edibility": 60,
+				},
+                "FOF_Mushroom_Tagliatelle": {
+                    "Name": "Mushroom Tagliatelle",
+					"DisplayName": "{{i18n:Mushroom-Tagliatelle.name}}",
+					"Description": "{{i18n:Mushroom-Tagliatelle.description}}",
+                    "Price": 250,
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Texture": "StunkyMcDoo.MushroomsofFerngill.cp/objects",
+                    "SpriteIndex": 18,
+                    "Edibility": 60,
+				},
+                "FOF_Fire_Spiced_Mushrooms": {
+                    "Name": "Fire Spiced Mushrooms",
+					"DisplayName": "{{i18n:Fire-Spiced-Mushrooms.name}}",
+					"Description": "{{i18n:Fire-Spiced-Mushrooms.description}}",
+                    "Price": 250,
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Texture": "StunkyMcDoo.MushroomsofFerngill.cp/objects",
+                    "SpriteIndex": 19,
+                    "Edibility": 60,
+				},
+                "FOF_Stuffed_Mushrooms": {
+                    "Name": "Stuffed Mushrooms",
+					"DisplayName": "{{i18n:Stuffed-Mushroom.name}}",
+					"Description": "{{i18n:Stuffed-Mushroom.description}}",
+                    "Price": 250,
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Texture": "StunkyMcDoo.MushroomsofFerngill.cp/objects",
+                    "SpriteIndex": 20,
+                    "Edibility": 60,
+				}
+			}
+        },
+///ADDING COOKING RECIPES
+        {
+            "Action": "EditData",
+            "Target": "Data/CookingRecipes",
+            "Entries": {
+                "FOF_Garlic_Mushrooms": "FOF_White_Mushroom 1 247 1 248 1/9999 9999/FOF_Garlic_Mushrooms/null/{{i18n:Garlic-Mushrooms.name}}",
+                "FOF_Mushroom_and_Leek_Risotto": "281 1 20 1 424 1 -6 1/9999 9999/FOF_Mushroom_and_Leek_Risotto/null/{{i18n:Mushroom-Leek-Risotto.name}}",
+				"FOF_Wild_Mushroom_Soup": "FOF_Plump_Belly_Mushroom 1 FOF_Muffin_Bell_Mushroom 1 FOF_Stalk_Cluster_Mushroom 1/9999 9999/FOF_Wild_Mushroom_Soup/null/{{i18n:Wild-Mushroom-Soup.name}}",
+				"FOF_Mushroom_Tart": "FOF_Dew_Cup_Mushroom 1 424 1 246 1/9999 9999/FOF_Mushroom_Tart/null/{{i18n:Mushroom-Tart.name}}",
+				"FOF_Mushroom_Ale_Pie": "FOF_Spring_Cap_Mushroom 1 303 1 246 1/9999 9999/FOF_Mushroom_Ale_Pie/null/{{i18n:Mushroom-Ale-Pie.name}}",
+				"FOF_Mushroom_Tagliatelle": "FOF_Tooting_Funnel_Mushroom 1 FOF_White_Mushroom 1 246 1 424 1/9999 9999/FOF_Mushroom_Tagliatelle/null/{{i18n:Mushroom-Tagliatelle.name}}",
+                "FOF_Fire_Spiced_Mushrooms": "FOF_Ridge_Puff_Mushroom 1 260 1 396 1/9999 9999/FOF_Fire_Spiced_Mushrooms/null/{{i18n:Fire-Spiced-Mushrooms.name}}",
+                "FOF_Stuffed_Mushrooms": "FOF_Woodland_Stool_Mushroom 1 248 1 424 1/9999 9999/FOF_Stuffed_Mushrooms/null/{{i18n:Stuffed-Mushroom.name}}",
+				}
+		},
+///ADDING CRAFTING RECIPES
+        {
+            "Action": "EditData",
+            "Target": "Data/CraftingRecipes",
+            "Entries": {
+                "FOF_Witches_Elixir": "FOF_Plump_Belly_Mushroom 1 FOF_Dew_Cup_Mushroom 1 FOF_Black_Mushroom 1 FOF_Yellow_Mushroom 1/Home/FOF_Witches_Elixir/false/Combat 5/{{i18n:Witches-Elixir.name}}",
+				}
+		},
+///CATEGORY OVERRIDES
+		{
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/ObjectExtensionData",
+			"Entries": {
+				"FOF_Black_Mushroom": {
+					"CategoryTextOverride": "{{i18n:Mushroom}}",
+					"CategoryColorOverride": {
+						"R": 150,
+						"G": 75,
+						"B": 0,
+						"A": 255
+					},
+				},
+				"FOF_Dew_Cup_Mushroom": {
+					"CategoryTextOverride": "{{i18n:Mushroom}}",
+					"CategoryColorOverride": {
+						"R": 150,
+						"G": 75,
+						"B": 0,
+						"A": 255
+					},
+				},
+				"FOF_Muffin_Bell_Mushroom": {
+					"CategoryTextOverride": "{{i18n:Mushroom}}",
+					"CategoryColorOverride": {
+						"R": 150,
+						"G": 75,
+						"B": 0,
+						"A": 255
+					},
+				},
+				"FOF_Plump_Belly_Mushroom": {
+					"CategoryTextOverride": "{{i18n:Mushroom}}",
+					"CategoryColorOverride": {
+						"R": 150,
+						"G": 75,
+						"B": 0,
+						"A": 255
+					},
+				},
+				"FOF_Stalk_Cluster_Mushroom": {
+					"CategoryTextOverride": "{{i18n:Mushroom}}",
+					"CategoryColorOverride": {
+						"R": 150,
+						"G": 75,
+						"B": 0,
+						"A": 255
+					},
+				},
+				"FOF_White_Mushroom": {
+					"CategoryTextOverride": "{{i18n:Mushroom}}",
+					"CategoryColorOverride": {
+						"R": 150,
+						"G": 75,
+						"B": 0,
+						"A": 255
+					},
+				},
+				"FOF_Yellow_Mushroom": {
+					"CategoryTextOverride": "{{i18n:Mushroom}}",
+					"CategoryColorOverride": {
+						"R": 150,
+						"G": 75,
+						"B": 0,
+						"A": 255
+					},
+				},
+				"FOF_Spring_Cap_Mushroom": {
+					"CategoryTextOverride": "{{i18n:Mushroom}}",
+					"CategoryColorOverride": {
+						"R": 150,
+						"G": 75,
+						"B": 0,
+						"A": 255
+					},
+				},
+				"FOF_Tooting_Funnel_Mushroom": {
+					"CategoryTextOverride": "{{i18n:Mushroom}}",
+					"CategoryColorOverride": {
+						"R": 150,
+						"G": 75,
+						"B": 0,
+						"A": 255
+					},
+				},
+				"FOF_Ridge_Puff_Mushroom": {
+					"CategoryTextOverride": "{{i18n:Mushroom}}",
+					"CategoryColorOverride": {
+						"R": 150,
+						"G": 75,
+						"B": 0,
+						"A": 255
+					},
+				},
+				"FOF_Woodland_Stool_Mushroom": {
+					"CategoryTextOverride": "{{i18n:Mushroom}}",
+					"CategoryColorOverride": {
+						"R": 150,
+						"G": 75,
+						"B": 0,
+						"A": 255
+					},
+				},
+				"257": {
+					"CategoryTextOverride": "{{i18n:Mushroom}}",
+					"CategoryColorOverride": {
+						"R": 150,
+						"G": 75,
+						"B": 0,
+						"A": 255
+					},
+				},
+				"420": {
+					"CategoryTextOverride": "{{i18n:Mushroom}}",
+					"CategoryColorOverride": {
+						"R": 150,
+						"G": 75,
+						"B": 0,
+						"A": 255
+					},
+				},
+				"422": {
+					"CategoryTextOverride": "{{i18n:Mushroom}}",
+					"CategoryColorOverride": {
+						"R": 150,
+						"G": 75,
+						"B": 0,
+						"A": 255
+					},
+				},
+				"404": {
+					"CategoryTextOverride": "{{i18n:Mushroom}}",
+					"CategoryColorOverride": {
+						"R": 150,
+						"G": 75,
+						"B": 0,
+						"A": 255
+					},
+				},
+				"281": {
+					"CategoryTextOverride": "{{i18n:Mushroom}}",
+					"CategoryColorOverride": {
+						"R": 150,
+						"G": 75,
+						"B": 0,
+						"A": 255
+					},
+				},
+				"851": {
+					"CategoryTextOverride": "{{i18n:Mushroom}}",
+					"CategoryColorOverride": {
+						"R": 150,
+						"G": 75,
+						"B": 0,
+						"A": 255
+					},
+				},
+			}
+		},
+///SHOPS
+       {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [
+                "Saloon",
+                "Items"
+            ],
+            "Entries": {
+                "FOF_Garlic_Mushrooms": {
+                    "Id": "FOF_Garlic_Mushrooms",
+                    "ItemId": "FOF_Garlic_Mushrooms",
+                    "Price": "2000",
+                    "IsRecipe": "true",
+					"Condition": "day_of_week mon"
+				},
+                "FOF_Mushroom_and_Leek_Risotto": {
+                    "Id": "FOF_Mushroom_and_Leek_Risotto",
+                    "ItemId": "FOF_Mushroom_and_Leek_Risotto",
+                    "Price": "2000",
+                    "IsRecipe": "true",
+					"Condition": "day_of_week mon"
+				},
+				"FOF_Wild_Mushroom_Soup": {
+                    "Id": "FOF_Wild_Mushroom_Soup",
+                    "ItemId": "FOF_Wild_Mushroom_Soup",
+                    "Price": "2000",
+                    "IsRecipe": "true",
+					"Condition": "day_of_week mon"
+				},
+				"FOF_Mushroom_Tart": {
+                    "Id": "FOF_Mushroom_Tart",
+                    "ItemId": "FOF_Mushroom_Tart",
+                    "Price": "2000",
+                    "IsRecipe": "true",
+					"Condition": "day_of_week mon"
+				},
+				"FOF_Mushroom_Ale_Pie": {
+                    "Id": "FOF_Mushroom_Ale_Pie",
+                    "ItemId": "FOF_Mushroom_Ale_Pie",
+                    "Price": "2000",
+                    "IsRecipe": "true",
+					"Condition": "day_of_week mon"
+				},
+				"FOF_Mushroom_Tagliatelle": {
+                     "Id": "FOF_Mushroom_Tagliatelle",
+                    "ItemId": "FOF_Mushroom_Tagliatelle",
+                    "Price": "2000",
+                    "IsRecipe": "true",
+					"Condition": "day_of_week mon"
+				},
+				"FOF_Fire_Spiced_Mushrooms": {
+                    "Id": "FOF_Fire_Spiced_Mushrooms",
+                    "ItemId": "FOF_Fire_Spiced_Mushrooms",
+                    "Price": "2000",
+                    "IsRecipe": "true",
+					"Condition": "day_of_week mon"
+				},
+                "FOF_Stuffed_Mushrooms": {
+                    "Id": "FOF_Stuffed_Mushrooms",
+                    "ItemId": "FOF_Stuffed_Mushrooms",
+                    "Price": "2000",
+                    "IsRecipe": "true",
+					"Condition": "day_of_week mon"
+				}
+			}
+	   }
+	]
+}

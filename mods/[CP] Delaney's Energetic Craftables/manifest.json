@@ -1,0 +1,11 @@
+{
+    "Name": "Delaney's Energetic Craftables",
+    "Author": "Delaney1035",
+    "Version": "1.0.0",
+    "Description": "Energetic recoloring of craftables.",
+    "UniqueID": "Delaney1035.EnergeticCraftables",
+    "UpdateKeys": [], 
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}

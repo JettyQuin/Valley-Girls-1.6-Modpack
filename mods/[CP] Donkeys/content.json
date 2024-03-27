@@ -1,0 +1,223 @@
+{
+	"Format": "2.0.0",
+    "Changes": [  
+	/*Sprites*/
+        {
+            "LogName": "Load shopIcon for Donkey",
+            "Action": "Load",
+            "Target": "Animals/{{ModId}}_shop_donkey_icon",
+            "FromFile": "assets/animal_shop_donkey.png"
+        },
+        {
+            "LogName": "Load adultSprite for donkey",
+            "Action": "Load",
+            "Target": "Animals/{{ModId}}_donkey",
+            "FromFile": "assets/donkey.png"
+        },
+        {
+            "LogName": "Load babySprite for donkey",
+            "Action": "Load",
+            "Target": "Animals/{{ModId}}_donkey_baby",
+            "FromFile": "assets/babydonkey.png"
+        },
+        {
+            "LogName": "Load Sprite for donkey milk",
+            "Action": "Load",
+            "Target": "Objects/{{ModId}}_donkeymilk",
+            "FromFile": "assets/donkeymilk.png"
+        },
+        {
+            "LogName": "Load Sprite for donkey cream",
+            "Action": "Load",
+            "Target": "Objects/{{ModId}}_donkeycream",
+            "FromFile": "assets/donkeycream.png"
+        },
+		/*Animals*/
+		{
+            "LogName": "Load data for Donkey",
+            "Action": "EditData",
+            "Target": "Data/FarmAnimals",
+            "Entries": {
+                "Donkey": {
+                    "DisplayName": "{{i18n:Donkey}}", 
+                    "House": "Barn",
+                    "Gender": "Female",
+                    "PurchasePrice": 5000,
+					"SellPrice": 6000,
+                    "ShopTexture": "Animals/{{ModId}}_shop_donkey_icon",
+                    "ShopSourceRect": {
+                        "X": 0,
+                        "Y": 0,
+                        "Width": 32,
+                        "Height": 16
+                    },
+					"ShopDisplayName": "{{i18n:Donkey}}",
+					"ShopDescription": "{{i18n:DonkeyDescription}}",
+					"ShopMissingBuildingDescription": "[LocalizedText Strings\\StringsFromCSFiles:Utility.cs.5926]",
+                    "RequiredBuilding": "Deluxe Barn",
+					"UnlockCondition": null,
+					"AlternatePurchaseTypes":null,
+					"EggItemIds": null,
+					"IncubationTime": -1,
+					"IncubatorParentSheetOffset": 1,
+					"BirthText": null,
+					"DaysToMature": 4,
+					"CanGetPregnant": true,
+					"DaysToProduce": 3,
+					"HarvestType": "HarvestWithTool",
+					"HarvestTool": "Milk Pail",
+                    "ProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "{{ModId}}_donkeymilk"
+                        }
+                    ],
+                    "DeluxeProduceItemIds": [],
+					"ProduceOnMature": true,
+					"FriendshipForFasterProduce": 900,
+					"DeluxeProduceMinimumFriendship": 200,
+					"DeluxeProduceCareDivisor": 1200.0,
+					"DeluxeProduceLuckMultiplier": 0.0,
+					"ProfessionForHappinessBoost": 3,
+					"ProfessionForQualityBoost": 3,
+					"ProfessionForFasterProduce": 3,
+                    "Sound": "{{ModId}}_Sound",
+                    "BabySound": null,
+                    "Texture": "Animals/{{ModId}}_donkey",
+                    "BabyTexture": "Animals/{{ModId}}_donkey_baby",
+					"UseFlippedRightForLeft": false,
+                    "SpriteWidth": 32,
+                    "SpriteHeight": 32,
+					"EmoteOffset": {
+					  "X": 0,
+					  "Y": 0
+					},
+					"SwimOffset": {
+					  "X": 0,
+					  "Y": 112
+					},
+					"Skins": null,
+					"CanSwim": false,
+					"BabiesFollowAdults": true,
+					"GrassEatAmount": 1,
+					"HappinessDrain": 3,
+					"UpDownPetHitboxTileSize": "1.5, 1.75",
+					"LeftRightPetHitboxTileSize": "1.75, 1.25",
+					"BabyUpDownPetHitboxTileSize": "1, 1.75",
+					"BabyLeftRightPetHitboxTileSize": "1.75, 1",
+					"StatToIncrementOnProduce": null,
+                    "ShowInSummitCredits": true,
+					"CustomFields": {
+						"meatIndex":"donkey"
+					}
+                }
+            }
+        },
+		/*Objects*/
+		{
+            "LogName": "Load data for Donkey milk",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries":	{
+			  "{{ModId}}_donkeymilk": {
+				"Name": "{{ModId}}_donkeymilk",
+				"DisplayName": "{{i18n:donkeymilk}}",
+				"Description": "{{i18n:DonkeyMilkDescription}}",
+				"Type": "Basic",
+				"Category": -6, //milk item
+				"Price": 370,
+				"GiftTastes":
+				{
+					"Like": ["Marnie", "Leah"],
+					"Dislike": ["Kent"]
+				},
+				"Texture": "Objects/{{ModId}}_donkeymilk",
+				"SpriteIndex": 0,
+				"Edibility": 20,
+				"IsDrink": true,
+				"Buffs": null,
+				"GeodeDropsDefaultItems": false,
+				"GeodeDrops": null,
+				"ArtifactSpotChances": null,
+				"ExcludeFromFishingCollection": true,
+				"ExcludeFromShippingCollection": false,
+				"ExcludeFromRandomSale": false,
+				"ContextTags":null,
+				"CustomFields": null
+			  }
+			}
+		},
+		{
+			"LogName": "Load data for Donkey cream",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries":	{
+			  "{{ModId}}_donkeycream": {
+				"Name": "{{ModId}}_donkeycream",
+				"DisplayName": "{{i18n:DonkeyCream}}",
+				"Description": "{{i18n:DonkeyCreamDescription}}",
+				"Type": "Basic",
+				"Category": -26, //ArtisanGoods
+				"Price": 800,
+				"GiftTastes": {
+					"Love": ["Haley", "Sandy"],
+					"Like": ["Abigail", "Alex", "Caroline", "Demetrius", "Elliott", "Harvey", "Jodi", "Pam"],
+					"Dislike": ["Kent", "Krobus"]
+				},
+				"Texture": "Objects/{{ModId}}_donkeycream",
+				"SpriteIndex": 0,
+				"Edibility": 20,
+				"IsDrink": false,
+				"Buffs": null,
+				"GeodeDropsDefaultItems": false,
+				"GeodeDrops": null,
+				"ArtifactSpotChances": null,
+				"ExcludeFromFishingCollection": true,
+				"ExcludeFromShippingCollection": false,
+				"ExcludeFromRandomSale": false,
+				"ContextTags":null,
+				"CustomFields": null
+			  }
+			}
+		},
+		// oil maker
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)19","OutputRules" ],
+			"Entries": {
+				"{{ModId}}_donkeycream": {
+					"Id": "{{ModId}}_donkeycream",
+					"Triggers": 
+						[
+							{
+								"RequiredItemId": "{{ModId}}_donkeymilk"
+							}
+						],
+					"OutputItem":
+						[
+							{
+								"ItemId": "{{ModId}}_donkeycream"
+							}
+						],
+					"MinutesUntilReady": 200
+				}
+			}
+		},
+	        // add sound
+        {
+            "Action": "EditData",
+            "Target": "Data/AudioChanges",
+            "Entries": {
+                "{{ModId}}_Sound": {
+                    "ID": "{{ModId}}_Sound",
+                    "Category": "Sound",
+                    "FilePaths": [ "{{AbsoluteFilePath: assets/donkey.wav}}" ],
+                    "StreamedVorbis": false
+                }
+            }
+        }
+    ]
+}

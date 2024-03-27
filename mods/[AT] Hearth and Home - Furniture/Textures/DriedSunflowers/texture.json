@@ -1,0 +1,8 @@
+{
+  "ItemName": "Dried Sunflowers",
+  "Type": "Furniture",
+  "TextureWidth": 16,
+  "TextureHeight": 32,
+  "Keywords": ["Hearth", "hnh"],
+  "Variations": 1
+}

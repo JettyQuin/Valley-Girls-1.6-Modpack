@@ -1,0 +1,136 @@
+{
+  "Aideen_Introduction":"Good day. I don't believe we have been introduced.#$b#You are the new farmer? Well, you most certainly look the part!#$b#I am Aideen, and it is a pleasure to make your acquaintance.$1",
+  "Aideen_Resort_Entering":"What an absolutely splendid place!$1",
+  "Aideen_Resort_Leaving":"%Aideen carefully tucks a small wrapped package into her pocket.#$b#These? They are samples of the local flora.",
+  "Aideen_Resort_Shore":"These seashells... they are divine!#$b#I could incorporate them into my work, do you not think?",
+  "Aideen_Resort_Umbrella":"It is good to take a break from the sun. I would not wish to get burned.$2",
+  "Aideen_Resort_Wander":"I do wish to explore... but Willy has cautioned us not to stray too far from the resort.#$b#A pity, for I'm sure this place must be a-bloom with exotic flowers.",
+  "Aideen_Resort_Bar":"Please, @, join me for a drink.#$b#What am I drinking? It's called a Pink Lady.$1",
+  "Aideen_Resort":"It is nice to take a break away from the valley every once in a while.",
+  "Aideen_GreenRain":"I stepped out this morning, @, to appreciate the rain... and is it not the most frightfully wonderful phenomenon? I have never seen the valley so verdant!",
+  "Aideen_GreenRain_2":"My flowers appreciate this weather, @, but I am afeared I shall find my garden overrun with weeds.$2",
+  //daily
+  "Aideen_Mon":"It is so peaceful here in East Scarp, away from those rowdy youths.#$b#Here there is naught but birdsong and the ocean.",
+  "Aideen_Tue":"Oh hello! Marvelous weather, don't you think?#$b#A fabulous day for reading in the garden, sheltered by the wonderful scent of rose and lavender.",
+  "Aideen_Wed":"Are you growing flowers on that farm of yours? They shall certainly brighten things up!#$b#I am especially fond of the blue jazz. They add a unique touch to my bouquets.$1",
+  "Aideen_Thu":"Ah, hello @. You're looking very... rural today.#$b#What is that fragrance you are wearing? Eau de terra? It's... unique.",
+  "Aideen_Fri":"The saloon? The stench of beer, a press of crowded bodies... you'd never catch me in there!$3#$b#No, my idea of a pleasant night is gazing at the stars. Or watching the sun set over the ocean.$1", //Edited expressions, Chirps.
+  "Aideen_Sat":"My neighbors? Dr. Jacob is polite but a little reserved, and Eloise... she's so full of questions.",
+  "Aideen_Sun":"That appalling fish hawker tried to sell me some of his wares when I went to town the other day!$3#$b#I couldn't bear that pungent odor for even a moment and fled in utter horror.$2", //Edited by Chirps.
+  "Aideen_danceRejection":"Dance? With you? Oh, I do not think so.",
+  "Aideen_divorced":"Still desperate for my attention? We are over. Begone!$a",
+  "Aideen_dumped_Girls":"I have no desire to associate with you and sully my reputation.$a",
+  "Aideen_breakUp":"It's over? I am hurt, yes. But I expect I shall recover.$s",
+  "Aideen_Mon2":"I hope you do not spend too much time fishing, @.#$b#It is such a barbaric sport, and the aroma is absolutely frightful.$s",
+  "Aideen_Tue2":"My apologies if I seem short of temper, @.#$b#Baron Munchington procured a mouse last night, and it threw the whole household into utmost chaos!$3#$b#I barely slept a wink.$2", // Edited by Chirps.
+  "Aideen_Fri2":"It's so peaceful here at night, @. Naught but crickets and the gentle sussuration of the ocean.$1#$b#I do not miss the hideous racket of traffic noise and sirens one bit.$2", //Edited by Chirps for more emotion.
+  "Aideen_Sun2":"Oh goodness, hello @. You quite startled me! I was quite lost in my thoughts.",
+  "Aideen_Wed2":"Baron Munchington has proven a fine judge of character, @. Although I worry, sometimes, that his opinion is all too frequently swayed by his appetite.",
+  "Aideen_Tue4":"Are you growing flowers on your farm @? I would so love a local supplier.",
+  "Aideen_spring_Sat6":"The spring flowers are such a delight! Their cheerful colors never fail to make me smile.$1",
+  "Aideen_Mon8":"I had a suitor once, you know.#$b#In retrospect, we were not well matched, but alas, I was young, and refused to see the truth of it.#$b#I imagined that he might change his ways for me! A truly preposterous fancy.$2",
+  "Aideen_Thu10":"Very well, I admit it. I am no longer repelled by your unique fragrance.#$b#Indeed, I find myself rather comforted by your presence. Isn't that most peculiar?$1", //Edited by Chirps.
+  "Aideen_Fri6":"East Scarpe? I believe it was named such for the escarpment, and the property developer thought the 'e' would add more prestige!#$b#Ridiculous, don't you think? East Shoe!$1",
+  "Aideen_summer_1":"I hope you are prepared for summer, @. Why, some mornings, it is almost like the tropics!",
+  "Aideen_summer_Mon":"You certainly appear to have been working hard today. Might I suggest a dip in the ocean?",
+  "Aideen_summer_Tue":"Have you seen any sweet peas? They are such charming flowers, and make a wonderful gift to a cherished friend.$1", //Edited by Chirps
+  "Aideen_summer_Wed":"Fish for Baron Munchington? Oh no! I would never dream of feeding him carrion; he dines upon the finest kibble.",
+  "Aideen_summer_Thu":"Aideen_Frightfully warm weather, isn't it?$3",
+  "Aideen_summer_Fri":"This heat has been most unkind to my poor flowers. Look at how their petals wilt!$2",
+  "Aideen_summer_Fri4":"Poor Munchington is such a fluffy boy; he does not cope well with this summer heat.#$b#He has a cooling pad, of course, but prefers the tiles of my workroom floor.#$b#Why, I have nearly tripped over him so many times!",
+  "Aideen_summer_Sat":"Perhaps I shall wander to the beach today, and engage in a little beach-combing.#$b#You never know what treasures you may find.$1", //Edited by Chirps for more expressive dialogue
+  "Aideen_summer_Sat4":"This sun! Oh, it plays such havoc with my complexion; I fear I shall turn as red as a lobster.$3",
+  "Aideen_summer_Sun":"Sunflowers are such cheerful flowers, do you not agree, @?$1",
+  "Aideen_summer_Sun4":"Do keep yourself hydrated, @. For with all your running around... I fear you shall suffer heatstroke.$2",
+  "Aideen_summer_Wed2":"Sometimes I might dip my toes in the ocean, but oh! It is filled with wretched, slimy things.$3",
+  "Aideen_summer_Tue4":"Have you ventured into the mountains, @?#$b#They are wild and remote but the air is cooler, and the flowers... oh, there are the most exotic blooms!$h",
+  "Aideen_summer_Sat6":"This heat is just ghastly! And those accursed flies...$a#$b#I do so look forward to autumn.",
+  "Aideen_summer_Thu10":"Oh, suddenly I have come over all light-headed. It must be the heat, for I cannot imagine what else might affect me thus.",
+  "Aideen_summer_Fri10":"Oh @. How it gladdens my heart that we have become friends.$1",
+  "Aideen_fall_1":"There is poetry in the leaves as they whisper their secrets in the wind.#$b#What mysteries do I speak of? Why, the beauty of autumn, of course.$1", //Added by Chirps.
+  "Aideen_fall_Mon":"Have you conversed with Rosa?$1#$b#For all that she lacks in aesthetic taste, she makes up for it in affiability and ambrosian delights.$1", // Edited by Chirps.
+  "Aideen_fall_Tue":"Dr. Jacob has done an admirable job, raising his daughter all alone. His patience must be commended.",
+  "Aideen_fall_Wed":"I apologize if I seem short tempered. My latest delivery arrived... and the poor roses were crushed!$2#$b#I may be able to salvage them... but oh, I do wish they would handle my precious cargo with more care!$3", //Edited by cChirps
+  "Aideen_fall_Wed4":"Today I am most displeased, @. Oh, no, not at you! My latest delivery contained lilies. Can you believe it?#$b#Those dastardly flowers, for all that they are beautiful...I shall not permit them anywhere near my beloved Munchington.$5",
+  "Aideen_fall_Thu":"Every Thursday, Dr. Jacob stops by to purchase flowers for his belated wife.#$b#It is so sweet, yet so sad.$2",
+  "Aideen_fall_Sat":"I do so love fall, don't you, @? The temperature is perfect, and the color? Beautiful!$1", //Edited by Chirps.
+  "Aideen_fall_Wed2":"How lovely to see you again, @. I trust that you are enjoying this temperate day?$1",
+  "Aideen_fall_Sun6":"Do you enjoy ghost stories, @?#$b#There are rumors, you know, that East Scarp is haunted. By whom, you ask?$3#$b#Oh! The ghosts of the miners who died here, of course. Lost forever, beneath the unforgiving earth.#$b#Sometimes, when the shadows are long, and the wind rattles in the trees... why, it is all but impossible to not believe it.",
+  "Aideen_fall_Mon8":"Do you think, perhaps, that Ms. Marnie and Dr. Jacob might make a fine match?#$b#Oh, don't mind me; I've been reading too much and filled my head with fanciful daydreams.$7", // Edited by Chirps.
+  "Aideen_fall_Thu6":"Dr. Jacob visits his wife once a week, for all that she is departed.#$b#Is that love, do you think, @? Never quite being able to let go?$2",
+  "Aideen_fall_Thu8":"Have you ever been in love, @? Felt the quickening of your pulse, and a lightness when someone is near?#$b#It is endorsed so frequently in literature, but I fear the reality will prove quite a disappointment.$s",
+  "Aideen_fall_Fri10":"I might have spoken in haste before, @.$2#$b#In regards to love, I mean. For my heart is flittering with the songbirds of summer.$7", //Added by Chirps.
+  "Aideen_winter_1":"Winter's blanket has fallen across the land, and the flowers have slipped into hibernation. I shall miss them.$2",
+  "Aideen_winter_Mon":"Winter is such a dreary time. So monochromatic.#$b#I do miss my floral friends.$2#$b#Friends? Oh, it is merely a fanciful term of phrase, @.#$e#Did you imagine I would consider flowers my friends?$u",
+  "Aideen_winter_Tue":"There is something magical about the sunrise in winter, don't you agree, @?#$e#I awoke early, to gather crocuses for a very special bouquet.#$b#And now my toes are quite chilled through.$2", //Edited for expressiveness by Chirps
+  "Aideen_winter_Wed":"Miss Eloise's chatterbox nature is most exhausting, although I suppose her curiosity is to be admired.",
+  "Aideen_winter_Thu":"Poor Munchington. He is really not a fan of this snow.#$b#Me? Oh, it is pretty enough, I suppose, when one is tucked up beside the fire.",
+  "Aideen_winter_Fri":"This entire week has been a blustery affair. Take care as to not fall prey to the bite of winter.#$e#As for myself, I must take my leave.#$b#I hear a certain melancholic mewling seeking the comfort of my arms.$7", //Added by Chirps
+  "Aideen_winter_Sat4":"I do hope that you have not been entertaining the notion of entering those vile caves!$2#$b#So dank, so dreary... and positively overflowing with all manner of terrible fiends!",
+  "Aideen_winter_Sun8":"Today? Oh, I intend to curl up with a cat in my lap and a book in my hands.#$b#Can you think of a better way to spend a dreary winter's day, @?",
+  "Aideen_winter_Wed2":"Have you visited Grampleton at all, @? There is this most splendid clothing emporium there!#$b#I could waste the entire winter perusing their shelves.$1", //Edited by Chirps to fix a typo and add more text.
+  "Aideen_winter_Thu10":"Oh @! This cold bites right down to my bones.#$b#Would you mind terribly if I huddled with you for warmth?$4", //Changed by Chirps for a little more affection with the portrait and the pause in speech.
+  "Aideen_winter_Fri10":"Oh, @. Your presence is like a bonfire amidst this most desolate chill. I'm afeared I may freeze solid without your good company.$h", // Added by Chirps
+  "Aideen_spring_12":"I shall be assisting Mrs. Mullner with the flower arrangements for tomorrow.#$b#The Egg Hunt? Oh gracious no! I would never participate in that. It is for the children!",
+  "Aideen_spring_12_2":"I shall be assisting Mrs. Mullner with the flower arrangements for tomorrow.#$b#The Egg Hunt? Oh gracious no! I would never participate in that. It is for the children!",
+  "Aideen_spring_23":"Hello @! I cannot possibly stop to chat, for I am most horrendously busy preparing arrangements for the dance tomorrow!#$b#I do hope you shall attend. Though it may be a challenge finding a dance partner. Everyone here is very well matched.",
+  "Aideen_spring_23_2":"Hello @! I cannot chat. I am utterly and positively inundated with preparing arrangements for the dance tomorrow.$5#$b#I do hope you shall attend. There are many here eager to dance with you.$1#$e#Me? Oh gracious! Whatever gave you that idea? Begone with you and your impertinence!", //Edited by Chirps.
+  "Aideen_winter_7":"The Ice Festival? Oh no, you will not be seeing me there!#$b#The sculptures may be beautiful... but the smell? Gracious no!$3", //Edited by Chirps, missing capitalization of the festival.
+  "Aideen_winter_7_2":"Are you trying to persuade me to attend that barbaric festival tomorrow?$3#$b#No, I shall be warm and cosy with Baron Munchington.$1", //Edited by Chirps
+  "Aideen_fall_26":"It is Spirit's Eve tomorrow? I find myself with little interest in mocking the supernatural.$3#$b#No, I shall be home, with the Baron and my flowers, and I shall be all the happier for it, too.$1",
+  "Aideen_summer_10":"The Luau? It is so chaotic! Not like the dinner parties I attended in Grampleton.#$b#Now, those were civilized affairs. None of this potluck nonsense.", // Edited by Chirps, missing capitalization of festival
+  "Aideen_summer_27":"Tomorrow the townsfolk gather on the dock to witness the annual migration of the jellies.#$b#I have not yet decided if I shall attend.$5", //Edited by Chirps.
+  "Aideen_winter_24":"Have you received your invitation for the Winter Star event? It is hardly a grand event, but it is not without its charm.$1",
+  //Event responses:
+  "Aideen_Ai2_1":"Oh my, the glass is certainly half full for you, isn't it? Still, a little optimism will certainly be advantageous for %farm, I do not doubt.",
+  "Aideen_Ai2_2":"Oh, aren't you Mr. Cynical.^Oh, aren't you Ms. Cynical.#$b#You're right, of course. Pelican Town is hardly Paradise Bay.#$b#Yet the peace might be an attraction in itself, don't you think?",
+  "Aideen_Ai2_3":"Picky?$a#$b#It is no shame, nor crime, to be discerning.#$b#Indeed, it would be most disadvantageous to invite an unruly guest into my house.#$b#On that note, perhaps it is time you should leave, for surely that farm must require your attention.",
+  "Aideen_Ai2_4":"Oh! The gall of you! To listen in on a lady's private conversation.#$b#Perhaps you should take your nose and poke it into someone else's business!$a",
+  //Unique Courtship Dialogue
+  "Aideen_rejectNPCA":"Why ever would I consider marrying you?$a",
+  "Aideen_rejectNPCB":"Are you teasing me? I have no desire to bind myself to you.$a",
+  "Aideen_refusal_no_heartsA":"Oh! You really are most presumptuous! Begone with you.$a", //they don't know you
+  "Aideen_refusal_no_heartsB":"No. Now leave me be.$u",
+  "Aideen_engageA":"I do not think your betrothed would be well pleased.$a", //if you're already engaged, I guess?
+  "Aideen_engageB":"Have you no common sense?$u",
+  "Aideen_marriedA":"I do not think your spouse would be well-pleased to hear of your infidelities.$a", //if you're already married, I guess?
+  "Aideen_give_flowersA":"Oh! These are so beautiful. Of course I shall accept!$4", //accepting
+  "Aideen_give_flowersB":"You wish to court me? I suppose I shall permit it.$7",
+  "Aideen_give_pendant":"You are serious? Why yes, @. I would be honored to be your wife.$4", //accepting  Edited by Chirps to add portrait.
+  "Aideen_reject_four_heartA":"Oh... you are sweet and these are truly divine. But I'm afeared I must decline.$6",
+  "Aideen_reject_four_heartB":"Did you make these for me, @? I am afeared your attention has been misguided.#$b#Please, take them elsewhere.$6",
+  "Aideen_refusal_knownA":"I'm afeared you are not what I seek in a suitor, @. I am truly sorry.$6",
+  "Aideen_refusal_knownB":"Please, let us not rush things. We must prove well suited before I can commit.$6", // Edited a typo
+  //question responses
+  "Aideen_102":"Next door? Oh, surely not Sterling, he may exude a certain boyish charm, but no, he is barely civilized!$3#$b#Or do you mean Dr Jacob? Hmm... well, he is certainly kind and we have, on occasion, engaged in a rousing discussions of literature and the arts.$1#$b#Also, Baron Munchington is certainly fond of him. But I fear he would regard me as a mere shadow of his wife.$2",
+  "Aideen_103":"Why, Mr @!$4^Why Ms @!$4#$b#Are you wishing to court me?$7#$b#Well, you do exude a quaint rural charm.$1^I have never been courted by a lady before! This is most illuminating.$1#$b#And I have certainly grown fond of you. But love? Well, perhaps our tale is a slow burn, rather than a quick spark, yes?$7",
+  "Aideen_104":"Baron Munchington is certainly fine company, although he is not noted for his conversation.#$b#And I guess that I hoped I one day might have both.",
+  "Aideen_105":"Such a nihilistic perspective, @. I am not sure I appreciate your cynicism. Please, take it elsewhere.",
+  //Unique Gift Tastes
+  "Aideen_GiftReaction_Ancient_Flower":"Oh! This is a most stunning flower. Wherever did you find it?$4",
+  "Aideen_AcceptGift_category_flowers":"Thank you! This will look splendid in a bouquet!$1",
+  "Aideen_AcceptGift_(O)597":"I love this! It adds a most unique touch to any bouquet.$4",
+  "Aideen_GiftReaction_An_autographed_photo":"Oh! It's a signed photograph of Rodney. How quaint. I could use it as a bookmark, I guess.$2",
+  "Aideen_AcceptGift_(O)167":"This beverage is most distasteful! Indeed, it looks as though it were fished from a riverbed.$a",
+  "Aideen_AcceptGift_(O)StardropTea":"Oh! A most splendiferous tea. I do not think I have ever tasted the like.$1",
+  "Aideen_reject_534":"Oh no, this is beautiful, but you shouldn't give it to me. It's an antique! And look, an inscription.#$b#You need to find the rightful owner. I'm sure they'll be missing it!$1",
+  //Conversation Topics
+  "Aideen_MateoAideenScene1":"Oh... I cannot believe it, but I am still thinking about my encounter earlier...$2#$b#Uncouth indeed, but their speech was surprisingly eloquent.#$b#Oh, if only they would look where they were going!$a",
+  "Aideen_Garden":"Everything is coming together nicely, darling. The garden should be ready in a few days.$1",
+  "Aideen_ShearwaterBridgeRenovationStart":"I hear the bridge is to be renovated!#$b#I do hope it does not cause any deliverying delays.$3"
+}
+/*“I don't believe we have been introduced. I am…”
+Or “Do I have the pleasure of addressing..?”
+Then “Pleased to make your acquaintance ….”
+Perhaps “How lovely to see you again” or “Good day” rather than “Hello”
+Sharron sent Today at 16:12
+Dating:
+Rather than calling it a date she might say “I should be delighted to accompany you to …” or “You may call on me at such and such time”
+The suitor might say “May I call on you, Miss…?” And after a date “May I call on you again?”
+Sharron sent Today at 16:12
+Random comments
+“How very tiresome!”
+“So you say”
+“Nothing of import”
+“Really, this is most unseemly!”
+*/

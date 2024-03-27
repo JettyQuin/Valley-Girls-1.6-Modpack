@@ -1,0 +1,8 @@
+{
+  "ItemName": "Singing Stone",
+  "Type": "Furniture",
+  "TextureWidth": 16,
+  "TextureHeight": 32,
+  "Keywords": ["Hearth", "hnh", "mirror"],
+  "Variations": 4
+}

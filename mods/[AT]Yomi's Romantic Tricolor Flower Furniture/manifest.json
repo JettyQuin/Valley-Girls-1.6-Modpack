@@ -1,0 +1,13 @@
+{
+  "Name": "[AT]Yomi's Romantic Tricolor Flower Furniture",
+  "Author": "Yomi",
+  "Version": "1.0.0",
+  "Description": "FOr Yomi's Romantic Tricolor Flower Furniture",
+  "UniqueID": "AT.Yomi_Romantic_Tricolor_Flower_furniture",
+  "UpdateKeys": [],
+  "Dependencies": [],
+  "ContentPackFor": {
+    "UniqueID": "PeacefulEnd.AlternativeTextures",
+    "MinimumVersion": "3.3.2"
+  }
+}

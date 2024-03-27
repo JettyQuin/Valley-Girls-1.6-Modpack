@@ -1,0 +1,29 @@
+{
+    "config.Mushrooms.name": "Mushrooms",
+    "config.Mushrooms.description": "Enables/disables mushrooms on the map.",
+
+    "config.SmallCrystals.name": "Small Crystals",
+    "config.SmallCrystals.description": "Enables/disables small decorative crystals on the map.",
+
+    "config.LargeCrystal.name": "Large Crystal",
+    "config.LargeCrystal.description": "Enables/disables the large purple crystal in the healing/swimming lake.",
+
+    "config.WaterPlants.name": "Water Plants",
+    "config.WaterPlants.description": "Enables/disables water plants in the rivers and lakes (including lily pads and water lilies).",
+
+    "config.WaterfallColor.name": "Waterfall Color",
+    "config.WaterfallColor.description": "'Vanilla' = original waterfalls.",
+    
+    /*"config.WaterfallMist.name": "Waterfall Mist For Yri Waterfalls",
+    "config.WaterfallMist.description": "Enables/disables misting effects at the bottom of waterfalls for the Yri versions.",
+
+    "config.ShadowEffects.name": "Shadow Effects",
+    "config.ShadowEffects.description": "Overlay a shadow effect on the map, darkening certain areas to give it a more enclosed feel.",*/
+    
+    "config.SparklingLights.name": "Sparkling Lights",
+    "config.SparklingLights.description": "Adds more sparkling lights around the rivers and foliage. Works best with Shadow Effects enabled.",
+
+    "config.Fairies.name": "Fairies",
+    "config.Fairies.description": "Add glowing/sparkling fairies around the map for more enchanting ambiance."
+
+}

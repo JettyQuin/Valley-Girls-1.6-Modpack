@@ -1,0 +1,1132 @@
+﻿// French Translation By Robergue (ACD)
+{
+	"Changes": [
+		//Rename this file as your language code: ie: ko, ru, pt etc
+		{
+		//*********************
+		//    A I D E E N
+		//********************* 
+		"LogName":  "Aideen Dialogue", 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Aideen", 
+		"Entries": {
+			"Introduction": "Bonjour. Je ne crois pas que nous ayons été présentés.^Bonjour. Je ne crois pas que nous ayons été présentées.#$b#Tu es le nouveau fermier ? Et bien, tu as certainement la tête de l'emploi !^Tu es la nouvelle fermière ? Eh bien, tu as certainement la tête de l'emploi !#$b#Je suis Aideen, ravie de te rencontrer.$1",
+			"Resort_Entering": "Quel endroit absolument superbe !$1", 
+			"Resort_Leaving": "%Aideen glisse prudemment un petit paquet dans sa poche.#$b#Ca ? Ce sont des échantillons de la flore locale.",
+			"Resort_Shore": "Ces coquillages... ils sont splendides !#$b#Je pourrais les incorporer dans mes créations, ne penses-tu pas ?",
+			"Resort_Umbrella": "C'est agréable de se mettre un peu à l'ombre. Je ne voudrais pas prendre un coup de soleil.$2",
+			"Resort_Wander": "J'aimerais explorer... Mais Willy nous a conseillé de ne pas trop nous éloigner de la station balnéaire.#$b#Quel dommage, je suis certaine que cette île bourgeonne de fleurs exotiques.",
+			"Resort_Bar": "Je t'en prie, @, viens boire avec moi.#$b#Ce que je bois ? C'est un Pink Lady.$1",
+			"Resort": "C'est agréable de s'éloigner de la vallée de temps à autre.",
+			"Mon": "C'est si paisible ici à East Scarp, loin de cette jeunesse tumultueuse.#$b#Ici, on n'entend rien d'autre que le chant des oiseaux et les bruits de l'océan.",
+			"Tue": "Oh, bonjour ! Le temps est splendide, ne trouves-tu pas ?#$b#C'est un jour idéal pour lire dans le jardin, entouré par les merveilleux parfums de rose et de lavande.",
+			"Wed": "Fais-tu pousser des fleurs dans ta ferme ? Elles embellissent assurément le paysage !#$b#J'aime tout particulièrement les zinnias bleus. Ils ajoutent une touche unique à mes bouquets.$1",
+			"Thu": "Ah, bonjour @. Tu as l'air rudement... rural aujourd'hui.^Ah, bonjour @. Tu as l'air rudement... rurale aujourd'hui.#$b#Quel est donc ce parfum que tu portes ? Eau de terra ? C'est... original.",
+			"Fri": "Le saloon ? La puanteur de la bière, les corps pressés les uns contre les autres... Tu ne m'y verras jamais !#$b#Non, pour moi une soirée agréable consiste à regarder les étoiles. Ou bien à admirer le soleil se coucher sur l'océan.",
+			"Sat": "Mes voisins ? Le Dr Jacob est poli, mais un peu réservé et Eloise est... débordante de questions.",
+			"Sun": "Ce marchand de poissons répugnant a essayé de me vendre ses produits l'autre jour quand je suis allée en ville !#$b#Je n'aurais pas supporter l'odeur un instant de plus et j'ai fui horrifiée.",
+			"danceRejection": "Danser ? Avec toi ? Oh, je ne crois pas non.", 
+			"divorced": "Tu essaies toujours désespérément d'attirer mon attention ? C'est fini entre nous. Va-t'en !$a",
+			"dumped_Girls": "Je n'ai aucune envie de m'afficher avec toi et ternir ma réputation.$a", 
+			"breakUp": "C'est fini ? Je suis peinée, certes. Mais je suppose que je m'en remettrai.$s",
+			"Mon2": "J'espère que tu ne passes pas trop de temps à pêcher, @.#$b#C'est un sport si barbare, et l'odeur est absolument effroyable.$s",
+			"Tue2": "Je suis navrée si je semble irascible, @.#$b#Le Baron Munchington a ramené une souris la nuit dernière et la maisonnée s'en ai trouvée dans le plus grand des chaos ! #$b#C'est à peine si j'ai pu fermer l'œil.$2",
+			"Fri2": "C'est si paisible ici la nuit, @. Rien d'autre que les criquets et le doux murmure des vagues.#$b#Je ne regrette pas le moins du monde l'hideux tapage de la circulation et des sirènes de voiture.",
+			"Sun2": "Oh Seigneur, bonjour @. Que tu m'as surprise ! J'étais absorbée par mes pensées.", 
+			"Wed2": "Le Baron Muchington s'en prouvé être un excellent juge du caractère des gens, @. Toutefois, je crains que son opinion ne soit que trop souvent influencée par son appétit.",
+			"Tue4": "Fais-tu pousser des fleurs à la ferme, @ ? J'aimerais tellement avoir un fournisseur local.", 
+			"spring_Sat6": "Les fleurs de printemps sont un tel délice ! Leurs couleurs rayonnantes ne manquent jamais de me faire sourire.$1",
+			"Mon8": "J'ai eu un prétendant une fois, tu sais.#$b#Avec le recul, je me rends compte que nous n'étions pas compatibles, mais hélas ! J'étais jeune et je refusais d'entendre raison.#$b#J'imaginais qu'il changerait pour moi ! Quelle idée grotesque !",
+			"Thu10": "Très bien, je l'admets. Je ne suis plus repoussée par ta fragrance unique.#$b#Au contraire, je la trouverais presque attirante. N'est-ce pas des plus étrange ?",
+			"Fri6": "East Scarpe ? Il me semble que ce nom vient d'escarpement, et le promoteur immobilier a pensé que le ‘e' ajouterait du cachet !#$b#Ridicule, ne trouves-tu pas ?  Soulier de l'Est !$1",
+			"summer_1": "J'espère que tu es prêt pour l'été, @. Oh, certains matins, nous nous croirions presque sous les tropiques !",
+			"summer_Mon": "Il est évident que tu as travaillé dur aujourd'hui. Puis-je suggérer une petite baignade dans l'océan ?",
+			//"summer_Tue": "",
+			"summer_Wed": "Du poisson pour le Baron Muchington ? Oh non ! Jamais je n'oserais lui servir de la charogne ; il ne mange que les meilleures des croquettes.",
+			"summer_Thu": "Il fait effroyablement chaud, n'est-ce pas ?$3",
+			"summer_Fri": "Cette chaleur a été des plus rudes pour mes pauvres fleurs. Regarde comme leurs pétales tombent !$2",
+			// "summer_Sat": "",
+			"summer_Sun": "Les tournesols sont des fleurs si radieuses, n'es-tu pas d'accord, @ ?$1", 
+			"summer_Wed2": "Parfois, je trempe mes orteils dans l'océan. Mais, oh ! C'est empli de choses misérables et visqueuses.$3",
+			"summer_Tue4": "T'es-tu aventuré dans les montagnes, @ ?^T'es-tu aventurée dans les montagnes, @ ?#$b#Elles sont sauvages et reculées, mais l'air y est si frais et les fleurs... oh ! On y trouve tant d'espèces exotiques !$h",
+			"summer_Sat6": "Cette chaleur est tout simplement épouvantable ! Et ces maudites mouches...$a#$b#J'ai tant hâte qu'arrive l'automne.",
+			"summer_Thu10": "Oh, j'ai soudain été prise d'un étourdissement. Ce doit être la chaleur, car je ne vois pas quoi d'autre pourrait en être la cause.",
+			"fall_Wed": "Je suis navrée si je te semble irascible. Une livraison vient d'arriver... Et mes pauvres lys ont été écrasés !$2#$b#Je serais peut-être en mesure de les sauver... Mais, oh ! J'aimerais qu'on prenne mieux soin de mes précieuses cargaisons !",
+			"fall_Thu": "Tous les jeudis, le Dr Jacob passe acheter des fleurs pour feue sa femme.#$b#C'est si beau et triste à la fois.$2",
+			"fall_Sat": "J'aime tellement l'automne, pas toi @ ? La température est idéale ; et les couleurs ? Sublimes !",
+			"fall_Sun6": "Aimes-tu les histoires de fantômes, @ ?#$b#Tu sais, le bruit court qu'East Scarp serait hanté. Par qui tu demandes ?$3#$b#Oh ! Mais par les esprits des mineurs morts ici, pardi ! Égarés à jamais dans les profondeurs de cette terre impitoyable.#$b#Parfois, lorsque les ombres s'étirent et que le vent souffle dans les branchages... Ma foi, c'est tout bonnement impossible de ne pas y croire.",
+			"fall_Mon8": "Penses-tu que, possiblement, Dame Marnie et le Dr Jacob formerait un beau couple ?#$b#Oh, ignore ce que je viens de dire ; j'ai trop lu dernièrement et j'ai l'esprit empli de rêveries saugrenues.",
+			"fall_Thu6": "Le Dr Jacob rend visite à sa femme chaque semaine depuis qu'elle s'en est allée.#$b#Penses-tu que c'est ça l'amour, @ ? De ne jamais vraiment être à même de renoncer à l'autre ?$2",
+			"fall_Thu8": "As-tu jamais aimé, @ ? Senti ton cœur s'accélérer et la joie monter en toi à la simple vision d'un être cher ?#$b#On en parle si souvent dans la littérature que je crains que la réalité ne s'avère décevante en comparaison.$s",
+			//"fall_Fri10": "",
+			"winter_1": "Un blanc manteau a recouvert la terre et les fleurs sont entrées en hibernation.",
+			"winter_Mon": "L'hiver est une période si morne. Si monochromatique.#$b#Mes amies les fleurs me manquent.#$b#Amies ? Oh, ce n'est rien de plus qu'une tournure de phrase fantaisiste, @.#$b#Pensais-tu réellement que je considérais les fleurs comme des amies ?#u",
+			"winter_Tue": "Le lever du soleil en hiver a comme quelque chose de magique, ne trouves-tu pas, @ ?#$b#Je me suis levée tôt pour cueillir des crocus pour un bouquet très spécial.#$b#Et mes orteils sont maintenant transis de froid.",
+			"winter_Sat4": "J'ose espérer que tu ne songes pas à entrer dans ces horribles grottes !$2#$b#Si froides et humides, si lugubres... et certainement débordantes d'immondes monstres en tous genres !",
+			"winter_Sun8": "Aujourd'hui ? Oh, j'ai l'intention de me pelotonner avec un chat sur les genoux et un livre dans les mains.#$b#Peux-tu imaginer meilleure façon de passer une morne journée d'hiver, @ ?",
+			"winter_Wed2": "T'es-tu déjà rendu à Grampleton, @ ? On y trouve un magasin de vêtements des plus splendides.$1^T'es-tu déjà rendue à Grampleton, @ ? On y trouve un magasin de vêtements des plus splendides.$1",
+			"winter_Thu10": "Oh @ ! Je suis glacée jusqu'aux os. Cela te dérangerait-il grandement si je me blottissais contre toi pour me réchauffer ?",
+			//"winter_Fri10": "",
+			"spring_12": "Je vais aider Dame Mullner avec les arrangements floraux pour demain.#$b#La Chasse aux œufs ? Oh, grand Dieu non ! Jamais je n'y participerai. C'est pour les enfants !",
+			"spring_12_2": "Je vais aider Dame Mullner avec les arrangements floraux pour demain.#$b#La Chasse aux œufs ? Oh, grand Dieu non ! Jamais je n'y participerai. C'est pour les enfants !",
+			"spring_23": "Bonjour @ ! Je ne peux décemment pas m'arrêter pour discuter, je suis affreusement occupée à préparer les arrangements pour la danse de demain !#$b#J'espère que tu y participeras. Quoique tu risques d'avoir du mal à trouver un partenaire. Tout le monde va déjà bien de pair ici.",
+			"spring_23_2": "Bonjour @ ! Je ne peux pas bavarder. Je suis affreusement occupée à préparer les arrangements pour la danse de demain !#$b#J'espère que tu y participeras. Nombreux sont ceux voulant danser avec toi.#$e#Moi ? Oh, grand Dieu ! Comment diable as-tu pu penser cela ? Hors de ma vue, impertinent !^Moi ? Oh, grand Dieu ! Comment diable as-tu pu penser cela ? Hors de ma vue, impertinente !",
+			"winter_7": "Le Festival des glaces ? Oh non, tu ne m'y me verras pas !#$b#Les sculptures sont peut-être belles... mais l'odeur ? Grand Dieu, non !$3",
+			"winter_7_2": "Essaierais-tu de me persuader de participer à ce festival barbare demain ?#$b#Non, je resterai confortablement au chaud avec le Baron Munchinton.",
+			"fall_26": "Est-ce la Fête des Esprits demain ? Tourner en ridicule le surnaturel n'a pour moi que peu d'intérêt.$3#$b#Non, je serai à la maison, avec le Baron et un bon livre, et je n'en serai que plus heureuse.$1",
+			"summer_10": "La Fête Hawaïenne ? C'est si désordonné ! Pas comme les dîners auxquels j'assistais à Grampleton.#$b#C'était là des soirées civilisées. Rien à voir avec ces absurdes auberges espagnoles.",
+			"summer_27": "Demain, les villageois se rassemblent pour assister à la migration annuelle des méduses.#$b#Je n'ai pas encore décidé si je m'y rendrai ou non.",
+			"winter_24": "As-tu reçu ton invitation pour la Fête de l'Étoile Hivernale ? C'est loin d'être un évènement grandiose, mais ça n'est pas dépourvu de charme.$1",
+			//Event responses:
+			"Ai2_1": "Eh bien, tu vois certainement le verre à moitié plein, n'est-ce pas ? Toutefois, je ne doute pas qu'un peu d'optimisme sera certainement utile à %ferme.",
+			"Ai2_2": "Oh, que tu peux être cynique.#$b#Tu as raison, bien sûr. Pélican Ville est loin d'être une baie paradisiaque.#$b#Mais sa paisibilité est un attrait en soi, ne penses-tu pas ?",
+			"Ai2_3": "Difficile ?$a#$b#Ce n'est pas une honte, ni un crime, d'être pointilleux.#$b#En effet, ce serait bien défavorable d'inviter un rustre dans ma maison.#$b#Sur ce, peut-être devrais-tu partir, car tu dois sans nul doute t'occuper de ta ferme.",
+			"Ai2_4": "Oh ! Quelle audace ! Écouter ainsi les conversations privées d'une dame !#$b#Peut-être devrais-tu aller fourrer ton nez dans les affaires d'un autre !$a",
+			//Unique Courtship Dialogue
+			"rejectNPCA": "Pourquoi envisagerais-je même de t'épouser ?$a",
+			"rejectNPCB": "Est-ce que tu te moques de moi ? Je n'ai aucun désir de me lier à toi.$a", 
+			"refusal_no_heartsA": "Oh ! Vous êtes vraiment des plus présomptueux ! Hors de ma vue.$a", //ils ne vous connaissent pas
+			"refusal_no_heartsB": "Non. Laisse-moi tranquille.$u",
+			"engageA": "Je ne suis pas certaine que ta moitié serait ravie.$a", //si vous êtes déjà fiancé
+			"engageB": "N'as-tu aucun bon sens ?$u",
+			"marriedA": "Je ne suis pas certaine que ta moitié serait ravie d'entendre parler de tes infidélités.$a", //si vous êtes déjà marié
+			"marriedB": "",
+			"give_flowersA": "Oh ! Elles sont magnifiques. Évidemment que j'accepte !$4", //accepting 
+			"give_flowerB": "Oh ! Oui, je serais ravie de sortir avec toi !$4",
+			"give_pendant": "Es-tu sérieux ? Oh oui, @. Oui, je serais honorée d'être ta femme.^Es-tu sérieuse? Oh oui, @. Oui, je serais honorée d'être ta femme.", //accepting
+			"stardrop_gift": "", 
+			"reject_two_heartA": "", 
+			"reject_two_heartB": "",
+			"reject_four_heartA": "", 
+			"reject_four_heartB": "", 
+			"refusal_knownA": "", 
+			"refusal_knownB": "", 
+			"refusal_botherA": "", 
+			"refusal_botherB": "",
+			//Unique Jealousy Responses: - requires the mod. It basically means if you are caught giving a gift to someone else "single" your spouse won't necessarily get jealous: unless you lie about it, I suppose?
+			"giftquestion_yes": "", 
+			"giftquestion_lie": "",
+			"Aideen_102": "Les voisins ? Oh, certainement pas Sterling. Il est vrai qu'il exsude un certain charme viril, mais non, c'est à peine s'il est civilisé !$3#$b#Ou bien pensais-tu au Dr Jacob ? Hum... Et bien, il est assurément aimable et nous avons, à l'occasion, échangé passionnément sur les arts et la littérature. $1#$b#En outre, le Baron Muchington l'adore. Mais je crains qu'il ne me verrait que comme l'ombre de sa femme.$2",
+			"Aideen_103": "Oh, M. @ !$4^Oh, Mlle @ !$4#$b#Désires-tu me fréquenter ?$7#$b#Eh bien, tu exsudes un certain charme rural pittoresque.$1^Je n'ai encore jamais été courtisée par une femme ! C'est des plus rafraîchissant.$1#$b#Et je me suis certainement attachée à toi. Mais de là à t'aimer ?  Eh bien, peut-être notre histoire est-elle un feu qui couve et non un coup de foudre ?$7",
+			"Aideen_104": "Le Baron Munchinton est assurément d'agréable compagnie, mais sa conversation laisse à désirer.#$b#Et j'admets avoir espérer un jour pouvoir avoir ces deux choses.",
+			"Aideen_105": "Quel point de vue nihiliste, @. Je ne suis pas certaine d'apprécier ton cynisme. Allez-vous-en, ton cynisme et toi.", 
+			//Unique Gift Tastes
+			"GiftReaction_Ancient_Flower": "Oh ! C'est une fleur des plus magnifiques. Où l'as-tu trouvée ?$4",
+			"GiftReactionCatergory_-80": "Je te remercie ! Ce sera splendide dans un bouquet !", 
+			"GiftReaction_Blue_Jazz": "Je l'adore ! Ça ajoute une touche unique à n'importe quel bouquet.$4",
+			//New ****************
+			"GiftReaction_Rodney's_Autograph": "Oh ! C'est une photo dédicacée de Rodney. Si pittoresque. Je suppose que je pourrais m'en servir comme marque-page.$2",
+			"reject_534": "Oh non, c'est magnifique, mais tu ne devrais pas m'en faire cadeau. C'est une antiquité ! Et regarde, il y a une inscription.#$b#Tu devrais retrouver son propriétaire légitime. Je suis certaine qu'ils voudraient le récupérer !$1 ",
+			//Conversation Topics
+			"MateoAideenScene1": "Oh... Je peine à y croire, mais je pense encore à ma rencontre de tout à l'heure...$2#$b#Rustre s'il en est, mais étonnement éloquent.#$b#Oh, si seulement il pouvait regarder où il mettait les pieds !$a",
+			"Aideen_Garden": "Tout commence à prendre forme, mon chéri. Le jardin devrait être prêt d'ici quelques jours.$1^Tout commence à prendre forme, ma chérie. Le jardin devrait être prêt d'ici quelques jours.$1",
+		}
+	},
+	{ //Marriage Dialogue for Aideen
+		"LogName":  "Aideen Dialogue", 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/MarriageDialogueAideen", 
+		"Entries": {
+			"Rainy_Day_0": "Oh, ce temps pluvieux est si maussade, ne trouves-tu pas ?$2 ",
+			"Rainy_Day_1": "Parfois, je rêve de partir à l'aventure. Il y a des fleurs exotiques sur les Iles Fougères, tu sais.",
+			"Rainy_Day_2": "Bonjour ! Le temps était si morne que j'ai décidé de te préparer une gâterie.[223 234 211 651 731]#$e#Une douceur pour mon sucre d'orge !$h",
+			"Rainy_Day_3": "Reste bien au chaud et au sec aujourd'hui, mon cœur. Je ne veux pas avoir à jouer à l'infirmière si tu attrapes un rhume !",
+			"Rainy_Day_4": "Aujourd'hui est un jour idéal pour rêvasser... Et se tenir au fait des dernières tendances florales.#$b#Prends soin de toi, mon amour !$1",
+			"patio_Aideen": "Ah, bonjour, @. Il n'y a rien d'aussi relaxant, ou d'inspirant, qu'un jardin.$1",
+			"spouseRoom_Aideen": "Bonjour, tu es particulièrement verdoyante aujourd'hui... Oh, bonjour @ !#$b#J'encourageais simplement mes amies les fleurs.$4 ",
+			"Rainy_Day_Aideen": "Ne t'inquiète pas pour moi aujourd'hui, @. Le dernier numéro de 'En Fleurs' est arrivé ce matin et je vais m'y plonger toute la journée !#$b#Sois prudent et reste au sec !^Sois prudente et reste au sec !",
+			"Rainy_Night_0": "Tu es rentré ! Ne trempe pas le sol s'il te plaît. Oh, et retire ces bottes !^Tu es rentrée ! Ne trempe pas le sol s'il te plaît. Oh, et retire ces bottes !",
+			"Rainy_Night_1": "Je suis navrée si je semble un peu préoccupée ce soir.#$b#J'ai travaillé sur une couronne mortuaire toute la journée et cela m'a rendu quelque peu mélancolique.$2",
+			"Rainy_Night_2": "Je me suis délectée à la lecture d'un merveilleux livre intitulé 'Le Secret du Langage des Fleurs'. Devrions-nous le lire ensemble ?$1",
+			"Rainy_Night_3": "J'ai récemment entendu parler de l'Orchidée Murmure de la Nuit. Elles ne fleurissent que si elles sont plantées à côté d'un partenaire de la même espèce. Plutôt romantique, tu ne trouves pas ?",
+			"Rainy_Night_4": "Ah, mon chéri, tu es enfin rentré ! Le dîner est presque froid.[727 231 207 199]$h^Ah, ma chérie, tu es enfin rentré ! Le dîner est presque froid.[727 231 207 199]$h",
+			"Rainy_Night_5": "Oh, je suis navrée pour la fragrance de chat mouillé.#$b#Le Baron Munchington s'est laissé tenté par une brève excursion extérieure.$a",
+			"Rainy_Night_Aideen": "Ah bien, tu es de retour. Ça a été affreusement ennuyeux ici.#$b#Qu'en dis-tu ? Devrions-nous mettre un peu d'ambiance ?$4",
+			"Indoor_Day_0": "Bonjour, mon chéri. J'espère que tu as bien dormi.^Bonjour, ma chérie. J'espère que tu as bien dormi.",
+			"Indoor_Day_1": "Je me suis levée tôt et j'ai pensé que nous pourrions prendre le petit-déjeuner ensemble.[194 195 210 211 216]$4",
+			"Indoor_Day_2": "As-tu fait des cauchemars, mon amour ? Tu étais agité et t'es retourné toute la nuit durant.$2^As-tu fait des cauchemars, mon amour ? Tu étais agitée et t'es retournée toute la nuit durant.$2#$b#J'étais rongée par l'inquiétude !$2",
+			"Indoor_Day_3": "Se pourrait-il que notre maisonnette soit hantée, mon amour ? Je sens une présence, ici, qui nous observe.$2#$b#Oh, mais ne crains rien ! Je suis certaine qu'elle est bénigne. Peut-être est-ce un proche ?$1",
+			"Indoor_Day_4": "Voudrais-tu rester à la maison et me tenir compagnie, mon amour ?$3#$b#Non ? Eh bien, je t'aime tout de même. Prends soin de toi.$4",
+			//"Indoor_Day_Aideen": "",
+			"Indoor_Night_Aideen": "As-tu passé une bonne journée, mon chéri ? A-t-elle été épanouissante ?^As-tu passé une bonne journée, ma chérie ? A-t-elle été épanouissante ?#$b#Moi ? Oh, j'ai préparé des bouquets pour un mariage?#$b#Cela m'a rendu, ma foi... encline au romantisme !$4",
+			"Indoor_Night_0": "Ah, @. Tu es enfin rentré ! J'étais devenue lasse de t'attendre.$4^Ah, @. Tu es enfin rentrée ! J'étais devenue lasse de t'attendre.$4",
+			"Indoor_Night_1": "Je t'en prie, mon amour, ne regarde PAS derrière le corps de ferme. Le Baron Munchington et un oiseau ont eu un... malentendu et il a fini sur des termes... ma foi, pour les moins disgracieux.", 
+			"Indoor_Night_2": "J'ai fait des recherches sur le compagnonnage végétal. Cela peut s'avérer très bénéfique pour accroître la production et lutter contre les nuisibles.#$b#Cela pourrait peut-être t'intéresser.",
+			"Indoor_Night_3": "Bonsoir mon amour ! Oh, tu sembles épuisé.^Bonsoir, mon amour ! Oh, tu sembles épuisée.#$b#Viens-là, je vais allumer des bougies à la lavande pour t'aider à t'endormir.$4",
+			"Outdoor_0": "Je n'avais jamais imaginé que je vivrais dans une ferme... Mais tu sais ? C'est plus civilisé que ce que j'avais craint.$1",
+			"Outdoor_1": "L'air extérieur est si frais et parfumé. Bien qu'un peu trop rural à mon goût.$2",
+			"Outdoor_2": "%ferme est magnifique, @. Je n'avais jamais imaginé que la vie de fermière pourrait être aussi agréable.$4",
+			"Outdoor_3": "Bonjour, mon amour. Le Baron Munchington et moi revenons d'une promenade matinale. Je me sens on ne peut plus revigorée !$1",
+			"Outdoor_4": "Aujourd'hui est un jour idéal pour la cueillette, n'es-tu pas d'accord ?$1", 
+			"Outdoor_Aideen": "Quelle journée splendide ! Je pense que je vais lire un peu dehors.",
+			"funLeave_Aideen": "C'est une journée des plus magnifiques pour une promenade, n'est-ce pas ? Peut-être trouverai-je des fleurs exotiques pour mes créations.",
+			"funReturn_Aideen": "Bonsoir, mon chéri ! Oh, mes jambes sont si lourdes. Grand-mère Evelyn m'a donné ceci. [222 234 220 223 223 223]^Bonsoir, ma chérie ! Oh, mes jambes sont si lourdes. Grand-mère Evelyn m'a donné ceci. [222 234 220 223 223 223]#$b#Je lui ai dit que tu n'avais pas besoin de davantage de douceurs — mais elle s'est montrée très insistante.$1", 
+			"OneKid_0": "La vie d'une mère est difficilement palpitante, mais je dois toutefois reconnaître qu'elle est gratifiante.",
+			"OneKid_1": "%kid1 a le plus beau des sourires. Je suis sûre qu'il sera un grand charmeur en grandissant.$1",
+			"OneKid_2": "Peut-être devrais-je emmener %kid1 pour une promenade. L'on est jamais trop jeune pour apprendre le langage des fleurs, après tout.$1",
+			"OneKid_3": "Pauvre Baron Munchington, %kid1 l'a tout ébouriffé !#$b#Il n'est pas encore habitué à devoir partager mon affection.$3",
+			"TwoKids_1": "Les enfants ont dîné, bien que je doive avoué que leur comportement à table soit inacceptable.$2#$b#Ma foi, je crois que le Baron Muchington est un meilleur convive qu'eux !$1.",
+			"TwoKids_2": "Le Baron Munchington semble vraiment aimer les enfants. Bien que %kid1 paraisse quelque peu trop enthousiaste.",
+			"TwoKids_3": "Y a-t-il des pétales dans mes cheveux ? Oh, je ne sais pas comment ils sont arrivés là !$4#$b#Les enfants et moi pressions des fleurs. %Kid2 a de véritables prédispositions pour les arts. %Kid1... Eh bien, son enthousiasme compense le reste.$1",
+			"spring_22": "Oh ! La Danse des Fleurs est dans deux jours. Je m'excuse mon amour, car je crains que je ne sois très occupée d'ici là.$4",
+			"spring_24": "Je serai ravie de danser avec toi aujourd'hui.$1#$b#Et ensuite ? Eh bien, nous verrons !$4",
+			"spring_1": "Le printemps est arrivé et, bientôt, mes amies les fleurs seront de retour. Je t'en prie, je te serais profondément reconnaissante si tu pouvais planter cela pour moi. [429][429][429][429][429]",
+			"summer_3": "L'été est arrivé et j'ai un nombre astronomique de commandes de compositions florales pour des mariages !$1#$b#Oh, je ne me plains pas, mais pourquoi quiconque voudrait se marier par une telle chaleur ?$3",
+			"summer_15": "Le pauvre Baron Muchington n'apprécie pas vraiment ce temps, et je ne peux pas lui en vouloir !$3",
+			"fall_2": "Ces nuits fraîches sont bien plus agréables.",
+			"fall_1": "Aurais-tu la gentillesse de planter ces gaines pour moi, @ ? [425][425][425]",
+			"winter_14": "Le Marché nocturne sera bientôt en ville. Je me demande quelle sorte de marchandises exotique nous pourrons y trouver !$1",
+			"winter_2": "Frisquet, n'est-ce pas ? Peut-être que plus tard nous pourrons nous câliner pour nous réchauffer ?$4",
+			"Good_1": "Mon amour ! C'est tout simplement merveilleux de te revoir. Mon désir d'être près de toi n'est-il pas étrange ?$1#$b#Tu sais combien je t'aime, n'est-ce pas ?$4",
+			"Good_2": "Bonjour, mon chéri, tu es radieux aujourd'hui. Peut-être pourrions-nous nous prévoir un rendez-vous ce soir ?^Bonjour, ma chérie, tu es radieuse aujourd'hui. Peut-être pourrions-nous nous prévoir un rendez-vous ce soir ?",
+			"Neutral_0": "Tu sors de nouveau, mon chéri ? Oh, ne t'en fais pas pour moi. Le Baron Munchington me tiendra compagnie.^Tu sors de nouveau, ma chérie ? Oh, ne t'en fais pas pour moi. Le Baron Munchington me tiendra compagnie.#$b#Mais tu me manqueras tout de même.$2",
+			"Neutral_1": "Ce que j'ai fait aujourd'hui ? Oh, rien d'important.$3#$b#Comment s'est passé ta journée ?",
+			"Neutral_6": "Oh, je suis navrée mon chéri. J'étais absorbée par mes pensées.^Oh, je suis navrée ma chérie. J'étais absorbée par mes pensées.",
+			"Bad_5": "Oh, tu m'as considérée être digne de ton attention aujourd'hui ? Et tu supposes peut-être que je vais m'en montrer reconnaissante ?$5",
+			"Bad_6": "La vie à la ferme est un véritable calvaire et je me sens sombrer dans la mélancolie.#$b#Oh, ne t'inquiète pas pour moi. Je suis certaine que tu as des choses plus importantes à faire que de t'occuper de ton épouse.$5",
+			"Bad_7": "...",
+			"Bad_8": "%Aideen vous ignore.", 
+			"Bad_9": "%Aideen vous tourne le dos."
+		}
+	},
+	/*************************
+	//	E L O I S E
+	**************************/
+	{
+		"LogName": "Eloise", 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Eloise", 
+		"Entries": {
+			"Resort_Entering": "Oh, ouah ! Cet endroit est génial!", 
+			"Resort_Leaving": "Au revoir les perroquets ! À bientôt.$1",
+			"Resort_Shore": "Regarde tous ces jolis coquillages ! Tu veux m'aider à faire un collier, fermier @ ?^Regarde tous ces jolis coquillages ! Tu veux m'aider à faire un collier, fermière @ ?",
+			"Resort_Umbrella": "Papa dit que je ne dois pas rester au soleil toute la journée.", 
+			"Resort_Towel": "Je dessine les oiseaux, fermier @. Comme un vrai naturaliste.$1^Je dessine les oiseaux, fermière @. Comme un vrai naturaliste.$1", 
+			"Resort_Wander": "Je parie qu'il y a tout un tas d'oiseaux super cools dans le coin.",
+			"Resort_Bar": "Gus m'a fait un punch super spécial avec de l'eau de noix de coco et de la mangue. Regarde, il y a même un parasol et tout !$1",
+			"Resort": "Il y a des perroquets ici, @ ! Ils sont géniaux, pas vrai ?#$b#Les perroquets sont super intelligents, tu sais ! Certains savent même utiliser des outils.",
+			"Introduction": "Salut ! Je suis Eloise, mais tu peux m'appeler Ellie si tu veux.#$b#Tu es le nouveau fermier, pas vrai ?^Tu es la nouvelle fermière, pas vrai ?",
+			"Mon": "Est-ce que je pourrais passer explorer ta ferme un jour ? Je suis sûre qu'elle est pleine de choses intéressantes !",
+			"Mon2": "Il y a une chatte errante qui vit près de la plage. Elle est très maigre et apeurée. J'ai essayé de devenir son amie, mais elle n'a pas l'air de vouloir...",
+			"Mon4": "Je voulais explorer la grotte de la plage, même si papa avait dit que c'était trop dangereux et que je ne devais pas m'en approcher.#$b#C'était vraiment sombre et effrayant, et ça m'a fait frissonner de partout. J'ai opéré à une retraite stratégique !$3",
+			"Mon6": "Pourquoi est-ce que les gens se disputent, fermier @ ? J'ai un ami dans la République de Gotoro.^Pourquoi est-ce que les gens se disputent, fermière @ ? J'ai un ami dans la République de Gotoro.#$b#Il s'appelle Sora. Il est vraiment gentil et même pas un tout petit peu méchant !",
+			"Mon8": "Quel est ton animal préféré, fermier @ ?^Quel est ton animal préféré, fermière @ ?#$b#Ah oui, ils sont pas mal ! Mais moi c'est les pélicans que je préfère !$1",
+			"Mon10": "Tu sais, fermier @, papa se sent seul depuis que maman est morte. Tu pourrais emménager avec nous et lui tenir compagnie. Ça ne me dérangerait pas de le partager si c'est avec toi !^Tu sais, fermière @, papa se sent seul depuis que maman est morte. Tu pourrais emménager avec nous et lui tenir compagnie. Ça ne me dérangerait pas de le partager si c'est avec toi !",
+			"Tue": "Est-ce que tu aimes les oiseaux, fermier @ ? Parce que si tu ne les aimes pas, alors on peut pas être amis.^Est-ce que tu aimes les oiseaux, fermière @ ? Parce que si tu ne les aimes pas, alors on peut pas être amies.",
+			"Tue2": "Jas est ma meilleure des amies au monde, même si elle veut surtout jouer aux poupées.",
+			"Tue4": "Je suis tombée d'un arbre aujourd'hui et je me suis écorché le genou ! Mais ne t'en fais pas, Mme Marnie m'a soignée — regarde mon joli pansement !#$b#Mais ne le dis pas à papa ou il se fâcherait.",
+			"Tue6": "Mme Marnie est une excellente cuisinière. Ça ne me dérangerait pas si elle voulait épouser mon papa.#$b#Mais elle a juste rigolé quand je lui ai dit d'y penser.$3",
+			"Tue8": "Le chat errant a attrapé un moineau hier. J'ai essayé de le sauver, mais je n'ai pas réussi...$2#$b#Papa dit qu'une fois qu'un chat les a attrapés, c'est trop tard. S'ils ne meurent pas de peur, ils meurent d'une infection.$2",
+			"Tue10": "J'écris au gouverneur pour lui demander d'aider les habitants du Gotoro.#$b#C'est de notre faute si Sora et sa famille sont sans-abri. C'est nous qui avons envahi leurs terres !",
+			"Wed": "Tu veux venir visiter le ranch un jour ? Tu pourrais rencontrer Princesse Minuit et Sir Fluffinou !#$b#Et on a un perroquet aussi, il s'appelle Richie et c'est un macao ! Il connaît un tas de mots et ils ne sont pas tous polis !",
+			"Wed2": "Est-ce que tu explores les cavernes, fermier @ ? Je parie que tout un tas de créatures vraiment cools y habitent.^Est-ce que tu explores les cavernes, fermière @ ? Je parie que tout un tas de créatures vraiment cools y habitent.#$b#Certaines espèces de martinets vivent dans les cavernes. Ils font leurs nids avec leur salive.$1#$b#Et dans certains pays, on mange les nids ! Beurk, est-ce que tu t'imagines manger la salive de quelqu'un ?$3",
+			"Wed4": "Tu sais que certains oiseaux vivent dans les cavernes ? Ce sont des guacharo des cavernes. Ils volent dans le noir grâce à l'écholocalisation — comme les chauves-souris, mais pas aussi bien qu'elles !",
+			"Wed6": "Je pense que Mme Pam aime bien mon papa. Elle bat toujours des cils devant lui.#$b#Je ne l'aime pas. Elle sent la bière et ça me donne la nausée.#$b#En plus, des fois, elle est méchante avec Mlle Penny, alors que Mlle Penny est la plus gentille personne du monde entier !$2",
+			"Wed8": "Richie appartenant à grand-papa avant et il lui a appris plein de vilains mots !#$b#Mais les perroquets vivent très longtemps et quand grand-père est devenu trop vieux pour s'occuper de lui, Richie est venu vivre chez nous.",
+			"Wed10": "Je suis heureuse de vivre juste avec mon papa et plein d'animaux, mais des fois papa a l'air triste.#$b#Je pense qu'il se sent seul. Mais peut-être que tu pourrais passer des fois et lui tenir compagnie ?",
+			"Thu": "Je serais une exploratrice un jour ! Peut-être même que je découvrirai un nouvel animal.",
+			"Thu2": "Tu dois faire attention si tu vas sur la plage la nuit, parce que les crabes rocheux nocturnes sortent chasser des vers des sables et tout sur la plage.#$b#Une fois j'en ai vu un aussi gros qu'un chat !#$b#Mais ils sont mauvais, parce qu'ils mangent aussi les bébés animaux et les oisillons — même des enfants imprudents des fois.",
+			"Thu4": "Des fois, après la pluie, je vais chercher des coquillages sur la plage.",
+			"Thu6": "Tu sais ce que c'est un nuisible, fermier @ ? C'est un animal qui ne vit pas naturellement à un endroit, mais qui y est introduit par les gens — des fois par accident, des fois exprès — et supplante — ça veut dire chasse ou tue — les animaux qui y vivent déjà.^Tu sais ce que c'est un nuisible, fermière @ ? C'est un animal qui ne vit pas naturellement à un endroit, mais qui y est introduit par les gens — des fois par accident, des fois exprès — et supplante — ça veut dire chasse ou tue — les animaux qui y vivent déjà.#$b#Comme les crabes rocheux qui vivent sur la plage. Papa dit qu'on doit les garder sous contrôle, sinon ils s'étendront à d'autres plages et domineront peut-être même le monde entier !",
+			"Thu8": "Je m'inquiète pour Sora. Il doit avoir si peur en Gotoro. J'aimerais qu'il y ait un moyen pour l'amener ici en sécurité, et sa maman et sa petite sœur aussi.",
+			"Fri": "Papa est trop intelligent, mais il est aussi trop occupé, donc je suis contente que Mlle Penny puisse nous apprendre des choses !#$b#Jas est ma meilleure amie au monde, et Vincent est OK. Pour un garçon !",
+			"Fri2": "Mlle Penny dit que je pose beaucoup de questions. Trop pour qu'elle puisse suivre ! Mais il y a juste trop de choses que je veux apprendre !",
+			"Fri4": "Mlle Penny nous a demandé de choisir notre animal préféré pour un projet. J'ai choisi le pélican, parce qu'ils sont super cools, et jas a choisi le geai bleu.#$b#Vincent a choisi une araignée — une araignée domestique pour être exacte — et il l'a apportée en classe dans une boîte d'allumettes !#$b#Mlle Penny n'était pas très contente.$3",
+			"Fri6": "Vincent a dit que les fifilles portaient des robes roses et tout ça et que j'étais pas une fifille parce que j'aime grimper aux arbres et fouiller dans les feuilles mortes pour chercher des insectes.#$b#Mais moi aussi je peux porter des jolies robes si je veux, pas vrai ?#$b#Je crois qu'il est jaloux ; sa maman ne le laisse pas mettre de beaux vêtements parce qu'il se salit tout le temps.",
+			"Sat": "Tu ne dois pas faire de bruit si tu veux regarder les oiseaux. Papa dit que je suis une vraie pipelette, mais je sais quand même me taire !",
+			"Sat2": "Princesse Minuit est le chat le plus paresseux au monde. Elle ne sort presque jamais de la maison.#$b#Alors, je n'ai pas peur qu'elle attrape mes amis les oiseaux.",
+			"Sat4": "Il y a plein de baies qui poussent ici au printemps et en automne. C'est pour ça que les oiseaux aiment East Scarp !", 
+			"Sun": "Papa va toujours voir maman le dimanche. Ça me rend un peu triste. Elle me manque, même si je ne me souviens pas bien d'elle.",
+			"Sun2": "On va à la plage ! Je trouverai peut-être de jolis coquillages. Mes préférés ce sont les très colorés.#$b#Et les pélicans me font rire. Ils ont une tête si drôle.$1",
+			"Sun4": "Tu savais que les oiseaux descendent des dinosaures, fermier @ ? Les premiers oiseaux s'appelaient arche— archéoptéryx. Ça veut dire 'aile antique'.^Tu savais que les oiseaux descendent des dinosaures, fermière @ ? Les premiers oiseaux s'appelaient arche— archéoptéryx. Ça veut dire 'aile antique'.#$b#C'est drôle de penser que des dinosaures ont pu ressembler à un pélican ou à une oie !",
+			"summer_Mon": "Ce n'est pas amusant d'observer les oiseaux en été. Les Iles Fougères sont recouvertes de fruits alors les oiseaux chanteurs partent en vacances — comme les gens !",
+			"summer_12": "Je vais à la plage demain, fermier @ ! Les flamants roses huppés s'arrêtent ici avant de migrer en Gotoro. Tu veux venir les voir avec moi ?^Je vais à la plage demain, fermière @ ! Les flamants roses huppés s'arrêtent ici avant de migrer en Gotoro. Tu veux venir les voir avec moi ?",
+			"ArchaeologyHouse": "Mlle Penny est un bon professeur. Elle connaît tout un tas de choses sur la vallée.",
+			"spring_1_2": "Ouais, c'est le printemps ! Est-ce que tu as des bébés animaux à ta ferme ?",
+			//"winter_16_2": "Hé, est-ce que tu as déjà attrapé un blobfish, fermier @ ?^Hé, est-ce que tu as déjà attrapé un blobfish, fermière @ ?#$b#Ils vivent dans des eaux très profondes où la pression est très forte et, quand on les remonte, leur corps se décompresse et ils deviennent tout bizarres et gélatineux.#$b#C'est dégueu et triste. Tu devrais les laisser tranquilles.$2",
+			"winter_24": "C'est la Fête de l'Étoile Hivernale demain ! Est-ce que tu as hâte d'échanger les cadeaux ?#$b#Papa m'a promis une nouvelle paire de jumelles ! Qu'est-ce que tu voudrais avoir, fermier @ ?^Papa m'a promis une nouvelle paire de jumelles ! Qu'est-ce que tu voudrais avoir, fermière @ ?",
+			"winter_24_2": "Bonjour fermier @ ! À qui est-ce que tu offres un cadeau cette année ? Est-ce que ce sera à moi ? *gloussement*^Bonjour fermière @ ! À qui est-ce que tu offres un cadeau cette année ? Est-ce que ce sera à moi ? *gloussement*",
+			"summer_28": "Les méduses viennent ce soir, alors papa me laisse me coucher plus tard que d'habitude !$1", 
+			"winter_Mon": "Tu savais que certains animaux dorment tout l'hiver, fermier @ ? Des fois, je voudrais pouvoir dormir tout l'hiver aussi. Il fait si froid !^Tu savais que certains animaux dorment tout l'hiver, fermière @ ? Des fois, je voudrais pouvoir dormir tout l'hiver aussi. Il fait si froid !#$b#Mais alors je ne pourrais pas faire de bonhommes de neige ou faire de batailles de boules de neige avec papa. Donc peut-être que c'est pas si mal l'hiver, en fait.",
+			"winter_Thu": "J'ai écrit à Sora pour lui parler de la neige. Je ne crois pas qu'il neige là où il vit. Sauf peut-être en haut des montagnes.",
+			"JasperGone1": "Le Professeur Jasper est parti pour une grande aventure ! Il est à la recherche de nains — et il m'a promis un beau joyau.#$b#Mais les cavernes sont vraiment effrayantes et pleines de vilaines choses... J'espère qu'il reviendra vite.$2",
+			"GOABB": "Jas m'a raconté une histoire vraiment effrayante avec des pistolets et un lapin bleu géant. C'était sur la guerre, comme la guerre en Gotoro.$3#$b#Comment est-ce que Jas en sait autant sur la guerre ? Je sais pas... mais je crois qu'elle a un nouvel ami et qu'elle veut pas le partager avec moi.$2",
+			"LucikielArrives": "As-tu vu l'homme-monstre ? Jas dit qu'il fait vraiment peur et que ça lui a donné envie de vomir.$2#$b#J'aurais voulu le voir... Je n'aurais pas eu peur !",
+			//Answers to Event Questions
+			"Eloise_Duck_Y": "Hum... Maïs, laitue, petits pois, avoine, même des graines !",
+			"Eloise_Duck_W": "Bien sûr que oui ! Il adore ça. Autant que j'aime le gâteau rose !#$b#Mais si j'en mange tout le temps, je grossirais et je serais malade. Et lui aussi.$2#$b#Le maïs, la laitue, les petits pois, c'est bien meilleur pour lui !",
+			"Eloise_Duck_G": "Bien sûr ! Le raisin c'est bon.#$b#Le maïs, la laitue et les petits pois aussi !", 
+			"Eloise_Duck_N": "Je ne suis pas autoritaire ! Tu es méchant.$2",
+			"Is_Sora_Dead": "Sora n'a toujours pas écrit. Peut-être qu'il ne m'aime plus...#$b#Ou alors... Non, ça me fait mal au ventre d'y penser. Comme s'il était plein d'oiseaux, et ce n'est pas du tout agréable.$2",
+			//courtship responses
+			"rejectNPCA": "Est-ce qu'elles sont pour ma maman ? Elle aimait beaucoup les jolies fleurs.$3",
+			"rejectNPCB": "Je n'aime que les jonquilles ! Les plumes c'est bien mieux.$1",
+			"refusal_no_heartsA": "Est-ce que toi aussi tu ramasses des coquillages sur la plage ? Celui-ci est vraiment étrange.",
+			"refusal_no_heartsB": "Est-ce que tu vas donner ça à mon papa ? Parce que je ne sais pas encore si je t'aime bien !$3",
+			"engageA": "Tu devrais donner ça à ton amoureux ! C'est vraiment joli.$1", 
+			"engageB": "Oh, c'est un joli coquillage ! Est-ce que c'est pour ton amoureux ?", 
+			"marriedA": "Oh, je suis sûre que %spouse va l'adorer !",
+			"marriedB": "C'est vraiment joli. Est-ce que c'est pour %spouse ?",
+			"winter_Tue2": "$q 5787001/5787002 winter_TueBack#Comment sont tes parents, @ ?#$r 5787001 25 Parents_proud#Ils sont fier que j'aie repris la ferme.#$r 5787001 25 Parents_love#Ils sont géniaux, je les aime énormément.#$r 5787001 25 Parents_good#Ce sont des gens bien, même si on se dispute parfois.#$r 5787002 0 Parents_personal#C'est personnel ; ce n'est pas poli de demander ça.#$r 5787002 -25 Parents_rude#C'est personnel, arrête de fouiner !",
+			"Parents_proud": "Bien sûr qu'ils le sont ! Je suis sûre que ta ferme est très belle.$1",
+			"Parents_love": "C'est bien ! Moi aussi j'aime beaucoup mon papa !$1",
+			"Parents_good": "Papa et moi on ne s'entend pas toujours, mais on s'aime beaucoup ! Je parie que c'est comme ça avec ta famille.$1",
+			"Parents_personal": "Oh... Je suis désolée... Papa dit toujours que je parle avant de réfléchir. J'essaierai de m'améliorer et de faire attention la prochaine fois. Promis !$3",
+			"Parents_rude": "Pardon...$2",
+			"winter_TueBack": "L'hiver n'est pas une bonne saison pour les oiseaux, fermier @. C'est dur de trouver de la nourriture !^L'hiver n'est pas une bonne saison pour les oiseaux, fermière @. C'est dur de trouver de la nourriture !#$b#Parfois je jette des graines sur la pelouse. Les cardinaux adorent ça !",
+			//New Dialogue
+			"spring_Fri10": "Est-ce que tu savais que les bébés oiseaux, les oisillons, ne savent pas encore voler la première fois qu'ils quittent leur nid ?#$b#Si tu en vois un et qu'il n'y a aucun prédateur, il ira bien. Mais ne le touche pas !$3",
+			"Sat10": "J'ai relu les lettres que Sora m'a envoyées. J'espère qu'il va bien. Sa vie a l'air de faire peur.#$b#Je suis contente que papa, maman et moi soyons revenus ici avant que tout devienne horrible. Mais j'aurais voulu qu'on emmène aussi Sora et sa famille par contre.$2",
+			"Sun10": "Est-ce que tu veux venir ratisser la plage avec nous aujourd'hui ? Papa me laisse ramasser des coquillages pour que je les dessine. J'en fais un album !$1",
+			"summer_Mon10": "Peut-être que je te laisserai lire mon journal un jour, @.$3#$b#Mais pas aujourd'hui.", 
+			"summer_Tue10": "C'est quoi ta saison préférée, fermier @ ?^C'est quoi ta saison préférée, fermière @ ?#$b#L'automne est la plus jolie, mais je crois que je préfère le printemps. Parce qu'il y a des bébés animaux, et puis aussi mon anniversaire.$1",
+			"summer_Wed10": "Est-ce que tu as vu des pics ? Tu savais que les pics tambourinaient le bois avec à peu près 1000 fois la force de la gravité ?$3#$b#Et ils n'ont même pas mal au crâne ! Est-ce que c'est pas génial ?$1",
+			"summer_Thu10": "Papa et moi, on a regardé de vieux albums photos hier soir. Ma maman et lui avaient l'air vraiment heureux.#$b#J'aimerais qu'elle ne soit pas morte. Maintenant, c'est à moi de le faire sourire.#$b#Mais toi aussi tu le fais sourire, fermier @. Je suis contente que tu sois son ami.$1^Mais toi aussi tu le fais sourire, fermière @. Je suis contente que tu sois son amie.$1",
+			"summer_Fri10": "Est-ce que tu aimes nager, fermier @ ? East Scarp a la meilleure plage pour nager ! Des fois, un poisson mordille tes doigts de pied.$1^Est-ce que tu aimes nager, fermière @ ? East Scarp a la meilleure plage pour nager ! Des fois, un poisson mordille tes doigts de pied.$1#$b#Mais t'inquiète pas ! Ils n'essaient pas de te manger. Ils ne mangent que la peau morte. Dégueu, pas vrai ?$3",
+			"summer_Sat10": "Des fois, Mlle Rosa donne du pain et tout ça aux canards... Je lui dis tout le temps qu'elle devrait pas.#$b#Je crois qu'elle ne m'aime pas beaucoup.",
+			"summer_Sun10": "Papa dit qu'il y a des contrebandiers et des pirates qui venaient ici. Je me demande s'ils ont enterré des trésors...?",
+			"fall_Mon10": "Est-ce que tu aimes les batailles de feuilles, fermier @ ? La dernière fois qu'on en a fait une avec Vincent et Jas, Vincent m'a jeté un ver de terre dans le cou.^Est-ce que tu aimes les batailles de feuilles, fermière @ ? La dernière fois qu'on en a fait une avec Vincent et Jas, Vincent m'a jeté un ver de terre dans le cou.#$b#Ca chatouillait !$1",
+			"fall_Tue10": "J'essaie d'apprendre de nouveaux mots à Richie. Mais il est très têtu.#$b#Il est vieux, tu sais. Il a appartenu à mon papy. Je ne pense pas qu'il était un monsieur très gentil. Papa ne parle presque jamais de lui.",
+			"fall_Wed10": "J'ai appris tellement de choses à l'école ! Mlle Penny est vraiment un bon professeur.#$b#Même si des fois elle dit que je la remets un peu trop en question. Mais je la corrige seulement quand elle se trompe. Parce que c'est mieux d'avoir les bonnes informations, non ?",
+			"fall_Thu10": "J'ai écrit à ma mamie ! Elle est vraiment gentille. Elle habite à Grampleton avec trois chats et une dame qui s'appelle Theresa.#$b#Elle est auteur, alors je dois faire attention à ce que mes lettres soient bonnes !$1",
+			"fall_Fri10": "Je suis TRES fâchée après Princesse Minuit.$3#$b#Elle a ramené un oiseau hier. Papa lui a donné des antibiotiques... mais il était mort ce matin.$2",
+			"fall_Sat10": "Tu savais qu'avant des manchots faisaient leurs nids près d'ici, fermier @ ?^Tu savais qu'avant des manchots faisaient leurs nids près d'ici, fermière @ ?#$b#Mais ils ne le font plus trop. Les crabes rocheux mangeaient leurs œufs.$2",
+			"fall_Sun10": "Tu penses que papa et son frère redeviendront amis un jour ?#$b#Je dois toujours poser plein, plein de questions avant que papa me parle de lui.$2",
+			"winter_Mon10": "Est-ce que tu es ami avec mon tonton ? Je pense qu'il a besoin de plus d'amis.$3^Est-ce que tu es amie avec mon tonton ? Je pense qu'il a besoin de plus d'amis.$3#$b#Mais quand je lui parle, il dit des choses qui me rendent triste. Je ne pense pas qu'il m'aime bien.$2",
+			"winter_Tue10": "Est-ce que tu as des frères et sœurs, fermier @ ?^Est-ce que tu as des frères et sœurs, fermière @ ?#$b#Des fois je voudrais avoir un grand frère comme Vincent. Sam a l'air cool. C'est un musicien ! Tu le savais ?$1",
+			"winter_Wed10": "Hier, Jas parlait de ce qu'elle voudrait être quand elle serait grande.#$b#Et j'ai réfléchi. Je veux travailler avec les animaux, mais c'est trop triste d'être vétérinaire. Peut-être que je pourrais entraîner les animaux dans un cirque ?$3",
+			"winter_Thu10": "C'est bientôt l'anniversaire de mon tonton. Je veux lui offrir un cadeau. Papa a dit que je pouvais lui faire un dessin.#$b#Mais s'il ne l'aimait pas...?$2",
+			"winter_Fri10": "Papa a été appelé en urgence au milieu de la nuit. Ne t'inquiète pas, Mlle Rosa m'a tenu compagnie.#$b#Je l'aime bien. Elle est allée à tellement d'endroits ! Peut-être que moi aussi je parcourrai le monde un jour.$1",
+			"winter_Sat10": "Grand-mère fait les meilleurs cadeaux de l'Étoile Hivernale ! Cette année, j'ai eu un carnet à paillettes !#$b#Il a même un loquet, comme ça personne ne pourra lire mes secrets.",
+			"winter_Sun10": "Des fois, on trouve des déchets sur la plage. On les ramasse toujours pour les jeter.#$b#Parce que si on ne le fait pas, des animaux pourraient les manger et tomber malade. Ça me rend triste.$2#$b#Tu ne jettes pas tes ordures dans la nature toi, fermier @ ?$3^Tu ne jettes pas tes ordures dans la nature toi, fermière @ ?$3",
+			//Unique Gift Responses
+			"GiftReaction_Duck_Feather": "Oooh ! Je vais l'ajouter à ma collection. Merci @ !", 
+			"GiftReaction_Rice_Pudding": "C'est tout gluant ! Papa déteste ça alors on n'en mange pas à la maison.",
+			"GiftReaction_Dinosaur_Egg": "Il est si gros ! J'ai du mal à le tenir. Je me demande quel genre d'oiseau a pondu ça.",
+			"GiftReaction_Dinosaur_Egg~1": "C'est trop cool. J'espère que papa me laissera le faire éclore !",
+			"GiftReaction_Void_Egg": "Je n'avais jamais vu d'œuf comme ça avant ! Il est plutôt bizarre.#$b#Je l'adore !",
+			"GiftReaction_Blobfish": "Beurk, dégueu ! Le pauvre poisson. Tu es vraiment méchant !$2^Beurk, dégueu ! Le pauvre poisson. Tu es vraiment méchante !$2",
+			// New *******
+			"GiftReaction_Rodney's_Autograph": "Hé, c'est M. Rodney ! J'ai essayé de lire son livre, mais c'était vraiment ennuyant.#$b#Mais c'est plutôt cool ça !$1",
+			"reject_534": "Oooh, c'est joli ! Mais c'est beaucoup trop grand pour moi. Ça a l'air précieux aussi.#$b#Ma mamie porte plein de bagues brillantes, peut-être que ça lui plairait !$1",
+			"AbyssRoosterGrow": "Le Prince Ombrage est bien plus heureux maintenant qu'il est avec sa maman !$1 J'ai parlé avec Mme Kataryna de comment s'occuper de lui et tout. Et tu sais quoi ?#$b#Elle a étudié la zoologie à l'université — du coup elle s'y connaît déjà. Mais je vais quand même aller voir comment il va tous les jours !$1",
+			"PepperPupHome": "Est-ce que tu es venu voir Pepper ? Elle est un peu timide aujourd'hui.$2^Est-ce que tu es venue voir Pepper ? Elle est un peu timide aujourd'hui.$2#$b#Oh ! Peut-être que tu pourrais revenir demain ?$1",
+			"Aideen_Garden": "Le jardin de Mme Aideen a l'air vraiment cool ! Je me demande si elle me laisserait y ajouter une mangeoire à oiseaux ?$3"
+		}
+	},
+	/*************************
+	//	J A C O B
+	**************************/
+	{
+		"LogName": "Jacob", 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Jacob",
+		"Entries": {
+			"Introduction": "Hum, salut. Moi, c'est Jacob. Je suis le vétérinaire mobile de Stardew Valley. Ravi de te rencontrer.",
+			"Resort_Entering": "Oh, ça fait du bien de retrouver la terre ferme. J'ai toujours eu le mal de mer.",
+			"Resort_Leaving": "Direction la maison. Il faudra que j'amène Eloise la prochaine fois. Elle adorera les oiseaux.", 
+			"Resort_Shore": "La faune et la flore foisonnent ici, et les crabes sont moins agressifs que ceux que nous avons par chez nous.",
+			"Resort_Umbrella": "Est-ce que tu passes un bon moment sur l'ile, @ ? Je profite de ma journée de repos.", 
+			"Resort_Wander": "Oh, Eloise adorerait cet endroit. Je suis sûr qu'elle pourrait nommer tous les oiseaux.$1",
+			"Resort_Bar": "Une boisson fraîche sous un soleil chaud, exactement ce dont j'avais besoin. Tu veux te joindre à moi, @ ?", 
+			"Resort": "Quel endroit magnifique !",
+			"Mon": "Salut. Est-ce que je peux t'aider ?",
+			"Mon2": "$q 5787991/5787992 Mon1#Bonjour @. Est-ce que tu as du bétail à %farm?#$r 5787991 25 Mon2_Y#Un peu que j'en ai !#$r 5787991 25 Mon2_S#Pas encore, mais j'en aurai bientôt !#$r 5787992 - 25 Mon2_N#Non, c'est une perte de temps et d'argent.",
+			"Mon2_Y": "Oh, je suis content de l'apprendre. Et pas seulement parce que je suis le véto du coin.$1#$b#Les animaux enrichissent nos vies de bien des façons.",
+			"Mon2_S": "Ah, eh bien, si tu as besoin d'aide ou de conseils, n'hésite pas. Nous avons une collection plutôt éclectique ici après tout !",
+			"Mon2_N": "C'est vrai qu'ils demandent du temps et qu'ils peuvent revenir à cher. Ce n'est pas comme ça que je présenterais la chose. Mais chacun a son opinion, je suppose.$2",
+			"Mon1": "Comment ça va à la ferme ?#$b#p 5787991#N'hésite pas si tu as besoin d'aide avec tes animaux.|J'espère que tu t'en sors bien.",
+			"Mon4": "Merci de passer régulièrement ! Eloise parle tout le temps de toi.#$b#Si jamais elle essaie de t'emmener observer les oiseaux, je te conseille de refuser.#$b#Sauf si tu adores vraiment les oiseaux !$1",
+			"Mon6": "Marnie a vraiment été présente pour moi quand Del est morte. C'est triste, mais elle semble plus distante depuis.",
+			"Mon8": "Del aimait beaucoup les fleurs. J'essaie de m'occuper de ces plantes en souvenir d'elle.", 
+			"Mon10": "Eloise a peur que je ne me sente seul — comme si qui que ce soit pouvait se sentir seul avec elle dans les parages !#$b#Mais, plus sérieusement, tu es toujours le bienvenu. J'apprécie ta compagnie.$4^Mais, plus sérieusement, tu es toujours la bienvenue. J'apprécie ta compagnie.$4",
+			"Tue2": "Je boite ? Oh, oui. Un lama m'a marché sur le pied. J'aurais dû mettre des bottes plus épaisses.",
+			"Fri2": "Oh, bonjour @. Oui, je suis un peu fatigué aujourd'hui. J'ai été appelé d'urgence tard hier dans la nuit.#$b#Quelques difficultés avec un vêlage au ranch.",
+			"spring_Sat6": "Shane m'a demandé si Eloise voudrait passer voir les poussins une fois qu'ils seront éclos. Elle est ravie, bien sûr — Jas et elle ont décidé de leur organiser une fête d'anniversaire.#$b#Je ne suis pas certain de ça implique exactement, mais il y aura des chapeaux en carton... Oh, de qui je me moque ? Je suis partant !",
+			"Thu10": "J'essaie d'être un bon père — meilleur que ne l'a été le mien.#$b#Il n'était pas quelqu'un de bien. Je pense que me laisser son perroquet a été son sale coup ultime.$2",
+			"Fri6": "Est-ce que tu as des frères et sœurs, @ ?#$b#Moi ? Oh, un frère. On était proche avant, mais on ne se parle plus maintenant.$2",
+			"Tue": "Hé, est-ce que tu avais besoin de moi ? Tu as de la chance de m'avoir croisé. D'habitude, je suis dans la vallée le mardi.",
+			"Tue4": "Je suis content qu'Eloise ait des amis de son âge, mais elle semble préférer passer la majeure partie de son temps dans son observatoire.#$b#Je me demande ce qu'elle y fait toute la journée. Peut-être qu'elle complote pour dominer le monde ?$1",
+			"Wed": "Je suis désolé... Je suis un peu occupé pour le moment.",
+			"Wed2": "Il n'y avait qu'une forêt de pins ici quand nous avons emménagé.#$b#Nous avons planté des érables et des chênes. Avoir un écosystème varié est favorable aux animaux.",
+			"Wed4": "Hier a été difficile... On a attaqué le mouton de M. Jefferson. J'espère que ce n'était qu'un chien sauvage, mais...#$b#... rentre bien tes animaux la nuit, @. Et fais attention.#$b#Le bruit court qu'il y aurait quelque chose d'étrange dans la vallée.",
+			"Wed6": "C'est vraiment gentil de la part de Marnie de s'occuper d'Eloise le mardi. Del et elle étaient très proches et je suis content qu'Ellie ait quelqu'un de son âge avec qui jouer.",
+			"Wed8": "Les enfants disent les choses les plus folles, non ? Eloise a commencé à me tanner pour que je lui trouve une belle-mère.#$b#Elle a l'air de penser que Marnie est une bonne candidate. Ça va être difficile de la regarder dans les yeux la prochaine fois que je la verrai...$4",
+			//"summer_1": "",
+			"summer_Mon": "C'est une saison difficile pour les animaux, @. Assure-toi qu'ils aient bien accès à de l'eau.",
+			//"summer_Tue": "",
+			"summer_Thu": "Eloise a vu un grèbe huppé aujourd'hui ! Je vais devoir commander un nouveau badge pour sa collection, mais ça en vaut la peine.",
+			"summer_Thu4": "La prochaine fois que tu iras dans le désert, est-ce que tu pourrais emmener Eloise ? Je ne peux pas me libérer de mon travail cette semaine, mais les roselins de Lichtenstein y affluent avant leur migration annuelle et elle adorerait les voir.",
+			"summer_Fri": "Oh, salut. Désolé, je ne peux pas ce soir. J'ai perdu un patient.#$b#Certains diraient que ce n'était qu'un chat... Mais il avait de l'importance. Ils en ont tous.",
+			"summer_Sat": "Nous laissons de l'eau et de la nourriture pour la chatte errante près de la plage.#$b#Elle a été abandonnée, pauvre petite. Eloise est déterminée à devenir son amie.$2",
+			//"summer_Sun": "",
+			"summer_Tue4": "Shane m'a parlé de poules qui perdaient leurs plumes tôt dans la saison. J'espère que ça n'est pas le signe de poux de poule...#$b#Je lui ai donné de la poudre, au cas où. Je devrais surveiller tes volailles aussi. Les poux adorent ce temps chaud.",
+			"summer_Sat6": "Vincent m'a posé des questions sur les animaux de l'Empire de Gotoro. Je ne sais pas s'il s'attendait à entendre qu'ils étaient tous méchants et effrayants.#$b#Pour information, ils ne le sont pas. Enfin, à l'exception des chameaux — ce sont des têtes de mules renfrognées. Je préfèrerais toujours leurs gentils cousins.",
+			"summer_Mon8": "Princesse Minuit et le Baron se sont battus hier soir. Je ferais mieux de passer avec des antibiotiques.$2#$b#Minuit est une vraie diablesse quand elle s'énerve, et elle a un méchant coup de griffes.$3",
+			"summer_Thu10": "La famille c'est important, et je suis tout ce qu'a Eloise. Parfois, je m'inquiète de ce qui se passerait si quelque chose venait à m'arriver.$2",
+			"summer_Fri10": "%Jacob semble souffrir. Il vous fait signe que tout va bien.#$b#Ce qu'il s'est passé ? J'ai été appelé tôt ce matin. Une vache m'a envoyé contre un mur. C'est entièrement de ma faute, j'aurais dû mieux la restreindre.$2#$b#Harvey m'a donné des antidouleurs, j'ai des bleus mais je n'ai rien de cassé. Pas besoin de t'en faire.",
+			//"fall_1": "",
+			//"fall_Tue": "",
+			"fall_Wed": "Des plantes ? Désolé, je ne sais m'y prendre qu'avec les animaux.",
+			"fall_Thu": "Eloise insiste pour que tous les animaux aient des titres de noblesse. Bon sang, ils sont traités comme de vrais seigneurs.#$b#Il fût un temps où ce fauteuil était à moi.$1",
+			//"fall_Sat": "",
+			//"fall_Sun": "",
+			"fall_Wed2": "J'ai croisé Shane hier et nous avons parlé de poules. Il a l'œil pour s'occuper d'elles.#$b#Et ça lui tient à cœur. Il se comporte peut-être comme s'il se fiche de tout, mais je pense au contraire il est très sensible.",
+			"fall_Sat6": "Quand elle était petite, on a donné une peluche de vélociraptor à Eloise. 'C'est un oiseau !', je lui avais dit. 'Non, papa. Dinosaure !' elle avait insisté.#$b#Alors l'année suivante, nous lui avons donné une encyclopédie. Maintenant, elle me donne des leçons de taxonomie !$1",
+			//"fall_Mon8": "",
+			"fall_12_2": "Mlle Aideen a amené le Baron hier. Ni Richie, ni Princesse Minuit n'était très impressionné.#$b#Mlle Aideen ne l'a pas été non plus quand je lui ai suggéré de réduire ses portions de nourriture...$2",
+			"fall_Fri6": "*bâillement* Pardon, je me remets d'une nuit blanche. Il y a eu une urgence à la ferme de Marnie.$2#$b#Au moins, Eloise et Jas ont pu avoir une soirée pyjama, même si elles sont toutes les deux assez âgées pour s'inquiéter pour les animaux.",
+			"fall_Fri10": "Emily a amené son perroquet. Je suis quasiment sûr que Richie en est amoureux.$1#$b#Il a certainement été... passionnément vocal.",
+			//"winter_Tue": "",
+			"winter_Wed": "J'espère que tu as mis de côté assez de foin pour l'hiver, @. Sinon, Mlle Marnie devrait être chez elle aujourd'hui.",
+			//"spring_12_2": "",
+			//"spring_23_2": "",
+			//"winter_7_2": "",
+			//"fall_26": "",
+			"summer_11_2": "Demain sera un bon jour pour aller à la plage. Les courants marins ramèneront des eaux plus chaudes.#$b#Mais gare à tes orteils ; les crabes en sont friands. Ce sera peut-être aussi un bon jour pour pêcher.",
+			//"summer_27_2": "",
+			"winter_Thu": "Parler d'autre chose que d'Eloise ou de mon métier ? Euh... Il fait beau aujourd'hui, non ?",
+			"winter_Fri": "Fais attention de bien garder un œil sur les renards et les blaireaux comme tu habites près de la forêt Sève-Cendreuse.#$b#Ils attraperont tes poules avant que tu ne t'en aperçoives, surtout à cette période de l'année.$1",
+			"winter_Sat": "Avec des matins aussi froids que ceux-ci... Eh bien, j'en envierais presque les ours.", 
+			"winter_Sun": "Est-ce que tu as des graines de gazon, @ ? Si tu en as, plantes-en le dernier jour d'hiver.#$b#Apparemment, elles se répandront comme une traînée de poudre pendant la nuit. C'est un petit secret de fermiers.",
+			"winter_Wed2": "Est-ce que tu as rencontré Richie, notre perroquet ? Ce doit être l'oiseau le plus grossier de tout Ferngill.",
+			"winter_Sat6": "Marlon m'a demandé des calmants. Je ne lui en ai pas donné. J'admets que je suis un peu inquiet... ? Pourquoi pourrait-il bien en avoir besoin ?",
+			"winter_Thu10": "On a essayé de reloger Richie une fois. On a pensé qu'il serait bien dans une volière, qu'il serait plus heureux avec les siens.#$b#Mais qu'a-t-il fait ? Il leur a appris toutes ses insultes.$2",
+			"winter_Wed6": "$1 David_Magnet#Abigail est passée avec David hier. Le pauvre petit gus avait avalé un aimant. Très dangereux, surtout vu sa taille. J'avoue avoir eu de la chance qu'il s'en sorte.$k#$e#Harvey a l'avantage d'avoir des patients humains qui peuvent lui dire où ils ont mal - et je parie qu'il se fait rarement mordre par ses patients.#$b#Bien que je pense qu'Abigail en serait capable... Oh désolé, je ne voulais pas dire ça à voix haute.$4",
+			"summer_Wed": "Est-ce que tu as vu des chats errants dans le coin, @ ?#$b#La SPA insiste pour que je les stérilise... mais la vie n'est pas facile ici dans la nature.",
+			"summer_Wed2": "Nous avons attrapé quelques chats sauvages dans le coin. Oh, ne t'en fais pas, nous n'allons pas leur faire de mal ! La plupart seront stérilisés et envoyés dans des fermes.#$b#Je suppose que tu n'en veux pas quelques-uns pour tes étables ? Ce ne sont pas des animaux de compagnies, mais ils sont efficaces pour éradiquer les nuisibles.",
+			"summer_Wed10": "Mlle Aideen est passée et Richie l'a insultée. J'étais mortifié !#$b#Et les macaos peuvent vivre jusqu'à soixante ans... À ce rythme, il pourrait bien me survivre.$2",
+			"Thu": "Oui ? Désolé, je préfèrerais que tu ne me regardes pas travailler. Ça me mal à l'aise.$2",
+			"Thu4": "Ce perroquet est vraiment quelque chose ! Eloise l'adore... Mais il connaît beaucoup trop de mots, et ils ne sont pas tous polis.$1",
+			"Thu8": "Eloise n'avait que six ans quand sa mère est morte. Elle a beaucoup mieux tenu le coup que moi. J'ai été une loque pendant des mois... Eloise est si pragmatique, parfois j'ai peur qu'elle n'ait dû grandir trop vite.$2",
+			"Fri": "Bonjour, euh... tu trouves le temps agréable ?",
+			"Fri4": "Ce fichu perroquet... Le maire est passé l'autre jour et Richie lui a lancé des jurons...$2#$b#Il a appartenu à mon père, tu sais — et papa jurait comme un charretier.$1",
+			"Fri8": "Ça fait plus de deux ans que Del nous a quittés maintenant. Tu penserais que le temps facilite les choses... Mais ce n'est pas le cas. Elle me manque chaque jour.#$b#Pardon, tu n'es pas venu ici pour m'entendre m'apitoyer sur mon sort.$2^Pardon, tu n'es pas venue ici pour m'entendre m'apitoyer sur mon sort.$2",
+			"Sat": "Tu as besoin d'aide avec tes animaux ?#$b#Non ? Oh, je pensais que c'était pour ça que tu étais venu me voir.^Non ? Oh, je pensais que c'était pour ça que tu étais venue me voir.",
+			"Sat4": "Eloise est si extravertie, elle est toujours un vrai boute-en-train. Tout comme sa mère l'était.$2#$b#Moi ? Je me tiens généralement dans un coin de la pièce et je fais semblant de m'intéresser à la bibliothèque.", 
+			"Sun": "Bonjour. @, n'est-ce pas ? J'espère que tu trouveras un peu de temps pour te détendre aujourd'hui.",
+			"Sun2": "Désolé, faire la conversation n'est pas vraiment mon fort. En général, je laisse Eloise parler.",
+			"Sun4": "Eloise adore la plage, mais je m'inquiète un peu. Il y a beaucoup de crabes rocheux dernièrement.#$b#Je ne peux pas m'empêcher de me demander si quelque chose les attire.",
+			"Sun10": "J'ai envisagé de me remettre sur la scène amoureuse... Mais je ne pourrais jamais quitter ma ferme, et je dois également songer à Eloise.",
+			"spring_1_2": "La saison de l'agnelage est la période la plus occupée de l'année. J'espère qu'Eloise ne s'ennuie pas trop de moi.",
+			"winter_Mon": "J'espère que tu n'as pas trop froid à la ferme.",
+			"winter_Tue4": "Ça fait trois ans qu'Eloise écrit à Sora maintenant. Leurs mères étaient amies en Gotoro, avant la guerre.#$b#Je ne sais pas comment le courrier continue à être livré, mais j'amène ses lettres au chariot de voyage tous les vendredis.",
+			"winter_Fri10": "Quand Del est morte, ça a été vraiment dur de continuer... Mais que pouvais-je faire d'autre ?$2", 
+			"fall_Mon": "La saison des mûres est sur le point de commencer. Il faudra que tu viennes ici avec un panier.#$b#Il y en a tellement dans le coin que même les oiseaux ne peuvent pas toutes les manger.#$b#Et notre congélateur est encore rempli de nos récoltes de l'an dernier.",
+			"fall_11_2": "$1 Jacob_BlackberryPie#Je suis content que tu sois là, @. Si je devais manger une autre tarte... Je t'en prie, débarrasse-moi de ça.[611]$k#$e#Si Eloise est dans le coin, je te suggère de ne pas la laisser te convaincre de faire une bataille de feuilles.#$b#Je retire encore des feuilles mortes de mes cheveux.",
+			"fall_Tue4": "L'automne doit être une saison chargée pour toi. C'est plutôt calme de mon côté.",
+			"fall_Thu2": "Sois prudent dehors, @. Les crabes rocheux du coin sont très agressifs.$2",
+			"summer_Wed6": "Del avait la main verte. Moi, pas tellement. C'est pour ça que j'aime autant les cactus.$1",
+			"winter_24": "J'espère que je te verrai demain au festival, @. Eloise a vraiment hâte ; elle ne parle que de ça.$4#$b#Et dis donc, qu'est-ce qu'elle peut parler !$1",
+			"winter_24_2": "Ne le dis pas à Eloise mais l'Étoile Hivernale n'est pas facile pour moi... Del aimait tellement ça.$2#$b#Elle trouvait toujours le cadeau idéal pour tout le monde.$4",
+			//courtship dialogue
+			"rejectNPCA": "Oh, elles sont très belles... Mais je pense qu'il est encore trop tôt pour que j'ouvre mon cœur à quelqu'un d'autre.$2",
+			"rejectNPCB": "C'est très gentil. Mais je ne te vois que comme un ami.$2^C'est très gentil. Mais je ne te vois que comme une amie.$2", 
+			"refusal_no_heartsA": "Oh ? Euh... Non merci... Je ne pourrais pas quitter ma ferme... ou Eloise.$2", 
+			"refusal_no_heartsB": "Je ne pense pas que je sois la personne qu'il te faut.$5", 
+			"engageA": "Je ne sais pas vraiment pourquoi tu m'offres ça ?$2",
+			"engageB": "Je croyais que tu étais déjà fiancé ? Eh bien, je suis flatté, mais pas intéressé.$5^Je croyais que tu étais déjà fiancée ? Eh bien, je suis flatté, mais pas intéressé.$5",
+			"marriedA": "Tu n'es pas mariée ? Ce n'est pas approprié.$2^Tu n'es pas mariée ? Ce n'est pas approprié.$2",
+			"marriedB": "Euh... Pardon mais laisse-moi tranquille. Tu tournes en ridicule quelque chose qui est sacré pour moi.$2",
+			//Conversation Topics
+			"Is_Sora_Dead": "J'espère vraiment qu'on aura bientôt des nouvelles de Sora. C'est si important pour Eloise.$2#$b#Et la poste n'est pas fiable. Ça ne veut peut-être rien dire... Mais ça expliquerait peut-être tout.$2",
+			"Jacob_DinnerDate": "Oh oui, tu es tout à fait invité à dîner avec nous.^Oh oui, tu es tout à fait invitée à dîner avec nous.#$b#Eloise a vraiment hâte, elle a prévu tout un menu.$1#$e#Elle a même insisté pour rédiger l'invitation, tu t'en seras sûrement rendu compte. Je n'ai jamais connu personne qui aimait autant les points d'exclamation qu'elle.#$b#Si je l'ai lue ? Non. J'aurais dû ?$2",
+			"Jacob_Date": "Vraiment ??!$4",
+			"Jacob_Friendzone": "Oh, pour être honnête, @, pour autant que je t'apprécie, c'est un soulagement.$1#$b#Après que Del... Eh bien, j'ai perdu mon âme sœur et je doute que je puisse un jour retrouver un tel amour.$2#$b#Mais un bon ami et sa bonne compagnie ? Ce sont des choses que j'accueillerais volontiers dans ma vie.$1^Mais une bonne amie et sa bonne compagnie ? Ce sont des choses que j'accueillerais volontiers dans ma vie.$1",
+			"Jacob_Ditched": "Je suppose que l'honnêteté est une qualité admirable.$3#$b#Mais tu devrais vraiment travailler sur ton tact.$2",
+			//New **********
+			"AbyssRoosterGrow": "Ne le dis pas à Eloise, mais je suis content d'être débarrassé de cette volaille.#$b#Je suis presque sûr qu'il s'agit d'un coq — et ils peuvent se montrer assez agressifs.$2#$b#Et cette race a vraiment quelque chose d'étrange. Est-ce que tu as déjà vu des poules comme ça, @ ?",
+			"PepperPupHome": "La pauvre petite chienne est épuisée. Ça a été une longue journée pour elle.#$b#Ne t'en fais pas, je suis sûr qu'elle sera remise sur pied et prête à faire ami-ami dès demain !$1",
+			"Aideen_Garden": "Aideen m'a parlé de son projet de jardin public.#$b#Je suis ravi de donner un coup de main. Je n'ai peut-être pas la main verte, mais je sais me servir d'une pelle !$1"
+		}
+	},
+	{
+		"LogName": "Randy Dialogue", 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Eloise", 
+		"Entries": {
+			"Town_88_103": "Bonjour fermier @. J'aide Randy à lire.^Bonjour, fermière @. J'aide Randy à lire.#$b#*murmure*Mais je ne suis pas sûre qu'il comprenne vraiment comment fonctionnent les livres.$1"
+		},
+		"When": {
+			"HasSeenEvent": "47360003", 
+			"DayofWeek": "Tuesday"
+		}
+	},
+	{
+		"LogName": "Randy Dialogue", 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Randy", 
+		"Entries": {
+			"Town_87_103": "Salut ! Eloise est nouvelle amie ! Elle très intelligente !#$b#Mais des fois parler à moi comme si moi être stupide.$s#$b#Et ça rendre Randy triste. Car Randy pas stupide, si ?$2"
+		},
+		"When": {
+			"DayofWeek": "Tuesday"
+		}
+	},
+	{
+		"LogName": "Eloise reacts", 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Eloise",
+		"Entries": {
+			"EastScarp_Village_55_89": "Est-ce que tu savais que {{random: si une étoile de mer perdait un bras, il repoussait ?, certaines étoiles de mer son venimeuses alors il faut faire attention de ne pas les toucher !, les étoiles de mer mangent en sortant leur estomac par leur bouche et attrapent leurs proies avec !, certaines étoiles de mer abandonnent des bras à leurs prédateurs pour pouvoir s'enfuir !, les étoiles de mer n'ont ni cerveau ni sang ?, les étoiles de mer peuvent vivre jusqu'à 35 ans !}}",
+			"summer_28_2": "Est-ce que tu vas venir voir les méduses ce soir, @?#$b#Tu savais que {{random: les méduses n'ont pas de cerveau mais peuvent sentir et détecter la lumière !, les méduses font caca par la bouche !, certaines méduses ont de vilains fils qui peuvent te tuer !, les méduses se font manger par un tas de créatures marines !, certaines méduses vivent pour toujours en redevenant des bébés !}}"
+		}
+	},
+	{
+		"LogName":  "Leo-related Dialogue", 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Eloise", 
+		"Entries": {
+			"summer_Mon8": "J'ai trouvé une très jolie plume pour Leo aujourd'hui... Je vais lui donner en classe demain. J'espère vraiment qu'il va l'aimer !$1",
+			"Sat10": "Tu penses que Leo m'aime bien ?$3#$b#Des fois j'ai l'impression qu'il préfère Jas... $2", 
+			"fall_Tue10": "Leo est cool, hein ? Il peut parler aux oiseaux ! Il est génial.$1",
+			"fall_26": "J'espère que Leo va aimer mon costume pour la Fête des Esprits demain.$3#$b#Tu seras là aussi, pas vrai ? Papa est toujours content de te voir.$1",
+			"summer_12": "Leo dit que les flamants roses huppés sont un peu comme les oiseaux-gemmes sur son île.#$b#Ils sont l'air fabuleux, j'aimerais pouvoir les voir.$3"
+		},
+		"When": {
+			"HasSeenEvent |contains=6497428": true
+		}
+	},
+	{
+		"LogName":  "Penny Notices", 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Penny", 
+		"Entries": {
+			"EloiseQuiet": "D'habitude, Eloise a toutes les réponses... Mais elle est très silencieuse ces derniers temps. J'espère que tout va bien chez elle.$2"
+		},
+		"When": {
+		"DayofWeek": "Thursday, Friday, Saturday, Sunday"
+		}
+	},
+	{
+		"LogName": "Jas Notices", 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Jas", 
+		"Entries": {
+			"EloiseQuiet": "Est-ce que tu crois qu'Eloise est fâchée après moi, @ ?"
+		},
+		"When": {
+			"DayofWeek": "Thursday, Friday, Saturday, Sunday"
+		}
+	},
+	{
+		"LogName":  "Vincent responds", 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Vincent", 
+		"Entries": {
+			"EloisePuppyTalk": "Eloise a demandé si je voulais aller voir des chiens avec elle. Mais maman a dit 'Non'.$2#$b#Je crois qu'elle avait peur que j'en ramène un à la maison.$1"
+		},
+	},
+	{
+		"LogName":  "Jas responds", 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Jas", 
+		"Entries": {
+			"EloisePuppyTalk": "Eloise m'a invitée pour aller adopter un chien à Chesterville. Je voulais y aller... Mais les routes sont vraiment venteuses et ça me rend malade.$2#$b#Alors j'ai dit 'Non'. J'espère qu'elle ne m'en veut pas.$3",
+		},
+	},
+	{
+		"LogName":  "Vincent Notices", 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Vincent", 
+		"Entries": {
+			"EloiseQuiet": "Les filles ne veulent plus jouer avec moi.$2#$b#Et quelque chose a rendu Eloise triste. J'ai dit des blagues pour lui remonter le moral, mais ça n'a pas marché.$2"
+		},
+		"When": {
+			"DayofWeek": "Thursday, Friday, Saturday, Sunday"
+		}
+	},
+	{
+		"LogName":  "Marnie Notices", 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Marnie", 
+		"Entries": {
+			"EloiseQuiet": "Jas et Eloise étaient meilleures amies... Mais Eloise ne parlent presque plus.#$b#Tu sais ce qui ne va pas, @ ? Est-ce qu'elles se sont disputé ?$2"
+		},
+		"When": {
+			"DayofWeek": "Thursday, Friday, Saturday, Sunday"
+		}
+	},
+	{
+		"LogName":  "Eloise plays mute", 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Eloise", 
+		"Entries": {
+			"Mon8": "... je ne fais pas de bruit, fermier @.^...je ne fais pas de bruit, fermière @.",
+			"Tue8": "... Vincent me dit plein de blagues. Je crois qu'il essaie de me remonter le moral.#$b#C'est vraiment dur de ne pas rire.",
+			"Wed8": "... j'ai commencé à écrire les choses au lieu de les dire à voix haute.#$b#Et maintenant il me faut un nouveau carnet !$1",
+			"Thu8": "... c'est vraiment, vraiment dur de ne pas parler tout le temps.$3",
+			"Fri8": "... Je ne crois pas que ça fonctionne... Leo n'a plus l'air de vouloir me parler.$2", 
+			"Sat8": "... Je connaissais la bonne réponse en classe hier, mais je n'ai rien dit.#$b#Mlle Penny a eu l'air tout contrarié.$2", 
+			"Sun8": "..."
+		},
+		"When": {
+			"HasSeenEvent |contains=57870014": true, 
+			"HasSeenEvent |contains=57870015, 69660015": false
+		}
+	},
+	//Dialogue changes for school (Adds more kids)
+	{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Penny", 
+		"When": {
+			"HasMod": "Lemurkat.JacobEloise.CP"
+		},
+		"Entries": {
+			"Tue": "Je donne classe aux enfants aujourd'hui... Ils ne sont pas toujours faciles, mais c'est agréable de faire la différence dans la vie de quelqu'un.",
+			"Wed": "Nous n'avons pas d'école, mais je fais de mon mieux pour donner aux enfants du coin une éducation convenable.#$e#Chaque enfant a droit à une chance dans la vie.#$e#Jas est excellente en maths et en lecture et, parfois, j'ai du mal à suivre Eloise. Vincent est bon en... enfin, il a une imagination débordante !",
+		}
+	},
+	{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Penny",
+		"When": {
+			"HasMod": "Lemurkat.JacobEloise.CP, gizzymo.canonfriendlyexpansion"
+		},
+		"Entries": {
+			"summer_Wed": "Nous n'avons pas des vacances d'été complètes, parce que nous devons compenser les courtes semaines de classe pendant l'année scolaire.#$e#Jodi, Marnie et Jacob ont demandé à ce qu'on fonctionne comme ça plutôt qu'on suive le calendrier classique.",
+			"Thu2": "C'est agréable d'avoir si peu d'élève. On a plus de flexibilité pour les heures de classe.",
+			"Wed6": "Mme Eleanor était ma professeur quand j'étais petite. J'ai appris d'elle beaucoup des choses que j'enseigne aux élèves.#$e#J'ai aussi beaucoup appris simplement en lisant les livres de la bibliothèque.",
+			"Wed8": "Ce n'est pas facile de succéder à la femme qui occupait mon poste avant moi, mais n'avoir qu'une poignée d'élèves rend la tâche un peu plus aisée.#$e#Nous étions neuf élèves dans la classe de Mme Eleanor. Il y avait plus d'enfants en ville quand j'étais petite.",
+			"fall_Mon6": "Peut-être qu'un jour je pourrais trouver un poste comme enseignante d'une classe complète. Mais je ne suis pas certaine que ce serait mieux pour moi.#$e#Je ne me vois pas tisser les mêmes liens avec une vingtaine ou une trentaine d'élèves que ce que j'ai avec les enfants d'ici."
+		}
+	},
+	{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/GuntherSilvian", 
+		"When": {
+			"HasMod": "Lemurkat.JacobEloise.CP, FlashShifter.StardewValleyExpandedCP"
+		},
+		"Entries": {
+			"Sat": "Penny fait cours aux enfants dans la bibliothèque plusieurs fois dans la semaine.$5"
+		}
+	},
+	/*************************
+	//	L E O
+	**************************/
+	//  (This fixes an issue with Leo not staying where he should if NPC Fixes is included)
+	{
+		"LogName":  "Mainland Dialogue", 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Leo", 
+		"Entries": {
+			"LeoDeparture": "Je dois trouver un endroit où vivre...$s#$b#Mais j'ai un plan... Je vais compter sur mes amis.",
+			"Thu8": "Je me sentais mal au début... de quitter l'île et de venir sur cette terre inconnue.$s#$e#Mais, je m'y suis habitué avec le temps.#$b#Je m'adapte très facilement !$h", 
+			"Thu10": "J'avais l'impression d'être un étranger ici, au début. Mais je me suis fait plein de nouveaux amis !$h#$b#Pour une fois, j'ai l'impression d'être à ma place...",
+			"Tue": "Mlle Penny va faire de son mieux pour me faire rattraper mon retard à l'école. Elle est vraiment gentille...#$e#...Heureusement, je me rappelle de certaines choses de ma vie d'il y a longtemps, longtemps... avant de m'échouer sur l'île... Alors ce n'est pas aussi difficile que ça pourrait l'être.#$e#Mlle Penny dit qu'elle est impressionnée par tout ce que je sais !",
+			"Tue10": "Je suis sûr que Jas et Vincent pensaient que j'étais bizarre au début. J'ai poussé des cris d'oiseaux sur les bancs de l'école plusieurs fois... Ça n'a pas aidé.$s#$e#Ca a été un grand changement pour tout le monde. Mais nous sommes de bons amis maintenant !$h",
+			"18": "Quand je venais juste d'arriver, Linus m'a fait un costume de feuilles, comme le sien...#$b#Mais j'avais l'air drôle... comme une mangue poilue !#$e#Je pense que je vais m'en tenir à mes plumes.", 
+			"Wed": "Entre Linus et Mlle Penny, je vais apprendre tout ce qu'il y a à savoir !$h#$e#Le Maire Lewis dit que je suis sur une bonne lancée pour devenir un 'citoyen honnête'... quoique ça puisse vouloir dire.", 
+			"Thu": "Est-ce que tu as déjà remarqué tous les oiseaux intéressants qui vivent par ici ?#$e#Si tu écoutes attentivement, ils te diront peut-être quelque chose.",
+			"winter_Thu": "Le froid ne gêne pas vraiment les oiseaux de la vallée.#$e#Je suis un peu jaloux de leur plumage épais...$s",
+			"4": "J'ai vu une grosse mangue flotter dans le ciel. Linus m'a dit que c'était un dirigeable !$u#$b#Je croyais que seuls les oiseaux pouvaient voler...",
+			"Fri": "Linus m'apprend tout ce qu'il y a à savoir sur les nourritures sauvages de la vallée. Il y a plain de bonnes choses par ici !$h#$e#Mais... ça me manque quand même un peu de manger des noix dorées au petit-déjeuner...$s",
+			"winter_Fri": "Linus m'a appris une recette spéciale de poisson aux baies...#$b#Il dit que si j'en mange assez, ça me tiendra chaud tout l'hiver !$h",
+			"Fri8": "Oncle Linus dit que je dois 'cuire' mon poisson avant de le manger...$s#$b#J'ai un peu de mal à m'y faire... Si sec...$s",
+			"Mon": "Hey, @. Content de te recroiser sur l'île, comme au bon vieux temps. C'est sympa !#$e#Tu sais, j'ai eu peur la première fois que tu es venu... Je savais que ma vie était sur le point de changer.$u^Tu sais, j'ai eu peur la première fois que tu es venue... Je savais que ma vie était sur le point de changer.$u", 
+			"Sun": "Tu sais, Stardew Valley est peut-être mon nouveau foyer... mais l'île restera toujours mon chez-moi aussi.#$e#C'est sympa de pouvoir y retourner de temps en temps.",
+			"Sat": "Peut-être qu'un jour j'irai à Zuzu City...$u#$b#Mais je suis encore loin d'être prêt. Ce monde me paraît déjà si étrange, je suis très bien là où je suis pour l'instant !$h",
+			"Sun10": "Les perroquets veulent te remercier pour toutes les noix dorées que tu as trouvées. Ils les apprécient beaucoup.$h",
+			"Sat10": "@ ? Euh... C'est un peu gênant de demander ça...$u#$b#Mais... tu penses que Jas m'aime bien ?$u#$b#Ou peut-être que je suis trop étrange ?$s#$e#Peu importe... ça ne fait rien. Je le découvrirai bien un jour.$h",
+			//New Dialogue
+			"Wed10": "Eloise ne trouve pas ça bizarre quand je fais des cris d'oiseaux. Non, vraiment ! Elle veut que je lui apprenne à parler aux oiseaux.$1#$b#Mais il ne s'agit pas que de parler, il faut aussi savoir écouter... et ce n'est pas toujours son fort.", 
+			"fall_Fri10": "Eloise veut venir sur l'île avec moi pour rencontrer ma famille d'oiseaux.$1#$b#Mais je ne sais pas trop... Et si elle se rendait compte que j'étais bizarre ? Tu penses qu'elle s'en soucierait ?$2",
+			"EloisePuppyTalk": "Eloise m'a invité à aller au parc avec des chiens. Mais il fallait qu'on prenne une voiture.#$b#Ça avait l'air effrayant, alors j'ai dit 'non'. Je crois que je l'ai rendu triste...$2",
+		},
+		"When": {
+			"HasSeenEvent |contains=6497428": true
+		}
+	},
+	{
+		"LogName":  "Mainland Dialogue", 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/LeoMainland", 
+		"Entries": {
+			"Wed10": "Eloise ne trouve pas ça bizarre quand je fais des cris d'oiseaux. Non, vraiment ! Elle veut que je lui apprenne à parler aux oiseaux.$1#$b#Mais il ne s'agit pas que de parler, il faut aussi savoir écouter... et ce n'est pas toujours son fort.",
+			"fall_Fri10": "Eloise veut venir sur l'île avec moi pour rencontrer ma famille d'oiseaux.$1#$b#Mais je ne sais pas trop... Et si elle se rendait compte que j'étais bizarre ? Tu penses qu'elle s'en soucierait ?$2",
+			"EloisePuppyTalk": "Eloise m'a invité à aller au parc avec des chiens. Mais il fallait qu'on prenne une voiture.#$b#Ça avait l'air effrayant, alors j'ai dit 'non'. Je crois que je l'ai rendu triste...$2",
+		}
+	},
+	/*************************
+	//	J O S E P H I N E
+	**************************/
+	{
+		"LogName": "Dialogue", 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/JosephineK", 
+		"Entries": {
+			"Josephine_Arrives": "Bonjour. @, n'est-ce pas ?$1#$b#Mon fils, Oliver, et mon allons rester en ville quelque temps.",
+			"Mon": "Bonjour, @. Le temps est radieux, n'est-ce pas ? Très tempéré.",
+			"Mon2": "Mince alors, mes chaussures sont toutes boueuses. Enfin, nous sommes à la campagne, n'est-ce pas ?  L'on ne peut pas s'attendre à rester immaculé !",
+			"Mon6": "La reine des sauces et moi échangeons tout le temps des recettes. Je suppose tu as vu son émission ?#$b#Elle organise les dîners les plus sublimes et on ne sait jamais quelle célébrité on peut y croiser !$1",
+			//Tue
+			"Tue": "Oliver passe tellement de temps sur cet ordinateur... Je m'inquiète qu'il ne se fasse pas d'amis.$2",
+			"Tue4": "Ça ne peut pas être bon pour la santé de fixer un écran toute la journée. J'aimerais qu'Oliver sorte un peu plus.",
+			"Tue8": "Votre Maire Lewis et mon Guvvie sont amis depuis longtemps.#$b#Il m'a accueilli très chaleureusement et m'a fait me sentir comme chez moi. Un vrai gentilhomme de la campagne.",
+			//Wed
+			"Wed": "Cet air frais de la campagne est vraiment autre chose, n'est-ce pas ? À la ville, nous avions un brouillard de pollution des plus affreux.",
+			"Wed4": "Votre petite ville est si pittoresque. J'adore le charme de ces petits villages de campagne.#$b#On ne trouve pas cette atmosphère folklorique en ville, avec tous les conforts modernes.",
+			"Wed8": "Quand on a reçu le diagnostic d'Oliver... Ce fut une expérience des plus horrible.$2#$b#Nous étions complètement impuissants. Je sais que je peux être un peu trop protectrice, @, mais c'est difficile, vraiment difficile, de lâcher prise.$2",
+			//Thu
+			"Thu": "Oh, évidemment que mon époux me manque ! Mais quand on a été marié aussi longtemps que je l'ai été...#$b#Eh bien, tu comprendras ce que je veux dire un jour, mon cher.^Eh bien, tu comprendras ce que je veux dire un jour, ma chère.",
+			"Thu4": "Quand Oliver était malade, mon époux était mon point de repère. Désormais... Eh bien, il est un homme très important.$2",
+			"Thu8": "C'est ma cuisine qui a séduit mon époux, tu sais.#$b#On dit que le chemin vers le cœur d'un homme passe par son estomac.#$b#Et c'était certainement vrai pour mon cher Guvvie.$1",
+			//Fri
+			"Fri": "As-tu des enfants, @ ? Ils deviennent si rapidement le centre de notre monde.#$b#Parfois, c'est difficile de me rappeler de ma vie avant l'arrivée d'Oliver.",
+			"Fri6": "Travailler avec la terre, faire pousser des plantes... Eh bien, tu dois trouver cela gratifiant, n'est-ce pas ?", 
+			"Fri8": "Il n'y a rien de tel que de se tenir debout sur la scène, @, et sentir les yeux de tous river sur soi.#$b#C'est à la fois angoissant et gratifiant de saisir tant de cœur avec ta seule voix.#$b#Parfois, je regrette ce sentiment.$s",
+			//Sat
+			"Sat": "J'aime bien écumer les plages. J'ai trouvé des coquillages exquis — et ça aide à me distraire.",
+			"Sat6": "Je chantais quelque peu sur la plage et j'ai aperçu un mouvement du coin de l'œil.#$b#Pendant un instant, j'aurais juré que quelque chose m'observait à travers les eaux.$3#$b#Ce n'était probablement qu'un phoque.",
+			"Sat8": "Parfois, je m'inquiète de la mémoire de Guvvie. Il n'est tout bonnement pas doué avec les noms. Ou les visages.#$b#Oh, si sa secrétaire n'était pas là, je ne sais pas quel genre de faux pas il ferait !",
+			//Sun
+			"Sun": "Bonjour, @. J'espère que ta famille et toi vous portez bien.",
+			"Sun2": "Votre petite ville pittoresque est vraiment charmante. Se réveiller avec le chant des oiseaux et non le vrombissement des moteurs est vraiment merveilleux.",
+			"Sun4": "Tu parais toujours si occupé !^Tu parais toujours si occupée !#$b#Ne mérites-tu pas un petit moment de détente ? Si tu te rends à Zuzu un jour, j'ai un spa à te recommander.",
+			"Sun6": "T'ai-je déjà parlé du jour où nous avons reçu la princesse de Gotoro et sa femme à dîner ? C'était avant la guerre, évidemment.#$b#J'avais préparé le mauvais plat... acheté le mauvais vin. Un désastre complet et fini.$2#$b#Non... je ne pense tout de même pas que c'est ce qui a déclenché la guerre ! Ne sois pas ridicule.$a",
+			//Fall
+			"fall_Mon8": "L'Oiseau chanteur de Zuzu ? Eh bien, parfois j'ai le sentiment qu'elle est encore avec moi.#$b#J'aime mon fils — et oui, j'aime également mon époux ! — mais elle me manque aussi, l'Oiseau chanteur. Peut-être qu'un jour elle chantera à nouveau.",
+			//Winter daily, most likely to trigger when first she comes to town
+			"winter_Mon": "Frisquet aujourd'hui, n'est-ce pas ? J'espère que tu es bien couvert !^Frisquet aujourd'hui, n'est-ce pas ? J'espère que tu es bien couverte !#$b#Quand bien même, à voir la manière dont tu t'agites, j'imagine que tu te réchaufferas en un rien de temps !",
+			"winter_Wed": "La neige ne prend jamais en ville, il s'y passe trop de choses.#$b#Ici, tout est calme et endormi. Cela vous donnerait presque envie d'hiberner.",
+			"winter_Fri": "En tant que fermier local, que fais-tu tout l'hiver, @ ?^En tant que fermière locale, que fais-tu tout l'hiver, @ ?#$b#Moi ? À la ville, il y avait toujours des réunions auxquelles participer, des exhibitions à visiter ; j'avais un cercle social plutôt actif.#$b#Mais le rythme est bien plus lent ici, n'est-ce pas ?$1",
+			"winter_Mon8": "Je commence à me sentir comme chez moi ici.#$b#C'est idiot, tu ne trouves pas ? Que l'on puisse donner un morceau de son cœur à une paisible ville du littoral.",
+			//pre-festivals etc
+			"spring_23_2": "J'attends plutôt impatiemment la danse de demain. C'est charmant que vous célébriez encore les traditions des anciens.#$b#Quand nous nous faisions la cour, Guvvie et moi étions de fins partenaires de danse.$1#$b#Cependant, ce serait désormais un exploit de le détourner des rafraîchissements.$2",
+			"winter_16_2": "Le Marché nocturne semble tout à fait fantastique ! J'ai vraiment hâte d'y être.#$b#J'ai entendu dire que mon vieil ami Lupini y serait. Tu devrais vraiment acheter l'une de ses peintures ; elles ajoutent assurément de la gaieté et du raffinement à notre petit salon.",
+			//Visiting Pierre's
+			"SeedShop_Mon": "Et tous ces produits sont locaux !  N'est-ce pas absolument merveilleux ?#$b#Tu l'as cultivé ? Oh, que tu dois être fier !^Tu l'as cultivé ? Oh, que tu dois être fière !",
+			"SeedShop_Wed": "Je suis entrée un peu plus tôt et j'ai surpris le vendeur en train de chantonner.#$b#Oh, je ne lui en parlerai pas, il semblait gêné.#$b#Mais je dois avoué qu'il n'est pas mauvais chanteur, même s'il n'a rien d'un professionnel.$1",
+			"SeedShop_Fri": "As-tu entendu parler de la tradition d'offrir un bouquet ? C'est si merveilleusement romantique !$1#$b#Je me demande si je pourrais persuader mon Guvvie de m'en offrir un.",
+			// *** N E W ***
+			"election": "@ ! Je viens d'apprendre pour l'élection. J'ai de la peine pour ce pauvre Lewis... Je me demande pourquoi il ne nous a pas dit que cela avait lieu.$2#$b#Je n'aurais pas pu voter, bien sûr, mais j'aurais pu lui apporter mon soutien moral.$2",
+			"reject_534": "Oh, c'est magnifique ! J'ai l'œil pour les pierres précieuses, @, et celle-ci est splendide. Quelqu'un l'aura sans doute perdue.#$b#Oh, peut-être pourrais-tu faire le tour de la ville et essayer de la passer au doigt des villageois — comme à une Cendrillon des temps modernes !$1"
+		}
+	},
+	/*************************
+	//    O L I V E R
+	**************************/
+	{
+		"LogName": "Dialogue", 
+		"Action": "EditData",
+ 		"Target": "Characters/Dialogue/OliverK", 
+		"Entries": {
+			"Josephine_Arrives": "Hé, tu es le fermier, non ? Le Maire Lewis avait des tas de choses à dire sur toi.^Hé, tu es la fermière, non ? Le Maire Lewis avait des tas de choses à dire sur toi.#$b#Oh, ne t'en fais pas, c'était surtout positif !$1",
+			//Resort ...........................................................
+			"Resort_Entering": "Cet endroit est dément !$1",
+			"Resort_Leaving": "J'espère qu'il y a quelque chose de bon pour le dîner. Je suis affamé !$1", 
+			"Resort_Shore": "Hein, j'admire juste la vue.#$b#Quoi ?  Je cherche des requins !$4", 
+			"Resort_Wander": "Tu as déjà exploré le volcan, @ ? Ça a l'air épique !$1",
+			"Resort": "Yoba, maman me fait me tartiner de tellement de crème solaire... Je suis tout gras. C'est dégueu.$a",
+			//Base Dialogue ...........................................................
+			"Mon": "Le Doc a dit que l'air de la campagne serait bon pour mes poumons. Je suppose qu'il avait raison.", 
+			"Tue": "Bonjour ! Je suis désolé, j'ai oublié ton nom...$s",
+			"Wed": "Hé, il y a quoi de sympa à faire dans le coin ? Je veux dire, la nature est belle et tout — mais aussi c'est plutôt ennuyant.$4",
+			"Thu": "Des fois, la ville me manque. Ici, tout est si paisible. Trop paisible, tu ne trouves pas ?#$b#Ca te fait te demander s'il n'y a pas quelque chose qui rôde dans l'ombre.$2#$b#Ha, je rigole.$1",
+			"Fri": "Ah, j'ai déjà fini mes devoirs pour la semaine. C'est le moment de s'amuser du coup, non ?#$b#Qu'est-ce qu'il y a d'amusant à faire par ici ?",
+			"Sat": "Ce soir ? Ouais, je vais traîner avec mes potes.#$b#C'est pas pareil de discuter en ligne... Mais c'est mieux que rien, nan ?$2",
+			"Sun": "$q 5787300 Oliver_VidGames#Tu aimes les jeux vidéo, @?#$r 5787301 50 Oliver_VidGames_Love#Si j'aime ça ? J'adore !#$r 5787301 25 Oliver_VidGames_Like#Ouais, c'est sympa !#$r 5787302 0 Oliver_VidGames_Neutral#Nan, pas vraiment.#$r 5787302 -50 Oliver_VidGames_Dislike#Non, c'est une complète perte de temps.",
+			"Oliver_VidGames_Love": "Dément ! C'est quoi ton préféré ?#$b#Peut-être qu'on pourrait l'essayer !$1",
+			"Oliver_VidGames_Like": "Oh cool. C'est cool que tu comprennes", 
+			"Oliver_VidGames_Neutral": "Ouais, je m'en doutais.",
+			"Oliver_VidGames_Dislike": "Ouais, je vois. Pas la peine de s'énerver.$a",
+			"Oliver_VidGames": "$p 5787301#Hé @! T'as joué à des jeux dernièrement ? Dis-moi si tu veux rejoindre notre MMO !$1|Bonjour @. Ouais, je suis fatigué. J'ai fait un gros raid hier soir. Pas que tu puisses comprendre.",
+			//2 hearts ..................................................................
+			"Tue2": "Tu y crois à ça ? Ma mère a demandé à Penny de me donner des cours ! Comme si j'étais un fichu collégien !$a#$b#J'ai des livres et mon ordinateur... Mais ma mère dit que je dois être plus sociable !#$b#Comme si j'avais envie de traîner avec une bande de gamins...$a",
+			"Thu2": "Oh, je n'ai pas envie de discuter aujourd'hui. D'accord ?$2",
+			"Sat2": "Ouais, mes amis de la ville me manquent. Je veux dire, je les voie sur Zaap toutes les semaines, mais ce n'est pas la même chose.$2",
+			"summer_Sun2": "Ma mère était sur mon dos ce matin. Juste parce que je suis resté debout jusqu'à l'aube.$a#$b#Elle peut juste pas comprendre.$a",
+			//4 hearts ..................................................................
+			"Mon4": "Mon père et moi, on allait au parc ensemble. On regardait les autres enfants jouer au ballon et jouer avec leur chien.#$b#C'était sympa, je suppose, mais ça me rendait aussi un peu triste.$2",
+			"Fri4": "Je voudrais qu'il y ait quelqu'un de mon âge ici... Sam a l'air plutôt cool.#$b#Mais ses amis et lui... Ils sont plutôt soudés. Ils ne voudraient pas d'un gamin comme moi dans leurs pattes.$2",
+			"winter_Sat4": "Ce soir, avec la bande, on va attaquer le Marais de la Brume Eternelle.$1#$b#Des fois je me demande comment ce serait d'utiliser de vraies épées et de combattre de vrais monstres...#$b#Mais maman me punirait si je sortais après vingt-deux heures.$s",
+			"fall_Sun4": "*bâillement* On est resté debout la moitié de la nuit avec la bande à faire un raid. Mais on a battu le Rôdeur de la Nuit !$1#$b#Ne le dis pas à maman, d'accord ? Elle dit qu'on a besoin d'au moins huit heures de sommeil... J'en ai eu, genre, quatre...$2",
+			//6 hearts ..................................................................
+			"Tue6": "$d joja#Tu as rencontré la fille qui travaille à JojaMart ?#$b#Elle est plutôt jolie, tu trouves pas ?$3^Elle est jolie... Je voudrais pouvoir lui parler.$2|Je voudrais savoir parler aux filles...$2#$b#Tu as des conseils ?",
+			"Wed6": "Tu penses que Mlle Aideen est jolie ?$4#$b#Elle est un peu snobinarde par contre...$2", 
+			"Fri6": "Tu voudras jouer au billard un jour ? Je me suis entraîné.$1#$b#Je me suis dit que ça pourrait être sympa de défier Sebastian un de ces jours.", 
+			//8 hearts ..................................................................
+			"Mon8": "Quand j'étais à l'hôpital, papa ne venait qu'une paire de fois par semaine.$2#$b#Il m'amenait des cadeaux, ce qui était cool... Mais des fois, j'aurais juste voulu le voir plus, tu vois ?$4",
+			"Wed8": "Maman restait presque toujours avec moi quand j'étais malade. Je crois qu'elle ne sait plus vraiment quoi faire maintenant.$4",
+			"Sat8": "Hé, tu crois que Rosa m'aime bien ?$4#$b#Quoi ? Non, je n'ai pas le béguin pour elle ! Elle est juste plutôt cool, c'est tout.$a",
+			"winter_Mon8": "Est-ce que tu es bon en maths, @ ? C'est tellement une perte de temps.$a#$b#Je veux dire, les statistiques, je comprends, et même l'algèbre, mais quand est-ce que j'aurais besoin de la différentiation ?$2",
+			"winter_Fri8": "Hé, @. Le cours de biologie d'aujourd'hui était plutôt cool. J'ai disséqué une grenouille numériquement. Sympa, hein ?$4#$b#Et le plus cool ? Pas de mort et tu n'as pas à nettoyer le sang et les entrailles après.$1",
+			"summer_Tue8": "Maman m'a surpris à faire une expérience de chimie dans la cuisine. Yoba, elle était en colère !$2#$b#Ca craint ; où d'autre je suis censé faire mon travail de labo ici ?$a",
+			"summer_Fri8": "Ouais, il y a cette fille dans notre guilde, tu vois ? Elle est vraiment intelligente. Jolie aussi, je suppose.#$b#Mais je crois pas qu'elle m'aime bien. Pas comme ça en tout cas. C'est OK. Je m'en remettrai.",
+			//festivals .............................................................
+			"summer_10_2": "Papa vient demain. C'est toujours marrant de voir le Maire Lewis essayer de l'impressionner.$1",
+			"spring_23_2": "Tu savais que maman a demandé au Maire Lewis si je pouvais participer à la dance ? Trop gênant !$2#$b#Yoba merci, il a dit 'non' ! Je me serais probablement emmêlé les pieds.$1#$b#Je voudrais qu'elle me demande ce que je veux au lieu de décider pour moi.$a",
+			//change this one for following years, or after certain events seen.
+			"spring_12_2": "Bien sûr, je vais me joindre au Festival des Oeufs, il paraît que la nourriture est géniale.#$b#Non ! Bien sûr que non, je ne vais pas chasser les œufs. C'est débile. Je ne suis pas un gamin.$a",
+			"winter_7_2": "Il paraît que le Festival des Glaces est super beau. Alors je suppose que maman va m'y traîner avec elle.",
+			//Questions ..............................................................
+			"Oliver_Wrong": "Tu es sûr de ça ? Ça ne semble pas vraiment correct... $2", 
+			"Oliver_Right1": "Hé, pas bête ! Ça me paraît bon.$1",
+			"Oliver_Right2": "Vraiment ? Oh, bien sûr !$1",
+			"Oliver_Right3": "Hum, je croyais que la sphinge parlait d'elle.",
+			"OliverLexi_A": "Tu crois que je ne le sais pas ? Je suis venu te voir parce que je pensais que tu aiderais, pas que tu te la raconterais !$5", 
+			"OliverLexi_B": "Ouais... et avoir l'air d'un menteur à la recherche d'attention. Mais... je suppose que tu as raison. C'est le meilleur moyen. Je suis sûr qu'ils ont l'habitude des canulars.$2#$b#Je suppose que tu ne mettrais une combinaison en caoutchouc, si ?$3",
+			"OliverLexi_C": "J'ai peur qu'ils ne s'énervent après moi. Mais tu as raison, ils ont le droit de savoir. Et, qui sait ? Peut-être que Lexi voudra devenir une célébrité ?$3",
+			//Conversation Topics ....................................................
+			"TalkOllyLexi": "Non, pas ici ! On parlera à l'auberge. D'accord ?$2",
+			// *** N E W ***
+			"election": "Alors, maman m'a dit que Morris était maire maintenant. Ça a dû être un choc pour le mai... euh pour M. Lewis. Pauvre vieux.$2#$b#Le changement a du bon... Mais échanger le seigneur du village pour le gros bonnet d'une grande entreprise ? C'est comme foncer tête la première dans un futur dystopique, nan ?$1",
+			"GiftReaction_Rodney's_Autograph": "Hé, c'est plutôt cool, mais M. O'Brien m'en a déjà donné un tas.#$b#Je les vends sur uBuy. Euh, ne lui dis pas, d'accord ?$2",
+		}
+	},
+	/*************************
+	//	L E X I
+	**************************/
+	{ // Note: Lexi is gender neutral by definition, if your language is gendered, please  consider them female.
+	//note that they intentionally speak in  halting English. 
+		"LogName": "Dialogue",
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Leximonster", 
+		"Entries": {
+			"Mon": "De la surface, tu viens, oui ?...#$b#Dire-moi... Les gens là-bas, eux avoir peur de moi encore ?",
+			"Mon4": "Fruits de la terre me manquent. Fruits de la mer... Eux pas être aussi sucrés.", 
+			"Tue": "Mes plantes, j'arroser, nourrir... chanter.#$b#Quand même elles meurent... $2",
+			"Tue6": "Je voir enfants jouer sur la plage. Je vouloir jouer aussi. Mais pas pouvoir.#$b#Les petits, ils avoir peur de moi.$2",
+			"Wed": "Toi entendre le chant de la mer ?#$b#Elle se sentir seule. Comme moi.$2",
+			"Wed8": "Parfois l'océan, lui m'envoyer des cadeaux. Moi partager celui-ci avec toi. [169 166 116 152 170 372 392 393 394 397]",
+			"Thu": "Je trouver choses. Fabriquer choses. Créer.#$b#Ca me rendre heureuse... Je crois ?",
+			"Thu8": "Petite fille trouve coquillages sur plage. Elle voit moi... Pas crié ! Non !#$b#Regarde moi et dit, qui est toi ? Pas quoi ; qui !$1",
+			"Fri": "Si voir ma mère. S'il te plaît. Dire elle. Je l'aime.#$b#Reviens voir moi bientôt, oui ?", 
+			"Fri4": "Mère, elle apprend moi lire. Livres comme aventure.#$b#Mais tristes aussi. Pas possible de voir merveilles ! Dois rester ici, manger poissons.$2",
+			"Sat": "Crabes et coquillages. Ils sont mes amis.#$b#Seras-tu... ami aussi ?^Seras-tu... amie aussi ?",  
+			"Sun": "Après tempête, océan amène moi dons.#$b#Trouvé bouteille une fois... dedans... trésors. Jamais dirai. Non.",
+			"Sat4": "Océan donne beaucoup cadeaux ! Tu veux échanger pour généreuse terre ?",
+			"winter_Sun": "Tu venir me voir, même si eau très froide !#$b#Tiens, ça te réchauffe, oui ? [456 457]",
+			"summer_Mon": "Aujourd'hui être heureuse ! Dauphins venir visiter pour nager, dire histoires d'endroits lointains !",
+			"summer_Wed4": "Hier soir, j'entendre baleine chanter. Chanson profonde, belle mais triste.#$b#Il cherche partenaire. Des fois moi chanter aussi. Peut-être un jour, trouver bon ami pour partager ma maison ?$1",
+			"winter_Fri6": "Tu me dire une histoire, @ ? Mère disait histoires.#$b#Il y avait courageuses femmes qui gravir montagne ou volaient comme oiseaux !",
+			"winter_Sat": "Etre trop froid pour nager maintenant, eau glacée. Tous mes amis poissons partis à endroits chauds loin, loin d'ici.",
+			"winter_Mon4": "Des fois je chanter aux crabes rocheux. Mais eux pas aimer mes chansons.",
+			// N E W D I A L O G U E *** N E W ***
+			"Mon8": "Ami goéland venu visiter, amené nouvelles. Lui grande commère !#$b#Parlé d'île de feu et drôle de garçon qui croire être un perroquet !$1#$b#Ami goéland avoir grande imagination !$3",
+			"summer_Tue10": "Été être bonne saison. Gens venir, jouer dans l'eau.$1#$b#Je regarder les petits. Inquiète pas bon nager et méchants courants les emporter.",
+			"Fri8": "Un jour moi penser peut-être écrire histoire à moi. Histoire de orphelin, échoué sur plage.#$b#Aura fin heureuse, tu croire ? Ou triste ?#$b#Peut-être un jour je savoir.",
+			"summer_Fri4": "Tu aimes crème glacée en cornet ? Être mon préféré.%revealtasteLexi233", 
+			"Sat8": "Une fois regardé images qui bougent — dévédé — avec mère. Une petite sirène, elle marche sur la terre.#$b#Devient amie avec beau homme. Me demander, histoire comme ça peut être comme vrai ? Non... Pense pas.$2",
+			"Sun8": "Océan, cacher beaucoup secrets. Un jour, peut-être, partagerai certains avec toi ?", 
+			"Tue10": "$1 Lexi_FriendGullStory#Veux savoir comment je rencontrer ami Goéland ? Le trouver sur plage, coincé dans filet. Aider à sortir.#$e#Ami Goéland est meilleur ami, depuis beaucoup années maintenant. Mais bien avoir autres amis.$3#$b#Histoires d'ami Goéland deviennent pareil-pareil après un moment. Toujours se vante, se vante, se vante !$1",
+			"Tue4": "Autre nuit y avoir violente tempête. Bon moment pour chercher des trésors de la mer !$1#$b#Aussi trouver petits crabes et poissons qui faire flop-flop-flop. Je les remets. C'être un grand monde effrayant pour petit poisson.",
+			"Wed10": "Je demande comment être de nager en remontant tout tout en haut de rivière. Quelle aventure je pourrais trouver ?", 
+			"fall_Wed2": "La nuit, être agréable d'aller sur la plage sous regard bienveillant de M. Lune.$1#$b#Tu entends histoire sur Homme dans la lune ? Des fois je crois je le vois.#$b#Etre probablement moi qui espère.$3",
+			"winter_Thu": "Sirènes viennent visiter ville, oui ? Les voir nager des fois. Loin, loin, jamais près.#$b#Leurs chansons être comme magie. Ma chanson... pas être comme magie.",
+			"summer_Tue6": "Toi rencontrer mère ? Doit être personne humaine, comme toi ?$1#$b#Trouver moi bébé, échouée sur la plage, comme bois flotté.#$b#Des fois je regarde plage, pense peut-être vais trouver autre bébé moi.",
+			//Unique Gift Responses
+			"GiftReaction_-74": "Me faire penser à mère. Je vais planter, m'en occuper. Espère va pousser.#$b#Merci.$4",
+			"GiftReaction_Beer": "Beurk ! Sentir horrible... et avoir goût d'herbes pourries. Pourquoi me donner ça ?",
+			"GiftReaction_Mead": "Être si sucré ! Comme boire du miel. Merci.",
+			"reject_534": "Ça être pierre précieuse ! Cadeau de la terre, profond du cœur de la terre. Pas cadeau pour moi, être pour quelqu'un d'autre, moi le sentir."
+		}
+	},
+	/*************************
+	//	R O S A
+	**************************/
+	{
+		"LogName": "Dialogue", 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Rosa", 
+		"Entries": {
+			"Introduction": "Howdy, moi c'est Rosa. Je suis nouvelle en ville.$h#$b#N'hésite pas si tu as du travail à proposer, je suis toujours partante pour les petits boulots !",
+			//Monday
+			"Mon": "Quand j'aurai l'argent pour, je prendrai le train pour Zuzu City ; ma mère y est professeur.", 
+			"Mon4": "J'ai travaillé de-ci de-là. J'ai cueilli des fruits, promené des chiens.#$b#Nettoyé des poissons. Beurk ! Je n'ai vraiment pas aimé ce boulot-là !$2#$b#J'ai été engagé pour rassembler des canards une fois. C'était assez difficile !$1",
+			"winter_Mon4": "Tu penses que cet endroit est hanté, @ ? J'aurais juré avoir entendu des bruits de pas dans le hall toute la nuit.",
+			"summer_Mon": "C'est beau ici, n'est-ce pas ? Mais, les gens du coin semblent un peu méfiants des étrangers.",
+			"summer_Mon10": "J'ai téléphoné à mon père hier, @. Ça me fait toujours plaisir de parler avec lui.#$b#Il est heureux et la boulangerie se porte bien.#$b#Mais il me manque.",
+			"fall_Mon": "Est-ce que tu as envie de voyager, @ ?#$b#Moi oui... J'ai fait un peu de randonnée en République de Fergill.",
+			"fall_Mon4": "Les jours frais comme ceux-ci, il n'y a rien de mieux que de se blottir devant le feu avec un livre, n'est-ce pas ?$1",
+			"fall_Mon10": "Tu as lu de bons livres récemment, @ ? Je suis presque sûre d'avoir lu tous les romans policiers que la bibliothèque avait à offrir.$1",
+			"winter_Mon": "Oh ! Tu veux bien retirer la neige de tes chaussures, s'il te plaît ? Je viens de cirer le plancher.$2", //change this if ItsBenter's family installed
+			"winter_Mon6": "J'espère qu'on ne va pas se faire enneiger, @. Avec les chambres vides, la chaudière au sous-sol et l'isolation...#$b#Eh bien, disons simplement, que j'ai des flashbacks d'un certain roman d'horreur que je regrette d'avoir lu.$2",
+			"winter_Mon10": "Brrr, l'hiver est la période de l'année où Fort Josa me manque le plus !#$b#Non, je n'ai pas le mal du pays ; je me suis fait trop d'amis ici pour pouvoir vous abandonner si facilement. J'ai simplement hâte que le printemps arrive !$1",
+			//Tue
+			"Tue": "Au Fort Josa, la boulangerie de mon père sentait toujours merveilleusement bon.#$b#Avec la guerre et le rationnement, on a dû arrêter de faire des gâteaux et des pâtisseries, mais on a improvisé.$s",
+			"Tue2": "Est-ce que tu aimes l'odeur du pain frais ? Ça me rappelle la maison.", 
+			"fall_Tue2": "Est-ce que tu aimes lire, @ ?#$b#J'adore les bons romans policiers — plus l'intrigue est complexe mieux c'est !", 
+			"Tue8": "Mes parents n'ont pas eu la meilleure des relations. Ça m'a presque dégoûtée du mariage pour être honnête.$2#$b#Mais bon, je suppose que si je trouvais la femme idéale...$1",
+			"summer_Tue4": "Tu as déjà fait du surf, @ ?#$b#Moi ? Ah, non. Mais j'ai été garde-côte pendant un temps, alors j'ai secouru quelques surfeurs !",
+			"summer_Tue": "Fais attention, @. Quand je rentrais hier soir, un crabe géant m'a foncé dessus !$2#$b#Le Dr Jacob dit qu'il s'agit d'une espèce invasive et qu'elle s'en prend aux animaux de la région. C'est vraiment horrible !",
+			"fall_Tue": "Il y a plein de chemins dans le coin.#$b#Suis-les et tu verras bien où tu atterriras.$1",
+			"fall_Tue6": "Howdy @ ! J'arrive tout de suite. J'essaie juste de digérer la grande révélation du livre que je suis en train de lire.#$b#Je pensais que j'avais résolu l'énigme, mais ce rebondissement... Ça m'a complètement prise de court !$1",
+			"winter_Tue": "Je pense que je vais rester ici bien au chaud.#$b#Non, il n'y a pas de feu ; on a une chaufferie. Le chauffage central, il n'y a que ça de vrai !$1",
+			"winter_Tue6": "Cette pauvre petite chatte errante se baladait encore dans le coin. Je lui ai donné des restes.#$b#Je la laisserais bien entrer, mais je ne pense pas que les Hart apprécieraient. Et c'est leur auberge. Je ne suis que leur gouvernante.$2",
+			//Wed
+			"Wed": "Fort Josa approvisionnait les usines alentour et les bateaux à vapeur en charbon.#$b#Quand le pétrole s'est développé, la ville a commencé à dépérir... Un peu comme cet endroit, je suppose.$s",
+			"Wed2": "Je me sens bien ici, quoiqu'un peu seule. J'aimerais avoir quelqu'un avec qui passer du temps.$2", 
+			"summer_Wed6": "J'ai travaillé dans un zoo une fois. Ça paraît beaucoup plus glamour que ça ne l'est vraiment.#$b#Ouais, on passait plus de temps à ramasser des crottes et des os mâchouillés qu'à câliner les bébés animaux.",
+			"Wed8": "J'ai ramené ma première petite amie à la maison quand j'avais dix-sept ans. Ma mère était super contente que j'aie trouvé quelqu'un.$1#$b#Mais ça n'a pas marché entre nous.$2#$b#Nan, ça va ; on est restées en contact.",
+			"fall_Wed4": "Pourquoi est-ce que l'automne est la saison la plus populaire ? Je ne comprends pas.#$b#Mais bon, il faut dire que j'ai passé la matinée à sortir les feuilles mortes du caniveau.$3#$b#Eh ben, je suppose qu'on ne dit pas que c'est la saison du déclin pour rien...$1",
+			"summer_Wed": "Il fait trop chaud pour pâtisser aujourd'hui. Peut-être que je ferais des cheese-cakes à la place.", 
+			"summer_Wed4": "Argh... La chaleur de l'été attire les fourmis à l'intérieur. Je les ai trouvées dans mon bol de sucre ce matin.$3#$b#Quel gâchis...$2", 
+			"fall_Wed": "Mince... Je n'ai plus de farine. Je suppose qu'il va falloir que j'aille en ville demain.#$b#Mais bon, c'est agréable de marcher.$1",
+			"winter_Wed": "L'ours dans le couloir de l'auberge ? Oh, je suis quasiment sûre qu'il est mort de cause naturelle.#$b#Je l'ai appelé Humphrey. J'espère que ça ne le dérange pas.$1",
+			"winter_Wed6": "Si je me sens seule dans cette grande auberge vide ? Bien sûr que non. Eloise vient me rendre visite.#$b#Tant qu'elle ne vient pas en tricycle, on s'entend bien.$1",
+			//Thursday
+			"Thu": "J'apprécie toujours mes promenades en ville. L'air est si pur ici, pas comme à Fort Rosa. Ça sentait toujours la fumée là-bas.",
+			"JojaMart": "Howdy @. Je récupère juste quelques ingrédients. J'ai un marathon de pâtisserie de prévu !", 
+			"SeedShop": "Howdy @. Je récupère juste quelques ingrédients. Les fruits d'ici sont toujours frais. Je me demande où Pierre les récupère.", 
+			"Thu4": "Tu as rencontré Aideen ? Elle est jolie, pas vrai ?#$b#Si nous sommes amies ? Non, pas vraiment. Mais son chat me rend parfois visite !$1",
+			"spring_Thu6": "Pardon si je suis un peu poussiéreuse. Ces satanés oiseaux essaient encore de s'installer dans les corniches et j'essaie de les en dissuader.#$b#Oh, je n'ai vraiment rien contre les oiseaux... mais je ne veux pas d'eux dans mon toit.$2", 
+			"fall_Thu4": "Argh, aujourd'hui a été un peu difficile. Juste un peu submergée par mes émotions, tu sais ?$2#$b#Enfin, j'ai décidé de pâtisser un peu... Et maintenant, j'ai de quoi nourrir la ville tout entière. Argh. Tiens, prends un muffin.[651]",
+			"summer_Thu": "Est-ce que tu as déjà vu un petit chat gris se balader dans le coin ?#$b#Parfois je lui laisse des restes. Pauvre petite chose.$2",
+			"fall_Thu": "Est-ce que tu es resté en contact avec des gens de chez toi, @ ?^Est-ce que tu es restée en contact avec des gens de chez toi, @ ?#$b#Ouais, ma mère m'a appelée hier soir. C'était sympa. M'a rendue un peu... nostalgique ? Chuis pas sûre que ce soit le bon mot. Mais ça ne m'a pas donné le mal du pays non plus.$2",
+			"winter_Thu": "La neige est si fraîche et propre ici. Ça donne au monde l'air presque neuf.#$b#Fait froid par contre !",
+			"winter_Thu6": "Il y a quelque chose qui a gratté le mur toute la nuit hier soir. Encore une fois... #$b#Sûrement des souris. Beurk, j'espère que ce n'était pas des rats. Peut-être que je devrais demander à Aideen si je peux emprunter son chat.$1",
+			"winter_Thu10": "Howdy mon grand ! Tu veux passer regarder un film ce soir ?^Howdy ma grande ! Tu veux passer regarder un film ce soir ?#$b#Pourquoi pas un bon gros film d'action ? Je ne serais pas contre un peu de compagnie.",
+			//Friday
+			"Fri": "Certains soirs, j'aime bien marcher jusqu'au phare. Le coucher de soleil est vraiment beau.#$b#Ce serait mieux si j'avais quelqu'un avec qui le regarder, mais bon...$2",
+			"Fri4": "J'ai toujours eu la dent sucrée. Ma mère me charriait avec ça.",
+			"Fri8": "Mes parents se sont séparés il y a quelques années. Parfois, je me demande si je ne suis pas la seule raison pour laquelle ils sont restés ensemble aussi longtemps.$2",
+			"summer_Fri8": "Fort Josa est une ville sur la côte, alors on jouait tout le temps dans l'eau. Parfois, on voyait même des dauphins.#$b#C'était avant la guerre... après, eh bien, disons que nager est devenu beaucoup moins amusant.$2", 
+			"summer_Fri": "Peut-être que j'irai tremper mes pieds dans l'océan demain. Même si Eloise m'a dit qu'il y avait des poissons qui venaient nous grignoter les orteils.#$b#Je ne suis pas sûre d'être partante pour ça !$1",
+			"fall_Fri": "Tu sais, beaucoup de navires se sont échoués par ici. C'est pour ça qu'ils ont construit le phare.#$b#Tu penses qu'il y a un trésor caché quelque part dans le récif ?",
+			"winter_Fri": "Hé, tu veux passer un petit moment avec moi ? Je m'ennuie et je ne serais pas contre un peu de compagnie.",
+			//Saturday
+			"EastScarp_VillageInn_Sat": "Ça ? Oh c'est un travail temporaire, jusqu'au retour des propriétaires. Être nourrie et logée ? Je ne vais pas me plaindre !$1",
+			"Sat": "C'est dommage que pas plus de monde ne vienne sur cette plage. Elle est un peu le trésor caché de Pélican Ville.$#$b#Plus de visiteurs seraient bon pour le commerce, mais ça ruinerait un peu aussi l'ambiance.",
+			"Sat_4": "Le chat d'Aideen est passé hier. Ne lui dis pas, s'il te plaît, mais je l'ai nourri...#$b#Il aime tellement le poisson !$1",
+			"Sat4": "Je vais parfois en ville, mais les groupes y sont... Ils sont si unis.#$b#C'est difficile de se sentir à sa place, tu ne trouves pas ?$2",
+			"summer_Sat2": "Est-ce que tu aimes marcher sur la plage, @ ? J'adore la sensation du sable entre mes orteils.",
+			"winter_Sat6": "Cet endroit peut être un peu effrayant la nuit. C'est si grand, et vieux.#$b#Parfois, il y a ces étranges grincements... Mais ce n'est probablement pas des fantômes, pas vrai ?$2",
+			"summer_Sat": "Je ferai mieux d'écrire une lettre à mon père... Ouais, il est encore au Fort Josa.#$b#Il m'envoie parfois des recettes. Il me manque.$2",
+			"fall_Sat": "Hum... La Fête des Esprits approche. On s'amusait tellement à cette époque de l'année.#$b#On s'asseyait autour d'un feu de camp et on se racontait les histoires les plus effrayantes possibles.",
+			"winter_Sat": "Argh, il a sacrément neigé la nuit dernière.#$b#Je me suis réveillée à l'aube pour déneiger le toit. Bon sang, je tuerais pour un café.",
+			//Sunday
+			"Sun": "Est-ce que tu vois beaucoup de réfugiés ici, @ ? Je suppose que non. Nous en avions un afflux constant au Fort Josa.#$b#C'est vraiment triste les choses qu'ont dû endurer ces gens pour être 'libres'.$s",
+			"Sun6": "Parfois, Fort Josa me manque, tu sais. Nan, ce n'est pas le mal du pays, plutôt autre chose...#$b#De l'envie peut-être ? Mais, je dois avouer que c'est plutôt sympa ici.",
+			"winter_Sun4": "Bon sang, Eloise m'a enguirlandée...#$b#Elle m'a surprise à jeter des miettes aux oiseaux... Oh, je ne sais pas si je m'étais déjà autant fait remonter les bretelles !$1",
+			"summer_Sun": "Est-ce que tu as déjà vu une sirène, @ ?#$b#Je ne peux pas en être sûre à cent pour cent, mais je sais que j'ai vu quelqu'un — ou quelque chose — nager vers le large.",
+			"fall_Sun": "Tu veux jouer au billard ? On m'a convaincue de participer à un tournoi un jour.#$b#Oh, j'étais lamentable ; ce n'est pas vraiment mon truc. Mais c'est quand même marrant !",
+			"winter_Sun": "Est-ce que tu aimes les films d'horreur, @ ?#$b#J'en ai regardé un hier soir... Il se déroulait dans un hôtel vide. Fermé pour l'hiver... #$b#Peut-être pas la meilleure idée que j'ai eue !$1",
+			//Specific Dates
+			"spring_23": "Est-ce que tu vas à la danse demain, @?#$b#Moi ? Oh, je suppose que oui ! Si la bonne personne m'invite, bien sûr !",
+			"spring_23_2": "J'attends la danse de demain avec impatience.$1#$b#Ouais, c'est ringard mais c'est quand même amusant. J'adore ces vieilles traditions, pas toi ?",
+			"fall_26_2": "La Fête des Esprits est mon festival préféré. Tu sais quoi ? Je vais carrément organiser une fête ici. T'en dis quoi ?",
+			//Conversation Topics
+			"Josephine_Arrives": "Oh @ ! Lewis vient d'appeler pour me dire que la femme et le fils du Gouverneur arrivaient demain !$1#$b#Mes premiers clients ! J'espère vraiment ne pas le décevoir.$2",
+			"Tristan_Returns": "J'ai entendu de drôles de rumeurs sur un homme qui était un chat ?#$b#Ca m'a l'air d'un conte de fées. Tu sais quelque chose à propos de ça, @ ?",
+			"cc_Complete": "J'ai vu que le JojaMart était condamné. Qu'est-ce qui est arrivé ?#$b#Je suppose que ça veut dire que la jolie rouquine est partie... Je n'ai pas eu l'occasion de lui dire au revoir.$2",
+			"CherryOrchard_Rosa": "Hé @, tu te souviens de ce drôle d'endroit qu'a trouvé Eloise ? La Ceriseraie ? J'ai demandé au Maire Lewis.#$b#Il a dit que ça avait fermé quand il était enfant ; une querelle familiale, il paraît. On a interdit aux enfants de jouer là-bas. Trop dangereux, apparemment.$2",
+			"spring_15_2": "Hum, je pense que je vais préparer des Gâteaux à l'érable aujourd'hui. Pourquoi ? Oh, juste comme ça.$5",
+			//Resort dialogue courtesy of Calcite
+			"Resort_Entering": "Cette île est charmante ! Dommage que l'auberge ne soit pas plutôt ici.$1", 
+			"Resort": "Tu savais qu'il y avait des forts sur des îles comme celle-ci ? Pourquoi est-ce que ma famille n'a pas plutôt choisi de vivre dans l'un de ceux-là ?",  
+			"Resort_Shore": "Aïe ! Je crois qu'un crabe vient de me pincer. Où est Willy quand on a besoin de lui ?", 
+			"Resort_Wander": "Alors, qu'est-ce que c'est que ces rumeurs que j'entends sur les sirènes ?$1",
+			"rejectNPCA": "Tu sais que j'aime les filles, non ?^C'est encore un peu tôt, ma grande, je préfère qu'on apprenne d'abord à se connaître.$1",
+			"rejectNPCB": "Désolée non, t'es pas mon genre.^Désolée ma grande, je préfère qu'on reste amies pour le moment. J'espère que tu comprendras.",
+			//Custom Gift Dialogue
+			//New **********
+			"reject_534": "Tu veux me donner ça ? Non, je ne préfère pas. Je le perdrais sûrement ! Garde-le.$5#$b#Qui sait ? Peut-être qu'un jour tu trouveras Lily-Anne et qu'on pourra le lui rendre.$1",
+			"Aideen_Garden": "Bien sûr que je vais aider Aideen avec son projet !#$b#Ca va être magnifique."
+		}
+	},
+	//With Juliet
+	{
+		"LogName": "Schedule", 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Rosa", 
+		"When": {
+			"HasMod": "LemurKat.JulietHouse.NPC"
+		},
+		"Entries": {
+			"Resort_Wander": "Chut, ne le dis pas à Juliet, mais je l'emmène voir la sirène tout à l'heure.", 
+			"cc_Complete": "J'ai vu que le JojaMart était condamné. Qu'est-ce qu'il s'est passé ?#$b#J'espère que ça ne veut pas dire que Juliet va partir.$2", 
+			"summer_Tue": "Est-ce que tu es ami Juliet ? Ca c'est une femme qui sait ce qu'elle veut !$1^Est-ce que tu es amie Juliet ? Ca c'est une femme qui sait ce qu'elle veut !$1",
+		}
+	},
+	{
+		"LogName": "Schedule", 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Rosa", 
+		"When": {
+			"HasMod": "LemurKat.JulietHouse.NPC", 
+			"HasSeenEvent": "57874015"
+		},
+		"Entries": {
+			"Resort_Wander": "Chut, ne le dis pas à Juliet, mais je l'emmène voir la sirène tout à l'heure.", 
+			"winter_Fri10": "Juliet est passée hier soir. Elle est convaincue que cet endroit est hanté.#$b#Honnêtement, je ne sais pas si elle est ici pour me voir ou pour essayer d'attraper un fantôme.#$b#Mais bon, dans les deux cas, j'apprécie sa compagnie !$1",
+			"fall_Fri6": "Juliet et moi avons parlé de faire une séance de spiritisme. C'est la période de l'année et tout ça.#$b#C'est pas vraiment ma tasse de thé, mais tu sais ce qu'elle aime. Tu veux te joindre à nous ?",
+			"Sun6": "Tu devrais te joindre à nous un samedi soir. Juliet et moi jouons au billard au Stardrop.#$b#Elle n'est pas aussi douée qu'elle veut bien le croire !$1#$b#Mais elle fait cette adorable petite danse quand elle gagne... Alors je la laisse parfois gagner.#$e#Ce sera notre petit secret, OK ?$4",
+			"fall_Fri10": "Juliet est passée hier soir. On a regardé un film et elle s'est endormie sur mon épaule.#$b#C'était plutôt mignon, même si elle a un peu bavé.$1"
+		}
+	},
+	/********************************************
+	//	K A T A R Y N A
+	********************************************/
+	{
+		"LogName": "Dialogue", 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/KatarynaLK", 
+		"Entries": {
+			"fall_15_2": "C'est une petite ville si pittoresque, tu ne trouves pas ? Ça te fait te demander ce qui se trame sous la surface.#$b#Fantômes, goules, des choses qui se fondent dans la nuit... Tout a ses secrets et c'est ma mission de les mettre au jour.$1",
+			"Mon": "Il y a assurément quelque chose de surnaturel par ici. Je peux presque le sentir.", 
+			"Mon4": "Oh @ ! Vite, tu dois me sauver. Eloise m'a encore rebattu les oreilles avec ses oiseaux.$2#$b#Les toucans n'ont rien de sorcier. Même si leur bec est plutôt étrange.$3",
+			"Mon6": "On a passé toute une nuit à camper dans les Foreverglades une fois ; on avait entendu des rumeurs sur un singe puant.#$b#Je me suis faite dévorée par les moustiques en passant.$4",
+			"summer_Mon": "Tu as vu des phénomènes surnaturels ? Non ? Alors je n'ai pas le temps de discuter.$4",
+			"winter_Mon": "Oh, quelle idiote je fais, à ne pas avoir emporté d'écharpe.$2#$b#Il fait plus chaud sur la côte, qu'ils disaient. Quels menteurs !$4",
+			"fall_Mon": "J'ai passé tout le week-end à relire des articles et, argh, la grammaire. L'orthographe !#$b#Est-ce que plus personne ne sait utiliser un dictionnaire ?$a",
+			//Tue
+			"Tue": "L'une de mes sources m'a dit qu'il y aurait un sorcier qui habitait en ville.#$b#Je suppose que tu n'organiseras pas de visite ?#$b#J'ai essayé de toquer, bien sûr ! Mais il a refusé de m'ouvrir.$a",
+			"Tue4": "Ce sorcier... Es-tu ami avec lui ? J'adorerais le rencontrer.^Ce sorcier... Es-tu amie avec lui ? J'adorerais le rencontrer.",
+			"Tue6": "Tabloïds, pouah ! Les critiques peuvent être si étroits d'esprit.$a#$b#Garde ton esprit ouvert au surnaturel, @. Après tout, il est tout autour de nous.",
+			"summer_Tue": "Oh... Ce maudit Peasbody-je-ne-sais-quoi a encore critiqué mes histoires. L'audace !$a#$b#Tout ça parce qu'IL ne croît pas aux monstres...^Tout ça parce qu'ELLE ne croît pas aux monstres...",
+			"winter_Tue": "Une fois, nous avons visité une ville hantée dans les Cascades qui était envahie de singes sauvages.#$b#Ca semblait être du gâteau jusqu'à ce que l'un d'entre eux morde Raoul et lui vole sa caméra.$2",
+			"fall_Tue": "As-tu déjà vu une licorne, @ ? Ce sont de magnifiques créatures, plus que les chèvres et les chevaux.#$b#Nous en avons traquée une, une fois, jusque dans une forêt profonde où elle avait été repérée. Un endroit terrifiant. Nous avons failli nous faire dévorer par des fantômes.#$b#Oh, si Raoul n'avait pas été là avec son pistolet lance-fusées, nous les aurions sans doute rejoints.$2",
+			//Wed
+			"Wed": "Oh oui, j'ai rencontré ce gars 'charmant' à la Guilde.#$b#Il est un peu bourru, non ? Il n'a pas voulu me dire grand-chose. Disait que les informations étaient réservées aux membres de la guilde. Humf.$a",
+			"Wed4": "Quelles sont les conditions pour rejoindre la Guilde des Aventuriers ? Je n'ai jamais brandi d'épée...#$b#Mais j'ai déjà repoussé une wynerve territoriale avec une poêle à frire.$1",
+			"Wed6": "Certaines personnes semblent plus amicales que d'autres ici... Je croyais que les gens des petites villes avaient le sens de l'hospitalité.$2",
+			"summer_Wed": "Est-ce que tu crois aux fantômes, @ ?#$b#Moi ? Oh, je n'y crois pas — je SAIS qu'ils existent. Est-ce que tu dirais que tu crois aux chèvres ?#$b#Non, bien sûr que non. Ce serait ridicule.$1",
+			"fall_Wed": "Les fantômes, les gobelins, les loups-garous... Oui, bien sûr qu'ils existent. Les vampires par contre. Eh bien, c'est une autre histoire.",
+			"winter_Wed": "J'aurais juré avoir entendu un drôle de martèlement, quelque part loin sous mon lit, la nuit dernière.#$b#Probablement les esprits des mineurs. Quand la mort frappe soudainement, les ombres s'attardent. Mais elles sont inoffensives. Pour la plupart.$1",
+			"fall_Wed4": "Est-ce que certains villageois ne te paraissent pas un peu... étranges, @ ?$3#$b#J'ai entendu Aideen parler à ses fleurs ! Peut-être qu'elle est une fée ?$#$b#Ou bien c'est que les petites villes favorisent l'excentricité.",
+			//Thu
+			"Thu": "Mamie Evelyn est charmante ! Elle m'a tellement appris sur la ville.#$b#Rien n'était particulièrement utile, mais je n'avais pas le cœur de décevoir cette pauvre vieille dame.$1",
+			"Thu4": "Comment se porte ton bétail, @ ?#$b#J'en entendu dire que quelque chose importunait les poules de Marnie. Je me demande si ça pourrait être un cocatrix ? Si tu trouves des œufs étranges, apporte-les-moi !$1",
+			"Thu6": "T'as croisé des golems, @ ?#$b#Certains disent que c'est la magie qui les anime... D'autres pensent qu'ils ont une conscience.#$b#Qu'est-ce que tu en penses ?",
+			"summer_Thu": "Il y a beaucoup de ces fichus crabes par ici, non ?#$b#Je ne dirais pas qu'ils sont mystérieux, mais ils ne sont pas naturels non plus. Des choses horribles.",
+			"winter_Thu": "J'ai trouvé le vieux verger. On dirait qu'il pourrait y avoir une histoire intéressante.#$b#Tu penses qu'il est hanté ? Eh bien, naturellement. Comment pourrait-il ne pas l'être !$3",
+			"fall_Thu": "Oh, bonjour @. Je tuerais pour un expresso. Je suis restée debout toute la nuit à travailler sur un scoop.#$b#Ha, non ! Mes informations sont confidentielles. Tu pourras acheter le prochain numéro, comme tout le monde.$3",
+			//Fri
+			"Fri": "Oh, peux pas m'arrêter, j'ai des délais à respecter !",
+			"Fri4": "Est-ce que tu as des chèvres dans ta ferme, @ ?#$b#Oh, pour rien, c'est juste qu'on a aperçu des chupacabras dans la région.$1",
+			"Fri6": "Tu connais la Légende de Roger L'Énervé ? Il était un mineur d'or devenu hors-la-loi, il y a une centaine d'années.#$b#Il paraît qu'il aurait caché son trésor quelque part dans ces collines. Personne ne sait où.",
+			"summer_Fri": "Tu n'as rien remarqué d'inhabituel dans le coin, si ?",
+			"fall_Fri": "Est-ce que tu sais où se trouve l'entrée de l'ancienne mine ? Je l'ai cherché, mais le guide est horriblement imprécis.$2",
+			"winter_Fri": "Il y a assurément quelque chose de quelque peu... différent dans cette ville, tu ne trouves pas ?#$b#Et tellement fermée. Personne ne veut me parler. Enfin, à part la fille du vétérinaire. Et elle ne veut pas parler d'autre chose que d'oiseaux.$a",
+			"winter_Fri8": "Tu as entendu les rumeurs sur Abigail ? Il y a définitivement quelque chose d'intéressant à son propos.$3#$b#Elle tient de sa mère, apparemment — à ce qu'on raconte, Caroline aurait été plutôt anticonformiste dans sa jeunesse !$1",
+			"summer_Fri_inlaw_Jasper": "J'espère que ton mari nous prépare quelque chose de rafraîchissant ! Ses articles sont toujours si amusants.$1",
+			//Sat
+			"Sat": "Les enfants me racontent toujours les histoires les plus incroyables.#$b#Un pêcheur rôdant autour du quai, des gobelins dans les bois... Si seulement cela pouvait être vrai !$3",
+			"Sat4": "Tu as déjà visité une ferme de slime, @ ? Si tu reçois une invitation, ne porte pas de beaux vêtements !#$b#J'ai assisté à une Convention des Amateurs de Slimes une fois. C'était une bande plutôt excentrique. Très, euh, enthousiaste.$1",
+			"summer_Sat": "Le Dr Jacob semble être quelqu'un de bien. Ça demande un peu d'effort pour arriver à le faire parler... Tu as remarqué ?",
+			"winter_Sat": "C'est si difficile de trouver du personnel compétent de nos jours. Pas un ne voulait bien travailler le week-end !$a#$b#Les jeunes de maintenant... Aucun dévouement pour la cause.$2",
+			"fall_Sat": "Tu sais ce que le Maire m'a dit, @ ?#$b#Il a dit que si j'entendais des bruissements dans les buissons à la nuit tombée, je devais les ignorer.#$b#Je me demande ce qu'il cache.$3",
+			"fall_Sat_inlaw_Jasper": "J'ai vu ton charmant mari travailler dur à la ferme. Son dernier article sur les junimos était des plus inspirants. Hum... Je me demande s'il pourrait y en avoir par ici.",
+			//Sun
+			"Sun": "Qu'est-ce que tu sais à propos du message sur la pierre tombale, @ ? C'est plutôt mystérieux, non ?$1",
+			"Sun4": "%Kataryna semble fatiguée.#$b#Je tuerais pour un expresso. Quoi ? Non, je ne faisais même pas de recherche.#$b#Je lisais seulement le dernier roman de Lilith Sheridan... Et je n'arrivais pas à lâcher ce satané livre.$2",
+			"summer_Sun": "Est-ce qu'il y a un endroit où prendre un expresso dans le coin ?",
+			"winter_Sun": "Est-ce que ce petit Oliver est encore dans le coin ? J'aurais pensé que ses parents l'auraient envoyé dans un pensionnat réputé.$4",
+			"fall_Sun": "Jour de repos ? Non, pour moi non plus. Il n'y a pas de repos pour les braves.$1", 
+			"summer_Sun6": "On a été poursuivis par une flopée de fées une fois. Ce sont des petites choses très territoriales.#$b#Elles mordent aussi. Et ça nous a pris des jours pour nous débarrasser de toute la poussière de fée.$2",
+			"GiftReaction_Rodney's_Autograph": "L'autographe de M. O'Brien ? Tu es son publiciste maintenant ?#$b#Il gagne une récompense ou deux et il se prend de suite pour le moutardier du pape.$a#$b#Ha, j'exprime uniquement mon opinion professionnelle omise de toute jalousie, bien sûr. J'ai apprécié son livre.$1",
+			"reject_534": "Tu me donnes un bijou vintage ? Je ne peux pas accepter. Tu devrais le faire estimer — qui sait ? Ça vaut peut-être une fortune.$1"
+		}
+	},
+	{ //Kataryna
+		"LogName": "Kataryna", 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/KatarynaLK", 
+		"When": {
+			"HasFlag": "KatarynaBecomesSocial"
+		},
+		"Entries": {
+			"winter_Sat": "Les gens me regardent toujours de travers. Une petite ville comme ça, il y a forcément quelques squelettes dans les placards.$2#$b#Heureusement pour eux, je ne suis pas ce genre de journaliste. Sauf si bien sûr, l'un de ces squelettes venait à se mettre à marcher.$3",
+			"winter_Wed": "J'ai commencé à faire un peu de révision comme travail d'appoint. Principalement sur de la littérature de gare à la noix, mais c'est ce que c'est.$2",
+			"winter_Sun": "Oliver ne paraît pas très heureux quand je suis dans le coin. Roh, au moins il ne dit rien.#$b#Je peux supporter quelques regards noirs.$2",
+			//Probably more to come!
+		}
+	},
+	/************************************************************* 
+	S P E C I A L O R D E R S
+	*************************************************************/
+	{
+		"Action": "EditData",
+		"Target": "Strings/SpecialOrderStrings", 
+		"Entries": {
+			//Attraper un poisson pour le chat 
+			"EastScarp.SpecialOrders.LadySheba_Name": "Nourrir le chat",
+			"EastScarp.SpecialOrders.LadySheba_Text": "Il y a un chat errant sur la plage d'East Scarp et elle a faim ! Est-ce que quelqu'un peut lui donner du poisson, s'il vous plaît ? {FishType:Text} est son préféré ! < Jas",
+			"EastScarp.SpecialOrders.LadySheba_Objective_0_Text": "Attraper 5 {FishType:Text}.", 
+			"EastScarp.SpecialOrders.LadySheba_Objective_1_Text": "Déposer 5 {FishType:Text} dans la caisse à côté de la plage d'East Scarp.",
+			//Viande d'insecte pour le chat (partie 2) 
+			"EastScarp.SpecialOrders.LadySheba2_Name": "Plus de nourriture pour le chat",
+			"EastScarp.SpecialOrders.LadySheba2_Text": "Le chat errant a encore faim ! Peut-être que quelques steaks d'insectes nous aideraient à devenir amis avec elle ? < Jas",
+			"EastScarp.SpecialOrders.LadySheba2_Objective_0_Text": "Récolter 50 morceaux de viande d'insecte.",
+			"EastScarp.SpecialOrders.LadySheba2_Objective_1_Text": "Fabriquer 5 steaks d'insecte.", 
+			"EastScarp.SpecialOrders.LadySheba2_Objective_2_Text": "Déposer 5 steaks d'insecte dans la caisse à côté de la plage d'East Scarp.",
+			//Fromage pour le chat (partie 2) 
+			"EastScarp.SpecialOrders.LadySheba3_Name": "Fromage pour le chat",
+			"EastScarp.SpecialOrders.LadySheba3_Text": "Elle est presque prête à devenir mon amie. Et tous les chats adorent le fromage ! Cette fois ça va marcher, j'en suis sûre ! < Jas",
+			"EastScarp.SpecialOrders.LadySheba3_Objective_0_Text": "Récolter 3 laits",
+			"EastScarp.SpecialOrders.LadySheba3_Objective_1_Text": "Baratter le lait en fromage.", 
+			"EastScarp.SpecialOrders.LadySheba3_Objective_2_Text": "Déposer 3 fromages dans la caisse à côté de la plage d'East Scarp.",
+			//Daffodils Order
+			"EastScarp.SpecialOrders.AideenFlowers_Name": "Fleurs de printemps pour Aideen", 
+			"EastScarp.SpecialOrders.AideenFlowers_Text": "Le printemps est arrivé et j'ai un besoin urgent de jonquilles ! Si quelqu'un pouvait me livrer trente fleurs fraîchement cueillies, il aurait ma reconnaissance éternelle. — Aideen",
+			"EastScarp.SpecialOrders.AideenFlowers_Objective_0_Text": "Récolter 30 jonquilles", 
+			"EastScarp.SpecialOrders.AideenFlowers_Objective_1_Text": "Livrer 30 jonquilles dans le vase de la cuisine d'Aideen.",
+			// SweetPeas
+			"EastScarp.SpecialOrders.AideenFlowers2_Name": "Fleurs d'été pour Aideen", 
+			"EastScarp.SpecialOrders.AideenFlowers2_Text": "Maintenant que l'été est là, les amoureux sont à la recherche de pois de senteur. Je serais des plus reconnaissante si quelqu'un pouvait me livrer trente fleurs fraîchement cueillies. — Aideen",
+			"EastScarp.SpecialOrders.AideenFlowers2_Objective_0_Text": "Récolter 30 pois de senteur",
+			"EastScarp.SpecialOrders.AideenFlowers2_Objective_1_Text": "Livrer 30 pois de senteur dans le vase de la cuisine d'Aideen.",
+			// Crocus
+			"EastScarp.SpecialOrders.AideenFlowers3_Name": "Fleurs d'hiver pour Aideen",
+			"EastScarp.SpecialOrders.AideenFlowers3_Text": "L'hiver est si morne, mais les fleurs illuminent même les jours les plus gris. Aidez-moi à embellir la vie de mes clients en me livrant 30 crocus fraîchement cueillis. — Aideen",
+			"EastScarp.SpecialOrders.AideenFlowers3_Objective_0_Text": "Récolter 30 crocus", 
+			"EastScarp.SpecialOrders.AideenFlowers3_Objective_1_Text": "Livrer 30 crocus dans le vase de la cuisine d'Aideen.",
+			//Slay Crabs
+			"EastScarp.SpecialOrders.SlayCrabs_Name": "Réduire la Menace des Crabes", 
+			"EastScarp.SpecialOrders.SlayCrabs_Text": "Des crabes agressifs émergent la nuit dans East Scarp, mettant en danger les animaux domestiques et sauvages. Je vous prie de nous aider à réduire cette menace et faire d'East Scarp un lieu à nouveau sûr.	— Dr Jacob (DVM)",
+			"EastScarp.SpecialOrders.SlayCrabs_Objective_0_Text": "Tuer 50 crabes.",
+			//Josephine's Jelly Order 
+			"EastScarp.SpecialOrders.JosephineJelly_Name":  "Recherche confiture",
+			"EastScarp.SpecialOrders.JosephineJelly_Text": "J'ai parlé à mes amis de Zuzu des délicieuses confitures locales, et maintenant tout le monde en veut !^Je vous paierai généreusement pour une douzaine de pots de confiture faits à partir des fruits cultivés localement — Josephine.",
+			"EastScarp.SpecialOrders.JosephineJelly_Objective_0_Text": "Récolter 12 fruits", 
+			"EastScarp.SpecialOrders.JosephineJelly_Objective_1_Text":  "Fabriquer 12 confitures",
+			"EastScarp.SpecialOrders.JosephineJelly_Objective_2_Text": "Déposer 12 confitures dans le frigo de l'Auberge",
+			//Beatrice Quartz
+			"EastScarp.SpecialOrders.BeatriceQuartz_Name": "Besoin de Quartz", 
+			"EastScarp.SpecialOrders.BeatriceQuartz_Text": "Les tempêtes récentes ont endommagé les lentilles du phare et nous avons besoin de quartz fraîchement raffiné pour les réparations. Si quelqu'un pouvait en déposer, s'il vous plaît ?	- Beatrice",
+			"EastScarp.SpecialOrders.BeatriceQuartz_Objective_0_Text": "Récolter 12 quartz",
+			"EastScarp.SpecialOrders.BeatriceQuartz_Objective_1_Text": "Raffiner 12 quartz",
+			"EastScarp.SpecialOrders.BeatriceQuartz_Objective_2_Text": "Déposer 12 quartz raffinés au Phare."
+		}
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/Mail", 
+		"Entries": {
+			"EastScarp.SpecialOrders.LadyShebaMail": "Merci d'avoir nourri le chat ! Peut-être qu'elle deviendra bientôt notre amie. < Jas[#]Merci d'avoir nourri le chat !",
+			"EastScarp.SpecialOrders.LadySheba2Mail": "J'ai vu le chat aujourd'hui ! Je pense qu'elle est presque prête à devenir notre amie. Merci beaucoup. < Jas[#]Merci d'avoir (encore) nourri le chat !",
+			"EastScarp.SpecialOrders.LadySheba3Mail": "Je pense qu'elle est prête à sortir maintenant ! Tu devrais venir la voir ! Merci pour ton aide ! < Jas[#]Merci d'avoir nourri le chat !",
+			"EastScarp.SpecialOrders.AideenFlowersMail": "Cher @, ^Je te suis grandement reconnaissante pour les jonquilles. En retour, je t'envoie quelques graines pour l'été.^Cordialement, Aideen.%item object 431 9%%[#]Remerciement pour la livraison de fleurs¦Chère @, ^Je te suis grandement reconnaissante pour les jonquilles. En retour, je t'envoie quelques graines pour l'été.^Cordialement, Aideen.%item object 431 9%%[#]Remerciement pour la livraison de fleurs",
+			"EastScarp.SpecialOrders.AideenFlowers2Mail": "Cher @, ^Les pois de senteur ont certainement attendri quelques cœurs. Merci. En retour, je t'envoie quelques graines pour l'automne.^Cordialement, Aideen.%item object 425 4 %%[#]Remerciement pour la livraison de fleurs¦Chère @, ^Les pois de senteur ont certainement attendri quelques cœurs. Merci. En retour, je t'envoie quelques graines pour l'automne.^Cordialement, Aideen.%item object 425 4 %%[#]Remerciement pour la livraison de fleurs",
+			"EastScarp.SpecialOrders.AideenFlowers3Mail": "Cher @, ^Les crocus ont illuminé nombre de mes tristes jours. En remerciement, j'ai joint à ce courrier quelques graines pour le printemps.^Cordialement, Aideen.%item object 429 9%%[#]Remerciement pour la livraison de fleurs¦Chère @, ^Les crocus ont illuminé nombre de mes tristes jours. En remerciement, j'ai joint à ce courrier quelques graines pour le printemps.^Cordialement, Aideen.%item object 429 9%%[#]Remerciement pour la livraison de fleurs",
+			"EastScarp.SpecialOrders.SlayCrabsMail": "Merci pour ton aide, @. East Scarp paraît bien plus sûre désormais. Je t'ai envoyé quelques gâteaux de crabes. — Dr Jacob.%item object 732 5  %%[#]Merci d'avoir aidé avec l'infestation.",
+			"EastScarp.SpecialOrders.JosephineJellyMail": "Cher @, ^Tes délicieuses confitures ont fait de merveilleux cadeaux et ont reçu de nombreux compliments !^Je t'en prie, accepte ce cadeau qui, je l'espère, t'encouragera à en faire bien plus encore ! — Bien à toi, Josephine%item bigobject 15 %%[#]Une lettre de remerciement de Josephine¦Chère @, ^Tes délicieuses confitures ont fait de merveilleux cadeaux et ont reçu de nombreux compliments !^Je t'en prie, accepte ce cadeau qui, je l'espère, t'encouragera à en faire bien plus encore ! — Bien à toi, Josephine%item bigobject 15 %%[#]Une lettre de remerciement de Josephine",
+			"EastScarp.SpecialOrders.BeatriceQuartzMail": "Cher @, ^Grâce à toi, ma lampe est réparée et est désormais comme neuve. Les navires vogueront de nouveau en toute sécurité. Tu devrais passer à l'occasion. — Beatrice[#]Remerciement pour la réparation du Phare¦Chère @, ^Grâce à toi, ma lampe est réparée et est désormais comme neuve. Les navires vogueront de nouveau en toute sécurité. Tu devrais passer à l'occasion. — Beatrice[#]Remerciement pour la réparation du Phare"
+		}
+	},
+	{
+		"Action": "EditData", 
+		"Target": "Data/Mail", 
+		"Entries": {
+			"EastScarp.SpecialOrders.AideenFlowersMail": "Cher @, ^Je te suis grandement reconnaissante pour les jonquilles. En retour, j'insiste pour t'inviter chez moi. J'ai acquis de nouvelles graines et j'aimerais que tu m'aides à les cultiver.^ Cordialement, Aideen.[#]Remerciement pour la livraison de fleurs¦Chère @, ^Je te suis grandement reconnaissante pour les jonquilles. En retour, j'insiste pour t'inviter chez moi. J'ai acquis de nouvelles graines et j'aimerais que tu m'aides à les cultiver.^ Cordialement, Aideen.[#]Remerciement pour la livraison de fleur"
+		},
+		"When": {
+			"HasMod": "LemurKat.EastScarpe.JA",
+			"HasMod |contains=spacechase0.jsonAssets": true
+		}
+	},
+	{
+		"Action": "EditData", 
+		"Target": "Data/Mail",
+		"Entries": {
+			"EastScarp.SpecialOrders.AideenFlowers2Mail": "Cher @, ^Les pois de senteur ont certainement attendri quelques cœurs. Merci. En retour, je t'envoie quelque chose de splendide pour l'automne.^Cordialement, Aideen.%item object {{spacechase0.jsonAssets/ObjectId:Fall Rose Starter}} 2 %%[#]Remerciement pour la livraison de fleurs¦Chère @, ^Les pois de senteur ont certainement attendri quelques cœurs. Merci. En retour, je t'envoie quelque chose de splendide pour l'automne.^Cordialement, Aideen.%item object {{spacechase0.jsonAssets/ObjectId:Fall Rose Starter}} 2 %%[#]Remerciement pour la livraison de fleurs",
+			"EastScarp.SpecialOrders.AideenFlowers3Mail": "Cher @, ^Les crocus ont illuminé nombre de mes tristes jours. En remerciement, je t'envoie quelque chose de magnifique pour l'automne.^Cordialement, Aideen.%item object {{spacechase0.jsonAssets/ObjectId:Spring Rose Starter}} 2 %%[#]Remerciement pour la livraison de fleurs¦Chère @, ^Les crocus ont illuminé nombre de mes tristes jours. En remerciement, je t'envoie quelque chose de magnifique pour l'automne.^Cordialement, Aideen.%item object {{spacechase0.jsonAssets/ObjectId:Spring Rose Starter}} 2 %%[#]Remerciement pour la livraison de fleurs",
+		},
+		"When": {
+			"HasMod": "mizu.flowers",
+			"HasMod |contains=spacechase0.jsonAssets": true
+		}
+	}
+    ]
+}

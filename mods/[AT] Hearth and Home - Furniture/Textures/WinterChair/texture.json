@@ -1,0 +1,8 @@
+{
+  "ItemName": "Winter Chair",
+  "Type": "Furniture",
+  "TextureWidth": 48,
+  "TextureHeight": 64,
+  "Keywords": ["Hearth", "hnh"],
+  "Variations": 28
+}

@@ -1,0 +1,65 @@
+{
+	//Objects
+	"White-Mushroom.name": "White Mushroom",
+	"White-Mushroom.description": "Found in Spring, these white mushrooms are common in most stores.",
+	
+	"Dew-Cup-Mushroom.name": "Dew Cup Mushroom",
+	"Dew-Cup-Mushroom.description": "This mushroom gathers the morning dew in its cup-shaped hood. Gives the liquid a nutty flavour.",
+	
+	"Muffin-Bell-Mushroom.name": "Muffin Bell Mushroom",
+	"Muffin-Bell-Mushroom.description": "Looks and smells like a freshly baked muffin.",
+	
+	"Plump-Belly-Mushroom.name": "Plump Belly Mushroom",
+	"Plump-Belly-Mushroom.description": "A much valued cooking ingredient.",
+	
+	"Stalk-Cluster-Mushroom.name": "Stalk Cluster Mushroom",
+	"Stalk-Cluster-Mushroom.description": "A tighly packed cluster of mushrooms.",
+	
+	"Yellow-Mushroom.name": "Yellow Mushroom",
+	"Yellow-Mushroom.description": "Smells like delicious scrambled eggs. Tastes like rotten eggs.",
+	
+	"Black-Mushroom.name": "Black Mushroom",
+	"Black-Mushroom.description": "These deep velvet, spindly mushrooms cause horrible visions if eaten.",
+
+	"Woodland-Stool-Mushroom.name": "Woodland Stool Mushroom",
+	"Woodland-Stool-Mushroom.description": "Small woodland animals use this mushroom as a perching point.",
+	
+	"Tooting-Funnel-Mushroom.name": "Tooting Funnel Mushroom",
+	"Tooting-Funnel-Mushroom.description": "Delicious, but known to give you gas.",
+	
+	"Ridge-Puff-Mushroom.name": "Ridge Puff Mushroom",
+	"Ridge-Puff-Mushroom.description": "Highly desired for cooking. Grows only in mountain areas.",
+
+	"Spring-Cap-Mushroom.name": "Spring Cap Mushroom",
+	"Spring-Cap-Mushroom.description": "Small animals bouce off them as they travel through the forest.",
+	
+	"Garlic-Mushrooms.name": "Garlic Mushrooms",
+	"Garlic-Mushrooms.description": "A delicious platter of garlicy mushrooms.",
+	
+	"Mushroom-Leek-Risotto.name": "Mushroom and Leek Risotto",
+	"Mushroom-Leek-Risotto.description": "Sauteed Chanterelles and Leeks mixed through creamy rice.",
+	
+	"Wild-Mushroom-Soup.name": "Wild Mushroom Soup",
+	"Wild-Mushroom-Soup.description": "A creamy mushroom soup.",
+	
+	"Mushroom-Tart.name": "Mushroom Tart",
+	"Mushroom-Tart.description": "A savoury tart with cheesy undertones.",
+	
+	"Mushroom-Tagliatelle.name": "Mushroom Tagliatelle",
+	"Mushroom-Tagliatelle.description": "An indulgent pasta dish with delicate mushrooms.",
+
+	"Stuffed-Mushroom.name": "Stuffed Mushroom",
+	"Stuffed-Mushroom.description": "Woodland-Stool Mushrooms stuffed with Cheese and Garlic.",
+
+	"Fire-Spiced-Mushrooms.name": "Fire-Spiced Mushrooms",
+	"Fire-Spiced-Mushrooms.description": "An extremely spicy mushroom salad.",
+	
+	"Mushroom-Ale-Pie.name": "Mushroom and Ale Pie",
+	"Mushroom-Ale-Pie.description": "A rich Mushroom and Pale Ale Pie.",
+	
+	"Witches-Elixir.name": "Witches Elixir",
+	"Witches-Elixir.description": "A foul concotion. Highly Toxic but masively increases your combat abilities.",
+
+///CATEGORY OVERRIDES
+	"Mushroom": "Mushroom"
+}

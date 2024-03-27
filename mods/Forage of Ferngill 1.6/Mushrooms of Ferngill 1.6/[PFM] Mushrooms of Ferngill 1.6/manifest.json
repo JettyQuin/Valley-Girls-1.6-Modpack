@@ -1,0 +1,10 @@
+{
+	"Name": "[PFM] Mushrooms of Ferngill 1.6",
+	"Description": "Expands on the Mushroom experience of Stardew Valley!.1.6 Version",
+	"Author": "Stunky McDoo",
+	"Version": "5.0.0",
+	"UniqueID": "StunkyMcDoo.MushroomsofFerngill.PFM",
+    "ContentPackFor": {"UniqueID": "DIGUS.ProducerFrameworkMod"},
+    "Dependencies": [{"UniqueID": "StunkyMcDoo.MushroomsofFerngill.CP", "IsRequired": true,}],
+    "UpdateKeys": [ "Nexus:8828" ],
+}

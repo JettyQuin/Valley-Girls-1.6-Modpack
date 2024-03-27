@@ -1,0 +1,13 @@
+{
+    "ItemName": "Big Chest",
+    "Type": "Craftable",
+    "Keywords": [ "Soft" ],
+    "TextureWidth": 16,
+    "TextureHeight": 32,
+    "ManualVariations": [
+      {
+        "Id": 0,
+        "Name": "Big Picnic Basket"
+      }
+  ]
+}

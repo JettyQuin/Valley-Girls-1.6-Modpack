@@ -1,0 +1,8 @@
+{
+  "ItemName": "Tree of the Winter Star",
+  "Type": "Furniture",
+  "TextureWidth": 48,
+  "TextureHeight": 80,
+  "Keywords": ["Hearth", "hnh"],
+  "Variations": 10
+}

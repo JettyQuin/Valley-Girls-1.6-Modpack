@@ -1,0 +1,101 @@
+RSV 2.5.7 - I'm hungry
+------------------------------------------------------
+Added an install checker to help with mod installation and updating
+Added feature to place beds in the Summit Farm House
+Fixed bug where the Fairytale Lionfish doesn't spawn
+Fixed bug where random stone ores are sold in some RSV shops
+Fixed bug where the Summit Farm House isn't upgradeable
+Fixed bug where trees couldn't grow in the Community Greenhouse
+
+
+RSV 2.5.6 - I love my team
+------------------------------------------------------
+RSV Legendary fishes now require fishing skill level 10 to start spawning
+Fixed Aguar's 8 heart event crashing due to missing map
+Fixed bug where the Sapphire Pearl can be fished infinitely
+*Hopefully* fixed bug where the Ridge Forest doesn't match default weather
+
+RSV 2.5.5 - Thanks to Raf, Sheku, Vin, Lyoko, & Tia!
+------------------------------------------------------
+Fixed error items in falls shop 
+Fixed error items in fishing quests in spring 
+Fixed greenhouse not plantable 
+Fixed missing gift tastes 
+Fixed events in farmhouse use wrong location 
+Fixed weather in ridgeforest always sunny
+Fixed traveling cart in the hike not working 
+Fixed rsv item missing buffs 
+Fixed aguarcave event fails 
+Fixed broken nighttiles in some RSV maps 
+Fixed greenhouse door broken 
+Fixed sapphire relic not obtainable 
+Fixed saplings/trees crash game 
+Fixed summit fridge broken
+Fixed summit build menu crashes 
+Fixed some recipes
+Fixed Pika not giving arugula rolls in SO
+Fixed missing translation keys
+Fixed some events
+
+RSV 2.5.4 - HUGE Thanks to Sheku, Vin, Lyoko, & Tia!
+------------------------------------------------------
+Removed a number of dependencies
+Compatibility with SDV 1.6
+Rewrote a majority of the code to be ported over to Content Patcher
+Traveling Merchant now visits Hike Trail on Wednesdays
+Moved Paula slightly for RSV Gathering
+Changed Wedding Reception flag to use CT rather than mail
+Added more custom NPCs as potential cable car riders
+Fixed June's room in hotel
+Reworked Ridge Forest treasure spawns
+Fixed Jio marriage dialogue key issue
+Hopefully fixed Phantom Greenhouse issues (statue tile and midnight freeze)
+Added Aged Roe to Malaya's disliked gifts
+Changed Freddie's quest to Serpentine Beasts
+Fixed Bryle and Zayne freezing issues
+Adjusted egg price at egg fest
+Removed Zayne-less version of Irene's 8 heart event
+Gave June a yearly check-up
+Standardized console commands' naming convention
+Added new console commands for Aguar cave, locked NPCs
+Edited Kimpoi's 6 heart event to remove reference to Alissa's 8 heart event
+Added Alissa's parents to her 8 heart event with East Scarp
+Separated june_arrival CT into 1-day and 3-day versions
+Added Summit Shed compatibility with mods that allow casks in sheds
+Added hidden social tab emotes for RSV NPCs
+Giant crops can now grow in the Summit Farm
+Faye's shop will now show all her available stock all the time, not randomized anymore
+Keahi and Trinnie's Egg Festival shop now has a small chance of selling an uncommon to rare item. (Chance affected by luck)
+Redesigned the Flower Dance Festival area for RSV NPCs to fit SDV 1.6's latest design
+Added new dialogue for certain events
+
+RSV 2.5.3
+------------------------------------------------------
+Some more tweaks for Seasonal Outfits
+Fixed i18n errors in CC, JA, and CP sections
+Added Caped Tree Frog as a loved gift for Sebastian
+Added titles for June's letters
+Fixed Autumn Dew Drop Juice missing recipe
+Tweaked Shanice's 2 heart event; now won't trigger in Saturdays because that's her usual date day with Lorenzo
+Re-added WTDR compat without config option
+Reworked Odd Jobs Summit Farm stuff under the hood to avoid bad Building data errors
+Renamed ridgeside minecarts to the nearest buildings to the entry/exit points to improve clarity
+Fixed Marlon SVE compat at Gathering festival
+Fixed some typos
+Changed Stardew Fair pony ride to tempActor rather than custom companion to avoid him breaking loose
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

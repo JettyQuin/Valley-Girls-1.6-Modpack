@@ -1,0 +1,14 @@
+{
+  "Name": "[AT] Shyzie's Witchy Goblincore Rugs",
+  "Author": "Shyzie",
+  "Version": "1.0.0",
+  "Description": "Witchy goblincore rugs!",
+  "UniqueID": "Shyzie.Witchy.Goblincore.Rugs.AT",
+  "UpdateKeys": ["Nexus:20640"],
+  "Dependencies": [],
+  "ContentPackFor": {
+    "UniqueID": "PeacefulEnd.AlternativeTextures",
+    "MinimumVersion": "3.3.2"
+  }
+		
+}

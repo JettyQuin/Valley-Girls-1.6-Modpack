@@ -1,0 +1,68 @@
+{
+    "Format": "2.0.0",
+    
+    "Changes": [
+
+    {
+        "LogName": "Shyzie's String Lights",
+        "Action": "Load",
+        "Target": "Mods/Shyzie.StringLights.CP/StringLightsL, Mods/Shyzie.StringLights.CP/StringLightsM, Mods/Shyzie.StringLights.CP/StringLightsS",
+        "FromFile": "Assets/{{TargetWithoutPath}}.png"
+    },
+    {
+		"Action": "EditData",
+		"Target": "Data/Furniture",
+  
+		"Entries": {
+        
+			"ShyzieStringLightsL": "ShyzieStringLightsL/Decor/5 3/5 1/1/1000/2/{{i18n: ShyzieStringLightsL.name}}/0/Mods\\Shyzie.StringLights.CP\\StringLightsL",
+			"ShyzieStringLightsM": "ShyzieStringLightsM/Decor/3 3/3 1/1/700/2/{{i18n: ShyzieStringLightsM.name}}/0/Mods\\Shyzie.StringLights.CP\\StringLightsM",
+			"ShyzieStringLightsS": "ShyzieStringLightsS/Decor/2 3/2 1/1/500/2/{{i18n: ShyzieStringLightsS.name}}/0/Mods\\Shyzie.StringLights.CP\\StringLightsS"
+
+		}
+    },
+	{
+		"Action": "EditData",
+		"Target": "Data/Shops",
+		"TargetField": [ "Carpenter", "Items" ],
+		"Entries": {
+			"ShyzieStringLightsL": {
+			"Price": 1000,
+			"Id": "ShyzieStringLightsL",
+			"ItemId": "ShyzieStringLightsL"
+			},
+			"ShyzieStringLightsM": {
+			"Price": 700,
+			"Id": "ShyzieStringLightsM",
+			"ItemId": "ShyzieStringLightsM"
+			},
+			"ShyzieStringLightsS": {
+			"Price": 500,
+			"Id": "ShyzieStringLightsS",
+			"ItemId": "ShyzieStringLightsS"
+			}
+		}
+	},
+	{
+		"Action": "EditData",
+		"Target": "Strings/Furniture",
+		"Entries": {
+			"ShyzieStringLightsL.name": "{{i18n:ShyzieStringLightsL.name}}",
+			"ShyzieStringLightsL.description": "{{i18n:ShyzieStringLightsL.description}}",
+			"ShyzieStringLightsM.name": "{{i18n:ShyzieStringLightsM.name}}",
+			"ShyzieStringLightsM.description": "{{i18n:ShyzieStringLightsM.description}}",
+			"ShyzieStringLightsS.name": "{{i18n:ShyzieStringLightsS.name}}",
+			"ShyzieStringLightsS.description": "{{i18n:ShyzieStringLightsS.description}}"
+            }
+	},
+	{
+		"Action": "EditData",
+		"Target": "spacechase0.SpaceCore/FurnitureExtensionData",
+		"Entries": {
+			"ShyzieStringLightsL": { "DescriptionOverride": "{{i18n: ShyzieStringLightsL.description}}" },
+			"ShyzieStringLightsM": { "DescriptionOverride": "{{i18n: ShyzieStringLightsM.description}}" },
+			"ShyzieStringLightsS": { "DescriptionOverride": "{{i18n: ShyzieStringLightsS.description}}" }
+		}
+	}
+  ]
+}

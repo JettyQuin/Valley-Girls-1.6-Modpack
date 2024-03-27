@@ -1,0 +1,11 @@
+{
+    "Name": "[AT] Soft Craftables",
+    "Author": "katestardew",
+    "Version": "1.0.1",
+    "Description": "Cutesy and soft-colored craftables",
+    "UniqueID": "katestardew.atsoftcraftables",
+    "UpdateKeys": [ "Nexus:20991" ],
+    "ContentPackFor": {
+        "UniqueID": "PeacefulEnd.AlternativeTextures"
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "Name": "Enchanted Chickens",
+    "Author": "InaylaLinyah",
+    "Version": "1.0.0",
+    "Description": "This mod adds enchanted chickens to your coops",
+    "UniqueID": "InaylaLinyah.EnchantedChickens",
+    "UpdateKeys": ["Nexus:21044"],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+  }
+}

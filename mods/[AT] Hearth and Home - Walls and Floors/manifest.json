@@ -1,0 +1,13 @@
+{
+  "Name": "[AT] Hearth and Home - Walls and Floors",
+  "Author": "hypnagogie",
+  "Version": "1.0.0",
+  "Description": "Walls and floors texture pack for Alternative Textures",
+  "UniqueID": "Hypnagogie.AT.HearthHomeWallsFloors",
+  "UpdateKeys": [ "Nexus:18478"],
+  "Dependencies": [],
+  "ContentPackFor": {
+    "UniqueID": "PeacefulEnd.AlternativeTextures",
+    "MinimumVersion": "6.10.4"
+  }
+}

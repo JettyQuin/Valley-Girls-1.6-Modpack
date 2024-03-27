@@ -1,0 +1,10 @@
+{
+	"Name": "[CP] Mushrooms of Ferngill 1.6",
+	"Description": "Expands on the Mushroom experience of Stardew Valley!. 1.6 Version",
+	"Author": "Stunky McDoo",
+	"Version": "5.0.0",
+    "MinimumApiVersion": "3.0.0",
+	"UniqueID": "StunkyMcDoo.MushroomsofFerngill.cp",
+	"ContentPackFor": {"UniqueID": "Pathoschild.ContentPatcher"},
+	"UpdateKeys": [ "Nexus:8828" ],
+}

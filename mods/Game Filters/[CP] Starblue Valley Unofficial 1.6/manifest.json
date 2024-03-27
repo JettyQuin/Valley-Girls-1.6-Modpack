@@ -1,0 +1,10 @@
+{
+    "Name": "Starblue Valley Unofficial",
+	"Author": "Lita, updated by Cherry",
+	"Version": "1.0.0",
+	"UniqueID": "Lita.StarblueValleyUnofficial",
+	"UpdateKeys": [ "Nexus:21085" ],
+    "ContentPackFor": {
+    	"UniqueID": "Pathoschild.ContentPatcher"
+	}
+}
