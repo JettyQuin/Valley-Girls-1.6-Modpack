@@ -1,0 +1,345 @@
+{
+  "ItemName": "Floor",
+  "Type": "Decoration",
+  "Seasons": ["Spring", "Fall", "Winter", "Summer"],
+  "TextureWidth": 32,
+  "TextureHeight": 32,
+  "ManualVariations": [
+	{
+      "Id": 0,
+      "ChanceWeight": 0.1,
+	  "Name": "Carpet Dark Red pattern",
+	  "Keywords": [ "Carpet Dark Red pattern" ]
+    },
+	{
+      "Id": 1,
+      "ChanceWeight": 0.1,
+	  "Name": "Anko Horizontal Planks Recolor",
+	  "Keywords": [ "JPN Anko Horizontal Planks Recolor" ]
+    },
+	{
+      "Id": 2,
+      "ChanceWeight": 0.1,
+	  "Name": "Anko Vertical Planks Dark",
+	  "Keywords": [ "JPN Anko Vertical Planks Dark" ]
+    },
+	{
+      "Id": 3,
+      "ChanceWeight": 0.1,
+      "Name": "Anko Vertical Planks Light",
+	  "Keywords": [ "JPN Anko Vertical Planks Light" ]
+    },
+    {
+      "Id": 4,
+      "ChanceWeight": 0.1,
+	  "Name": "Beach Cobbles For Onsen",
+	  "Keywords": [ "JPN Beach Cobbles For Onsen" ]
+    },
+	{
+      "Id": 5,
+      "ChanceWeight": 0.1,
+      "Name": "Black Horizontal Planks Recolor 2",
+	  "Keywords": [ "JPN Black Horizontal Planks Recolor 2" ]
+    },
+    {
+      "Id": 6,
+      "ChanceWeight": 0.1,
+	  "Name": "Black Horizontal Planks Recolor",
+	  "Keywords": [ "JPN Black Horizontal Planks Recolor" ]
+    },
+	{
+      "Id": 7,
+      "ChanceWeight": 0.1,
+      "Name": "Light Onsen Oak Vertical Planks",
+	  "Keywords": [ "JPN Light Onsen Oak Vertical Planks" ]
+    },
+    {
+      "Id": 8,
+      "ChanceWeight": 0.1,
+	  "Name": "Onsen Pine Horizontal Planks Recolor",
+	  "Keywords": [ "JPN Onsen Pine Horizontal Planks Recolor" ]
+    },
+	{
+      "Id": 9,
+      "ChanceWeight": 0.1,
+      "Name": "Onsen Pine Vertical Planks 1",
+	  "Keywords": [ "JPN Onsen Pine Vertical Planks 1" ]
+    },
+    {
+      "Id": 10,
+      "ChanceWeight": 0.1,
+	  "Name": "Onsen Pine Vertical Planks Recolor",
+	  "Keywords": [ "JPN Onsen Pine Vertical Planks Recolor" ]
+    },
+	{
+      "Id": 11,
+      "ChanceWeight": 0.1,
+	  "Name": "Onsen Pine Vertical Planks",
+	  "Keywords": [ "JPN Onsen Pine Vertical Planks" ]
+    },
+	{
+      "Id": 12,
+      "ChanceWeight": 0.1,
+	  "Name": "Onsen Redwood Diagonal Planks",
+	  "Keywords": [ "JPN Onsen Redwood Diagonal Planks" ]
+    },
+	{
+      "Id": 13,
+      "ChanceWeight": 0.1,
+	  "Name": "Onsen Redwood Vertical Planks 1",
+	  "Keywords": [ "JPN Onsen Redwood Vertical Planks 1" ]
+    },
+	{
+      "Id": 14,
+      "ChanceWeight": 0.1,
+	  "Name": "Onsen Redwood Vertical Planks 2",
+	  "Keywords": [ "JPN Onsen Redwood Vertical Planks 2" ]
+    },
+	{
+      "Id": 15,
+      "ChanceWeight": 0.1,
+	  "Name": "Onsen Redwood Vertical Planks Recolor",
+	  "Keywords": [ "JPN Onsen Redwood Vertical Planks Recolor" ]
+    },
+	{
+      "Id": 16,
+      "ChanceWeight": 0.1,
+	  "Name": "Walnut Vertical Planks",
+	  "Keywords": [ "JPN Walnut Vertical Planks" ]
+    },
+	{
+      "Id": 17,
+      "ChanceWeight": 0.1,
+	  "Name": "Spouse Room Carpet Alex",
+	  "Keywords": [ "Spouse Room Carpet Alex" ]
+    },
+	{
+      "Id": 18,
+      "ChanceWeight": 0.1,
+	  "Name": "Spouse Room Thin Vertical Planks",
+	  "Keywords": [ "Spouse Room Thin Vertical Planks" ]
+    },
+	{
+      "Id": 19,
+      "ChanceWeight": 0.1,
+	  "Name": "Spouse Room Tiles Emily",
+	  "Keywords": [ "Spouse Room Tiles Emily" ]
+    },
+	{
+      "Id": 20,
+      "ChanceWeight": 0.1,
+	  "Name": "Spouse Room Vertical Planks Light Walnut",
+	  "Keywords": [ "Spouse Room Vertical Planks Light Walnut" ]
+    },
+	{
+      "Id": 21,
+      "ChanceWeight": 0.1,
+	  "Name": "Spouse Room Vertical Planks Pine",
+	  "Keywords": [ "Spouse Room Vertical Planks Pine" ]
+    },
+	{
+      "Id": 22,
+      "ChanceWeight": 0.1,
+	  "Name": "Spouse Room Vertical Planks Walnut",
+	  "Keywords": [ "Spouse Room Vertical Planks Walnut" ]
+    },
+	{
+      "Id": 23,
+      "ChanceWeight": 0.1,
+	  "Name": "Tile Gem Green Emerald",
+	  "Keywords": [ "Tile Gem Green Emerald" ]
+    },
+	{
+      "Id": 24,
+      "ChanceWeight": 0.1,
+	  "Name": "Tile Gem Red Ruby",
+	  "Keywords": [ "Tile Gem Red Ruby" ]
+    },
+	{
+      "Id": 25,
+      "ChanceWeight": 0.1,
+	  "Name": "Tile Heart Pattern Black",
+	  "Keywords": [ "Tile Heart Pattern Black" ]
+    },
+	{
+      "Id": 26,
+      "ChanceWeight": 0.1,
+	  "Name": "Tile Heart Pattern Pink",
+	  "Keywords": [ "Tile Heart Pattern Pink" ]
+    },
+	{
+      "Id": 27,
+      "ChanceWeight": 0.1,
+	  "Name": "Tile Heart Pattern Purple",
+	  "Keywords": [ "Tile Heart Pattern Purple" ]
+    },
+	{
+      "Id": 28,
+      "ChanceWeight": 0.1,
+	  "Name": "Tile Iridium",
+	  "Keywords": [ "Tile Iridium" ]
+    },
+	{
+      "Id": 29,
+      "ChanceWeight": 0.1,
+	  "Name": "Tile Marble Black",
+	  "Keywords": [ "Tile Marble Black" ]
+    },
+	{
+      "Id": 30,
+      "ChanceWeight": 0.1,
+	  "Name": "Tile Marble Granite",
+	  "Keywords": [ "Tile Marble Granite" ]
+    },
+	{
+      "Id": 31,
+      "ChanceWeight": 0.1,
+	  "Name": "Tile Marble Grey",
+	  "Keywords": [ "Tile Marble Grey" ]
+    },
+	{
+      "Id": 32,
+      "ChanceWeight": 0.1,
+	  "Name": "Tile Marble Helvite",
+	  "Keywords": [ "Tile Marble Helvite" ]
+    },
+	{
+      "Id": 33,
+      "ChanceWeight": 0.1,
+	  "Name": "Tile Marble Slate",
+	  "Keywords": [ "Tile Marble Slate" ]
+    },
+	{
+      "Id": 34,
+      "ChanceWeight": 0.1,
+	  "Name": "Tile Marble Soapstone",
+	  "Keywords": [ "Tile Marble Soapstone" ]
+    },
+	{
+      "Id": 35,
+      "ChanceWeight": 0.1,
+	  "Name": "Tile Marble Studded Black",
+	  "Keywords": [ "Tile Marble Studded Black" ]
+    },
+	{
+      "Id": 36,
+      "ChanceWeight": 0.1,
+	  "Name": "Tile Marble Studded Grey",
+	  "Keywords": [ "Tile Marble Studded Grey" ]
+    },
+	{
+      "Id": 37,
+      "ChanceWeight": 0.1,
+	  "Name": "Tile Marble Studded Slate",
+	  "Keywords": [ "Tile Marble Studded Slate" ]
+    },
+	{
+      "Id": 38,
+      "ChanceWeight": 0.1,
+	  "Name": "Tile Marble Studded Soapstone",
+	  "Keywords": [ "Tile Marble Studded Soapstone" ]
+    },
+	{
+      "Id": 39,
+      "ChanceWeight": 0.1,
+	  "Name": "Tile Plain Black",
+	  "Keywords": [ "Tile Plain Black" ]
+    },
+	{
+      "Id": 40,
+      "ChanceWeight": 0.1,
+	  "Name": "Tile Plain Grey",
+	  "Keywords": [ "Tile Plain Grey" ]
+    },
+	{
+      "Id": 41,
+      "ChanceWeight": 0.1,
+	  "Name": "Tile Plain Slate",
+	  "Keywords": [ "Tile Plain Slate" ]
+    },
+	{
+      "Id": 42,
+      "ChanceWeight": 0.1,
+	  "Name": "Tile Plain Soapstone",
+	  "Keywords": [ "Tile Plain Soapstone" ]
+    },
+	{
+      "Id": 43,
+      "ChanceWeight": 0.1,
+	  "Name": "Tile Purple Opal",
+	  "Keywords": [ "Tile Purple Opal" ]
+    },
+	{
+      "Id": 44,
+      "ChanceWeight": 0.1,
+	  "Name": "Tile Sand Dollar",
+	  "Keywords": [ "Tile Sand Dollar" ]
+    },
+	{
+      "Id": 45,
+      "ChanceWeight": 0.1,
+	  "Name": "Tile Sewer Green Dark",
+	  "Keywords": [ "Tile Sewer Green Dark" ]
+    },
+	{
+      "Id": 46,
+      "ChanceWeight": 0.1,
+	  "Name": "Tile Sewer Green Dark2",
+	  "Keywords": [ "Tile Sewer Green Dark2" ]
+    },
+	{
+      "Id": 47,
+      "ChanceWeight": 0.1,
+	  "Name": "Tile Sewer Green Light",
+	  "Keywords": [ "Tile Sewer Green Light" ]
+    },
+	{
+      "Id": 48,
+      "ChanceWeight": 0.1,
+	  "Name": "Tile Sewer Green",
+	  "Keywords": [ "Tile Sewer Green" ]
+    },
+	{
+      "Id": 49,
+      "ChanceWeight": 0.1,
+	  "Name": "Tile sewer Green2",
+	  "Keywords": [ "Tile sewer Green2" ]
+    },
+	{
+      "Id": 50,
+      "ChanceWeight": 0.1,
+	  "Name": "Tile Sewer Teal Dark",
+	  "Keywords": [ "Tile Sewer Teal Dark" ]
+    },
+	{
+      "Id": 51,
+      "ChanceWeight": 0.1,
+	  "Name": "Tile Sewer Teal Light",
+	  "Keywords": [ "Tile Sewer Teal Light" ]
+    },
+	{
+      "Id": 52,
+      "ChanceWeight": 0.1,
+	  "Name": "Tile Sewer Teal",
+	  "Keywords": [ "Tile Sewer Teal" ]
+    },
+	{
+      "Id": 53,
+      "ChanceWeight": 0.1,
+	  "Name": "Tile Studded Black",
+	  "Keywords": [ "Tile Studded Black" ]
+    },
+	{
+      "Id": 54,
+      "ChanceWeight": 0.1,
+      "Name": "Tile Studded Grey",
+	  "Keywords": [ "Tile Studded Grey" ]
+    },
+    {
+      "Id": 55,
+      "ChanceWeight": 0.1,
+	  "Name": "Tile Studded Slate",
+	  "Keywords": [ "Tile Studded Slate" ]
+    }
+	]
+}

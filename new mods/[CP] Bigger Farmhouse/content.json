@@ -1,0 +1,279 @@
+{
+	"Format": "1.28.0",
+	
+	"ConfigSchema": {
+		"Built_In_Kitchen": {
+			"AllowValues": "true, false",
+			"Default": true
+		},
+		"Center_Plot": {
+			"AllowValues": "Grass, Dirt, Flooring",
+			"Default": "Grass"
+		},
+		"SpouseRoom_Stairs": {
+			"AllowValues": "true, false",
+			"Default": false
+		},
+		"More_Paths": {
+			"AllowValues": "true, false",
+			"Default": true
+		}
+	},
+	
+	"DynamicTokens": [
+		{
+			"Name": "PlayerHasKitchen",
+			"Value": "true"
+		},
+		{
+			"Name": "PlayerHasKitchen",
+			"Value": "false",
+			"When": { "Built_In_Kitchen": "false" }
+		},
+		{
+			"Name": "PlayerHasKitchen",
+			"Value": "false",
+			"When": { "HasMod": "Asterisk555.CP.NoBuiltInKitchen" }
+		},
+		{
+			"Name": "PlayerHasBathroom",
+			"Value": "false"
+		},	
+		{
+			"Name": "PlayerHasBathroom",
+			"Value": "true",
+			"When": { "HasMod": "Asterisk555.CP.BiggerBathroomExtension, Livi.CP.BiggerBathroomExtension" }
+		},
+		{
+			"Name": "PathNorth",
+			"Value": "true",
+			"When": { "More_Paths": "true" }
+		},
+		{
+			"Name": "PathEast",
+			"Value": "true",
+			"When": { "SpouseRoom_Stairs": "false" }
+		},
+		{
+			"Name": "PathEast",
+			"Value": "true",
+			"When": { "More_Paths": "true" }
+		},
+		{
+			"Name": "PathWest",
+			"Value": "true",
+			"When": { "HasMod": "aedenthorn.MultiStoryFarmhouse" }
+		},
+		{
+			"Name": "PathWest",
+			"Value": "true",
+			"When": { "More_Paths": "true" }
+		},
+	],
+  
+	"Changes": [
+		{
+        "Action": "EditMap",
+        "Target": "Maps/FarmHouse",
+        "FromFile": "Assets/BiggerA555_FarmHouse.TMX"
+		},
+		{
+        "Action": "EditMap",
+        "Target": "Maps/FarmHouse1",
+        "FromFile": "Assets/BiggerA555_FarmHouse1.TMX"
+		},
+		{
+        "Action": "EditMap",
+        "Target": "Maps/FarmHouse1_marriage",
+        "FromFile": "Assets/BiggerA555_FarmHouse1.TMX"
+		},
+		{
+        "Action": "EditMap",
+        "Target": "Maps/FarmHouse2",
+        "FromFile": "Assets/BiggerA555_FarmHouse2.TMX"
+		},
+		{
+        "Action": "EditMap",
+        "Target": "Maps/FarmHouse2_marriage",
+        "FromFile": "Assets/BiggerA555_FarmHouse2.TMX"
+		},
+		{
+        "Action": "EditMap",
+        "Target": "Maps/FarmHouse",
+        "FromFile": "Assets/BiggerA555_BathDivider.TMX",
+		"FromArea": {"X": 0, "Y": 0, "Width": 1, "Height": 5},
+        "ToArea": {"X": 7, "Y": 22, "Width": 1, "Height": 5},
+		"When": {
+			"PlayerHasBathroom": true,
+            }
+		},
+		{
+        "Action": "EditMap",
+        "Target": "Maps/FarmHouse1, Maps/FarmHouse1_marriage",
+        "FromFile": "Assets/BiggerA555_BathDivider.TMX",
+		"FromArea": {"X": 0, "Y": 0, "Width": 1, "Height": 5},
+        "ToArea": {"X": 7, "Y": 22, "Width": 1, "Height": 5},
+		"When": {
+			"PlayerHasBathroom": true,
+            }
+		},
+		{
+        "Action": "EditMap",
+        "Target": "Maps/FarmHouse2_marriage, Maps/FarmHouse2",
+        "FromFile": "Assets/BiggerA555_BathDivider.TMX",
+		"FromArea": {"X": 0, "Y": 0, "Width": 1, "Height": 5},
+        "ToArea": {"X": 7, "Y": 31, "Width": 1, "Height": 5},
+		"When": {
+			"PlayerHasBathroom": true,
+            }
+		},
+		{
+        "Action": "EditMap",
+        "Target": "Maps/FarmHouse_Bedroom_Normal",
+        "FromFile": "Assets/BiggerA555_FarmHouse_Bedroom_Normal.TMX"
+		},
+		{
+        "Action": "EditMap",
+        "Target": "Maps/FarmHouse_Bedroom_Open",
+        "FromFile": "Assets/BiggerA555_FarmHouse_Bedroom_Open.TMX"
+		},
+		{
+        "Action": "EditMap",
+        "Target": "Maps/FarmHouse_CornerRoom_Add",
+        "FromFile": "Assets/BiggerA555_FarmHouse_CornerRoom_Add.TMX"
+		},
+		{
+        "Action": "EditMap",
+        "Target": "Maps/FarmHouse_CornerRoom_Remove",
+        "FromFile": "Assets/BiggerA555_FarmHouse_CornerRoom_Remove.TMX"
+		},
+		{
+        "Action": "EditMap",
+        "Target": "Maps/FarmHouse_SouthernRoom_Add",
+        "FromFile": "Assets/BiggerA555_FarmHouse_SouthernRoom_Add.TMX"
+		},
+		{
+        "Action": "EditMap",
+        "Target": "Maps/FarmHouse_SouthernRoom_Remove",
+        "FromFile": "Assets/BiggerA555_FarmHouse_SouthernRoom_Remove.TMX"
+		},
+		{
+        "Action": "EditMap",
+        "Target": "Maps/FarmHouse1_marriage, Maps/FarmHouse1",
+        "FromFile": "Assets/BiggerA555_Plot_{{Center_Plot}}.TMX",
+		"FromArea": {"X": 0, "Y": 0, "Width": 9, "Height": 21},
+        "ToArea": {"X": 20, "Y": 11, "Width": 9, "Height": 21},
+		"When": {"Center_Plot": "Flooring, Dirt"}
+		},
+		{
+        "Action": "EditMap",
+        "Target": "Maps/FarmHouse2_marriage, Maps/FarmHouse2",
+        "FromFile": "Assets/BiggerA555_Plot_{{Center_Plot}}.TMX",
+		"FromArea": {"X": 0, "Y": 0, "Width": 9, "Height": 21},
+        "ToArea": {"X": 23, "Y": 20, "Width": 9, "Height": 21},
+		"When": {"Center_Plot": "Flooring, Dirt"}
+		},
+		{
+        "Action": "EditMap",
+        "Target": "Maps/FarmHouse2_marriage, Maps/FarmHouse2",
+        "FromFile": "Assets/BiggerA555_FarmHouse2.TMX",
+		"FromArea": {"X": 40, "Y": 19, "Width": 4, "Height": 6},
+        "ToArea": {"X": 50, "Y": 19, "Width": 4, "Height": 6},
+		"When": {
+			"SpouseRoom_Stairs": false,
+            }
+		},
+		{
+        "Action": "EditMap",
+        "Target": "Maps/FarmHouse2_marriage, Maps/FarmHouse2",
+        "FromFile": "Assets/BiggerA555_PathEast.TMX",
+		"FromArea": {"X": 0, "Y": 0, "Width": 2, "Height": 6},
+        "ToArea": {"X": 34, "Y": 25, "Width": 2, "Height": 6},
+		"When": {
+			"PathEast": true,
+            }
+		},
+		{
+        "Action": "EditMap",
+        "Target": "Maps/FarmHouse_CornerRoom_Add",
+        "FromFile": "Assets/BiggerA555_PathNorth.TMX",
+		"FromArea": {"X": 0, "Y": 0, "Width": 2, "Height": 5},
+        "ToArea": {"X": 18, "Y": 3, "Width": 2, "Height": 5},
+		"When": {
+			"PathNorth": true,
+            }
+		},
+	//compatibility patches
+		{
+        "Action": "EditMap",
+        "Target": "Maps/FarmHouse",
+        "FromFile": "Assets/BiggerA555_NoKitchenPatch0.TMX",
+		"FromArea": {"X": 1, "Y": 2, "Width": 1, "Height": 7},
+        "ToArea": {"X": 1, "Y": 2, "Width": 1, "Height": 7},
+		"When": {
+			"PlayerHasKitchen": true,
+			"HasMod |contains=Redking.Atticmod": true
+            }
+		},
+		{
+        "Action": "EditMap",
+        "Target": "Maps/FarmHouse1, Maps/FarmHouse1_marriage",
+        "FromFile": "Assets/BiggerA555_PathWest1.TMX",
+		"FromArea": {"X": 0, "Y": 0, "Width": 5, "Height": 6},
+        "ToArea": {"X": 16, "Y": 18, "Width": 5, "Height": 6},
+		"When": {
+			"PathWest": true,
+            }
+		},
+		{
+        "Action": "EditMap",
+        "Target": "Maps/FarmHouse2, Maps/FarmHouse2_marriage",
+        "FromFile": "Assets/BiggerA555_PathWest2.TMX",
+		"FromArea": {"X": 0, "Y": 0, "Width": 2, "Height": 6},
+        "ToArea": {"X": 19, "Y": 27, "Width": 2, "Height": 6},
+		"When": {
+			"PathWest": true,
+            }
+		},
+		{
+        "Action": "EditMap",
+        "Target": "Maps/FarmHouse2, Maps/FarmHouse2_marriage",
+        "FromFile": "Assets/BiggerA555_MultiStoryCompat.TMX",
+		"FromArea": {"X": 0, "Y": 0, "Width": 4, "Height": 8},
+        "ToArea": {"X": 7, "Y": 22, "Width": 4, "Height": 8},
+		"When": {
+			"HasMod |contains=aedenthorn.MultiStoryFarmhouse": true
+            }
+		},
+		{
+        "Action": "EditMap",
+        "Target": "Maps/FarmHouse",
+        "FromFile": "Assets/BiggerA555_NoKitchenPatch0.TMX",
+		"FromArea": {"X": 1, "Y": 2, "Width": 7, "Height": 7},
+        "ToArea": {"X": 1, "Y": 2, "Width": 7, "Height": 7},
+		"When": {
+			"PlayerHasKitchen": false,
+            }
+		},
+		{
+        "Action": "EditMap",
+        "Target": "Maps/FarmHouse1, Maps/FarmHouse1_marriage",
+        "FromFile": "Assets/BiggerA555_NoKitchenPatch1.TMX",
+		"FromArea": {"X": 1, "Y": 2, "Width": 9, "Height": 7},
+        "ToArea": {"X": 1, "Y": 2, "Width": 9, "Height": 7},
+		"When": {
+			"PlayerHasKitchen": false,
+            }
+		},
+		{
+        "Action": "EditMap",
+        "Target": "Maps/FarmHouse2, Maps/FarmHouse2_marriage",
+        "FromFile": "Assets/BiggerA555_NoKitchenPatch2.TMX",
+		"FromArea": {"X": 0, "Y": 0, "Width": 9, "Height": 8},
+        "ToArea": {"X": 1, "Y": 11, "Width": 9, "Height": 8},
+		"When": {
+			"PlayerHasKitchen": false,
+            }
+		}
+	]
+}

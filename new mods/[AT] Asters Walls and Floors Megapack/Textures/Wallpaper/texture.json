@@ -1,0 +1,531 @@
+{
+  "ItemName": "Wallpaper",
+  "Type": "Decoration",
+  "Seasons": ["Spring", "Fall", "Winter", "Summer"],
+  "TextureWidth": 16,
+  "TextureHeight": 48,
+  "ManualVariations": [
+	{
+      "Id": 0,
+      "ChanceWeight": 0.1,
+	  "Name": "Blue Diamond Tiles Walnut-Trim",
+	  "Keywords": [ "Blue Diamond Tiles Walnut-Trim" ]
+    },
+	{
+      "Id": 1,
+      "ChanceWeight": 0.1,
+	  "Name": "Blue Diamond Tiles",
+	  "Keywords": [ "Blue Diamond Tiles" ]
+    },
+	{
+      "Id": 2,
+      "ChanceWeight": 0.1,
+	  "Name": "Blue Medusa Tiles Walnut-Trim",
+	  "Keywords": [ "Blue Medusa Tiles Walnut-Trim" ]
+    },
+	{
+      "Id": 3,
+      "ChanceWeight": 0.1,
+      "Name": "BTH Onsen Panelled Light Walnut",
+	  "Keywords": [ "BTH Onsen Panelled Light Walnut" ]
+    },
+    {
+      "Id": 4,
+      "ChanceWeight": 0.1,
+	  "Name": "BTH Ornamental Beach Rose",
+	  "Keywords": [ "BTH Ornamental Beach Rose" ]
+    },
+	{
+      "Id": 5,
+      "ChanceWeight": 0.1,
+      "Name": "Cherry Window Lattice",
+	  "Keywords": [ "Cherry Window Lattice" ]
+    },
+    {
+      "Id": 6,
+      "ChanceWeight": 0.1,
+	  "Name": "Chinese Ink Painting Base Granite",
+	  "Keywords": [ "Chinese Ink Painting Base Granite" ]
+    },
+	{
+      "Id": 7,
+      "ChanceWeight": 0.1,
+      "Name": "Chinese Ink Painting Base Tan",
+	  "Keywords": [ "Chinese Ink Painting Base Tan" ]
+    },
+    {
+      "Id": 8,
+      "ChanceWeight": 0.1,
+	  "Name": "Cloud Arch with Curtain",
+	  "Keywords": [ "Cloud Arch with Curtain" ]
+    },
+	{
+      "Id": 9,
+      "ChanceWeight": 0.1,
+      "Name": "Cloud Sky with  Elaborate Trim",
+	  "Keywords": [ "Cloud Sky with  Elaborate Trim" ]
+    },
+    {
+      "Id": 10,
+      "ChanceWeight": 0.1,
+	  "Name": "Dark Green Gradient",
+	  "Keywords": [ "Dark Green Gradient" ]
+    },
+	{
+      "Id": 11,
+      "ChanceWeight": 0.1,
+	  "Name": "Dark Green Sewer Brick Tiles Full-Trim",
+	  "Keywords": [ "Dark Green Sewer Brick Tiles Full-Trim" ]
+    },
+	{
+      "Id": 12,
+      "ChanceWeight": 0.1,
+	  "Name": "Dark Green Sewer Brick Tiles Tile-Trim",
+	  "Keywords": [ "Dark Green Sewer Brick Tiles Tile-Trim" ]
+    },
+	{
+      "Id": 13,
+      "ChanceWeight": 0.1,
+	  "Name": "Dark Green Sewer Brick Tiles",
+	  "Keywords": [ "Dark Green Sewer Brick Tiles" ]
+    },
+	{
+      "Id": 14,
+      "ChanceWeight": 0.1,
+	  "Name": "Dark Teal Plain Oak-Trim",
+	  "Keywords": [ "Dark Teal Plain Oak-Trim" ]
+    },
+	{
+      "Id": 15,
+      "ChanceWeight": 0.1,
+	  "Name": "Dark Teal Sewer Brick Tiles ",
+	  "Keywords": [ "Dark Teal Sewer Brick Tiles " ]
+    },
+	{
+      "Id": 16,
+      "ChanceWeight": 0.1,
+	  "Name": "Dark Teal Sewer Brick Tiles Full-Trim",
+	  "Keywords": [ "Dark Teal Sewer Brick Tiles Full-Trim" ]
+    },
+	{
+      "Id": 17,
+      "ChanceWeight": 0.1,
+	  "Name": "Dark Teal Sewer Brick Tiles Tile-Trim",
+	  "Keywords": [ "Dark Teal Sewer Brick Tiles Tile-Trim" ]
+    },
+	{
+      "Id": 18,
+      "ChanceWeight": 0.1,
+	  "Name": "Grey Diamond Tiles",
+	  "Keywords": [ "Grey Diamond Tiles" ]
+    },
+	{
+      "Id": 19,
+      "ChanceWeight": 0.1,
+	  "Name": "Grey Medusa Tiles",
+	  "Keywords": [ "Grey Medusa Tiles" ]
+    },
+	{
+      "Id": 20,
+      "ChanceWeight": 0.1,
+	  "Name": "Grey Sewer Brick Tiles ",
+	  "Keywords": [ "Grey Sewer Brick Tiles " ]
+    },
+	{
+      "Id": 21,
+      "ChanceWeight": 0.1,
+	  "Name": "Grey Sewer Brick Tiles Full-Trim",
+	  "Keywords": [ "Grey Sewer Brick Tiles Full-Trim" ]
+    },
+	{
+      "Id": 22,
+      "ChanceWeight": 0.1,
+	  "Name": "Grey Sewer Brick Tiles Tile-Trim",
+	  "Keywords": [ "Grey Sewer Brick Tiles Tile-Trim" ]
+    },
+	{
+      "Id": 23,
+      "ChanceWeight": 0.1,
+	  "Name": "Hokusai Pastel  Waves Tile-Trim",
+	  "Keywords": [ "Hokusai Pastel  Waves Tile-Trim" ]
+    },
+	{
+      "Id": 24,
+      "ChanceWeight": 0.1,
+	  "Name": "Ivory Diamond Tiles Cabernet-Trim",
+	  "Keywords": [ "Ivory Diamond Tiles Cabernet-Trim" ]
+    },
+	{
+      "Id": 25,
+      "ChanceWeight": 0.1,
+	  "Name": "Ivory Diamond Tiles Grey-Trim",
+	  "Keywords": [ "Ivory Diamond Tiles Grey-Trim" ]
+    },
+	{
+      "Id": 26,
+      "ChanceWeight": 0.1,
+	  "Name": "Ivory Diamond Tiles Oak-Trim",
+	  "Keywords": [ "Ivory Diamond Tiles Oak-Trim" ]
+    },
+	{
+      "Id": 27,
+      "ChanceWeight": 0.1,
+	  "Name": "Ivory Leaf Tiles Cabernet-Trim",
+	  "Keywords": [ "Ivory Leaf Tiles Cabernet-Trim" ]
+    },
+	{
+      "Id": 28,
+      "ChanceWeight": 0.1,
+	  "Name": "Ivory Leaf Tiles Tile-Trim",
+	  "Keywords": [ "Ivory Leaf Tiles Tile-Trim" ]
+    },
+	{
+      "Id": 29,
+      "ChanceWeight": 0.1,
+	  "Name": "Ivory Medusa Tiles Grey-Trim",
+	  "Keywords": [ "Ivory Medusa Tiles Grey-Trim" ]
+    },
+	{
+      "Id": 30,
+      "ChanceWeight": 0.1,
+	  "Name": "Ivory Medusa Tiles Oak-Trim",
+	  "Keywords": [ "Ivory Medusa Tiles Oak-Trim" ]
+    },
+	{
+      "Id": 31,
+      "ChanceWeight": 0.1,
+	  "Name": "Ivory Plain Oak-Trim",
+	  "Keywords": [ "Ivory Plain Oak-Trim" ]
+    },
+	{
+      "Id": 32,
+      "ChanceWeight": 0.1,
+	  "Name": "Ghibli Onsen",
+	  "Keywords": [ "JPN Ghibli Onsen" ]
+    },
+	{
+      "Id": 33,
+      "ChanceWeight": 0.1,
+	  "Name": "Pale Yellow Interlocking Kikko Wallpaper",
+	  "Keywords": [ "JPN Pale Yellow Interlocking Kikko Wallpaper" ]
+    },
+	{
+      "Id": 34,
+      "ChanceWeight": 0.1,
+	  "Name": "Peach Hibiscus",
+	  "Keywords": [ "JPN Peach Hibiscus" ]
+    },
+	{
+      "Id": 35,
+      "ChanceWeight": 0.1,
+	  "Name": "Plain White Full-Trim Granite",
+	  "Keywords": [ "Jpn Plain White Full-Trim Granite" ]
+    },
+	{
+      "Id": 36,
+      "ChanceWeight": 0.1,
+	  "Name": "Plain White Full-Trim Tan",
+	  "Keywords": [ "Jpn Plain White Full-Trim Tan" ]
+    },
+	{
+      "Id": 37,
+      "ChanceWeight": 0.1,
+	  "Name": "Shoji Granite",
+	  "Keywords": [ "Jpn Shoji Granite" ]
+    },
+	{
+      "Id": 38,
+      "ChanceWeight": 0.1,
+	  "Name": "Shoji Half Granite",
+	  "Keywords": [ "Jpn Shoji Half Granite" ]
+    },
+	{
+      "Id": 39,
+      "ChanceWeight": 0.1,
+	  "Name": "Shoji Half Tan",
+	  "Keywords": [ "Jpn Shoji Half Tan" ]
+    },
+	{
+      "Id": 40,
+      "ChanceWeight": 0.1,
+	  "Name": "Shoji Paper Granite",
+	  "Keywords": [ "Jpn Shoji Paper Granite" ]
+    },
+	{
+      "Id": 41,
+      "ChanceWeight": 0.1,
+	  "Name": "Shoji Paper Tan",
+	  "Keywords": [ "Jpn Shoji Paper Tan" ]
+    },
+	{
+      "Id": 42,
+      "ChanceWeight": 0.1,
+	  "Name": "Tan Recolor of Narianka's Wallpaper 01",
+	  "Keywords": [ "JPN Tan Recolor of Narianka's Wallpaper 01" ]
+    },
+	{
+      "Id": 43,
+      "ChanceWeight": 0.1,
+	  "Name": "Tan Recolor of Narianka's Wallpaper 02",
+	  "Keywords": [ "JPN Tan Recolor of Narianka's Wallpaper 02" ]
+    },
+	{
+      "Id": 44,
+      "ChanceWeight": 0.1,
+	  "Name": "Tan Recolor of Narianka's Wallpaper 03",
+	  "Keywords": [ "JPN Tan Recolor of Narianka's Wallpaper 03" ]
+    },
+	{
+      "Id": 45,
+      "ChanceWeight": 0.1,
+	  "Name": "Tan Recolor of Narianka's Wallpaper 04",
+	  "Keywords": [ "JPN Tan Recolor of Narianka's Wallpaper 04" ]
+    },
+	{
+      "Id": 46,
+      "ChanceWeight": 0.1,
+	  "Name": "Tan Recolor of Narianka's Wallpaper 05",
+	  "Keywords": [ "JPN Tan Recolor of Narianka's Wallpaper 05" ]
+    },
+	{
+      "Id": 47,
+      "ChanceWeight": 0.1,
+	  "Name": "Tan Recolor of Narianka's Wallpaper 06",
+	  "Keywords": [ "JPN Tan Recolor of Narianka's Wallpaper 06" ]
+    },
+	{
+      "Id": 48,
+      "ChanceWeight": 0.1,
+	  "Name": "Tan Recolor of Narianka's Wallpaper 07",
+	  "Keywords": [ "JPN Tan Recolor of Narianka's Wallpaper 07" ]
+    },
+	{
+      "Id": 49,
+      "ChanceWeight": 0.1,
+	  "Name": "Tan Recolor of Narianka's Wallpaper 08",
+	  "Keywords": [ "JPN Tan Recolor of Narianka's Wallpaper 08" ]
+    },
+	{
+      "Id": 50,
+      "ChanceWeight": 0.1,
+	  "Name": "Tan Recolor of Narianka's Wallpaper 09",
+	  "Keywords": [ "JPN Tan Recolor of Narianka's Wallpaper 09" ]
+    },
+	{
+      "Id": 51,
+      "ChanceWeight": 0.1,
+	  "Name": "Tan Recolor of Narianka's Wallpaper 10",
+	  "Keywords": [ "JPN Tan Recolor of Narianka's Wallpaper 10" ]
+    },
+	{
+      "Id": 52,
+      "ChanceWeight": 0.1,
+	  "Name": "Tan Recolor of Narianka's Wallpaper 11",
+	  "Keywords": [ "JPN Tan Recolor of Narianka's Wallpaper 11" ]
+    },
+	{
+      "Id": 53,
+      "ChanceWeight": 0.1,
+	  "Name": "Tan Recolor of Narianka's Wallpaper 12",
+	  "Keywords": [ "JPN Tan Recolor of Narianka's Wallpaper 12" ]
+    },
+	{
+      "Id": 54,
+      "ChanceWeight": 0.1,
+      "Name": "Light Teal Plain Oak-Trim",
+	  "Keywords": [ "Light Teal Plain Oak-Trim" ]
+    },
+    {
+      "Id": 55,
+      "ChanceWeight": 0.1,
+	  "Name": "Light Teal Sewer Brick Tiles ",
+	  "Keywords": [ "Light Teal Sewer Brick Tiles " ]
+    },
+	{
+      "Id": 56,
+      "ChanceWeight": 0.1,
+	  "Name": "Light Teal Sewer Brick Tiles Full-Trim",
+	  "Keywords": [ "Light Teal Sewer Brick Tiles Full-Trim" ]
+    },
+	{
+      "Id": 57,
+      "ChanceWeight": 0.1,
+      "Name": "Light Teal Sewer Brick Tiles Tile-Trim",
+	  "Keywords": [ "Light Teal Sewer Brick Tiles Tile-Trim" ]
+    },
+	{
+      "Id": 58,
+      "ChanceWeight": 0.1,
+      "Name": "Medium Teal Sewer Brick Tiles ",
+	  "Keywords": [ "Medium Teal Sewer Brick Tiles " ]
+    },
+    {
+      "Id": 59,
+      "ChanceWeight": 0.1,
+	  "Name": "Medium Teal Sewer Brick Tiles Full-Trim",
+	  "Keywords": [ "Medium Teal Sewer Brick Tiles Full-Trim" ]
+    },
+	{
+      "Id": 60,
+      "ChanceWeight": 0.1,
+      "Name": "Medium Teal Sewer Brick Tiles Tile-Trim",
+	  "Keywords": [ "Medium Teal Sewer Brick Tiles Tile-Trim" ]
+    },
+    {
+      "Id": 61,
+      "ChanceWeight": 0.1,
+	  "Name": "Oculus Catena Green-Gold",
+	  "Keywords": [ "Oculus Catena Green-Gold" ]
+    },
+	{
+      "Id": 62,
+      "ChanceWeight": 0.1,
+	  "Name": "Oculus Catena Light Green-Gold",
+	  "Keywords": [ "Oculus Catena Light Green-Gold" ]
+    },
+	{
+      "Id": 63,
+      "ChanceWeight": 0.1,
+	  "Name": "Saloon Curtain",
+	  "Keywords": [ "Saloon Curtain" ]
+    },
+	{
+      "Id": 64,
+      "ChanceWeight": 0.1,
+	  "Name": "Sand-Dollar Tiles",
+	  "Keywords": [ "Sand-Dollar Tiles" ]
+    },
+	{
+      "Id": 65,
+      "ChanceWeight": 0.1,
+	  "Name": "Shippo Blue Rose",
+	  "Keywords": [ "Shippo Blue Rose" ]
+    },
+	{
+      "Id": 66,
+      "ChanceWeight": 0.1,
+	  "Name": "Shippo Faded Gold",
+	  "Keywords": [ "Shippo Faded Gold" ]
+    },
+	{
+      "Id": 67,
+      "ChanceWeight": 0.1,
+	  "Name": "Shippo Medium Cherry",
+	  "Keywords": [ "Shippo Medium Cherry" ]
+    },
+	{
+      "Id": 68,
+      "ChanceWeight": 0.1,
+	  "Name": "Shippo Rose Curtain",
+	  "Keywords": [ "Shippo Rose Curtain" ]
+    },
+	{
+      "Id": 69,
+      "ChanceWeight": 0.1,
+	  "Name": "Spouse Room Wall Abigail",
+	  "Keywords": [ "Spouse Room Wall Abigail" ]
+    },
+	{
+      "Id": 70,
+      "ChanceWeight": 0.1,
+	  "Name": "Spouse Room Wall Alex",
+	  "Keywords": [ "Spouse Room Wall Alex" ]
+    },
+	{
+      "Id": 71,
+      "ChanceWeight": 0.1,
+	  "Name": "Spouse Room Wall Elliott",
+	  "Keywords": [ "Spouse Room Wall Elliott" ]
+    },
+	{
+      "Id": 72,
+      "ChanceWeight": 0.1,
+	  "Name": "Spouse Room Wall Emily",
+	  "Keywords": [ "Spouse Room Wall Emily" ]
+    },
+	{
+      "Id": 73,
+      "ChanceWeight": 0.1,
+	  "Name": "Spouse Room Wall Haley",
+	  "Keywords": [ "Spouse Room Wall Haley" ]
+    },
+	{
+      "Id": 74,
+      "ChanceWeight": 0.1,
+	  "Name": "Spouse Room Wall Harvey",
+	  "Keywords": [ "Spouse Room Wall Harvey" ]
+    },
+	{
+      "Id": 75,
+      "ChanceWeight": 0.1,
+	  "Name": "Spouse Room Wall Leah",
+	  "Keywords": [ "Spouse Room Wall Leah" ]
+    },
+	{
+      "Id": 76,
+      "ChanceWeight": 0.1,
+	  "Name": "Spouse Room Wall Maru",
+	  "Keywords": [ "Spouse Room Wall Maru" ]
+    },
+	{
+      "Id": 77,
+      "ChanceWeight": 0.1,
+	  "Name": "Spouse Room Wall Penny",
+	  "Keywords": [ "Spouse Room Wall Penny" ]
+    },
+	{
+      "Id": 78,
+      "ChanceWeight": 0.1,
+	  "Name": "Spouse Room Wall Sam",
+	  "Keywords": [ "Spouse Room Wall Sam" ]
+    },
+	{
+      "Id": 79,
+      "ChanceWeight": 0.1,
+	  "Name": "Spouse Room Wall Sebastian",
+	  "Keywords": [ "Spouse Room Wall Sebastian" ]
+    },
+	{
+      "Id": 80,
+      "ChanceWeight": 0.1,
+	  "Name": "Spouse Room Wall Shane",
+	  "Keywords": [ "Spouse Room Wall Shane" ]
+    },
+	{
+      "Id": 81,
+      "ChanceWeight": 0.1,
+	  "Name": "Teal Diamond Tiles Walnut-Trim",
+	  "Keywords": [ "Teal Diamond Tiles Walnut-Trim" ]
+    },
+	{
+      "Id": 82,
+      "ChanceWeight": 0.1,
+	  "Name": "Teal Leaf Tiles Tile-Trim",
+	  "Keywords": [ "Teal Leaf Tiles Tile-Trim" ]
+    },
+	{
+      "Id": 83,
+      "ChanceWeight": 0.1,
+	  "Name": "Teal Leaf Tiles Walnut-Trim",
+	  "Keywords": [ "Teal Leaf Tiles Walnut-Trim" ]
+    },
+	{
+      "Id": 84,
+      "ChanceWeight": 0.1,
+	  "Name": "Teal Plain Oak-Trim",
+	  "Keywords": [ "Teal Plain Oak-Trim" ]
+    },
+	{
+      "Id": 85,
+      "ChanceWeight": 0.1,
+	  "Name": "White Cloud Arch with Curtain",
+	  "Keywords": [ "White Cloud Arch with Curtain" ]
+    },
+	{
+      "Id": 86,
+      "ChanceWeight": 0.1,
+	  "Name": "White Cloud Arch",
+	  "Keywords": [ "White Cloud Arch" ]
+    }
+  ]
+}

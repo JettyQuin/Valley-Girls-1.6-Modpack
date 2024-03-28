@@ -1,0 +1,11 @@
+{
+  "Name": "Lnh's Leisure Barn",
+  "Author": "Lnh",
+  "Version": "1.1.2",
+  "Description": "",
+  "UniqueID": "Lnh.LeisureBarn",
+  "UpdateKeys": [ "Nexus:18231" ],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  }
+}
