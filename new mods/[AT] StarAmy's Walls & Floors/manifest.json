@@ -1,0 +1,12 @@
+{
+   "Name": "[AT] StarAmy's Comprehensive Walls and Floros",
+   "Author": "StarAmy",
+   "Version": "1.0.0",
+   "Description": "All of my wallpapers and flooring combined via alternative textures",
+   "UniqueID": "StarAmy.ATComprehensiveWalls",
+   "UpdateKeys": ["Nexus:15114"],
+   "ContentPackFor": {
+      "UniqueID": "PeacefulEnd.AlternativeTextures",
+    "MinimumVersion": "5.0.1"
+   }
+}

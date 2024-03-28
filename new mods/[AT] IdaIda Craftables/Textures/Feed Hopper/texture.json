@@ -1,0 +1,13 @@
+{
+    "ItemName": "Feed Hopper",
+    "Type": "Craftable",
+    "Keywords": ["Idaida", "Gothic"],
+    "TextureWidth": 16,
+    "TextureHeight": 32,
+    "ManualVariations": [
+      {
+        "Id": 0,
+        "Name": "Gothic Feed Hopper"
+      }
+  ]
+}

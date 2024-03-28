@@ -1,0 +1,105 @@
+{
+  "ItemName": "Wood Floor",
+  "Type": "Flooring",
+  "Keywords": [ "Shardust", "WoodFloor" ],
+  "TextureWidth": 64,
+  "TextureHeight": 64,
+  "ManualVariations": [
+     {
+      "Id": 0,
+      "Keywords": [ "Amethyst WoodFloor" ]
+    },
+    {
+      "Id": 1,
+      "Keywords": [ "Aquamarine WoodFloor" ]
+    },
+	{
+      "Id": 2,
+      "Keywords": [ "Ash WoodFloor" ]
+    },
+    {
+      "Id": 3,
+      "Keywords": [ "Blackberry WoodFloor" ]
+    },
+	{
+      "Id": 4,
+      "Keywords": [ "Coal WoodFloor" ]
+    },
+    {
+      "Id": 5,
+      "Keywords": [ "Cocoa WoodFloor" ]
+    },
+	{
+      "Id": 6,
+      "Keywords": [ "Cream WoodFloor" ]
+    },
+    {
+      "Id": 7,
+      "Keywords": [ "Diamond WoodFloor" ]
+    },
+	{
+      "Id": 8,
+      "Keywords": [ "Emerald WoodFloor" ]
+    },
+    {
+      "Id": 9,
+      "Keywords": [ "Honey WoodFloor" ]
+    },
+	{
+      "Id": 10,
+      "Keywords": [ "Mahogany WoodFloor" ]
+    },
+    {
+      "Id": 11,
+      "Keywords": [ "Mocha WoodFloor" ]
+    },
+	{
+      "Id": 12,
+      "Keywords": [ "Oak WoodFloor" ]
+    },
+    {
+      "Id": 13,
+      "Keywords": [ "Olive WoodFloor" ]
+    },
+	{
+      "Id": 14,
+      "Keywords": [ "Ruby WoodFloor" ]
+    },
+    {
+      "Id": 15,
+      "Keywords": [ "Rust WoodFloor" ]
+    },
+	{
+      "Id": 16,
+      "Keywords": [ "Saffron WoodFloor" ]
+    },
+    {
+      "Id": 17,
+      "Keywords": [ "Sapphire WoodFloor" ]
+    },
+	{
+      "Id": 18,
+      "Keywords": [ "Spinel WoodFloor" ]
+    },
+    {
+      "Id": 19,
+      "Keywords": [ "Steel WoodFloor" ]
+    },
+	{
+      "Id": 20,
+      "Keywords": [ "Topaz WoodFloor" ]
+    },
+    {
+      "Id": 21,
+      "Keywords": [ "Umber WoodFloor" ]
+    },
+	{
+      "Id": 22,
+      "Keywords": [ "Walnut WoodFloor" ]
+    },
+    {
+      "Id": 23,
+      "Keywords": [ "Wine WoodFloor" ]
+    },
+  ],
+}

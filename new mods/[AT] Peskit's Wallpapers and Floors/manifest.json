@@ -1,0 +1,13 @@
+{
+  "Name": "[AT] Peskit's Wallpapers and Floors",
+  "Author": "Peskit",
+  "Version": "2.1",
+  "Description": "Replaces most wallpapers and floors",
+  "UniqueID": "Peskit.Walls_and_Floors_AT",
+  "UpdateKeys": ["Nexus:7819"],
+  "Dependencies": [],
+  "ContentPackFor": {
+    "UniqueID": "PeacefulEnd.AlternativeTextures",
+    "MinimumVersion": "3.3.2"
+  }
+}

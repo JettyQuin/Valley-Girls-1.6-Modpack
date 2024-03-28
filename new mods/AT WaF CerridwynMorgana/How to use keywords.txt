@@ -1,0 +1,4 @@
+KEYWORDS
+How to use: After you click on a wall or floor there will be a search bar at the top of the box. You can only look up part of a phrase. So for example with the keyword "Cerri Brown Skirting" available, typing "Cerri Skirting" in the seatch bar would not work, but "Brown Skirting" would. The unique ID in the manifest.json is always a keyword, other available keywords are listed as the "texture name" when you hover over it in game.
+
+Note: Cerri's CP walls and floors included vanilla textures, those have not been included in this AT pack

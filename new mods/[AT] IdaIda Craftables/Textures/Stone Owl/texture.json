@@ -1,0 +1,17 @@
+{
+    "ItemName": "Stone Owl",
+    "Type": "Craftable",
+    "Keywords": ["Idaida", "Gothic"],
+    "TextureWidth": 16,
+    "TextureHeight": 32,
+    "ManualVariations": [
+        {
+          "Id": 0,
+          "Name": "Gothic Stone Owl"
+        },
+        {
+          "Id": 1,
+          "Name": "Gothic Stone Owl"
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+   
+{
+  "ItemName": "Wood Floor",
+  "Type": "Flooring",
+  "Seasons": [ "Fall" ],
+  "TextureWidth": 64,
+  "TextureHeight": 64,
+  "Variations": 3,
+  "ManualVariations": [
+  {
+      "Id": 0,
+      "ChanceWeight": 0.1,
+    "Name": "Normal Wood Floor",
+    "Keywords": [ "Normal Wood Floor" ]
+    },
+  {
+      "Id": 1,
+      "ChanceWeight": 0.1,
+    "Name": "Vanilla Color Wood Floor",
+    "Keywords": [ "Vanilla Color Wood Floor" ]
+    },
+  {
+      "Id": 2,
+      "ChanceWeight": 0.1,
+    "Name": "Vibrant Pastoral Wood Floor",
+    "Keywords": [ "Vibrant Pastoral Wood Floor" ]
+    },
+  ]
+}

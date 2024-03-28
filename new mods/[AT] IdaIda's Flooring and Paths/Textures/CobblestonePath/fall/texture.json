@@ -1,0 +1,29 @@
+   
+{
+  "ItemName": "Cobblestone Path",
+  "Type": "Flooring",
+  "Seasons": [ "Fall" ],
+  "TextureWidth": 64,
+  "TextureHeight": 64,
+  "Variations": 3,
+  "ManualVariations": [
+  {
+      "Id": 0,
+      "ChanceWeight": 0.1,
+    "Name": "Normal Cobblestone Path",
+    "Keywords": [ "Normal Cobblestone Path" ]
+    },
+  {
+      "Id": 1,
+      "ChanceWeight": 0.1,
+    "Name": "Vanilla Color Cobblestone Path",
+    "Keywords": [ "Vanilla Color Cobblestone Path" ]
+    },
+  {
+      "Id": 2,
+      "ChanceWeight": 0.1,
+    "Name": "Vibrant Pastoral Cobblestone Path",
+    "Keywords": [ "Vibrant Pastoral Cobblestone Path" ]
+    },
+  ]
+}

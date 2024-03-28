@@ -1,0 +1,11 @@
+{
+  "Name": "[AT] Mesh Fence",
+  "Author": "KAYA",
+  "Version": "1.0.0",
+  "Description": "Mesh fence random replacer.",
+  "UniqueID": "KAYA.AT.MeshFence",
+  "ContentPackFor": {
+    "UniqueID": "PeacefulEnd.AlternativeTextures",
+    "MinimumVersion": "2.0.0"
+  }
+}

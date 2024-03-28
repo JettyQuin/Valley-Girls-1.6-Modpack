@@ -1,0 +1,13 @@
+{
+    "ItemName": "Sloth Skeleton M",
+    "Type": "Craftable",
+    "TextureWidth": 16,
+    "TextureHeight": 32,
+    "ManualVariations": [
+      {
+        "Id": 0,
+        "Name": "It's also old...",
+        "Keywords": ["Void"]
+      }
+  ]
+}

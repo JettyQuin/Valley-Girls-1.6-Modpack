@@ -1,0 +1,29 @@
+   
+{
+  "ItemName": "Stone Walkway Floor",
+  "Type": "Flooring",
+  "Seasons": [ "Summer" ],
+  "TextureWidth": 64,
+  "TextureHeight": 64,
+  "Variations": 3,
+  "ManualVariations": [
+  {
+      "Id": 0,
+      "ChanceWeight": 0.1,
+    "Name": "Normal Stone Walkway Floor",
+    "Keywords": [ "Normal Stone Walkway Floor" ]
+    },
+  {
+      "Id": 1,
+      "ChanceWeight": 0.1,
+    "Name": "Vanilla Color Stone Walkway Floor",
+    "Keywords": [ "Vanilla Color Stone Walkway Floor" ]
+    },
+  {
+      "Id": 2,
+      "ChanceWeight": 0.1,
+    "Name": "Vibrant Pastoral Stone Walkway Floor",
+    "Keywords": [ "Vibrant Pastoral Stone Walkway Floor" ]
+    },
+  ]
+}

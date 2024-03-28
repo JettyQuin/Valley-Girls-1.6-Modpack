@@ -1,0 +1,105 @@
+{
+  "ItemName": "Stone Floor",
+  "Type": "Flooring",
+  "Keywords": [ "Shardust", "StoneFloor" ],
+  "TextureWidth": 64,
+  "TextureHeight": 64,
+  "ManualVariations": [
+    {
+      "Id": 0,
+      "Keywords": [ "Amethyst StoneFloor" ]
+    },
+    {
+      "Id": 1,
+      "Keywords": [ "Aquamarine StoneFloor" ]
+    },
+	{
+      "Id": 2,
+      "Keywords": [ "Ash StoneFloor" ]
+    },
+    {
+      "Id": 3,
+      "Keywords": [ "Blackberry StoneFloor" ]
+    },
+	{
+      "Id": 4,
+      "Keywords": [ "Coal StoneFloor" ]
+    },
+    {
+      "Id": 5,
+      "Keywords": [ "Cocoa StoneFloor" ]
+    },
+	{
+      "Id": 6,
+      "Keywords": [ "Cream StoneFloor" ]
+    },
+    {
+      "Id": 7,
+      "Keywords": [ "Diamond StoneFloor" ]
+    },
+	{
+      "Id": 8,
+      "Keywords": [ "Emerald StoneFloor" ]
+    },
+    {
+      "Id": 9,
+      "Keywords": [ "Honey StoneFloor" ]
+    },
+	{
+      "Id": 10,
+      "Keywords": [ "Mahogany StoneFloor" ]
+    },
+    {
+      "Id": 11,
+      "Keywords": [ "Mocha StoneFloor" ]
+    },
+	{
+      "Id": 12,
+      "Keywords": [ "Oak StoneFloor" ]
+    },
+    {
+      "Id": 13,
+      "Keywords": [ "Olive StoneFloor" ]
+    },
+	{
+      "Id": 14,
+      "Keywords": [ "Ruby StoneFloor" ]
+    },
+    {
+      "Id": 15,
+      "Keywords": [ "Rust StoneFloor" ]
+    },
+	{
+      "Id": 16,
+      "Keywords": [ "Saffron StoneFloor" ]
+    },
+    {
+      "Id": 17,
+      "Keywords": [ "Sapphire StoneFloor" ]
+    },
+	{
+      "Id": 18,
+      "Keywords": [ "Spinel StoneFloor" ]
+    },
+    {
+      "Id": 19,
+      "Keywords": [ "Steel StoneFloor" ]
+    },
+	{
+      "Id": 20,
+      "Keywords": [ "Topaz StoneFloor" ]
+    },
+    {
+      "Id": 21,
+      "Keywords": [ "Umber StoneFloor" ]
+    },
+	{
+      "Id": 22,
+      "Keywords": [ "Walnut StoneFloor" ]
+    },
+    {
+      "Id": 23,
+      "Keywords": [ "Wine StoneFloor" ]
+    },
+  ],
+}

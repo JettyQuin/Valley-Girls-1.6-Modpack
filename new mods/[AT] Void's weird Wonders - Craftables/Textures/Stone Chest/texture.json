@@ -1,0 +1,13 @@
+{
+    "ItemName": "Stone Chest",
+    "Type": "Craftable",
+    "TextureWidth": 16,
+    "TextureHeight": 32,
+    "ManualVariations": [
+      {
+        "Id": 0,
+        "Name": "Sad Stone Chest",
+        "Keywords": ["Void"]
+      }
+  ]
+}

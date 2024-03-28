@@ -1,0 +1,13 @@
+{
+  "ItemName": "Iridium Sprinkler",
+  "Type": "Craftable",
+  "TextureWidth": 16,
+  "TextureHeight": 16,
+  "ManualVariations": [
+    {
+      "Id": 0,
+      "Name":"Bone³",
+      "Keywords": ["Void"]
+    },
+  ]
+}

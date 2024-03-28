@@ -1,0 +1,13 @@
+{
+    "Name": "[AT] Elegant Craftables",
+    "Author": "Colling and Nonu",
+    "Version": "1.3",
+    "MinimumApiVersion": "1.0.0",
+    "Description": "Elegant craftables",
+    "UpdateKeys": ["Nexus:14473"],
+    "UniqueID": "Colling.Craftables.AT",
+    "ContentPackFor": {
+        "UniqueID": "PeacefulEnd.AlternativeTextures",
+        "MinimumVersion": "6.10.4"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "ItemName": "Barrel",
+    "Type": "Craftable",
+    "Keywords": ["Idaida", "Gothic"],
+    "TextureWidth": 16,
+    "TextureHeight": 32,
+    "ManualVariations": [
+        {
+          "Id": 0,
+          "Name": "Gothic Barrel"
+        },
+        {
+          "Id": 1,
+          "Name": "Gothic Barrel"
+        },
+        {
+          "Id": 2,
+          "Name": "Gothic Barrel"
+        },
+        {
+          "Id": 3,
+          "Name": "Gothic Barrel"
+        },
+        {
+          "Id": 4,
+          "Name": "Gothic Barrel"
+        },
+        {
+          "Id": 5,
+          "Name": "Gothic Barrel"
+        }
+    ]
+}

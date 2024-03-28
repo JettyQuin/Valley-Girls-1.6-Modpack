@@ -1,0 +1,10 @@
+{
+  "Name": "IdaIda's Wisp Torch",
+  "Author": "Idaida",
+  "Version": "1.0.0",
+  "Description": "Replaces the vanilla basic torch with a magical Wisp flame.",
+  "UniqueID": "IdaIda.WispTorch",
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher",
+  },
+}

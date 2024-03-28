@@ -1,0 +1,105 @@
+{
+  "ItemName": "Wood Path",
+  "Type": "Flooring",
+  "Keywords": [ "Shardust", "WoodPath" ],
+  "TextureWidth": 64,
+  "TextureHeight": 64,
+  "ManualVariations": [
+     {
+      "Id": 0,
+      "Keywords": [ "Amethyst WoodPath" ]
+    },
+    {
+      "Id": 1,
+      "Keywords": [ "Aquamarine WoodPath" ]
+    },
+	{
+      "Id": 2,
+      "Keywords": [ "Ash WoodPath" ]
+    },
+    {
+      "Id": 3,
+      "Keywords": [ "Blackberry WoodPath" ]
+    },
+	{
+      "Id": 4,
+      "Keywords": [ "Coal WoodPath" ]
+    },
+    {
+      "Id": 5,
+      "Keywords": [ "Cocoa WoodPath" ]
+    },
+	{
+      "Id": 6,
+      "Keywords": [ "Cream WoodPath" ]
+    },
+    {
+      "Id": 7,
+      "Keywords": [ "Diamond WoodPath" ]
+    },
+	{
+      "Id": 8,
+      "Keywords": [ "Emerald WoodPath" ]
+    },
+    {
+      "Id": 9,
+      "Keywords": [ "Honey WoodPath" ]
+    },
+	{
+      "Id": 10,
+      "Keywords": [ "Mahogany WoodPath" ]
+    },
+    {
+      "Id": 11,
+      "Keywords": [ "Mocha WoodPath" ]
+    },
+	{
+      "Id": 12,
+      "Keywords": [ "Oak WoodPath" ]
+    },
+    {
+      "Id": 13,
+      "Keywords": [ "Olive WoodPath" ]
+    },
+	{
+      "Id": 14,
+      "Keywords": [ "Ruby WoodPath" ]
+    },
+    {
+      "Id": 15,
+      "Keywords": [ "Rust WoodPath" ]
+    },
+	{
+      "Id": 16,
+      "Keywords": [ "Saffron WoodPath" ]
+    },
+    {
+      "Id": 17,
+      "Keywords": [ "Sapphire WoodPath" ]
+    },
+	{
+      "Id": 18,
+      "Keywords": [ "Spinel WoodPath" ]
+    },
+    {
+      "Id": 19,
+      "Keywords": [ "Steel WoodPath" ]
+    },
+	{
+      "Id": 20,
+      "Keywords": [ "Topaz WoodPath" ]
+    },
+    {
+      "Id": 21,
+      "Keywords": [ "Umber WoodPath" ]
+    },
+	{
+      "Id": 22,
+      "Keywords": [ "Walnut WoodPath" ]
+    },
+    {
+      "Id": 23,
+      "Keywords": [ "Wine WoodPath" ]
+    },
+  ],
+}

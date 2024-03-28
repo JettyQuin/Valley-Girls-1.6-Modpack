@@ -1,0 +1,105 @@
+{
+  "ItemName": "Stone Walkway Floor",
+  "Type": "Flooring",
+  "Keywords": [ "Shardust", "StoneWalkwayFloor" ],
+  "TextureWidth": 64,
+  "TextureHeight": 64,
+  "ManualVariations": [
+     {
+      "Id": 0,
+      "Keywords": [ "Amethyst StoneWalkwayFloor" ]
+    },
+    {
+      "Id": 1,
+      "Keywords": [ "Aquamarine StoneWalkwayFloor" ]
+    },
+	{
+      "Id": 2,
+      "Keywords": [ "Ash StoneWalkwayFloor" ]
+    },
+    {
+      "Id": 3,
+      "Keywords": [ "Blackberry StoneWalkwayFloor" ]
+    },
+	{
+      "Id": 4,
+      "Keywords": [ "Coal StoneWalkwayFloor" ]
+    },
+    {
+      "Id": 5,
+      "Keywords": [ "Cocoa StoneWalkwayFloor" ]
+    },
+	{
+      "Id": 6,
+      "Keywords": [ "Cream StoneWalkwayFloor" ]
+    },
+    {
+      "Id": 7,
+      "Keywords": [ "Diamond StoneWalkwayFloor" ]
+    },
+	{
+      "Id": 8,
+      "Keywords": [ "Emerald StoneWalkwayFloor" ]
+    },
+    {
+      "Id": 9,
+      "Keywords": [ "Honey StoneWalkwayFloor" ]
+    },
+	{
+      "Id": 10,
+      "Keywords": [ "Mahogany StoneWalkwayFloor" ]
+    },
+    {
+      "Id": 11,
+      "Keywords": [ "Mocha StoneWalkwayFloor" ]
+    },
+	{
+      "Id": 12,
+      "Keywords": [ "Oak StoneWalkwayFloor" ]
+    },
+    {
+      "Id": 13,
+      "Keywords": [ "Olive StoneWalkwayFloor" ]
+    },
+	{
+      "Id": 14,
+      "Keywords": [ "Ruby StoneWalkwayFloor" ]
+    },
+    {
+      "Id": 15,
+      "Keywords": [ "Rust StoneWalkwayFloor" ]
+    },
+	{
+      "Id": 16,
+      "Keywords": [ "Saffron StoneWalkwayFloor" ]
+    },
+    {
+      "Id": 17,
+      "Keywords": [ "Sapphire StoneWalkwayFloor" ]
+    },
+	{
+      "Id": 18,
+      "Keywords": [ "Spinel StoneWalkwayFloor" ]
+    },
+    {
+      "Id": 19,
+      "Keywords": [ "Steel StoneWalkwayFloor" ]
+    },
+	{
+      "Id": 20,
+      "Keywords": [ "Topaz StoneWalkwayFloor" ]
+    },
+    {
+      "Id": 21,
+      "Keywords": [ "Umber StoneWalkwayFloor" ]
+    },
+	{
+      "Id": 22,
+      "Keywords": [ "Walnut StoneWalkwayFloor" ]
+    },
+    {
+      "Id": 23,
+      "Keywords": [ "Wine StoneWalkwayFloor" ]
+    },
+  ],
+}

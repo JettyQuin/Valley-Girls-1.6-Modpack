@@ -1,0 +1,105 @@
+{
+  "ItemName": "Gravel Path",
+  "Type": "Flooring",
+  "Keywords": [ "Shardust", "GravelPath" ],
+  "TextureWidth": 64,
+  "TextureHeight": 64,
+  "ManualVariations": [
+    {
+      "Id": 0,
+      "Keywords": [ "Amethyst GravelPath" ]
+    },
+    {
+      "Id": 1,
+      "Keywords": [ "Aquamarine GravelPath" ]
+    },
+	{
+      "Id": 2,
+      "Keywords": [ "Ash GravelPath" ]
+    },
+    {
+      "Id": 3,
+      "Keywords": [ "Blackberry GravelPath" ]
+    },
+	{
+      "Id": 4,
+      "Keywords": [ "Coal GravelPath" ]
+    },
+    {
+      "Id": 5,
+      "Keywords": [ "Cocoa GravelPath" ]
+    },
+	{
+      "Id": 6,
+      "Keywords": [ "Cream GravelPath" ]
+    },
+    {
+      "Id": 7,
+      "Keywords": [ "Diamond GravelPath" ]
+    },
+	{
+      "Id": 8,
+      "Keywords": [ "Emerald GravelPath" ]
+    },
+    {
+      "Id": 9,
+      "Keywords": [ "Honey GravelPath" ]
+    },
+	{
+      "Id": 10,
+      "Keywords": [ "Mahogany GravelPath" ]
+    },
+    {
+      "Id": 11,
+      "Keywords": [ "Mocha GravelPath" ]
+    },
+	{
+      "Id": 12,
+      "Keywords": [ "Oak GravelPath" ]
+    },
+    {
+      "Id": 13,
+      "Keywords": [ "Olive GravelPath" ]
+    },
+	{
+      "Id": 14,
+      "Keywords": [ "Ruby GravelPath" ]
+    },
+    {
+      "Id": 15,
+      "Keywords": [ "Rust GravelPath" ]
+    },
+	{
+      "Id": 16,
+      "Keywords": [ "Saffron GravelPath" ]
+    },
+    {
+      "Id": 17,
+      "Keywords": [ "Sapphire GravelPath" ]
+    },
+	{
+      "Id": 18,
+      "Keywords": [ "Spinel GravelPath" ]
+    },
+    {
+      "Id": 19,
+      "Keywords": [ "Steel GravelPath" ]
+    },
+	{
+      "Id": 20,
+      "Keywords": [ "Topaz GravelPath" ]
+    },
+    {
+      "Id": 21,
+      "Keywords": [ "Umber GravelPath" ]
+    },
+	{
+      "Id": 22,
+      "Keywords": [ "Walnut GravelPath" ]
+    },
+    {
+      "Id": 23,
+      "Keywords": [ "Wine GravelPath" ]
+    },
+  ],
+}

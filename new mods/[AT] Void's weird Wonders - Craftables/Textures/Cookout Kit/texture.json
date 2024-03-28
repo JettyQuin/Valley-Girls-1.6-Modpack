@@ -1,0 +1,13 @@
+{
+    "ItemName": "Cookout Kit",
+    "Type": "Craftable",
+    "TextureWidth": 16,
+    "TextureHeight": 32,
+    "ManualVariations": [
+      {
+        "Id": 0,
+        "Name": "I'm hungy",
+        "Keywords": ["Void"]
+      }
+  ]
+}

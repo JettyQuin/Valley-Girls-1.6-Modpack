@@ -1,0 +1,13 @@
+{
+    "ItemName": "Stone Chest",
+    "Type": "Craftable",
+    "Keywords": ["Idaida", "Gothic"],
+    "TextureWidth": 16,
+    "TextureHeight": 32,
+    "ManualVariations": [
+      {
+        "Id": 0,
+        "Name": "Gothic Stone Chest"
+      }
+  ]
+}

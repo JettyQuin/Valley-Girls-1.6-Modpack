@@ -1,0 +1,201 @@
+{
+  "ItemName": "Iron Fence",
+  "Type": "Craftable",
+  "Keywords": [ "Shardust", "IronFence", "IronHedge" ],
+  "TextureWidth": 48,
+  "TextureHeight": 128,
+  "ManualVariations": [
+    {
+      "Id": 0,
+      "Keywords": [ "Amethyst Iron Fence" ]
+    },
+    {
+      "Id": 1,
+      "Keywords": [ "Aquamarine Iron Fence" ]
+    },
+	{
+      "Id": 2,
+      "Keywords": [ "Ash Iron Fence" ]
+    },
+    {
+      "Id": 3,
+      "Keywords": [ "Blackberry Iron Fence" ]
+    },
+	{
+      "Id": 4,
+      "Keywords": [ "Coal Iron Fence" ]
+    },
+    {
+      "Id": 5,
+      "Keywords": [ "Cocoa Iron Fence" ]
+    },
+	{
+      "Id": 6,
+      "Keywords": [ "Cream Iron Fence" ]
+    },
+    {
+      "Id": 7,
+      "Keywords": [ "Diamond Iron Fence" ]
+    },
+	{
+      "Id": 8,
+      "Keywords": [ "Emerald Iron Fence" ]
+    },
+    {
+      "Id": 9,
+      "Keywords": [ "Honey Iron Fence" ]
+    },
+	{
+      "Id": 10,
+      "Keywords": [ "Mahogany Iron Fence" ]
+    },
+    {
+      "Id": 11,
+      "Keywords": [ "Mocha Iron Fence" ]
+    },
+	{
+      "Id": 12,
+      "Keywords": [ "Oak Iron Fence" ]
+    },
+    {
+      "Id": 13,
+      "Keywords": [ "Olive Iron Fence" ]
+    },
+	{
+      "Id": 14,
+      "Keywords": [ "Ruby Iron Fence" ]
+    },
+    {
+      "Id": 15,
+      "Keywords": [ "Rust Iron Fence" ]
+    },
+	{
+      "Id": 16,
+      "Keywords": [ "Saffron Iron Fence" ]
+    },
+    {
+      "Id": 17,
+      "Keywords": [ "Sapphire Iron Fence" ]
+    },
+	{
+      "Id": 18,
+      "Keywords": [ "Spinel Iron Fence" ]
+    },
+    {
+      "Id": 19,
+      "Keywords": [ "Steel Iron Fence" ]
+    },
+	{
+      "Id": 20,
+      "Keywords": [ "Topaz Iron Fence" ]
+    },
+    {
+      "Id": 21,
+      "Keywords": [ "Umber Iron Fence" ]
+    },
+	{
+      "Id": 22,
+      "Keywords": [ "Walnut Iron Fence" ]
+    },
+    {
+      "Id": 23,
+      "Keywords": [ "Wine Iron Fence" ]
+    },
+	{
+      "Id": 24,
+      "Keywords": [ "Amethyst Hedge" ]
+    },
+    {
+      "Id": 25,
+      "Keywords": [ "Aquamarine Hedge" ]
+    },
+	{
+      "Id": 26,
+      "Keywords": [ "Ash Hedge" ]
+    },
+    {
+      "Id": 27,
+      "Keywords": [ "Blackberry Hedge" ]
+    },
+	{
+      "Id": 28,
+      "Keywords": [ "Coal Hedge" ]
+    },
+    {
+      "Id": 29,
+      "Keywords": [ "Cocoa Hedge" ]
+    },
+	{
+      "Id": 30,
+      "Keywords": [ "Cream Hedge" ]
+    },
+    {
+      "Id": 31,
+      "Keywords": [ "Diamond Hedge" ]
+    },
+	{
+      "Id": 32,
+      "Keywords": [ "Emerald Hedge" ]
+    },
+    {
+      "Id": 33,
+      "Keywords": [ "Honey Hedge" ]
+    },
+	{
+      "Id": 34,
+      "Keywords": [ "Mahogany Hedge" ]
+    },
+    {
+      "Id": 35,
+      "Keywords": [ "Mocha Hedge" ]
+    },
+	{
+      "Id": 36,
+      "Keywords": [ "Oak Hedge" ]
+    },
+    {
+      "Id": 37,
+      "Keywords": [ "Olive Hedge" ]
+    },
+	{
+      "Id": 38,
+      "Keywords": [ "Ruby Hedge" ]
+    },
+    {
+      "Id": 39,
+      "Keywords": [ "Rust Hedge" ]
+    },
+	{
+      "Id": 40,
+      "Keywords": [ "Saffron Hedge" ]
+    },
+    {
+      "Id": 41,
+      "Keywords": [ "Sapphire Hedge" ]
+    },
+	{
+      "Id": 42,
+      "Keywords": [ "Spinel Hedge" ]
+    },
+    {
+      "Id": 43,
+      "Keywords": [ "Steel Hedge" ]
+    },
+	{
+      "Id": 44,
+      "Keywords": [ "Topaz Hedge" ]
+    },
+    {
+      "Id": 45,
+      "Keywords": [ "Umber Hedge" ]
+    },
+	{
+      "Id": 46,
+      "Keywords": [ "Walnut Hedge" ]
+    },
+    {
+      "Id": 47,
+      "Keywords": [ "Wine Hedge" ]
+    },
+  ]
+}

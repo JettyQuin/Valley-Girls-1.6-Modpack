@@ -1,0 +1,17 @@
+{
+    "ItemName": "Garden Pot",
+    "Type": "Craftable",
+    "Keywords": ["Idaida", "Gothic"],
+    "TextureWidth": 16,
+    "TextureHeight": 32,
+    "ManualVariations": [
+      {
+        "Id": 0,
+        "Name": "Gothic Garden Pot"
+      },
+      {
+        "Id": 1,
+        "Name":"Gothic Garden Pot"
+      }
+  ]
+}

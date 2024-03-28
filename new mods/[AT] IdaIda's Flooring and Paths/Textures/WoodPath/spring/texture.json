@@ -1,0 +1,29 @@
+   
+{
+  "ItemName": "Wood Path",
+  "Type": "Flooring",
+  "Seasons": [ "Spring" ],
+  "TextureWidth": 64,
+  "TextureHeight": 64,
+  "Variations": 3,
+  "ManualVariations": [
+  {
+      "Id": 0,
+      "ChanceWeight": 0.1,
+    "Name": "Normal Wood Path",
+    "Keywords": [ "Normal Wood Path" ]
+    },
+  {
+      "Id": 1,
+      "ChanceWeight": 0.1,
+    "Name": "Vanilla Color Wood Path",
+    "Keywords": [ "Vanilla Color Wood Path" ]
+    },
+  {
+      "Id": 2,
+      "ChanceWeight": 0.1,
+    "Name": "Vibrant Pastoral Wood Path",
+    "Keywords": [ "Vibrant Pastoral Wood Path" ]
+    },
+  ]
+}

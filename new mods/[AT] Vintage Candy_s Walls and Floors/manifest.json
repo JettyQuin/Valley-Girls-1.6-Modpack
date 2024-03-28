@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Vintage Candy's Walls and Floors",
+  "Author": "Vintage Candy",
+  "Version": "0.1.0",
+  "Description": "Vintage Candy's W+F for Alternative Textures.",
+  "UniqueID": "VintageCandy.WF",
+  "UpdateKeys": [],
+  "Dependencies": [],
+  "ContentPackFor": {
+    "UniqueID": "PeacefulEnd.AlternativeTextures",
+    "MinimumVersion": "4.5.3"
+  }
+}

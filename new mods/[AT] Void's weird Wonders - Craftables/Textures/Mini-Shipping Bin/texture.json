@@ -1,0 +1,13 @@
+{
+    "ItemName": "Mini-Shipping Bin",
+    "Type": "Craftable",
+    "TextureWidth": 16,
+    "TextureHeight": 32,
+    "ManualVariations": [
+      {
+        "Id": 0,
+        "Name": "Mini-Shipping Bin",
+        "Keywords": ["Void"]
+      }
+  ]
+}

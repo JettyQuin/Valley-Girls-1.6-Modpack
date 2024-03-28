@@ -1,0 +1,105 @@
+{
+  "ItemName": "Crystal Path",
+  "Type": "Flooring",
+  "Keywords": [ "Shardust", "CrystalPath" ],
+  "TextureWidth": 64,
+  "TextureHeight": 64,
+  "ManualVariations": [
+     {
+      "Id": 0,
+      "Keywords": [ "Amethyst CrystalPath" ]
+    },
+    {
+      "Id": 1,
+      "Keywords": [ "Aquamarine CrystalPath" ]
+    },
+	{
+      "Id": 2,
+      "Keywords": [ "Ash CrystalPath" ]
+    },
+    {
+      "Id": 3,
+      "Keywords": [ "Blackberry CrystalPath" ]
+    },
+	{
+      "Id": 4,
+      "Keywords": [ "Coal CrystalPath" ]
+    },
+    {
+      "Id": 5,
+      "Keywords": [ "Cocoa CrystalPath" ]
+    },
+	{
+      "Id": 6,
+      "Keywords": [ "Cream CrystalPath" ]
+    },
+    {
+      "Id": 7,
+      "Keywords": [ "Diamond CrystalPath" ]
+    },
+	{
+      "Id": 8,
+      "Keywords": [ "Emerald CrystalPath" ]
+    },
+    {
+      "Id": 9,
+      "Keywords": [ "Honey CrystalPath" ]
+    },
+	{
+      "Id": 10,
+      "Keywords": [ "Mahogany CrystalPath" ]
+    },
+    {
+      "Id": 11,
+      "Keywords": [ "Mocha CrystalPath" ]
+    },
+	{
+      "Id": 12,
+      "Keywords": [ "Oak CrystalPath" ]
+    },
+    {
+      "Id": 13,
+      "Keywords": [ "Olive CrystalPath" ]
+    },
+	{
+      "Id": 14,
+      "Keywords": [ "Ruby CrystalPath" ]
+    },
+    {
+      "Id": 15,
+      "Keywords": [ "Rust CrystalPath" ]
+    },
+	{
+      "Id": 16,
+      "Keywords": [ "Saffron CrystalPath" ]
+    },
+    {
+      "Id": 17,
+      "Keywords": [ "Sapphire CrystalPath" ]
+    },
+	{
+      "Id": 18,
+      "Keywords": [ "Spinel CrystalPath" ]
+    },
+    {
+      "Id": 19,
+      "Keywords": [ "Steel CrystalPath" ]
+    },
+	{
+      "Id": 20,
+      "Keywords": [ "Topaz CrystalPath" ]
+    },
+    {
+      "Id": 21,
+      "Keywords": [ "Umber CrystalPath" ]
+    },
+	{
+      "Id": 22,
+      "Keywords": [ "Walnut CrystalPath" ]
+    },
+    {
+      "Id": 23,
+      "Keywords": [ "Wine CrystalPath" ]
+    },
+  ],
+}

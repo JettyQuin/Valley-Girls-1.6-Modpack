@@ -1,0 +1,10 @@
+{
+    "ItemName": "Apricot Sapling",
+    "Type": "FruitTree",
+    "TextureWidth": 432,
+    "TextureHeight": 80,
+    "Keywords": [
+        "void"
+    ],
+    "Variations": 16
+}

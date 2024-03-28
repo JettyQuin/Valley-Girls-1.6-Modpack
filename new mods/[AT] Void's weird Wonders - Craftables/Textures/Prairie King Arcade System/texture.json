@@ -1,0 +1,13 @@
+{
+    "ItemName": "Prairie King Arcade System",
+    "Type": "Craftable",
+    "TextureWidth": 16,
+    "TextureHeight": 32,
+    "ManualVariations": [
+      {
+        "Id": 0,
+        "Name": "Who brought a gun to the knife fight?",
+        "Keywords": ["Void"]
+      }
+  ]
+}

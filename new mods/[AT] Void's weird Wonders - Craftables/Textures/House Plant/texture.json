@@ -1,0 +1,48 @@
+{
+    "ItemName": "House Plant",
+    "Type": "Craftable",
+    "TextureWidth": 16,
+    "TextureHeight": 32,
+    "ManualVariations": [
+      {
+        "Id": 0,
+        "Name": "...",
+        "Keywords": ["Void"]
+      },
+	  {
+        "Id": 1,
+        "Name": "...",
+        "Keywords": ["Void"]
+      },
+	  {
+        "Id": 2,
+        "Name": "...",
+        "Keywords": ["Void"]
+      },
+	  {
+        "Id": 3,
+        "Name": "...",
+        "Keywords": ["Void"]
+      },
+	  {
+        "Id": 4,
+        "Name": "...",
+        "Keywords": ["Void"]
+      },
+	  {
+        "Id": 5,
+        "Name": "...",
+        "Keywords": ["Void"]
+      },
+	  {
+        "Id": 6,
+        "Name": "...",
+        "Keywords": ["Void"]
+      },
+	  {
+        "Id": 7,
+        "Name": "...",
+        "Keywords": ["Void"]
+      },
+  ]
+}

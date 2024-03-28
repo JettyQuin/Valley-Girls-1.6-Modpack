@@ -1,0 +1,105 @@
+{
+  "ItemName": "Straw Brick Floor",
+  "Type": "Flooring",
+  "Keywords": [ "Shardust", "BrickFloor" ],
+  "TextureWidth": 64,
+  "TextureHeight": 64,
+  "ManualVariations": [
+     {
+      "Id": 0,
+      "Keywords": [ "Amethyst BrickFloor" ]
+    },
+    {
+      "Id": 1,
+      "Keywords": [ "Aquamarine BrickFloor" ]
+    },
+	{
+      "Id": 2,
+      "Keywords": [ "Ash BrickFloor" ]
+    },
+    {
+      "Id": 3,
+      "Keywords": [ "Blackberry BrickFloor" ]
+    },
+	{
+      "Id": 4,
+      "Keywords": [ "Coal BrickFloor" ]
+    },
+    {
+      "Id": 5,
+      "Keywords": [ "Cocoa BrickFloor" ]
+    },
+	{
+      "Id": 6,
+      "Keywords": [ "Cream BrickFloor" ]
+    },
+    {
+      "Id": 7,
+      "Keywords": [ "Diamond BrickFloor" ]
+    },
+	{
+      "Id": 8,
+      "Keywords": [ "Emerald BrickFloor" ]
+    },
+    {
+      "Id": 9,
+      "Keywords": [ "Honey BrickFloor" ]
+    },
+	{
+      "Id": 10,
+      "Keywords": [ "Mahogany BrickFloor" ]
+    },
+    {
+      "Id": 11,
+      "Keywords": [ "Mocha BrickFloor" ]
+    },
+	{
+      "Id": 12,
+      "Keywords": [ "Oak BrickFloor" ]
+    },
+    {
+      "Id": 13,
+      "Keywords": [ "Olive BrickFloor" ]
+    },
+	{
+      "Id": 14,
+      "Keywords": [ "Ruby BrickFloor" ]
+    },
+    {
+      "Id": 15,
+      "Keywords": [ "Rust BrickFloor" ]
+    },
+	{
+      "Id": 16,
+      "Keywords": [ "Saffron BrickFloor" ]
+    },
+    {
+      "Id": 17,
+      "Keywords": [ "Sapphire BrickFloor" ]
+    },
+	{
+      "Id": 18,
+      "Keywords": [ "Spinel BrickFloor" ]
+    },
+    {
+      "Id": 19,
+      "Keywords": [ "Steel BrickFloor" ]
+    },
+	{
+      "Id": 20,
+      "Keywords": [ "Topaz BrickFloor" ]
+    },
+    {
+      "Id": 21,
+      "Keywords": [ "Umber BrickFloor" ]
+    },
+	{
+      "Id": 22,
+      "Keywords": [ "Walnut BrickFloor" ]
+    },
+    {
+      "Id": 23,
+      "Keywords": [ "Wine BrickFloor" ]
+    },
+  ],
+}

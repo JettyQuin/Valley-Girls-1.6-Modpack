@@ -1,0 +1,47 @@
+   
+{
+  "ItemName": "Stepping Stone Path",
+  "Type": "Flooring",
+  "Seasons": [ "Summer" ],
+  "TextureWidth": 64,
+  "TextureHeight": 64,
+  "Variations": 6,
+  "ManualVariations": [
+ {
+      "Id": 0,
+      "ChanceWeight": 0.1,
+    "Name": "Normal Stepping Stone",
+    "Keywords": [ "Normal Stepping Stone" ]
+    },
+  {
+      "Id": 1,
+      "ChanceWeight": 0.1,
+    "Name": "Vanilla Color Stepping Stone",
+    "Keywords": [ "Vanilla Color Stepping Stone" ]
+    },
+  {
+      "Id": 2,
+      "ChanceWeight": 0.1,
+    "Name": "Vibrant Pastoral Stepping Stone",
+    "Keywords": [ "Vibrant Pastoral Stepping Stone" ]
+    },
+    {
+      "Id": 3,
+      "ChanceWeight": 0.1,
+    "Name": "Normal Stepping Stone 2",
+    "Keywords": [ "Normal Stepping Stone 2" ]
+    },
+  {
+      "Id": 4,
+      "ChanceWeight": 0.1,
+    "Name": "Vanilla Color Stepping Stone 2",
+    "Keywords": [ "Vanilla Color Stepping Stone 2" ]
+    },
+  {
+      "Id": 5,
+      "ChanceWeight": 0.1,
+    "Name": "Vibrant Pastoral Stepping Stone 2",
+    "Keywords": [ "Vibrant Pastoral Stepping Stone 2" ]
+    },
+  ]
+}

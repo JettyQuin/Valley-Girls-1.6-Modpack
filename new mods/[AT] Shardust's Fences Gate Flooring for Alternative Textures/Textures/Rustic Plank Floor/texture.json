@@ -1,0 +1,105 @@
+{
+  "ItemName": "Rustic Plank Floor",
+  "Type": "Flooring",
+  "Keywords": [ "Shardust", "RusticPlankFloor" ],
+  "TextureWidth": 64,
+  "TextureHeight": 64,
+  "ManualVariations": [
+     {
+      "Id": 0,
+      "Keywords": [ "Amethyst RusticPlankFloor" ]
+    },
+    {
+      "Id": 1,
+      "Keywords": [ "Aquamarine RusticPlankFloor" ]
+    },
+	{
+      "Id": 2,
+      "Keywords": [ "Ash RusticPlankFloor" ]
+    },
+    {
+      "Id": 3,
+      "Keywords": [ "Blackberry RusticPlankFloor" ]
+    },
+	{
+      "Id": 4,
+      "Keywords": [ "Coal RusticPlankFloor" ]
+    },
+    {
+      "Id": 5,
+      "Keywords": [ "Cocoa RusticPlankFloor" ]
+    },
+	{
+      "Id": 6,
+      "Keywords": [ "Cream RusticPlankFloor" ]
+    },
+    {
+      "Id": 7,
+      "Keywords": [ "Diamond RusticPlankFloor" ]
+    },
+	{
+      "Id": 8,
+      "Keywords": [ "Emerald RusticPlankFloor" ]
+    },
+    {
+      "Id": 9,
+      "Keywords": [ "Honey RusticPlankFloor" ]
+    },
+	{
+      "Id": 10,
+      "Keywords": [ "Mahogany RusticPlankFloor" ]
+    },
+    {
+      "Id": 11,
+      "Keywords": [ "Mocha RusticPlankFloor" ]
+    },
+	{
+      "Id": 12,
+      "Keywords": [ "Oak RusticPlankFloor" ]
+    },
+    {
+      "Id": 13,
+      "Keywords": [ "Olive RusticPlankFloor" ]
+    },
+	{
+      "Id": 14,
+      "Keywords": [ "Ruby RusticPlankFloor" ]
+    },
+    {
+      "Id": 15,
+      "Keywords": [ "Rust RusticPlankFloor" ]
+    },
+	{
+      "Id": 16,
+      "Keywords": [ "Saffron RusticPlankFloor" ]
+    },
+    {
+      "Id": 17,
+      "Keywords": [ "Sapphire RusticPlankFloor" ]
+    },
+	{
+      "Id": 18,
+      "Keywords": [ "Spinel RusticPlankFloor" ]
+    },
+    {
+      "Id": 19,
+      "Keywords": [ "Steel RusticPlankFloor" ]
+    },
+	{
+      "Id": 20,
+      "Keywords": [ "Topaz RusticPlankFloor" ]
+    },
+    {
+      "Id": 21,
+      "Keywords": [ "Umber RusticPlankFloor" ]
+    },
+	{
+      "Id": 22,
+      "Keywords": [ "Walnut RusticPlankFloor" ]
+    },
+    {
+      "Id": 23,
+      "Keywords": [ "Wine RusticPlankFloor" ]
+    },
+  ],
+}

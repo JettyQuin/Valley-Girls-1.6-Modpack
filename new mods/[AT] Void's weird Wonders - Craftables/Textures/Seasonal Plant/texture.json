@@ -1,0 +1,29 @@
+{
+    "ItemName": "Seasonal Plant",
+    "Type": "Craftable",
+    "TextureWidth": 16,
+    "TextureHeight": 32,
+    "ManualVariations": [
+      {
+        "Id": 0,
+        "Name": "Beautiful!",
+        "Keywords": ["Void"]
+      },
+	  {
+        "Id": 1,
+        "Name": "Beautiful!",
+        "Keywords": ["Void"]
+      },
+	  {
+        "Id": 2,
+        "Name": "Beautiful!",
+        "Keywords": ["Void"]
+      },
+	  {
+        "Id": 3,
+        "Name": "Beautiful!",
+        "Keywords": ["Void"]
+      },
+	  
+  ]
+}

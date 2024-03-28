@@ -1,0 +1,17 @@
+{
+    "ItemName": "Wood Chair",
+    "Type": "Craftable",
+    "Keywords": ["Idaida", "Gothic"],
+    "TextureWidth": 16,
+    "TextureHeight": 32,
+    "ManualVariations": [
+        {
+          "Id": 0,
+          "Name": "Gothic Wood Chair"
+        },
+        {
+          "Id": 1,
+          "Name": "Gothic Wood Chair"
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "ItemName": "Palm_2",
+    "Type": "Tree",
+    "TextureWidth": 48,
+    "TextureHeight": 160,
+    "Keywords": [
+        "void"
+    ],
+    "Variations": 16
+}

@@ -1,0 +1,31 @@
+{
+    "ItemName": "Seasonal Decor",
+    "Type": "Craftable",
+    "TextureWidth": 16,
+    "TextureHeight": 32,
+    "Keywords": [
+        "Elegant"
+    ],
+    "Manual Variations": [
+    {
+        "Id": 0,
+        "Name": "Elegant Spring",
+        "Seasons": ["Spring"]
+    },
+    {
+        "Id": 1,
+        "Name": "Elegant Summer",
+        "Seasons": ["Summer"]
+    },
+    {
+        "Id": 2,
+        "Name": "Elegant Fall",
+        "Seasons": ["Fall"]
+    },
+    {
+        "Id": 3,
+        "Name": "Elegant Winter",
+        "Seasons": ["Winter"]
+    },
+    ]
+}

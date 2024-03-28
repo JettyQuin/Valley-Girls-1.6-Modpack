@@ -1,0 +1,33 @@
+{
+    "ItemName": "Crate",
+    "Type": "Craftable",
+    "Keywords": ["Idaida", "Gothic"],
+    "TextureWidth": 16,
+    "TextureHeight": 32,
+    "ManualVariations": [
+        {
+          "Id": 0,
+          "Name": "Gothic Crate - Brown Mines"
+        },
+        {
+          "Id": 1,
+          "Name": "Gothic Crate - Frozen Mines"
+        },
+        {
+          "Id": 2,
+          "Name": "Gothic Crate - Lava Mines"
+        },
+        {
+          "Id": 3,
+          "Name": "Gothic Crate - Skull Cavern"
+        },
+        {
+          "Id": 4,
+          "Name": "Gothic Crate - Ginger Island"
+        },
+        {
+          "Id": 5,
+          "Name": "Gothic Crate - Dangerous Mines"
+        }
+    ]
+}

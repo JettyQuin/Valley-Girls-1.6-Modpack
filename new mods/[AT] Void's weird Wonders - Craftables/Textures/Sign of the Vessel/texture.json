@@ -1,0 +1,13 @@
+{
+    "ItemName": "Sign of the Vessel",
+    "Type": "Craftable",
+    "TextureWidth": 16,
+    "TextureHeight": 32,
+    "ManualVariations": [
+      {
+        "Id": 0,
+        "Name": "...",
+        "Keywords": ["Void"]
+      }
+  ]
+}

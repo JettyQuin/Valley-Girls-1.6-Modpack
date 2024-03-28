@@ -1,0 +1,11 @@
+{
+  "Name": "[AT] Marble Fence",
+  "Author": "KAYA",
+  "Version": "1.0.0",
+  "Description": "Marble fence random replacer.",
+  "UniqueID": "KAYA.AT.MarbleFence",
+  "ContentPackFor": {
+    "UniqueID": "PeacefulEnd.AlternativeTextures",
+    "MinimumVersion": "2.0.0"
+  }
+}

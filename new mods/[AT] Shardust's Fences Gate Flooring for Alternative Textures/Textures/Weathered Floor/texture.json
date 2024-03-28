@@ -1,0 +1,105 @@
+{
+  "ItemName": "Weathered Floor",
+  "Type": "Flooring",
+  "Keywords": [ "Shardust", "WeatheredFloor" ],
+  "TextureWidth": 64,
+  "TextureHeight": 64,
+  "ManualVariations": [
+     {
+      "Id": 0,
+      "Keywords": [ "Amethyst WeatheredFloor" ]
+    },
+    {
+      "Id": 1,
+      "Keywords": [ "Aquamarine WeatheredFloor" ]
+    },
+	{
+      "Id": 2,
+      "Keywords": [ "Ash WeatheredFloor" ]
+    },
+    {
+      "Id": 3,
+      "Keywords": [ "Blackberry WeatheredFloor" ]
+    },
+	{
+      "Id": 4,
+      "Keywords": [ "Coal WeatheredFloor" ]
+    },
+    {
+      "Id": 5,
+      "Keywords": [ "Cocoa WeatheredFloor" ]
+    },
+	{
+      "Id": 6,
+      "Keywords": [ "Cream WeatheredFloor" ]
+    },
+    {
+      "Id": 7,
+      "Keywords": [ "Diamond WeatheredFloor" ]
+    },
+	{
+      "Id": 8,
+      "Keywords": [ "Emerald WeatheredFloor" ]
+    },
+    {
+      "Id": 9,
+      "Keywords": [ "Honey WeatheredFloor" ]
+    },
+	{
+      "Id": 10,
+      "Keywords": [ "Mahogany WeatheredFloor" ]
+    },
+    {
+      "Id": 11,
+      "Keywords": [ "Mocha WeatheredFloor" ]
+    },
+	{
+      "Id": 12,
+      "Keywords": [ "Oak WeatheredFloor" ]
+    },
+    {
+      "Id": 13,
+      "Keywords": [ "Olive WeatheredFloor" ]
+    },
+	{
+      "Id": 14,
+      "Keywords": [ "Ruby WeatheredFloor" ]
+    },
+    {
+      "Id": 15,
+      "Keywords": [ "Rust WeatheredFloor" ]
+    },
+	{
+      "Id": 16,
+      "Keywords": [ "Saffron WeatheredFloor" ]
+    },
+    {
+      "Id": 17,
+      "Keywords": [ "Sapphire WeatheredFloor" ]
+    },
+	{
+      "Id": 18,
+      "Keywords": [ "Spinel WeatheredFloor" ]
+    },
+    {
+      "Id": 19,
+      "Keywords": [ "Steel WeatheredFloor" ]
+    },
+	{
+      "Id": 20,
+      "Keywords": [ "Topaz WeatheredFloor" ]
+    },
+    {
+      "Id": 21,
+      "Keywords": [ "Umber WeatheredFloor" ]
+    },
+	{
+      "Id": 22,
+      "Keywords": [ "Walnut WeatheredFloor" ]
+    },
+    {
+      "Id": 23,
+      "Keywords": [ "Wine WeatheredFloor" ]
+    },
+  ],
+}

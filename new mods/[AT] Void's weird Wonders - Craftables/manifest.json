@@ -1,0 +1,12 @@
+{
+    "Name": "[AT] Void's weird Craftables",
+    "Author": "VoidWitchCult",
+    "Version": "1.0.0",
+    "MinimumApiVersion": "1.1.1",
+    "Description": "Weird craftables one may or may not enjoy.",
+    "UpdateKeys":["Nexus:14912"],
+    "UniqueID": "Voids.weird.Craftables",
+	"ContentPackFor": {
+        "UniqueID": "PeacefulEnd.AlternativeTextures",
+    }
+}

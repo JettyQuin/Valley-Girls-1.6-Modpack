@@ -1,0 +1,13 @@
+﻿{
+  "Name": "[AT] Missy's Walls and Floors",
+  "Author": "MissyDiabolical, SimplyMary",
+  "Version": "4.5.3",
+  "Description": "Alternative Textures pack for walls and floors",
+  "UniqueID": "SimplyMary.WallsandFloors",
+  "UpdateKeys": [],
+  "Dependencies": [],
+  "ContentPackFor": {
+    "UniqueID": "PeacefulEnd.AlternativeTextures",
+    "MinimumVersion": "5.0.1"
+  }
+}

@@ -1,0 +1,41 @@
+{
+    "ItemName": "Rarecrow",
+    "Type": "Craftable",
+    "Keywords": ["Idaida", "Gothic"],
+    "TextureWidth": 16,
+    "TextureHeight": 32,
+    "ManualVariations": [
+        {
+          "Id": 0,
+          "Name": "Gothic Rarecrow"
+        },
+        {
+          "Id": 1,
+          "Name": "Gothic Rarecrow"
+        },
+        {
+          "Id": 2,
+          "Name": "Gothic Rarecrow"
+        },
+        {
+          "Id": 3,
+          "Name": "Gothic Rarecrow"
+        },
+        {
+          "Id": 4,
+          "Name": "Gothic Rarecrow"
+        },
+        {
+          "Id": 5,
+          "Name": "Gothic Rarecrow"
+        },
+        {
+          "Id": 6,
+          "Name": "Gothic Rarecrow"
+        },
+        {
+          "Id": 7,
+          "Name": "Gothic Rarecrow"
+        }
+    ]
+}

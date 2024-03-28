@@ -1,0 +1,29 @@
+   
+{
+  "ItemName": "Brick Floor",
+  "Type": "Flooring",
+  "Seasons": [ "Fall" ],
+  "TextureWidth": 64,
+  "TextureHeight": 64,
+  "Variations": 3,
+  "ManualVariations": [
+  {
+      "Id": 0,
+      "ChanceWeight": 0.1,
+    "Name": "Normal Brick Floor",
+    "Keywords": [ "Normal Brick Floor" ]
+    },
+  {
+      "Id": 1,
+      "ChanceWeight": 0.1,
+    "Name": "Vanilla Color Brick Floor",
+    "Keywords": [ "Vanilla Color Brick Floor" ]
+    },
+  {
+      "Id": 2,
+      "ChanceWeight": 0.1,
+    "Name": "Vibrant Pastoral Brick Floor",
+    "Keywords": [ "Vibrant Pastoral Brick Floor" ]
+    },
+  ]
+}

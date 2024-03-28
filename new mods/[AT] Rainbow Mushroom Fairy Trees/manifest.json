@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Rainbow Fairy Mushroom Trees",
+  "Author": "jmherbert513",
+  "Version": "1.0",
+  "Description": "alterntive texture pack of lumiepop's fairy mushroom trees",
+  "UniqueID": "jmherbert513.FairyMushroomTreeAlternativeTexturesPack",
+  "UpdateKeys": [],
+  "Dependencies": [],
+  "ContentPackFor": {
+    "UniqueID": "PeacefulEnd.AlternativeTextures",
+    "MinimumVersion": "4.5.3"
+  }
+}

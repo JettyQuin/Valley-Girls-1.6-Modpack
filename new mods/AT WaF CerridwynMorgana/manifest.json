@@ -1,0 +1,13 @@
+﻿{
+  "Name": "[AT] Cerri's walls and floors",
+  "Author": "A5Edit",
+  "Version": "1.2",
+  "Description": "Alternative Textures content pack for walls and floors",
+  "UniqueID": "A5Edit.AT.Cerriswallsandfloors",
+  "UpdateKeys": [ "Nexus:9880" ],
+  "Dependencies": [],
+  "ContentPackFor": {
+    "UniqueID": "PeacefulEnd.AlternativeTextures",
+    "MinimumVersion": "5.0.0-beta.18"
+  }
+}

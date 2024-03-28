@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Shardust's Fences Gate Flooring for Alternative Textures",
+  "Author": "Shardust",
+  "Version": "1.5.0",
+  "Description": "Retextured and recolored Fences-Gate-Flooring for the Alternative Textures framework.",
+  "UniqueID": "Shardust.FencesGateFlooring.AlternativeTextures",
+  "UpdateKeys": [ "Nexus:11804" ],
+  "Dependencies": [],
+  "ContentPackFor": {
+    "UniqueID": "PeacefulEnd.AlternativeTextures",
+    "MinimumVersion": "4.5.3"
+  }
+}

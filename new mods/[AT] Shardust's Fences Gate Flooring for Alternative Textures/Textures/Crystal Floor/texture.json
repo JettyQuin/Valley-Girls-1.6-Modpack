@@ -1,0 +1,105 @@
+{
+  "ItemName": "Crystal Floor",
+  "Type": "Flooring",
+  "Keywords": [ "Shardust", "CrystalFloor" ],
+  "TextureWidth": 64,
+  "TextureHeight": 64,
+  "ManualVariations": [
+     {
+      "Id": 0,
+      "Keywords": [ "Amethyst CrystalFloor" ]
+    },
+    {
+      "Id": 1,
+      "Keywords": [ "Aquamarine CrystalFloor" ]
+    },
+	{
+      "Id": 2,
+      "Keywords": [ "Ash CrystalFloor" ]
+    },
+    {
+      "Id": 3,
+      "Keywords": [ "Blackberry CrystalFloor" ]
+    },
+	{
+      "Id": 4,
+      "Keywords": [ "Coal CrystalFloor" ]
+    },
+    {
+      "Id": 5,
+      "Keywords": [ "Cocoa CrystalFloor" ]
+    },
+	{
+      "Id": 6,
+      "Keywords": [ "Cream CrystalFloor" ]
+    },
+    {
+      "Id": 7,
+      "Keywords": [ "Diamond CrystalFloor" ]
+    },
+	{
+      "Id": 8,
+      "Keywords": [ "Emerald CrystalFloor" ]
+    },
+    {
+      "Id": 9,
+      "Keywords": [ "Honey CrystalFloor" ]
+    },
+	{
+      "Id": 10,
+      "Keywords": [ "Mahogany CrystalFloor" ]
+    },
+    {
+      "Id": 11,
+      "Keywords": [ "Mocha CrystalFloor" ]
+    },
+	{
+      "Id": 12,
+      "Keywords": [ "Oak CrystalFloor" ]
+    },
+    {
+      "Id": 13,
+      "Keywords": [ "Olive CrystalFloor" ]
+    },
+	{
+      "Id": 14,
+      "Keywords": [ "Ruby CrystalFloor" ]
+    },
+    {
+      "Id": 15,
+      "Keywords": [ "Rust CrystalFloor" ]
+    },
+	{
+      "Id": 16,
+      "Keywords": [ "Saffron CrystalFloor" ]
+    },
+    {
+      "Id": 17,
+      "Keywords": [ "Sapphire CrystalFloor" ]
+    },
+	{
+      "Id": 18,
+      "Keywords": [ "Spinel CrystalFloor" ]
+    },
+    {
+      "Id": 19,
+      "Keywords": [ "Steel CrystalFloor" ]
+    },
+	{
+      "Id": 20,
+      "Keywords": [ "Topaz CrystalFloor" ]
+    },
+    {
+      "Id": 21,
+      "Keywords": [ "Umber CrystalFloor" ]
+    },
+	{
+      "Id": 22,
+      "Keywords": [ "Walnut CrystalFloor" ]
+    },
+    {
+      "Id": 23,
+      "Keywords": [ "Wine CrystalFloor" ]
+    },
+  ],
+}

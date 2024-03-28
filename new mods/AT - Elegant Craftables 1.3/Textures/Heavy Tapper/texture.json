@@ -1,0 +1,10 @@
+{
+    "ItemName": "Heavy Tapper",
+    "Type": "Craftable",
+    "TextureWidth": 16,
+    "TextureHeight": 32,
+    "Keywords": [
+        "Elegant"
+    ],
+    "Variations": 2
+}

@@ -1,0 +1,105 @@
+{
+  "ItemName": "Straw Floor",
+  "Type": "Flooring",
+  "Keywords": [ "Shardust", "StrawFloor" ],
+  "TextureWidth": 64,
+  "TextureHeight": 64,
+  "ManualVariations": [
+     {
+      "Id": 0,
+      "Keywords": [ "Amethyst StrawFloor" ]
+    },
+    {
+      "Id": 1,
+      "Keywords": [ "Aquamarine StrawFloor" ]
+    },
+	{
+      "Id": 2,
+      "Keywords": [ "Ash StrawFloor" ]
+    },
+    {
+      "Id": 3,
+      "Keywords": [ "Blackberry StrawFloor" ]
+    },
+	{
+      "Id": 4,
+      "Keywords": [ "Coal StrawFloor" ]
+    },
+    {
+      "Id": 5,
+      "Keywords": [ "Cocoa StrawFloor" ]
+    },
+	{
+      "Id": 6,
+      "Keywords": [ "Cream StrawFloor" ]
+    },
+    {
+      "Id": 7,
+      "Keywords": [ "Diamond StrawFloor" ]
+    },
+	{
+      "Id": 8,
+      "Keywords": [ "Emerald StrawFloor" ]
+    },
+    {
+      "Id": 9,
+      "Keywords": [ "Honey StrawFloor" ]
+    },
+	{
+      "Id": 10,
+      "Keywords": [ "Mahogany StrawFloor" ]
+    },
+    {
+      "Id": 11,
+      "Keywords": [ "Mocha StrawFloor" ]
+    },
+	{
+      "Id": 12,
+      "Keywords": [ "Oak StrawFloor" ]
+    },
+    {
+      "Id": 13,
+      "Keywords": [ "Olive StrawFloor" ]
+    },
+	{
+      "Id": 14,
+      "Keywords": [ "Ruby StrawFloor" ]
+    },
+    {
+      "Id": 15,
+      "Keywords": [ "Rust StrawFloor" ]
+    },
+	{
+      "Id": 16,
+      "Keywords": [ "Saffron StrawFloor" ]
+    },
+    {
+      "Id": 17,
+      "Keywords": [ "Sapphire StrawFloor" ]
+    },
+	{
+      "Id": 18,
+      "Keywords": [ "Spinel StrawFloor" ]
+    },
+    {
+      "Id": 19,
+      "Keywords": [ "Steel StrawFloor" ]
+    },
+	{
+      "Id": 20,
+      "Keywords": [ "Topaz StrawFloor" ]
+    },
+    {
+      "Id": 21,
+      "Keywords": [ "Umber StrawFloor" ]
+    },
+	{
+      "Id": 22,
+      "Keywords": [ "Walnut StrawFloor" ]
+    },
+    {
+      "Id": 23,
+      "Keywords": [ "Wine StrawFloor" ]
+    },
+  ],
+}

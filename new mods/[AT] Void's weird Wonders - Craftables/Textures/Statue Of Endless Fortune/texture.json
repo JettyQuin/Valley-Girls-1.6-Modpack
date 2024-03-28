@@ -1,0 +1,13 @@
+{
+    "ItemName": "Statue of Endless Fortune",
+    "Type": "Craftable",
+    "TextureWidth": 16,
+    "TextureHeight": 32,
+    "ManualVariations": [
+      {
+        "Id": 0,
+        "Name": "MEOW",
+        "Keywords": ["Void"]
+      },
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "ItemName": "Hardwood Fence",
+  "Type": "Craftable",
+  "Seasons": ["Winter"],
+  "TextureWidth": 48,
+  "TextureHeight": 128,
+  "Variations": 6
+}

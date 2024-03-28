@@ -1,0 +1,13 @@
+{
+    "Name": "IdaIda's Witchy Scarecrows [AT]",
+    "Author": "IdaIda & kungfauxhustle",
+    "Version": "1.0.0",
+    "Description": "IdaIda's Witchy Scarecrows [CP] converted to Alternative Textures.",
+    "UniqueID": "IdaIda.IdaIdasWitchyScarecrowsAT",
+    "UpdateKeys": [],
+    "Dependencies": [],
+    "ContentPackFor": {
+      "UniqueID": "PeacefulEnd.AlternativeTextures",
+      "MinimumVersion": "6.10.4"
+    }
+  }

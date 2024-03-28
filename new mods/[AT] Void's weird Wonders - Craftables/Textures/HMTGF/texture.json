@@ -1,0 +1,13 @@
+{
+    "ItemName": "??HMTGF??",
+    "Type": "Craftable",
+    "TextureWidth": 16,
+    "TextureHeight": 32,
+    "ManualVariations": [
+      {
+        "Id": 0,
+        "Name": "Uh...are those...intest-",
+        "Keywords": ["Void"]
+      }
+  ]
+}

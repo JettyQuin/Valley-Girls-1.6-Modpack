@@ -1,0 +1,105 @@
+{
+  "ItemName": "Gate",
+  "Type": "Craftable",
+  "Keywords": [ "Shardust", "Gate" ],
+  "TextureWidth": 48,
+  "TextureHeight": 224,
+  "ManualVariations": [
+   {
+      "Id": 0,
+      "Keywords": [ "Amethyst" ]
+    },
+    {
+      "Id": 1,
+      "Keywords": [ "Aquamarine" ]
+    },
+	{
+      "Id": 2,
+      "Keywords": [ "Ash" ]
+    },
+    {
+      "Id": 3,
+      "Keywords": [ "Blackberry" ]
+    },
+	{
+      "Id": 4,
+      "Keywords": [ "Coal" ]
+    },
+    {
+      "Id": 5,
+      "Keywords": [ "Cocoa" ]
+    },
+	{
+      "Id": 6,
+      "Keywords": [ "Cream" ]
+    },
+    {
+      "Id": 7,
+      "Keywords": [ "Diamond" ]
+    },
+	{
+      "Id": 8,
+      "Keywords": [ "Emerald" ]
+    },
+    {
+      "Id": 9,
+      "Keywords": [ "Honey" ]
+    },
+	{
+      "Id": 10,
+      "Keywords": [ "Mahogany" ]
+    },
+    {
+      "Id": 11,
+      "Keywords": [ "Mocha" ]
+    },
+	{
+      "Id": 12,
+      "Keywords": [ "Oak" ]
+    },
+    {
+      "Id": 13,
+      "Keywords": [ "Olive" ]
+    },
+	{
+      "Id": 14,
+      "Keywords": [ "Ruby" ]
+    },
+    {
+      "Id": 15,
+      "Keywords": [ "Rust" ]
+    },
+	{
+      "Id": 16,
+      "Keywords": [ "Saffron" ]
+    },
+    {
+      "Id": 17,
+      "Keywords": [ "Sapphire" ]
+    },
+	{
+      "Id": 18,
+      "Keywords": [ "Spinel" ]
+    },
+    {
+      "Id": 19,
+      "Keywords": [ "Steel" ]
+    },
+	{
+      "Id": 20,
+      "Keywords": [ "Topaz" ]
+    },
+    {
+      "Id": 21,
+      "Keywords": [ "Umber" ]
+    },
+	{
+      "Id": 22,
+      "Keywords": [ "Walnut" ]
+    },
+    {
+      "Id": 23,
+      "Keywords": [ "Wine" ]
+    },
+  ]
+}

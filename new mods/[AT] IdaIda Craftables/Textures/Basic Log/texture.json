@@ -1,0 +1,13 @@
+{
+    "ItemName": "Basic Log",
+    "Type": "Craftable",
+    "Keywords": ["Idaida", "Gothic"],
+    "TextureWidth": 16,
+    "TextureHeight": 32,
+    "ManualVariations": [
+      {
+        "Id": 0,
+        "Name": "Elegant Basic Log"
+      }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "ItemName": "Statue of True Perfection",
+  "Type": "Craftable",
+  "TextureWidth": 16,
+  "TextureHeight": 32,
+  "ManualVariations": [
+    {
+      "Id": 0,
+      "Name": "MEOW³",
+      "Keywords": ["Void"]
+    },
+  ]
+}

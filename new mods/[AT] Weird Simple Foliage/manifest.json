@@ -1,0 +1,12 @@
+{
+    "Name": "[AT] Void's weird Wonders- Simple Foliage retexture",
+    "Author": "VoidWitchCult",
+    "Version": "1.1.1",
+    "MinimumApiVersion": "1.1.1",
+    "Description": "Weird recolors for the trees of itsanettes Simple Foliage.",
+    "UpdateKeys":["Nexus:16925"],
+    "UniqueID": "VWW.AT.SimpleFoliage",
+	"ContentPackFor": {
+        "UniqueID": "PeacefulEnd.AlternativeTextures",
+    }
+}

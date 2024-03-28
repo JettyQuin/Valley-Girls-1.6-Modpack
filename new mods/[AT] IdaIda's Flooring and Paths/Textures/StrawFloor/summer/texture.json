@@ -1,0 +1,29 @@
+   
+{
+  "ItemName": "Straw Floor",
+  "Type": "Flooring",
+  "Seasons": [ "Summer" ],
+  "TextureWidth": 64,
+  "TextureHeight": 64,
+  "Variations": 3,
+  "ManualVariations": [
+  {
+      "Id": 0,
+      "ChanceWeight": 0.1,
+    "Name": "Normal Straw Floor",
+    "Keywords": [ "Normal Straw Floor" ]
+    },
+  {
+      "Id": 1,
+      "ChanceWeight": 0.1,
+    "Name": "Vanilla Color Straw Floor",
+    "Keywords": [ "Vanilla Color Straw Floor" ]
+    },
+  {
+      "Id": 2,
+      "ChanceWeight": 0.1,
+    "Name": "Vibrant Pastoral Straw Floor",
+    "Keywords": [ "Vibrant Pastoral Straw Floor" ]
+    },
+  ]
+}

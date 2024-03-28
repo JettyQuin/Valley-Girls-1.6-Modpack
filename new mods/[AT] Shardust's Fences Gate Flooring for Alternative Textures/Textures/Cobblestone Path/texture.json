@@ -1,0 +1,105 @@
+{
+  "ItemName": "Cobblestone Path",
+  "Type": "Flooring",
+  "Keywords": [ "Shardust", "CobblestonePath" ],
+  "TextureWidth": 64,
+  "TextureHeight": 64,
+  "ManualVariations": [
+     {
+      "Id": 0,
+      "Keywords": [ "Amethyst CobblestonePath" ]
+    },
+    {
+      "Id": 1,
+      "Keywords": [ "Aquamarine CobblestonePath" ]
+    },
+	{
+      "Id": 2,
+      "Keywords": [ "Ash CobblestonePath" ]
+    },
+    {
+      "Id": 3,
+      "Keywords": [ "Blackberry CobblestonePath" ]
+    },
+	{
+      "Id": 4,
+      "Keywords": [ "Coal CobblestonePath" ]
+    },
+    {
+      "Id": 5,
+      "Keywords": [ "Cocoa CobblestonePath" ]
+    },
+	{
+      "Id": 6,
+      "Keywords": [ "Cream CobblestonePath" ]
+    },
+    {
+      "Id": 7,
+      "Keywords": [ "Diamond CobblestonePath" ]
+    },
+	{
+      "Id": 8,
+      "Keywords": [ "Emerald CobblestonePath" ]
+    },
+    {
+      "Id": 9,
+      "Keywords": [ "Honey CobblestonePath" ]
+    },
+	{
+      "Id": 10,
+      "Keywords": [ "Mahogany CobblestonePath" ]
+    },
+    {
+      "Id": 11,
+      "Keywords": [ "Mocha CobblestonePath" ]
+    },
+	{
+      "Id": 12,
+      "Keywords": [ "Oak CobblestonePath" ]
+    },
+    {
+      "Id": 13,
+      "Keywords": [ "Olive CobblestonePath" ]
+    },
+	{
+      "Id": 14,
+      "Keywords": [ "Ruby CobblestonePath" ]
+    },
+    {
+      "Id": 15,
+      "Keywords": [ "Rust CobblestonePath" ]
+    },
+	{
+      "Id": 16,
+      "Keywords": [ "Saffron CobblestonePath" ]
+    },
+    {
+      "Id": 17,
+      "Keywords": [ "Sapphire CobblestonePath" ]
+    },
+	{
+      "Id": 18,
+      "Keywords": [ "Spinel CobblestonePath" ]
+    },
+    {
+      "Id": 19,
+      "Keywords": [ "Steel CobblestonePath" ]
+    },
+	{
+      "Id": 20,
+      "Keywords": [ "Topaz CobblestonePath" ]
+    },
+    {
+      "Id": 21,
+      "Keywords": [ "Umber CobblestonePath" ]
+    },
+	{
+      "Id": 22,
+      "Keywords": [ "Walnut CobblestonePath" ]
+    },
+    {
+      "Id": 23,
+      "Keywords": [ "Wine CobblestonePath" ]
+    },
+  ],
+}

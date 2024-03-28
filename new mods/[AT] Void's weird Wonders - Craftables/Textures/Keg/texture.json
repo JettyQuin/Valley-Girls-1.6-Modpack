@@ -1,0 +1,13 @@
+{
+    "ItemName": "Keg",
+    "Type": "Craftable",
+    "TextureWidth": 16,
+    "TextureHeight": 32,
+    "ManualVariations": [
+      {
+        "Id": 0,
+        "Name": "KeK",
+        "Keywords": ["Void"]
+      }
+  ]
+}

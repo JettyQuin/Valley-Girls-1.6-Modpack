@@ -1,0 +1,34 @@
+{
+    "ItemName": "Seasonal Plant",
+    "Type": "Craftable",
+    "Seasons": ["Fall"],
+    "Keywords": ["Idaida", "Gothic", "Fall"],
+    "TextureWidth": 16,
+    "TextureHeight": 32,
+    "ManualVariations": [
+        {
+          "Id": 0,
+          "Name": "Gothic Seasonal Plant"
+        },
+        {
+          "Id": 1,
+          "Name": "Gothic Seasonal Plant"
+        },
+        {
+          "Id": 2,
+          "Name": "Gothic Seasonal Plant"
+        },
+        {
+          "Id": 3,
+          "Name": "Gothic Seasonal Plant"
+        },
+        {
+          "Id": 4,
+          "Name": "Gothic Seasonal Plant"
+        },
+        {
+          "Id": 5,
+          "Name": "Gothic Seasonal Plant"
+        }
+    ]
+}

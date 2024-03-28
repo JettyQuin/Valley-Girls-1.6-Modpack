@@ -1,0 +1,170 @@
+{
+  "ItemName": "Floor",
+  "Type": "Decoration",
+  "TextureWidth": 32,
+  "TextureHeight": 32,
+  "ManualVariations": [
+	{
+      "Id": 0,
+      "ChanceWeight": 0.1,
+	  "Name": "Cerri birch horizontal planks",
+	  "Keywords": [ "Cerri birch horizontal planks" ]
+    },
+	{
+      "Id": 1,
+      "ChanceWeight": 0.1,
+	  "Name": "Cerri gray tile",
+	  "Keywords": [ "Cerri gray tile" ]
+    },
+	{
+      "Id": 2,
+      "ChanceWeight": 0.1,
+	  "Name": "Cerri gray tile",
+	  "Keywords": [ "Cerri gray tile" ]
+    },
+	{
+      "Id": 3,
+      "ChanceWeight": 0.1,
+      "Name": "Cerri mahogany vertical planks",
+	  "Keywords": [ "Cerri mahogany vertical planks" ]
+    },
+    {
+      "Id": 4,
+      "ChanceWeight": 0.1,
+	  "Name": "Cerri oak horizontal planks",
+	  "Keywords": [ "Cerri oak horizontal planks" ]
+    },
+	{
+      "Id": 5,
+      "ChanceWeight": 0.1,
+      "Name": "Cerri oak parquet",
+	  "Keywords": [ "Cerri oak parquet" ]
+    },
+    {
+      "Id": 6,
+      "ChanceWeight": 0.1,
+	  "Name": "Cerri oak parquet",
+	  "Keywords": [ "Cerri oak parquet" ]
+    },
+	{
+      "Id": 7,
+      "ChanceWeight": 0.1,
+      "Name": "Cerri oak parquet",
+	  "Keywords": [ "Cerri oak parquet" ]
+    },
+    {
+      "Id": 8,
+      "ChanceWeight": 0.1,
+	  "Name": "Cerri oak parquet",
+	  "Keywords": [ "Cerri oak parquet" ]
+    },
+	{
+      "Id": 9,
+      "ChanceWeight": 0.1,
+      "Name": "Cerri oak parquet",
+	  "Keywords": [ "Cerri oak parquet" ]
+    },
+    {
+      "Id": 10,
+      "ChanceWeight": 0.1,
+	  "Name": "Cerri red tile",
+	  "Keywords": [ "Cerri red tile" ]
+    },
+	{
+      "Id": 11,
+      "ChanceWeight": 0.1,
+	  "Name": "Cerri red tile",
+	  "Keywords": [ "Cerri red tile" ]
+    },
+	{
+      "Id": 12,
+      "ChanceWeight": 0.1,
+	  "Name": "Cerri walnut horizontal planks",
+	  "Keywords": [ "Cerri walnut horizontal planks" ]
+    },
+	{
+      "Id": 13,
+      "ChanceWeight": 0.1,
+	  "Name": "Cerri walnut vertical planks",
+	  "Keywords": [ "Cerri walnut vertical planks" ]
+    },
+	{
+      "Id": 14,
+      "ChanceWeight": 0.1,
+	  "Name": "Cerri walnut vertical planks",
+	  "Keywords": [ "Cerri walnut vertical planks" ]
+    },
+	{
+      "Id": 15,
+      "ChanceWeight": 0.1,
+	  "Name": "",
+	  "Keywords": [ "" ]
+    },
+	{
+      "Id": 16,
+      "ChanceWeight": 0.1,
+	  "Name": "Cerri white misc",
+	  "Keywords": [ "Cerri white misc" ]
+    },
+	{
+      "Id": 17,
+      "ChanceWeight": 0.1,
+	  "Name": "Cerri white plain",
+	  "Keywords": [ "Cerri white plain" ]
+    },
+	{
+      "Id": 18,
+      "ChanceWeight": 0.1,
+	  "Name": "Cerri white tile",
+	  "Keywords": [ "Cerri white tile" ]
+    },
+	{
+      "Id": 19,
+      "ChanceWeight": 0.1,
+	  "Name": "Cerri white tile",
+	  "Keywords": [ "Cerri white tile" ]
+    },
+	{
+      "Id": 20,
+      "ChanceWeight": 0.1,
+	  "Name": "Cerri white tile",
+	  "Keywords": [ "Cerri white tile" ]
+    },
+	{
+      "Id": 21,
+      "ChanceWeight": 0.1,
+	  "Name": "Cerri white tile",
+	  "Keywords": [ "Cerri white tile" ]
+    },
+	{
+      "Id": 22,
+      "ChanceWeight": 0.1,
+	  "Name": "Cerri white tile",
+	  "Keywords": [ "Cerri white tile" ]
+    },
+	{
+      "Id": 23,
+      "ChanceWeight": 0.1,
+	  "Name": "Cerri white tile",
+	  "Keywords": [ "Cerri white tile" ]
+    },
+	{
+      "Id": 24,
+      "ChanceWeight": 0.1,
+	  "Name": "Cerri white tile",
+	  "Keywords": [ "Cerri white tile" ]
+    },
+	{
+      "Id": 25,
+      "ChanceWeight": 0.1,
+	  "Name": "Cerri white tile",
+	  "Keywords": [ "Cerri white tile" ]
+    },
+	{
+      "Id": 26,
+      "ChanceWeight": 0.1,
+	  "Name": "Cerri white vertical planks",
+	  "Keywords": [ "Cerri white vertical planks" ]
+    }
+	]
+}

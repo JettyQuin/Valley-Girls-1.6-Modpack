@@ -1,0 +1,11 @@
+{
+  "Name": "[AT] Flowery Iron Fence",
+  "Author": "KAYA",
+  "Version": "1.0.0",
+  "Description": "Flowery  iron fence random replacer.",
+  "UniqueID": "KAYA.AT.FloweryIronFence",
+  "ContentPackFor": {
+    "UniqueID": "PeacefulEnd.AlternativeTextures",
+    "MinimumVersion": "2.0.0"
+  }
+}

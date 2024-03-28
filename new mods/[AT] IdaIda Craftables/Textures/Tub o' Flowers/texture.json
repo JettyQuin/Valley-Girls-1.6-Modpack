@@ -1,0 +1,18 @@
+{
+    "ItemName": "Tub o' Flowers",
+    "Type": "Craftable",
+    "Seasons": ["Spring", "Summer"],
+    "Keywords": ["Idaida", "Gothic"],
+    "TextureWidth": 16,
+    "TextureHeight": 32,
+    "ManualVariations": [
+        {
+          "Id": 0,
+          "Name": "Gothic Tub o' Flowers"
+        },
+        {
+          "Id": 1,
+          "Name": "Gothic Tub o' Flowers"
+        }
+    ]
+}

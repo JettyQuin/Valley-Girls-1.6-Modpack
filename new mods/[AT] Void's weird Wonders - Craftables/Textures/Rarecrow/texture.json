@@ -1,0 +1,48 @@
+{
+    "ItemName": "Rarecrow",
+    "Type": "Craftable",
+    "TextureWidth": 16,
+    "TextureHeight": 32,
+    "ManualVariations": [
+      {
+        "Id": 0,
+        "Name": "Witchy",
+        "Keywords": ["Void"]
+      },
+	  {
+        "Id": 1,
+        "Name": "Brooding crow",
+        "Keywords": ["Void"]
+      },
+	  {
+        "Id": 2,
+        "Name": "Lurking in the dark",
+        "Keywords": ["Void"]
+      },
+	  {
+        "Id": 3,
+        "Name": "Old bride",
+        "Keywords": ["Void"]
+      },
+	  {
+        "Id": 4,
+        "Name": "Weird squirrel",
+        "Keywords": ["Void"]
+      },
+	  {
+        "Id": 5,
+        "Name": "Gargoyle",
+        "Keywords": ["Void"]
+      },
+	  {
+        "Id": 6,
+        "Name": "Weird plant",
+        "Keywords": ["Void"]
+      },
+	  {
+        "Id": 7,
+        "Name": "Got a bone",
+        "Keywords": ["Void"]
+      },
+  ]
+}

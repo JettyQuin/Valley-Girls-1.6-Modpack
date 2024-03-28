@@ -1,0 +1,14 @@
+{
+    "ItemName": "Staircase",
+    "Type": "Craftable",
+    "TextureWidth": 16,
+    "TextureHeight": 32,
+    "ManualVariations": [
+      {
+        "Id": 0,
+        "Name": "What's that?",
+        "Keywords": ["Void"],
+		"ChanceWeight": 0.6,
+      }
+  ]
+}

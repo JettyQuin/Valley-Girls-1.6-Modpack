@@ -1,0 +1,13 @@
+{
+    "ItemName": "Suit of Armor",
+    "Type": "Craftable",
+    "TextureWidth": 16,
+    "TextureHeight": 32,
+    "ManualVariations": [
+      {
+        "Id": 0,
+        "Name": "Hello!",
+        "Keywords": ["Void"]
+      }
+  ]
+}

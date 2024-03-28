@@ -1,0 +1,13 @@
+{
+  "ItemName": "Quality Sprinkler",
+  "Type": "Craftable",
+  "TextureWidth": 16,
+  "TextureHeight": 16,
+  "ManualVariations": [
+    {
+      "Id": 0,
+      "Name":"Bone²",
+      "Keywords": ["Void"]
+    },
+  ]
+}

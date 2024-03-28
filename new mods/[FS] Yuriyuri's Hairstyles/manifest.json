@@ -1,0 +1,13 @@
+﻿{
+  "Name": "[FS] Yuriyuri's Hairstyles",
+  "Author": "snowcmpie, conversion by Iceprincess98",
+  "Version": "1.0.0",
+  "Description": "Fashion Sense Conversion for Yuriyuri's Hairstyles",
+  "UniqueID": "snowcmpie.FS.YuriyuriHairstyles",
+  "UpdateKeys": [],
+  "Dependencies": [],
+  "ContentPackFor": {
+    "UniqueID": "PeacefulEnd.FashionSense",
+    "MinimumVersion": "4.11.3"
+  }
+}

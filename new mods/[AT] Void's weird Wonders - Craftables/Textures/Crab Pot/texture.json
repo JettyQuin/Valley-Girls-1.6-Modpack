@@ -1,0 +1,13 @@
+{
+  "ItemName": "Crab Pot",
+  "Type": "Craftable",
+  "TextureWidth": 16,
+  "TextureHeight": 16,
+  "ManualVariations": [
+    {
+      "Id": 0,
+      "Name":"Willy's woes",
+      "Keywords": ["Void"]
+    },
+    ]
+}

@@ -1,0 +1,29 @@
+   
+{
+  "ItemName": "Gravel Path",
+  "Type": "Flooring",
+  "Seasons": [ "Winter" ],
+  "TextureWidth": 64,
+  "TextureHeight": 64,
+  "Variations": 3,
+  "ManualVariations": [
+  {
+      "Id": 0,
+      "ChanceWeight": 0.1,
+    "Name": "Normal Gravel Path",
+    "Keywords": [ "Normal Gravel Path" ]
+    },
+  {
+      "Id": 1,
+      "ChanceWeight": 0.1,
+    "Name": "Vanilla Color Gravel Path",
+    "Keywords": [ "Vanilla Color Gravel Path" ]
+    },
+  {
+      "Id": 2,
+      "ChanceWeight": 0.1,
+    "Name": "Vibrant Pastoral Gravel Path",
+    "Keywords": [ "Vibrant Pastoral Gravel Path" ]
+    },
+  ]
+}

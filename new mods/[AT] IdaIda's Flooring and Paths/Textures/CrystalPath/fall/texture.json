@@ -1,0 +1,29 @@
+   
+{
+  "ItemName": "Crystal Path",
+  "Type": "Flooring",
+  "Seasons": [ "Fall" ],
+  "TextureWidth": 64,
+  "TextureHeight": 64,
+  "Variations": 3,
+  "ManualVariations": [
+  {
+      "Id": 0,
+      "ChanceWeight": 0.1,
+    "Name": "Normal Crystal Path",
+    "Keywords": [ "Normal Crystal Path" ]
+    },
+  {
+      "Id": 1,
+      "ChanceWeight": 0.1,
+    "Name": "Vanilla Color Crystal Path",
+    "Keywords": [ "Vanilla Color Crystal Path" ]
+    },
+  {
+      "Id": 2,
+      "ChanceWeight": 0.1,
+    "Name": "Vibrant Pastoral Crystal Path",
+    "Keywords": [ "Vibrant Pastoral Crystal Path" ]
+    },
+  ]
+}

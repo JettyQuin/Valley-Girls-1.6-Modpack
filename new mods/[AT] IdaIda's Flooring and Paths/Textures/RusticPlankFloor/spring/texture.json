@@ -1,0 +1,29 @@
+   
+{
+  "ItemName": "Rustic Plank Floor",
+  "Type": "Flooring",
+  "Seasons": [ "Spring" ],
+  "TextureWidth": 64,
+  "TextureHeight": 64,
+  "Variations": 3,
+  "ManualVariations": [
+  {
+      "Id": 0,
+      "ChanceWeight": 0.1,
+    "Name": "Normal Rustic Plank Floor",
+    "Keywords": [ "Normal Wood Floor" ]
+    },
+  {
+      "Id": 1,
+      "ChanceWeight": 0.1,
+    "Name": "Vanilla Color Rustic Plank Floor",
+    "Keywords": [ "Vanilla Color Rustic Plank Floor" ]
+    },
+  {
+      "Id": 2,
+      "ChanceWeight": 0.1,
+    "Name": "Vibrant Pastoral Rustic Plank Floor",
+    "Keywords": [ "Vibrant Pastoral Rustic Plank Floor" ]
+    },
+  ]
+}

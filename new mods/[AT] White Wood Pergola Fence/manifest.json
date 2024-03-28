@@ -1,0 +1,11 @@
+{
+  "Name": "[AT] White Wood Pergola Fence",
+  "Author": "KAYA",
+  "Version": "1.0.0",
+  "Description": "Pergola fence random replacer.",
+  "UniqueID": "KAYA.AT.WhitePergolaFence",
+  "ContentPackFor": {
+    "UniqueID": "PeacefulEnd.AlternativeTextures",
+    "MinimumVersion": "2.0.0"
+  }
+}

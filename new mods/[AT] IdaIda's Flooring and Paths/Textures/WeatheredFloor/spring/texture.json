@@ -1,0 +1,29 @@
+   
+{
+  "ItemName": "Weathered Floor",
+  "Type": "Flooring",
+  "Seasons": [ "Spring" ],
+  "TextureWidth": 64,
+  "TextureHeight": 64,
+  "Variations": 3,
+  "ManualVariations": [
+  {
+      "Id": 0,
+      "ChanceWeight": 0.1,
+    "Name": "Normal Weathered Floor",
+    "Keywords": [ "Normal Weathered Floor" ]
+    },
+  {
+      "Id": 1,
+      "ChanceWeight": 0.1,
+    "Name": "Vanilla Color Weathered Floor",
+    "Keywords": [ "Vanilla Weathered Floor" ]
+    },
+  {
+      "Id": 2,
+      "ChanceWeight": 0.1,
+    "Name": "Vibrant Pastoral Weathered Floor",
+    "Keywords": [ "Vibrant Pastoral Weathered Floor" ]
+    },
+  ]
+}

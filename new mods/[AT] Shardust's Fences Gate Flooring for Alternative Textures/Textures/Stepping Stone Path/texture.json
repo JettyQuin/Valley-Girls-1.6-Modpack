@@ -1,0 +1,105 @@
+{
+  "ItemName": "Stepping Stone Path",
+  "Type": "Flooring",
+  "Keywords": [ "Shardust", "SteppingStonePath" ],
+  "TextureWidth": 64,
+  "TextureHeight": 64,
+  "ManualVariations": [
+     {
+      "Id": 0,
+      "Keywords": [ "Amethyst SteppingStonePath" ]
+    },
+    {
+      "Id": 1,
+      "Keywords": [ "Aquamarine SteppingStonePath" ]
+    },
+	{
+      "Id": 2,
+      "Keywords": [ "Ash SteppingStonePath" ]
+    },
+    {
+      "Id": 3,
+      "Keywords": [ "Blackberry SteppingStonePath" ]
+    },
+	{
+      "Id": 4,
+      "Keywords": [ "Coal SteppingStonePath" ]
+    },
+    {
+      "Id": 5,
+      "Keywords": [ "Cocoa SteppingStonePath" ]
+    },
+	{
+      "Id": 6,
+      "Keywords": [ "Cream SteppingStonePath" ]
+    },
+    {
+      "Id": 7,
+      "Keywords": [ "Diamond SteppingStonePath" ]
+    },
+	{
+      "Id": 8,
+      "Keywords": [ "Emerald SteppingStonePath" ]
+    },
+    {
+      "Id": 9,
+      "Keywords": [ "Honey SteppingStonePath" ]
+    },
+	{
+      "Id": 10,
+      "Keywords": [ "Mahogany SteppingStonePath" ]
+    },
+    {
+      "Id": 11,
+      "Keywords": [ "Mocha SteppingStonePath" ]
+    },
+	{
+      "Id": 12,
+      "Keywords": [ "Oak SteppingStonePath" ]
+    },
+    {
+      "Id": 13,
+      "Keywords": [ "Olive SteppingStonePath" ]
+    },
+	{
+      "Id": 14,
+      "Keywords": [ "Ruby SteppingStonePath" ]
+    },
+    {
+      "Id": 15,
+      "Keywords": [ "Rust SteppingStonePath" ]
+    },
+	{
+      "Id": 16,
+      "Keywords": [ "Saffron SteppingStonePath" ]
+    },
+    {
+      "Id": 17,
+      "Keywords": [ "Sapphire SteppingStonePath" ]
+    },
+	{
+      "Id": 18,
+      "Keywords": [ "Spinel SteppingStonePath" ]
+    },
+    {
+      "Id": 19,
+      "Keywords": [ "Steel SteppingStonePath" ]
+    },
+	{
+      "Id": 20,
+      "Keywords": [ "Topaz SteppingStonePath" ]
+    },
+    {
+      "Id": 21,
+      "Keywords": [ "Umber SteppingStonePath" ]
+    },
+	{
+      "Id": 22,
+      "Keywords": [ "Walnut SteppingStonePath" ]
+    },
+    {
+      "Id": 23,
+      "Keywords": [ "Wine SteppingStonePath" ]
+    },
+  ],
+}

@@ -1,0 +1,29 @@
+   
+{
+  "ItemName": "Crystal Floor",
+  "Type": "Flooring",
+  "Seasons": [ "Winter" ],
+  "TextureWidth": 64,
+  "TextureHeight": 64,
+  "Variations": 3,
+  "ManualVariations": [
+  {
+      "Id": 0,
+      "ChanceWeight": 0.1,
+    "Name": "Normal Crystal Floor",
+    "Keywords": [ "Normal Crystal Floor" ]
+    },
+  {
+      "Id": 1,
+      "ChanceWeight": 0.1,
+    "Name": "Vanilla Color Crystal Floor",
+    "Keywords": [ "Vanilla Color Crystal Floor" ]
+    },
+  {
+      "Id": 2,
+      "ChanceWeight": 0.1,
+    "Name": "Vibrant Pastoral Crystal Floor",
+    "Keywords": [ "Vibrant Pastoral Crystal Floor" ]
+    },
+  ]
+}

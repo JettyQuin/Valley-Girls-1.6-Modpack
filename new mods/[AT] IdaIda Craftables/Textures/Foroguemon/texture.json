@@ -1,0 +1,13 @@
+{
+	"ItemName": "??Foroguemon??",
+	"Type": "Craftable",
+		"Keywords": ["Gothic", "Idaida" ],
+	"TextureWidth": 16,
+	"TextureHeight": 32,
+	"ManualVariations": [
+		{
+		"Id": 0,
+		"Name": "Idaida's Gothic Foroguemon"
+		}
+	]
+}

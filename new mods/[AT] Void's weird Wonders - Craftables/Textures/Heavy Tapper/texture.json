@@ -1,0 +1,13 @@
+{
+  "ItemName": "Heavy Tapper",
+  "Type": "Craftable",
+  "TextureWidth": 16,
+  "TextureHeight": 32,
+  "ManualVariations": [
+    {
+      "Id": 0,
+      "Name": "Blood of my enemies",
+      "Keywords": ["Void"]
+    },
+  ]
+}

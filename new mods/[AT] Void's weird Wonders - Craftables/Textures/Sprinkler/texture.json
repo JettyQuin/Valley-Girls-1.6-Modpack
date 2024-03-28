@@ -1,0 +1,13 @@
+{
+  "ItemName": "Sprinkler",
+  "Type": "Craftable",
+  "TextureWidth": 16,
+  "TextureHeight": 16,
+  "ManualVariations": [
+    {
+      "Id": 0,
+      "Name":"What's this?",
+      "Keywords": ["Void"]
+    },
+  ]
+}

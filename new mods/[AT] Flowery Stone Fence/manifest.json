@@ -1,0 +1,11 @@
+{
+  "Name": "[AT] Flowery Stone Fence",
+  "Author": "KAYA",
+  "Version": "1.0.0",
+  "Description": "Flowery  stone fence random replacer.",
+  "UniqueID": "KAYA.AT.FloweryStoneFence",
+  "ContentPackFor": {
+    "UniqueID": "PeacefulEnd.AlternativeTextures",
+    "MinimumVersion": "2.0.0"
+  }
+}

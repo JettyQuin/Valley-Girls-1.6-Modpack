@@ -1,0 +1,10 @@
+{
+    "ItemName": "Worm Bin",
+    "Type": "Craftable",
+    "TextureWidth": 16,
+    "TextureHeight": 32,
+    "Keywords": [
+        "Elegant"
+    ],
+    "Variations": 1
+}
