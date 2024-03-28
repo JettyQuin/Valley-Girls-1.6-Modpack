@@ -1,0 +1,12 @@
+{
+    "Name": "Atelier Wildflour Crops and Forage Pack",
+    "Author": "wildflourmods",
+    "Version": "5.0.3",
+    "Description": "Formerly Wild Food and Faerie Garden - New crops, forage, trees and items",
+    "UniqueID": "wildflour.ateliercrops",
+    "UpdateKeys": ["Nexus:14653"], 
+    "MinimumApiVersion": "4.0.0-alpha",
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}

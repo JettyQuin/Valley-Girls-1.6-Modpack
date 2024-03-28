@@ -1,0 +1,1470 @@
+{
+    "Changes": [
+
+//Add Machines to Big Craftables
+
+{
+    "LogName": "Add Atelier Botanicals Machines to BigCraftables",
+    "Action": "EditData",
+    "Target": "Data/BigCraftables",
+    "Entries": {
+        "wildflour.atelierbotanicals_IncenseStation": {
+            "Name": "wildflour.atelierbotanicals_IncenseStation",
+            "DisplayName": "{{i18n: atelierbotanicals_IncenseStation.name}}",
+            "Description": "{{i18n: atelierbotanicals_IncenseStation.description}}",
+            "Price": 50,
+            "Fragility": 0,
+            "CanBePlacedOutdoors": true,
+            "CanBePlacedIndoors": true,
+            "IsLamp": false,
+            "Texture": "Mods\\wildflour.atelierbotanicals\\Machines",
+            "SpriteIndex": 8,
+            "CustomFields": {}
+        }
+    }
+},
+
+//Machine Rules for Output
+
+{
+    "LogName": "Add Atelier Botanicals Rules",
+    "Action": "EditData",
+    "Target": "Data/Machines",
+    "Entries": {
+        "(BC)wildflour.atelierbotanicals_IncenseStation":{
+            "OutputRules": [
+                {
+                    "Id": "wildflour.atelierbotanicals_autumn_incense",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)421",
+                            "RequiredCount": 3
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierbotanicals_autumn_incense",
+                            "ItemId": "(O)wildflour.atelierbotanicals_autumn_incense",
+                            "CopyQuality": false,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 4.5
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 720
+                },
+                {
+                    "Id": "wildflour.atelierbotanicals_chamomile_incense",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.ateliercrops_chamomile",
+                            "RequiredCount": 3
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierbotanicals_chamomile_incense",
+                            "ItemId": "(O)wildflour.atelierbotanicals_chamomile_incense",
+                            "CopyQuality": false,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 4.5
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 720
+                },
+                {
+                    "Id": "wildflour.atelierbotanicals_chiffon_incense",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.ateliercrops_chiffon",
+                            "RequiredCount": 3
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierbotanicals_chiffon_incense",
+                            "ItemId": "(O)wildflour.atelierbotanicals_chiffon_incense",
+                            "CopyQuality": false,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 4.5
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 720
+                },
+                {
+                    "Id": "wildflour.atelierbotanicals_daisy_incense",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.ateliercrops_daisy",
+                            "RequiredCount": 3
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierbotanicals_daisy_incense",
+                            "ItemId": "(O)wildflour.atelierbotanicals_daisy_incense",
+                            "CopyQuality": false,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 4.5
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 720
+                },
+                {
+                    "Id": "wildflour.atelierbotanicals_elder_incense",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.ateliercrops_elderberries",
+                            "RequiredCount": 3
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierbotanicals_elder_incense",
+                            "ItemId": "(O)wildflour.atelierbotanicals_elder_incense",
+                            "CopyQuality": false,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 4.5
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 720
+                },
+                {
+                    "Id": "wildflour.atelierbotanicals_jasmine_incense",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.ateliercrops_jasmine",
+                            "RequiredCount": 3
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierbotanicals_jasmine_incense",
+                            "ItemId": "(O)wildflour.atelierbotanicals_jasmine_incense",
+                            "CopyQuality": false,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 4.5
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 720
+                },
+                {
+                    "Id": "wildflour.atelierbotanicals_lavender_incense",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.ateliercrops_lavender",
+                            "RequiredCount": 3
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierbotanicals_lavender_incense",
+                            "ItemId": "(O)wildflour.atelierbotanicals_lavender_incense",
+                            "CopyQuality": false,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 4.5
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 720
+                },
+                {
+                    "Id": "wildflour.atelierbotanicals_lily_incense",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.ateliercrops_dawn_lily",
+                            "RequiredCount": 3
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierbotanicals_lily_incense",
+                            "ItemId": "(O)wildflour.atelierbotanicals_lily_incense",
+                            "CopyQuality": false,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 4.5
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 720
+                },
+                {
+                    "Id": "wildflour.atelierbotanicals_lily_incense_dusk",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.ateliercrops_dusk_lily",
+                            "RequiredCount": 3
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierbotanicals_lily_incense",
+                            "ItemId": "(O)wildflour.atelierbotanicals_lily_incense",
+                            "CopyQuality": false,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 4.5
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 720
+                },
+                {
+                    "Id": "wildflour.atelierbotanicals_mandrake_incense",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.ateliercrops_mandrake",
+                            "RequiredCount": 3
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierbotanicals_mandrake_incense",
+                            "ItemId": "(O)wildflour.atelierbotanicals_mandrake_incense",
+                            "CopyQuality": false,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 4.5
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 720
+                },
+                {
+                    "Id": "wildflour.atelierbotanicals_mugwort_incense",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.ateliercrops_mugwort",
+                            "RequiredCount": 3
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierbotanicals_mugwort_incense",
+                            "ItemId": "(O)wildflour.atelierbotanicals_mugwort_incense",
+                            "CopyQuality": false,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 4.5
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 720
+                },
+                {
+                    "Id": "wildflour.atelierbotanicals_pixie_incense",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.ateliercrops_pixies_breath",
+                            "RequiredCount": 3
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierbotanicals_pixie_incense",
+                            "ItemId": "(O)wildflour.atelierbotanicals_pixie_incense",
+                            "CopyQuality": false,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 4.5
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 720
+                },
+                {
+                    "Id": "wildflour.atelierbotanicals_primrose_incense",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.ateliercrops_primrose",
+                            "RequiredCount": 3
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierbotanicals_primrose_incense",
+                            "ItemId": "(O)wildflour.atelierbotanicals_primrose_incense",
+                            "CopyQuality": false,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 4.5
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 720
+                },
+                {
+                    "Id": "wildflour.atelierbotanicals_mysteria_incense",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.ateliercrops_mysteria",
+                            "RequiredCount": 3
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierbotanicals_mysteria_incense",
+                            "ItemId": "(O)wildflour.atelierbotanicals_mysteria_incense",
+                            "CopyQuality": false,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 4.5
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 720
+                },
+                {
+                    "Id": "wildflour.atelierbotanicals_spring_incense",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)591",
+                            "RequiredCount": 3
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierbotanicals_spring_incense",
+                            "ItemId": "(O)wildflour.atelierbotanicals_spring_incense",
+                            "CopyQuality": false,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 4.5
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 720
+                },
+                {
+                    "Id": "wildflour.atelierbotanicals_summer_incense",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)376",
+                            "RequiredCount": 3
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierbotanicals_summer_incense",
+                            "ItemId": "(O)wildflour.atelierbotanicals_summer_incense",
+                            "CopyQuality": false,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 4.5
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 720
+                },
+                {
+                    "Id": "wildflour.atelierbotanicals_thistle_incense",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.ateliercrops_thistle",
+                            "RequiredCount": 3
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierbotanicals_thistle_incense",
+                            "ItemId": "(O)wildflour.atelierbotanicals_thistle_incense",
+                            "CopyQuality": false,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 4.5
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 720
+                },
+                {
+                    "Id": "wildflour.atelierbotanicals_valerian_incense",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.ateliercrops_valerian",
+                            "RequiredCount": 3
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierbotanicals_valerian_incense",
+                            "ItemId": "(O)wildflour.atelierbotanicals_valerian_incense",
+                            "CopyQuality": false,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 4.5
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 720
+                },
+                {
+                    "Id": "wildflour.atelierbotanicals_vanilla_incense",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.ateliercrops_vanilla",
+                            "RequiredCount": 3
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierbotanicals_vanilla_incense",
+                            "ItemId": "(O)wildflour.atelierbotanicals_vanilla_incense",
+                            "CopyQuality": false,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 4.5
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 720
+                },
+                {
+                    "Id": "wildflour.atelierbotanicals_winter_incense",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)418",
+                            "RequiredCount": 3
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierbotanicals_winter_incense",
+                            "ItemId": "(O)wildflour.atelierbotanicals_winter_incense",
+                            "CopyQuality": false,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 4.5
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 720
+                },
+                {
+                    "Id": "wildflour.atelierbotanicals_yarrow_incense",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.ateliercrops_yarrow",
+                            "RequiredCount": 3
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierbotanicals_yarrow_incense",
+                            "ItemId": "(O)wildflour.atelierbotanicals_yarrow_incense",
+                            "CopyQuality": false,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 4.5
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 720
+                }
+            ],
+            "InvalidItemMessage":"{{i18n:atelierbotanicals_IncenseStation_InvalidItem.message}}",
+            "InvalidCountMessage":"{{i18n:atelierbotanicals_IncenseStation_InvalidCount.message}}",
+            "ShowNextIndexWhileWorking":false,
+            "ShowNextIndexWhenReady":false,
+            "WobbleWhileWorking":false,
+            "WorkingEffects":[
+                {
+                    "Frames":[1,2,3,4,5,6,7],
+                    "Interval":100
+                }
+           ] 
+           
+        }
+    }
+},
+
+//Edit Vanilla Machines
+
+{
+    "LogName": "Botanicals Addition to Dehydrator Machine Rules",
+    "Action": "EditData",
+    "Target": "Data/Machines",
+    "TargetField": ["(BC)Dehydrator", "OutputRules"],
+    "Entries": {
+        "wildflour.atelierbotanicals_Dehydrator_dried_geranium": {
+            "Id": "wildflour.atelierbotanicals_Dehydrator_dried_geranium",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "(O)wildflour.ateliercrops_geranium",
+                    "RequiredCount": 5
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.atelierbotanicals_dried_geranium",
+                    "ItemId": "(O)wildflour.atelierbotanicals_dried_geranium",
+                    "CopyPrice": true,
+                    "PriceModifiers": 
+                    [
+                        {
+                            "Modification": "Multiply",
+                            "Amount": 5.5
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": -1,
+            "DaysUntilReady": 1
+        },
+        "wildflour.atelierbotanicals_Dehydrator_dried_arcticfox": {
+            "Id": "wildflour.atelierbotanicals_Dehydrator_dried_arcticfox",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "(O)wildflour.ateliercrops_arcticfox",
+                    "RequiredCount": 5
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.atelierbotanicals_dried_arcticfox",
+                    "ItemId": "(O)wildflour.atelierbotanicals_dried_arcticfox",
+                    "CopyPrice": true,
+                    "PriceModifiers": 
+                    [
+                        {
+                            "Modification": "Multiply",
+                            "Amount": 5.5
+                        }
+                    ]
+        }
+    ],
+            "MinutesUntilReady": -1,
+            "DaysUntilReady": 1
+        },
+        "wildflour.atelierbotanicals_Dehydrator_dried_avalune": {
+            "Id": "wildflour.atelierbotanicals_Dehydrator_dried_avalune",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "(O)wildflour.ateliercrops_avalune",
+                    "RequiredCount": 5
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.atelierbotanicals_dried_avalune",
+                    "ItemId": "(O)wildflour.atelierbotanicals_dried_avalune",
+                    "CopyPrice": true,
+                    "PriceModifiers": 
+                    [
+                        {
+                            "Modification": "Multiply",
+                            "Amount": 5.5
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": -1,
+            "DaysUntilReady": 1
+        },
+        "wildflour.atelierbotanicals_Dehydrator_dried_chamomile": {
+            "Id": "wildflour.atelierbotanicals_Dehydrator_dried_chamomile",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "(O)wildflour.ateliercrops_chamomile",
+                    "RequiredCount": 5
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.atelierbotanicals_dried_chamomile",
+                    "ItemId": "(O)wildflour.atelierbotanicals_dried_chamomile",
+                    "CopyPrice": true,
+                    "PriceModifiers": 
+                    [
+                        {
+                            "Modification": "Multiply",
+                            "Amount": 5.5
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": -1,
+             "DaysUntilReady": 1
+        },
+        "wildflour.atelierbotanicals_Dehydrator_dried_daisy": {
+            "Id": "wildflour.atelierbotanicals_Dehydrator_dried_daisy",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "(O)wildflour.ateliercrops_daisy",
+                    "RequiredCount": 5
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.atelierbotanicals_dried_daisy",
+                    "ItemId": "(O)wildflour.atelierbotanicals_dried_daisy",
+                    "CopyPrice": true,
+                    "PriceModifiers": 
+                    [
+                        {
+                            "Modification": "Multiply",
+                            "Amount": 5.5
+                        }
+                    ]
+                }
+            ],
+                "MinutesUntilReady": -1,
+                "DaysUntilReady": 1
+        },
+        "wildflour.atelierbotanicals_Dehydrator_dried_dawn_lily": {
+            "Id": "wildflour.atelierbotanicals_Dehydrator_dried_dawn_lily",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "(O)wildflour.ateliercrops_dawn_lily",
+                    "RequiredCount": 5
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.atelierbotanicals_dried_dawn_lily",
+                    "ItemId": "(O)wildflour.atelierbotanicals_dried_dawn_lily",
+                    "CopyPrice": true,
+                    "PriceModifiers": 
+                    [
+                        {
+                            "Modification": "Multiply",
+                            "Amount": 5.5
+                        }
+                    ]
+                }
+            ],
+                "MinutesUntilReady": -1,
+                "DaysUntilReady": 1
+        },
+        "wildflour.atelierbotanicals_Dehydrator_dried_dusk_lily": {
+            "Id": "wildflour.atelierbotanicals_Dehydrator_dried_dusk_lily",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "(O)wildflour.ateliercrops_dusk_lily",
+                    "RequiredCount": 5
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.atelierbotanicals_dried_dusk_lily",
+                    "ItemId": "(O)wildflour.atelierbotanicals_dried_dusk_lily",
+                    "CopyPrice": true,
+                    "PriceModifiers": 
+                    [
+                        {
+                            "Modification": "Multiply",
+                            "Amount": 5.5
+                        }
+                    ]
+                }
+            ],
+                "MinutesUntilReady": -1,
+                "DaysUntilReady": 1
+        },
+        "wildflour.atelierbotanicals_Dehydrator_dried_puffball": {
+            "Id": "wildflour.atelierbotanicals_Dehydrator_dried_puffball",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "(O)wildflour.ateliercrops_puffball",
+                    "RequiredCount": 5
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.atelierbotanicals_dried_puffball",
+                    "ItemId": "(O)wildflour.atelierbotanicals_dried_puffball",
+                    "CopyPrice": true,
+                    "PriceModifiers": 
+                    [
+                        {
+                            "Modification": "Multiply",
+                            "Amount": 5.5
+                        }
+                    ]
+                }
+            ],
+                "MinutesUntilReady": -1,
+                "DaysUntilReady": 1
+        },
+        "wildflour.atelierbotanicals_Dehydrator_dried_jasmine": {
+            "Id": "wildflour.atelierbotanicals_Dehydrator_dried_jasmine",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "(O)wildflour.ateliercrops_jasmine",
+                    "RequiredCount": 5
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.atelierbotanicals_dried_jasmine",
+                    "ItemId": "(O)wildflour.atelierbotanicals_dried_jasmine",
+                    "CopyPrice": true,
+                    "PriceModifiers": 
+                    [
+                        {
+                            "Modification": "Multiply",
+                            "Amount": 5.5
+                        }
+                    ]
+                }
+            ],
+                "MinutesUntilReady": -1,
+                "DaysUntilReady": 1
+        },
+        "wildflour.atelierbotanicals_Dehydrator_dried_lavender": {
+            "Id": "wildflour.atelierbotanicals_Dehydrator_dried_lavender",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "(O)wildflour.ateliercrops_lavender",
+                    "RequiredCount": 5
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.atelierbotanicals_dried_lavender",
+                    "ItemId": "(O)wildflour.atelierbotanicals_dried_lavender",
+                    "CopyPrice": true,
+                    "PriceModifiers": 
+                    [
+                        {
+                            "Modification": "Multiply",
+                            "Amount": 5.5
+                        }
+                    ]
+                    }
+                ],
+                "MinutesUntilReady": -1,
+                "DaysUntilReady": 1
+        },
+        "wildflour.atelierbotanicals_Dehydrator_dried_violet": {
+            "Id": "wildflour.atelierbotanicals_Dehydrator_dried_violet",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "(O)wildflour.ateliercrops_violet",
+                    "RequiredCount": 5
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.atelierbotanicals_dried_violet",
+                    "ItemId": "(O)wildflour.atelierbotanicals_dried_violet",
+                    "CopyPrice": true,
+                    "PriceModifiers": 
+                    [
+                        {
+                            "Modification": "Multiply",
+                            "Amount": 5.5
+                        }
+                    ]
+                }
+            ],
+                "MinutesUntilReady": -1,
+                "DaysUntilReady": 1
+        },
+        "wildflour.atelierbotanicals_Dehydrator_dried_moon_maiden": {
+            "Id": "wildflour.atelierbotanicals_Dehydrator_dried_moon_maiden",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "(O)wildflour.ateliercrops_maiden",
+                    "RequiredCount": 5
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.atelierbotanicals_dried_moon_maiden",
+                    "ItemId": "(O)wildflour.atelierbotanicals_dried_moon_maiden",
+                    "CopyPrice": true,
+                    "PriceModifiers": 
+                    [
+                        {
+                            "Modification": "Multiply",
+                            "Amount": 5.5
+                        }
+                    ]
+                }
+            ],
+                    "MinutesUntilReady": -1,
+                    "DaysUntilReady": 1
+        },
+        "wildflour.atelierbotanicals_Dehydrator_dried_mugwort": {
+            "Id": "wildflour.atelierbotanicals_Dehydrator_dried_mugwort",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "(O)wildflour.ateliercrops_mugwort",
+                    "RequiredCount": 5
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.atelierbotanicals_dried_mugwort",
+                    "ItemId": "(O)wildflour.atelierbotanicals_dried_mugwort",
+                    "CopyPrice": true,
+                    "PriceModifiers": 
+                    [
+                        {
+                            "Modification": "Multiply",
+                            "Amount": 5.5
+                        }
+                    ]
+                }
+            ],
+                "MinutesUntilReady": -1,
+                "DaysUntilReady": 1
+        },
+        "wildflour.atelierbotanicals_Dehydrator_dried_primrose": {
+            "Id": "wildflour.atelierbotanicals_Dehydrator_dried_primrose",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "(O)wildflour.ateliercrops_primrose",
+                    "RequiredCount": 5
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.atelierbotanicals_dried_primrose",
+                    "ItemId": "(O)wildflour.atelierbotanicals_dried_primrose",
+                    "CopyPrice": true,
+                    "PriceModifiers": 
+                    [
+                        {
+                            "Modification": "Multiply",
+                            "Amount": 5.5
+                        }
+                    ]
+                }
+            ],
+                "MinutesUntilReady": -1,
+                "DaysUntilReady": 1
+        },
+        "wildflour.atelierbotanicals_Dehydrator_dried_poppy": {
+            "Id": "wildflour.atelierbotanicals_Dehydrator_dried_poppy",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "(O)376",
+                    "RequiredCount": 5
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.atelierbotanicals_dried_poppy",
+                    "ItemId": "(O)wildflour.atelierbotanicals_dried_poppy",
+                    "CopyPrice": true,
+                    "PriceModifiers": 
+                    [
+                        {
+                            "Modification": "Multiply",
+                            "Amount": 5.5
+                        }
+                    ]
+                }
+            ],
+                "MinutesUntilReady": -1,
+                "DaysUntilReady": 1
+        },
+        "wildflour.atelierbotanicals_Dehydrator_dried_thistle": {
+            "Id": "wildflour.atelierbotanicals_Dehydrator_dried_thistle",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "(O)wildflour.ateliercrops_thistle",
+                    "RequiredCount": 5
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.atelierbotanicals_dried_thistle",
+                    "ItemId": "(O)wildflour.atelierbotanicals_dried_thistle",
+                    "CopyPrice": true,
+                    "PriceModifiers": 
+                    [
+                        {
+                            "Modification": "Multiply",
+                            "Amount": 5.5
+                        }
+                    ]
+                }
+            ],
+                "MinutesUntilReady": -1,
+                "DaysUntilReady": 1
+        },
+        "wildflour.atelierbotanicals_Dehydrator_dried_valerian": {
+            "Id": "wildflour.atelierbotanicals_Dehydrator_dried_valerian",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "(O)wildflour.ateliercrops_valerian",
+                    "RequiredCount": 5
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.atelierbotanicals_dried_valerian",
+                    "ItemId": "(O)wildflour.atelierbotanicals_dried_valerian",
+                    "CopyPrice": true,
+                    "PriceModifiers": 
+                    [
+                        {
+                            "Modification": "Multiply",
+                            "Amount": 5.5
+                        }
+                    ]
+                }
+            ],
+                    "MinutesUntilReady": -1,
+                    "DaysUntilReady": 1
+        },
+        "wildflour.atelierbotanicals_Dehydrator_dried_yarrow": {
+            "Id": "wildflour.atelierbotanicals_Dehydrator_dried_yarrow",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "(O)wildflour.ateliercrops_yarrow",
+                    "RequiredCount": 5
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.atelierbotanicals_dried_yarrow",
+                    "ItemId": "(O)wildflour.atelierbotanicals_dried_yarrow",
+                    "CopyPrice": true,
+                    "PriceModifiers": 
+                    [
+                        {
+                            "Modification": "Multiply",
+                            "Amount": 5.5
+                        }
+                    ]
+                }
+            ],
+                "MinutesUntilReady": -1,
+                "DaysUntilReady": 1
+        },
+        "wildflour.atelierbotanicals_Dehydrator_dried_mysteria": {
+            "Id": "wildflour.atelierbotanicals_Dehydrator_dried_mysteria",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "(O)wildflour.ateliercrops_mysteria",
+                    "RequiredCount": 5
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.atelierbotanicals_dried_mysteria",
+                    "ItemId": "(O)wildflour.atelierbotanicals_dried_mysteria",
+                    "CopyPrice": true,
+                    "PriceModifiers": 
+                    [
+                        {
+                            "Modification": "Multiply",
+                            "Amount": 5.5
+                        }
+                    ]
+                }
+            ],
+                "MinutesUntilReady": -1,
+                "DaysUntilReady": 1
+        },
+        "wildflour.atelierbotanicals_Dehydrator_dried_amanita": {
+            "Id": "wildflour.atelierbotanicals_Dehydrator_dried_amanita",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "(O)wildflour.ateliercrops_giant_amanita",
+                    "RequiredCount": 5
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.atelierbotanicals_dried_amanita",
+                    "ItemId": "(O)wildflour.atelierbotanicals_dried_amanita",
+                    "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 5.0
+                                }
+                            ]
+                }
+            ],
+            "MinutesUntilReady": -1,
+            "DaysUntilReady": 1
+        },
+        "wildflour.atelierbotanicals_Dehydrator_dried_chickenofthewoods": {
+            "Id": "wildflour.atelierbotanicals_Dehydrator_dried_chickenofthewoods",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "(O)wildflour.ateliercrops_chickenofthewoods",
+                    "RequiredCount": 5
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.atelierbotanicals_dried_chickenofthewoods",
+                    "ItemId": "(O)wildflour.atelierbotanicals_dried_chickenofthewoods",
+                    "CopyPrice": true,
+                    "PriceModifiers": 
+                    [
+                        {
+                            "Modification": "Multiply",
+                            "Amount": 5.0
+                        }
+                    ]
+            }
+        ],
+                "MinutesUntilReady": -1,
+                "DaysUntilReady": 1
+        },
+        "wildflour.atelierbotanicals_Dehydrator_dried_dawns_trumpet": {
+            "Id": "wildflour.atelierbotanicals_Dehydrator_dried_dawns_trumpet",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "(O)wildflour.ateliercrops_dawn_trumpet",
+                    "RequiredCount": 5
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.atelierbotanicals_dried_dawns_trumpet",
+                    "ItemId": "(O)wildflour.atelierbotanicals_dried_dawns_trumpet",
+                    "CopyPrice": true,
+                    "PriceModifiers": 
+                    [
+                        {
+                            "Modification": "Multiply",
+                            "Amount": 5.0
+                        }
+                    ]
+                }
+            ],
+                "MinutesUntilReady": -1,
+                "DaysUntilReady": 1
+        },
+        "wildflour.atelierbotanicals_Dehydrator_dried_dusk_cap": {
+            "Id": "wildflour.atelierbotanicals_Dehydrator_dried_dusk_cap",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "(O)wildflour.ateliercrops_dusk_cap",
+                    "RequiredCount": 5
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.atelierbotanicals_dried_dusk_cap",
+                    "ItemId": "(O)wildflour.atelierbotanicals_dried_dusk_cap",
+                    "CopyPrice": true,
+                    "PriceModifiers": 
+                    [
+                        {
+                            "Modification": "Multiply",
+                            "Amount": 5.0
+                        }
+                    ]
+                }
+            ],
+                "MinutesUntilReady": -1,
+                "DaysUntilReady": 1
+        },
+        "wildflour.atelierbotanicals_Dehydrator_dried_faerie_helmets": {
+            "Id": "wildflour.atelierbotanicals_Dehydrator_dried_faerie_helmets",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "(O)wildflour.ateliercrops_faerie_helmets",
+                    "RequiredCount": 5
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.atelierbotanicals_dried_faerie_helmets",
+                    "ItemId": "(O)wildflour.atelierbotanicals_dried_faerie_helmets",
+                    "CopyPrice": true,
+                    "PriceModifiers": 
+                    [
+                        {
+                            "Modification": "Multiply",
+                            "Amount": 5.0
+                        }
+                    ]
+                }
+            ],
+                "MinutesUntilReady": -1,
+                "DaysUntilReady": 1
+        },
+        "wildflour.atelierbotanicals_Dehydrator_dried_golden_aura": {
+            "Id": "wildflour.atelierbotanicals_Dehydrator_dried_golden_aura",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "(O)wildflour.ateliercrops_golden_aura",
+                    "RequiredCount": 5
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.atelierbotanicals_dried_golden_aura",
+                    "ItemId": "(O)wildflour.atelierbotanicals_dried_golden_aura",
+                    "CopyPrice": true,
+                    "PriceModifiers": 
+                    [
+                        {
+                            "Modification": "Multiply",
+                            "Amount": 5.0
+                        }
+                    ]
+                }
+            ],
+                "MinutesUntilReady": -1,
+                "DaysUntilReady": 1
+        },
+        "wildflour.atelierbotanicals_Dehydrator_dried_honeyfungus": {
+            "Id": "wildflour.atelierbotanicals_Dehydrator_dried_honeyfungus",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "(O)wildflour.ateliercrops_honeyfungus",
+                    "RequiredCount": 5
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.atelierbotanicals_dried_honeyfungus",
+                    "ItemId": "(O)wildflour.atelierbotanicals_dried_honeyfungus",
+                    "CopyPrice": true,
+                    "PriceModifiers": 
+                    [
+                        {
+                            "Modification": "Multiply",
+                            "Amount": 5.0
+                        }
+                    ]
+                }
+            ],
+                "MinutesUntilReady": -1,
+                "DaysUntilReady": 1
+        },
+        "wildflour.atelierbotanicals_Dehydrator_dried_meringueshrooms": {
+            "Id": "wildflour.atelierbotanicals_Dehydrator_dried_meringueshrooms",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "(O)wildflour.ateliercrops_meringueshroom",
+                    "RequiredCount": 5
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.atelierbotanicals_dried_meringueshrooms",
+                    "ItemId": "(O)wildflour.atelierbotanicals_dried_meringueshrooms",
+                    "CopyPrice": true,
+                    "PriceModifiers": 
+                    [
+                        {
+                            "Modification": "Multiply",
+                            "Amount": 5.0
+                        }
+                    ]
+                }
+            ],
+                "MinutesUntilReady": -1,
+                "DaysUntilReady": 1
+        },
+        "wildflour.atelierbotanicals_Dehydrator_dried_milkshrooms": {
+            "Id": "wildflour.atelierbotanicals_Dehydrator_dried_milkshrooms",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "(O)wildflour.ateliercrops_milkshroom",
+                    "RequiredCount": 5
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.atelierbotanicals_dried_milkshrooms",
+                    "ItemId": "(O)wildflour.atelierbotanicals_dried_milkshrooms",
+                    "CopyPrice": true,
+                    "PriceModifiers": 
+                    [
+                        {
+                            "Modification": "Multiply",
+                            "Amount": 5.0
+                        }
+                    ]
+                }
+            ],
+                "MinutesUntilReady": -1,
+                "DaysUntilReady": 1
+        },
+        "wildflour.atelierbotanicals_Dehydrator_dried_red_mushrooms": {
+            "Id": "wildflour.atelierbotanicals_Dehydrator_dried_red_mushrooms",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "(O)420",
+                    "RequiredCount": 5
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.atelierbotanicals_dried_red_mushrooms",
+                    "ItemId": "(O)wildflour.atelierbotanicals_dried_red_mushrooms",
+                    "CopyPrice": true,
+                    "PriceModifiers": 
+                    [
+                        {
+                            "Modification": "Multiply",
+                            "Amount": 5.0
+                        }
+                    ]
+                }
+            ],
+                "MinutesUntilReady": -1,
+                "DaysUntilReady": 1
+        },
+        "wildflour.atelierbotanicals_Dehydrator_dried_slime_caps": {
+            "Id": "wildflour.atelierbotanicals_Dehydrator_dried_slime_caps",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "(O)wildflour.ateliercrops_blushcap",
+                    "RequiredCount": 5
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.atelierbotanicals_dried_slime_caps",
+                    "ItemId": "(O)wildflour.atelierbotanicals_dried_slime_caps",
+                    "CopyPrice": true,
+                    "PriceModifiers": 
+                    [
+                        {
+                            "Modification": "Multiply",
+                            "Amount": 5.0
+                        }
+                    ]
+                }
+            ],
+                "MinutesUntilReady": -1,
+                "DaysUntilReady": 1
+        },
+        "wildflour.atelierbotanicals_Dehydrator_dried_verdigris_agaric": {
+            "Id": "wildflour.atelierbotanicals_Dehydrator_dried_verdigris_agaric",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "(O)wildflour.ateliercrops_verdigris_agaric",
+                    "RequiredCount": 5
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.atelierbotanicals_dried_verdigris_agaric",
+                    "ItemId": "(O)wildflour.atelierbotanicals_dried_verdigris_agaric",
+                    "CopyPrice": true,
+                    "PriceModifiers": 
+                    [
+                        {
+                            "Modification": "Multiply",
+                            "Amount": 5.0
+                        }
+                    ]
+                }
+            ],
+                "MinutesUntilReady": -1,
+                "DaysUntilReady": 1
+        },
+        "wildflour.atelierbotanicals_Dehydrator_dried_wheatshroom": {
+            "Id": "wildflour.atelierbotanicals_Dehydrator_dried_wheatshroom",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "(O)wildflour.ateliercrops_wheatshroom",
+                    "RequiredCount": 5
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.atelierbotanicals_dried_wheatshroom",
+                    "ItemId": "(O)wildflour.atelierbotanicals_dried_wheatshroom",
+                    "CopyPrice": true,
+                    "PriceModifiers": 
+                    [
+                        {
+                            "Modification": "Multiply",
+                            "Amount": 5.0
+                        }
+                    ]
+                }
+            ],
+                "MinutesUntilReady": -1,
+                "DaysUntilReady": 1
+        },
+        "wildflour.atelierbotanicals_Dehydrator_dried_peach_parasol": {
+            "Id": "wildflour.atelierbotanicals_Dehydrator_dried_peach_parasol",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "(O)wildflour.ateliercrops_peach_parasol",
+                    "RequiredCount": 5
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.atelierbotanicals_dried_peach_parasol",
+                    "ItemId": "(O)wildflour.atelierbotanicals_dried_peach_parasol",
+                    "CopyPrice": true,
+                    "PriceModifiers": 
+                    [
+                        {
+                            "Modification": "Multiply",
+                            "Amount": 5.0
+                        }
+                    ]
+                }
+            ],
+                "MinutesUntilReady": -1,
+                "DaysUntilReady": 1
+        }
+    }
+}
+   
+
+]
+}

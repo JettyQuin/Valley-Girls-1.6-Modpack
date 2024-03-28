@@ -1,0 +1,16 @@
+{
+  "Changes": [
+
+    //crafting recipes for machines
+
+    {
+	  "LogName": "CraftingRecipes",
+      "Action": "EditData",
+      "Target": "Data/CraftingRecipes",
+      "Entries": {
+			"wildflour.atelierbotanicals_IncenseStation": "388 50 Moss 25 93 1/Home/wildflour.atelierbotanicals_IncenseStation/true/default/{{i18n: atelierbotanicals_IncenseStation.name}}",
+      
+    }
+    },
+  ]
+}

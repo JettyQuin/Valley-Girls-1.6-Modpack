@@ -1,0 +1,82 @@
+{
+    "Changes": [
+
+        {
+            "LogName": "Gourmet Bakery Gift Tastes",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+ 
+               
+
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields","Abigail", 1],
+                    "Value": "wildflour.bakery_breakfast_cake",
+                    "Delimiter": " "
+                },
+
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields","Evelyn", 1],
+                    "Value": "wildflour.bakery_carrot_cake",
+                    "Delimiter": " "
+                },
+
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields","Jodi", 1],
+                    "Value": "wildflour.bakery_lemon_cake",
+                    "Delimiter": " "
+                },
+
+                
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields","Marnie", 1],
+                    "Value": "wildflour.bakery_strawberry_cake",
+                    "Delimiter": " "
+                },
+
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields","Haley", 1],
+                    "Value": "macaron_item",
+                    "Delimiter": " "
+                },
+
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields","Jas", 1],
+                    "Value": "wildflour.bakery_raspberry_cupcake",
+                    "Delimiter": " "
+                },
+
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields","Lewis", 1],
+                    "Value": "wildflour.bakery_blueberry_tart",
+                    "Delimiter": " "
+                },
+
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields","Pierre", 1],
+                    "Value": "wildflour.bakery_apple_pie",
+                    "Delimiter": " "
+                },
+
+            
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields","Vincent", 1],
+                    "Value": "wildflour.chocolate_raspberry_cupcake",
+                    "Delimiter": " "
+                },
+
+
+            ]
+            }
+
+]
+}

@@ -1,0 +1,222 @@
+{
+
+//MACHINES
+
+	"atelierbotanicals_IncenseStation.name": "Herbalist's Workstation",
+	"atelierbotanicals_IncenseStation.description": "An herbalist's work station; it creates dried incense from flowers and herbs.",
+
+
+///////////////////////////
+// MACHINE NOTIFICATIONS //
+///////////////////////////
+
+	"atelierbotanicals_IncenseStation_InvalidCount.message": "Requires 3 flowers",
+	"atelierbotanicals_IncenseStation_InvalidItem.message": "Cannot Process This",	
+
+//DRIED ITEMS
+
+	"atelierbotanicals_dried_geranium.name": "Dried Geraniums",
+	"atelierbotanicals_dried_geranium.description": "A bundle of dried flowers. Will keep for months or even years in this state.",
+
+	"atelierbotanicals_dried_arcticfox.name": "Dried arcticfox",
+	"atelierbotanicals_dried_arcticfox.description": "A bundle of dried flowers. Will keep for months or even years in this state.",
+
+	"atelierbotanicals_dried_avalune.name": "Dried Lupine",
+	"atelierbotanicals_dried_avalune.description": "A bundle of dried flowers. Will keep for months or even years in this state.",
+
+	"atelierbotanicals_dried_bluechiffon.name": "Dried Peonies",
+	"atelierbotanicals_dried_bluechiffon.description": "A bundle of dried flowers. Will keep for months or even years in this state.",
+
+	"atelierbotanicals_dried_chamomile.name": "Dried Chamomile",
+	"atelierbotanicals_dried_chamomile.description": "A bundle of dried flowers. Will keep for months or even years in this state.",
+
+	"atelierbotanicals_dried_daisy.name": "Dried Daisies",
+	"atelierbotanicals_dried_daisy.description": "A bundle of dried flowers. Will keep for months or even years in this state.",
+
+	"atelierbotanicals_dried_dawn_lily.name": "Dried Dawn Lily",
+	"atelierbotanicals_dried_dawn_lily.description": "A bundle of dried flowers. Will keep for months or even years in this state.",
+
+	"atelierbotanicals_dried_dusk_lily.name": "Dried Dusk Lily",
+	"atelierbotanicals_dried_dusk_lily.description": "A bundle of dried flowers. Will keep for months or even years in this state.",
+
+	"atelierbotanicals_dried_puffball.name": "Dried Puffball",
+	"atelierbotanicals_dried_puffball.description": "A bundle of dried flowers. Will keep for months or even years in this state.",
+
+	"atelierbotanicals_dried_jasmine.name": "Dried Jasmine",
+	"atelierbotanicals_dried_jasmine.description": "A bundle of dried flowers. Will keep for months or even years in this state.",
+
+	"atelierbotanicals_dried_lavender.name": "Dried Lavender",
+	"atelierbotanicals_dried_lavender.description": "A bundle of dried flowers. Will keep for months or even years in this state.",
+
+	"atelierbotanicals_dried_mysteria.name": "Dried Mysteria Flowers",
+	"atelierbotanicals_dried_mysteria.description": "A bundle of dried flowers. Will keep for months or even years in this state.",
+
+	"atelierbotanicals_dried_fae_wings.name": "Dried Fae Wings",
+	"atelierbotanicals_dried_fae_wings.description": "A bundle of dried flowers. Will keep for months or even years in this state.",
+
+	"atelierbotanicals_dried_violet.name": "Dried Violet",
+	"atelierbotanicals_dried_violet.description": "A bundle of dried flowers. Will keep for months or even years in this state.",
+
+	"atelierbotanicals_dried_moon_maiden.name": "Dried Moon Maiden",
+	"atelierbotanicals_dried_moon_maiden.description": "A bundle of dried flowers. Will keep for months or even years in this state.",
+
+	"atelierbotanicals_dried_mugwort.name": "Dried Mugwort",
+	"atelierbotanicals_dried_mugwort.description": "A bundle of dried flowers. Will keep for months or even years in this state.",
+
+	"atelierbotanicals_dried_pixiesbreath.name": "Dried Pixie's Breath",
+	"atelierbotanicals_dried_pixiesbreath.description": "A bundle of dried flowers. Will keep for months or even years in this state.",
+
+	"atelierbotanicals_dried_primrose.name": "Dried Primrose",
+	"atelierbotanicals_dried_primrose.description": "A bundle of dried flowers. Will keep for months or even years in this state.",
+
+	"atelierbotanicals_dried_poppy.name": "Dried Poppy",
+	"atelierbotanicals_dried_poppy.description": "A bundle of dried flowers. Will keep for months or even years in this state.",
+
+	"atelierbotanicals_dried_thistle.name": "Dried Thistle",
+	"atelierbotanicals_dried_thistle.description": "A bundle of dried flowers. Will keep for months or even years in this state.",
+
+	"atelierbotanicals_dried_valerian.name": "Dried Valerian",
+	"atelierbotanicals_dried_valerian.description": "A bundle of dried flowers. Will keep for months or even years in this state.",
+
+	"atelierbotanicals_dried_yarrow.name": "Dried Yarrow",
+	"atelierbotanicals_dried_yarrow.description": "A bundle of dried flowers. Will keep for months or even years in this state.",
+
+//DRIED MUSHROOMS
+
+	"atelierbotanicals_dried_amanita.name": "Dried Amanita",
+	"atelierbotanicals_dried_amanita.description": "A jar of dried amanita mushrooms. Will keep for months or even years in this state.",
+
+	"atelierbotanicals_dried_chanterelles.name": "Dried Chanterelles",
+	"atelierbotanicals_dried_chanterelles.description": "A jar of dried chanterelle mushrooms. Will keep for months or even years in this state.",
+
+	"atelierbotanicals_dried_chickenofthewoods.name": "Dried Chicken of the Woods",
+	"atelierbotanicals_dried_chickenofthewoods.description": "A jar of dried Chicken of the Woods mushrooms. Will keep for months or even years in this state.",
+
+	"atelierbotanicals_dried_dawns_trumpet.name": "Dried Dawn's Trumpet",
+	"atelierbotanicals_dried_dawns_trumpet.description": "A jar of dried Dawn's Trumpet mushrooms. Will keep for months or even years in this state.",
+
+	"atelierbotanicals_dried_dusk_cap.name": "Dried Dusk Caps",
+	"atelierbotanicals_dried_dusk_cap.description": "A jar of dried Dusk Cap mushrooms. Will keep for months or even years in this state.",
+
+	"atelierbotanicals_dried_faerie_helmets.name": "Dried Faerie Helmets",
+	"atelierbotanicals_dried_faerie_helmets.description": "A jar of dried Faerie Helmets' mushrooms. Will keep for months or even years in this state.",
+
+	"atelierbotanicals_dried_golden_aura.name": "Dried Golden Auras",
+	"atelierbotanicals_dried_golden_aura.description": "A jar of dried Golden Aura mushrooms. Will keep for months or even years in this state.",
+
+	"atelierbotanicals_dried_honeyfungus.name": "Dried Honey Fungus",
+	"atelierbotanicals_dried_honeyfungus.description": "A jar of dried Honey Fungus mushrooms. Will keep for months or even years in this state.",
+
+	"atelierbotanicals_dried_meringueshrooms.name": "Dried Meringue Mushrooms",
+	"atelierbotanicals_dried_meringueshrooms.description": "A jar of dried Meringue mushrooms. Will keep for months or even years in this state.",
+
+	"atelierbotanicals_dried_milkshrooms.name": "Dried Milky White Mushrooms",
+	"atelierbotanicals_dried_milkshrooms.description": "A jar of dried mushrooms. Will keep for months or even years in this state.",
+
+	"atelierbotanicals_dried_peach_parasol.name": "Dried Peach Parasol",
+	"atelierbotanicals_dried_peach_parasol.description": "A jar of dried purple mushrooms. Will keep for months or even years in this state.",
+
+	"atelierbotanicals_dried_red_mushrooms.name": "Dried Red Mushrooms",
+	"atelierbotanicals_dried_red_mushrooms.description": "A jar of dried red mushrooms. Will keep for months or even years in this state.",
+
+	"atelierbotanicals_dried_slime_caps.name": "Dried Slime Cap",
+	"atelierbotanicals_dried_slime_caps.description": "A jar of dried Blushing Slime Cap mushrooms. Will keep for months or even years in this state.",
+
+	"atelierbotanicals_dried_verdigris_agaric.name": "Dried Stormy Umbrella",
+	"atelierbotanicals_dried_verdigris_agaric.description": "A jar of dried stormy umbrella mushrooms. Will keep for months or even years in this state.",
+
+	"atelierbotanicals_dried_wheatshrooms.name": "Dried Wheatberry Mushrooms",
+	"atelierbotanicals_dried_wheatshrooms.description": "A jar of dried wheatberry mushrooms. Will keep for months or even years in this state.",
+	
+//INCENSE
+
+	"atelierbotanicals_autumn_incense.name":"Autumn Incense",
+	"atelierbotanicals_autumn_incense.description":"A substance burned for aromatherapy or meditation; this one is infused with autumn flowers for welcoming the change in seasons.",
+
+	"atelierbotanicals_chamomile_incense.name":"Happiness Incense",
+	"atelierbotanicals_chamomile_incense.description":"A substance burned for aromatherapy or meditation; this one is infused with chamomile for its association with peace and harmony.",
+
+	"atelierbotanicals_chiffon_incense.name":"Harmonic Incense",
+	"atelierbotanicals_chiffon_incense.description":"A substance burned for aromatherapy or meditation; this one is infused with blue chiffon flowers for their association with harmony and peace.",
+
+	"atelierbotanicals_daisy_incense.name":"Hopeful Incense",
+	"atelierbotanicals_daisy_incense.description":"A substance burned for aromatherapy or meditation; this one is infused with geraniums for their association with hope and protection.",
+
+	"atelierbotanicals_elder_incense.name":"Elder Incense",
+	"atelierbotanicals_elder_incense.description":"A substance burned for aromatherapy or meditation; this one is infused with elderflowers for their association with cleansing and purity.",
+
+	"atelierbotanicals_jasmine_incense.name":"Meditation Incense",
+	"atelierbotanicals_jasmine_incense.description":"A substance burned for aromatherapy or meditation; this one is infused with jasmine for its association with harmony and spirituality",
+
+	"atelierbotanicals_lavender_incense.name":"Relaxation Incense",
+	"atelierbotanicals_lavender_incense.description":"A substance burned for aromatherapy or meditation; this one is infused with lavender for a soothing effect.",
+
+	"atelierbotanicals_lily_incense.name":"Protection Incense",
+	"atelierbotanicals_lily_incense.description":"A substance burned for aromatherapy or meditation; this one is infused with lilies for their association with protection from hexes.",
+
+	"atelierbotanicals_mandrake_incense.name":"Mandrake Incense",
+	"atelierbotanicals_mandrake_incense.description":"A substance burned for aromatherapy or meditation; this one is infused with mandrake for its magickal properties.",
+
+	"atelierbotanicals_mugwort_incense.name":"Diviner's Incense",
+	"atelierbotanicals_mugwort_incense.description":"A substance burned for aromatherapy or meditation; this one is infused with mugwort for its magickal properties.",
+
+	"atelierbotanicals_pixie_incense.name":"Pixie Incense",
+	"atelierbotanicals_pixie_incense.description":"A substance burned for aromatherapy or meditation; this one is infused with Pixie's Breath, for its association with creativity.",
+
+	"atelierbotanicals_primrose_incense.name":"Healing Incense",
+	"atelierbotanicals_primrose_incense.description":"A substance burned for aromatherapy or meditation; this one is infused with primrose quartz, for its association with positive energies.",
+
+	"atelierbotanicals_mysteria_incense.name":"Secret Incense",
+	"atelierbotanicals_mysteria_incense.description":"A substance burned for aromatherapy or meditation; this one is infused with the elusive mysteria Flower, for its association with prosperity.",
+
+	"atelierbotanicals_spring_incense.name":"Spring Incense",
+	"atelierbotanicals_spring_incense.description":"A substance burned for aromatherapy or meditation; this one is infused with spring flowers for welcoming the new year.",
+
+	"atelierbotanicals_summer_incense.name":"Summer Incense",
+	"atelierbotanicals_summer_incense.description":"A substance burned for aromatherapy or meditation; this one is infused with summer flowers for welcoming the change in seasons.",
+
+	"atelierbotanicals_thistle_incense.name":"Splendorous Incense",
+	"atelierbotanicals_thistle_incense.description":"A substance burned for aromatherapy or meditation; this one is infused with thistle for its association with protection and prosperity.",
+
+	"atelierbotanicals_valerian_incense.name":"Sweet Dreams Incense",
+	"atelierbotanicals_valerian_incense.description":"A substance burned for aromatherapy or meditation; this one is infused with valerian for a calming effect.",
+
+	"atelierbotanicals_vanilla_incense.name":"Home Sweet Home Incense",
+	"atelierbotanicals_vanilla_incense.description":"A substance burned for aromatherapy or meditation; this one is infused with vanilla for its soothing effect",
+
+	"atelierbotanicals_violet_incense.name":"Lovely Incense",
+	"atelierbotanicals_violet_incense.description":"A substance burned for aromatherapy or meditation; this one is infused with violets for their association with love, fertility and abundance.",
+
+	"atelierbotanicals_winter_incense.name":"Winter Incense",
+	"atelierbotanicals_winter_incense.description":"A substance burned for aromatherapy or meditation; this one is infused with wild winter crocus for welcoming the end of another year.",
+
+	"atelierbotanicals_yarrow_incense.name":"Courageous Incense",
+	"atelierbotanicals_yarrow_incense.description":"A substance burned for aromatherapy or meditation; this one is infused with yarrow for its association with bravery and love.",
+
+//////////
+// MAIL //
+//////////
+
+	"atelierbotanicals_IncenseStationRecipe.name":"Incense Station",
+	"atelierbotanicals_IncenseStationRecipe.text":"@, ^^ I hope you are well! I know you find and grow lots of flowers in your foraging and farming, but have you ever thought about turning some of them into incense? It's a great way to save their scent and preserve their aura to enjoy for months after they've bloomed!^^ - Emily",
+
+	"atelierbotanicals_jas_gift.name":"Fluffy Flowers!",
+	"atelierbotanicals_jas_gift.text":"@, ^^ I found a fluffy flower while out jumping rope! Isn't it so cute?? I thought you should have it because we are friends now. Take good care of it!^^ - Jas",
+
+	"atelierbotanicals_leah_gift.name":"Ancient Herbs",
+	"atelierbotanicals_leah_gift.text":"@, ^^ I found some wild yarrow while out foraging in the forest! I don't know if you know this, but it's been used for centuries in things like medicine, religion and even witchcraft! I wonder what else is out in the forest? ^^ - Leah",
+
+	"atelierbotanicals_abigail_gift.name":"Look What I Found in the Forest!",
+	"atelierbotanicals_abigail_gift.text":"@, ^^ Look at the size of this mushroom! It's amazing! I...don't think I should eat it but I will be tempted if I keep it so I'm sending it to you instead. Enjoy! ^^ - Abigail",
+
+
+
+
+
+
+
+
+
+
+
+}

@@ -1,0 +1,29 @@
+{
+    "Changes": [
+        
+    //////////////////
+	// ADD TEXTURES //
+	//////////////////
+    
+{
+    "Action": "Load",
+    "Target": "Mods/wildflour.ateliercrops/CropsWF, Mods/wildflour.ateliercrops/FruitTreesWF, Mods/wildflour.ateliercrops/GiantCropsWF, Mods/wildflour.ateliercrops/ObjectsWF",
+    "FromFile": "assets/{{TargetWithoutPath}}.png"
+},
+
+{
+    "Action": "Load",
+    "Target": "Mods/wildflour.ateliercrops/CropsFG, Mods/wildflour.ateliercrops/FruitTreesFG, Mods/wildflour.ateliercrops/ObjectsFG",
+    "FromFile": "assets/{{TargetWithoutPath}}.png"
+},
+
+{
+    "Action": "Load",
+    "Target": "Mods/wildflour.ateliercrops/StrangeCap_spring, Mods/wildflour.ateliercrops/StrangeCap_summer, Mods/wildflour.ateliercrops/StrangeCap_fall, Mods/wildflour.ateliercrops/StrangeCap_winter, Mods/wildflour.ateliercrops/MysticTrumpet_spring, Mods/wildflour.ateliercrops/MysticTrumpet_summer, Mods/wildflour.ateliercrops/MysticTrumpet_fall, Mods/wildflour.ateliercrops/MysticTrumpet_winter, Mods/wildflour.ateliercrops/WitchwoodTree_spring, Mods/wildflour.ateliercrops/WitchwoodTree_summer, Mods/wildflour.ateliercrops/WitchwoodTree_fall, Mods/wildflour.ateliercrops/WitchwoodTree_winter",
+    "FromFile": "assets/{{TargetWithoutPath}}.png"
+}
+
+
+       
+    ]
+}

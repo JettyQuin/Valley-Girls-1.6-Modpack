@@ -1,0 +1,188 @@
+{
+    "Changes": [
+
+{
+    "LogName": "Add H&W Mixology Machines to BigCraftables",
+    "Action": "EditData",
+    "Target": "Data/BigCraftables",
+    "Entries": {
+        "HXW.Mixology_DrinkBar": {
+            "Name": "HXW.Mixology_DrinkBar",
+            "DisplayName": "{{i18n:Mixology_DrinkBar.name}}",
+            "Description": "{{i18n:Mixology_DrinkBar.description}}",
+            "Price": 50,
+            "Fragility": 0,
+            "CanBePlacedOutdoors": true,
+            "CanBePlacedIndoors": true,
+            "IsLamp": false,
+            "Texture": "Mods\\HXW.Mixology\\Machines",
+            "SpriteIndex": 0,
+            "CustomFields": {}
+          }
+    }
+},
+
+
+{
+    "LogName": "GP Distilling Station Booze Adds",
+    "Action": "EditData",
+    "Target": "Data/Machines",
+    "When":{"Cocktails": true},
+    "TargetField": ["(BC)wildflour.gourmetpantry_SyrupMaker", "OutputRules"],
+    "Entries": {
+
+        "wildflour.gourmetpantry_SyrupMaker_Brandy": {
+            "Id": "wildflour.gourmetpantry_SyrupMaker_Brandy",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "(O)348",
+                    "RequiredCount": 2
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "HXW.Mixology_brandy",
+                    "ItemId": "(O)HXW.Mixology_brandy",
+                    "PriceModifiers": 
+                    [
+                        {
+                            "Modification": "Multiply",
+                            "Amount": 1.5
+                        }
+                    ]
+                   
+                }
+            ],
+            "MinutesUntilReady": 240
+        },
+        "wildflour.gourmetpantry_SyrupMaker_gin": {
+            "Id": "wildflour.gourmetpantry_SyrupMaker_gin",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "(O)262",
+                    "RequiredCount": 2
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "HXW.Mixology_gin",
+                    "ItemId": "(O)HXW.Mixology_gin",
+                    "PriceModifiers": 
+                    [
+                        {
+                            "Modification": "Multiply",
+                            "Amount": 2.0
+                        }
+                    ]
+                   
+                }
+            ],
+            "MinutesUntilReady": 240
+        },
+        "wildflour.gourmetpantry_SyrupMaker_rum": {
+            "Id": "wildflour.gourmetpantry_SyrupMaker_rum",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "(O)245",
+                    "RequiredCount": 2
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "HXW.Mixology_rum",
+                    "ItemId": "(O)HXW.Mixology_rum",
+                    "PriceModifiers": 
+                    [
+                        {
+                            "Modification": "Multiply",
+                            "Amount": 2.0
+                        }
+                    ]
+                   
+                }
+            ],
+            "MinutesUntilReady": 240
+        },
+        "wildflour.gourmetpantry_SyrupMaker_tequila": {
+            "Id": "wildflour.gourmetpantry_SyrupMaker_tequila",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "(O)90",
+                    "RequiredCount": 2
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "HXW.Mixology_tequila",
+                    "ItemId": "(O)HXW.Mixology_tequila",
+                    "PriceModifiers": 
+                    [
+                        {
+                            "Modification": "Multiply",
+                            "Amount": 2.0
+                        }
+                    ]
+                   
+                }
+            ],
+            "MinutesUntilReady": 240
+        },
+        "wildflour.gourmetpantry_SyrupMaker_whiskey": {
+            "Id": "wildflour.gourmetpantry_SyrupMaker_whiskey",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "(O)270",
+                    "RequiredCount": 2
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "HXW.Mixology_whiskey",
+                    "ItemId": "(O)HXW.Mixology_whiskey",
+                    "PriceModifiers": 
+                    [
+                        {
+                            "Modification": "Multiply",
+                            "Amount": 2.0
+                        }
+                    ]
+                   
+                }
+            ],
+            "MinutesUntilReady": 240
+        },
+        "wildflour.gourmetpantry_SyrupMaker_vodka": {
+            "Id": "wildflour.gourmetpantry_SyrupMaker_vodka",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "(O)192",
+                    "RequiredCount": 2
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "HXW.Mixology_vodka",
+                    "ItemId": "(O)HXW.Mixology_vodka",
+                    "PriceModifiers": 
+                    [
+                        {
+                            "Modification": "Multiply",
+                            "Amount": 2.0
+                        }
+                    ]
+                   
+                }
+            ],
+            "MinutesUntilReady": 240
+        }
+    }
+}
+ 
+]
+}

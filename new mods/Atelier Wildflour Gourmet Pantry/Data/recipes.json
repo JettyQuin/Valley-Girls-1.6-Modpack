@@ -1,0 +1,37 @@
+{
+  "Changes": [
+    
+//////////////////////
+// CRAFTING RECIPES //
+//////////////////////
+
+    {
+	    "LogName": "GP Crafting Recipes",
+      "Action": "EditData",
+      "Target": "Data/CraftingRecipes",
+      "Entries": {
+			"wildflour.gourmetpantry_KitchenMortar": "335 2 388 50 80 2/Home/wildflour.gourmetpantry_KitchenMortar/true/null/{{i18n: gourmetpantry_KitchenMortar.name}}",
+			"wildflour.gourmetpantry_KitchenBlender": "335 2 388 50 330 10/Home/wildflour.gourmetpantry_KitchenBlender/true/null/{{i18n: gourmetpantry_KitchenBlender.name}}",
+      "wildflour.gourmetpantry_YogurtBowl": "335 2 388 50 wildflour.ateliercrops_milkshroom 5/Home/wildflour.gourmetpantry_YogurtBowl/true/default/{{i18n: gourmetpantry_YogurtBowl.name}}",
+      "wildflour.gourmetpantry_SyrupMaker": "335 2 388 50 245 10/Home/wildflour.gourmetpantry_SyrupMaker/true/default/{{i18n: gourmetpantry_SyrupMaker.name}}"
+			
+      }
+    },
+
+/////////////////////
+// COOKING RECIPES //
+/////////////////////
+
+{
+    "LogName": "GP Cooking Recipes",
+    "Action": "EditData",
+    "Target": "Data/CookingRecipes",
+    "Entries": {
+    "wildflour.gourmetpantry_semisweet_chocolate": "wildflour.gourmetpantry_bittersweet_chocolate 1 -6 1/25 5/wildflour.gourmetpantry_semisweet_chocolate/default/{{i18n: gourmetpantry_semisweet_chocolate.name}}",
+    "wildflour.gourmetpantry_white_chocolate": "wildflour.gourmetpantry_semisweet_chocolate 1 -6 1/25 5/wildflour.gourmetpantry_white_chocolate/default/{{i18n: gourmetpantry_white_chocolate.name}}"
+    
+    }
+  }
+
+  ]
+}

@@ -1,0 +1,301 @@
+{
+
+//MACHINES
+
+"atelierfrozen_BlastChiller.name":"Blast Chiller",
+"atelierfrozen_BlastChiller.description":"A mini freezer that you can use to create frozen treats!",
+
+"atelierfrozen_TreatMaker.name":"Frozen Treat Machine",
+"atelierfrozen_TreatMaker.description":"A machine for churning homemade ice creams and frozen yogurts.",
+
+///////////////////////////
+// MACHINE NOTIFICATIONS //
+///////////////////////////
+
+"atelierfrozen_BlastChiller_InvalidItem.message": "Cannot Process This",
+"atelierfrozen_BlastChiller_InvalidCount.message": "Requires Powdermelon",
+
+"atelierfrozen_TreatMaker_InvalidItem.message": "Cannot Process This",
+"atelierfrozen_TreatMaker_InvalidCount.message": "Requires Powdermelon",
+
+/////STRINGS//////
+
+"atelierfrozen_fruit_popsicle.name": "and Cream Popsicle",
+
+//ICE CREAM CUP
+
+"atelierfrozen_cake_froyo.name": "Birthday Cake Froyo",
+"atelierfrozen_cake_froyo.description": "A cup of freshly made frozen yogurt - delicious!",
+
+"atelierfrozen_blueberry_froyo.name": "Blueberry Cheesecake Froyo",
+"atelierfrozen_blueberry_froyo.description": "A cup of freshly made frozen yogurt - delicious!",
+
+"atelierfrozen_cheesecake_froyo.name": "Cheesecake Froyo",
+"atelierfrozen_cheesecake_froyo.description": "A cup of freshly made frozen yogurt - delicious!",
+
+"atelierfrozen_cherrychoco_froyo.name": "Cherry Chocolate Froyo",
+"atelierfrozen_cherrychoco_froyo.description": "A cup of freshly made frozen yogurt - delicious!",
+
+"atelierfrozen_fruity_froyo.name": "Fruity Froyo",
+"atelierfrozen_fruity_froyo.description": "A cup of freshly made frozen yogurt - delicious!",
+
+"atelierfrozen_choco_froyo.name": "Chocolate Froyo",
+"atelierfrozen_choco_froyo.description": "A cup of freshly made frozen yogurt - delicious!",
+
+"atelierfrozen_lemon_froyo.name": "Lemon Sherbet",
+"atelierfrozen_lemon_froyo.description": "Fresh fruit blended with cream into a light and sweet sherbet.",
+
+"atelierfrozen_mango_froyo.name": "Mango Sherbet",
+"atelierfrozen_mango_froyo.description": "Fresh fruit blended with cream into a light and sweet sherbet.",
+
+"atelierfrozen_melon_froyo.name": "Melon Sherbet",
+"atelierfrozen_melon_froyo.description": "Fresh fruit blended with cream into a light and sweet sherbet.",
+
+"atelierfrozen_mintchoco_froyo.name": "Mint Chocolate Froyo",
+"atelierfrozen_mintchoco_froyo.description": "A cup of freshly made frozen yogurt - delicious!",
+
+"atelierfrozen_orange_froyo.name": "Orange Sherbet",
+"atelierfrozen_orange_froyo.description": "Fresh fruit blended with cream into a light and sweet sherbet.",
+
+"atelierfrozen_pumpkin_froyo.name": "Pumpkin Spice Froyo",
+"atelierfrozen_pumpkin_froyo.description": "A cup of freshly made frozen yogurt - delicious!",
+
+"atelierfrozen_starfruit_froyo.name": "Starfruit Sherbet",
+"atelierfrozen_starfruit_froyo.description": "Fresh fruit blended with cream into a light and sweet sherbet.",
+
+"atelierfrozen_gem_froyo.name": "Sweet Gem Froyo",
+"atelierfrozen_gem_froyo.description": "A cup of freshly made frozen yogurt - delicious!",
+
+"atelierfrozen_wildberry_froyo.name": "Wild Berry Froyo",
+"atelierfrozen_wildberry_froyo.description": "A cup of freshly made frozen yogurt - delicious!",
+
+//ICE CREAM CONE
+
+"atelierfrozen_ancient_cone.name": "Ancient Ice Cream",
+"atelierfrozen_ancient_cone.description": "Homemade ice cream atop atop a waffle cone.",
+
+"atelierfrozen_apple_cone.name": "Apple Pie Ice Cream",
+"atelierfrozen_apple_cone.description": "Homemade ice cream atop a waffle cone.",
+
+"atelierfrozen_cherrynut_cone.name": "Cherry Almond Ice Cream",
+"atelierfrozen_cherrynut_cone.description": "Homemade ice cream atop a waffle cone.",
+
+"atelierfrozen_cherryblossom_cone.name": "Sakura Ice Cream",
+"atelierfrozen_cherryblossom_cone.description": "Homemade ice cream atop a waffle cone.",
+
+"atelierfrozen_chocolate_cone.name": "Chocolate Ice Cream",
+"atelierfrozen_chocolate_cone.description": "Homemade ice cream atop a waffle cone.",
+
+"atelierfrozen_coconut_cone.name": "Coconut Ice Cream",
+"atelierfrozen_coconut_cone.description": "Homemade ice cream atop a waffle cone.",
+
+"atelierfrozen_coffee_cone.name": "Coffee Ice Cream",
+"atelierfrozen_coffee_cone.description": "Homemade ice cream atop a waffle cone.",
+
+"atelierfrozen_cookie_dough_cone.name": "Cookie Dough Ice Cream",
+"atelierfrozen_cookie_dough_cone.description": "Homemade ice cream atop a waffle cone.",
+
+"atelierfrozen_cookie_cone.name": "Cookies n Creme Ice Cream",
+"atelierfrozen_cookie_cone.description": "Homemade ice cream atop a waffle cone.",
+
+"atelierfrozen_horchata_cone.name": "Horchata Ice Cream",
+"atelierfrozen_horchata_cone.description": "Homemade ice cream atop a waffle cone.",
+
+"atelierfrozen_lavender_cone.name": "Lavender Lemon Ice Cream",
+"atelierfrozen_lavender_cone.description": "Homemade ice cream atop a waffle cone.",
+
+"atelierfrozen_maple_cone.name": "Maple Walnut Ice Cream",
+"atelierfrozen_maple_cone.description": "Homemade ice cream atop a waffle cone.",
+
+"atelierfrozen_mint_cone.name": "Mint Chocolate Ice Cream",
+"atelierfrozen_mint_cone.description": "Homemade ice cream atop a waffle cone.",
+
+"atelierfrozen_pistachio_cone.name": "Pistachio Ice Cream",
+"atelierfrozen_pistachio_cone.description": "Homemade ice cream atop a waffle cone.",
+
+"atelierfrozen_strawberry_cone.name": "Strawberries n Cream Ice Cream",
+"atelierfrozen_strawberry_cone.description": "Homemade ice cream atop a waffle cone.",
+
+"atelierfrozen_vanilla_cone.name": "Vanilla Bean Ice Cream",
+"atelierfrozen_vanilla_cone.description": "Homemade ice cream atop a waffle cone.",
+
+//MILKSHAKES
+
+"atelierfrozen_choco_milkshake.name": "Chocolate Milkshake",
+"atelierfrozen_choco_milkshake.description": "Ice cream blended into a drinkable frozen treat!",
+
+"atelierfrozen_candy_milkshake.name": "Cotton Candy Milkshake",
+"atelierfrozen_candy_milkshake.description": "Ice cream blended into a drinkable frozen treat!",
+
+"atelierfrozen_orange_milkshake.name": "Orange Creamsicle Milkshake",
+"atelierfrozen_orange_milkshake.description": "Ice cream blended into a drinkable frozen treat!",
+
+"atelierfrozen_earlgrey_milkshake.name": "Earl Grey Milkshake",
+"atelierfrozen_earlgrey_milkshake.description": "Ice cream blended into a drinkable frozen treat!",
+
+"atelierfrozen_lime_milkshake.name": "Key Lime Pie Milkshake",
+"atelierfrozen_lime_milkshake.description": "Ice cream blended into a drinkable frozen treat!",
+
+"atelierfrozen_colada_milkshake.name": "Pina Colada Milkshake",
+"atelierfrozen_colada_milkshake.description": "Ice cream blended into a drinkable frozen treat!",
+
+"atelierfrozen_pumpkin_milkshake.name": "Pumpkin Spice Milkshake",
+"atelierfrozen_pumpkin_milkshake.description": "Ice cream blended into a drinkable frozen treat!",
+
+"atelierfrozen_strawberry_milkshake.name": "Strawberry Milkshake",
+"atelierfrozen_strawberry_milkshake.description": "Ice cream blended into a drinkable frozen treat!",
+
+"atelierfrozen_vanilla_milkshake.name": "Vanilla Bean Milkshake",
+"atelierfrozen_vanilla_milkshake.description": "Ice cream blended into a drinkable frozen treat!",
+
+//POPSICLES
+
+"atelierfrozen_ancient_popsicle.name": "Ancient Popsicle",
+"atelierfrozen_ancient_popsicle.description": "Frozen fruit juice on a stick - an adorable summer treat.",
+
+"atelierfrozen_blueberry_popsicle.name": "Blueberry Popsicle",
+"atelierfrozen_blueberry_popsicle.description": "Frozen fruit juice on a stick - an adorable summer treat.",
+
+"atelierfrozen_cherry_popsicle.name": "Cherry Popsicle",
+"atelierfrozen_cherry_popsicle.description": "Frozen fruit juice on a stick - an adorable summer treat.",
+
+"atelierfrozen_coconut_popsicle.name": "Coconut Popsicle",
+"atelierfrozen_coconut_popsicle.description": "Frozen fruit juice on a stick - an adorable summer treat.",
+
+"atelierfrozen_fruity_popsicle.name": "Fruity Popsicle",
+"atelierfrozen_fruity_popsicle.description": "Frozen fruit juice on a stick - an adorable summer treat.",
+
+"atelierfrozen_grape_popsicle.name": "Grape Popsicle",
+"atelierfrozen_grape_popsicle.description": "Frozen fruit juice on a stick - an adorable summer treat.",
+
+"atelierfrozen_lemon_popsicle.name": "Lemon Popsicle",
+"atelierfrozen_lemon_popsicle.description": "Frozen fruit juice on a stick - an adorable summer treat.",
+
+"atelierfrozen_lime_popsicle.name": "Lime Popsicle",
+"atelierfrozen_lime_popsicle.description": "Frozen fruit juice on a stick - an adorable summer treat.",
+
+"atelierfrozen_gem_popsicle.name": "Gem Popsicle",
+"atelierfrozen_gem_popsicle.description": "Frozen fruit juice on a stick - an adorable summer treat.",
+
+"atelierfrozen_mango_popsicle.name": "Mango Popsicle",
+"atelierfrozen_mango_popsicle.description": "Frozen fruit juice on a stick - an adorable summer treat.",
+
+"atelierfrozen_melon_popsicle.name": "Melon Popsicle",
+"atelierfrozen_melon_popsicle.description": "Frozen fruit juice on a stick - an adorable summer treat.",
+
+"atelierfrozen_orange_popsicle.name": "Orange Popsicle",
+"atelierfrozen_orange_popsicle.description": "Frozen fruit juice on a stick - an adorable summer treat.",
+
+"atelierfrozen_peach_popsicle.name": "Peach Popsicle",
+"atelierfrozen_peach_popsicle.description": "Frozen fruit juice on a stick - an adorable summer treat.",
+
+"atelierfrozen_pineapple_popsicle.name": "Pineapple Popsicle",
+"atelierfrozen_pineapple_popsicle.description": "Frozen fruit juice on a stick - an adorable summer treat.",
+
+"atelierfrozen_starfruit_popsicle.name": "Starfruit Popsicle",
+"atelierfrozen_starfruit_popsicle.description": "Frozen fruit juice on a stick - an adorable summer treat.",
+
+"atelierfrozen_strawberry_popsicle.name": "Strawberry Popsicle",
+"atelierfrozen_strawberry_popsicle.description": "Frozen fruit juice on a stick - an adorable summer treat.",
+
+"atelierfrozen_raspberry_popsicle.name": "Raspberry Popsicle",
+"atelierfrozen_raspberry_popsicle.description": "Frozen fruit juice on a stick - an adorable summer treat.",
+
+"atelierfrozen_wildberry_popsicle.name": "Wild Berry Popsicle",
+"atelierfrozen_wildberry_popsicle.description": "Frozen fruit juice on a stick - an adorable summer treat.",
+
+//ICE CREAM SANDWICHES
+
+"atelierfrozen_cinnamon_chocolate_sandwich.name": "Cinnamon Chocolate Ice Cream Sandwich",
+"atelierfrozen_cinnamon_chocolate_sandwich.description": "Ice cream sandwiched between two chocolate cake-like cookies. Yum!",
+
+"atelierfrozen_mint_chocolate_sandwich.name": "Mint Chocolate Ice Cream Sandwich",
+"atelierfrozen_mint_chocolate_sandwich.description": "Ice cream sandwiched between two chocolate cake-like cookies. Yum!",
+
+"atelierfrozen_mocha_coconut_sandwich.name": "Mocha Coconut Ice Cream Sandwich",
+"atelierfrozen_mocha_coconut_sandwich.description": "Ice cream sandwiched between two chocolate cake-like cookies. Yum!",
+
+"atelierfrozen_mocha_sandwich.name": "Mocha Ice Cream Sandwich",
+"atelierfrozen_mocha_sandwich.description": "Ice cream sandwiched between two chocolate cake-like cookies. Yum!",
+
+"atelierfrozen_pistachio_sandwich.name": "Pistachio Ice Cream Sandwich",
+"atelierfrozen_pistachio_sandwich.description": "Ice cream sandwiched between two chocolate cake-like cookies. Yum!",
+
+"atelierfrozen_strawberry_sandwich.name": "Strawberry Ice Cream Sandwich",
+"atelierfrozen_strawberry_sandwich.description": "Ice cream sandwiched between two chocolate cake-like cookies. Yum!",
+
+"atelierfrozen_vanilla_sandwich.name": "Vanilla Bean Ice Cream Sandwich",
+"atelierfrozen_vanilla_sandwich.description": "Ice cream sandwiched between two chocolate cake-like cookies. Yum!",
+
+//MAIL
+
+"atelierfrozen_TreatMakerRecipe.text":"@, ^^ In ancient times, villagers would travel up to snow-capped mountains to get ice, then carry it all the way down to the village to make frozen delicacies. I'm glad we have science now.^^ - Demetrius",
+"atelierfrozen_ChillerRecipe.text":"@, ^^I wanted to share the blueprints I just created for a blast chiller with you. With this, you can make some amazing popiscles with fruits from your farm! Maybe you could drop by and share a few ? I know Demetrius and Maru would love that!^^ - Robin",
+"atelierfrozen_vincent_gift.text":"@, ^^ I SCREAM FOR ICE CREAM! Wouldn't it be cool if you screamed that and then ice cream just magically appeared in your hand? I would lose my voice I'd be shouting for ice cream all day long! Can you make some ice cream with these I found them in the woods they smell nice.^^ - Vincent",
+"atelierfrozen_jodi_gift.text":"@, ^^ Vincent has been so excited about ice cream I'm concerned he will go overboard. Can you try making frozen yogurt and see if he'll eat it instead? At least then I'll feel like he's eating something healthier.^^ - Jodi",
+"atelierfrozen_sam_gift.text":"@, ^^ Making homemade ice cream huh? Is there anything you won't try? Seriously though that sounds super cool! I think these mushrooms might help you I think I read about them producing milk somewhere but I hope they aren't poisonous...^^ - Sam",
+
+////////////////////
+// SPECIAL ORDERS //
+////////////////////
+
+"atelierfrozen_SO_1.name":"Milkshake Brings Dwarves to the Yard",
+"atelierfrozen_SO_1.text":"You're saying milk...can also be turned into other drinks? That sounds intriguing. I'd be willing to pay good gold to sample some of these strange concoctions.",
+"atelierfrozen_SO_1a.deliver":"Deliver 1 Vanilla Milkshake to the Dwarf.",
+"atelierfrozen_SO_1b.deliver":"Deliver 1 Strawberry Milkshake to the Dwarf.",
+"atelierfrozen_SO_1c.deliver":"Deliver 1 Chocolate Milkshake to the Dwarf.",
+"atelierfrozen_SO_1.accept":"So it's called a...milkshake? Fascinating. Cold and sweet...you humans are truly an intriguing people.",
+
+"atelierfrozen_SO_2.name":"Pensive about Popsicles",
+"atelierfrozen_SO_2.text":"I've seen the little ones in town holding sticks with colorful ice cubes attached...I would very much like to try them!",
+"atelierfrozen_SO_2.deliver":"Deliver 6 popsicles to Krobus.",
+"atelierfrozen_SO_2.accept":"Thank you! I am most eager to try these.",
+
+"atelierfrozen_SO_3.name":"Ice Cream Party",
+"atelierfrozen_SO_3.text":"I'm throwing a fancy ice cream party and I need help picking out which flavors I should include on the menu!",
+"atelierfrozen_SO_3a.deliver":"Deliver 3 lemon sherbets to the drop box in Jodi's kitchen.",
+"atelierfrozen_SO_3b.deliver":"Deliver 3 mint chocolate froyos to the drop box in Jodi's kitchen.",
+"atelierfrozen_SO_3c.deliver":"Deliver 3 lemon lavender ice creams to the drop box in Jodi's kitchen.",
+"atelierfrozen_SO_3d.deliver":"Deliver 3 horchata ice creams to the drop box in Jodi's kitchen.",
+
+"atelierfrozen_SO_4.name":"Sweet Sandwiches",
+"atelierfrozen_SO_4.text":"I've been feeling nostalgic for my favorite childhood treat: the ice cream sandwich. Maru says they come in tons of different flavors now. Can someone bring me a few to try?",
+"atelierfrozen_SO_4a.deliver":"Deliver 2 mocha ice cream sandwiches to the dropbox in Demetrius's Lab.",
+"atelierfrozen_SO_4b.deliver":"Deliver 2 pistachio ice cream sandwiches to the dropbox in Demetrius's Lab.",
+"atelierfrozen_SO_4c.deliver":"Deliver 2 strawberry ice cream sandwiches to the dropbox in Demetrius's Lab.",
+"atelierfrozen_SO_4d.deliver":"Deliver 2 mocha coconut ice cream sandwiches to the dropbox in Demetrius's Lab.",
+
+"atelierfrozen_SO_5.name":"Frozen Feast Challenge",
+"atelierfrozen_SO_5.text":"It's that time of year again - annual applications for the Frozen Feast Challenge are officially open! Send us your frozen treats to see if you can earn the grand prize!",
+"atelierfrozen_SO_5.ship":"Ship 100 gold quality frozen treats.",
+
+"atelierfrozen_SO_6.name":"Milkshakes for Kent",
+"atelierfrozen_SO_6.text":"I'd like to surprise the family with a special treat. Maybe milkshakes would do the trick?",
+"atelierfrozen_SO_6.deliver":"Deliver 4 milkshakes to Kent.",
+"atelierfrozen_SO_6.accept":"The family is going to love these! Thanks a bunch, friend.",
+
+"atelierfrozen_SO_7.name":"Popsicles for Elliott",
+"atelierfrozen_SO_7.text":"I am in need of popsicles for literary inspiration! Why you ask? I cannot possibly explain but I simply MUST have some popsicles!",
+"atelierfrozen_SO_7.deliver":"Deliver 4 popsicles to Elliott.",
+"atelierfrozen_SO_7.accept":"Popsicle perfection! Thank you, now I must ponder the popsicles in silence.",
+
+"atelierfrozen_SO_8.name":"Ice Cream for Gus",
+"atelierfrozen_SO_8.text":"I want to start serving frozen desserts at the saloon. Can anyone help me set up my menu?",
+"atelierfrozen_SO_8.deliver":"Deliver 12 ice creams to Gus.",
+"atelierfrozen_SO_8.accept":"These are going to go over well with everybody at the saloon! Thanks so much!",
+
+//FROZEN REWARDS MAIL
+ 
+"atelierfrozen_SO2_reward.title": "Thanks!",
+"atelierfrozen_SO2_reward.text": "@,^^^ Popsicles. What a wonderful invention. You'll have to teach me how to make them one day. I hope these treasures from the mine help you make many more popsicles.^^-Krobus",
+
+"atelierfrozen_SO3_reward.title": "Thank you!",
+"atelierfrozen_SO3_reward.text": "@,^^^ The menu is perfect now thanks to you!!^^-Jodi",
+
+"atelierfrozen_SO4_reward.title": "Thank you!",
+"atelierfrozen_SO4_reward.text": "@,^^^ These sandwiches really take me back. Thanks again!^^-Jodi",
+
+"atelierfrozen_SO5_reward.title": "Congratulations!",
+"atelierfrozen_SO5_reward.text": "Dear @,^^^ Your dedication is impressive. We are proud to offer you 1st prize in the Frozen Feast Contest. Please take this as a reward.",
+   
+}

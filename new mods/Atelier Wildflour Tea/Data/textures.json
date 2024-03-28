@@ -1,0 +1,21 @@
+{
+    "Changes": [
+        
+    //////////////////
+	// ADD TEXTURES //
+	//////////////////
+    
+    {
+        "Action": "Load",
+        "Target": "Mods/wildflour.ateliertea/Objects",
+        "FromFile": "assets/{{TargetWithoutPath}}.png"
+    },
+
+    {
+        "Action": "Load",
+        "Target": "Mods/wildflour.ateliertea/Machines_Base, Mods/wildflour.ateliertea/Machines_Black, Mods/wildflour.ateliertea/Machines_Blue, Mods/wildflour.ateliertea/Machines_Cream, Mods/wildflour.ateliertea/Machines_Mocha, Mods/wildflour.ateliertea/Machines_Pink, Mods/wildflour.ateliertea/Machines_Purple,",
+        "FromFile": "assets/{{TargetWithoutPath}}.png"
+    }
+
+    ]
+}

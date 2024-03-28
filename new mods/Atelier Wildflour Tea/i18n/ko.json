@@ -1,0 +1,245 @@
+{
+
+//KETTLE
+
+"ateliertea_TeaKettle.name":"차 주전자",
+"ateliertea_TeaKettle.description":"포장된 티백을 만들고 맛있는 차를 끓일 수 있습니다!",
+
+//TEA SACHETS
+
+"ateliertea_apple_sachet.name": "가을 사과 티백",
+"ateliertea_apple_sachet.description": "따뜻한 향신료가 아삭아삭한 사과와 섞여서, 이 차는 쌀쌀한 가을 오후에 마시기 좋습니다.",
+
+"ateliertea_vanilla_sachet.name": "칼리코 바닐라 티백",
+"ateliertea_vanilla_sachet.description": "이 바닐라와 찻잎을 섞은 차는 몸과 마음을 진정시키는 데 좋습니다.",
+
+"ateliertea_matcha_sachet.name": "의식을 위한 말차 티백",
+"ateliertea_matcha_sachet.description": "처음으로 수확한 잎을 사용해서 만드는, 의식용으로도 좋은 찻잎.",
+
+"ateliertea_cinnamon_sachet.name": "시나몬 티백",
+"ateliertea_cinnamon_sachet.description": "잉걸불 수액 계피와 찻잎의 조합은 차를 끓이기에 완벽합니다.",
+
+"ateliertea_chamomile_sachet.name": "포근한 캐모마일 티백",
+"ateliertea_chamomile_sachet.description": "말린 캐모마일 꽃과 진정에 좋은 허브를 혼합해서 진정시키는 차를 만들 수 있습니다.",
+
+"ateliertea_breakfast_sachet.name": "브렉퍼스트 티백",
+"ateliertea_breakfast_sachet.description": "풍부한 바디감으로 널리 알려진 차를 끓일 수 있습니다.",
+
+"ateliertea_jasmine_sachet.name": "향기로운 자스민 티백",
+"ateliertea_jasmine_sachet.description": "향긋한 쟈스민과 찻잎의 조합은 차를 끓이기에 완벽합니다.",
+
+"ateliertea_ginger_sachet.name": "생강 복숭아 티백",
+"ateliertea_ginger_sachet.description": "복숭아의 달콤한 과육과 생강의 알싸함을 향신료로 더해 만든 차.",
+
+"ateliertea_grey_sachet.name": "레이디 그레이 티백",
+"ateliertea_grey_sachet.description": "얼 그레이보다 좀 더 부드러운 맛의 힌트를 주자면, 약간의 레몬과 오렌지를 더하면 됩니다.",
+
+"ateliertea_lemon_sachet.name": "레몬 생강 티백",
+"ateliertea_lemon_sachet.description": "상큼한 레몬과 말린 생강의 향긋함이 어우러진 상쾌한 차.",
+
+"ateliertea_mint_sachet.name": "메리 민트 티백",
+"ateliertea_mint_sachet.description": "감기나 독감의 완화를 위해 자주 마시는 상쾌한 차.",
+
+"ateliertea_berry_sachet.name": "믹스베리 티백",
+"ateliertea_berry_sachet.description": "신선한 베리의 향으로 가득한 차.",
+
+"ateliertea_peach_sachet.name": "복숭아 망고 티백",
+"ateliertea_peach_sachet.description": "풍부하고 달콤한 복숭아와 망고의 향기!",
+
+"ateliertea_pineapple_sachet.name": "파인애플 코코넛 차 티백",
+"ateliertea_pineapple_sachet.description": "달콤한 파인애플과 신선한 코코넛을 섞어 여행하는 기분을 낼 수 있습니다.",
+
+"ateliertea_pomegranate_sachet.name": "석류 녹차 티백",
+"ateliertea_pomegranate_sachet.description": "산뜻한 석류를 포인트로 준 생기 넘치는 차.",
+
+"ateliertea_raspberry_sachet.name": "라즈베리 레몬 티백",
+"ateliertea_raspberry_sachet.description": "라즈베리와 레몬의 향이 균형을 이룬 부드러운 펀길 공화국의 대중적인 차.",
+
+"ateliertea_rose_sachet.name": "장미 꽃 티백",
+"ateliertea_rose_sachet.description": "장미의 꽃잎과 꽃봉오리를 섞은 차 .",
+
+"ateliertea_sakura_sachet.name": "벚꽃 티백",
+"ateliertea_sakura_sachet.description": "신선한 벚꽃잎을 섞은 차.",
+
+"ateliertea_strawberry_sachet.name": "야생 딸기 티백",
+"ateliertea_strawberry_sachet.description": "야생의 여름 딸기를 섞은 달콤한 찻잎.",
+
+//TEA
+
+"ateliertea_apple_tea.name": "사과 시나몬 차",
+"ateliertea_apple_tea.description": "갓 우려낸 장인의 차.",
+
+"ateliertea_vanilla_tea.name": "카모마일 허니 바닐라 차",
+"ateliertea_vanilla_tea.description": "갓 우려낸 장인의 차.",
+
+"ateliertea_matcha_tea.name": "말차",
+"ateliertea_matcha_tea.description": "갓 우려낸 장인의 차.",
+
+"ateliertea_cinnamon_tea.name": "시나몬 차",
+"ateliertea_cinnamon_tea.description": "갓 우려낸 장인의 차.",
+
+"ateliertea_chamomile_tea.name": "포근한 카모마일 차",
+"ateliertea_chamomile_tea.description": "갓 우려낸 장인의 차.",
+
+"ateliertea_breakfast_tea.name": "잉글리시 브렉퍼스트",
+"ateliertea_breakfast_tea.description": "갓 우려낸 장인의 차.",
+
+"ateliertea_jasmine_tea.name": "향기로운 자스민 차",
+"ateliertea_jasmine_tea.description": "갓 우려낸 장인의 차.",
+
+"ateliertea_ginger_tea.name": "생강 복숭아 차",
+"ateliertea_ginger_tea.description": "갓 우려낸 장인의 차.",
+
+"ateliertea_grey_tea.name": "그레이 레이드 차",
+"ateliertea_grey_tea.description": "갓 우려낸 장인의 차..",
+
+"ateliertea_lemon_tea.name": "레몬 생강 차",
+"ateliertea_lemon_tea.description": "갓 우려낸 장인의 차.",
+
+"ateliertea_mint_tea.name": "메리 민트 차",
+"ateliertea_mint_tea.description": "갓 우려낸 장인의 차.",
+
+"ateliertea_berry_tea.name": "혼합 베리 차",
+"ateliertea_berry_tea.description": "갓 우려낸 장인의 차.",
+
+"ateliertea_peach_tea.name": "복숭아 망고 차",
+"ateliertea_peach_tea.description": "갓 우려낸 장인의 차.",
+
+"ateliertea_pineapple_tea.name": "파인애플 코코넛 차",
+"ateliertea_pineapple_tea.description": "갓 우려낸 장인의 차.",
+
+"ateliertea_pomegranate_tea.name": "석류 녹차",
+"ateliertea_pomegranate_tea.description": "갓 우려낸 장인의 차.",
+
+"ateliertea_raspberry_tea.name": "라즈베리 레몬 차",
+"ateliertea_raspberry_tea.description": "갓 우려낸 장인의 차.",
+
+"ateliertea_rose_tea.name": "장미 꽃잎 차",
+"ateliertea_rose_tea.description": "갓 우려낸 장인의 차.",
+
+"ateliertea_sakura_tea.name": "벚꽃 차",
+"ateliertea_sakura_tea.description": "갓 우려낸 장인의 차.",
+
+"ateliertea_strawberry_tea.name": "야생 딸기 차",
+"ateliertea_strawberry_tea.description": "갓 우려낸 장인의 차.",
+
+//KOMBUCHA
+
+"ateliertea_apple_kombucha.name": "가을 사과 콤부차",
+"ateliertea_apple_kombucha.description": "꿀과 함께 발효시켜 상쾌한 탄산 음료로 만든 차.",
+
+"ateliertea_vanilla_kombucha.name": "칼리코 바닐라 콤부차",
+"ateliertea_vanilla_kombucha.description": "꿀과 함께 발효시켜 상쾌한 탄산 음료로 만든 차.",
+
+"ateliertea_matcha_kombucha.name": "의식용 말차 콤부차",
+"ateliertea_matcha_kombucha.description": "꿀과 함께 발효시켜 상쾌한 탄산 음료로 만든 차.",
+
+"ateliertea_cinnamon_kombucha.name": "시나몬 스파이스 콤부차",
+"ateliertea_cinnamon_kombucha.description": "꿀과 함께 발효시켜 상쾌한 탄산 음료로 만든 차.",
+
+"ateliertea_chamomile_kombucha.name": "포근한 카모마일 콤부차",
+"ateliertea_chamomile_kombucha.description": "꿀과 함께 발효시켜 상쾌한 탄산 음료로 만든 차.",
+
+"ateliertea_breakfast_kombucha.name": "잉글리시 브랙퍼스트 콤부차",
+"ateliertea_breakfast_kombucha.description": "꿀과 함께 발효시켜 상쾌한 탄산 음료로 만든 차.",
+
+"ateliertea_jasmine_kombucha.name": "향기로운 자스민 콤부차",
+"ateliertea_jasmine_kombucha.description": "꿀과 함께 발효시켜 상쾌한 탄산 음료로 만든 차.",
+
+"ateliertea_ginger_kombucha.name": "생강 복숭아 콤부차",
+"ateliertea_ginger_kombucha.description": "꿀과 함께 발효시켜 상쾌한 탄산 음료로 만든 차.",
+
+"ateliertea_grey_kombucha.name": "레이디 그레이 콤부차",
+"ateliertea_grey_kombucha.description": "꿀과 함께 발효시켜 상쾌한 탄산 음료로 만든 차.",
+
+"ateliertea_lemon_kombucha.name": "레몬 생강 콤부차",
+"ateliertea_lemon_kombucha.description": "꿀과 함께 발효시켜 상쾌한 탄산 음료로 만든 차.",
+
+"ateliertea_mint_kombucha.name": "메리 민트 콤부차",
+"ateliertea_mint_kombucha.description": "꿀과 함께 발효시켜 상쾌한 탄산 음료로 만든 차.",
+
+"ateliertea_berry_kombucha.name": "믹스베리 콤부차",
+"ateliertea_berry_kombucha.description": "꿀과 함께 발효시켜 상쾌한 탄산 음료로 만든 차.",
+
+"ateliertea_peach_kombucha.name": "복숭아 망고 콤부차",
+"ateliertea_peach_kombucha.description": "꿀과 함께 발효시켜 상쾌한 탄산 음료로 만든 차.",
+
+"ateliertea_pineapple_kombucha.name": "파인애플 코코넛 콤부차",
+"ateliertea_pineapple_kombucha.description": "꿀과 함께 발효시켜 상쾌한 탄산 음료로 만든 차.",
+
+"ateliertea_pomegranate_kombucha.name": "석류 그린 콤부차",
+"ateliertea_pomegranate_kombucha.description": "꿀과 함께 발효시켜 상쾌한 탄산 음료로 만든 차.",
+
+"ateliertea_raspberry_kombucha.name": "라즈베리 레몬 콤부차",
+"ateliertea_raspberry_kombucha.description": "꿀과 함께 발효시켜 상쾌한 탄산 음료로 만든 차.",
+
+"ateliertea_rose_kombucha.name": "장미 꽃잎 콤부차",
+"ateliertea_rose_kombucha.description": "꿀과 함께 발효시켜 상쾌한 탄산 음료로 만든 차.",
+
+"ateliertea_sakura_kombucha.name": "사쿠라 콤부차",
+"ateliertea_sakura_kombucha.description": "꿀과 함께 발효시켜 상쾌한 탄산 음료로 만든 차.",
+
+"ateliertea_strawberry_kombucha.name": "산딸기 콤부차",
+"ateliertea_strawberry_kombucha.description": "꿀과 함께 발효시켜 상쾌한 탄산 음료로 만든 차.",
+
+//////////
+// MAIL //
+//////////
+
+"ateliertea_TeaKettleRecipe.text":"@, ^^만약 네가 정말로 차를 우리고 싶다면, 이 주전자 중 하나를 만들어 봐야 할거야. 이건 찻잔을 만드는 방식도 같이 있어! 나는 네가 만든 새로운 차를 먹어보고 싶어.^^ - 캐롤라인",
+"ateliertea_evelyn_gift.text":"@, ^^ 차를 끓이는 것에 대해 더 배우고 있다고 들었단다! 너는 정말 멋진 모험을 시작하는거란다, 아가. 자, 여기. 이것들은 내 정원에서 나온 캐모마일 씨앗이란다. 그 꽃으로 잠을 잘 수 있도록 해주는 허브차를 만들 수 있을거야.^^ - 에블린",
+"ateliertea_leah_gift.text":"@, ^^ 차를 우리는 일은 어떻게 되고 있어? 만약 충분한 찻잎을 찾는 데 어려움을 겪고 있다면, 나는 기꺼이 이 씨앗을 공유할거야! 이것들은 네가 원하는 모든 차를 만들 수 있도록 튼튼한 차 덤불로 자랄거야.^^ - 레아",
+"ateliertea_maru_gift.text":"@, ^^ 여러분은 차를 발효시켜 콤부차로 만들 수 있다는 것을 알고 있었나요? 모두가 좋아하는 것은 아니지만(장난은 미안해) 나는 그것이 탄산이 들어서 맛있다고 생각해! 발효를 돕기 위해 이 버섯들 중 일부를 재배하는 것도 좋을 거 같아.^^ - 마루",
+
+
+////////////////////
+// SPECIAL ORDERS //
+////////////////////
+
+"ateliertea_SO_1.name":"티백 재고 추가",
+"ateliertea_SO_1.text":"집에서 만든 찻잎이 다 떨어졌어요. 이번 주를 마무리할 수 있게 티백을 받을 수 있을까요?",
+"ateliertea_SO_1a.deliver":"캐롤라인에게 시나몬 티백 2개 전달.",
+"ateliertea_SO_1b.deliver":"캐롤라인에게 메리 민트 티백 2개 전달.",
+"ateliertea_SO_1c.deliver":"캐롤라인에게 레이디 그레이 티백 2개 전달.",
+"ateliertea_SO_1.accept":"정말 다양한 맛을 가져왔네! 티타임을 즐겁게 보낼 수 있겠어, 정말 고마워.",
+
+"ateliertea_SO_2.name":"티 파티",
+"ateliertea_SO_2.text":"차와 스콘을 즐기기 위한 티 파티를 열 계획인데, 손님들이 다양한 맛을 선택할 수 있게 도와줄 수 있나요?",
+"ateliertea_SO_2a.deliver":"에블린의 집 부엌 상자에 벚꽃 차 2개 넣기.",
+"ateliertea_SO_2b.deliver":"에블린의 집 부엌 상자에 장미꽃 차 2개 넣기.",
+"ateliertea_SO_2c.deliver":"에블린의 집 부엌 상자에 잉글리시 브렉퍼스트 2개 넣기.",
+
+"ateliertea_SO_3.name":"콤부차를 주세요",
+"ateliertea_SO_3.text":"애비게일과 세비가 콤부차가 얼마나 좋은지에 대해 이야기하는 걸 들었어요... 제가 직접 확인할 수 있게 가져다줄 수 있나요?",
+"ateliertea_SO_3a.deliver":"로빈의 목공소 상자에 가을 사과 콤부차 2개 넣기.",
+"ateliertea_SO_3b.deliver":"로빈의 목공소 상자에 라즈베리 레몬 콤부차 2개 넣기.",
+"ateliertea_SO_3c.deliver":"로빈의 목공소 상자에 야생딸기 콤부차 2개 넣기.",
+"ateliertea_SO_3d.deliver":"로빈의 목공소 상자에 석류 녹차 콤부차 2개 넣기.",
+
+"ateliertea_SO_4.name":"잠들기 전의 차",
+"ateliertea_SO_4.text":"피곤하다보니 푹 잠들고 싶어요. 진정에 좋은 허브차를 부탁해도 될까요?",
+"ateliertea_SO_4a.deliver":"조디의 집 부엌 상자에 포근한 캐모마일 티백 3개 넣기.",
+"ateliertea_SO_4b.deliver":"조디의 집 부엌 상자에 메리 민트 티백 3개 넣기.",
+"ateliertea_SO_4c.deliver":"조디의 집 부엌 상자에 칼리코 바닐라 티백 3개 넣기.",
+"ateliertea_SO_4d.deliver":"조디의 집 부엌 상자에 포근한 레몬생강 티백 3개 넣기.",
+
+"ateliertea_SO_5.name":"최고의 차 전문가 챌린지",
+"ateliertea_SO_5.text":"올해도 이 시기가 찾아왔습니다- 최고의 차 전문가를 위한 공식 접수가 시작되었습니다! 대상을 위한 최고의 상품을 보내주세요!",
+"ateliertea_SO_5.ship":"금별 품질의 차 생산품 배송하기.",
+
+"ateliertea_SO_6.name":"알렉스를 위한 콤부차",
+"ateliertea_SO_6.text":"피에르 씨는 아무리 부탁해도 콤부차를 들여놓지 않을 거 같아요. 대신 구해주실 분?",
+"ateliertea_SO_6.deliver":"알렉스에게 콤부차 4개 전달.",
+"ateliertea_SO_6.accept":"콤부차를 가져왔구나!! 이걸 전해줘서 정말 고마워!",
+
+"ateliertea_SO_7.name":"헤일리를 위한 차",
+"ateliertea_SO_7.text":"매번 차를 온라인으로 주문하는 게 정말 피곤합니다. 볼 수도 없는데 품질을 어떻게 알겠어요? 마을에 있는 누군가가 대신 팔아주었으면...",
+"ateliertea_SO_7.deliver":"헤일리에게 차 6개 전달.",
+"ateliertea_SO_7.accept":"이 차는 전부 멋져보이네. 마음 놓고 즐길 수 있겠어 - 정말 고마워!",
+
+"ateliertea_SO_8.name":"샌디를 위한 티백",
+"ateliertea_SO_8.text":"이 더운 사막에서 시원하게 즐길 수 있는 아이스티를 큰 주전자 가득 만들고 싶어요. 누가 티백 좀 넉넉하게 가져와주지 않을래요?",
+"ateliertea_SO_8.deliver":"샌디에게 티백 8개 전달.",
+"ateliertea_SO_8.accept":"이제 사막의 더위에 녹아내리는 기분이 덜 들겠지? 고마워, 자기야.",
+
+}

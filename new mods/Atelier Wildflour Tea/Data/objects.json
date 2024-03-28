@@ -1,0 +1,1022 @@
+{
+    "Changes": [
+        
+
+        {
+            "LogName":"Add Atelier Tea Objects",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "wildflour.ateliertea_apple_sachet": {
+                    "Name": "wildflour.ateliertea_apple_sachet",
+                    "DisplayName": "{{i18n:ateliertea_apple_sachet.name}}",
+                    "Description": "{{i18n:ateliertea_apple_sachet.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": 0,
+                    "Price": 100,
+
+                    "ContextTags":
+                    ["wildflour_tea_item",
+                    "sachet_item",
+                    "color_dark_red"],
+
+                    "Texture": "Mods/wildflour.ateliertea/Objects",
+                    "SpriteIndex": 0
+            },
+                "wildflour.ateliertea_vanilla_sachet": {
+                    "Name": "wildflour.ateliertea_vanilla_sachet",
+                    "DisplayName": "{{i18n:ateliertea_vanilla_sachet.name}}",
+                    "Description": "{{i18n:ateliertea_vanilla_sachet.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": 0,
+                    "Price": 100,
+
+                    "ContextTags":
+                    ["wildflour_tea_item",
+                    "sachet_item",
+                    "color_dark_sand"],
+
+                    "Texture": "Mods/wildflour.ateliertea/Objects",
+                    "SpriteIndex": 1
+            },
+                "wildflour.ateliertea_matcha_sachet": {
+                    "Name": "wildflour.ateliertea_matcha_sachet",
+                    "DisplayName": "{{i18n:ateliertea_matcha_sachet.name}}",
+                    "Description": "{{i18n:ateliertea_matcha_sachet.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": 0,
+                    "Price": 100,
+
+                    "ContextTags":
+                    ["wildflour_tea_item",
+                    "sachet_item",
+                    "color_dark_green"],
+
+                    "Texture": "Mods/wildflour.ateliertea/Objects",
+                    "SpriteIndex": 2
+            },
+                "wildflour.ateliertea_cinnamon_sachet": {
+                    "Name": "wildflour.ateliertea_cinnamon_sachet",
+                    "DisplayName": "{{i18n:ateliertea_cinnamon_sachet.name}}",
+                    "Description": "{{i18n:ateliertea_cinnamon_sachet.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": 0,
+                    "Price": 100,
+
+                    "ContextTags":
+                    ["wildflour_tea_item",
+                    "sachet_item",
+                    "color_dark_brown"],
+
+                    "Texture": "Mods/wildflour.ateliertea/Objects",
+                    "SpriteIndex": 3
+            },
+                "wildflour.ateliertea_chamomile_sachet": {
+                    "Name": "wildflour.ateliertea_chamomile_sachet",
+                    "DisplayName": "{{i18n:ateliertea_chamomile_sachet.name}}",
+                    "Description": "{{i18n:ateliertea_chamomile_sachet.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": 0,
+                    "Price": 100,
+
+                    "ContextTags":
+                    ["wildflour_tea_item",
+                    "sachet_item",
+                    "color_dark_gold"],
+
+                    "Texture": "Mods/wildflour.ateliertea/Objects",
+                    "SpriteIndex": 4
+            },
+                "wildflour.ateliertea_breakfast_sachet": {
+                    "Name": "wildflour.ateliertea_breakfast_sachet",
+                    "DisplayName": "{{i18n:ateliertea_breakfast_sachet.name}}",
+                    "Description": "{{i18n:ateliertea_breakfast_sachet.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": 0,
+                    "Price": 100,
+
+                    "ContextTags":
+                    ["wildflour_tea_item",
+                    "sachet_item",
+                    "color_dark_brown"],
+
+                    "Texture": "Mods/wildflour.ateliertea/Objects",
+                    "SpriteIndex": 5
+            },
+                "wildflour.ateliertea_jasmine_sachet": {
+                    "Name": "wildflour.ateliertea_jasmine_sachet",
+                    "DisplayName": "{{i18n:ateliertea_jasmine_sachet.name}}",
+                    "Description": "{{i18n:ateliertea_jasmine_sachet.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": 0,
+                    "Price": 100,
+
+                    "ContextTags":
+                    ["wildflour_tea_item",
+                    "sachet_item",
+                    "color_jade"],
+
+                    "Texture": "Mods/wildflour.ateliertea/Objects",
+                    "SpriteIndex": 6
+            },
+                "wildflour.ateliertea_ginger_sachet": {
+                    "Name": "wildflour.ateliertea_ginger_sachet",
+                    "DisplayName": "{{i18n:ateliertea_ginger_sachet.name}}",
+                    "Description": "{{i18n:ateliertea_ginger_sachet.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": 0,
+                    "Price": 100,
+
+                    "ContextTags":
+                    ["wildflour_tea_item",
+                    "sachet_item",
+                    "color_sand"],
+
+                    "Texture": "Mods/wildflour.ateliertea/Objects",
+                    "SpriteIndex": 7
+            },
+                "wildflour.ateliertea_grey_sachet": {
+                    "Name": "wildflour.ateliertea_grey_sachet",
+                    "DisplayName": "{{i18n:ateliertea_grey_sachet.name}}",
+                    "Description": "{{i18n:ateliertea_grey_sachet.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": 0,
+                    "Price": 100,
+
+                    "ContextTags":
+                    ["wildflour_tea_item",
+                    "sachet_item",
+                    "color_pale_violet"],
+
+                    "Texture": "Mods/wildflour.ateliertea/Objects",
+                    "SpriteIndex": 8
+            },
+                "wildflour.ateliertea_lemon_sachet": {
+                    "Name": "wildflour.ateliertea_lemon_sachet",
+                    "DisplayName": "{{i18n:ateliertea_lemon_sachet.name}}",
+                    "Description": "{{i18n:ateliertea_lemon_sachet.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": 0,
+                    "Price": 100,
+
+                    "ContextTags":
+                    ["wildflour_tea_item",
+                    "sachet_item",
+                    "color_gold"],
+
+                    "Texture": "Mods/wildflour.ateliertea/Objects",
+                    "SpriteIndex": 9
+            },
+                "wildflour.ateliertea_mint_sachet": {
+                    "Name": "wildflour.ateliertea_mint_sachet",
+                    "DisplayName": "{{i18n:ateliertea_mint_sachet.name}}",
+                    "Description": "{{i18n:ateliertea_mint_sachet.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": 0,
+                    "Price": 100,
+
+                    "ContextTags":
+                    ["wildflour_tea_item",
+                    "sachet_item",
+                    "color_jade"],
+
+                    "Texture": "Mods/wildflour.ateliertea/Objects",
+                    "SpriteIndex": 10
+            },
+                "wildflour.ateliertea_berry_sachet": {
+                    "Name": "wildflour.ateliertea_berry_sachet",
+                    "DisplayName": "{{i18n:ateliertea_berry_sachet.name}}",
+                    "Description": "{{i18n:ateliertea_berry_sachet.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": 0,
+                    "Price": 100,
+
+                    "ContextTags":
+                    ["wildflour_tea_item",
+                    "sachet_item",
+                    "color_dark_red"],
+
+                    "Texture": "Mods/wildflour.ateliertea/Objects",
+                    "SpriteIndex": 11
+            },
+                "wildflour.ateliertea_peach_sachet": {
+                    "Name": "wildflour.ateliertea_peach_sachet",
+                    "DisplayName": "{{i18n:ateliertea_peach_sachet.name}}",
+                    "Description": "{{i18n:ateliertea_peach_sachet.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": 0,
+                    "Price": 100,
+
+                    "ContextTags":
+                    ["wildflour_tea_item",
+                    "sachet_item",
+                    "color_salmon"],
+
+                    "Texture": "Mods/wildflour.ateliertea/Objects",
+                    "SpriteIndex": 12
+            },
+                "wildflour.ateliertea_pineapple_sachet": {
+                    "Name": "wildflour.ateliertea_pineapple_sachet",
+                    "DisplayName": "{{i18n:ateliertea_pineapple_sachet.name}}",
+                    "Description": "{{i18n:ateliertea_pineapple_sachet.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": 0,
+                    "Price": 100,
+
+                    "ContextTags":
+                    ["wildflour_tea_item",
+                    "sachet_item",
+                    "color_gold"],
+
+                    "Texture": "Mods/wildflour.ateliertea/Objects",
+                    "SpriteIndex": 13
+            },
+                "wildflour.ateliertea_pomegranate_sachet": {
+                    "Name": "wildflour.ateliertea_pomegranate_sachet",
+                    "DisplayName": "{{i18n:ateliertea_pomegranate_sachet.name}}",
+                    "Description": "{{i18n:ateliertea_pomegranate_sachet.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": 0,
+                    "Price": 100,
+
+                    "ContextTags":
+                    ["wildflour_tea_item",
+                    "sachet_item",
+                    "color_dark_violet"],
+
+                    "Texture": "Mods/wildflour.ateliertea/Objects",
+                    "SpriteIndex": 14
+            },
+                "wildflour.ateliertea_raspberry_sachet": {
+                    "Name": "wildflour.ateliertea_raspberry_sachet",
+                    "DisplayName": "{{i18n:ateliertea_raspberry_sachet.name}}",
+                    "Description": "{{i18n:ateliertea_raspberry_sachet.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": 0,
+                    "Price": 100,
+
+                    "ContextTags":
+                    ["wildflour_tea_item",
+                    "sachet_item",
+                    "color_pink"],
+
+                    "Texture": "Mods/wildflour.ateliertea/Objects",
+                    "SpriteIndex": 15
+            },
+                "wildflour.ateliertea_rose_sachet": {
+                    "Name": "wildflour.ateliertea_rose_sachet",
+                    "DisplayName": "{{i18n:ateliertea_rose_sachet.name}}",
+                    "Description": "{{i18n:ateliertea_rose_sachet.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": 0,
+                    "Price": 100,
+
+                    "ContextTags":
+                    ["wildflour_tea_item",
+                    "sachet_item",
+                    "color_light_purple"],
+
+                    "Texture": "Mods/wildflour.ateliertea/Objects",
+                    "SpriteIndex": 16
+            },
+                "wildflour.ateliertea_sakura_sachet": {
+                    "Name": "wildflour.ateliertea_sakura_sachet",
+                    "DisplayName": "{{i18n:ateliertea_sakura_sachet.name}}",
+                    "Description": "{{i18n:ateliertea_sakura_sachet.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": 0,
+                    "Price": 100,
+
+                    "ContextTags":
+                    ["wildflour_tea_item",
+                    "sachet_item",
+                    "color_light_pink"],
+
+                    "Texture": "Mods/wildflour.ateliertea/Objects",
+                    "SpriteIndex": 15
+            },
+                "wildflour.ateliertea_strawberry_sachet": {
+                    "Name": "wildflour.ateliertea_strawberry_sachet",
+                    "DisplayName": "{{i18n:ateliertea_strawberry_sachet.name}}",
+                    "Description": "{{i18n:ateliertea_strawberry_sachet.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": 0,
+                    "Price": 100,
+
+                    "ContextTags":
+                    ["wildflour_tea_item",
+                    "sachet_item",
+                    "color_red"],
+
+                    "Texture": "Mods/wildflour.ateliertea/Objects",
+                    "SpriteIndex": 17
+            },
+                "wildflour.ateliertea_apple_tea": {
+                    "Name": "wildflour.ateliertea_apple_tea",
+                    "DisplayName": "{{i18n:ateliertea_apple_tea.name}}",
+                    "Description": "{{i18n:ateliertea_apple_tea.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "IsDrink": true,
+                    "Edibility": 8,
+                    "Price": 100,
+
+                    "ContextTags":
+                    ["wildflour_tea_item",
+                    "tea_item",
+                    "color_red"],
+
+                    "Texture": "Mods/wildflour.ateliertea/Objects",
+                    "SpriteIndex": 32
+            },
+                "wildflour.ateliertea_vanilla_tea": {
+                    "Name": "wildflour.ateliertea_vanilla_tea",
+                    "DisplayName": "{{i18n:ateliertea_vanilla_tea.name}}",
+                    "Description": "{{i18n:ateliertea_vanilla_tea.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "IsDrink": true,
+                    "Edibility": 8,
+                    "Price": 100,
+
+                    "ContextTags":
+                    ["wildflour_tea_item",
+                    "tea_item",
+                    "color_sand"],
+
+                    "Texture": "Mods/wildflour.ateliertea/Objects",
+                    "SpriteIndex": 33
+            },
+                "wildflour.ateliertea_matcha_tea": {
+                    "Name": "wildflour.ateliertea_matcha_tea",
+                    "DisplayName": "{{i18n:ateliertea_matcha_tea.name}}",
+                    "Description": "{{i18n:ateliertea_matcha_tea.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "IsDrink": true,
+                    "Edibility": 8,
+                    "Price": 100,
+
+                    "ContextTags":
+                    ["wildflour_tea_item",
+                    "tea_item",
+                    "color_green"],
+
+                    "Texture": "Mods/wildflour.ateliertea/Objects",
+                    "SpriteIndex": 34
+            },
+                "wildflour.ateliertea_cinnamon_tea": {
+                    "Name": "wildflour.ateliertea_cinnamon_tea",
+                    "DisplayName": "{{i18n:ateliertea_cinnamon_tea.name}}",
+                    "Description": "{{i18n:ateliertea_cinnamon_tea.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "IsDrink": true,
+                    "Edibility": 8,
+                    "Price": 100,
+
+                    "ContextTags":
+                    ["wildflour_tea_item",
+                    "tea_item",
+                    "color_dark_red"],
+
+                    "Texture": "Mods/wildflour.ateliertea/Objects",
+                    "SpriteIndex": 35
+            },
+                "wildflour.ateliertea_chamomile_tea": {
+                    "Name": "wildflour.ateliertea_chamomile_tea",
+                    "DisplayName": "{{i18n:ateliertea_chamomile_tea.name}}",
+                    "Description": "{{i18n:ateliertea_chamomile_tea.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "IsDrink": true,
+                    "Edibility": 8,
+                    "Price": 100,
+
+                    "ContextTags":
+                    ["wildflour_tea_item",
+                    "tea_item",
+                    "color_gold"],
+
+                    "Texture": "Mods/wildflour.ateliertea/Objects",
+                    "SpriteIndex": 36
+            },
+                "wildflour.ateliertea_breakfast_tea": {
+                    "Name": "wildflour.ateliertea_breakfast_tea",
+                    "DisplayName": "{{i18n:ateliertea_breakfast_tea.name}}",
+                    "Description": "{{i18n:ateliertea_breakfast_tea.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "IsDrink": true,
+                    "Edibility": 8,
+                    "Price": 100,
+
+                    "ContextTags":
+                    ["wildflour_tea_item",
+                    "tea_item",
+                    "color_dark_brown"],
+
+                    "Texture": "Mods/wildflour.ateliertea/Objects",
+                    "SpriteIndex": 37
+            },
+                "wildflour.ateliertea_jasmine_tea": {
+                    "Name": "wildflour.ateliertea_jasmine_tea",
+                    "DisplayName": "{{i18n:ateliertea_jasmine_tea.name}}",
+                    "Description": "{{i18n:ateliertea_jasmine_tea.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "IsDrink": true,
+                    "Edibility": 8,
+                    "Price": 100,
+
+                    "ContextTags":
+                    ["wildflour_tea_item",
+                    "tea_item",
+                    "color_jade"],
+
+                    "Texture": "Mods/wildflour.ateliertea/Objects",
+                    "SpriteIndex": 38
+            },
+                "wildflour.ateliertea_ginger_tea": {
+                    "Name": "wildflour.ateliertea_ginger_tea",
+                    "DisplayName": "{{i18n:ateliertea_ginger_tea.name}}",
+                    "Description": "{{i18n:ateliertea_ginger_tea.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "IsDrink": true,
+                    "Edibility": 8,
+                    "Price": 100,
+
+                    "ContextTags":
+                    ["wildflour_tea_item",
+                    "tea_item",
+                    "color_gold"],
+
+                    "Texture": "Mods/wildflour.ateliertea/Objects",
+                    "SpriteIndex": 39
+            },
+                "wildflour.ateliertea_grey_tea": {
+                    "Name": "wildflour.ateliertea_grey_tea",
+                    "DisplayName": "{{i18n:ateliertea_grey_tea.name}}",
+                    "Description": "{{i18n:ateliertea_grey_tea.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": 8,
+                    "Price": 100,
+
+                    "ContextTags":
+                    ["wildflour_tea_item",
+                    "tea_item",
+                    "color_pale_violet"],
+
+                    "Texture": "Mods/wildflour.ateliertea/Objects",
+                    "SpriteIndex": 40
+            },
+                "wildflour.ateliertea_lemon_tea": {
+                    "Name": "wildflour.ateliertea_lemon_tea",
+                    "DisplayName": "{{i18n:ateliertea_lemon_tea.name}}",
+                    "Description": "{{i18n:ateliertea_lemon_tea.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "IsDrink": true,
+                    "Edibility": 8,
+                    "Price": 100,
+
+                    "ContextTags":
+                    ["wildflour_tea_item",
+                    "tea_item",
+                    "color_gold"],
+
+                    "Texture": "Mods/wildflour.ateliertea/Objects",
+                    "SpriteIndex": 41
+            },
+                "wildflour.ateliertea_mint_tea": {
+                    "Name": "wildflour.ateliertea_mint_tea",
+                    "DisplayName": "{{i18n:ateliertea_mint_tea.name}}",
+                    "Description": "{{i18n:ateliertea_mint_tea.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "IsDrink": true,
+                    "Edibility": 8,
+                    "Price": 100,
+
+                    "ContextTags":
+                    ["wildflour_tea_item",
+                    "tea_item",
+                    "color_jade"],
+
+                    "Texture": "Mods/wildflour.ateliertea/Objects",
+                    "SpriteIndex": 42
+            },
+                "wildflour.ateliertea_berry_tea": {
+                    "Name": "wildflour.ateliertea_berry_tea",
+                    "DisplayName": "{{i18n:ateliertea_berry_tea.name}}",
+                    "Description": "{{i18n:ateliertea_berry_tea.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "IsDrink": true,
+                    "Edibility": 8,
+                    "Price": 100,
+
+                    "ContextTags":
+                    ["wildflour_tea_item",
+                    "tea_item",
+                    "color_dark_red"],
+
+                    "Texture": "Mods/wildflour.ateliertea/Objects",
+                    "SpriteIndex": 43
+            },
+                "wildflour.ateliertea_peach_tea": {
+                    "Name": "wildflour.ateliertea_peach_tea",
+                    "DisplayName": "{{i18n:ateliertea_peach_tea.name}}",
+                    "Description": "{{i18n:ateliertea_peach_tea.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "IsDrink": true,
+                    "Edibility": 8,
+                    "Price": 100,
+
+                    "ContextTags":
+                    ["wildflour_tea_item",
+                    "tea_item",
+                    "color_salmon"],
+
+                    "Texture": "Mods/wildflour.ateliertea/Objects",
+                    "SpriteIndex": 44
+            },
+                "wildflour.ateliertea_pineapple_tea": {
+                    "Name": "wildflour.ateliertea_pineapple_tea",
+                    "DisplayName": "{{i18n:ateliertea_pineapple_tea.name}}",
+                    "Description": "{{i18n:ateliertea_pineapple_tea.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "IsDrink": true,
+                    "Edibility": 8,
+                    "Price": 100,
+
+                    "ContextTags":
+                    ["wildflour_tea_item",
+                    "tea_item",
+                    "color_gold"],
+
+                    "Texture": "Mods/wildflour.ateliertea/Objects",
+                    "SpriteIndex": 45
+            },
+                "wildflour.ateliertea_pomegranate_tea": {
+                    "Name": "wildflour.ateliertea_pomegranate_tea",
+                    "DisplayName": "{{i18n:ateliertea_pomegranate_tea.name}}",
+                    "Description": "{{i18n:ateliertea_pomegranate_tea.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "IsDrink": true,
+                    "Edibility": 8,
+                    "Price": 100,
+
+                    "ContextTags":
+                    ["wildflour_tea_item",
+                    "tea_item",
+                    "color_dark_purple"],
+
+                    "Texture": "Mods/wildflour.ateliertea/Objects",
+                    "SpriteIndex": 46
+            },
+                "wildflour.ateliertea_raspberry_tea": {
+                    "Name": "wildflour.ateliertea_raspberry_tea",
+                    "DisplayName": "{{i18n:ateliertea_raspberry_tea.name}}",
+                    "Description": "{{i18n:ateliertea_raspberry_tea.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "IsDrink": true,
+                    "Edibility": 8,
+                    "Price": 100,
+
+                    "ContextTags":
+                    ["wildflour_tea_item",
+                    "tea_item",
+                    "color_pink"],
+
+                    "Texture": "Mods/wildflour.ateliertea/Objects",
+                    "SpriteIndex": 47
+            },
+                "wildflour.ateliertea_rose_tea": {
+                    "Name": "wildflour.ateliertea_rose_tea",
+                    "DisplayName": "{{i18n:ateliertea_rose_tea.name}}",
+                    "Description": "{{i18n:ateliertea_rose_tea.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "IsDrink": true,
+                    "Edibility": 8,
+                    "Price": 100,
+
+                    "ContextTags":
+                    ["wildflour_tea_item",
+                    "tea_item",
+                    "color_light_pink"],
+
+                    "Texture": "Mods/wildflour.ateliertea/Objects",
+                    "SpriteIndex": 48
+            },
+                "wildflour.ateliertea_sakura_tea": {
+                    "Name": "wildflour.ateliertea_sakura_tea",
+                    "DisplayName": "{{i18n:ateliertea_sakura_tea.name}}",
+                    "Description": "{{i18n:ateliertea_sakura_tea.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "IsDrink": true,
+                    "Edibility": 8,
+                    "Price": 100,
+
+                    "ContextTags":
+                    ["wildflour_tea_item",
+                    "tea_item",
+                    "color_light_pink"],
+
+                    "Texture": "Mods/wildflour.ateliertea/Objects",
+                    "SpriteIndex": 49
+            },
+                "wildflour.ateliertea_strawberry_tea": {
+                    "Name": "wildflour.ateliertea_strawberry_tea",
+                    "DisplayName": "{{i18n:ateliertea_strawberry_tea.name}}",
+                    "Description": "{{i18n:ateliertea_strawberry_tea.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "IsDrink": true,
+                    "Edibility": 8,
+                    "Price": 100,
+
+                    "ContextTags":
+                    ["wildflour_tea_item",
+                    "tea_item",
+                    "color_pink"],
+
+                    "Texture": "Mods/wildflour.ateliertea/Objects",
+                    "SpriteIndex": 49
+            },
+                "wildflour.ateliertea_apple_kombucha": {
+                    "Name": "wildflour.ateliertea_apple_kombucha",
+                    "DisplayName": "{{i18n:ateliertea_apple_kombucha.name}}",
+                    "Description": "{{i18n:ateliertea_apple_kombucha.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "IsDrink": true,
+                    "Edibility": 14,
+                    "Price": 100,
+
+                    "ContextTags":
+                    ["wildflour_tea_item",
+                    "kombucha_item",
+                    "color_red"],
+
+                    "Texture": "Mods/wildflour.ateliertea/Objects",
+                    "SpriteIndex": 64
+            },
+                "wildflour.ateliertea_vanilla_kombucha": {
+                    "Name": "wildflour.ateliertea_vanilla_kombucha",
+                    "DisplayName": "{{i18n:ateliertea_vanilla_kombucha.name}}",
+                    "Description": "{{i18n:ateliertea_vanilla_kombucha.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "IsDrink": true,
+                    "Edibility": 14,
+                    "Price": 100,
+
+                    "ContextTags":
+                    ["wildflour_tea_item",
+                    "kombucha_item",
+                    "color_sand"],
+
+                    "Texture": "Mods/wildflour.ateliertea/Objects",
+                    "SpriteIndex": 65
+            },
+                "wildflour.ateliertea_matcha_kombucha": {
+                    "Name": "wildflour.ateliertea_matcha_kombucha",
+                    "DisplayName": "{{i18n:ateliertea_matcha_kombucha.name}}",
+                    "Description": "{{i18n:ateliertea_matcha_kombucha.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "IsDrink": true,
+                    "Edibility": 14,
+                    "Price": 100,
+
+                    "ContextTags":
+                    ["wildflour_tea_item",
+                    "kombucha_item",
+                    "color_dark_green"],
+
+                    "Texture": "Mods/wildflour.ateliertea/Objects",
+                    "SpriteIndex": 66
+            },
+                "wildflour.ateliertea_cinnamon_kombucha": {
+                    "Name": "wildflour.ateliertea_cinnamon_kombucha",
+                    "DisplayName": "{{i18n:ateliertea_cinnamon_kombucha.name}}",
+                    "Description": "{{i18n:ateliertea_cinnamon_kombucha.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "IsDrink": true,
+                    "Edibility": 14,
+                    "Price": 100,
+
+                    "ContextTags":
+                    ["wildflour_tea_item",
+                    "kombucha_item",
+                    "color_dark_red"],
+
+                    "Texture": "Mods/wildflour.ateliertea/Objects",
+                    "SpriteIndex": 67
+            },
+                "wildflour.ateliertea_chamomile_kombucha": {
+                    "Name": "wildflour.ateliertea_chamomile_kombucha",
+                    "DisplayName": "{{i18n:ateliertea_chamomile_kombucha.name}}",
+                    "Description": "{{i18n:ateliertea_chamomile_kombucha.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "IsDrink": true,
+                    "Edibility": 14,
+                    "Price": 100,
+
+                    "ContextTags":
+                    ["wildflour_tea_item",
+                    "kombucha_item",
+                    "color_gold"],
+
+                    "Texture": "Mods/wildflour.ateliertea/Objects",
+                    "SpriteIndex": 68
+            },
+                "wildflour.ateliertea_breakfast_kombucha": {
+                    "Name": "wildflour.ateliertea_breakfast_kombucha",
+                    "DisplayName": "{{i18n:ateliertea_breakfast_kombucha.name}}",
+                    "Description": "{{i18n:ateliertea_breakfast_kombucha.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "IsDrink": true,
+                    "Edibility": 14,
+                    "Price": 100,
+
+                    "ContextTags":
+                    ["wildflour_tea_item",
+                    "kombucha_item",
+                    "color_dark_brown"],
+
+                    "Texture": "Mods/wildflour.ateliertea/Objects",
+                    "SpriteIndex": 69
+            },
+                "wildflour.ateliertea_jasmine_kombucha": {
+                    "Name": "wildflour.ateliertea_jasmine_kombucha",
+                    "DisplayName": "{{i18n:ateliertea_jasmine_kombucha.name}}",
+                    "Description": "{{i18n:ateliertea_jasmine_kombucha.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "IsDrink": true,
+                    "Edibility": 14,
+                    "Price": 100,
+
+                    "ContextTags":
+                    ["wildflour_tea_item",
+                    "kombucha_item",
+                    "color_jade"],
+
+                    "Texture": "Mods/wildflour.ateliertea/Objects",
+                    "SpriteIndex": 70
+            },
+                "wildflour.ateliertea_ginger_kombucha": {
+                    "Name": "wildflour.ateliertea_ginger_kombucha",
+                    "DisplayName": "{{i18n:ateliertea_ginger_kombucha.name}}",
+                    "Description": "{{i18n:ateliertea_ginger_kombucha.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "IsDrink": true,
+                    "Edibility": 14,
+                    "Price": 100,
+
+                    "ContextTags":
+                    ["wildflour_tea_item",
+                    "kombucha_item",
+                    "color_gold"],
+
+                    "Texture": "Mods/wildflour.ateliertea/Objects",
+                    "SpriteIndex": 71
+            },
+                "wildflour.ateliertea_grey_kombucha": {
+                    "Name": "wildflour.ateliertea_grey_kombucha",
+                    "DisplayName": "{{i18n:ateliertea_grey_kombucha.name}}",
+                    "Description": "{{i18n:ateliertea_grey_kombucha.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "IsDrink": true,
+                    "Edibility": 14,
+                    "Price": 100,
+
+                    "ContextTags":
+                    ["wildflour_tea_item",
+                    "kombucha_item",
+                    "color_pale_violet"],
+
+                    "Texture": "Mods/wildflour.ateliertea/Objects",
+                    "SpriteIndex": 72
+            },
+                "wildflour.ateliertea_lemon_kombucha": {
+                    "Name": "wildflour.ateliertea_lemon_kombucha",
+                    "DisplayName": "{{i18n:ateliertea_lemon_kombucha.name}}",
+                    "Description": "{{i18n:ateliertea_lemon_kombucha.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "IsDrink": true,
+                    "Edibility": 14,
+                    "Price": 100,
+
+                    "ContextTags":
+                    ["wildflour_tea_item",
+                    "kombucha_item",
+                    "color_gold"],
+
+                    "Texture": "Mods/wildflour.ateliertea/Objects",
+                    "SpriteIndex": 73
+            },
+                "wildflour.ateliertea_mint_kombucha": {
+                    "Name": "wildflour.ateliertea_mint_kombucha",
+                    "DisplayName": "{{i18n:ateliertea_mint_kombucha.name}}",
+                    "Description": "{{i18n:ateliertea_mint_kombucha.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "IsDrink": true,
+                    "Edibility": 14,
+                    "Price": 100,
+
+                    "ContextTags":
+                    ["wildflour_tea_item",
+                    "kombucha_item",
+                    "color_jade"],
+
+                    "Texture": "Mods/wildflour.ateliertea/Objects",
+                    "SpriteIndex": 74
+            },
+                "wildflour.ateliertea_berry_kombucha": {
+                    "Name": "wildflour.ateliertea_berry_kombucha",
+                    "DisplayName": "{{i18n:ateliertea_berry_kombucha.name}}",
+                    "Description": "{{i18n:ateliertea_berry_kombucha.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "IsDrink": true,
+                    "Edibility": 14,
+                    "Price": 100,
+
+                    "ContextTags":
+                    ["wildflour_tea_item",
+                    "kombucha_item",
+                    "color_dark_red"],
+
+                    "Texture": "Mods/wildflour.ateliertea/Objects",
+                    "SpriteIndex": 75
+            },
+                "wildflour.ateliertea_peach_kombucha": {
+                    "Name": "wildflour.ateliertea_peach_kombucha",
+                    "DisplayName": "{{i18n:ateliertea_peach_kombucha.name}}",
+                    "Description": "{{i18n:ateliertea_peach_kombucha.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "IsDrink": true,
+                    "Edibility": 14,
+                    "Price": 100,
+
+                    "ContextTags":
+                    ["wildflour_tea_item",
+                    "kombucha_item",
+                    "color_salmon"],
+
+                    "Texture": "Mods/wildflour.ateliertea/Objects",
+                    "SpriteIndex": 76
+            },
+                "wildflour.ateliertea_pineapple_kombucha": {
+                    "Name": "wildflour.ateliertea_pineapple_kombucha",
+                    "DisplayName": "{{i18n:ateliertea_pineapple_kombucha.name}}",
+                    "Description": "{{i18n:ateliertea_pineapple_kombucha.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "IsDrink": true,
+                    "Edibility": 14,
+                    "Price": 100,
+
+                    "ContextTags":
+                    ["wildflour_tea_item",
+                    "kombucha_item",
+                    "color_gold"],
+
+                    "Texture": "Mods/wildflour.ateliertea/Objects",
+                    "SpriteIndex": 77
+            },
+                "wildflour.ateliertea_pomegranate_kombucha": {
+                    "Name": "wildflour.ateliertea_pomegranate_kombucha",
+                    "DisplayName": "{{i18n:ateliertea_pomegranate_kombucha.name}}",
+                    "Description": "{{i18n:ateliertea_pomegranate_kombucha.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "IsDrink": true,
+                    "Edibility": 14,
+                    "Price": 100,
+
+                    "ContextTags":
+                    ["wildflour_tea_item",
+                    "kombucha_item",
+                    "color_dark_purple"],
+
+                    "Texture": "Mods/wildflour.ateliertea/Objects",
+                    "SpriteIndex": 78
+            },
+                "wildflour.ateliertea_raspberry_kombucha": {
+                    "Name": "wildflour.ateliertea_raspberry_kombucha",
+                    "DisplayName": "{{i18n:ateliertea_raspberry_kombucha.name}}",
+                    "Description": "{{i18n:ateliertea_raspberry_kombucha.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "IsDrink": true,
+                    "Edibility": 14,
+                    "Price": 100,
+
+                    "ContextTags":
+                    ["wildflour_tea_item",
+                    "kombucha_item",
+                    "color_pink"],
+
+                    "Texture": "Mods/wildflour.ateliertea/Objects",
+                    "SpriteIndex": 79
+            },
+                "wildflour.ateliertea_rose_kombucha": {
+                    "Name": "wildflour.ateliertea_rose_kombucha",
+                    "DisplayName": "{{i18n:ateliertea_rose_kombucha.name}}",
+                    "Description": "{{i18n:ateliertea_rose_kombucha.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "IsDrink": true,
+                    "Edibility": 14,
+                    "Price": 100,
+
+                    "ContextTags":
+                    ["wildflour_tea_item",
+                    "kombucha_item",
+                    "color_light_pink"],
+
+                    "Texture": "Mods/wildflour.ateliertea/Objects",
+                    "SpriteIndex": 80
+            },
+                "wildflour.ateliertea_sakura_kombucha": {
+                    "Name": "wildflour.ateliertea_sakura_kombucha",
+                    "DisplayName": "{{i18n:ateliertea_sakura_kombucha.name}}",
+                    "Description": "{{i18n:ateliertea_sakura_kombucha.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "IsDrink": true,
+                    "Edibility": 14,
+                    "Price": 100,
+
+                    "ContextTags":
+                    ["wildflour_tea_item",
+                    "kombucha_item",
+                    "color_light_pink"],
+
+                    "Texture": "Mods/wildflour.ateliertea/Objects",
+                    "SpriteIndex": 81
+            },
+                "wildflour.ateliertea_strawberry_kombucha": {
+                    "Name": "wildflour.ateliertea_strawberry_kombucha",
+                    "DisplayName": "{{i18n:ateliertea_strawberry_kombucha.name}}",
+                    "Description": "{{i18n:ateliertea_strawberry_kombucha.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "IsDrink": true,
+                    "Edibility": 14,
+                    "Price": 100,
+
+                    "ContextTags":
+                    ["wildflour_tea_item",
+                    "kombucha_item",
+                    "color_pink"],
+
+                    "Texture": "Mods/wildflour.ateliertea/Objects",
+                    "SpriteIndex": 81
+            }
+
+
+        }
+        }
+
+    ]
+}

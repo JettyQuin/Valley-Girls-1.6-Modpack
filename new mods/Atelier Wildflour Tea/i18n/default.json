@@ -1,0 +1,284 @@
+{
+
+//KETTLE
+
+"ateliertea_TeaProcessor.name":"Tea Processor",
+"ateliertea_TeaProcessor.description":"Can create packaged tea sachets from various ingredients.",
+
+"ateliertea_TeaKettle.name":"Tea Kettle",
+"ateliertea_TeaKettle.description":"Brews specialty teas.",
+
+///////////////////////////
+// MACHINE NOTIFICATIONS //
+///////////////////////////
+
+"ateliertea_TeaProcessor_InvalidItem.message": "Cannot Process This",
+"ateliertea_TeaProcessor_InvalidCount.message": "Requires Tea Leaves",
+
+"ateliertea_TeaKettle_InvalidItem.message": "Cannot Process This",
+"ateliertea_TeaKettle_InvalidCount.message": "Requires Honey",    
+
+
+//TEA SACHETS
+
+"ateliertea_apple_sachet.name": "Autumn Apple Tea Sachet",
+"ateliertea_apple_sachet.description": "Warm spices mix with crisp apple, making this tea blend perfect for a chilly Autumn afternoon.",
+
+"ateliertea_vanilla_sachet.name": "Calico Vanilla Tea Sachet",
+"ateliertea_vanilla_sachet.description": "This vanilla tea blend is perfect for calming the mind and body.",
+
+"ateliertea_matcha_sachet.name": "Ceremonial Matcha Tea Sachet",
+"ateliertea_matcha_sachet.description": "A ceremonial grade tea blend made from first harvest leaves.",
+
+"ateliertea_cinnamon_sachet.name": "Cinnamon Spice Tea Sachet",
+"ateliertea_cinnamon_sachet.description": "A mix of tea leaves and ground Cindersap Cinnamon, perfect for brewing tea.",
+
+"ateliertea_chamomile_sachet.name": "Cozy Chamomile Tea Sachet",
+"ateliertea_chamomile_sachet.description": "Dried chamomile flowers mixed with other calming herbs to produce a soothing tea blend.",
+
+"ateliertea_breakfast_sachet.name": "English Breakfast Tea Sachet",
+"ateliertea_breakfast_sachet.description": "A full-bodied, robust tea blend.",
+
+"ateliertea_jasmine_sachet.name": "Fragrant Jasmine Tea Sachet",
+"ateliertea_jasmine_sachet.description": "A mix of tea leaves and fragrant jasmine petals, perfect for brewing tea.",
+
+"ateliertea_ginger_sachet.name": "Ginger Peach Tea Sachet",
+"ateliertea_ginger_sachet.description": "A tea blend that marries the sweet fruitiness of peaches with the warm spice of ginger.",
+
+"ateliertea_grey_sachet.name": "Lady Grey Tea Sachet",
+"ateliertea_grey_sachet.description": "A softer, more subtle blend than Earl Grey, with hints of lemon and orange.",
+
+"ateliertea_lemon_sachet.name": "Lemon Ginger Tea Sachet",
+"ateliertea_lemon_sachet.description": "An invigorating tea blend made with the zest of petite lemons and dried ginger.",
+
+"ateliertea_mint_sachet.name": "Merry Mint Tea Sachet",
+"ateliertea_mint_sachet.description": "A refreshing tea blend often brewed for relief from cold and flu symptoms.",
+
+"ateliertea_berry_sachet.name": "Mixed Berry Tea Sachet",
+"ateliertea_berry_sachet.description": "A full-bodied tea blend with the aroma of fresh berries.",
+
+"ateliertea_peach_sachet.name": "Peach Mango Tea Sachet",
+"ateliertea_peach_sachet.description": "A delightful blend of peach and mango flavor!",
+
+"ateliertea_pineapple_sachet.name": "Pineapple Coconut Tea Sachet",
+"ateliertea_pineapple_sachet.description": "Sweet pineapple and refreshing coconut blend to instantly take you on an island getaway.",
+
+"ateliertea_pomegranate_sachet.name": "Pomegranate Green Tea Sachet",
+"ateliertea_pomegranate_sachet.description": "An herbaceous and lively tea blend accented with bright pomegranate.",
+
+"ateliertea_raspberry_sachet.name": "Raspberry Tea Sachet",
+"ateliertea_raspberry_sachet.description": "A smooth Ferngill Tea blend that features the flavor of tart raspberries.",
+
+"ateliertea_rose_sachet.name": "Rose Petal Tea Sachet",
+"ateliertea_rose_sachet.description": "A tea blend made from the petals and buds of the rose bush.",
+
+"ateliertea_sakura_sachet.name": "Sakura Tea Sachet",
+"ateliertea_sakura_sachet.description": "A tea blend made with preserved cherry blossoms.",
+
+"ateliertea_strawberry_sachet.name": "Wild Strawberry Tea Sachet",
+"ateliertea_strawberry_sachet.description": "A sweet tea blend made with wild summer strawberries.",
+
+//TEA
+
+"ateliertea_apple_tea.name": "Autumn Apple Tea",
+"ateliertea_apple_tea.description": "Freshly brewed apple tea.",
+
+"ateliertea_vanilla_tea.name": "Calico Vanilla Tea",
+"ateliertea_vanilla_tea.description": "Freshly brewed vanilla tea.",
+
+"ateliertea_matcha_tea.name": "Ceremonial Matcha Tea",
+"ateliertea_matcha_tea.description": "Freshly brewed matcha tea.",
+
+"ateliertea_cinnamon_tea.name": "Cinnamon Spice Tea",
+"ateliertea_cinnamon_tea.description": "Freshly brewed cinnamon tea.",
+
+"ateliertea_chamomile_tea.name": "Cozy Chamomile Tea",
+"ateliertea_chamomile_tea.description": "Freshly brewed chamomile tea.",
+
+"ateliertea_breakfast_tea.name": "English Breakfast Tea",
+"ateliertea_breakfast_tea.description": "Freshly brewed English Breakfast tea.",
+
+"ateliertea_jasmine_tea.name": "Fragrant Jasmine Tea",
+"ateliertea_jasmine_tea.description": "Freshly brewed jasmine tea.",
+
+"ateliertea_ginger_tea.name": "Ginger Peach Tea",
+"ateliertea_ginger_tea.description": "Freshly brewed ginger peach tea.",
+
+"ateliertea_grey_tea.name": "Lady Grey Tea",
+"ateliertea_grey_tea.description": "Freshly brewed Lady Grey tea.",
+
+"ateliertea_lemon_tea.name": "Lemon Ginger Tea",
+"ateliertea_lemon_tea.description": "Freshly brewed lemon ginger tea.",
+
+"ateliertea_mint_tea.name": "Merry Mint Tea",
+"ateliertea_mint_tea.description": "Freshly brewed mint tea.",
+
+"ateliertea_berry_tea.name": "Mixed Berry Tea",
+"ateliertea_berry_tea.description": "Freshly brewed mixed berry tea.",
+
+"ateliertea_peach_tea.name": "Peach Mango Tea",
+"ateliertea_peach_tea.description": "Freshly brewed peach mango tea.",
+
+"ateliertea_pineapple_tea.name": "Pineapple Coconut Tea",
+"ateliertea_pineapple_tea.description": "Freshly brewed pineapple coconut tea.",
+
+"ateliertea_pomegranate_tea.name": "Pomegranate Green Tea",
+"ateliertea_pomegranate_tea.description": "Freshly brewed pomegranate green tea.",
+
+"ateliertea_raspberry_tea.name": "Raspberry Tea",
+"ateliertea_raspberry_tea.description": "Freshly brewed raspberry tea.",
+
+"ateliertea_rose_tea.name": "Rose Petal Tea",
+"ateliertea_rose_tea.description": "Freshly brewed rose petal tea.",
+
+"ateliertea_sakura_tea.name": "Sakura Tea",
+"ateliertea_sakura_tea.description": "Freshly brewed sakura tea.",
+
+"ateliertea_strawberry_tea.name": "Wild Strawberry Tea",
+"ateliertea_strawberry_tea.description": "Freshly brewed wild strawberry tea.",
+
+//KOMBUCHA
+
+"ateliertea_apple_kombucha.name": "Autumn Apple Kombucha",
+"ateliertea_apple_kombucha.description": "Tea that has been fermented with honey into a delightful fizzy beverage.",
+
+"ateliertea_vanilla_kombucha.name": "Calico Vanilla Kombucha",
+"ateliertea_vanilla_kombucha.description": "Tea that has been fermented with honey into a delightful fizzy beverage.",
+
+"ateliertea_matcha_kombucha.name": "Ceremonial Matcha Kombucha",
+"ateliertea_matcha_kombucha.description": "Tea that has been fermented with honey into a delightful fizzy beverage.",
+
+"ateliertea_cinnamon_kombucha.name": "Cinnamon Spice Kombucha",
+"ateliertea_cinnamon_kombucha.description": "Tea that has been fermented with honey into a delightful fizzy beverage.",
+
+"ateliertea_chamomile_kombucha.name": "Cozy Chamomile Kombucha",
+"ateliertea_chamomile_kombucha.description": "Tea that has been fermented with honey into a delightful fizzy beverage.",
+
+"ateliertea_breakfast_kombucha.name": "English Breakfast Kombucha",
+"ateliertea_breakfast_kombucha.description": "Tea that has been fermented with honey into a delightful fizzy beverage.",
+
+"ateliertea_jasmine_kombucha.name": "Fragrant Jasmine Kombucha",
+"ateliertea_jasmine_kombucha.description": "Tea that has been fermented with honey into a delightful fizzy beverage.",
+
+"ateliertea_ginger_kombucha.name": "Ginger Peach Kombucha",
+"ateliertea_ginger_kombucha.description": "Tea that has been fermented with honey into a delightful fizzy beverage.",
+
+"ateliertea_grey_kombucha.name": "Lady Grey Kombucha",
+"ateliertea_grey_kombucha.description": "Tea that has been fermented with honey into a delightful fizzy beverage.",
+
+"ateliertea_lemon_kombucha.name": "Lemon Ginger Kombucha",
+"ateliertea_lemon_kombucha.description": "Tea that has been fermented with honey into a delightful fizzy beverage.",
+
+"ateliertea_mint_kombucha.name": "Merry Mint Kombucha",
+"ateliertea_mint_kombucha.description": "Tea that has been fermented with honey into a delightful fizzy beverage.",
+
+"ateliertea_berry_kombucha.name": "Mixed Berry Kombucha",
+"ateliertea_berry_kombucha.description": "Tea that has been fermented with honey into a delightful fizzy beverage.",
+
+"ateliertea_peach_kombucha.name": "Peach Mango Kombucha",
+"ateliertea_peach_kombucha.description": "Tea that has been fermented with honey into a delightful fizzy beverage.",
+
+"ateliertea_pineapple_kombucha.name": "Pineapple Coconut Kombucha",
+"ateliertea_pineapple_kombucha.description": "Tea that has been fermented with honey into a delightful fizzy beverage.",
+
+"ateliertea_pomegranate_kombucha.name": "Pomegranate Green Kombucha",
+"ateliertea_pomegranate_kombucha.description": "Tea that has been fermented with honey into a delightful fizzy beverage.",
+
+"ateliertea_raspberry_kombucha.name": "Raspberry Kombucha",
+"ateliertea_raspberry_kombucha.description": "Tea that has been fermented with honey into a delightful fizzy beverage.",
+
+"ateliertea_rose_kombucha.name": "Rose Petal Kombucha",
+"ateliertea_rose_kombucha.description": "Tea that has been fermented with honey into a delightful fizzy beverage.",
+
+"ateliertea_sakura_kombucha.name": "Sakura Kombucha",
+"ateliertea_sakura_kombucha.description": "Tea that has been fermented with honey into a delightful fizzy beverage.",
+
+"ateliertea_strawberry_kombucha.name": "Wild Strawberry Kombucha",
+"ateliertea_strawberry_kombucha.description": "Tea that has been fermented with honey into a delightful fizzy beverage.",
+
+//////////
+// MAIL //
+//////////
+
+"ateliertea_TeaProcessorRecipe.name":"Time to Craft Artisanal Tea Bags!",
+"ateliertea_TeaProcessorRecipe.text":"@, ^^ If you really want to get into tea brewing, you should try making one of these processors. It has a built in way to make tea sachets too! I would love to try any new teas you create.^^ - Elliott",
+
+"ateliertea_TeaKettleRecipe.name":"Put the Kettle On",
+"ateliertea_TeaKettleRecipe.text":"@, ^^ I think your own personal tea kettle would really bring some coziness into your home; here's how you can craft one yourself! Just don't forget to invite me over for teatime once you do.^^ - Caroline",
+
+"ateliertea_evelyn_gift.name":"Seeds for You",
+"ateliertea_evelyn_gift.text":"@, ^^ I heard you are learning more about brewing tea! What a wonderful adventure you are about to begin. Here: these are some chamomile seeds from my garden. The flowers make a soothing herbal tea that helps you sleep.^^ - Evelyn",
+
+"ateliertea_leah_gift.name":"For your Tea Garden",
+"ateliertea_leah_gift.text":"@, ^^ How is the tea brewing going? If you are having trouble foraging enough tea leaves, I would be happy to share some seeds with you! These will make for some sturdy tea bushes so you can make all the tea you want.^^ - Leah",
+
+"ateliertea_maru_gift.name":"Brewing the Booch",
+"ateliertea_maru_gift.text":"@, ^^ Did you know you can ferment tea into kombucha? It's not everybody's cup of tea (sorry for the pun) but I find it to be fizzy and delicious! You will want to start growing some of these mushrooms though to help with the fermentation.^^ - Maru",
+
+
+////////////////////
+// SPECIAL ORDERS //
+////////////////////
+
+"ateliertea_SO_1.name":"Sachet Stock Up",
+"ateliertea_SO_1.text":"I'm all out of my homemade tea blend! Can someone drop off some sachets to get me through the week?",
+"ateliertea_SO_1a.deliver":"Deliver 2 Cinnamon Spice Tea Sachets to Caroline.",
+"ateliertea_SO_1b.deliver":"Deliver 2 Merry Mint Tea Sachets to Caroline.",
+"ateliertea_SO_1c.deliver":"Deliver 2 Lady Grey Tea Sachets to Caroline.",
+"ateliertea_SO_1.accept":"What a lovely variety of flavors you brought! This will certainly spice up tea time for me.",
+
+"ateliertea_SO_2.name":"Tea Party",
+"ateliertea_SO_2.text":"I'm having some of the ladies over for tea and scones, but I want to have a variety of flavors to choose from! Can anyone help me?",
+"ateliertea_SO_2a.deliver":"Deliver 2 Sakura Teas to the Drop Box in Evelyn's kitchen.",
+"ateliertea_SO_2b.deliver":"Deliver 2 Rose Petal Teas to the Drop Box in Evelyn's kitchen.",
+"ateliertea_SO_2c.deliver":"Deliver 2 English Breakfast Teas to the Drop Box in Evelyn's kitchen.",
+
+"ateliertea_SO_3.name":"Bring on the Booch",
+"ateliertea_SO_3.text":"I heard Abigail and Sebby talking about how good kombucha is for you...can someone bring me some so I can see for myself?",
+"ateliertea_SO_3a.deliver":"Deliver 2 Autumn Apple Kombuchas to the Drop Box in Robin's workshop.",
+"ateliertea_SO_3b.deliver":"Deliver 2 Raspberry Lemon Kombuchas to the Drop Box in Robin's workshop.",
+"ateliertea_SO_3c.deliver":"Deliver 2 Wild Strawberry Kombuchas to the Drop Box in Robin's workshop.",
+"ateliertea_SO_3d.deliver":"Deliver 2 Pomegranate Green Kombuchas to the Drop Box in Robin's workshop.",
+
+"ateliertea_SO_4.name":"Sleepytime Tea",
+"ateliertea_SO_4.text":"I'm exhausted and would love to get a good night's sleep. Can anyone bring me some soothing herbal teas to help?",
+"ateliertea_SO_4a.deliver":"Deliver 3 Cozy Chamomile Tea Sachets to the Drop Box in Jodi's kitchen.",
+"ateliertea_SO_4b.deliver":"Deliver 3 Merry Mint Tea Sachets to the Drop Box in Jodi's kitchen.",
+"ateliertea_SO_4c.deliver":"Deliver 3 Calico Vanilla Tea Sachets to the Drop Box in Jodi's kitchen.",
+"ateliertea_SO_4d.deliver":"Deliver 3 Lemon Ginger Tea Sachets to the Drop Box in Jodi's kitchen.",
+
+"ateliertea_SO_5.name":"Master Tea Brewer Challenge",
+"ateliertea_SO_5.text":"It's that time of year again - annual applications for the role of Master Tea Brewer are open! Send us your best teas to see if you can earn the grand prize!",
+"ateliertea_SO_5.ship":"Ship 100 Gold Quality Tea Products.",
+
+"ateliertea_SO_6.name":"Kombucha for Alex",
+"ateliertea_SO_6.text":"Pierre won't carry kombucha no matter how much I ask him. How will I get it now?",
+"ateliertea_SO_6.deliver":"Deliver 4 kombucha to Alex.",
+"ateliertea_SO_6.accept":"YOU BROUGHT THE BOOCH! You rock thanks for dropping these off.",
+
+"ateliertea_SO_7.name":"Tea for Haley",
+"ateliertea_SO_7.text":"It's so tiring to order my tea online; how do I know its high quality if I can't even see it? Maybe someone in town would be able to sell me teas instead...",
+"ateliertea_SO_7.deliver":"Deliver 6 teas to Haley.",
+"ateliertea_SO_7.accept":"These teas look absolutely lovely. I'm going to enjoy these - thanks again!",
+
+"ateliertea_SO_8.name":"Sachets for Sandy",
+"ateliertea_SO_8.text":"I want to make a big pitcher of iced tea to keep cool out here in the desert. Can someone deliver me some sachets?",
+"ateliertea_SO_8.deliver":"Deliver 8 sachets to Sandy.",
+"ateliertea_SO_8.accept":"Now I won't feel like I'm melting away in the desert heat! Thanks, friend.",
+
+//TEA REWARDS MAIL
+ 
+"ateliertea_SO2_reward.title": "Thank you; Plus Some Tea Seeds!",
+"ateliertea_SO2_reward.text": "@,^^^ Well won't we just have the perfect Victorian Tea Party with these!^^-Evelyn",
+
+"ateliertea_SO3_reward.title": "Thank you, Plus Some Mushroom Starters!",
+"ateliertea_SO3_reward.text": "@,^^^ Oh it's fizzier than I imagined! But surprisingly tasty.^^-Robin",
+
+"ateliertea_SO4_reward.title": "Thanks again!",
+"ateliertea_SO4_reward.text": "@,^^^ These smell so soothing I bet I'll be asleep before I hit the pillow tonight!^^-Jodi",
+
+"ateliertea_SO5_reward.title": "Congratulations!",
+"ateliertea_SO5_reward.text": "Dear @,^^^ Your dedication is impressive. We are proud to offer you the title of Master Tea Brewer. Please take this as a reward.",
+
+
+}

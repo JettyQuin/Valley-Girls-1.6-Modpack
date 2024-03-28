@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="70" height="46" tilewidth="16" tileheight="16" infinite="0" nextlayerid="9" nextobjectid="889">
+ <properties>
+  <property name="DayTiles_asdf" value="Buildings 3 1 15 Buildings 3 2 27 Back 3 4 51 Back 3 5 63"/>
+  <property name="FloorIDs" value="UpperRoom 1, Nursery 31, Hallway_Nursery 31, Kitchen, LivingRoom, Hallway_Bedroom, Bedroom, Southern, Hallway_Corner, Corner"/>
+  <property name="IsGreenhouse " value="t"/>
+  <property name="KitchenStandingLocation" value="21 24"/>
+  <property name="NightTiles_asdf" value="Buildings 3 1 144 Buildings 3 2 156 Back 3 4 53 Back 3 5 65"/>
+  <property name="SpouseRoomPosition" value="50 20"/>
+  <property name="ViewportFollowPlayer" type="bool" value="true"/>
+  <property name="WallIDs" value="UpperRoom, Nursery, Hallway_Nursery, Kitchen, LivingRoom, Hallway_Bedroom, Bedroom, Southern_Left, Southern_Right, Corner, Hallway_Corner"/>
+  <property name="Warp" value="26 31 Farm 63 15 27 31 Farm 64 15"/>
+  <property name="asdf" type="bool" value="false"/>
+ </properties>
+ <tileset firstgid="1" name="indoor" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
+  <image source="townInterior" width="512" height="1088"/>
+ </tileset>
+ <tileset firstgid="2177" name="untitled tile sheet" tilewidth="16" tileheight="16" tilecount="264" columns="12">
+  <image source="farmhouse_tiles" width="192" height="352"/>
+ </tileset>
+ <tileset firstgid="2441" name="walls_and_floors" tilewidth="16" tileheight="16" tilecount="560" columns="16">
+  <image source="walls_and_floors" width="256" height="560"/>
+ </tileset>
+ <layer id="1" name="Back" width="70" height="46">
+  <data encoding="base64" compression="zlib">
+   eJztmE9LwzAYxruemvQT+Af04sA/V3tR0W+i38OBehx6EbxMUBC8KMxv4AdRUdCLU1HQy3b0fWkDsWtokrVJ3PKDhydb2zR9+6xNFgQej8fj8Xg8Ho/Ho8YJUVM7U5Pqq030ZJJLoqZOpoTqq0P0ZJJnGOcLlfduprM4CM5jPWd9PIEeFdwk33C+Hyrvt5m6cH03sZ6zPr5AnwpuEtW8jJKTvI9TXkbJSd5dzcuDQk4mKS8fCjmZpLzwNAQ6iFIlJBX7LBIeg/uJ+uNhfbqI7JyKXYPsvqp9uobsnIpdg+y+qn26xAL8xjug0xKfBk3V7C6xCuO5Al2X+BJosWbfDINgKxx2G7iUl22owU447DZwKS8u1cWlvOxBDfbDYbeBz0sxPi/FuJSXN5jnE5gQR42/bgM8rUxe7mg1uUi4uRz7Hvu+p6m7QgLjOiaplrn2Ctdmt4xf36Dr/D/L10XlONOxacL1X5BUM1x7lmuLxqTz/yxfF5XjTNcFz4c5wXyIHNfIbF/+uF3Y1orrdda28ZjBnGA+RC7iELYdxfU6a9ugLC8iqsrFHORxXiDc1rJQl1danpdewXvinVaXizW49vUCbUTpNht56dPyvAwK6oLv1aryUlYXG3np+bwUMnAgLzLPF9OZUXm+8PO6KvMi8z4ynRlcH2FtejkNCr7Lz3dNyyS4nu5ndShTfl43znXBvOAaSeQMbE9SXf7DGG1g476buhe/qfJkQA==
+  </data>
+ </layer>
+ <objectgroup id="2" name="Back">
+  <object id="1" name="TileData" x="256" y="176" width="192" height="16">
+   <properties>
+    <property name="WallID" value="UpperRoom"/>
+   </properties>
+  </object>
+  <object id="13" name="TileData" x="480" y="176" width="240" height="16">
+   <properties>
+    <property name="WallID" value="Nursery"/>
+   </properties>
+  </object>
+  <object id="39" name="TileData" x="752" y="176" width="192" height="16">
+   <properties>
+    <property name="WallID" value="UpperRightRoom"/>
+   </properties>
+  </object>
+  <object id="40" name="TileData" x="256" y="208" width="192" height="96">
+   <properties>
+    <property name="FloorID" value="UpperRoom"/>
+   </properties>
+  </object>
+  <object id="52" name="TileData" x="448" y="208" width="32" height="16">
+   <properties>
+    <property name="WallID" value="Hallway_Nursery"/>
+   </properties>
+  </object>
+  <object id="54" name="TileData" x="480" y="208" width="240" height="96">
+   <properties>
+    <property name="FloorID" value="Nursery"/>
+   </properties>
+  </object>
+  <object id="69" name="TileData" x="720" y="208" width="32" height="16">
+   <properties>
+    <property name="WallID" value="Hallway_Nursery2"/>
+   </properties>
+  </object>
+  <object id="82" name="TileData" x="752" y="208" width="192" height="96">
+   <properties>
+    <property name="FloorID" value="UpperRightRoom"/>
+   </properties>
+  </object>
+  <object id="102" name="TileData" x="288" y="224" width="16" height="16">
+   <properties>
+    <property name="DefaultChildBedPosition" value="t"/>
+    <property name="FloorID" value="UpperRoom"/>
+   </properties>
+  </object>
+  <object id="888" name="TileData" x="592" y="224" width="16" height="16">
+   <properties>
+    <property name="DefaultBedPosition" value="t"/>
+    <property name="FloorID" value="Nursery"/>
+   </properties>
+  </object>
+  <object id="106" name="TileData" x="896" y="224" width="16" height="16">
+   <properties>
+    <property name="DefaultChildBedPosition" value="t"/>
+    <property name="FloorID" value="UpperRightRoom"/>
+   </properties>
+  </object>
+  <object id="134" name="TileData" x="448" y="240" width="32" height="48">
+   <properties>
+    <property name="FloorID" value="Hallway_Nursery"/>
+   </properties>
+  </object>
+  <object id="151" name="TileData" x="720" y="240" width="32" height="48">
+   <properties>
+    <property name="FloorID" value="Hallway_Nursery2"/>
+   </properties>
+  </object>
+  <object id="292" name="TileData" x="256" y="320" width="144" height="16">
+   <properties>
+    <property name="WallID" value="Kitchen"/>
+   </properties>
+  </object>
+  <object id="301" name="TileData" x="464" y="320" width="112" height="16">
+   <properties>
+    <property name="WallID" value="LivingRoom"/>
+   </properties>
+  </object>
+  <object id="315" name="TileData" x="624" y="320" width="112" height="16">
+   <properties>
+    <property name="WallID" value="Bedroom"/>
+   </properties>
+  </object>
+  <object id="316" name="TileData" x="256" y="352" width="144" height="144">
+   <properties>
+    <property name="FloorID" value="Kitchen"/>
+   </properties>
+  </object>
+  <object id="325" name="TileData" x="400" y="352" width="192" height="144">
+   <properties>
+    <property name="FloorID" value="LivingRoom"/>
+   </properties>
+  </object>
+  <object id="337" name="TileData" x="592" y="352" width="16" height="128">
+   <properties>
+    <property name="FloorID" value="Hallway_Bedroom"/>
+   </properties>
+  </object>
+  <object id="349" name="TileData" x="608" y="352" width="192" height="128">
+   <properties>
+    <property name="FloorID" value="Bedroom"/>
+   </properties>
+  </object>
+  <object id="418" name="TileData" x="848" y="384" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="T"/>
+   </properties>
+  </object>
+  <object id="593" name="TileData" x="256" y="496" width="32" height="16">
+   <properties>
+    <property name="WallID" value="KitchenCellar1"/>
+   </properties>
+  </object>
+  <object id="595" name="TileData" x="288" y="496" width="16" height="32">
+   <properties>
+    <property name="FloorID" value="KitchenCellar"/>
+   </properties>
+  </object>
+  <object id="596" name="TileData" x="304" y="496" width="32" height="16">
+   <properties>
+    <property name="WallID" value="KitchenCellar 2"/>
+   </properties>
+  </object>
+  <object id="598" name="TileData" x="336" y="496" width="16" height="32">
+   <properties>
+    <property name="FloorID" value="KitchenCellar"/>
+   </properties>
+  </object>
+  <object id="599" name="TileData" x="352" y="496" width="32" height="16">
+   <properties>
+    <property name="WallID" value="KitchenCellar 3"/>
+   </properties>
+  </object>
+  <object id="601" name="TileData" x="416" y="496" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="T"/>
+   </properties>
+  </object>
+  <object id="602" name="TileData" x="432" y="496" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="T"/>
+   </properties>
+  </object>
+  <object id="603" name="TileData" x="480" y="496" width="192" height="16">
+   <properties>
+    <property name="WallID" value="SouthernRoom"/>
+   </properties>
+  </object>
+  <object id="624" name="TileData" x="752" y="496" width="160" height="16">
+   <properties>
+    <property name="WallID" value="SouthernRoom2"/>
+   </properties>
+  </object>
+  <object id="632" name="TileData" x="480" y="528" width="208" height="128">
+   <properties>
+    <property name="FloorID" value="SouthernRoom"/>
+   </properties>
+  </object>
+  <object id="644" name="TileData" x="688" y="528" width="48" height="128">
+   <properties>
+    <property name="FloorID" value="SouthernRoomHallway"/>
+   </properties>
+  </object>
+  <object id="656" name="TileData" x="736" y="528" width="176" height="32">
+   <properties>
+    <property name="FloorID" value="SouthernRoom2"/>
+   </properties>
+  </object>
+  <object id="657" name="TileData" x="256" y="528" width="128" height="128">
+   <properties>
+    <property name="FloorID" value="KitchenCellar"/>
+   </properties>
+  </object>
+  <object id="716" name="TileData" x="736" y="560" width="32" height="96">
+   <properties>
+    <property name="FloorID" value="SouthernRoom2"/>
+   </properties>
+  </object>
+  <object id="718" name="TileData" x="896" y="560" width="16" height="80">
+   <properties>
+    <property name="FloorID" value="SouthernRoom2"/>
+   </properties>
+  </object>
+  <object id="745" name="TileData" x="784" y="576" width="16" height="16">
+   <properties>
+    <property name="Diggable" value="t"/>
+   </properties>
+  </object>
+  <object id="746" name="TileData" x="800" y="576" width="16" height="16">
+   <properties>
+    <property name="Diggable" value="t"/>
+   </properties>
+  </object>
+  <object id="747" name="TileData" x="816" y="576" width="16" height="16">
+   <properties>
+    <property name="Diggable" value="t"/>
+   </properties>
+  </object>
+  <object id="748" name="TileData" x="832" y="576" width="16" height="16">
+   <properties>
+    <property name="Diggable" value="t"/>
+   </properties>
+  </object>
+  <object id="749" name="TileData" x="848" y="576" width="16" height="16">
+   <properties>
+    <property name="Diggable" value="t"/>
+   </properties>
+  </object>
+  <object id="750" name="TileData" x="864" y="576" width="16" height="16">
+   <properties>
+    <property name="Diggable" value="t"/>
+   </properties>
+  </object>
+  <object id="778" name="TileData" x="784" y="592" width="16" height="16">
+   <properties>
+    <property name="Diggable" value="t"/>
+   </properties>
+  </object>
+  <object id="779" name="TileData" x="800" y="592" width="16" height="16">
+   <properties>
+    <property name="Diggable" value="t"/>
+   </properties>
+  </object>
+  <object id="780" name="TileData" x="816" y="592" width="16" height="16">
+   <properties>
+    <property name="Diggable" value="t"/>
+   </properties>
+  </object>
+  <object id="781" name="TileData" x="832" y="592" width="16" height="16">
+   <properties>
+    <property name="Diggable" value="t"/>
+   </properties>
+  </object>
+  <object id="782" name="TileData" x="848" y="592" width="16" height="16">
+   <properties>
+    <property name="Diggable" value="t"/>
+   </properties>
+  </object>
+  <object id="783" name="TileData" x="864" y="592" width="16" height="16">
+   <properties>
+    <property name="Diggable" value="t"/>
+   </properties>
+  </object>
+  <object id="811" name="TileData" x="784" y="608" width="16" height="16">
+   <properties>
+    <property name="Diggable" value="t"/>
+   </properties>
+  </object>
+  <object id="812" name="TileData" x="800" y="608" width="16" height="16">
+   <properties>
+    <property name="Diggable" value="t"/>
+   </properties>
+  </object>
+  <object id="813" name="TileData" x="816" y="608" width="16" height="16">
+   <properties>
+    <property name="Diggable" value="t"/>
+   </properties>
+  </object>
+  <object id="814" name="TileData" x="832" y="608" width="16" height="16">
+   <properties>
+    <property name="Diggable" value="t"/>
+   </properties>
+  </object>
+  <object id="815" name="TileData" x="848" y="608" width="16" height="16">
+   <properties>
+    <property name="Diggable" value="t"/>
+   </properties>
+  </object>
+  <object id="816" name="TileData" x="864" y="608" width="16" height="16">
+   <properties>
+    <property name="Diggable" value="t"/>
+   </properties>
+  </object>
+  <object id="879" name="TileData" x="768" y="640" width="144" height="16">
+   <properties>
+    <property name="FloorID" value="SouthernRoom2"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer id="3" name="Buildings" width="70" height="46">
+  <data encoding="base64" compression="zlib">
+   eJztmDtOw0AQhhdIEQcugRANrwqUlEQhgBQQFiCRiod4NDR00OckdNBzgnAVDsABKJiVbGm1nsSz42R3o8wn/fJamn3M77W8Y6UEQRAEQRAEQcBYBS07qgZaZPTDxlhyVG06NhRoM/p0mf0mMUa34rxUOGsbgr4rzssdw6cvX4mb9kBN0CHoCHSs2w035WN8Oirm/dKG9XVA56AL0GXCH8OVmH05hXzOQNegG9AtI798DFdi9iUk4guOL1/uGH26zH4mA8V7Jh8V56VCPVuZ39QhMZYap3lKRsetgxYM+YD6zFoJ3h4XS43T/NSVWlO49P4M4cs+4btwkODtcbHUOM0v+NJRuEL5cmKdne5VUamRQ1py9spjqXGavzo+r1YoX/rG+nahvQHaBG2BtkE7jHOGK/Uxc4Ty5dFD3lWIYb/ESChfHsSXAtqXF/GlwCzUASF8efc0DwU7f9sLn740VPHsbp/jVzLlDIx+LrL/z5XVCab0/CHeo1Z2bVptjfkcVXblvH92XVBWJ5jYa5g2Or8eqJ/dX1ntnsL3N8cXuy4oqxNMQvjyDHrL7l+R9ihfXP/NppYPZXWC/V83tu/RpPZLFcSX8jX4QHzBEV9wxBcc8QWHUgfof/Dz5suoeiRm+SB0jrPqCzVu3nyJUT4IneM0ffkHPUl4ZQ==
+  </data>
+ </layer>
+ <objectgroup id="4" name="Buildings">
+  <object id="880" name="TileData" x="480" y="240" width="16" height="16">
+   <properties>
+    <property name="Action" value="Crib"/>
+   </properties>
+  </object>
+  <object id="881" name="TileData" x="496" y="240" width="16" height="16">
+   <properties>
+    <property name="Action" value="Crib"/>
+   </properties>
+  </object>
+  <object id="882" name="TileData" x="512" y="240" width="16" height="16">
+   <properties>
+    <property name="Action" value="Crib"/>
+   </properties>
+  </object>
+  <object id="883" name="TileData" x="304" y="368" width="16" height="16">
+   <properties>
+    <property name="Action" value="kitchen"/>
+   </properties>
+  </object>
+  <object id="884" name="TileData" x="320" y="368" width="16" height="16">
+   <properties>
+    <property name="Action" value="kitchen"/>
+   </properties>
+  </object>
+  <object id="885" name="TileData" x="336" y="368" width="16" height="16">
+   <properties>
+    <property name="Action" value="kitchen"/>
+   </properties>
+  </object>
+  <object id="886" name="TileData" x="352" y="368" width="16" height="16">
+   <properties>
+    <property name="Action" value="kitchen"/>
+   </properties>
+  </object>
+  <object id="887" name="TileData" x="368" y="368" width="16" height="16">
+   <properties>
+    <property name="Action" value="kitchen"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer id="5" name="Front" width="70" height="46">
+  <data encoding="base64" compression="zlib">
+   eJztmM1NAzEQhR0ipCTKib8T4u9EDcAlhxygi8AZKIISqACICHWAaIRKeJZiyTj2xh5l7TE7n/Qka+OZZJ+965koJQiCIAiCIAiCjxHUX0pZ437D9bETF4oN5QvliNF4c7feyAR63k7TlBi3iRzTTL5Q+IS+oIuhUpfQ1ZCeI5VcvkwIMWbtZvDjFroj+GJypMLZF8M9/HiAHgm+UOH8HJWkhv1SAs77ZQ69FcqR05f3CLn3MIuYO3euf1t6cvK5c0Ny49piRIxbV8+lzrM/vxmUqeVsUmorQ+zclJyGH8+4xDvFfe8e4szdgXahPWgfOsh4Dm/1VsccfDmHB0fQMXQCnUJnGX3xwfkM6ho11C8cniOOiC98qMGXru8XX827gD4K/Z5X9bd2t8e6Znf7gNiafV0vYfJrmfvvNYgjdj+Uq0cpja92d8cad+0o/+v6vpfSLwjCf4DTOcaJ3L7U0juKL37EFz/ii58u+KL7gOvBat2ury0CMS/LOEo/kKoSPVJK38G1R2kD8cVPU/9aS0/LiViPUn2XNWmfX1ntnKk=
+  </data>
+ </layer>
+ <objectgroup id="6" name="Front"/>
+ <layer id="7" name="AlwaysFront" width="70" height="46">
+  <data encoding="base64" compression="zlib">
+   eJztzjERAAAIBKBfLWr/CI4m8FwgAQkAAAAAANe6vgcAAAAAAAAAawCr9wBw
+  </data>
+ </layer>
+ <objectgroup id="8" name="AlwaysFront"/>
+</map>

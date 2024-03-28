@@ -1,0 +1,21 @@
+{
+  "Changes": [
+
+    {
+	  "LogName": "Magic Seed Crafting Recipes",
+      "Action": "EditData",
+      "Target": "Data/CraftingRecipes",
+      "Entries": {
+			"wildflour.ateliercrops_StrangeCap_seeds": "wildflour.ateliercrops_blush_cap 5 wildflour.ateliercrops_dusk_cap 5 wildflour.ateliercrops_giant_amanita 5 wildflour.ateliercrops_faerie_helmets 5/Home/wildflour.ateliercrops_StrangeCap_seeds/false/default/{{i18n: ateliercrops_StrangeCap_seeds.name}}",
+			"wildflour.ateliercrops_MysticTrumpet_seeds": "wildflour.ateliercrops_gloomy_blewit 5 wildflour.ateliercrops_dawn_trumpet 5 wildflour.ateliercrops_golden_aura 5 wildflour.ateliercrops_moon_mushroom 5/Home/wildflour.ateliercrops_MysticTrumpet_seeds/false/default/{{i18n: ateliercrops_MysticTrumpet_seeds.name}}",
+      "wildflour.ateliercrops_WitchwoodTree_seeds": "wildflour.ateliercrops_verdigris_agaric 5 wildflour.ateliercrops_peach_parasol 5 wildflour.ateliercrops_amanita_cluster 5 wildflour.ateliercrops_tiny_angels 5/Home/wildflour.ateliercrops_WitchwoodTree_seeds/false/default/{{i18n: ateliercrops_WitchwoodTree_seeds.name}}",
+      "wildflour.ateliercrops_buttercream_sapling": "wildflour.ateliercrops_cake_blossom 5 wildflour.ateliercrops_sugar_blossom 5/Home/wildflour.ateliercrops_buttercream_sapling/false/default/{{i18n: ateliercrops_buttercream_sapling.name}}",
+      "wildflour.ateliercrops_brulee_sapling": "wildflour.ateliercrops_caramel_blossom 5 wildflour.ateliercrops_gumdrop_blossom 5/Home/wildflour.ateliercrops_brulee_sapling/false/default/{{i18n: ateliercrops_brulee_sapling.name}}",
+      "wildflour.ateliercrops_gelato_sapling": "wildflour.ateliercrops_creamsicle_blossom 5 wildflour.ateliercrops_sprinkle_blossom 5/Home/wildflour.ateliercrops_gelato_sapling/false/default/{{i18n: ateliercrops_gelato_sapling.name}}",
+      "wildflour.ateliercrops_pavlova_sapling": "wildflour.ateliercrops_macaron_blossom 5 wildflour.ateliercrops_shortcake_blossom 5/Home/wildflour.ateliercrops_pavlova_sapling/false/default/{{i18n: ateliercrops_pavlova_sapling.name}}",
+      "wildflour.ateliercrops_souffle_sapling": "wildflour.ateliercrops_custard_blossom 5 wildflour.ateliercrops_pie_blossom 5/Home/wildflour.ateliercrops_souffle_sapling/false/default/{{i18n: ateliercrops_souffle_sapling.name}}"
+      
+    }
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"Name": "[BBM] Atelier Wildflour Crops and Forage",
+	"Author": "wildflourmods",
+    "Version": "5.0",
+	"Description": "Adds various forage to the bushes in the valley.",
+	"UniqueID": "wildflour.ateliercropsBBM",
+	"MinimumApiVersion": "2.11.2",
+	"Dependencies": [
+		{"UniqueID": "wildflour.ateliercrops", "IsRequired": true}
+	],
+	"ContentPackFor": {
+		"UniqueID": "NCarigon.BushBloomMod"
+	}
+}

@@ -1,0 +1,13 @@
+{
+    "Name": "Atelier Wildflour Botanicals Pack",
+    "Author": "wildflourmods",
+    "Version": "2.0",
+    "Description": "Craft dried flower and herb bundles as well as incense and preserved mushrooms!",
+    "UniqueID": "wildflour.atelierbotanicals",
+    "UpdateKeys": ["nexus:17878"], 
+    "MinimumApiVersion": "4.0.0-alpha",
+    "Dependencies": [{"UniqueID": "wildflour.ateliercrops", "IsRequired": true}],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}

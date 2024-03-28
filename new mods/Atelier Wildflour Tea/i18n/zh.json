@@ -1,0 +1,284 @@
+{
+
+//KETTLE
+
+"ateliertea_TeaProcessor.name":"茶叶处理器",
+"ateliertea_TeaProcessor.description":"将不同食材制成茶包。",
+
+"ateliertea_TeaKettle.name":"茶壶",
+"ateliertea_TeaKettle.description":"冲泡特制茶饮。",
+
+///////////////////////////
+// MACHINE NOTIFICATIONS //
+///////////////////////////
+
+"ateliertea_TeaProcessor_InvalidItem.message": "无法制作",
+"ateliertea_TeaProcessor_InvalidCount.message": "需要茶叶",
+
+"ateliertea_TeaKettle_InvalidItem.message": "无法冲泡",
+"ateliertea_TeaKettle_InvalidCount.message": "需要蜂蜜",    
+
+
+//TEA SACHETS
+
+"ateliertea_apple_sachet.name": "秋日苹果茶包",
+"ateliertea_apple_sachet.description": "混合了辛香料和爽脆苹果让这调味茶非常适合在悠闲的秋日下午饮用。",
+
+"ateliertea_vanilla_sachet.name": "卡利科香草茶包",
+"ateliertea_vanilla_sachet.description": "这种调味香草茶最适合暖心暖身。",
+
+"ateliertea_matcha_sachet.name": "仪式抹茶包",
+"ateliertea_matcha_sachet.description": "初摘茶叶制成的典礼级调味茶。",
+
+"ateliertea_cinnamon_sachet.name": "肉桂香料茶包",
+"ateliertea_cinnamon_sachet.description": "混合了茶叶和煤炭肉桂粉，非常适合泡茶。",
+
+"ateliertea_chamomile_sachet.name": "温和洋甘菊茶包",
+"ateliertea_chamomile_sachet.description": "干燥洋甘菊花瓣以及其他宁神的草药造就这舒缓的调味茶。",
+
+"ateliertea_breakfast_sachet.name": "英式早餐茶包",
+"ateliertea_breakfast_sachet.description": "醇厚浓郁的调味茶。",
+
+"ateliertea_jasmine_sachet.name": "芳香茉莉茶包",
+"ateliertea_jasmine_sachet.description": "混合了茶叶和芳香茉莉花瓣，非常适合泡茶。",
+
+"ateliertea_ginger_sachet.name": "蜜桃姜茶包",
+"ateliertea_ginger_sachet.description": "桃子甜蜜果味和姜的温暖辛香搭配而成的调味茶。",
+
+"ateliertea_grey_sachet.name": "格雷仕女茶包",
+"ateliertea_grey_sachet.description": "加入一点柠檬和橙子使这调味茶比格雷伯爵茶还要更柔和、淡雅。",
+
+"ateliertea_lemon_sachet.name": "柠檬姜茶包",
+"ateliertea_lemon_sachet.description": "用小柠檬皮和干燥的姜制成的提神调味茶。",
+
+"ateliertea_mint_sachet.name": "雀跃薄荷茶包",
+"ateliertea_mint_sachet.description": "常为了舒缓感冒与流感症状而泡的清新调味茶。",
+
+"ateliertea_berry_sachet.name": "综合莓果茶包",
+"ateliertea_berry_sachet.description": "有着新鲜莓果香的醇厚调味茶。",
+
+"ateliertea_peach_sachet.name": "蜜桃芒果茶包",
+"ateliertea_peach_sachet.description": "有着蜜桃芒果风味，令人雀跃的调味茶！",
+
+"ateliertea_pineapple_sachet.name": "菠萝椰香茶包",
+"ateliertea_pineapple_sachet.description": "甜蜜菠萝与清爽椰子的调味茶能立刻把你带到岛屿码头。",
+
+"ateliertea_pomegranate_sachet.name": "石榴绿茶包",
+"ateliertea_pomegranate_sachet.description": "以清新石榴为主调，味道强烈的草本调味茶。",
+
+"ateliertea_raspberry_sachet.name": "覆盆莓茶包",
+"ateliertea_raspberry_sachet.description": "带有覆盆莓酸味的芬吉尔香醇调味茶。",
+
+"ateliertea_rose_sachet.name": "玫瑰花茶包",
+"ateliertea_rose_sachet.description": "用玫瑰花瓣与花蕾制成的调味茶。",
+
+"ateliertea_sakura_sachet.name": "樱花茶包",
+"ateliertea_sakura_sachet.description": "用保鲜樱花瓣制成的调味茶。",
+
+"ateliertea_strawberry_sachet.name": "野生草莓茶包",
+"ateliertea_strawberry_sachet.description": "用春季野生草莓制成的甜蜜调味茶。",
+
+//TEA
+
+"ateliertea_apple_tea.name": "秋日苹果茶",
+"ateliertea_apple_tea.description": "现泡苹果茶。",
+
+"ateliertea_vanilla_tea.name": "卡利科香草茶",
+"ateliertea_vanilla_tea.description": "现泡香草茶。",
+
+"ateliertea_matcha_tea.name": "仪式抹茶",
+"ateliertea_matcha_tea.description": "现泡抹茶。",
+
+"ateliertea_cinnamon_tea.name": "肉桂香料茶",
+"ateliertea_cinnamon_tea.description": "现泡肉桂茶。",
+
+"ateliertea_chamomile_tea.name": "温和洋甘菊茶",
+"ateliertea_chamomile_tea.description": "现泡洋甘菊茶。",
+
+"ateliertea_breakfast_tea.name": "英式早餐茶",
+"ateliertea_breakfast_tea.description": "现泡英式早餐茶。",
+
+"ateliertea_jasmine_tea.name": "芳香茉莉茶",
+"ateliertea_jasmine_tea.description": "现泡茉莉茶。",
+
+"ateliertea_ginger_tea.name": "蜜桃姜茶",
+"ateliertea_ginger_tea.description": "现泡蜜桃姜茶。",
+
+"ateliertea_grey_tea.name": "格雷仕女茶",
+"ateliertea_grey_tea.description": "现泡格雷仕女茶。",
+
+"ateliertea_lemon_tea.name": "柠檬姜茶",
+"ateliertea_lemon_tea.description": "现泡柠檬姜茶。",
+
+"ateliertea_mint_tea.name": "雀跃薄荷茶",
+"ateliertea_mint_tea.description": "现泡薄荷茶。",
+
+"ateliertea_berry_tea.name": "综合莓果茶",
+"ateliertea_berry_tea.description": "现泡综合莓果茶。",
+
+"ateliertea_peach_tea.name": "蜜桃芒果茶",
+"ateliertea_peach_tea.description": "现泡蜜桃芒果茶。",
+
+"ateliertea_pineapple_tea.name": "菠萝椰香茶",
+"ateliertea_pineapple_tea.description": "现泡菠萝椰香茶。",
+
+"ateliertea_pomegranate_tea.name": "石榴绿茶",
+"ateliertea_pomegranate_tea.description": "现泡石榴绿茶。",
+
+"ateliertea_raspberry_tea.name": "覆盆莓茶",
+"ateliertea_raspberry_tea.description": "现泡覆盆莓茶。",
+
+"ateliertea_rose_tea.name": "玫瑰花茶",
+"ateliertea_rose_tea.description": "现泡玫瑰花茶。",
+
+"ateliertea_sakura_tea.name": "樱花茶",
+"ateliertea_sakura_tea.description": "现泡樱花茶。",
+
+"ateliertea_strawberry_tea.name": "野生草莓茶",
+"ateliertea_strawberry_tea.description": "现泡野生草莓茶。",
+
+//KOMBUCHA
+
+"ateliertea_apple_kombucha.name": "秋日苹果康普茶",
+"ateliertea_apple_kombucha.description": "经蜂蜜发酵，令人心旷神怡的气泡茶饮。",
+
+"ateliertea_vanilla_kombucha.name": "卡利科香草康普茶",
+"ateliertea_vanilla_kombucha.description": "经蜂蜜发酵，令人心旷神怡的气泡茶饮。",
+
+"ateliertea_matcha_kombucha.name": "仪式抹茶康普茶",
+"ateliertea_matcha_kombucha.description": "经蜂蜜发酵，令人心旷神怡的气泡茶饮。",
+
+"ateliertea_cinnamon_kombucha.name": "肉桂香料康普茶",
+"ateliertea_cinnamon_kombucha.description": "经蜂蜜发酵，令人心旷神怡的气泡茶饮。",
+
+"ateliertea_chamomile_kombucha.name": "温和洋甘菊康普茶",
+"ateliertea_chamomile_kombucha.description": "经蜂蜜发酵，令人心旷神怡的气泡茶饮。",
+
+"ateliertea_breakfast_kombucha.name": "英式早餐康普茶",
+"ateliertea_breakfast_kombucha.description": "经蜂蜜发酵，令人心旷神怡的气泡茶饮。",
+
+"ateliertea_jasmine_kombucha.name": "芳香茉莉康普茶",
+"ateliertea_jasmine_kombucha.description": "经蜂蜜发酵，令人心旷神怡的气泡茶饮。",
+
+"ateliertea_ginger_kombucha.name": "蜜桃姜康普茶",
+"ateliertea_ginger_kombucha.description": "经蜂蜜发酵，令人心旷神怡的气泡茶饮。",
+
+"ateliertea_grey_kombucha.name": "格雷仕女康普茶",
+"ateliertea_grey_kombucha.description": "经蜂蜜发酵，令人心旷神怡的气泡茶饮。",
+
+"ateliertea_lemon_kombucha.name": "柠檬姜康普茶",
+"ateliertea_lemon_kombucha.description": "经蜂蜜发酵，令人心旷神怡的气泡茶饮。",
+
+"ateliertea_mint_kombucha.name": "雀跃薄荷康普茶",
+"ateliertea_mint_kombucha.description": "经蜂蜜发酵，令人心旷神怡的气泡茶饮。",
+
+"ateliertea_berry_kombucha.name": "综合莓果康普茶",
+"ateliertea_berry_kombucha.description": "经蜂蜜发酵，令人心旷神怡的气泡茶饮。",
+
+"ateliertea_peach_kombucha.name": "蜜桃芒果康普茶",
+"ateliertea_peach_kombucha.description": "经蜂蜜发酵，令人心旷神怡的气泡茶饮。",
+
+"ateliertea_pineapple_kombucha.name": "菠萝椰香康普茶",
+"ateliertea_pineapple_kombucha.description": "经蜂蜜发酵，令人心旷神怡的气泡茶饮。",
+
+"ateliertea_pomegranate_kombucha.name": "石榴绿康普茶",
+"ateliertea_pomegranate_kombucha.description": "经蜂蜜发酵，令人心旷神怡的气泡茶饮。",
+
+"ateliertea_raspberry_kombucha.name": "覆盆莓康普茶",
+"ateliertea_raspberry_kombucha.description": "经蜂蜜发酵，令人心旷神怡的气泡茶饮。",
+
+"ateliertea_rose_kombucha.name": "玫瑰花康普茶",
+"ateliertea_rose_kombucha.description": "经蜂蜜发酵，令人心旷神怡的气泡茶饮。",
+
+"ateliertea_sakura_kombucha.name": "樱花康普茶",
+"ateliertea_sakura_kombucha.description": "经蜂蜜发酵，令人心旷神怡的气泡茶饮。",
+
+"ateliertea_strawberry_kombucha.name": "野生草莓康普茶",
+"ateliertea_strawberry_kombucha.description": "经蜂蜜发酵，令人心旷神怡的气泡茶饮。",
+
+//////////
+// MAIL //
+//////////
+
+"ateliertea_TeaProcessorRecipe.name":"自制茶包时间到！",
+"ateliertea_TeaProcessorRecipe.text":"@，^^如果你真的想学泡茶那就应该做这台设备。它还内置制作茶包的功能！我很乐意品尝你调配的新茶。^^艾利欧特",
+
+"ateliertea_TeaKettleRecipe.name":"开启茶壶",
+"ateliertea_TeaKettleRecipe.text":"@，^^我觉得拥有自己的茶壶可以让家里变得更温馨；这是教你自己做的蓝图！只是到时候别忘了邀请我去你的茶会。^^卡洛琳",
+
+"ateliertea_evelyn_gift.name":"送你的种子",
+"ateliertea_evelyn_gift.text":"@，^^我听说你正在学习更多泡茶的知识！这是趟很美妙的冒险。送你吧：这些是从我的花园拿来的洋甘菊种子。这种花可以泡成舒缓身心的花草茶助眠。^^艾芙琳",
+
+"ateliertea_leah_gift.name":"送给你的茶园",
+"ateliertea_leah_gift.text":"@，^^你泡茶的进展如何？如果你在觅食茶叶上有困难，我很乐意跟你分享一些种子！这些会长成坚稳的茶树丛，这样你想泡什么茶都没问题了。^^莉亚",
+
+"ateliertea_maru_gift.name":"泡康普茶",
+"ateliertea_maru_gift.text":"@，^^你知道你能把茶发酵成康普茶吗？这种茶并不「普」遍（抱歉我用了双关语），但我认为这充满气泡很好喝！你会想种这些蘑菇帮助发酵的。^^玛鲁",
+
+
+////////////////////
+// SPECIAL ORDERS //
+////////////////////
+
+"ateliertea_SO_1.name":"茶包储存",
+"ateliertea_SO_1.text":"我的自种茶叶用完了！有人能给我些茶包让我度过这周吗？",
+"ateliertea_SO_1a.deliver":"带给卡洛琳 2 包肉桂香料茶包。",
+"ateliertea_SO_1b.deliver":"带给卡洛琳 2 包雀跃薄荷茶包。",
+"ateliertea_SO_1c.deliver":"带给卡洛琳 2 包格雷仕女茶包。",
+"ateliertea_SO_1.accept":"你带给我的口味真棒！我的下午茶一定会变得很有趣。",
+
+"ateliertea_SO_2.name":"品茶派对",
+"ateliertea_SO_2.text":"品茶派对我邀请了一些女士到我家享用茶跟司康，但我希望多几种茶能让她们选！有人能帮我吗？",
+"ateliertea_SO_2a.deliver":"把 2 杯樱花茶放进艾芙琳厨房里的箱子。",
+"ateliertea_SO_2b.deliver":"把 2 杯玫瑰花茶放进艾芙琳厨房里的箱子。",
+"ateliertea_SO_2c.deliver":"把 2 杯英式早餐茶放进艾芙琳厨房里的箱子。",
+
+"ateliertea_SO_3.name":"带起茶流",
+"ateliertea_SO_3.text":"我听见阿比盖尔跟塞巴在聊康普茶对身体的好处……有人能带几瓶给我喝喝看吗？",
+"ateliertea_SO_3a.deliver":"把 2 瓶秋日苹果康普茶放进罗宾工作室里的箱子。",
+"ateliertea_SO_3b.deliver":"把 2 瓶覆盆莓康普茶放进罗宾工作室里的箱子。",
+"ateliertea_SO_3c.deliver":"把 2 瓶野生草莓康普茶放进罗宾工作室里的箱子。",
+"ateliertea_SO_3d.deliver":"把 2 瓶石榴绿康普茶放进罗宾工作室里的箱子。",
+
+"ateliertea_SO_4.name":"助眠茶饮",
+"ateliertea_SO_4.text":"我真的筋疲力尽只想要一夜好眠，有人能带给我一些助眠的温和花草茶吗？",
+"ateliertea_SO_4a.deliver":"把 3 包温馨洋甘菊茶包放进乔迪厨房里的箱子。",
+"ateliertea_SO_4b.deliver":"把 3 包雀跃薄荷茶包放进乔迪厨房里的箱子。",
+"ateliertea_SO_4c.deliver":"把 3 包卡利科香草茶包放进乔迪厨房里的箱子。",
+"ateliertea_SO_4d.deliver":"把 3 包柠檬姜茶包放进乔迪厨房里的箱子。",
+
+"ateliertea_SO_5.name":"制茶大师挑战",
+"ateliertea_SO_5.text":"又到了每年的这个时候——我们已经开放申请年度制茶大师了！把你最好的茶寄给我们，看你能不能赢得大奖！",
+"ateliertea_SO_5.ship":"出货 100 个金星质量的茶类产品。",
+
+"ateliertea_SO_6.name":"给艾利克斯的康普茶",
+"ateliertea_SO_6.text":"我问了好几次皮耶尔就是不肯进康普茶。我到底要怎样才有办法喝到？",
+"ateliertea_SO_6.deliver":"带给艾利克斯 4 四瓶康普茶。",
+"ateliertea_SO_6.accept":"你带康普茶来了！赞啦，谢谢你拿给我。",
+
+"ateliertea_SO_7.name":"给海莉的茶",
+"ateliertea_SO_7.text":"网购茶真的好麻烦；我连看都看不到要怎么知道质量好不好？或许镇上有人可以直接卖茶给我……",
+"ateliertea_SO_7.deliver":"带给海莉 6 杯茶。",
+"ateliertea_SO_7.accept":"这些茶真的超可爱。我准备要去喝它们了——再次感谢！",
+
+"ateliertea_SO_8.name":"给桑迪的茶包",
+"ateliertea_SO_8.text":"我打算做一大壶冰茶来让我在沙漠消暑。有人能带几包茶包给我吗？",
+"ateliertea_SO_8.deliver":"带给桑迪 8 包茶包。",
+"ateliertea_SO_8.accept":"我现在不会觉得要融化在沙漠热浪里了！谢谢你我的好朋友。",
+
+//TEA REWARDS MAIL
+ 
+"ateliertea_SO2_reward.title": "谢谢你；附上几株茶苗！",
+"ateliertea_SO2_reward.text": "@，^^^我们刚刚用这些茶举办了一场完美的维多利亚品茶派对！^^艾芙琳",
+
+"ateliertea_SO3_reward.title": "谢谢你；附上一些蘑菇原木！",
+"ateliertea_SO3_reward.text": "@，^^^噢它比我想象中还多气泡！不过还是好喝到令我惊讶。^^罗宾",
+
+"ateliertea_SO4_reward.title": "再次感谢！",
+"ateliertea_SO4_reward.text": "@，^^^它们闻起来好温和，我赌我今晚还没躺上枕头就先睡着了！^^乔迪",
+
+"ateliertea_SO5_reward.title": "恭喜！",
+"ateliertea_SO5_reward.text": "亲爱的　@，^^^你的贡献令我们印象深刻，我们很荣幸能给予你制茶大师的头衔。请领取这份奖赏。",
+
+
+}

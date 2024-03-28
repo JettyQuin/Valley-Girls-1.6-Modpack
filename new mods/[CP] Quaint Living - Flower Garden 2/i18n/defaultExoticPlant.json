@@ -1,0 +1,29 @@
+{
+//SEEDS
+"Ambrosia.seed.name": "Ambrosia Bulb",
+"Ambrosia.seed.description": "Plant in fall. Takes 7 days to produce rich purple daylily blooms.",
+"Pomponella.seed.name": "Pomponella Seeds",
+"Pomponella.seed.description": "Plant in spring or summer. The plants takes 20 days to bear clusters of small pink rose flowers with a delicate fragrance throughout summer.",
+"Protea.seed.name": "Protea Seeds",
+"Protea.seed.description": "Plant in summer. Takes 12 days to grow glorious pink bloom.",
+"RainbowTail.seed.name": "Rainbow Tail Seeds",
+"RainbowTail.seed.description": "Plant in spring or summer. Takes 6 days to grow colorful blooms.",
+"TeddyBearSunflower.seed.name": "Teddy Bear S. Seeds",
+"TeddyBearSunflower.seed.description": "Plant in summer or fall. Takes 8 days to grow big fluffy sunflower blooms.",
+
+
+//OBJECTS
+
+"Daylily.name": "Daylily",
+"Daylily.description": "Looks as ravishing and compelling as its name.???",
+"Pomponella.name": "Pomponella",
+"Pomponella.description": "It's a sheer delight to see.",
+"Protea.name": "Protea",
+"Protea.description": "This exotic and luxurious flower is highly sought after.",
+"RainbowTail.name": "Rainbow Tail",
+"RainbowTail.description": "A curious flower consisted of thousands bright, brilliant tiny petals.",
+"TeddyBearSunflower.name": "Teddy Bear S.",
+"TeddyBearSunflower.description": "Soft, fluffy, cushion-like novelty.",
+
+
+}

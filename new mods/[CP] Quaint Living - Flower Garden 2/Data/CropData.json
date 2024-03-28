@@ -1,0 +1,292 @@
+{
+    "Changes": [
+
+        {
+              "LogName":"QL Flower Crops",
+              "Action": "EditData",
+              "Target": "Data/Crops",
+              "Entries": {
+                  "PC.QL.FlowerGarden2_Amaryllis": {                      "Seasons": [ "winter" ],                      "DaysInPhase": [ 1, 1, 1, 1, 1 ],                      "HarvestItemId": "PC.QL.FlowerGarden2_Amaryllis",
+                    "Texture": "Mods/PC.QL.FlowerGarden2/Crops",                      "SpriteIndex": 0
+              },
+                  "PC.QL.FlowerGarden2_CallaLily": {                      "Seasons": [ "summer" ],                      "DaysInPhase": [ 1, 2, 2, 3, 2 ],                      "HarvestItemId": "PC.QL.FlowerGarden2_CallaLily",
+                    "Texture": "Mods/PC.QL.FlowerGarden2/Crops",                      "SpriteIndex": 1
+              },
+                  "PC.QL.FlowerGarden2_Carnation": {                      "Seasons": [ "summer", "fall" ],                      "DaysInPhase": [ 2, 3, 3, 3, 3 ],                      "HarvestItemId": "PC.QL.FlowerGarden2_Carnation",
+                    "Texture": "Mods/PC.QL.FlowerGarden2/Crops",                      "SpriteIndex": 2
+              },
+                  "PC.QL.FlowerGarden2_Dahlia": {                      "Seasons": [ "spring", "fall" ],                      "DaysInPhase": [ 1, 2, 2, 2, 1 ],  
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1,
+                    "ExtraHarvestChance": 0.06,
+                    "HarvestItemId": "PC.QL.FlowerGarden2_Dahlia",
+                    "Texture": "Mods/PC.QL.FlowerGarden2/Crops",                      "SpriteIndex": 3
+              },
+                  "PC.QL.FlowerGarden2_Delphinium": {                      "Seasons": [ "summer" ],                      "DaysInPhase": [ 1, 2, 2, 2, 2 ],  
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack":2,
+                    "ExtraHarvestChance": 0.05,
+                    "HarvestItemId": "PC.QL.FlowerGarden2_Delphinium",
+                    "Texture": "Mods/PC.QL.FlowerGarden2/Crops",                      "SpriteIndex": 4
+              },
+                  "PC.QL.FlowerGarden2_Freesia": {                      "Seasons": [ "spring" ],                      "DaysInPhase": [ 1, 1, 1, 2, 1 ],  
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack":2,
+                    "ExtraHarvestChance": 0.007,
+                    "HarvestItemId": "PC.QL.FlowerGarden2_Freesia",
+                    "Texture": "Mods/PC.QL.FlowerGarden2/Crops",                      "SpriteIndex": 5
+              },
+                  "PC.QL.FlowerGarden2_Fritillaria": {                      "Seasons": [ "spring" ],                      "DaysInPhase": [ 1, 1, 2, 2, 2 ],                      "HarvestItemId": "PC.QL.FlowerGarden2_Fritillaria",
+                    "Texture": "Mods/PC.QL.FlowerGarden2/Crops",                      "SpriteIndex": 6
+              },
+                  "PC.QL.FlowerGarden2_Iris": {                      "Seasons": [ "spring", "summer", "fall" ],                      "DaysInPhase": [ 1, 1, 1, 1, 1 ],                      "HarvestItemId": "PC.QL.FlowerGarden2_Iris",
+                    "Texture": "Mods/PC.QL.FlowerGarden2/Crops",                      "SpriteIndex": 7
+              },
+                  "PC.QL.FlowerGarden2_Jasmine": {                      "Seasons": [ "spring", "summer" ],                      "DaysInPhase": [ 1, 2, 3, 4, 5 ],  
+                    "RegrowDays": 4,
+                    "HarvestMinStack": 3,
+                    "HarvestMaxStack":4,
+                    "ExtraHarvestChance": 0.03,
+                    "HarvestItemId": "PC.QL.FlowerGarden2_Jasmine",
+                    "Texture": "Mods/PC.QL.FlowerGarden2/Crops",                      "SpriteIndex": 8
+              },
+                  "PC.QL.FlowerGarden2_Lavender": {                      "Seasons": [ "fall" ],                      "DaysInPhase": [ 2, 1, 1, 2, 1 ],  
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack":1,
+                    "ExtraHarvestChance": 0.01,
+                    "HarvestItemId": "PC.QL.FlowerGarden2_Lavender",
+                    "Texture": "Mods/PC.QL.FlowerGarden2/Crops",                      "SpriteIndex": 9
+              },
+                    "PC.QL.FlowerGarden2_Lily": {                      "Seasons": [ "summer", "fall" ],                      "DaysInPhase": [ 1, 2, 3, 3, 1 ], 
+                    "RegrowDays": -1,
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 2,
+                    "ExtraHarvestChance": 0.01,
+                    "HarvestItemId": "PC.QL.FlowerGarden2_Lily",
+                    "Texture": "Mods/PC.QL.FlowerGarden2/Crops",                      "SpriteIndex": 10
+              },
+/*                "PC.QL.FlowerGarden2_MossRose": {                      "Seasons": [ "summer" ],                      "DaysInPhase": [ 2, 1, 1, 1, 1 ],  
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack":1,
+                    "ExtraHarvestChance": 0.06,
+                    "HarvestItemId": "PC.QL.FlowerGarden2_MossRose",
+                    "Texture": "Mods/PC.QL.FlowerGarden2/Crops",                      "SpriteIndex": 1
+              },*/
+               "PC.QL.FlowerGarden2_Orchid": {                      "Seasons": [ "spring", "summer", "fall", "winter" ],                      "DaysInPhase": [ 3, 3, 3, 3, 3 ], 
+                    "IsRaised": true,
+                    "RegrowDays": 15,
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1,
+                    "ExtraHarvestChance": 0.001,
+                    "HarvestItemId": "PC.QL.FlowerGarden2_Orchid",
+                    "Texture": "Mods/PC.QL.FlowerGarden2/Crops",                      "SpriteIndex": 11
+                    "PlantableLocationRules": {
+                           "Id": "PC.QL.FlowerGarden2_OrchidRules",
+                           "Conditions": {
+"LOCATION_IS_INDOORS  Greenhouse"
+                          }
+                     },
+              "PC.QL.FlowerGarden2_Pansy": {                      "Seasons": [ "fall", "winter" ],                      "DaysInPhase": [ 1, 1, 1, 2, 1 ], 
+                    "RegrowDays": -1,
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1,
+                    "ExtraHarvestChance": 0.01,
+                    "HarvestItemId": "PC.QL.FlowerGarden2_Pansy",
+                    "Texture": "Mods/PC.QL.FlowerGarden2/Crops",                      "SpriteIndex": 12
+              },
+                "PC.QL.FlowerGarden2_Peony": {                      "Seasons": [ "spring" ],                      "DaysInPhase": [ 1, 1, 1, 2, 2 ], 
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack":1,
+                    "ExtraHarvestChance": 0.005,
+                    "HarvestItemId": "PC.QL.FlowerGarden2_Peony",
+                    "Texture": "Mods/PC.QL.FlowerGarden2/Crops",                      "SpriteIndex": 13
+              },
+                    "PC.QL.FlowerGarden2_Rose": {                      "Seasons": [ "spring", "summer", "fall" ],                      "DaysInPhase": [ 2, 3, 5, 6, 4 ], 
+                    "RegrowDays": 10,
+                    "HarvestMinStack": 2,
+                    "HarvestMaxStack": 4,
+                    "ExtraHarvestChance": 0.002,
+                    "HarvestItemId": "PC.QL.FlowerGarden2_Rose",
+                    "Texture": "Mods/PC.QL.FlowerGarden2/Crops",                      "SpriteIndex": 14
+              },
+                    "PC.QL.FlowerGarden2_Snapdragon": {                      "Seasons": [ "fall", "winter" ],                      "DaysInPhase": [ 2, 2, 3, 3, 2 ], 
+                    "RegrowDays": -1,
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 2,
+                    "ExtraHarvestChance": 0.001,
+                   "HarvestItemId": "PC.QL.FlowerGarden2_Snapdragon",
+                    "Texture": "Mods/PC.QL.FlowerGarden2/Crops",                      "SpriteIndex": 15
+              },
+                    "PC.QL.FlowerGarden2_StripedSquill": {                      "Seasons": [ "winter" ],                      "DaysInPhase": [ 1, 1, 1, 2, 1, 1 ], 
+                    "RegrowDays": -1,                    "HarvestItemId": "PC.QL.FlowerGarden2_StripedSquill",
+                    "Texture": "Mods/PC.QL.FlowerGarden2/Crops",                      "SpriteIndex": 16
+              },
+                  "PC.QL.FlowerGarden2_Zinnia": {                      "Seasons": [ "summer", "fall" ],                      "DaysInPhase": [ 2, 2, 2, 1, 1 ],  
+                    "RegrowDays": 4,
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack":3,
+                    "ExtraHarvestChance": 0.08,
+                    "HarvestItemId": "PC.QL.FlowerGarden2_Zinnia",
+                    "Texture": "Mods/PC.QL.FlowerGarden2/Crops",                      "SpriteIndex": 17
+              }      
+       }
+},
+
+
+//QL - Giant Crops
+        {
+              "LogName":"QL Giant Crops",
+              "Action": "EditData",
+              "Target": "Data/GiantCrops",
+              "Entries": {
+                  "PC.QL.FlowerGarden2_GiantCallaLily": {
+                    "FromItemId":"PC.QL.FlowerGarden2_CallaLily",
+                    "Seasons": [ "summer" ],
+                    "Chance":0.01,
+                    "HarvestItems":[
+                        {
+                           "ItemId":"PC.QL.FlowerGarden2_CallaLily",
+                           "MinStack":"9",
+                           "MaxStack":"17"
+                    }
+                 ],
+                    "Texture": "Mods/PC.QL.FlowerGarden2/GiantCrops",
+                    "TexturePosition": {
+                           "X": 0,
+                           "Y": 0
+                 },
+                    "TileSize": {
+                           "X": 3,
+                           "Y": 4
+                 }            
+           },
+                  "PC.QL.FlowerGarden2_GiantDahlia": {
+                    "FromItemId":"PC.QL.FlowerGarden2_Dahlia",
+                    "Seasons": [ "spring", "fall" ],
+                    "Chance":0.01,
+                    "HarvestItems":[
+                        {
+                           "ItemId":"PC.QL.FlowerGarden2_Dahlia",
+                           "MinStack":"9",
+                           "MaxStack":"12"
+                    }
+                 ],
+                    "Texture": "Mods/PC.QL.FlowerGarden2/GiantCrops",
+                    "TexturePosition": {
+                           "X": 0,
+                           "Y": 0
+                 },
+                    "TileSize": {
+                           "X": 3,
+                           "Y": 4
+                 }            
+           },
+                  "PC.QL.FlowerGarden2_GiantDelphinium": {
+                    "FromItemId":"PC.QL.FlowerGarden2_Delphinium",
+                    "Seasons": [ "summer" ],
+                    "Chance":0.01,
+                    "HarvestItems":[
+                        {
+                           "ItemId":"PC.QL.FlowerGarden2_Delphinium",
+                           "MinStack":"9",
+                           "MaxStack":"18"
+                    }
+                 ],
+                    "Texture": "Mods/PC.QL.FlowerGarden2/GiantCrops",
+                    "TexturePosition": {
+                           "X": 0,
+                           "Y": 0
+                 },
+                    "TileSize": {
+                           "X": 3,
+                           "Y": 4
+                 }            
+           },
+                  "PC.QL.FlowerGarden2_GiantIris": {
+                    "FromItemId":"PC.QL.FlowerGarden2_Iris",
+                    "Seasons": [ "spring", "summer", "fall" ],
+                    "Chance":0.01,
+                    "HarvestItems":[
+                        {
+                           "ItemId":"PC.QL.FlowerGarden2_Iris",
+                           "MinStack":"9",
+                           "MaxStack":"15"
+                    }
+                 ],
+                    "Texture": "Mods/PC.QL.FlowerGarden2/GiantCrops",
+                    "TexturePosition": {
+                           "X": 0,
+                           "Y": 0
+                 },
+                    "TileSize": {
+                           "X": 3,
+                           "Y": 4
+                 }            
+           },
+                  "PC.QL.FlowerGarden2_Lily": {
+                    "FromItemId":"PC.QL.FlowerGarden2_Lily",
+                    "Seasons": [ "summer" ],
+                    "Chance":0.01,
+                    "HarvestItems":[
+                        {
+                           "ItemId":"PC.QL.FlowerGarden2_Lily",
+                           "MinStack":"9",
+                           "MaxStack":"12"
+                    }
+                 ],
+                    "Texture": "Mods/PC.QL.FlowerGarden2/GiantCrops",
+                    "TexturePosition": {
+                           "X": 0,
+                           "Y": 0
+                 },
+                    "TileSize": {
+                           "X": 3,
+                           "Y": 4
+                 }            
+           },
+                  "PC.QL.FlowerGarden2_GiantRose": {
+                    "FromItemId":"PC.QL.FlowerGarden2_Rose",
+                    "Seasons": [ "spring", "summer", "fall" ],
+                    "Chance":0.008,
+                    "HarvestItems":[
+                        {
+                           "ItemId":"PC.QL.FlowerGarden2_Rose",
+                           "MinStack":"12",
+                           "MaxStack":"20"
+                    }
+                 ],
+                    "Texture": "Mods/PC.QL.FlowerGarden2/GiantCrops",
+                    "TexturePosition": {
+                           "X": 0,
+                           "Y": 0
+                 },
+                    "TileSize": {
+                           "X": 3,
+                           "Y": 4
+                 }            
+           },
+                  "PC.QL.FlowerGarden2_GiantStripedSquill": {
+                    "FromItemId":"PC.QL.FlowerGarden2_StripedSquill",
+                    "Seasons": [ "spring", "winter" ],
+                    "Chance":0.01,
+                    "HarvestItems":[
+                        {
+                           "ItemId":"PC.QL.FlowerGarden2_StripedSquill",
+                           "MinStack":"10",
+                           "MaxStack":"15"
+                    }
+                 ],
+                    "Texture": "Mods/PC.QL.FlowerGarden2/GiantCrops",
+                    "TexturePosition": {
+                           "X": 0,
+                           "Y": 0
+                 },
+                    "TileSize": {
+                           "X": 3,
+                           "Y": 4
+                 }            
+           },
+
+
+           ]
+}

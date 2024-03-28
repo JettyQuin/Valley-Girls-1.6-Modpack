@@ -1,0 +1,45 @@
+{
+    "Changes": [
+
+//////////////
+// ADD MAIL //
+//////////////
+
+        {
+            "Action": "EditData",
+            "Target": "Data/Mail",
+                "Entries": {
+                    "wildflour.atelierbotanicals_IncenseStationRecipe": "{{i18n: atelierbotanicals_IncenseStationRecipe.text}} %item craftingRecipe wildflour.atelierbotanicals_IncenseStation %%[#]{{i18n: atelierbotanicals_IncenseStationRecipe.name}}",
+                    "wildflour.atelierbotanicals_jasgift": "{{i18n: atelierbotanicals_jas_gift.text}} %item id (O)wildflour.ateliercrops_puffball 3 %%[#]{{i18n: atelierbotanicals_jas_gift.name}}",
+                    "wildflour.atelierbotanicals_leahgift": "{{i18n: atelierbotanicals_leah_gift.text}} %item id (O)wildflour.ateliercrops_yarrow 3 %%[#]{{i18n: atelierbotanicals_leah_gift.name}}",
+                    "wildflour.atelierbotanicals_abigailgift": "{{i18n: atelierbotanicals_abigail_gift.text}} %item id (O)wildflour.ateliercrops_giant_amanita 3 %%[#]{{i18n: atelierbotanicals_abigail_gift.name}}"     
+                }
+            },
+
+
+///////////////
+// SEND MAIL //
+///////////////
+
+        {
+            "Action": "EditData",
+            "Target": "Data/Events/Farm",
+        
+            "Entries": {	
+                "wildflour.atelierbotanicals_jasmail/f Jas 750/G {{HasCraftingRecipe: wildflour.atelierbotanicals_IncenseStation}}/x wildflour.atelierbotanicals_jasgift": "null",
+                "wildflour.atelierbotanicals_leahmail/f Leah 1000/G {{HasCraftingRecipe: wildflour.atelierbotanicals_IncenseStation}}/x wildflour.atelierbotanicals_leahgift": "null",
+                "wildflour.atelierbotanicals_abigailmail/f Abigail 750/G {{HasCraftingRecipe: wildflour.atelierbotanicals_IncenseStation}}/x wildflour.atelierbotanicals_abigailgift": "null"
+            }
+            },         
+        
+        {
+            "Action": "EditData",
+            "Target": "Data/Events/Farm",
+            "Entries": {
+                "wildflour.atelierbotanicals_IncenseStationmail/f Emily 1250/x wildflour.atelierbotanicals_IncenseStationRecipe": "null",						
+            },
+            "When": {"EasyRecipes": false}
+            }       
+
+]
+}

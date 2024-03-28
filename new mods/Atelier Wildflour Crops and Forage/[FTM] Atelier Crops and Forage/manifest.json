@@ -1,0 +1,9 @@
+{
+	"Name": "[FTM] Atelier Wildflour Crops and Forage Pack",
+	"Author": "wildflourmods",
+	"Description": "adds new foreagables to Stardew Valley via Farm Type Manager",
+	"Version": "5.0.2",
+	"UniqueID": "wildflour.ateliercropsFTM",
+	"ContentPackFor": {"UniqueID": "Esca.FarmTypeManager"},
+	"Dependencies": [{"UniqueID": "wildflour.ateliercrops", "IsRequired": true}]
+}

@@ -1,0 +1,4696 @@
+{
+    "Changes": [
+
+        {
+            "LogName":"Add Atelier Bakery Objects",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "wildflour.bakery_almond_macaron": {
+                    "Name": "wildflour.bakery_almond_macaron",
+                    "DisplayName": "{{i18n:bakery_almond_macaron.name}}",
+                    "Description": "{{i18n:bakery_almond_macaron.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 50,
+                    "Price": 1055,
+                    "Buff": {
+                        "BuffId": null,
+                        "IconTexture": null,
+                        "IconSpriteIndex": 0,
+                        "Duration": 360,
+                        "IsDebuff": false,
+                        "GlowColor": null,
+                        "CustomAttributes": {
+                          "FarmingLevel": 2,
+                          "FishingLevel": 0,
+                          "MiningLevel": 0,
+                          "LuckLevel": 0,
+                          "ForagingLevel": 0,
+                          "MaxStamina": 30,
+                          "MagneticRadius": 0,
+                          "Speed": 0,
+                          "Defense": 0,
+                          "Attack": 0
+                        },
+                        "CustomFields": {}
+                      },
+
+                    "ContextTags":
+                    ["wildflour_bakery_item",
+                    "macaron_item",
+                    "food_sweet",
+                    "food_bakery",
+                    "color_sand"],
+
+                    "Texture": "Mods/wildflour.bakery/Objects",
+                    "SpriteIndex": 0
+            },
+                "wildflour.bakery_chocolate_macaron": {
+                    "Name": "wildflour.bakery_chocolate_macaron",
+                    "DisplayName": "{{i18n:bakery_chocolate_macaron.name}}",
+                    "Description": "{{i18n:bakery_chocolate_macaron.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 50,
+                    "Price": 1450,
+                    "Buff": {
+                        "BuffId": null,
+                        "IconTexture": null,
+                        "IconSpriteIndex": 0,
+                        "Duration": 360,
+                        "IsDebuff": false,
+                        "GlowColor": null,
+                        "CustomAttributes": {
+                          "FarmingLevel": 2,
+                          "FishingLevel": 0,
+                          "MiningLevel": 0,
+                          "LuckLevel": 0,
+                          "ForagingLevel": 0,
+                          "MaxStamina": 30,
+                          "MagneticRadius": 0,
+                          "Speed": 0,
+                          "Defense": 0,
+                          "Attack": 0
+                        },
+                        "CustomFields": {}
+                      },
+
+                    "ContextTags":
+                    ["wildflour_bakery_item",
+                    "macaron_item",
+                    "food_sweet",
+                    "food_bakery",
+                    "color_dark_brown"],
+
+                    "Texture": "Mods/wildflour.bakery/Objects",
+                    "SpriteIndex": 1
+            },
+                "wildflour.bakery_lavender_macaron": {
+                    "Name": "wildflour.bakery_lavender_macaron",
+                    "DisplayName": "{{i18n:bakery_lavender_macaron.name}}",
+                    "Description": "{{i18n:bakery_lavender_macaron.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 50,
+                    "Price": 1010,
+                    "Buff": {
+                        "BuffId": null,
+                        "IconTexture": null,
+                        "IconSpriteIndex": 0,
+                        "Duration": 360,
+                        "IsDebuff": false,
+                        "GlowColor": null,
+                        "CustomAttributes": {
+                          "FarmingLevel": 2,
+                          "FishingLevel": 0,
+                          "MiningLevel": 0,
+                          "LuckLevel": 0,
+                          "ForagingLevel": 0,
+                          "MaxStamina": 30,
+                          "MagneticRadius": 0,
+                          "Speed": 0,
+                          "Defense": 0,
+                          "Attack": 0
+                        },
+                        "CustomFields": {}
+                      },
+
+                    "ContextTags":
+                    ["wildflour_bakery_item",
+                    "macaron_item",
+                    "food_sweet",
+                    "food_bakery",
+                    "color_pale_violet"],
+
+                    "Texture": "Mods/wildflour.bakery/Objects",
+                    "SpriteIndex": 2
+            },
+                "wildflour.bakery_lemon_macaron": {
+                    "Name": "wildflour.bakery_lemon_macaron",
+                    "DisplayName": "{{i18n:bakery_lemon_macaron.name}}",
+                    "Description": "{{i18n:bakery_lemon_macaron.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 50,
+                    "Price": 1010,
+                    "Buff": {
+                        "BuffId": null,
+                        "IconTexture": null,
+                        "IconSpriteIndex": 0,
+                        "Duration": 360,
+                        "IsDebuff": false,
+                        "GlowColor": null,
+                        "CustomAttributes": {
+                          "FarmingLevel": 2,
+                          "FishingLevel": 0,
+                          "MiningLevel": 0,
+                          "LuckLevel": 0,
+                          "ForagingLevel": 0,
+                          "MaxStamina": 30,
+                          "MagneticRadius": 0,
+                          "Speed": 0,
+                          "Defense": 0,
+                          "Attack": 0
+                        },
+                        "CustomFields": {}
+                      },
+
+                    "ContextTags":
+                    ["wildflour_bakery_item",
+                    "macaron_item",
+                    "food_sweet",
+                    "food_bakery",
+                    "color_gold"],
+
+                    "Texture": "Mods/wildflour.bakery/Objects",
+                    "SpriteIndex": 3
+            },   
+                "wildflour.bakery_lime_macaron": {
+                    "Name": "wildflour.bakery_lime_macaron",
+                    "DisplayName": "{{i18n:bakery_lime_macaron.name}}",
+                    "Description": "{{i18n:bakery_lime_macaron.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 50,
+                    "Price": 1010,
+                    "Buff": {
+                        "BuffId": null,
+                        "IconTexture": null,
+                        "IconSpriteIndex": 0,
+                        "Duration": 360,
+                        "IsDebuff": false,
+                        "GlowColor": null,
+                        "CustomAttributes": {
+                          "FarmingLevel": 2,
+                          "FishingLevel": 0,
+                          "MiningLevel": 0,
+                          "LuckLevel": 0,
+                          "ForagingLevel": 0,
+                          "MaxStamina": 30,
+                          "MagneticRadius": 0,
+                          "Speed": 0,
+                          "Defense": 0,
+                          "Attack": 0
+                        },
+                        "CustomFields": {}
+                      },
+
+                    "ContextTags":
+                    ["wildflour_bakery_item",
+                    "macaron_item",
+                    "food_sweet",
+                    "food_bakery",
+                    "color_lime"],
+
+                    "Texture": "Mods/wildflour.bakery/Objects",
+                    "SpriteIndex": 4
+            },
+                "wildflour.bakery_mint_macaron": {
+                    "Name": "wildflour.bakery_mint_macaron",
+                    "DisplayName": "{{i18n:bakery_mint_macaron.name}}",
+                    "Description": "{{i18n:bakery_mint_macaron.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 50,
+                    "Price":975,
+                    "Buff": {
+                        "BuffId": null,
+                        "IconTexture": null,
+                        "IconSpriteIndex": 0,
+                        "Duration": 360,
+                        "IsDebuff": false,
+                        "GlowColor": null,
+                        "CustomAttributes": {
+                          "FarmingLevel": 2,
+                          "FishingLevel": 0,
+                          "MiningLevel": 0,
+                          "LuckLevel": 0,
+                          "ForagingLevel": 0,
+                          "MaxStamina": 30,
+                          "MagneticRadius": 0,
+                          "Speed": 0,
+                          "Defense": 0,
+                          "Attack": 0
+                        },
+                        "CustomFields": {}
+                      },
+
+                    "ContextTags":
+                    ["wildflour_bakery_item",
+                    "macaron_item",
+                    "food_sweet",
+                    "food_bakery",
+                    "color_jade"],
+
+                    "Texture": "Mods/wildflour.bakery/Objects",
+                    "SpriteIndex": 5
+            },
+                "wildflour.bakery_pistachio_macaron": {
+                    "Name": "wildflour.bakery_pistachio_macaron",
+                    "DisplayName": "{{i18n:bakery_pistachio_macaron.name}}",
+                    "Description": "{{i18n:bakery_pistachio_macaron.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 50,
+                    "Price": 1055,
+                    "Buff": {
+                        "BuffId": null,
+                        "IconTexture": null,
+                        "IconSpriteIndex": 0,
+                        "Duration": 360,
+                        "IsDebuff": false,
+                        "GlowColor": null,
+                        "CustomAttributes": {
+                          "FarmingLevel": 2,
+                          "FishingLevel": 0,
+                          "MiningLevel": 0,
+                          "LuckLevel": 0,
+                          "ForagingLevel": 0,
+                          "MaxStamina": 30,
+                          "MagneticRadius": 0,
+                          "Speed": 0,
+                          "Defense": 0,
+                          "Attack": 0
+                        },
+                        "CustomFields": {}
+                      },
+
+                    "ContextTags":
+                    ["wildflour_bakery_item",
+                    "macaron_item",
+                    "food_sweet",
+                    "food_bakery",
+                    "color_dark_green"],
+
+                    "Texture": "Mods/wildflour.bakery/Objects",
+                    "SpriteIndex": 6
+            },
+                "wildflour.bakery_raspberry_macaron": {
+                    "Name": "wildflour.bakery_raspberry_macaron",
+                    "DisplayName": "{{i18n:bakery_raspberry_macaron.name}}",
+                    "Description": "{{i18n:bakery_raspberry_macaron.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 50,
+                    "Price": 1010,
+                    "Buff": {
+                        "BuffId": null,
+                        "IconTexture": null,
+                        "IconSpriteIndex": 0,
+                        "Duration": 360,
+                        "IsDebuff": false,
+                        "GlowColor": null,
+                        "CustomAttributes": {
+                          "FarmingLevel": 2,
+                          "FishingLevel": 0,
+                          "MiningLevel": 0,
+                          "LuckLevel": 0,
+                          "ForagingLevel": 0,
+                          "MaxStamina": 30,
+                          "MagneticRadius": 0,
+                          "Speed": 0,
+                          "Defense": 0,
+                          "Attack": 0
+                        },
+                        "CustomFields": {}
+                      },
+
+                    "ContextTags":
+                    ["wildflour_bakery_item",
+                    "macaron_item",
+                    "food_sweet",
+                    "food_bakery",
+                    "color_dark_pink"],
+
+                    "Texture": "Mods/wildflour.bakery/Objects",
+                    "SpriteIndex": 7
+            },
+                "wildflour.bakery_sakura_macaron": {
+                    "Name": "wildflour.bakery_sakura_macaron",
+                    "DisplayName": "{{i18n:bakery_sakura_macaron.name}}",
+                    "Description": "{{i18n:bakery_sakura_macaron.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 50,
+                    "Price": 1010,
+                    "Buff": {
+                        "BuffId": null,
+                        "IconTexture": null,
+                        "IconSpriteIndex": 0,
+                        "Duration": 360,
+                        "IsDebuff": false,
+                        "GlowColor": null,
+                        "CustomAttributes": {
+                          "FarmingLevel": 2,
+                          "FishingLevel": 0,
+                          "MiningLevel": 0,
+                          "LuckLevel": 0,
+                          "ForagingLevel": 0,
+                          "MaxStamina": 30,
+                          "MagneticRadius": 0,
+                          "Speed": 0,
+                          "Defense": 0,
+                          "Attack": 0
+                        },
+                        "CustomFields": {}
+                      },
+
+                    "ContextTags":
+                    ["wildflour_bakery_item",
+                    "macaron_item",
+                    "food_sweet",
+                    "food_bakery",
+                    "color_light_pink"],
+
+                    "Texture": "Mods/wildflour.bakery/Objects",
+                    "SpriteIndex": 8
+            },
+                "wildflour.bakery_strawberry_macaron": {
+                    "Name": "wildflour.bakery_strawberry_macaron",
+                    "DisplayName": "{{i18n:bakery_strawberry_macaron.name}}",
+                    "Description": "{{i18n:bakery_strawberry_macaron.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 50,
+                    "Price": 1010,
+                    "Buff": {
+                        "BuffId": null,
+                        "IconTexture": null,
+                        "IconSpriteIndex": 0,
+                        "Duration": 360,
+                        "IsDebuff": false,
+                        "GlowColor": null,
+                        "CustomAttributes": {
+                          "FarmingLevel": 2,
+                          "FishingLevel": 0,
+                          "MiningLevel": 0,
+                          "LuckLevel": 0,
+                          "ForagingLevel": 0,
+                          "MaxStamina": 30,
+                          "MagneticRadius": 0,
+                          "Speed": 0,
+                          "Defense": 0,
+                          "Attack": 0
+                        },
+                        "CustomFields": {}
+                      },
+
+                    "ContextTags":
+                    ["wildflour_bakery_item",
+                    "macaron_item",
+                    "food_sweet",
+                    "food_bakery",
+                    "color_pink"],
+
+                    "Texture": "Mods/wildflour.bakery/Objects",
+                    "SpriteIndex": 8
+            },
+                "wildflour.bakery_almond_petit_fours": {
+                    "Name": "wildflour.bakery_almond_petit_fours",
+                    "DisplayName": "{{i18n:bakery_almond_petit_fours.name}}",
+                    "Description": "{{i18n:bakery_almond_petit_fours.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 75,
+                    "Price": 1140,
+                    "Buff": {
+                        "BuffId": null,
+                        "IconTexture": null,
+                        "IconSpriteIndex": 0,
+                        "Duration": 360,
+                        "IsDebuff": false,
+                        "GlowColor": null,
+                        "CustomAttributes": {
+                          "FarmingLevel": 0,
+                          "FishingLevel": 0,
+                          "MiningLevel": 0,
+                          "LuckLevel": 0,
+                          "ForagingLevel": 0,
+                          "MaxStamina": 0,
+                          "MagneticRadius": 0,
+                          "Speed": 0,
+                          "Defense": 1,
+                          "Attack": 0
+                        }
+                    },
+
+                    "ContextTags":
+                    ["wildflour_bakery_item",
+                    "petit_four_item",
+                    "food_sweet",
+                    "food_bakery",
+                    "color_sand"],
+
+                    "Texture": "Mods/wildflour.bakery/Objects",
+                    "SpriteIndex": 16
+            },
+                "wildflour.bakery_chocolate_petit_fours": {
+                    "Name": "wildflour.bakery_chocolate_petit_fours",
+                    "DisplayName": "{{i18n:bakery_chocolate_petit_fours.name}}",
+                    "Description": "{{i18n:bakery_chocolate_petit_fours.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 75,
+                    "Price": 1400,
+                    "Buff": {
+                        "BuffId": null,
+                        "IconTexture": null,
+                        "IconSpriteIndex": 0,
+                        "Duration": 360,
+                        "IsDebuff": false,
+                        "GlowColor": null,
+                        "CustomAttributes": {
+                          "FarmingLevel": 0,
+                          "FishingLevel": 0,
+                          "MiningLevel": 0,
+                          "LuckLevel": 0,
+                          "ForagingLevel": 0,
+                          "MaxStamina": 0,
+                          "MagneticRadius": 0,
+                          "Speed": 0,
+                          "Defense": 1,
+                          "Attack": 0
+                        }
+                    },
+
+                    "ContextTags":
+                    ["wildflour_bakery_item",
+                    "petit_four_item",
+                    "food_sweet",
+                    "food_bakery",
+                    "color_dark_brown"],
+
+                    "Texture": "Mods/wildflour.bakery/Objects",
+                    "SpriteIndex": 17
+            },
+                "wildflour.bakery_lemon_petit_fours": {
+                    "Name": "wildflour.bakery_lemon_petit_fours",
+                    "DisplayName": "{{i18n:bakery_lemon_petit_fours.name}}",
+                    "Description": "{{i18n:bakery_lemon_petit_fours.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 75,
+                    "Price": 1200,
+                    "Buff": {
+                        "BuffId": null,
+                        "IconTexture": null,
+                        "IconSpriteIndex": 0,
+                        "Duration": 360,
+                        "IsDebuff": false,
+                        "GlowColor": null,
+                        "CustomAttributes": {
+                          "FarmingLevel": 0,
+                          "FishingLevel": 0,
+                          "MiningLevel": 0,
+                          "LuckLevel": 0,
+                          "ForagingLevel": 0,
+                          "MaxStamina": 0,
+                          "MagneticRadius": 0,
+                          "Speed": 0,
+                          "Defense": 1,
+                          "Attack": 0
+                        }
+                    },
+
+                    "ContextTags":
+                    ["wildflour_bakery_item",
+                    "petit_four_item",
+                    "food_sweet",
+                    "food_bakery",
+                    "color_gold"],
+
+                    "Texture": "Mods/wildflour.bakery/Objects",
+                    "SpriteIndex": 18
+            },
+                "wildflour.bakery_matcha_petit_fours": {
+                    "Name": "wildflour.bakery_matcha_petit_fours",
+                    "DisplayName": "{{i18n:bakery_matcha_petit_fours.name}}",
+                    "Description": "{{i18n:bakery_matcha_petit_fours.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 75,
+                    "Price": 1080,
+                    "Buff": {
+                        "BuffId": null,
+                        "IconTexture": null,
+                        "IconSpriteIndex": 0,
+                        "Duration": 360,
+                        "IsDebuff": false,
+                        "GlowColor": null,
+                        "CustomAttributes": {
+                          "FarmingLevel": 0,
+                          "FishingLevel": 0,
+                          "MiningLevel": 0,
+                          "LuckLevel": 0,
+                          "ForagingLevel": 0,
+                          "MaxStamina": 0,
+                          "MagneticRadius": 0,
+                          "Speed": 0,
+                          "Defense": 1,
+                          "Attack": 0
+                        }
+                    },
+
+                    "ContextTags":
+                    ["wildflour_bakery_item",
+                    "petit_four_item",
+                    "food_sweet",
+                    "food_bakery",
+                    "color_dark_green"],
+
+                    "Texture": "Mods/wildflour.bakery/Objects",
+                    "SpriteIndex": 19
+            },
+                "wildflour.bakery_peach_petit_fours": {
+                    "Name": "wildflour.bakery_peach_petit_fours",
+                    "DisplayName": "{{i18n:bakery_peach_petit_fours.name}}",
+                    "Description": "{{i18n:bakery_peach_petit_fours.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 75,
+                    "Price": 1160,
+                    "Buff": {
+                        "BuffId": null,
+                        "IconTexture": null,
+                        "IconSpriteIndex": 0,
+                        "Duration": 360,
+                        "IsDebuff": false,
+                        "GlowColor": null,
+                        "CustomAttributes": {
+                          "FarmingLevel": 0,
+                          "FishingLevel": 0,
+                          "MiningLevel": 0,
+                          "LuckLevel": 0,
+                          "ForagingLevel": 0,
+                          "MaxStamina": 0,
+                          "MagneticRadius": 0,
+                          "Speed": 0,
+                          "Defense": 1,
+                          "Attack": 0
+                        }
+                    },
+
+                    "ContextTags":
+                    ["wildflour_bakery_item",
+                    "petit_four_item",
+                    "food_sweet",
+                    "food_bakery",
+                    "color_salmon"],
+
+                    "Texture": "Mods/wildflour.bakery/Objects",
+                    "SpriteIndex": 20
+            },
+                "wildflour.bakery_pistachio_petit_fours": {
+                    "Name": "wildflour.bakery_pistachio_petit_fours",
+                    "DisplayName": "{{i18n:bakery_pistachio_petit_fours.name}}",
+                    "Description": "{{i18n:bakery_pistachio_petit_fours.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 75,
+                    "Price": 1140,
+                    "Buff": {
+                        "BuffId": null,
+                        "IconTexture": null,
+                        "IconSpriteIndex": 0,
+                        "Duration": 360,
+                        "IsDebuff": false,
+                        "GlowColor": null,
+                        "CustomAttributes": {
+                          "FarmingLevel": 0,
+                          "FishingLevel": 0,
+                          "MiningLevel": 0,
+                          "LuckLevel": 0,
+                          "ForagingLevel": 0,
+                          "MaxStamina": 0,
+                          "MagneticRadius": 0,
+                          "Speed": 0,
+                          "Defense": 1,
+                          "Attack": 0
+                        }
+                    },
+
+                    "ContextTags":
+                    ["wildflour_bakery_item",
+                    "petit_four_item",
+                    "food_sweet",
+                    "food_bakery",
+                    "color_dark_green"],
+
+                    "Texture": "Mods/wildflour.bakery/Objects",
+                    "SpriteIndex": 21
+            },
+                "wildflour.bakery_strawberry_petit_fours": {
+                    "Name": "wildflour.bakery_strawberry_petit_fours",
+                    "DisplayName": "{{i18n:bakery_strawberry_petit_fours.name}}",
+                    "Description": "{{i18n:bakery_strawberry_petit_fours.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 75,
+                    "Price": 1440,
+                    "Buff": {
+                        "BuffId": null,
+                        "IconTexture": null,
+                        "IconSpriteIndex": 0,
+                        "Duration": 360,
+                        "IsDebuff": false,
+                        "GlowColor": null,
+                        "CustomAttributes": {
+                          "FarmingLevel": 0,
+                          "FishingLevel": 0,
+                          "MiningLevel": 0,
+                          "LuckLevel": 0,
+                          "ForagingLevel": 0,
+                          "MaxStamina": 0,
+                          "MagneticRadius": 0,
+                          "Speed": 0,
+                          "Defense": 1,
+                          "Attack": 0
+                        }
+                    },
+
+                    "ContextTags":
+                    ["wildflour_bakery_item",
+                    "petit_four_item",
+                    "food_sweet",
+                    "food_bakery",
+                    "color_pink"],
+
+                    "Texture": "Mods/wildflour.bakery/Objects",
+                    "SpriteIndex": 22
+            },
+                "wildflour.bakery_tiramisu_petit_fours": {
+                    "Name": "wildflour.bakery_tiramisu_petit_fours",
+                    "DisplayName": "{{i18n:bakery_tiramisu_petit_fours.name}}",
+                    "Description": "{{i18n:bakery_tiramisu_petit_fours.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 75,
+                    "Price": 1230,
+                    "Buff": {
+                        "BuffId": null,
+                        "IconTexture": null,
+                        "IconSpriteIndex": 0,
+                        "Duration": 360,
+                        "IsDebuff": false,
+                        "GlowColor": null,
+                        "CustomAttributes": {
+                          "FarmingLevel": 0,
+                          "FishingLevel": 0,
+                          "MiningLevel": 0,
+                          "LuckLevel": 0,
+                          "ForagingLevel": 0,
+                          "MaxStamina": 0,
+                          "MagneticRadius": 0,
+                          "Speed": 0,
+                          "Defense": 1,
+                          "Attack": 0
+                        }
+                    },
+                    "ContextTags":
+                    ["wildflour_bakery_item",
+                    "petit_four_item",
+                    "food_sweet",
+                    "food_bakery",
+                    "color_dark_brown"],
+
+                    "Texture": "Mods/wildflour.bakery/Objects",
+                    "SpriteIndex": 23
+            },
+                "wildflour.bakery_tres_leches_petit_fours": {
+                    "Name": "wildflour.bakery_tres_leches_petit_fours",
+                    "DisplayName": "{{i18n:bakery_tres_leches_petit_fours.name}}",
+                    "Description": "{{i18n:bakery_tres_leches_petit_fours.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 75,
+                    "Price": 1400,
+                    "Buff": {
+                        "BuffId": null,
+                        "IconTexture": null,
+                        "IconSpriteIndex": 0,
+                        "Duration": 360,
+                        "IsDebuff": false,
+                        "GlowColor": null,
+                        "CustomAttributes": {
+                          "FarmingLevel": 0,
+                          "FishingLevel": 0,
+                          "MiningLevel": 0,
+                          "LuckLevel": 0,
+                          "ForagingLevel": 0,
+                          "MaxStamina": 0,
+                          "MagneticRadius": 0,
+                          "Speed": 0,
+                          "Defense": 1,
+                          "Attack": 0
+                        }
+                    },
+
+                    "ContextTags":
+                    ["wildflour_bakery_item",
+                    "petit_four_item",
+                    "food_sweet",
+                    "food_bakery",
+                    "color_gold"],
+
+                    "Texture": "Mods/wildflour.bakery/Objects",
+                    "SpriteIndex": 24
+            },
+                "wildflour.bakery_tropical_petit_fours": {
+                    "Name": "wildflour.bakery_tropical_petit_fours",
+                    "DisplayName": "{{i18n:bakery_tropical_petit_fours.name}}",
+                    "Description": "{{i18n:bakery_tropical_petit_fours.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 75,
+                    "Price": 1350,
+                    "Buff": {
+                        "BuffId": null,
+                        "IconTexture": null,
+                        "IconSpriteIndex": 0,
+                        "Duration": 360,
+                        "IsDebuff": false,
+                        "GlowColor": null,
+                        "CustomAttributes": {
+                          "FarmingLevel": 0,
+                          "FishingLevel": 0,
+                          "MiningLevel": 0,
+                          "LuckLevel": 0,
+                          "ForagingLevel": 0,
+                          "MaxStamina": 0,
+                          "MagneticRadius": 0,
+                          "Speed": 0,
+                          "Defense": 1,
+                          "Attack": 0
+                        }
+                    },
+
+                    "ContextTags":
+                    ["wildflour_bakery_item",
+                    "petit_four_item",
+                    "food_sweet",
+                    "food_bakery",
+                    "color_gold"],
+
+                    "Texture": "Mods/wildflour.bakery/Objects",
+                    "SpriteIndex": 25
+            },
+                "wildflour.bakery_vanilla_petit_fours": {
+                    "Name": "wildflour.bakery_vanilla_petit_fours",
+                    "DisplayName": "{{i18n:bakery_vanilla_petit_fours.name}}",
+                    "Description": "{{i18n:bakery_vanilla_petit_fours.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 75,
+                    "Price": 1300,
+                    "Buff": {
+                        "BuffId": null,
+                        "IconTexture": null,
+                        "IconSpriteIndex": 0,
+                        "Duration": 360,
+                        "IsDebuff": false,
+                        "GlowColor": null,
+                        "CustomAttributes": {
+                          "FarmingLevel": 0,
+                          "FishingLevel": 0,
+                          "MiningLevel": 0,
+                          "LuckLevel": 0,
+                          "ForagingLevel": 0,
+                          "MaxStamina": 0,
+                          "MagneticRadius": 0,
+                          "Speed": 0,
+                          "Defense": 1,
+                          "Attack": 0
+                        }
+                    },
+
+                    "ContextTags":
+                    ["wildflour_bakery_item",
+                    "petit_four_item",
+                    "food_sweet",
+                    "food_bakery",
+                    "color_dark_brown"],
+
+                    "Texture": "Mods/wildflour.bakery/Objects",
+                    "SpriteIndex": 16
+            },
+                "wildflour.bakery_apple_muffin": {
+                    "Name": "wildflour.bakery_apple_muffin",
+                    "DisplayName": "{{i18n:bakery_apple_muffin.name}}",
+                    "Description": "{{i18n:bakery_apple_muffin.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 105,
+                    "Price": 1200,
+                    "Buff": {
+                        "BuffId": null,
+                        "IconTexture": null,
+                        "IconSpriteIndex": 0,
+                        "Duration": 360,
+                        "IsDebuff": false,
+                        "GlowColor": null,
+                        "CustomAttributes": {
+                          "FarmingLevel": 2,
+                          "FishingLevel": 0,
+                          "MiningLevel": 0,
+                          "LuckLevel": 0,
+                          "ForagingLevel": 0,
+                          "MaxStamina": 30,
+                          "MagneticRadius": 0,
+                          "Speed": 0,
+                          "Defense": 0,
+                          "Attack": 0
+                        }
+                    },
+
+                    "ContextTags":
+                    ["wildflour_bakery_item",
+                    "muffin_item",
+                    "food_sweet",
+                    "food_bakery",
+                    "color_red"],
+
+                    "Texture": "Mods/wildflour.bakery/Objects",
+                    "SpriteIndex": 32
+            },
+                "wildflour.bakery_banana_muffin": {
+                    "Name": "wildflour.bakery_banana_muffin",
+                    "DisplayName": "{{i18n:bakery_banana_muffin.name}}",
+                    "Description": "{{i18n:bakery_banana_muffin.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 105,
+                    "Price": 1250,
+                    "Buff": {
+                        "BuffId": null,
+                        "IconTexture": null,
+                        "IconSpriteIndex": 0,
+                        "Duration": 360,
+                        "IsDebuff": false,
+                        "GlowColor": null,
+                        "CustomAttributes": {
+                          "FarmingLevel": 2,
+                          "FishingLevel": 0,
+                          "MiningLevel": 0,
+                          "LuckLevel": 0,
+                          "ForagingLevel": 0,
+                          "MaxStamina": 30,
+                          "MagneticRadius": 0,
+                          "Speed": 0,
+                          "Defense": 0,
+                          "Attack": 0
+                        }
+                    },
+
+                    "ContextTags":
+                    ["wildflour_bakery_item",
+                    "muffin_item",
+                    "food_sweet",
+                    "food_bakery",
+                    "color_gold"],
+
+                    "Texture": "Mods/wildflour.bakery/Objects",
+                    "SpriteIndex": 33
+            },
+                "wildflour.bakery_cinnamon_muffin": {
+                    "Name": "wildflour.bakery_cinnamon_muffin",
+                    "DisplayName": "{{i18n:bakery_cinnamon_muffin.name}}",
+                    "Description": "{{i18n:bakery_cinnamon_muffin.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 105,
+                    "Price": 1020,
+                    "Buff": {
+                        "BuffId": null,
+                        "IconTexture": null,
+                        "IconSpriteIndex": 0,
+                        "Duration": 360,
+                        "IsDebuff": false,
+                        "GlowColor": null,
+                        "CustomAttributes": {
+                          "FarmingLevel": 2,
+                          "FishingLevel": 0,
+                          "MiningLevel": 0,
+                          "LuckLevel": 0,
+                          "ForagingLevel": 0,
+                          "MaxStamina": 30,
+                          "MagneticRadius": 0,
+                          "Speed": 0,
+                          "Defense": 0,
+                          "Attack": 0
+                        }
+                    },
+
+                    "ContextTags":
+                    ["wildflour_bakery_item",
+                    "muffin_item",
+                    "food_sweet",
+                    "food_bakery",
+                    "color_brown"],
+
+                    "Texture": "Mods/wildflour.bakery/Objects",
+                    "SpriteIndex": 34
+            },
+                "wildflour.bakery_cornbread_muffin": {
+                    "Name": "wildflour.bakery_cornbread_muffin",
+                    "DisplayName": "{{i18n:bakery_cornbread_muffin.name}}",
+                    "Description": "{{i18n:bakery_cornbread_muffin.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 105,
+                    "Price": 840,
+                    "Buff": {
+                        "BuffId": null,
+                        "IconTexture": null,
+                        "IconSpriteIndex": 0,
+                        "Duration": 360,
+                        "IsDebuff": false,
+                        "GlowColor": null,
+                        "CustomAttributes": {
+                          "FarmingLevel": 2,
+                          "FishingLevel": 0,
+                          "MiningLevel": 0,
+                          "LuckLevel": 0,
+                          "ForagingLevel": 0,
+                          "MaxStamina": 30,
+                          "MagneticRadius": 0,
+                          "Speed": 0,
+                          "Defense": 0,
+                          "Attack": 0
+                        }
+                    },
+
+                    "ContextTags":
+                    ["wildflour_bakery_item",
+                    "muffin_item",
+                    "food_sweet",
+                    "food_bakery",
+                    "color_gold"],
+
+                    "Texture": "Mods/wildflour.bakery/Objects",
+                    "SpriteIndex": 35
+            },
+                "wildflour.bakery_lemon_blueberry_muffin": {
+                    "Name": "wildflour.bakery_lemon_blueberry_muffin",
+                    "DisplayName": "{{i18n:bakery_lemon_blueberry_muffin.name}}",
+                    "Description": "{{i18n:bakery_lemon_blueberry_muffin.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 105,
+                    "Price": 1050,
+                    "Buff": {
+                        "BuffId": null,
+                        "IconTexture": null,
+                        "IconSpriteIndex": 0,
+                        "Duration": 360,
+                        "IsDebuff": false,
+                        "GlowColor": null,
+                        "CustomAttributes": {
+                          "FarmingLevel": 2,
+                          "FishingLevel": 0,
+                          "MiningLevel": 0,
+                          "LuckLevel": 0,
+                          "ForagingLevel": 0,
+                          "MaxStamina": 30,
+                          "MagneticRadius": 0,
+                          "Speed": 0,
+                          "Defense": 0,
+                          "Attack": 0
+                        }
+                    },
+
+                    "ContextTags":
+                    ["wildflour_bakery_item",
+                    "muffin_item",
+                    "food_sweet",
+                    "food_bakery",
+                    "color_gold"],
+
+                    "Texture": "Mods/wildflour.bakery/Objects",
+                    "SpriteIndex": 36
+            },
+                "wildflour.bakery_pumpkin_muffin": {
+                    "Name": "wildflour.bakery_pumpkin_muffin",
+                    "DisplayName": "{{i18n:bakery_pumpkin_muffin.name}}",
+                    "Description": "{{i18n:bakery_pumpkin_muffin.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 105,
+                    "Price": 1200,
+                    "Buff": {
+                        "BuffId": null,
+                        "IconTexture": null,
+                        "IconSpriteIndex": 0,
+                        "Duration": 360,
+                        "IsDebuff": false,
+                        "GlowColor": null,
+                        "CustomAttributes": {
+                          "FarmingLevel": 2,
+                          "FishingLevel": 0,
+                          "MiningLevel": 0,
+                          "LuckLevel": 0,
+                          "ForagingLevel": 0,
+                          "MaxStamina": 30,
+                          "MagneticRadius": 0,
+                          "Speed": 0,
+                          "Defense": 0,
+                          "Attack": 0
+                        }
+                    },
+
+                    "ContextTags":
+                    ["wildflour_bakery_item",
+                    "muffin_item",
+                    "food_sweet",
+                    "food_bakery",
+                    "color_orange"],
+
+                    "Texture": "Mods/wildflour.bakery/Objects",
+                    "SpriteIndex": 37
+            },
+                "wildflour.bakery_strawberry_muffin": {
+                    "Name": "wildflour.bakery_strawberry_muffin",
+                    "DisplayName": "{{i18n:bakery_strawberry_muffin.name}}",
+                    "Description": "{{i18n:bakery_strawberry_muffin.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 105,
+                    "Price": 1455,
+                    "Buff": {
+                        "BuffId": null,
+                        "IconTexture": null,
+                        "IconSpriteIndex": 0,
+                        "Duration": 360,
+                        "IsDebuff": false,
+                        "GlowColor": null,
+                        "CustomAttributes": {
+                          "FarmingLevel": 2,
+                          "FishingLevel": 0,
+                          "MiningLevel": 0,
+                          "LuckLevel": 0,
+                          "ForagingLevel": 0,
+                          "MaxStamina": 30,
+                          "MagneticRadius": 0,
+                          "Speed": 0,
+                          "Defense": 0,
+                          "Attack": 0
+                        }
+                    },
+
+                    "ContextTags":
+                    ["wildflour_bakery_item",
+                    "muffin_item",
+                    "food_sweet",
+                    "food_bakery",
+                    "color_pink"],
+
+                    "Texture": "Mods/wildflour.bakery/Objects",
+                    "SpriteIndex": 38
+            },
+                "wildflour.bakery_apple_pie": {
+                    "Name": "wildflour.bakery_apple_pie",
+                    "DisplayName": "{{i18n:bakery_apple_pie.name}}",
+                    "Description": "{{i18n:bakery_apple_pie.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 110,
+                    "Price": 1000,
+                    "Buff": {
+                        "BuffId": null,
+                        "IconTexture": null,
+                        "IconSpriteIndex": 0,
+                        "Duration": 360,
+                        "IsDebuff": false,
+                        "GlowColor": null,
+                        "CustomAttributes": {
+                          "FarmingLevel": 0,
+                          "FishingLevel": 0,
+                          "MiningLevel": 0,
+                          "LuckLevel": 2,
+                          "ForagingLevel": 0,
+                          "MaxStamina": 0,
+                          "MagneticRadius": 0,
+                          "Speed": 0,
+                          "Defense": 0,
+                          "Attack": 0
+                        }
+                    },
+
+                    "ContextTags":
+                    ["wildflour_bakery_item",
+                    "pie_item",
+                    "food_sweet",
+                    "food_bakery",
+                    "color_red"],
+
+                    "Texture": "Mods/wildflour.bakery/Objects",
+                    "SpriteIndex": 48
+            },
+                "wildflour.bakery_banana_cream_pie": {
+                    "Name": "wildflour.bakery_banana_cream_pie",
+                    "DisplayName": "{{i18n:bakery_banana_cream_pie.name}}",
+                    "Description": "{{i18n:bakery_banana_cream_pie.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 110,
+                    "Price": 1200,
+                    "Buff": {
+                        "BuffId": null,
+                        "IconTexture": null,
+                        "IconSpriteIndex": 0,
+                        "Duration": 360,
+                        "IsDebuff": false,
+                        "GlowColor": null,
+                        "CustomAttributes": {
+                          "FarmingLevel": 0,
+                          "FishingLevel": 0,
+                          "MiningLevel": 0,
+                          "LuckLevel": 2,
+                          "ForagingLevel": 0,
+                          "MaxStamina": 0,
+                          "MagneticRadius": 0,
+                          "Speed": 0,
+                          "Defense": 0,
+                          "Attack": 0
+                        }
+                    },
+
+                    "ContextTags":
+                    ["wildflour_bakery_item",
+                    "pie_item",
+                    "food_sweet",
+                    "food_bakery",
+                    "color_yellow"],
+
+                    "Texture": "Mods/wildflour.bakery/Objects",
+                    "SpriteIndex": 49
+            },
+                "wildflour.bakery_blueberry_pie": {
+                    "Name": "wildflour.bakery_blueberry_pie",
+                    "DisplayName": "{{i18n:bakery_blueberry_pie.name}}",
+                    "Description": "{{i18n:bakery_blueberry_pie.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 110,
+                    "Price": 1000,
+                    "Buff": {
+                        "BuffId": null,
+                        "IconTexture": null,
+                        "IconSpriteIndex": 0,
+                        "Duration": 360,
+                        "IsDebuff": false,
+                        "GlowColor": null,
+                        "CustomAttributes": {
+                          "FarmingLevel": 0,
+                          "FishingLevel": 0,
+                          "MiningLevel": 0,
+                          "LuckLevel": 2,
+                          "ForagingLevel": 0,
+                          "MaxStamina": 0,
+                          "MagneticRadius": 0,
+                          "Speed": 0,
+                          "Defense": 0,
+                          "Attack": 0
+                        }
+                    },
+
+                    "ContextTags":
+                    ["wildflour_bakery_item",
+                    "pie_item",
+                    "food_sweet",
+                    "food_bakery",
+                    "color_blue"],
+
+                    "Texture": "Mods/wildflour.bakery/Objects",
+                    "SpriteIndex": 50
+            },
+                "wildflour.bakery_cherry_pie": {
+                    "Name": "wildflour.bakery_cherry_pie",
+                    "DisplayName": "{{i18n:bakery_cherry_pie.name}}",
+                    "Description": "{{i18n:bakery_cherry_pie.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 110,
+                    "Price": 1000,
+                    "Buff": {
+                        "BuffId": null,
+                        "IconTexture": null,
+                        "IconSpriteIndex": 0,
+                        "Duration": 360,
+                        "IsDebuff": false,
+                        "GlowColor": null,
+                        "CustomAttributes": {
+                          "FarmingLevel": 0,
+                          "FishingLevel": 0,
+                          "MiningLevel": 0,
+                          "LuckLevel": 2,
+                          "ForagingLevel": 0,
+                          "MaxStamina": 0,
+                          "MagneticRadius": 0,
+                          "Speed": 0,
+                          "Defense": 0,
+                          "Attack": 0
+                        }
+                    },
+
+                    "ContextTags":
+                    ["wildflour_bakery_item",
+                    "pie_item",
+                    "food_sweet",
+                    "food_bakery",
+                    "color_red"],
+
+                    "Texture": "Mods/wildflour.bakery/Objects",
+                    "SpriteIndex": 51
+            },
+                "wildflour.bakery_lemon_pie": {
+                    "Name": "wildflour.bakery_lemon_pie",
+                    "DisplayName": "{{i18n:bakery_lemon_pie.name}}",
+                    "Description": "{{i18n:bakery_lemon_pie.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 110,
+                    "Price": 1000,
+                    "Buff": {
+                        "BuffId": null,
+                        "IconTexture": null,
+                        "IconSpriteIndex": 0,
+                        "Duration": 360,
+                        "IsDebuff": false,
+                        "GlowColor": null,
+                        "CustomAttributes": {
+                          "FarmingLevel": 0,
+                          "FishingLevel": 0,
+                          "MiningLevel": 0,
+                          "LuckLevel": 2,
+                          "ForagingLevel": 0,
+                          "MaxStamina": 0,
+                          "MagneticRadius": 0,
+                          "Speed": 0,
+                          "Defense": 0,
+                          "Attack": 0
+                        }
+                    },
+
+                    "ContextTags":
+                    ["wildflour_bakery_item",
+                    "pie_item",
+                    "food_sweet",
+                    "food_bakery",
+                    "color_gold"],
+
+                    "Texture": "Mods/wildflour.bakery/Objects",
+                    "SpriteIndex": 52
+            },
+                "wildflour.bakery_lime_pie": {
+                    "Name": "wildflour.bakery_lime_pie",
+                    "DisplayName": "{{i18n:bakery_lime_pie.name}}",
+                    "Description": "{{i18n:bakery_lime_pie.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 110,
+                    "Price": 1080,
+                    "Buff": {
+                        "BuffId": null,
+                        "IconTexture": null,
+                        "IconSpriteIndex": 0,
+                        "Duration": 360,
+                        "IsDebuff": false,
+                        "GlowColor": null,
+                        "CustomAttributes": {
+                          "FarmingLevel": 0,
+                          "FishingLevel": 0,
+                          "MiningLevel": 0,
+                          "LuckLevel": 2,
+                          "ForagingLevel": 0,
+                          "MaxStamina": 0,
+                          "MagneticRadius": 0,
+                          "Speed": 0,
+                          "Defense": 0,
+                          "Attack": 0
+                        }
+                    },
+
+                    "ContextTags":
+                    ["wildflour_bakery_item",
+                    "pie_item",
+                    "food_sweet",
+                    "food_bakery",
+                    "color_lime"],
+
+                    "Texture": "Mods/wildflour.bakery/Objects",
+                    "SpriteIndex": 53
+            },
+                "wildflour.bakery_plum_pie": {
+                    "Name": "wildflour.bakery_plum_pie",
+                    "DisplayName": "{{i18n:bakery_plum_pie.name}}",
+                    "Description": "{{i18n:bakery_plum_pie.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 110,
+                    "Price": 1185,
+                    "Buff": {
+                        "BuffId": null,
+                        "IconTexture": null,
+                        "IconSpriteIndex": 0,
+                        "Duration": 360,
+                        "IsDebuff": false,
+                        "GlowColor": null,
+                        "CustomAttributes": {
+                          "FarmingLevel": 0,
+                          "FishingLevel": 0,
+                          "MiningLevel": 0,
+                          "LuckLevel": 2,
+                          "ForagingLevel": 0,
+                          "MaxStamina": 0,
+                          "MagneticRadius": 0,
+                          "Speed": 0,
+                          "Defense": 0,
+                          "Attack": 0
+                        }
+                    },
+                    "ContextTags":
+                    ["wildflour_bakery_item",
+                    "pie_item",
+                    "food_sweet",
+                    "food_bakery",
+                    "color_dark_purple"],
+
+                    "Texture": "Mods/wildflour.bakery/Objects",
+                    "SpriteIndex": 54
+            },
+                "wildflour.bakery_pumpkin_pie": {
+                    "Name": "wildflour.bakery_pumpkin_pie",
+                    "DisplayName": "{{i18n:bakery_pumpkin_pie.name}}",
+                    "Description": "{{i18n:bakery_pumpkin_pie.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 110,
+                    "Price": 1785,
+                    "Buff": {
+                        "BuffId": null,
+                        "IconTexture": null,
+                        "IconSpriteIndex": 0,
+                        "Duration": 360,
+                        "IsDebuff": false,
+                        "GlowColor": null,
+                        "CustomAttributes": {
+                          "FarmingLevel": 0,
+                          "FishingLevel": 0,
+                          "MiningLevel": 0,
+                          "LuckLevel": 2,
+                          "ForagingLevel": 0,
+                          "MaxStamina": 0,
+                          "MagneticRadius": 0,
+                          "Speed": 0,
+                          "Defense": 0,
+                          "Attack": 0
+                        }
+                    },
+
+                    "ContextTags":
+                    ["wildflour_bakery_item",
+                    "pie_item",
+                    "food_sweet",
+                    "food_bakery",
+                    "color_orange"],
+
+                    "Texture": "Mods/wildflour.bakery/Objects",
+                    "SpriteIndex": 55
+            },
+                "wildflour.bakery_sweet_potato_pie": {
+                    "Name": "wildflour.bakery_sweet_potato_pie",
+                    "DisplayName": "{{i18n:bakery_sweet_potato_pie.name}}",
+                    "Description": "{{i18n:bakery_sweet_potato_pie.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 110,
+                    "Price": 1305,
+                    "Buff": {
+                        "BuffId": null,
+                        "IconTexture": null,
+                        "IconSpriteIndex": 0,
+                        "Duration": 360,
+                        "IsDebuff": false,
+                        "GlowColor": null,
+                        "CustomAttributes": {
+                          "FarmingLevel": 0,
+                          "FishingLevel": 0,
+                          "MiningLevel": 0,
+                          "LuckLevel": 2,
+                          "ForagingLevel": 0,
+                          "MaxStamina": 0,
+                          "MagneticRadius": 0,
+                          "Speed": 0,
+                          "Defense": 0,
+                          "Attack": 0
+                        }
+                    },
+
+                    "ContextTags":
+                    ["wildflour_bakery_item",
+                    "pie_item",
+                    "food_sweet",
+                    "food_bakery",
+                    "color_dark_orange"],
+
+                    "Texture": "Mods/wildflour.bakery/Objects",
+                    "SpriteIndex": 56
+            },
+                "wildflour.bakery_banana_pudding": {
+                    "Name": "wildflour.bakery_banana_pudding",
+                    "DisplayName": "{{i18n:bakery_banana_pudding.name}}",
+                    "Description": "{{i18n:bakery_banana_pudding.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 90,
+                    "Price": 1725,
+                    "Buff": {
+                        "BuffId": null,
+                        "IconTexture": null,
+                        "IconSpriteIndex": 0,
+                        "Duration": 360,
+                        "IsDebuff": false,
+                        "GlowColor": null,
+                        "CustomAttributes": {
+                          "FarmingLevel": 0,
+                          "FishingLevel": 0,
+                          "MiningLevel": 0,
+                          "LuckLevel": 0,
+                          "ForagingLevel": 0,
+                          "MaxStamina": 0,
+                          "MagneticRadius": 0,
+                          "Speed": 1,
+                          "Defense": 0,
+                          "Attack": 0
+                        }
+                    },
+
+                    "ContextTags":
+                    ["wildflour_bakery_item",
+                    "pudding_item",
+                    "food_sweet",
+                    "food_bakery",
+                    "color_yellow"],
+
+                    "Texture": "Mods/wildflour.bakery/Objects",
+                    "SpriteIndex": 64
+            },
+                "wildflour.bakery_chocolate_raspberry_pudding": {
+                    "Name": "wildflour.bakery_chocolate_raspberry_pudding",
+                    "DisplayName": "{{i18n:bakery_chocolate_raspberry_pudding.name}}",
+                    "Description": "{{i18n:bakery_chocolate_raspberry_pudding.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 90,
+                    "Price": 1395,
+                    "Buff": {
+                        "BuffId": null,
+                        "IconTexture": null,
+                        "IconSpriteIndex": 0,
+                        "Duration": 360,
+                        "IsDebuff": false,
+                        "GlowColor": null,
+                        "CustomAttributes": {
+                          "FarmingLevel": 0,
+                          "FishingLevel": 0,
+                          "MiningLevel": 0,
+                          "LuckLevel": 0,
+                          "ForagingLevel": 0,
+                          "MaxStamina": 0,
+                          "MagneticRadius": 0,
+                          "Speed": 1,
+                          "Defense": 0,
+                          "Attack": 0
+                        }
+                    },
+
+                    "ContextTags":
+                    ["wildflour_bakery_item",
+                    "pudding_item",
+                    "food_sweet",
+                    "food_bakery",
+                    "color_dark_brown"],
+
+                    "Texture": "Mods/wildflour.bakery/Objects",
+                    "SpriteIndex": 65
+            },
+                "wildflour.bakery_cookies_cream_pudding": {
+                    "Name": "wildflour.bakery_cookies_cream_pudding",
+                    "DisplayName": "{{i18n:bakery_cookies_cream_pudding.name}}",
+                    "Description": "{{i18n:bakery_cookies_cream_pudding.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 90,
+                    "Price": 2625,
+                    "Buff": {
+                        "BuffId": null,
+                        "IconTexture": null,
+                        "IconSpriteIndex": 0,
+                        "Duration": 360,
+                        "IsDebuff": false,
+                        "GlowColor": null,
+                        "CustomAttributes": {
+                          "FarmingLevel": 0,
+                          "FishingLevel": 0,
+                          "MiningLevel": 0,
+                          "LuckLevel": 0,
+                          "ForagingLevel": 0,
+                          "MaxStamina": 0,
+                          "MagneticRadius": 0,
+                          "Speed": 1,
+                          "Defense": 0,
+                          "Attack": 0
+                        }
+                    },
+
+                    "ContextTags":
+                    ["wildflour_bakery_item",
+                    "pudding_item",
+                    "food_sweet",
+                    "food_bakery",
+                    "color_dark_brown"],
+
+                    "Texture": "Mods/wildflour.bakery/Objects",
+                    "SpriteIndex": 66
+            },
+                "wildflour.bakery_creme_brulee_pudding": {
+                    "Name": "wildflour.bakery_creme_brulee_pudding",
+                    "DisplayName": "{{i18n:bakery_creme_brulee_pudding.name}}",
+                    "Description": "{{i18n:bakery_creme_brulee_pudding.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 90,
+                    "Price": 2020,
+                    "Buff": {
+                        "BuffId": null,
+                        "IconTexture": null,
+                        "IconSpriteIndex": 0,
+                        "Duration": 360,
+                        "IsDebuff": false,
+                        "GlowColor": null,
+                        "CustomAttributes": {
+                          "FarmingLevel": 0,
+                          "FishingLevel": 0,
+                          "MiningLevel": 0,
+                          "LuckLevel": 0,
+                          "ForagingLevel": 0,
+                          "MaxStamina": 0,
+                          "MagneticRadius": 0,
+                          "Speed": 1,
+                          "Defense": 0,
+                          "Attack": 0
+                        }
+                    },
+
+                    "ContextTags":
+                    ["wildflour_bakery_item",
+                    "pudding_item",
+                    "food_sweet",
+                    "food_bakery",
+                    "color_cream"],
+
+                    "Texture": "Mods/wildflour.bakery/Objects",
+                    "SpriteIndex": 67
+            },
+                "wildflour.bakery_lemon_pudding": {
+                    "Name": "wildflour.bakery_lemon_pudding",
+                    "DisplayName": "{{i18n:bakery_lemon_pudding.name}}",
+                    "Description": "{{i18n:bakery_lemon_pudding.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 90,
+                    "Price": 1350,
+                    "Buff": {
+                        "BuffId": null,
+                        "IconTexture": null,
+                        "IconSpriteIndex": 0,
+                        "Duration": 360,
+                        "IsDebuff": false,
+                        "GlowColor": null,
+                        "CustomAttributes": {
+                          "FarmingLevel": 0,
+                          "FishingLevel": 0,
+                          "MiningLevel": 0,
+                          "LuckLevel": 0,
+                          "ForagingLevel": 0,
+                          "MaxStamina": 0,
+                          "MagneticRadius": 0,
+                          "Speed": 1,
+                          "Defense": 0,
+                          "Attack": 0
+                        }
+                    },
+
+                    "ContextTags":
+                    ["wildflour_bakery_item",
+                    "pudding_item",
+                    "food_sweet",
+                    "food_bakery",
+                    "color_yellow"],
+
+                    "Texture": "Mods/wildflour.bakery/Objects",
+                    "SpriteIndex":68
+            },
+                "wildflour.bakery_peach_pudding": {
+                    "Name": "wildflour.bakery_peach_pudding",
+                    "DisplayName": "{{i18n:bakery_peach_pudding.name}}",
+                    "Description": "{{i18n:bakery_peach_pudding.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 90,
+                    "Price": 2000,
+                    "Buff": {
+                        "BuffId": null,
+                        "IconTexture": null,
+                        "IconSpriteIndex": 0,
+                        "Duration": 360,
+                        "IsDebuff": false,
+                        "GlowColor": null,
+                        "CustomAttributes": {
+                          "FarmingLevel": 0,
+                          "FishingLevel": 0,
+                          "MiningLevel": 0,
+                          "LuckLevel": 0,
+                          "ForagingLevel": 0,
+                          "MaxStamina": 0,
+                          "MagneticRadius": 0,
+                          "Speed": 1,
+                          "Defense": 0,
+                          "Attack": 0
+                        }
+                    },
+
+                    "ContextTags":
+                    ["wildflour_bakery_item",
+                    "pudding_item",
+                    "food_sweet",
+                    "food_bakery",
+                    "color_salmon"],
+
+                    "Texture": "Mods/wildflour.bakery/Objects",
+                    "SpriteIndex": 69
+            },
+                "wildflour.bakery_pumpkin_maple_pudding": {
+                    "Name": "wildflour.bakery_pumpkin_maple_pudding",
+                    "DisplayName": "{{i18n:bakery_pumpkin_maple_pudding.name}}",
+                    "Description": "{{i18n:bakery_pumpkin_maple_pudding.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 90,
+                    "Price": 1860,
+                    "Buff": {
+                        "BuffId": null,
+                        "IconTexture": null,
+                        "IconSpriteIndex": 0,
+                        "Duration": 360,
+                        "IsDebuff": false,
+                        "GlowColor": null,
+                        "CustomAttributes": {
+                          "FarmingLevel": 0,
+                          "FishingLevel": 0,
+                          "MiningLevel": 0,
+                          "LuckLevel": 0,
+                          "ForagingLevel": 0,
+                          "MaxStamina": 0,
+                          "MagneticRadius": 0,
+                          "Speed": 1,
+                          "Defense": 0,
+                          "Attack": 0
+                        }
+                    },
+
+                    "ContextTags":
+                    ["wildflour_bakery_item",
+                    "pudding_item",
+                    "food_sweet",
+                    "food_bakery",
+                    "color_orange"],
+
+                    "Texture": "Mods/wildflour.bakery/Objects",
+                    "SpriteIndex": 70
+            },
+                "wildflour.bakery_sakura_pudding": {
+                    "Name": "wildflour.bakery_sakura_pudding",
+                    "DisplayName": "{{i18n:bakery_sakura_pudding.name}}",
+                    "Description": "{{i18n:bakery_sakura_pudding.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 90,
+                    "Price": 1330,
+                    "Buff": {
+                        "BuffId": null,
+                        "IconTexture": null,
+                        "IconSpriteIndex": 0,
+                        "Duration": 360,
+                        "IsDebuff": false,
+                        "GlowColor": null,
+                        "CustomAttributes": {
+                          "FarmingLevel": 0,
+                          "FishingLevel": 0,
+                          "MiningLevel": 0,
+                          "LuckLevel": 0,
+                          "ForagingLevel": 0,
+                          "MaxStamina": 0,
+                          "MagneticRadius": 0,
+                          "Speed": 1,
+                          "Defense": 0,
+                          "Attack": 0
+                        }
+                    },
+
+                    "ContextTags":
+                    ["wildflour_bakery_item",
+                    "pudding_item",
+                    "food_sweet",
+                    "food_bakery",
+                    "color_light_pink"],
+
+                    "Texture": "Mods/wildflour.bakery/Objects",
+                    "SpriteIndex": 71
+            },
+                "wildflour.bakery_tiramisu_pudding": {
+                    "Name": "wildflour.bakery_tiramisu_pudding",
+                    "DisplayName": "{{i18n:bakery_tiramisu_pudding.name}}",
+                    "Description": "{{i18n:bakery_tiramisu_pudding.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 90,
+                    "Price": 780,
+                    "Buff": {
+                        "BuffId": null,
+                        "IconTexture": null,
+                        "IconSpriteIndex": 0,
+                        "Duration": 360,
+                        "IsDebuff": false,
+                        "GlowColor": null,
+                        "CustomAttributes": {
+                          "FarmingLevel": 0,
+                          "FishingLevel": 0,
+                          "MiningLevel": 0,
+                          "LuckLevel": 0,
+                          "ForagingLevel": 0,
+                          "MaxStamina": 0,
+                          "MagneticRadius": 0,
+                          "Speed": 1,
+                          "Defense": 0,
+                          "Attack": 0
+                        }
+                    },
+
+                    "ContextTags":
+                    ["wildflour_bakery_item",
+                    "pudding_item",
+                    "food_sweet",
+                    "food_bakery",
+                    "color_dark_brown"],
+
+                    "Texture": "Mods/wildflour.bakery/Objects",
+                    "SpriteIndex": 72
+            },
+                "wildflour.bakery_tropical_pudding": {
+                    "Name": "wildflour.bakery_tropical_pudding",
+                    "DisplayName": "{{i18n:bakery_tropical_pudding.name}}",
+                    "Description": "{{i18n:bakery_tropical_pudding.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 90,
+                    "Price": 1950,
+                    "Buff": {
+                        "BuffId": null,
+                        "IconTexture": null,
+                        "IconSpriteIndex": 0,
+                        "Duration": 360,
+                        "IsDebuff": false,
+                        "GlowColor": null,
+                        "CustomAttributes": {
+                          "FarmingLevel": 0,
+                          "FishingLevel": 0,
+                          "MiningLevel": 0,
+                          "LuckLevel": 0,
+                          "ForagingLevel": 0,
+                          "MaxStamina": 0,
+                          "MagneticRadius": 0,
+                          "Speed": 1,
+                          "Defense": 0,
+                          "Attack": 0
+                        }
+                    },
+
+                    "ContextTags":
+                    ["wildflour_bakery_item",
+                    "pudding_item",
+                    "food_sweet",
+                    "food_bakery",
+                    "color_orange"],
+
+                    "Texture": "Mods/wildflour.bakery/Objects",
+                    "SpriteIndex": 73
+            },
+                "wildflour.bakery_blackberry_scone": {
+                    "Name": "wildflour.bakery_blackberry_scone",
+                    "DisplayName": "{{i18n:bakery_blackberry_scone.name}}",
+                    "Description": "{{i18n:bakery_blackberry_scone.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 125,
+                    "Price": 960,
+                    "Buff": {
+                        "BuffId": null,
+                        "IconTexture": null,
+                        "IconSpriteIndex": 0,
+                        "Duration": 720,
+                        "IsDebuff": false,
+                        "GlowColor": null,
+                        "CustomAttributes": {
+                          "FarmingLevel": 0,
+                          "FishingLevel": 2,
+                          "MiningLevel": 0,
+                          "LuckLevel": 0,
+                          "ForagingLevel": 0,
+                          "MaxStamina": 0,
+                          "MagneticRadius": 0,
+                          "Speed": 0,
+                          "Defense": 0,
+                          "Attack": 0
+                        }
+                    },
+
+                    "ContextTags":
+                    ["wildflour_bakery_item",
+                    "scone_item",
+                    "food_sweet",
+                    "food_bakery",
+                    "color_dark_purple"],
+
+                    "Texture": "Mods/wildflour.bakery/Objects",
+                    "SpriteIndex": 80
+            },
+                "wildflour.bakery_blueberry_scone": {
+                    "Name": "wildflour.bakery_blueberry_scone",
+                    "DisplayName": "{{i18n:bakery_blueberry_scone.name}}",
+                    "Description": "{{i18n:bakery_blueberry_scone.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 125,
+                    "Price": 1025,
+                    "Buff": {
+                        "BuffId": null,
+                        "IconTexture": null,
+                        "IconSpriteIndex": 0,
+                        "Duration": 720,
+                        "IsDebuff": false,
+                        "GlowColor": null,
+                        "CustomAttributes": {
+                          "FarmingLevel": 0,
+                          "FishingLevel": 2,
+                          "MiningLevel": 0,
+                          "LuckLevel": 0,
+                          "ForagingLevel": 0,
+                          "MaxStamina": 0,
+                          "MagneticRadius": 0,
+                          "Speed": 0,
+                          "Defense": 0,
+                          "Attack": 0
+                        }
+                    },
+
+                    "ContextTags":
+                    ["wildflour_bakery_item",
+                    "scone_item",
+                    "food_sweet",
+                    "food_bakery",
+                    "color_blue"],
+
+                    "Texture": "Mods/wildflour.bakery/Objects",
+                    "SpriteIndex": 81
+            },
+                "wildflour.bakery_cinnamon_scone": {
+                    "Name": "wildflour.bakery_cinnamon_scone",
+                    "DisplayName": "{{i18n:bakery_cinnamon_scone.name}}",
+                    "Description": "{{i18n:bakery_cinnamon_scone.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 125,
+                    "Price": 1075,
+                    "Buff": {
+                        "BuffId": null,
+                        "IconTexture": null,
+                        "IconSpriteIndex": 0,
+                        "Duration": 720,
+                        "IsDebuff": false,
+                        "GlowColor": null,
+                        "CustomAttributes": {
+                          "FarmingLevel": 0,
+                          "FishingLevel": 2,
+                          "MiningLevel": 0,
+                          "LuckLevel": 0,
+                          "ForagingLevel": 0,
+                          "MaxStamina": 0,
+                          "MagneticRadius": 0,
+                          "Speed": 0,
+                          "Defense": 0,
+                          "Attack": 0
+                        }
+                    },
+
+                    "ContextTags":
+                    ["wildflour_bakery_item",
+                    "scone_item",
+                    "food_sweet",
+                    "food_bakery",
+                    "color_dark_red"],
+
+                    "Texture": "Mods/wildflour.bakery/Objects",
+                    "SpriteIndex": 82
+            },
+                "wildflour.bakery_peach_scone": {
+                    "Name": "wildflour.bakery_peach_scone",
+                    "DisplayName": "{{i18n:bakery_peach_scone.name}}",
+                    "Description": "{{i18n:bakery_peach_scone.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 125,
+                    "Price": 1015,
+                    "Buff": {
+                        "BuffId": null,
+                        "IconTexture": null,
+                        "IconSpriteIndex": 0,
+                        "Duration": 720,
+                        "IsDebuff": false,
+                        "GlowColor": null,
+                        "CustomAttributes": {
+                          "FarmingLevel": 0,
+                          "FishingLevel": 2,
+                          "MiningLevel": 0,
+                          "LuckLevel": 0,
+                          "ForagingLevel": 0,
+                          "MaxStamina": 0,
+                          "MagneticRadius": 0,
+                          "Speed": 0,
+                          "Defense": 0,
+                          "Attack": 0
+                        }
+                    },
+
+                    "ContextTags":
+                    ["wildflour_bakery_item",
+                    "scone_item",
+                    "food_sweet",
+                    "food_bakery",
+                    "color_salmon"],
+
+                    "Texture": "Mods/wildflour.bakery/Objects",
+                    "SpriteIndex": 83
+            },
+                "wildflour.bakery_pistachio_scone": {
+                    "Name": "wildflour.bakery_pistachio_scone",
+                    "DisplayName": "{{i18n:bakery_pistachio_scone.name}}",
+                    "Description": "{{i18n:bakery_pistachio_scone.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 125,
+                    "Price": 1000,
+                    "Buff": {
+                        "BuffId": null,
+                        "IconTexture": null,
+                        "IconSpriteIndex": 0,
+                        "Duration": 720,
+                        "IsDebuff": false,
+                        "GlowColor": null,
+                        "CustomAttributes": {
+                          "FarmingLevel": 0,
+                          "FishingLevel": 2,
+                          "MiningLevel": 0,
+                          "LuckLevel": 0,
+                          "ForagingLevel": 0,
+                          "MaxStamina": 0,
+                          "MagneticRadius": 0,
+                          "Speed": 0,
+                          "Defense": 0,
+                          "Attack": 0
+                        }
+                    },
+
+                    "ContextTags":
+                    ["wildflour_bakery_item",
+                    "scone_item",
+                    "food_sweet",
+                    "food_bakery",
+                    "color_dark_green"],
+
+                    "Texture": "Mods/wildflour.bakery/Objects",
+                    "SpriteIndex": 84
+            },
+                "wildflour.bakery_pumpkin_scone": {
+                    "Name": "wildflour.bakery_pumpkin_scone",
+                    "DisplayName": "{{i18n:bakery_pumpkin_scone.name}}",
+                    "Description": "{{i18n:bakery_pumpkin_scone.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 125,
+                    "Price": 1430,
+                    "Buff": {
+                        "BuffId": null,
+                        "IconTexture": null,
+                        "IconSpriteIndex": 0,
+                        "Duration": 720,
+                        "IsDebuff": false,
+                        "GlowColor": null,
+                        "CustomAttributes": {
+                          "FarmingLevel": 0,
+                          "FishingLevel": 2,
+                          "MiningLevel": 0,
+                          "LuckLevel": 0,
+                          "ForagingLevel": 0,
+                          "MaxStamina": 0,
+                          "MagneticRadius": 0,
+                          "Speed": 0,
+                          "Defense": 0,
+                          "Attack": 0
+                        }
+                    },
+
+                    "ContextTags":
+                    ["wildflour_bakery_item",
+                    "scone_item",
+                    "food_sweet",
+                    "food_bakery",
+                    "color_orange"],
+
+                    "Texture": "Mods/wildflour.bakery/Objects",
+                    "SpriteIndex": 85
+            },
+                "wildflour.bakery_raspberry_scone": {
+                    "Name": "wildflour.bakery_raspberry_scone",
+                    "DisplayName": "{{i18n:bakery_raspberry_scone.name}}",
+                    "Description": "{{i18n:bakery_raspberry_scone.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 125,
+                    "Price": 930,
+                    "Buff": {
+                        "BuffId": null,
+                        "IconTexture": null,
+                        "IconSpriteIndex": 0,
+                        "Duration": 720,
+                        "IsDebuff": false,
+                        "GlowColor": null,
+                        "CustomAttributes": {
+                          "FarmingLevel": 0,
+                          "FishingLevel": 2,
+                          "MiningLevel": 0,
+                          "LuckLevel": 0,
+                          "ForagingLevel": 0,
+                          "MaxStamina": 0,
+                          "MagneticRadius": 0,
+                          "Speed": 0,
+                          "Defense": 0,
+                          "Attack": 0
+                        }
+                    },
+
+                    "ContextTags":
+                    ["wildflour_bakery_item",
+                    "scone_item",
+                    "food_sweet",
+                    "food_bakery",
+                    "color_dark_pink"],
+
+                    "Texture": "Mods/wildflour.bakery/Objects",
+                    "SpriteIndex": 86
+            },
+                "wildflour.bakery_strawberry_scone": {
+                    "Name": "wildflour.bakery_strawberry_scone",
+                    "DisplayName": "{{i18n:bakery_strawberry_scone.name}}",
+                    "Description": "{{i18n:bakery_strawberry_scone.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 125,
+                    "Price": 1000,
+                    "Buff": {
+                        "BuffId": null,
+                        "IconTexture": null,
+                        "IconSpriteIndex": 0,
+                        "Duration": 720,
+                        "IsDebuff": false,
+                        "GlowColor": null,
+                        "CustomAttributes": {
+                          "FarmingLevel": 0,
+                          "FishingLevel": 2,
+                          "MiningLevel": 0,
+                          "LuckLevel": 0,
+                          "ForagingLevel": 0,
+                          "MaxStamina": 0,
+                          "MagneticRadius": 0,
+                          "Speed": 0,
+                          "Defense": 0,
+                          "Attack": 0
+                        }
+                    },
+
+                    "ContextTags":
+                    ["wildflour_bakery_item",
+                    "scone_item",
+                    "food_sweet",
+                    "food_bakery",
+                    "color_pink"],
+
+                    "Texture": "Mods/wildflour.bakery/Objects",
+                    "SpriteIndex": 87
+            },
+                "wildflour.bakery_blueberry_cheesecake": {
+                    "Name": "wildflour.bakery_blueberry_cheesecake",
+                    "DisplayName": "{{i18n:bakery_blueberry_cheesecake.name}}",
+                    "Description": "{{i18n:bakery_blueberry_cheesecake.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 115,
+                    "Price": 1165,
+                    "Buff": {
+                        "BuffId": null,
+                        "IconTexture": null,
+                        "IconSpriteIndex": 0,
+                        "Duration": 360,
+                        "IsDebuff": false,
+                        "GlowColor": null,
+                        "CustomAttributes": {
+                          "FarmingLevel": 0,
+                          "FishingLevel": 0,
+                          "MiningLevel": 0,
+                          "LuckLevel": 0,
+                          "ForagingLevel": 0,
+                          "MaxStamina": 0,
+                          "MagneticRadius": 0,
+                          "Speed": 0,
+                          "Defense": 0,
+                          "Attack": 2
+                        }
+                    },
+
+
+                    "ContextTags":
+                    ["wildflour_bakery_item",
+                    "cheesecake_item",
+                    "food_sweet",
+                    "food_bakery",
+                    "color_blue"],
+
+                    "Texture": "Mods/wildflour.bakery/Objects",
+                    "SpriteIndex": 96
+            },
+                "wildflour.bakery_cherry_cheesecake": {
+                    "Name": "wildflour.bakery_cherry_cheesecake",
+                    "DisplayName": "{{i18n:bakery_cherry_cheesecake.name}}",
+                    "Description": "{{i18n:bakery_cherry_cheesecake.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 115,
+                    "Price": 1165,
+                    "Buff": {
+                        "BuffId": null,
+                        "IconTexture": null,
+                        "IconSpriteIndex": 0,
+                        "Duration": 360,
+                        "IsDebuff": false,
+                        "GlowColor": null,
+                        "CustomAttributes": {
+                          "FarmingLevel": 0,
+                          "FishingLevel": 0,
+                          "MiningLevel": 0,
+                          "LuckLevel": 0,
+                          "ForagingLevel": 0,
+                          "MaxStamina": 0,
+                          "MagneticRadius": 0,
+                          "Speed": 0,
+                          "Defense": 0,
+                          "Attack": 2
+                        }
+                    },
+
+                    "ContextTags":
+                    ["wildflour_bakery_item",
+                    "cheesecake_item",
+                    "food_sweet",
+                    "food_bakery",
+                    "color_red"],
+
+                    "Texture": "Mods/wildflour.bakery/Objects",
+                    "SpriteIndex": 97
+            },
+                "wildflour.bakery_cheesecake": {
+                    "Name": "wildflour.bakery_cheesecake",
+                    "DisplayName": "{{i18n:bakery_cheesecake.name}}",
+                    "Description": "{{i18n:bakery_cheesecake.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 115,
+                    "Price": 800,
+                    "Buff": {
+                        "BuffId": null,
+                        "IconTexture": null,
+                        "IconSpriteIndex": 0,
+                        "Duration": 360,
+                        "IsDebuff": false,
+                        "GlowColor": null,
+                        "CustomAttributes": {
+                          "FarmingLevel": 0,
+                          "FishingLevel": 0,
+                          "MiningLevel": 0,
+                          "LuckLevel": 0,
+                          "ForagingLevel": 0,
+                          "MaxStamina": 0,
+                          "MagneticRadius": 0,
+                          "Speed": 0,
+                          "Defense": 0,
+                          "Attack": 2
+                        }
+                    },
+
+                    "ContextTags":
+                    ["wildflour_bakery_item",
+                    "cheesecake_item",
+                    "food_sweet",
+                    "food_bakery",
+                    "color_cream"],
+
+                    "Texture": "Mods/wildflour.bakery/Objects",
+                    "SpriteIndex": 98
+            },
+                "wildflour.bakery_cookies_cream_cheesecake": {
+                    "Name": "wildflour.bakery_cookies_cream_cheesecake",
+                    "DisplayName": "{{i18n:bakery_cookies_cream_cheesecake.name}}",
+                    "Description": "{{i18n:bakery_cookies_cream_cheesecake.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 115,
+                    "Price": 2300,
+                    "Buff": {
+                        "BuffId": null,
+                        "IconTexture": null,
+                        "IconSpriteIndex": 0,
+                        "Duration": 360,
+                        "IsDebuff": false,
+                        "GlowColor": null,
+                        "CustomAttributes": {
+                          "FarmingLevel": 0,
+                          "FishingLevel": 0,
+                          "MiningLevel": 0,
+                          "LuckLevel": 0,
+                          "ForagingLevel": 0,
+                          "MaxStamina": 0,
+                          "MagneticRadius": 0,
+                          "Speed": 0,
+                          "Defense": 0,
+                          "Attack": 2
+                        }
+                    },
+
+                    "ContextTags":
+                    ["wildflour_bakery_item",
+                    "cheesecake_item",
+                    "food_sweet",
+                    "food_bakery",
+                    "color_dark_brown"],
+
+                    "Texture": "Mods/wildflour.bakery/Objects",
+                    "SpriteIndex": 99
+            },
+                "wildflour.bakery_lemon_cheesecake": {
+                    "Name": "wildflour.bakery_lemon_cheesecake",
+                    "DisplayName": "{{i18n:bakery_lemon_cheesecake.name}}",
+                    "Description": "{{i18n:bakery_lemon_cheesecake.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 115,
+                    "Price": 1185,
+                    "Buff": {
+                        "BuffId": null,
+                        "IconTexture": null,
+                        "IconSpriteIndex": 0,
+                        "Duration": 360,
+                        "IsDebuff": false,
+                        "GlowColor": null,
+                        "CustomAttributes": {
+                          "FarmingLevel": 0,
+                          "FishingLevel": 0,
+                          "MiningLevel": 0,
+                          "LuckLevel": 0,
+                          "ForagingLevel": 0,
+                          "MaxStamina": 0,
+                          "MagneticRadius": 0,
+                          "Speed": 0,
+                          "Defense": 0,
+                          "Attack": 2
+                        }
+                    },
+
+                    "ContextTags":
+                    ["wildflour_bakery_item",
+                    "cheesecake_item",
+                    "food_sweet",
+                    "food_bakery",
+                    "color_gold"],
+
+                    "Texture": "Mods/wildflour.bakery/Objects",
+                    "SpriteIndex": 100
+            },
+                "wildflour.bakery_mango_cheesecake": {
+                    "Name": "wildflour.bakery_mango_cheesecake",
+                    "DisplayName": "{{i18n:bakery_mango_cheesecake.name}}",
+                    "Description": "{{i18n:bakery_mango_cheesecake.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 115,
+                    "Price": 1165,
+                    "Buff": {
+                        "BuffId": null,
+                        "IconTexture": null,
+                        "IconSpriteIndex": 0,
+                        "Duration": 360,
+                        "IsDebuff": false,
+                        "GlowColor": null,
+                        "CustomAttributes": {
+                          "FarmingLevel": 0,
+                          "FishingLevel": 0,
+                          "MiningLevel": 0,
+                          "LuckLevel": 0,
+                          "ForagingLevel": 0,
+                          "MaxStamina": 0,
+                          "MagneticRadius": 0,
+                          "Speed": 0,
+                          "Defense": 0,
+                          "Attack": 2
+                        }
+                    },
+
+                    "ContextTags":
+                    ["wildflour_bakery_item",
+                    "cheesecake_item",
+                    "food_sweet",
+                    "food_bakery",
+                    "color_orange"],
+
+                    "Texture": "Mods/wildflour.bakery/Objects",
+                    "SpriteIndex": 101
+            },  
+                "wildflour.bakery_orange_cheesecake": {
+                    "Name": "wildflour.bakery_orange_cheesecake",
+                    "DisplayName": "{{i18n:bakery_orange_cheesecake.name}}",
+                    "Description": "{{i18n:bakery_orange_cheesecake.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 115,
+                    "Price": 1000,
+                    "Buff": {
+                        "BuffId": null,
+                        "IconTexture": null,
+                        "IconSpriteIndex": 0,
+                        "Duration": 360,
+                        "IsDebuff": false,
+                        "GlowColor": null,
+                        "CustomAttributes": {
+                          "FarmingLevel": 0,
+                          "FishingLevel": 0,
+                          "MiningLevel": 0,
+                          "LuckLevel": 0,
+                          "ForagingLevel": 0,
+                          "MaxStamina": 0,
+                          "MagneticRadius": 0,
+                          "Speed": 0,
+                          "Defense": 0,
+                          "Attack": 2
+                        }
+                    },
+
+                    "ContextTags":
+                    ["wildflour_bakery_item",
+                    "cheesecake_item",
+                    "food_sweet",
+                    "food_bakery",
+                    "color_orange"],
+
+                    "Texture": "Mods/wildflour.bakery/Objects",
+                    "SpriteIndex": 102
+            },
+                "wildflour.bakery_pumpkin_cheesecake": {
+                    "Name": "wildflour.bakery_pumpkin_cheesecake",
+                    "DisplayName": "{{i18n:bakery_pumpkin_cheesecake.name}}",
+                    "Description": "{{i18n:bakery_pumpkin_cheesecake.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 115,
+                    "Price": 1285,
+                    "Buff": {
+                        "BuffId": null,
+                        "IconTexture": null,
+                        "IconSpriteIndex": 0,
+                        "Duration": 360,
+                        "IsDebuff": false,
+                        "GlowColor": null,
+                        "CustomAttributes": {
+                          "FarmingLevel": 0,
+                          "FishingLevel": 0,
+                          "MiningLevel": 0,
+                          "LuckLevel": 0,
+                          "ForagingLevel": 0,
+                          "MaxStamina": 0,
+                          "MagneticRadius": 0,
+                          "Speed": 0,
+                          "Defense": 0,
+                          "Attack": 2
+                        }
+                    },
+
+                    "ContextTags":
+                    ["wildflour_bakery_item",
+                    "cheesecake_item",
+                    "food_sweet",
+                    "food_bakery",
+                    "color_orange"],
+
+                    "Texture": "Mods/wildflour.bakery/Objects",
+                    "SpriteIndex": 103
+            },
+                "wildflour.bakery_raspberry_cheesecake": {
+                    "Name": "wildflour.bakery_raspberry_cheesecake",
+                    "DisplayName": "{{i18n:bakery_raspberry_cheesecake.name}}",
+                    "Description": "{{i18n:bakery_raspberry_cheesecake.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 115,
+                    "Price": 1060,
+                    "Buff": {
+                        "BuffId": null,
+                        "IconTexture": null,
+                        "IconSpriteIndex": 0,
+                        "Duration": 360,
+                        "IsDebuff": false,
+                        "GlowColor": null,
+                        "CustomAttributes": {
+                          "FarmingLevel": 0,
+                          "FishingLevel": 0,
+                          "MiningLevel": 0,
+                          "LuckLevel": 0,
+                          "ForagingLevel": 0,
+                          "MaxStamina": 0,
+                          "MagneticRadius": 0,
+                          "Speed": 0,
+                          "Defense": 0,
+                          "Attack": 2
+                        }
+                    },
+
+                    "ContextTags":
+                    ["wildflour_bakery_item",
+                    "cheesecake_item",
+                    "food_sweet",
+                    "food_bakery",
+                    "color_dark_pink"],
+
+                    "Texture": "Mods/wildflour.bakery/Objects",
+                    "SpriteIndex": 104
+            },
+                "wildflour.bakery_white_cheesecake": {
+                    "Name": "wildflour.bakery_white_cheesecake",
+                    "DisplayName": "{{i18n:bakery_white_cheesecake.name}}",
+                    "Description": "{{i18n:bakery_white_cheesecake.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 115,
+                    "Price": 400,
+                    "Buff": {
+                        "BuffId": null,
+                        "IconTexture": null,
+                        "IconSpriteIndex": 0,
+                        "Duration": 360,
+                        "IsDebuff": false,
+                        "GlowColor": null,
+                        "CustomAttributes": {
+                          "FarmingLevel": 0,
+                          "FishingLevel": 0,
+                          "MiningLevel": 0,
+                          "LuckLevel": 0,
+                          "ForagingLevel": 0,
+                          "MaxStamina": 0,
+                          "MagneticRadius": 0,
+                          "Speed": 0,
+                          "Defense": 0,
+                          "Attack": 2
+                        }
+                    },
+
+                    "ContextTags":
+                    ["wildflour_bakery_item",
+                    "cheesecake_item",
+                    "food_sweet",
+                    "food_bakery",
+                    "color_cream"],
+
+                    "Texture": "Mods/wildflour.bakery/Objects",
+                    "SpriteIndex": 105
+            },
+                "wildflour.bakery_blueberry_tart": {
+                    "Name": "wildflour.bakery_blueberry_tart",
+                    "DisplayName": "{{i18n:bakery_blueberry_tart.name}}",
+                    "Description": "{{i18n:bakery_blueberry_tart.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 90,
+                    "Price": 800,
+                    "Buff": {
+                        "BuffId": null,
+                        "IconTexture": null,
+                        "IconSpriteIndex": 0,
+                        "Duration": 360,
+                        "IsDebuff": false,
+                        "GlowColor": null,
+                        "CustomAttributes": {
+                          "FarmingLevel": 0,
+                          "FishingLevel": 0,
+                          "MiningLevel": 0,
+                          "LuckLevel": 0,
+                          "ForagingLevel": 0,
+                          "MaxStamina": 0,
+                          "MagneticRadius": 0,
+                          "Speed": 1,
+                          "Defense": 0,
+                          "Attack": 0
+                        }
+                    },
+
+                    "ContextTags":
+                    ["wildflour_bakery_item",
+                    "tart_item",
+                    "food_sweet",
+                    "food_bakery",
+                    "color_blue"],
+
+                    "Texture": "Mods/wildflour.bakery/Objects",
+                    "SpriteIndex": 112
+            },
+                "wildflour.bakery_chocolate_hazelnut_tart": {
+                    "Name": "wildflour.bakery_chocolate_hazelnut_tart",
+                    "DisplayName": "{{i18n:bakery_chocolate_hazelnut_tart.name}}",
+                    "Description": "{{i18n:bakery_chocolate_hazelnut_tart.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 90,
+                    "Price": 900,
+                    "Buff": {
+                        "BuffId": null,
+                        "IconTexture": null,
+                        "IconSpriteIndex": 0,
+                        "Duration": 360,
+                        "IsDebuff": false,
+                        "GlowColor": null,
+                        "CustomAttributes": {
+                          "FarmingLevel": 0,
+                          "FishingLevel": 0,
+                          "MiningLevel": 0,
+                          "LuckLevel": 0,
+                          "ForagingLevel": 0,
+                          "MaxStamina": 0,
+                          "MagneticRadius": 0,
+                          "Speed": 1,
+                          "Defense": 0,
+                          "Attack": 0
+                        }
+                    },
+
+                    "ContextTags":
+                    ["wildflour_bakery_item",
+                    "tart_item",
+                    "food_sweet",
+                    "food_bakery",
+                    "color_dark_brown"],
+
+                    "Texture": "Mods/wildflour.bakery/Objects",
+                    "SpriteIndex": 113
+            },
+                "wildflour.bakery_lemon_tart": {
+                    "Name": "wildflour.bakery_lemon_tart",
+                    "DisplayName": "{{i18n:bakery_lemon_tart.name}}",
+                    "Description": "{{i18n:bakery_lemon_tart.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 90,
+                    "Price": 670,
+                    "Buff": {
+                        "BuffId": null,
+                        "IconTexture": null,
+                        "IconSpriteIndex": 0,
+                        "Duration": 360,
+                        "IsDebuff": false,
+                        "GlowColor": null,
+                        "CustomAttributes": {
+                          "FarmingLevel": 0,
+                          "FishingLevel": 0,
+                          "MiningLevel": 0,
+                          "LuckLevel": 0,
+                          "ForagingLevel": 0,
+                          "MaxStamina": 0,
+                          "MagneticRadius": 0,
+                          "Speed": 1,
+                          "Defense": 0,
+                          "Attack": 0
+                        }
+                    },
+
+                    "ContextTags":
+                    ["wildflour_bakery_item",
+                    "tart_item",
+                    "food_sweet",
+                    "food_bakery",
+                    "color_gold"],
+
+                    "Texture": "Mods/wildflour.bakery/Objects",
+                    "SpriteIndex": 114
+            },
+                "wildflour.bakery_mango_tart": {
+                    "Name": "wildflour.bakery_mango_tart",
+                    "DisplayName": "{{i18n:bakery_mango_tart.name}}",
+                    "Description": "{{i18n:bakery_mango_tart.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 90,
+                    "Price": 650,
+                    "Buff": {
+                        "BuffId": null,
+                        "IconTexture": null,
+                        "IconSpriteIndex": 0,
+                        "Duration": 360,
+                        "IsDebuff": false,
+                        "GlowColor": null,
+                        "CustomAttributes": {
+                          "FarmingLevel": 0,
+                          "FishingLevel": 0,
+                          "MiningLevel": 0,
+                          "LuckLevel": 0,
+                          "ForagingLevel": 0,
+                          "MaxStamina": 0,
+                          "MagneticRadius": 0,
+                          "Speed": 1,
+                          "Defense": 0,
+                          "Attack": 0
+                        }
+                    },
+
+                    "ContextTags":
+                    ["wildflour_bakery_item",
+                    "tart_item",
+                    "food_sweet",
+                    "food_bakery",
+                    "color_orange"],
+
+                    "Texture": "Mods/wildflour.bakery/Objects",
+                    "SpriteIndex": 115
+            },
+                "wildflour.bakery_berry_tart": {
+                    "Name": "wildflour.bakery_berry_tart",
+                    "DisplayName": "{{i18n:bakery_berry_tart.name}}",
+                    "Description": "{{i18n:bakery_berry_tart.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 90,
+                    "Price": 1000,
+                    "Buff": {
+                        "BuffId": null,
+                        "IconTexture": null,
+                        "IconSpriteIndex": 0,
+                        "Duration": 360,
+                        "IsDebuff": false,
+                        "GlowColor": null,
+                        "CustomAttributes": {
+                          "FarmingLevel": 0,
+                          "FishingLevel": 0,
+                          "MiningLevel": 0,
+                          "LuckLevel": 0,
+                          "ForagingLevel": 0,
+                          "MaxStamina": 0,
+                          "MagneticRadius": 0,
+                          "Speed": 1,
+                          "Defense": 0,
+                          "Attack": 0
+                        }
+                    },
+
+                    "ContextTags":
+                    ["wildflour_bakery_item",
+                    "tart_item",
+                    "food_sweet",
+                    "food_bakery",
+                    "color_dark_blue"],
+
+                    "Texture": "Mods/wildflour.bakery/Objects",
+                    "SpriteIndex": 116
+            },
+                "wildflour.bakery_fruit_tart": {
+                    "Name": "wildflour.bakery_fruit_tart",
+                    "DisplayName": "{{i18n:bakery_fruit_tart.name}}",
+                    "Description": "{{i18n:bakery_fruit_tart.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 90,
+                    "Price": 900,
+                    "Buff": {
+                        "BuffId": null,
+                        "IconTexture": null,
+                        "IconSpriteIndex": 0,
+                        "Duration": 360,
+                        "IsDebuff": false,
+                        "GlowColor": null,
+                        "CustomAttributes": {
+                          "FarmingLevel": 0,
+                          "FishingLevel": 0,
+                          "MiningLevel": 0,
+                          "LuckLevel": 0,
+                          "ForagingLevel": 0,
+                          "MaxStamina": 0,
+                          "MagneticRadius": 0,
+                          "Speed": 1,
+                          "Defense": 0,
+                          "Attack": 0
+                        }
+                    },
+
+                    "ContextTags":
+                    ["wildflour_bakery_item",
+                    "tart_item",
+                    "food_sweet",
+                    "food_bakery",
+                    "color_purple"],
+
+                    "Texture": "Mods/wildflour.bakery/Objects",
+                    "SpriteIndex": 117
+            },
+                "wildflour.bakery_peppermint_tart": {
+                    "Name": "wildflour.bakery_peppermint_tart",
+                    "DisplayName": "{{i18n:bakery_peppermint_tart.name}}",
+                    "Description": "{{i18n:bakery_peppermint_tart.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 90,
+                    "Price": 860,
+                    "Buff": {
+                        "BuffId": null,
+                        "IconTexture": null,
+                        "IconSpriteIndex": 0,
+                        "Duration": 360,
+                        "IsDebuff": false,
+                        "GlowColor": null,
+                        "CustomAttributes": {
+                          "FarmingLevel": 0,
+                          "FishingLevel": 0,
+                          "MiningLevel": 0,
+                          "LuckLevel": 0,
+                          "ForagingLevel": 0,
+                          "MaxStamina": 0,
+                          "MagneticRadius": 0,
+                          "Speed": 1,
+                          "Defense": 0,
+                          "Attack": 0
+                        }
+                    },
+
+                    "ContextTags":
+                    ["wildflour_bakery_item",
+                    "tart_item",
+                    "food_sweet",
+                    "food_bakery",
+                    "color_dark_brown"],
+
+                    "Texture": "Mods/wildflour.bakery/Objects",
+                    "SpriteIndex": 118
+            },
+                "wildflour.bakery_pina_colada_tart": {
+                    "Name": "wildflour.bakery_pina_colada_tart",
+                    "DisplayName": "{{i18n:bakery_pina_colada_tart.name}}",
+                    "Description": "{{i18n:bakery_pina_colada_tart.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 90,
+                    "Price": 1800,
+                    "Buff": {
+                        "BuffId": null,
+                        "IconTexture": null,
+                        "IconSpriteIndex": 0,
+                        "Duration": 360,
+                        "IsDebuff": false,
+                        "GlowColor": null,
+                        "CustomAttributes": {
+                          "FarmingLevel": 0,
+                          "FishingLevel": 0,
+                          "MiningLevel": 0,
+                          "LuckLevel": 0,
+                          "ForagingLevel": 0,
+                          "MaxStamina": 0,
+                          "MagneticRadius": 0,
+                          "Speed": 1,
+                          "Defense": 0,
+                          "Attack": 0
+                        }
+                    },
+
+                    "ContextTags":
+                    ["wildflour_bakery_item",
+                    "tart_item",
+                    "food_sweet",
+                    "food_bakery",
+                    "color_gold"],
+
+                    "Texture": "Mods/wildflour.bakery/Objects",
+                    "SpriteIndex": 119
+            },
+                "wildflour.bakery_raspberry_tart": {
+                    "Name": "wildflour.bakery_raspberry_tart",
+                    "DisplayName": "{{i18n:bakery_raspberry_tart.name}}",
+                    "Description": "{{i18n:bakery_raspberry_tart.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 90,
+                    "Price": 870,
+                    "Buff": {
+                        "BuffId": null,
+                        "IconTexture": null,
+                        "IconSpriteIndex": 0,
+                        "Duration": 360,
+                        "IsDebuff": false,
+                        "GlowColor": null,
+                        "CustomAttributes": {
+                          "FarmingLevel": 0,
+                          "FishingLevel": 0,
+                          "MiningLevel": 0,
+                          "LuckLevel": 0,
+                          "ForagingLevel": 0,
+                          "MaxStamina": 0,
+                          "MagneticRadius": 0,
+                          "Speed": 1,
+                          "Defense": 0,
+                          "Attack": 0
+                        }
+                    },
+
+                    "ContextTags":
+                    ["wildflour_bakery_item",
+                    "tart_item",
+                    "food_sweet",
+                    "food_bakery",
+                    "color_dark_pink"],
+
+                    "Texture": "Mods/wildflour.bakery/Objects",
+                    "SpriteIndex": 120
+            },
+                "wildflour.bakery_summer_tart": {
+                    "Name": "wildflour.bakery_summer_tart",
+                    "DisplayName": "{{i18n:bakery_summer_tart.name}}",
+                    "Description": "{{i18n:bakery_summer_tart.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 90,
+                    "Price": 1800,
+                    "Buff": {
+                        "BuffId": null,
+                        "IconTexture": null,
+                        "IconSpriteIndex": 0,
+                        "Duration": 360,
+                        "IsDebuff": false,
+                        "GlowColor": null,
+                        "CustomAttributes": {
+                          "FarmingLevel": 0,
+                          "FishingLevel": 0,
+                          "MiningLevel": 0,
+                          "LuckLevel": 0,
+                          "ForagingLevel": 0,
+                          "MaxStamina": 0,
+                          "MagneticRadius": 0,
+                          "Speed": 1,
+                          "Defense": 0,
+                          "Attack": 0
+                        }
+                    },
+
+                    "ContextTags":
+                    ["wildflour_bakery_item",
+                    "tart_item",
+                    "food_sweet",
+                    "food_bakery",
+                    "color_gold"],
+
+                    "Texture": "Mods/wildflour.bakery/Objects",
+                    "SpriteIndex": 121
+            },
+                "wildflour.bakery_bread_loaf": {
+                    "Name": "wildflour.bakery_bread_loaf",
+                    "DisplayName": "{{i18n:bakery_bread_loaf.name}}",
+                    "Description": "{{i18n:bakery_bread_loaf.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 75,
+                    "Price": 500,
+                    "Buff": {
+                        "BuffId": null,
+                        "IconTexture": null,
+                        "IconSpriteIndex": 0,
+                        "Duration": 720,
+                        "IsDebuff": false,
+                        "GlowColor": null,
+                        "CustomAttributes": {
+                          "FarmingLevel": 0,
+                          "FishingLevel": 2,
+                          "MiningLevel": 0,
+                          "LuckLevel": 0,
+                          "ForagingLevel": 0,
+                          "MaxStamina": 0,
+                          "MagneticRadius": 0,
+                          "Speed": 0,
+                          "Defense": 0,
+                          "Attack": 0
+                        }
+                    },
+
+                    "ContextTags":
+                    ["wildflour_bakery_item",
+                    "bread_item",
+                    "food_bakery",
+                    "color_sand"],
+
+                    "Texture": "Mods/wildflour.bakery/Objects",
+                    "SpriteIndex": 128
+            },
+                "wildflour.bakery_cinnamon_roll": {
+                    "Name": "wildflour.bakery_cinnamon_roll",
+                    "DisplayName": "{{i18n:bakery_cinnamon_roll.name}}",
+                    "Description": "{{i18n:bakery_cinnamon_roll.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 75,
+                    "Price": 500,
+                    "Buff": {
+                        "BuffId": null,
+                        "IconTexture": null,
+                        "IconSpriteIndex": 0,
+                        "Duration": 720,
+                        "IsDebuff": false,
+                        "GlowColor": null,
+                        "CustomAttributes": {
+                          "FarmingLevel": 0,
+                          "FishingLevel": 2,
+                          "MiningLevel": 0,
+                          "LuckLevel": 0,
+                          "ForagingLevel": 0,
+                          "MaxStamina": 0,
+                          "MagneticRadius": 0,
+                          "Speed": 0,
+                          "Defense": 0,
+                          "Attack": 0
+                        }
+                    },
+
+                    "ContextTags":
+                    ["wildflour_bakery_item",
+                    "bread_item",
+                    "food_sweet",
+                    "food_bakery",
+                    "color_brown"],
+
+                    "Texture": "Mods/wildflour.bakery/Objects",
+                    "SpriteIndex": 129
+            },
+                "wildflour.bakery_cranberry_bread": {
+                    "Name": "wildflour.bakery_cranberry_bread",
+                    "DisplayName": "{{i18n:bakery_cranberry_bread.name}}",
+                    "Description": "{{i18n:bakery_cranberry_bread.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 75,
+                    "Price": 600,
+                    "Buff": {
+                        "BuffId": null,
+                        "IconTexture": null,
+                        "IconSpriteIndex": 0,
+                        "Duration": 720,
+                        "IsDebuff": false,
+                        "GlowColor": null,
+                        "CustomAttributes": {
+                          "FarmingLevel": 0,
+                          "FishingLevel": 2,
+                          "MiningLevel": 0,
+                          "LuckLevel": 0,
+                          "ForagingLevel": 0,
+                          "MaxStamina": 0,
+                          "MagneticRadius": 0,
+                          "Speed": 0,
+                          "Defense": 0,
+                          "Attack": 0
+                        }
+                    },
+
+                    "ContextTags":
+                    ["wildflour_bakery_item",
+                    "bread_item",
+                    "food_bakery",
+                    "color_brown"],
+
+                    "Texture": "Mods/wildflour.bakery/Objects",
+                    "SpriteIndex": 130
+            },
+                "wildflour.bakery_olive_bread": {
+                    "Name": "wildflour.bakery_olive_bread",
+                    "DisplayName": "{{i18n:bakery_olive_bread.name}}",
+                    "Description": "{{i18n:bakery_olive_bread.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 75,
+                    "Price": 500,
+                    "Buff": {
+                        "BuffId": null,
+                        "IconTexture": null,
+                        "IconSpriteIndex": 0,
+                        "Duration": 720,
+                        "IsDebuff": false,
+                        "GlowColor": null,
+                        "CustomAttributes": {
+                          "FarmingLevel": 0,
+                          "FishingLevel": 2,
+                          "MiningLevel": 0,
+                          "LuckLevel": 0,
+                          "ForagingLevel": 0,
+                          "MaxStamina": 0,
+                          "MagneticRadius": 0,
+                          "Speed": 0,
+                          "Defense": 0,
+                          "Attack": 0
+                        }
+                    },
+
+                    "ContextTags":
+                    ["wildflour_bakery_item",
+                    "bread_item",
+                    "food_bakery",
+                    "color_brown"],
+
+                    "Texture": "Mods/wildflour.bakery/Objects",
+                    "SpriteIndex": 131
+            },
+                "wildflour.bakery_potato_bread": {
+                    "Name": "wildflour.bakery_potato_bread",
+                    "DisplayName": "{{i18n:bakery_potato_bread.name}}",
+                    "Description": "{{i18n:bakery_potato_bread.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 75,
+                    "Price": 550,
+                    "Buff": {
+                        "BuffId": null,
+                        "IconTexture": null,
+                        "IconSpriteIndex": 0,
+                        "Duration": 720,
+                        "IsDebuff": false,
+                        "GlowColor": null,
+                        "CustomAttributes": {
+                          "FarmingLevel": 0,
+                          "FishingLevel": 2,
+                          "MiningLevel": 0,
+                          "LuckLevel": 0,
+                          "ForagingLevel": 0,
+                          "MaxStamina": 0,
+                          "MagneticRadius": 0,
+                          "Speed": 0,
+                          "Defense": 0,
+                          "Attack": 0
+                        }
+                    },
+
+                    "ContextTags":
+                    ["wildflour_bakery_item",
+                    "bread_item",
+                    "food_bakery",
+                    "color_light_brown"],
+
+                    "Texture": "Mods/wildflour.bakery/Objects",
+                    "SpriteIndex": 132
+            },
+                "wildflour.bakery_pretzel": {
+                    "Name": "wildflour.bakery_pretzel",
+                    "DisplayName": "{{i18n:bakery_pretzel.name}}",
+                    "Description": "{{i18n:bakery_pretzel.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 75,
+                    "Price": 600,
+                    "Buff": {
+                        "BuffId": null,
+                        "IconTexture": null,
+                        "IconSpriteIndex": 0,
+                        "Duration": 720,
+                        "IsDebuff": false,
+                        "GlowColor": null,
+                        "CustomAttributes": {
+                          "FarmingLevel": 0,
+                          "FishingLevel": 2,
+                          "MiningLevel": 0,
+                          "LuckLevel": 0,
+                          "ForagingLevel": 0,
+                          "MaxStamina": 0,
+                          "MagneticRadius": 0,
+                          "Speed": 0,
+                          "Defense": 0,
+                          "Attack": 0
+                        }
+                    },
+
+                    "ContextTags":
+                    ["wildflour_bakery_item",
+                    "bread_item",
+                    "food_bakery",
+                    "color_brown"],
+
+                    "Texture": "Mods/wildflour.bakery/Objects",
+                    "SpriteIndex": 133
+            },
+                "wildflour.bakery_pumpernickel_bread": {
+                    "Name": "wildflour.bakery_pumpernickel_bread",
+                    "DisplayName": "{{i18n:bakery_pumpernickel_bread.name}}",
+                    "Description": "{{i18n:bakery_pumpernickel_bread.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 75,
+                    "Price": 600,
+                    "Buff": {
+                        "BuffId": null,
+                        "IconTexture": null,
+                        "IconSpriteIndex": 0,
+                        "Duration": 720,
+                        "IsDebuff": false,
+                        "GlowColor": null,
+                        "CustomAttributes": {
+                          "FarmingLevel": 0,
+                          "FishingLevel": 2,
+                          "MiningLevel": 0,
+                          "LuckLevel": 0,
+                          "ForagingLevel": 0,
+                          "MaxStamina": 0,
+                          "MagneticRadius": 0,
+                          "Speed": 0,
+                          "Defense": 0,
+                          "Attack": 0
+                        }
+                    },
+
+                    "ContextTags":
+                    ["wildflour_bakery_item",
+                    "bread_item",
+                    "food_bakery",
+                    "color_dark_brown"],
+
+                    "Texture": "Mods/wildflour.bakery/Objects",
+                    "SpriteIndex": 134
+            },
+                "wildflour.bakery_wheat_bread": {
+                    "Name": "wildflour.bakery_wheat_bread",
+                    "DisplayName": "{{i18n:bakery_wheat_bread.name}}",
+                    "Description": "{{i18n:bakery_wheat_bread.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 75,
+                    "Price": 750,
+                    "Buff": {
+                        "BuffId": null,
+                        "IconTexture": null,
+                        "IconSpriteIndex": 0,
+                        "Duration": 720,
+                        "IsDebuff": false,
+                        "GlowColor": null,
+                        "CustomAttributes": {
+                          "FarmingLevel": 0,
+                          "FishingLevel": 2,
+                          "MiningLevel": 0,
+                          "LuckLevel": 0,
+                          "ForagingLevel": 0,
+                          "MaxStamina": 0,
+                          "MagneticRadius": 0,
+                          "Speed": 0,
+                          "Defense": 0,
+                          "Attack": 0
+                        }
+                    },
+
+                    "ContextTags":
+                    ["wildflour_bakery_item",
+                    "bread_item",
+                    "food_bakery",
+                    "color_dark_brown"],
+
+                    "Texture": "Mods/wildflour.bakery/Objects",
+                    "SpriteIndex": 135
+            },
+                "wildflour.bakery_carrot_cake": {
+                    "Name": "wildflour.bakery_carrot_cake",
+                    "DisplayName": "{{i18n:bakery_carrot_cake.name}}",
+                    "Description": "{{i18n:bakery_carrot_cake.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 100,
+                    "Price": 1000,
+                    "Buff": {
+                        "BuffId": null,
+                        "IconTexture": null,
+                        "IconSpriteIndex": 0,
+                        "Duration": 360,
+                        "IsDebuff": false,
+                        "GlowColor": null,
+                        "CustomAttributes": {
+                          "FarmingLevel": 0,
+                          "FishingLevel": 0,
+                          "MiningLevel": 0,
+                          "LuckLevel": 0,
+                          "ForagingLevel": 0,
+                          "MaxStamina": 0,
+                          "MagneticRadius": 0,
+                          "Speed": 1,
+                          "Defense": 0,
+                          "Attack": 0
+                        }
+                    },
+
+                    "ContextTags":
+                    ["wildflour_bakery_item",
+                    "cake_item",
+                    "food_sweet",
+                    "food_bakery",
+                    "color_orange"],
+
+                    "Texture": "Mods/wildflour.bakery/Objects",
+                    "SpriteIndex": 144
+            },
+                "wildflour.bakery_chocolate_cake": {
+                    "Name": "wildflour.bakery_chocolate_cake",
+                    "DisplayName": "{{i18n:bakery_chocolate_cake.name}}",
+                    "Description": "{{i18n:bakery_chocolate_cake.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 100,
+                    "Price": 1300,
+                    "Buff": {
+                        "BuffId": null,
+                        "IconTexture": null,
+                        "IconSpriteIndex": 0,
+                        "Duration": 360,
+                        "IsDebuff": false,
+                        "GlowColor": null,
+                        "CustomAttributes": {
+                          "FarmingLevel": 0,
+                          "FishingLevel": 0,
+                          "MiningLevel": 0,
+                          "LuckLevel": 0,
+                          "ForagingLevel": 0,
+                          "MaxStamina": 0,
+                          "MagneticRadius": 0,
+                          "Speed": 1,
+                          "Defense": 0,
+                          "Attack": 0
+                        }
+                    },
+
+                    "ContextTags":
+                    ["wildflour_bakery_item",
+                    "cake_item",
+                    "food_sweet",
+                    "food_bakery",
+                    "color_dark_brown"],
+
+                    "Texture": "Mods/wildflour.bakery/Objects",
+                    "SpriteIndex": 145
+            },
+                "wildflour.bakery_chocolate_raspberry_cupcake": {
+                    "Name": "wildflour.bakery_chocolate_raspberry_cupcake",
+                    "DisplayName": "{{i18n:bakery_chocolate_raspberry_cupcake.name}}",
+                    "Description": "{{i18n:bakery_chocolate_raspberry_cupcake.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 100,
+                    "Price": 1250,
+                    "Buff": {
+                        "BuffId": null,
+                        "IconTexture": null,
+                        "IconSpriteIndex": 0,
+                        "Duration": 360,
+                        "IsDebuff": false,
+                        "GlowColor": null,
+                        "CustomAttributes": {
+                          "FarmingLevel": 0,
+                          "FishingLevel": 0,
+                          "MiningLevel": 0,
+                          "LuckLevel": 0,
+                          "ForagingLevel": 0,
+                          "MaxStamina": 0,
+                          "MagneticRadius": 0,
+                          "Speed": 1,
+                          "Defense": 0,
+                          "Attack": 0
+                        }
+                    },
+
+                    "ContextTags":
+                    ["wildflour_bakery_item",
+                    "cake_item",
+                    "food_sweet",
+                    "food_bakery",
+                    "color_dark_red"],
+
+                    "Texture": "Mods/wildflour.bakery/Objects",
+                    "SpriteIndex": 146
+            },
+                "wildflour.bakery_coconut_almond_cake": {
+                    "Name": "wildflour.bakery_coconut_almond_cake",
+                    "DisplayName": "{{i18n:bakery_coconut_almond_cake.name}}",
+                    "Description": "{{i18n:bakery_coconut_almond_cake.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 100,
+                    "Price": 1100,
+                    "Buff": {
+                        "BuffId": null,
+                        "IconTexture": null,
+                        "IconSpriteIndex": 0,
+                        "Duration": 360,
+                        "IsDebuff": false,
+                        "GlowColor": null,
+                        "CustomAttributes": {
+                          "FarmingLevel": 0,
+                          "FishingLevel": 0,
+                          "MiningLevel": 0,
+                          "LuckLevel": 0,
+                          "ForagingLevel": 0,
+                          "MaxStamina": 0,
+                          "MagneticRadius": 0,
+                          "Speed": 1,
+                          "Defense": 0,
+                          "Attack": 0
+                        }
+                    },
+
+                    "ContextTags":
+                    ["wildflour_bakery_item",
+                    "cake_item",
+                    "food_sweet",
+                    "food_bakery",
+                    "color_cream"],
+
+                    "Texture": "Mods/wildflour.bakery/Objects",
+                    "SpriteIndex": 147
+            },
+                "wildflour.bakery_confetti_cake": {
+                    "Name": "wildflour.bakery_confetti_cake",
+                    "DisplayName": "{{i18n:bakery_confetti_cake.name}}",
+                    "Description": "{{i18n:bakery_confetti_cake.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 100,
+                    "Price": 1200,
+                    "Buff": {
+                        "BuffId": null,
+                        "IconTexture": null,
+                        "IconSpriteIndex": 0,
+                        "Duration": 360,
+                        "IsDebuff": false,
+                        "GlowColor": null,
+                        "CustomAttributes": {
+                          "FarmingLevel": 0,
+                          "FishingLevel": 0,
+                          "MiningLevel": 0,
+                          "LuckLevel": 0,
+                          "ForagingLevel": 0,
+                          "MaxStamina": 0,
+                          "MagneticRadius": 0,
+                          "Speed": 1,
+                          "Defense": 0,
+                          "Attack": 0
+                        }
+                    },
+
+                    "ContextTags":
+                    ["wildflour_bakery_item",
+                    "cake_item",
+                    "food_sweet",
+                    "food_bakery",
+                    "color_iridium"],
+
+                    "Texture": "Mods/wildflour.bakery/Objects",
+                    "SpriteIndex": 148
+            },
+                "wildflour.bakery_gingerbread_cake": {
+                    "Name": "wildflour.bakery_gingerbread_cake",
+                    "DisplayName": "{{i18n:bakery_gingerbread_cake.name}}",
+                    "Description": "{{i18n:bakery_gingerbread_cake.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 100,
+                    "Price": 1675,
+                    "Buff": {
+                        "BuffId": null,
+                        "IconTexture": null,
+                        "IconSpriteIndex": 0,
+                        "Duration": 360,
+                        "IsDebuff": false,
+                        "GlowColor": null,
+                        "CustomAttributes": {
+                          "FarmingLevel": 0,
+                          "FishingLevel": 0,
+                          "MiningLevel": 0,
+                          "LuckLevel": 0,
+                          "ForagingLevel": 0,
+                          "MaxStamina": 0,
+                          "MagneticRadius": 0,
+                          "Speed": 1,
+                          "Defense": 0,
+                          "Attack": 0
+                        }
+                    },
+
+                    "ContextTags":
+                    ["wildflour_bakery_item",
+                    "cake_item",
+                    "food_sweet",
+                    "food_bakery",
+                    "color_dark_brown"],
+
+                    "Texture": "Mods/wildflour.bakery/Objects",
+                    "SpriteIndex": 149
+            },
+                "wildflour.bakery_lemon_cake": {
+                    "Name": "wildflour.bakery_lemon_cake",
+                    "DisplayName": "{{i18n:bakery_lemon_cake.name}}",
+                    "Description": "{{i18n:bakery_lemon_cake.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 100,
+                    "Price": 1600,
+                    "Buff": {
+                        "BuffId": null,
+                        "IconTexture": null,
+                        "IconSpriteIndex": 0,
+                        "Duration": 360,
+                        "IsDebuff": false,
+                        "GlowColor": null,
+                        "CustomAttributes": {
+                          "FarmingLevel": 0,
+                          "FishingLevel": 0,
+                          "MiningLevel": 0,
+                          "LuckLevel": 0,
+                          "ForagingLevel": 0,
+                          "MaxStamina": 0,
+                          "MagneticRadius": 0,
+                          "Speed": 1,
+                          "Defense": 0,
+                          "Attack": 0
+                        }
+                    },
+
+                    "ContextTags":
+                    ["wildflour_bakery_item",
+                    "cake_item",
+                    "food_sweet",
+                    "food_bakery",
+                    "color_gold"],
+
+                    "Texture": "Mods/wildflour.bakery/Objects",
+                    "SpriteIndex": 150
+            },
+                "wildflour.bakery_peach_cake": {
+                    "Name": "wildflour.bakery_peach_cake",
+                    "DisplayName": "{{i18n:bakery_peach_cake.name}}",
+                    "Description": "{{i18n:bakery_peach_cake.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 100,
+                    "Price": 2000,
+                    "Buff": {
+                        "BuffId": null,
+                        "IconTexture": null,
+                        "IconSpriteIndex": 0,
+                        "Duration": 360,
+                        "IsDebuff": false,
+                        "GlowColor": null,
+                        "CustomAttributes": {
+                          "FarmingLevel": 0,
+                          "FishingLevel": 0,
+                          "MiningLevel": 0,
+                          "LuckLevel": 0,
+                          "ForagingLevel": 0,
+                          "MaxStamina": 0,
+                          "MagneticRadius": 0,
+                          "Speed": 1,
+                          "Defense": 0,
+                          "Attack": 0
+                        }
+                    },
+
+                    "ContextTags":
+                    ["wildflour_bakery_item",
+                    "cake_item",
+                    "food_sweet",
+                    "food_bakery",
+                    "color_salmon"],
+
+                    "Texture": "Mods/wildflour.bakery/Objects",
+                    "SpriteIndex": 151
+            },
+                "wildflour.bakery_pineapple_cake": {
+                    "Name": "wildflour.bakery_pineapple_cake",
+                    "DisplayName": "{{i18n:bakery_pineapple_cake.name}}",
+                    "Description": "{{i18n:bakery_pineapple_cake.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 100,
+                    "Price": 1685,
+                    "Buff": {
+                        "BuffId": null,
+                        "IconTexture": null,
+                        "IconSpriteIndex": 0,
+                        "Duration": 360,
+                        "IsDebuff": false,
+                        "GlowColor": null,
+                        "CustomAttributes": {
+                          "FarmingLevel": 0,
+                          "FishingLevel": 0,
+                          "MiningLevel": 0,
+                          "LuckLevel": 0,
+                          "ForagingLevel": 0,
+                          "MaxStamina": 0,
+                          "MagneticRadius": 0,
+                          "Speed": 1,
+                          "Defense": 0,
+                          "Attack": 0
+                        }
+                    },
+
+                    "ContextTags":
+                    ["wildflour_bakery_item",
+                    "cake_item",
+                    "food_sweet",
+                    "food_bakery",
+                    "color_gold"],
+
+                    "Texture": "Mods/wildflour.bakery/Objects",
+                    "SpriteIndex": 152
+            },
+                "wildflour.bakery_pumpkin_cake": {
+                    "Name": "wildflour.bakery_pumpkin_cake",
+                    "DisplayName": "{{i18n:bakery_pumpkin_cake.name}}",
+                    "Description": "{{i18n:bakery_pumpkin_cake.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 100,
+                    "Price": 2010,
+                    "Buff": {
+                        "BuffId": null,
+                        "IconTexture": null,
+                        "IconSpriteIndex": 0,
+                        "Duration": 360,
+                        "IsDebuff": false,
+                        "GlowColor": null,
+                        "CustomAttributes": {
+                          "FarmingLevel": 0,
+                          "FishingLevel": 0,
+                          "MiningLevel": 0,
+                          "LuckLevel": 0,
+                          "ForagingLevel": 0,
+                          "MaxStamina": 0,
+                          "MagneticRadius": 0,
+                          "Speed": 1,
+                          "Defense": 0,
+                          "Attack": 0
+                        }
+                    },
+
+                    "ContextTags":
+                    ["wildflour_bakery_item",
+                    "cake_item",
+                    "food_sweet",
+                    "food_bakery",
+                    "color_orange"],
+
+                    "Texture": "Mods/wildflour.bakery/Objects",
+                    "SpriteIndex": 153
+            },
+                "wildflour.bakery_red_velvet_cake": {
+                    "Name": "wildflour.bakery_red_velvet_cake",
+                    "DisplayName": "{{i18n:bakery_red_velvet_cake.name}}",
+                    "Description": "{{i18n:bakery_red_velvet_cake.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 100,
+                    "Price": 2020,
+                    "Buff": {
+                        "BuffId": null,
+                        "IconTexture": null,
+                        "IconSpriteIndex": 0,
+                        "Duration": 360,
+                        "IsDebuff": false,
+                        "GlowColor": null,
+                        "CustomAttributes": {
+                          "FarmingLevel": 0,
+                          "FishingLevel": 0,
+                          "MiningLevel": 0,
+                          "LuckLevel": 0,
+                          "ForagingLevel": 0,
+                          "MaxStamina": 0,
+                          "MagneticRadius": 0,
+                          "Speed": 1,
+                          "Defense": 0,
+                          "Attack": 0
+                        }
+                    },
+
+                    "ContextTags":
+                    ["wildflour_bakery_item",
+                    "cake_item",
+                    "food_sweet",
+                    "food_bakery",
+                    "color_dark_red"],
+
+                    "Texture": "Mods/wildflour.bakery/Objects",
+                    "SpriteIndex": 154
+            },
+                "wildflour.bakery_strawberry_cake": {
+                    "Name": "wildflour.bakery_strawberry_cake",
+                    "DisplayName": "{{i18n:bakery_strawberry_cake.name}}",
+                    "Description": "{{i18n:bakery_strawberry_cake.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 100,
+                    "Price": 1800,
+                    "Buff": {
+                        "BuffId": null,
+                        "IconTexture": null,
+                        "IconSpriteIndex": 0,
+                        "Duration": 360,
+                        "IsDebuff": false,
+                        "GlowColor": null,
+                        "CustomAttributes": {
+                          "FarmingLevel": 0,
+                          "FishingLevel": 0,
+                          "MiningLevel": 0,
+                          "LuckLevel": 0,
+                          "ForagingLevel": 0,
+                          "MaxStamina": 0,
+                          "MagneticRadius": 0,
+                          "Speed": 1,
+                          "Defense": 0,
+                          "Attack": 0
+                        }
+                    },
+
+                    "ContextTags":
+                    ["wildflour_bakery_item",
+                    "cake_item",
+                    "food_sweet",
+                    "food_bakery",
+                    "color_pink"],
+
+                    "Texture": "Mods/wildflour.bakery/Objects",
+                    "SpriteIndex": 155
+            },
+                "wildflour.bakery_strawberry_cupcake": {
+                    "Name": "wildflour.bakery_strawberry_cupcake",
+                    "DisplayName": "{{i18n:bakery_strawberry_cupcake.name}}",
+                    "Description": "{{i18n:bakery_strawberry_cupcake.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 95,
+                    "Price": 1400,
+                    "Buff": {
+                        "BuffId": null,
+                        "IconTexture": null,
+                        "IconSpriteIndex": 0,
+                        "Duration": 360,
+                        "IsDebuff": false,
+                        "GlowColor": null,
+                        "CustomAttributes": {
+                          "FarmingLevel": 0,
+                          "FishingLevel": 0,
+                          "MiningLevel": 0,
+                          "LuckLevel": 0,
+                          "ForagingLevel": 0,
+                          "MaxStamina": 0,
+                          "MagneticRadius": 0,
+                          "Speed": 1,
+                          "Defense": 0,
+                          "Attack": 0
+                        }
+                    },
+
+                    "ContextTags":
+                    ["wildflour_bakery_item",
+                    "cake_item",
+                    "food_sweet",
+                    "food_bakery",
+                    "color_pink"],
+
+                    "Texture": "Mods/wildflour.bakery/Objects",
+                    "SpriteIndex": 156
+            },
+                "wildflour.bakery_vanilla_cupcake": {
+                    "Name": "wildflour.bakery_vanilla_cupcake",
+                    "DisplayName": "{{i18n:bakery_vanilla_cupcake.name}}",
+                    "Description": "{{i18n:bakery_vanilla_cupcake.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 95,
+                    "Price": 1350,
+                    "Buff": {
+                        "BuffId": null,
+                        "IconTexture": null,
+                        "IconSpriteIndex": 0,
+                        "Duration": 360,
+                        "IsDebuff": false,
+                        "GlowColor": null,
+                        "CustomAttributes": {
+                          "FarmingLevel": 0,
+                          "FishingLevel": 0,
+                          "MiningLevel": 0,
+                          "LuckLevel": 0,
+                          "ForagingLevel": 0,
+                          "MaxStamina": 0,
+                          "MagneticRadius": 0,
+                          "Speed": 1,
+                          "Defense": 0,
+                          "Attack": 0
+                        }
+                    },
+
+                    "ContextTags":
+                    ["wildflour_bakery_item",
+                    "cake_item",
+                    "food_sweet",
+                    "food_bakery",
+                    "color_white"],
+
+                    "Texture": "Mods/wildflour.bakery/Objects",
+                    "SpriteIndex": 157
+            },
+                "wildflour.bakery_cherry_cookie": {
+                    "Name": "wildflour.bakery_cherry_cookie",
+                    "DisplayName": "{{i18n:bakery_cherry_cookie.name}}",
+                    "Description": "{{i18n:bakery_cherry_cookie.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 40,
+                    "Price": 1000,
+                    "Buff": {
+                        "BuffId": null,
+                        "IconTexture": null,
+                        "IconSpriteIndex": 0,
+                        "Duration": 360,
+                        "IsDebuff": false,
+                        "GlowColor": null,
+                        "CustomAttributes": {
+                          "FarmingLevel": 0,
+                          "FishingLevel": 0,
+                          "MiningLevel": 0,
+                          "LuckLevel": 0,
+                          "ForagingLevel": 0,
+                          "MaxStamina": 30,
+                          "MagneticRadius": 0,
+                          "Speed": 0,
+                          "Defense": 0,
+                          "Attack": 0
+                        }
+                    },
+
+                    "ContextTags":
+                    ["wildflour_bakery_item",
+                    "cookie_item",
+                    "food_sweet",
+                    "food_bakery",
+                    "color_dark_red"],
+
+                    "Texture": "Mods/wildflour.bakery/Objects",
+                    "SpriteIndex": 160
+            },
+                "wildflour.bakery_chocolate_chip_cookies": {
+                    "Name": "wildflour.bakery_chocolate_chip_cookies",
+                    "DisplayName": "{{i18n:bakery_chocolate_chip_cookies.name}}",
+                    "Description": "{{i18n:bakery_chocolate_chip_cookies.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 40,
+                    "Price": 800,
+                    "Buff": {
+                        "BuffId": null,
+                        "IconTexture": null,
+                        "IconSpriteIndex": 0,
+                        "Duration": 360,
+                        "IsDebuff": false,
+                        "GlowColor": null,
+                        "CustomAttributes": {
+                          "FarmingLevel": 0,
+                          "FishingLevel": 0,
+                          "MiningLevel": 0,
+                          "LuckLevel": 0,
+                          "ForagingLevel": 0,
+                          "MaxStamina": 30,
+                          "MagneticRadius": 0,
+                          "Speed": 0,
+                          "Defense": 0,
+                          "Attack": 0
+                        }
+                    },
+
+                    "ContextTags":
+                    ["wildflour_bakery_item",
+                    "cookie_item",
+                    "food_sweet",
+                    "food_bakery",
+                    "color_dark_brown"],
+
+                    "Texture": "Mods/wildflour.bakery/Objects",
+                    "SpriteIndex": 161
+            },
+                "wildflour.bakery_chocolate_sandwich_cookie": {
+                    "Name": "wildflour.bakery_chocolate_sandwich_cookie",
+                    "DisplayName": "{{i18n:bakery_chocolate_sandwich_cookie.name}}",
+                    "Description": "{{i18n:bakery_chocolate_sandwich_cookie.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 40,
+                    "Price": 1035,
+                    "Buff": {
+                        "BuffId": null,
+                        "IconTexture": null,
+                        "IconSpriteIndex": 0,
+                        "Duration": 360,
+                        "IsDebuff": false,
+                        "GlowColor": null,
+                        "CustomAttributes": {
+                          "FarmingLevel": 0,
+                          "FishingLevel": 0,
+                          "MiningLevel": 0,
+                          "LuckLevel": 0,
+                          "ForagingLevel": 0,
+                          "MaxStamina": 30,
+                          "MagneticRadius": 0,
+                          "Speed": 0,
+                          "Defense": 0,
+                          "Attack": 0
+                        }
+                    },
+
+                    "ContextTags":
+                    ["wildflour_bakery_item",
+                    "cookie_item",
+                    "food_sweet",
+                    "food_bakery",
+                    "color_dark_brown"],
+
+                    "Texture": "Mods/wildflour.bakery/Objects",
+                    "SpriteIndex": 162
+            },
+                "wildflour.bakery_cream_cheese_brownies": {
+                    "Name": "wildflour.bakery_cream_cheese_brownies",
+                    "DisplayName": "{{i18n:bakery_cream_cheese_brownies.name}}",
+                    "Description": "{{i18n:bakery_cream_cheese_brownies.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 40,
+                    "Price": 1600,
+                    "Buff": {
+                        "BuffId": null,
+                        "IconTexture": null,
+                        "IconSpriteIndex": 0,
+                        "Duration": 360,
+                        "IsDebuff": false,
+                        "GlowColor": null,
+                        "CustomAttributes": {
+                          "FarmingLevel": 0,
+                          "FishingLevel": 0,
+                          "MiningLevel": 0,
+                          "LuckLevel": 0,
+                          "ForagingLevel": 0,
+                          "MaxStamina": 30,
+                          "MagneticRadius": 0,
+                          "Speed": 0,
+                          "Defense": 0,
+                          "Attack": 0
+                        }
+                    },
+
+                    "ContextTags":
+                    ["wildflour_bakery_item",
+                    "brownie_item",
+                    "food_sweet",
+                    "food_bakery",
+                    "color_dark_brown"],
+
+                    "Texture": "Mods/wildflour.bakery/Objects",
+                    "SpriteIndex": 163
+            },
+                "wildflour.bakery_brownies": {
+                    "Name": "wildflour.bakery_brownies",
+                    "DisplayName": "{{i18n:bakery_brownies.name}}",
+                    "Description": "{{i18n:bakery_brownies.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 40,
+                    "Price": 1035,
+                    "Buff": {
+                        "BuffId": null,
+                        "IconTexture": null,
+                        "IconSpriteIndex": 0,
+                        "Duration": 360,
+                        "IsDebuff": false,
+                        "GlowColor": null,
+                        "CustomAttributes": {
+                          "FarmingLevel": 0,
+                          "FishingLevel": 0,
+                          "MiningLevel": 0,
+                          "LuckLevel": 0,
+                          "ForagingLevel": 0,
+                          "MaxStamina": 30,
+                          "MagneticRadius": 0,
+                          "Speed": 0,
+                          "Defense": 0,
+                          "Attack": 0
+                        }
+                    },
+
+                    "ContextTags":
+                    ["wildflour_bakery_item",
+                    "brownie_item",
+                    "food_sweet",
+                    "food_bakery",
+                    "color_dark_brown"],
+
+                    "Texture": "Mods/wildflour.bakery/Objects",
+                    "SpriteIndex": 164
+            },
+                "wildflour.bakery_mint_brownies": {
+                    "Name": "wildflour.bakery_mint_brownies",
+                    "DisplayName": "{{i18n:bakery_mint_brownies.name}}",
+                    "Description": "{{i18n:bakery_mint_brownies.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 40,
+                    "Price": 1650,
+                    "Buff": {
+                        "BuffId": null,
+                        "IconTexture": null,
+                        "IconSpriteIndex": 0,
+                        "Duration": 360,
+                        "IsDebuff": false,
+                        "GlowColor": null,
+                        "CustomAttributes": {
+                          "FarmingLevel": 0,
+                          "FishingLevel": 0,
+                          "MiningLevel": 0,
+                          "LuckLevel": 0,
+                          "ForagingLevel": 0,
+                          "MaxStamina": 30,
+                          "MagneticRadius": 0,
+                          "Speed": 0,
+                          "Defense": 0,
+                          "Attack": 0
+                        }
+                    },
+
+                    "ContextTags":
+                    ["wildflour_bakery_item",
+                    "brownie_item",
+                    "food_sweet",
+                    "food_bakery",
+                    "color_dark_brown"],
+
+                    "Texture": "Mods/wildflour.bakery/Objects",
+                    "SpriteIndex": 165
+            },
+                "wildflour.bakery_nut_brownies": {
+                    "Name": "wildflour.bakery_nut_brownies",
+                    "DisplayName": "{{i18n:bakery_nut_brownies.name}}",
+                    "Description": "{{i18n:bakery_nut_brownies.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 40,
+                    "Price": 2000,
+                    "Buff": {
+                        "BuffId": null,
+                        "IconTexture": null,
+                        "IconSpriteIndex": 0,
+                        "Duration": 360,
+                        "IsDebuff": false,
+                        "GlowColor": null,
+                        "CustomAttributes": {
+                          "FarmingLevel": 0,
+                          "FishingLevel": 0,
+                          "MiningLevel": 0,
+                          "LuckLevel": 0,
+                          "ForagingLevel": 0,
+                          "MaxStamina": 30,
+                          "MagneticRadius": 0,
+                          "Speed": 0,
+                          "Defense": 0,
+                          "Attack": 0
+                        }
+                    },
+
+                    "ContextTags":
+                    ["wildflour_bakery_item",
+                    "brownie_item",
+                    "food_sweet",
+                    "food_bakery",
+                    "color_dark_brown"],
+
+                    "Texture": "Mods/wildflour.bakery/Objects",
+                    "SpriteIndex": 166
+            },
+                "wildflour.bakery_orange_cookies": {
+                    "Name": "wildflour.bakery_orange_cookies",
+                    "DisplayName": "{{i18n:bakery_orange_cookies.name}}",
+                    "Description": "{{i18n:bakery_orange_cookies.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 40,
+                    "Price": 900,
+                    "Buff": {
+                        "BuffId": null,
+                        "IconTexture": null,
+                        "IconSpriteIndex": 0,
+                        "Duration": 360,
+                        "IsDebuff": false,
+                        "GlowColor": null,
+                        "CustomAttributes": {
+                          "FarmingLevel": 0,
+                          "FishingLevel": 0,
+                          "MiningLevel": 0,
+                          "LuckLevel": 0,
+                          "ForagingLevel": 0,
+                          "MaxStamina": 30,
+                          "MagneticRadius": 0,
+                          "Speed": 0,
+                          "Defense": 0,
+                          "Attack": 0
+                        }
+                    },
+
+                    "ContextTags":
+                    ["wildflour_bakery_item",
+                    "cookie_item",
+                    "food_sweet",
+                    "food_bakery",
+                    "color_orange"],
+
+                    "Texture": "Mods/wildflour.bakery/Objects",
+                    "SpriteIndex": 167
+            },
+                "wildflour.bakery_strawberry_cookie": {
+                    "Name": "wildflour.bakery_strawberry_cookie",
+                    "DisplayName": "{{i18n:bakery_strawberry_cookie.name}}",
+                    "Description": "{{i18n:bakery_strawberry_cookie.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 40,
+                    "Price": 800,
+                    "Buff": {
+                        "BuffId": null,
+                        "IconTexture": null,
+                        "IconSpriteIndex": 0,
+                        "Duration": 360,
+                        "IsDebuff": false,
+                        "GlowColor": null,
+                        "CustomAttributes": {
+                          "FarmingLevel": 0,
+                          "FishingLevel": 0,
+                          "MiningLevel": 0,
+                          "LuckLevel": 0,
+                          "ForagingLevel": 0,
+                          "MaxStamina": 30,
+                          "MagneticRadius": 0,
+                          "Speed": 0,
+                          "Defense": 0,
+                          "Attack": 0
+                        }
+                    },
+
+                    "ContextTags":
+                    ["wildflour_bakery_item",
+                    "cookie_item",
+                    "food_sweet",
+                    "food_bakery",
+                    "color_pink"],
+
+                    "Texture": "Mods/wildflour.bakery/Objects",
+                    "SpriteIndex": 168
+            },
+                "wildflour.bakery_vanilla_sandwich_cookies": {
+                    "Name": "wildflour.bakery_vanilla_sandwich_cookies",
+                    "DisplayName": "{{i18n:bakery_vanilla_sandwich_cookies.name}}",
+                    "Description": "{{i18n:bakery_vanilla_sandwich_cookies.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 40,
+                    "Price": 710,
+                    "Buff": {
+                        "BuffId": null,
+                        "IconTexture": null,
+                        "IconSpriteIndex": 0,
+                        "Duration": 360,
+                        "IsDebuff": false,
+                        "GlowColor": null,
+                        "CustomAttributes": {
+                          "FarmingLevel": 0,
+                          "FishingLevel": 0,
+                          "MiningLevel": 0,
+                          "LuckLevel": 0,
+                          "ForagingLevel": 0,
+                          "MaxStamina": 30,
+                          "MagneticRadius": 0,
+                          "Speed": 0,
+                          "Defense": 0,
+                          "Attack": 0
+                        }
+                    },
+
+                    "ContextTags":
+                    ["wildflour_bakery_item",
+                    "cookie_item",
+                    "food_sweet",
+                    "food_bakery",
+                    "color_white"],
+
+                    "Texture": "Mods/wildflour.bakery/Objects",
+                    "SpriteIndex": 169
+            },
+                "wildflour.bakery_chocolate_doughnut": {
+                    "Name": "wildflour.bakery_chocolate_doughnut",
+                    "DisplayName": "{{i18n:bakery_chocolate_doughnut.name}}",
+                    "Description": "{{i18n:bakery_chocolate_doughnut.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 65,
+                    "Price": 1700,
+                    "Buff": {
+                        "BuffId": null,
+                        "IconTexture": null,
+                        "IconSpriteIndex": 0,
+                        "Duration": 360,
+                        "IsDebuff": false,
+                        "GlowColor": null,
+                        "CustomAttributes": {
+                          "FarmingLevel": 0,
+                          "FishingLevel": 0,
+                          "MiningLevel": 0,
+                          "LuckLevel": 0,
+                          "ForagingLevel": 0,
+                          "MaxStamina": 0,
+                          "MagneticRadius": 0,
+                          "Speed": 0,
+                          "Defense": 2,
+                          "Attack": 0
+                        }
+                    },
+
+                    "ContextTags":
+                    ["wildflour_bakery_item",
+                    "doughnut_item",
+                    "food_sweet",
+                    "food_bakery",
+                    "color_dark_brown"],
+
+                    "Texture": "Mods/wildflour.bakery/Objects",
+                    "SpriteIndex": 176
+            },
+                "wildflour.bakery_chocolate_eclair": {
+                    "Name": "wildflour.bakery_chocolate_eclair",
+                    "DisplayName": "{{i18n:bakery_chocolate_eclair.name}}",
+                    "Description": "{{i18n:bakery_chocolate_eclair.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 35,
+                    "Price": 1220,
+                    "Buff": {
+                        "BuffId": null,
+                        "IconTexture": null,
+                        "IconSpriteIndex": 0,
+                        "Duration": 360,
+                        "IsDebuff": false,
+                        "GlowColor": null,
+                        "CustomAttributes": {
+                          "FarmingLevel": 0,
+                          "FishingLevel": 0,
+                          "MiningLevel": 0,
+                          "LuckLevel": 1,
+                          "ForagingLevel": 0,
+                          "MaxStamina": 0,
+                          "MagneticRadius": 0,
+                          "Speed": 0,
+                          "Defense": 0,
+                          "Attack": 0
+                        }
+                    },
+
+                    "ContextTags":
+                    ["wildflour_bakery_item",
+                    "eclair_item",
+                    "food_sweet",
+                    "food_bakery",
+                    "color_dark_brown"],
+
+                    "Texture": "Mods/wildflour.bakery/Objects",
+                    "SpriteIndex": 177
+            },
+                "wildflour.bakery_cream_chocolate_doughnut": {
+                    "Name": "wildflour.bakery_cream_chocolate_doughnut",
+                    "DisplayName": "{{i18n:bakery_cream_chocolate_doughnut.name}}",
+                    "Description": "{{i18n:bakery_cream_chocolate_doughnut.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 65,
+                    "Price": 1300,
+                    "Buff": {
+                        "BuffId": null,
+                        "IconTexture": null,
+                        "IconSpriteIndex": 0,
+                        "Duration": 360,
+                        "IsDebuff": false,
+                        "GlowColor": null,
+                        "CustomAttributes": {
+                          "FarmingLevel": 0,
+                          "FishingLevel": 0,
+                          "MiningLevel": 0,
+                          "LuckLevel": 0,
+                          "ForagingLevel": 0,
+                          "MaxStamina": 0,
+                          "MagneticRadius": 0,
+                          "Speed": 0,
+                          "Defense": 2,
+                          "Attack": 0
+                        }
+                    },
+
+                    "ContextTags":
+                    ["wildflour_bakery_item",
+                    "doughnut_item",
+                    "food_sweet",
+                    "food_bakery",
+                    "color_dark_brown"],
+
+                    "Texture": "Mods/wildflour.bakery/Objects",
+                    "SpriteIndex": 178
+            },
+                "wildflour.bakery_cream_strawberry_doughnut": {
+                    "Name": "wildflour.bakery_cream_strawberry_doughnut",
+                    "DisplayName": "{{i18n:bakery_cream_strawberry_doughnut.name}}",
+                    "Description": "{{i18n:bakery_cream_strawberry_doughnut.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 65,
+                    "Price": 1000,
+                    "Buff": {
+                        "BuffId": null,
+                        "IconTexture": null,
+                        "IconSpriteIndex": 0,
+                        "Duration": 360,
+                        "IsDebuff": false,
+                        "GlowColor": null,
+                        "CustomAttributes": {
+                          "FarmingLevel": 0,
+                          "FishingLevel": 0,
+                          "MiningLevel": 0,
+                          "LuckLevel": 0,
+                          "ForagingLevel": 0,
+                          "MaxStamina": 0,
+                          "MagneticRadius": 0,
+                          "Speed": 0,
+                          "Defense": 2,
+                          "Attack": 0
+                        }
+                    },
+
+                    "ContextTags":
+                    ["wildflour_bakery_item",
+                    "doughnut_item",
+                    "food_sweet",
+                    "food_bakery",
+                    "color_pink"],
+
+                    "Texture": "Mods/wildflour.bakery/Objects",
+                    "SpriteIndex": 179
+            },
+                "wildflour.bakery_maple_eclair": {
+                    "Name": "wildflour.bakery_maple_eclair",
+                    "DisplayName": "{{i18n:bakery_maple_eclair.name}}",
+                    "Description": "{{i18n:bakery_maple_eclair.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 35,
+                    "Price": 1050,
+                    "Buff": {
+                        "BuffId": null,
+                        "IconTexture": null,
+                        "IconSpriteIndex": 0,
+                        "Duration": 360,
+                        "IsDebuff": false,
+                        "GlowColor": null,
+                        "CustomAttributes": {
+                          "FarmingLevel": 0,
+                          "FishingLevel": 0,
+                          "MiningLevel": 0,
+                          "LuckLevel": 1,
+                          "ForagingLevel": 0,
+                          "MaxStamina": 0,
+                          "MagneticRadius": 0,
+                          "Speed": 0,
+                          "Defense": 0,
+                          "Attack": 0
+                        }
+                    },
+
+                    "ContextTags":
+                    ["wildflour_bakery_item",
+                    "eclair_item",
+                    "food_sweet",
+                    "food_bakery",
+                    "color_brown"],
+
+                    "Texture": "Mods/wildflour.bakery/Objects",
+                    "SpriteIndex": 180
+            },
+                "wildflour.bakery_mocha_eclair": {
+                    "Name": "wildflour.bakery_mocha_eclair",
+                    "DisplayName": "{{i18n:bakery_mocha_eclair.name}}",
+                    "Description": "{{i18n:bakery_mocha_eclair.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 35,
+                    "Price": 1450,
+                    "Buff": {
+                        "BuffId": null,
+                        "IconTexture": null,
+                        "IconSpriteIndex": 0,
+                        "Duration": 360,
+                        "IsDebuff": false,
+                        "GlowColor": null,
+                        "CustomAttributes": {
+                          "FarmingLevel": 0,
+                          "FishingLevel": 0,
+                          "MiningLevel": 0,
+                          "LuckLevel": 1,
+                          "ForagingLevel": 0,
+                          "MaxStamina": 0,
+                          "MagneticRadius": 0,
+                          "Speed": 0,
+                          "Defense": 0,
+                          "Attack": 0
+                        }
+                    },
+
+                    "ContextTags":
+                    ["wildflour_bakery_item",
+                    "eclair_item",
+                    "food_sweet",
+                    "food_bakery",
+                    "color_dark_brown"],
+
+                    "Texture": "Mods/wildflour.bakery/Objects",
+                    "SpriteIndex": 181
+            },
+                "wildflour.bakery_pistachio_eclair": {
+                    "Name": "wildflour.bakery_pistachio_eclair",
+                    "DisplayName": "{{i18n:bakery_pistachio_eclair.name}}",
+                    "Description": "{{i18n:bakery_pistachio_eclair.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 35,
+                    "Price": 940,
+                    "Buff": {
+                        "BuffId": null,
+                        "IconTexture": null,
+                        "IconSpriteIndex": 0,
+                        "Duration": 360,
+                        "IsDebuff": false,
+                        "GlowColor": null,
+                        "CustomAttributes": {
+                          "FarmingLevel": 0,
+                          "FishingLevel": 0,
+                          "MiningLevel": 0,
+                          "LuckLevel": 1,
+                          "ForagingLevel": 0,
+                          "MaxStamina": 0,
+                          "MagneticRadius": 0,
+                          "Speed": 0,
+                          "Defense": 0,
+                          "Attack": 0
+                        }
+                    },
+
+                    "ContextTags":
+                    ["wildflour_bakery_item",
+                    "eclair_item",
+                    "food_sweet",
+                    "food_bakery",
+                    "color_dark_green"],
+
+                    "Texture": "Mods/wildflour.bakery/Objects",
+                    "SpriteIndex": 182
+            },
+                "wildflour.bakery_raspberry_eclair": {
+                    "Name": "wildflour.bakery_raspberry_eclair",
+                    "DisplayName": "{{i18n:bakery_raspberry_eclair.name}}",
+                    "Description": "{{i18n:bakery_raspberry_eclair.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 35,
+                    "Price": 1000,
+                    "Buff": {
+                        "BuffId": null,
+                        "IconTexture": null,
+                        "IconSpriteIndex": 0,
+                        "Duration": 360,
+                        "IsDebuff": false,
+                        "GlowColor": null,
+                        "CustomAttributes": {
+                          "FarmingLevel": 0,
+                          "FishingLevel": 0,
+                          "MiningLevel": 0,
+                          "LuckLevel": 1,
+                          "ForagingLevel": 0,
+                          "MaxStamina": 0,
+                          "MagneticRadius": 0,
+                          "Speed": 0,
+                          "Defense": 0,
+                          "Attack": 0
+                        }
+                    },
+
+                    "ContextTags":
+                    ["wildflour_bakery_item",
+                    "eclair_item",
+                    "food_sweet",
+                    "food_bakery",
+                    "color_dark_pink"],
+
+                    "Texture": "Mods/wildflour.bakery/Objects",
+                    "SpriteIndex": 182
+            },
+                "wildflour.bakery_strawberry_doughnut": {
+                    "Name": "wildflour.bakery_strawberry_doughnut",
+                    "DisplayName": "{{i18n:bakery_strawberry_doughnut.name}}",
+                    "Description": "{{i18n:bakery_strawberry_doughnut.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 65,
+                    "Price": 850,
+                    "Buff": {
+                        "BuffId": null,
+                        "IconTexture": null,
+                        "IconSpriteIndex": 0,
+                        "Duration": 360,
+                        "IsDebuff": false,
+                        "GlowColor": null,
+                        "CustomAttributes": {
+                          "FarmingLevel": 0,
+                          "FishingLevel": 0,
+                          "MiningLevel": 0,
+                          "LuckLevel": 0,
+                          "ForagingLevel": 0,
+                          "MaxStamina": 0,
+                          "MagneticRadius": 0,
+                          "Speed": 0,
+                          "Defense": 2,
+                          "Attack": 0
+                        }
+                    },
+
+                    "ContextTags":
+                    ["wildflour_bakery_item",
+                    "doughnut_item",
+                    "food_sweet",
+                    "food_bakery",
+                    "color_pink"],
+
+                    "Texture": "Mods/wildflour.bakery/Objects",
+                    "SpriteIndex": 183
+            },
+                "wildflour.bakery_strawberry_eclair": {
+                    "Name": "wildflour.bakery_strawberry_eclair",
+                    "DisplayName": "{{i18n:bakery_strawberry_eclair.name}}",
+                    "Description": "{{i18n:bakery_strawberry_eclair.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 35,
+                    "Price": 1380,
+                    "Buff": {
+                        "BuffId": null,
+                        "IconTexture": null,
+                        "IconSpriteIndex": 0,
+                        "Duration": 360,
+                        "IsDebuff": false,
+                        "GlowColor": null,
+                        "CustomAttributes": {
+                          "FarmingLevel": 0,
+                          "FishingLevel": 0,
+                          "MiningLevel": 0,
+                          "LuckLevel": 1,
+                          "ForagingLevel": 0,
+                          "MaxStamina": 0,
+                          "MagneticRadius": 0,
+                          "Speed": 0,
+                          "Defense": 0,
+                          "Attack": 0
+                        }
+                    },
+
+                    "ContextTags":
+                    ["wildflour_bakery_item",
+                    "eclair_item",
+                    "food_sweet",
+                    "food_bakery",
+                    "color_pink"],
+
+                    "Texture": "Mods/wildflour.bakery/Objects",
+                    "SpriteIndex": 184
+            },
+                "wildflour.bakery_vanilla_doughnut": {
+                    "Name": "wildflour.bakery_vanilla_doughnut",
+                    "DisplayName": "{{i18n:bakery_vanilla_doughnut.name}}",
+                    "Description": "{{i18n:bakery_vanilla_doughnut.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 65,
+                    "Price": 770,
+                    "Buff": {
+                        "BuffId": null,
+                        "IconTexture": null,
+                        "IconSpriteIndex": 0,
+                        "Duration": 360,
+                        "IsDebuff": false,
+                        "GlowColor": null,
+                        "CustomAttributes": {
+                          "FarmingLevel": 0,
+                          "FishingLevel": 0,
+                          "MiningLevel": 0,
+                          "LuckLevel": 0,
+                          "ForagingLevel": 0,
+                          "MaxStamina": 0,
+                          "MagneticRadius": 0,
+                          "Speed": 0,
+                          "Defense": 2,
+                          "Attack": 0
+                        }
+                    },
+
+                    "ContextTags":
+                    ["wildflour_bakery_item",
+                    "doughnut_item",
+                    "food_sweet",
+                    "food_bakery",
+                    "color_white"],
+
+                    "Texture": "Mods/wildflour.bakery/Objects",
+                    "SpriteIndex": 185
+            },
+                "wildflour.bakery_vanilla_eclair": {
+                    "Name": "wildflour.bakery_vanilla_eclair",
+                    "DisplayName": "{{i18n:bakery_vanilla_eclair.name}}",
+                    "Description": "{{i18n:bakery_vanilla_eclair.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 35,
+                    "Price": 1000,
+                    "Buff": {
+                        "BuffId": null,
+                        "IconTexture": null,
+                        "IconSpriteIndex": 0,
+                        "Duration": 360,
+                        "IsDebuff": false,
+                        "GlowColor": null,
+                        "CustomAttributes": {
+                          "FarmingLevel": 0,
+                          "FishingLevel": 0,
+                          "MiningLevel": 0,
+                          "LuckLevel": 1,
+                          "ForagingLevel": 0,
+                          "MaxStamina": 0,
+                          "MagneticRadius": 0,
+                          "Speed": 0,
+                          "Defense": 0,
+                          "Attack": 0
+                        }
+                    },
+
+                    "ContextTags":
+                    ["wildflour_bakery_item",
+                    "eclair_item",
+                    "food_sweet",
+                    "food_bakery",
+                    "color_white"],
+
+                    "Texture": "Mods/wildflour.bakery/Objects",
+                    "SpriteIndex": 186
+            },
+                "wildflour.bakery_vanilla_jelly_doughnut": {
+                    "Name": "wildflour.bakery_vanilla_jelly_doughnut",
+                    "DisplayName": "{{i18n:bakery_vanilla_jelly_doughnut.name}}",
+                    "Description": "{{i18n:bakery_vanilla_jelly_doughnut.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 65,
+                    "Price": 700,
+                    "Buff": {
+                        "BuffId": null,
+                        "IconTexture": null,
+                        "IconSpriteIndex": 0,
+                        "Duration": 360,
+                        "IsDebuff": false,
+                        "GlowColor": null,
+                        "CustomAttributes": {
+                          "FarmingLevel": 0,
+                          "FishingLevel": 0,
+                          "MiningLevel": 0,
+                          "LuckLevel": 0,
+                          "ForagingLevel": 0,
+                          "MaxStamina": 0,
+                          "MagneticRadius": 0,
+                          "Speed": 0,
+                          "Defense": 2,
+                          "Attack": 0
+                        }
+                    },
+
+                    "ContextTags":
+                    ["wildflour_bakery_item",
+                    "doughnut_item",
+                    "food_sweet",
+                    "food_bakery",
+                    "color_white"],
+
+                    "Texture": "Mods/wildflour.bakery/Objects",
+                    "SpriteIndex": 187
+            }
+
+        }
+        }
+
+    ]
+}

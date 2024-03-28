@@ -1,0 +1,2346 @@
+{
+  "ForageSpawnEnabled": true,
+  "LargeObjectSpawnEnabled": false,
+  "OreSpawnEnabled": false,
+  "MonsterSpawnEnabled": false,
+  "Forage_Spawn_Settings": {
+    "Areas": [
+      {
+        "SpringItemIndex": [
+          "wildflour.ateliercrops_vanilla",
+          "wildflour.ateliercrops_cacaopod"
+        ],
+        "SummerItemIndex": [
+          "wildflour.ateliercrops_vanilla"
+        ],
+        "FallItemIndex": [
+          "wildflour.ateliercrops_pistachio",
+          "wildflour.ateliercrops_cacaopod"
+        ],
+        "WinterItemIndex": [
+          "wildflour.ateliercrops_pistachio",
+          "wildflour.ateliercrops_lime"
+        ],
+        "UniqueAreaID": "Wild Food Desert",
+        "MapName": "Desert",
+        "MinimumSpawnsPerDay": -4,
+        "MaximumSpawnsPerDay": 1,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 2
+      },
+      {
+        "SpringItemIndex": [
+          "wildflour.ateliercrops_geranium"
+        ],
+        "SummerItemIndex": [
+          "wildflour.ateliercrops_dusk_lily",
+          "wildflour.ateliercrops_dawn_lily",
+          "wildflour.ateliercrops_fire_dragon_scale"
+        ],
+        "FallItemIndex": [
+          "wildflour.ateliercrops_chiffon"
+        ],
+        "WinterItemIndex": [],
+        "UniqueAreaID": "Faerie Garden Desert",
+        "MapName": "Desert",
+        "MinimumSpawnsPerDay": -4,
+        "MaximumSpawnsPerDay": 1,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "SpringItemIndex": [
+          "wildflour.ateliercrops_strawberry",
+          "wildflour.ateliercrops_cilantro",
+          "wildflour.ateliercrops_almond"
+        ],
+        "SummerItemIndex": [
+          "wildflour.ateliercrops_raspberry",
+          "wildflour.ateliercrops_basil",
+          "wildflour.ateliercrops_meringueshroom"
+        ],
+        "FallItemIndex": [
+          "wildflour.ateliercrops_wheatshroom",
+          "wildflour.ateliercrops_rosemary"
+        ],
+        "WinterItemIndex": [
+          "wildflour.ateliercrops_walnut",
+          "wildflour.ateliercrops_almond",
+          "wildflour.ateliercrops_lemon"
+        ],
+        "UniqueAreaID": "Wild Food Secret Woods",
+        "MapName": "Woods",
+        "MinimumSpawnsPerDay": -2,
+        "MaximumSpawnsPerDay": 2,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 2
+      },
+      {
+        "SpringItemIndex": [
+          "wildflour.ateliercrops_puffball",
+          "wildflour.ateliercrops_clover",
+          "wildflour.ateliercrops_daisy",
+          "wildflour.ateliercrops_mysteria"
+        ],
+        "SummerItemIndex": [
+          "wildflour.ateliercrops_yarrow",
+          "wildflour.ateliercrops_thistle",
+          "wildflour.ateliercrops_peach_parasol"
+        ],
+        "FallItemIndex": [
+          "wildflour.ateliercrops_pixies_breath"
+        ],
+        "WinterItemIndex": [
+          "wildflour.ateliercrops_pixies_breath"
+        ],
+        "UniqueAreaID": "Faerie Garden Secret Woods",
+        "MapName": "Woods",
+        "MinimumSpawnsPerDay": -1,
+        "MaximumSpawnsPerDay": 2,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "SpringItemIndex": [
+          "wildflour.ateliercrops_jasmine",
+          "wildflour.ateliercrops_cashew",
+          "wildflour.ateliercrops_cacaopod",
+          "wildflour.ateliercrops_cilantro"
+        ],
+        "SummerItemIndex": [
+          "wildflour.ateliercrops_jasmine",
+          "wildflour.ateliercrops_mallow"
+        ],
+        "FallItemIndex": [
+          "wildflour.ateliercrops_jasmine",
+          "wildflour.ateliercrops_cashew",
+          "wildflour.ateliercrops_cacaopod"
+        ],
+        "WinterItemIndex": [
+          "wildflour.ateliercrops_jasmine",
+          "wildflour.ateliercrops_cashew"
+        ],
+        "UniqueAreaID": "Wild Food Ginger Island West",
+        "MapName": "IslandWest",
+        "MinimumSpawnsPerDay": -1,
+        "MaximumSpawnsPerDay": 1,
+        "IncludeTerrainTypes": [
+          "Diggable",
+          "Dirt",
+          "Grass"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 2
+      },
+      {
+        "SpringItemIndex": [
+          "wildflour.ateliercrops_golden_aura",
+          "wildflour.ateliercrops_geranium"
+        ],
+        "SummerItemIndex": [
+          "wildflour.ateliercrops_fire_dragon_scale"
+        ],
+        "FallItemIndex": [],
+        "WinterItemIndex": [],
+        "UniqueAreaID": "Faerie Garden GI East",
+        "MapName": "IslandEast",
+        "MinimumSpawnsPerDay": -3,
+        "MaximumSpawnsPerDay": 1,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "SpringItemIndex": [
+          "wildflour.ateliercrops_lavender",
+          "wildflour.ateliercrops_mint",
+          "wildflour.ateliercrops_lime",
+          "wildflour.ateliercrops_almond"
+        ],
+        "SummerItemIndex": [
+          "wildflour.ateliercrops_chickenwoods",
+          "wildflour.ateliercrops_chamomile",
+          "wildflour.ateliercrops_elderberries"
+        ],
+        "FallItemIndex": [
+          "wildflour.ateliercrops_sage",
+          "wildflour.ateliercrops_milkshroom"
+        ],
+        "WinterItemIndex": [],
+        "UniqueAreaID": "Wild Food Forest",
+        "MapName": "Forest",
+        "MinimumSpawnsPerDay": 0,
+        "MaximumSpawnsPerDay": 3,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 2
+      },
+      {
+        "SpringItemIndex": [
+          "wildflour.ateliercrops_violet",
+          "wildflour.ateliercrops_mysteria"
+        ],
+        "SummerItemIndex": [
+          "wildflour.ateliercrops_arctic_fox"
+        ],
+        "FallItemIndex": [
+          "wildflour.ateliercrops_giant_amanita",
+          {
+            "category": "Buried",
+            "contents": [
+              "wildflour.ateliercrops_mandrake"
+            ]
+          }
+        ],
+        "WinterItemIndex": [
+          "wildflour.ateliercrops_primrose",
+          "wildflour.ateliercrops_chiffon"
+        ],
+        "UniqueAreaID": "Faerie Garden Forest",
+        "MapName": "Forest",
+        "MinimumSpawnsPerDay": -2,
+        "MaximumSpawnsPerDay": 2,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "SpringItemIndex": [
+          "wildflour.ateliercrops_violet",
+          "wildflour.ateliercrops_mysteria"
+        ],
+        "SummerItemIndex": [
+          "wildflour.ateliercrops_arctic_fox"
+        ],
+        "FallItemIndex": [
+          "wildflour.ateliercrops_giant_amanita",
+          {
+            "category": "Buried",
+            "contents": [
+              "wildflour.ateliercrops_mandrake"
+            ]
+          }
+        ],
+        "WinterItemIndex": [
+          "wildflour.ateliercrops_primrose",
+          "wildflour.ateliercrops_chiffon"
+        ],
+        "UniqueAreaID": "Faerie Garden SVR3 Forest",
+        "MapName": "Custom_ForestField",
+        "MinimumSpawnsPerDay": -2,
+        "MaximumSpawnsPerDay": 2,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "SpringItemIndex": [
+          "wildflour.ateliercrops_violet",
+          "wildflour.ateliercrops_mysteria"
+        ],
+        "SummerItemIndex": [
+          "wildflour.ateliercrops_arctic_fox"
+        ],
+        "FallItemIndex": [
+          "wildflour.ateliercrops_giant_amanita",
+          {
+            "category": "Buried",
+            "contents": [
+              "wildflour.ateliercrops_mandrake"
+            ]
+          }
+        ],
+        "WinterItemIndex": [
+          "wildflour.ateliercrops_primrose",
+          "wildflour.ateliercrops_chiffon"
+        ],
+        "UniqueAreaID": "Faerie Garden LNH Forest",
+        "MapName": "Custom_WaterfallForest",
+        "MinimumSpawnsPerDay": -2,
+        "MaximumSpawnsPerDay": 2,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "SpringItemIndex": [
+          "wildflour.ateliercrops_lavender",
+          "wildflour.ateliercrops_mint",
+          "wildflour.ateliercrops_lime",
+          "wildflour.ateliercrops_almond"
+        ],
+        "SummerItemIndex": [
+          "wildflour.ateliercrops_chickenwoods",
+          "wildflour.ateliercrops_chamomile"
+        ],
+        "FallItemIndex": [
+          "wildflour.ateliercrops_sage",
+          "wildflour.ateliercrops_milkshroom"
+        ],
+        "WinterItemIndex": [],
+        "UniqueAreaID": "Wild Food ES Meadow",
+        "MapName": "Custom_ESMeadowFarm",
+        "MinimumSpawnsPerDay": 0,
+        "MaximumSpawnsPerDay": 2,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 2
+      },
+      {
+        "SpringItemIndex": [
+          "wildflour.ateliercrops_lavender",
+          "wildflour.ateliercrops_mint",
+          "wildflour.ateliercrops_lime",
+          "wildflour.ateliercrops_almond"
+        ],
+        "SummerItemIndex": [
+          "wildflour.ateliercrops_chickenwoods",
+          "wildflour.ateliercrops_chamomile",
+          "wildflour.ateliercrops_elderberries"
+        ],
+        "FallItemIndex": [
+          "wildflour.ateliercrops_sage",
+          "wildflour.ateliercrops_milkshroom"
+        ],
+        "WinterItemIndex": [],
+        "UniqueAreaID": "Wild Food CS Forest",
+        "MapName": "Custom_AnnettaForest",
+        "MinimumSpawnsPerDay": 0,
+        "MaximumSpawnsPerDay": 2,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 2
+      },
+      {
+        "SpringItemIndex": [
+          "wildflour.ateliercrops_lavender",
+          "wildflour.ateliercrops_mint",
+          "wildflour.ateliercrops_lime",
+          "wildflour.ateliercrops_almond"
+        ],
+        "SummerItemIndex": [
+          "wildflour.ateliercrops_chickenwoods",
+          "wildflour.ateliercrops_chamomile",
+          "wildflour.ateliercrops_elderberries"
+        ],
+        "FallItemIndex": [
+          "wildflour.ateliercrops_sage",
+          "wildflour.ateliercrops_milkshroom"
+        ],
+        "WinterItemIndex": [],
+        "UniqueAreaID": "Wild Food SVR3 Forest Field",
+        "MapName": "Custom_ForestField",
+        "MinimumSpawnsPerDay": 0,
+        "MaximumSpawnsPerDay": 2,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 2
+      },
+      {
+        "SpringItemIndex": [
+          "wildflour.ateliercrops_lavender",
+          "wildflour.ateliercrops_mint",
+          "wildflour.ateliercrops_lime",
+          "wildflour.ateliercrops_almond"
+        ],
+        "SummerItemIndex": [
+          "wildflour.ateliercrops_chickenwoods",
+          "wildflour.ateliercrops_chamomile",
+          "wildflour.ateliercrops_elderberries"
+        ],
+        "FallItemIndex": [
+          "wildflour.ateliercrops_sage",
+          "wildflour.ateliercrops_milkshroom"
+        ],
+        "WinterItemIndex": [],
+        "UniqueAreaID": "Wild Food LNH Waterfall Forest",
+        "MapName": "Custom_WaterfallForest",
+        "MinimumSpawnsPerDay": 0,
+        "MaximumSpawnsPerDay": 3,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 2
+      },
+      {
+        "SpringItemIndex": [
+          "wildflour.ateliercrops_lavender",
+          "wildflour.ateliercrops_mint",
+          "wildflour.ateliercrops_lime",
+          "wildflour.ateliercrops_almond"
+        ],
+        "SummerItemIndex": [
+          "wildflour.ateliercrops_chickenwoods",
+          "wildflour.ateliercrops_chamomile",
+          "wildflour.ateliercrops_elderberries"
+        ],
+        "FallItemIndex": [
+          "wildflour.ateliercrops_sage",
+          "wildflour.ateliercrops_milkshroom"
+        ],
+        "WinterItemIndex": [],
+        "UniqueAreaID": "Wild Food LNH Forest North",
+        "MapName": "Custom_WaterfallForest_N",
+        "MinimumSpawnsPerDay": 0,
+        "MaximumSpawnsPerDay": 3,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 2
+      },
+      {
+        "SpringItemIndex": [
+          "wildflour.ateliercrops_lavender",
+          "wildflour.ateliercrops_lemon",
+          "wildflour.ateliercrops_strawberry",
+          "wildflour.ateliercrops_anise",
+          {
+            "category": "Buried",
+            "contents": [
+              "wildflour.ateliercrops_redonion"
+            ]
+          }
+        ],
+        "SummerItemIndex": [
+          "wildflour.ateliercrops_honeyfungus",
+          "wildflour.ateliercrops_chickenwoods",
+          "wildflour.ateliercrops_basil",
+          "wildflour.ateliercrops_raspberry"
+        ],
+        "FallItemIndex": [
+          "wildflour.ateliercrops_wheatshroom"
+        ],
+        "WinterItemIndex": [],
+        "UniqueAreaID": "Wild Food Backwoods",
+        "MapName": "Backwoods",
+        "MinimumSpawnsPerDay": 0,
+        "MaximumSpawnsPerDay": 2,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 2
+      },
+      {
+        "SpringItemIndex": [
+          "wildflour.ateliercrops_avalune",
+          "wildflour.ateliercrops_faerie_helmets"
+        ],
+        "SummerItemIndex": [],
+        "FallItemIndex": [],
+        "WinterItemIndex": [],
+        "UniqueAreaID": "Faerie Garden Backwoods",
+        "MapName": "Backwoods",
+        "MinimumSpawnsPerDay": -4,
+        "MaximumSpawnsPerDay": 1,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "SpringItemIndex": [
+          "wildflour.ateliercrops_lavender",
+          "wildflour.ateliercrops_lemon",
+          {
+            "category": "Buried",
+            "contents": [
+              "wildflour.ateliercrops_redonion"
+            ]
+          }
+        ],
+        "SummerItemIndex": [
+          "wildflour.ateliercrops_honeyfungus",
+          "wildflour.ateliercrops_chickenwoods",
+          "wildflour.ateliercrops_basil"
+        ],
+        "FallItemIndex": [
+          "wildflour.ateliercrops_wheatshroom"
+        ],
+        "WinterItemIndex": [],
+        "UniqueAreaID": "Wild Food SVR3 Backwoods",
+        "MapName": "Custom_BackwoodsWest",
+        "MinimumSpawnsPerDay": 0,
+        "MaximumSpawnsPerDay": 2,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 2
+      },
+      {
+        "SpringItemIndex": [
+          "wildflour.ateliercrops_avalune"
+        ],
+        "SummerItemIndex": [],
+        "FallItemIndex": [],
+        "WinterItemIndex": [],
+        "UniqueAreaID": "Faerie Garden SVR3 Backwoods",
+        "MapName": "Custom_BackwoodsWest",
+        "MinimumSpawnsPerDay": -3,
+        "MaximumSpawnsPerDay": 1,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "SpringItemIndex": [
+          "wildflour.ateliercrops_lavender",
+          "wildflour.ateliercrops_lemon",
+          {
+            "category": "Buried",
+            "contents": [
+              "wildflour.ateliercrops_redonion"
+            ]
+          }
+        ],
+        "SummerItemIndex": [
+          "wildflour.ateliercrops_honeyfungus",
+          "wildflour.ateliercrops_chickenwoods",
+          "wildflour.ateliercrops_basil"
+        ],
+        "FallItemIndex": [
+          "wildflour.ateliercrops_wheatshroom",
+          {
+            "category": "Buried",
+            "contents": [
+              "wildflour.ateliercrops_redonion"
+            ]
+          }
+        ],
+        "WinterItemIndex": [],
+        "UniqueAreaID": "Wild Food LNH Backwoods",
+        "MapName": "Custom_Backwoods_N",
+        "MinimumSpawnsPerDay": 0,
+        "MaximumSpawnsPerDay": 2,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 2
+      },
+      {
+        "SpringItemIndex": [
+          "wildflour.ateliercrops_avalune",
+          "wildflour.ateliercrops_faerie_helmets"
+        ],
+        "SummerItemIndex": [],
+        "FallItemIndex": [],
+        "WinterItemIndex": [],
+        "UniqueAreaID": "Faerie Garden LNH Backwoods",
+        "MapName": "Custom_Backwoods_N",
+        "MinimumSpawnsPerDay": -3,
+        "MaximumSpawnsPerDay": 1,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "SpringItemIndex": [
+          "wildflour.ateliercrops_wormwood",
+          "wildflour.ateliercrops_lime",
+          {
+            "category": "Buried",
+            "contents": [
+              "wildflour.ateliercrops_redonion"
+            ]
+          }
+        ],
+        "SummerItemIndex": [
+          "wildflour.ateliercrops_milkshroom",
+          "wildflour.ateliercrops_chamomile"
+        ],
+        "FallItemIndex": [
+          "wildflour.ateliercrops_rosemary",
+          "wildflour.ateliercrops_gentianroot"
+        ],
+        "WinterItemIndex": [],
+        "UniqueAreaID": "Wild Food Mountain",
+        "MapName": "Mountain",
+        "MinimumSpawnsPerDay": 0,
+        "MaximumSpawnsPerDay": 2,
+        "IncludeTerrainTypes": [
+          "Diggable",
+          "Dirt",
+          "Grass",
+          "Stone",
+          "Wood"
+        ],
+        "ExcludeTerrainTypes": [
+          "Quarry"
+        ],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 2
+      },
+      {
+        "SpringItemIndex": [
+          "wildflour.ateliercrops_gloomy_blewit",
+          "wildflour.ateliercrops_rosefinch_feather"
+        ],
+        "SummerItemIndex": [
+          "wildflour.ateliercrops_valerian",
+          "wildflour.ateliercrops_lovebird_feather"
+        ],
+        "FallItemIndex": [
+          "wildflour.ateliercrops_owl_feather"
+        ],
+        "WinterItemIndex": [
+          "wildflour.ateliercrops_bluebird_feather"
+        ],
+        "UniqueAreaID": "Faerie Garden Mountain",
+        "MapName": "Mountain",
+        "MinimumSpawnsPerDay": -3,
+        "MaximumSpawnsPerDay": 2,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "SpringItemIndex": [
+          "wildflour.ateliercrops_wormwood",
+          "wildflour.ateliercrops_lime",
+          {
+            "category": "Buried",
+            "contents": [
+              "wildflour.ateliercrops_redonion"
+            ]
+          }
+        ],
+        "SummerItemIndex": [
+          "wildflour.ateliercrops_milkshroom",
+          "wildflour.ateliercrops_chamomile"
+        ],
+        "FallItemIndex": [
+          "wildflour.ateliercrops_rosemary",
+          "wildflour.ateliercrops_gentianroot"
+        ],
+        "WinterItemIndex": [],
+        "UniqueAreaID": "Wild Food ES Mountain",
+        "MapName": "Custom_ESDeepMountains",
+        "MinimumSpawnsPerDay": 0,
+        "MaximumSpawnsPerDay": 1,
+        "IncludeTerrainTypes": [
+          "Diggable",
+          "Dirt",
+          "Grass",
+          "Stone",
+          "Wood"
+        ],
+        "ExcludeTerrainTypes": [
+          "Quarry"
+        ],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 2
+      },
+      {
+        "SpringItemIndex": [
+          "wildflour.ateliercrops_wormwood",
+          "wildflour.ateliercrops_lime",
+          {
+            "category": "Buried",
+            "contents": [
+              "wildflour.ateliercrops_redonion"
+            ]
+          }
+        ],
+        "SummerItemIndex": [
+          "wildflour.ateliercrops_milkshroom",
+          "wildflour.ateliercrops_chamomile"
+        ],
+        "FallItemIndex": [
+          "wildflour.ateliercrops_rosemary",
+          "wildflour.ateliercrops_gentianroot"
+        ],
+        "WinterItemIndex": [],
+        "UniqueAreaID": "Custom_CapeStardew forage area 1",
+        "MapName": "Custom_CapeStardew",
+        "MinimumSpawnsPerDay": 0,
+        "MaximumSpawnsPerDay": 1,
+        "IncludeTerrainTypes": [
+          "Diggable",
+          "Dirt",
+          "Grass",
+          "Stone",
+          "Wood"
+        ],
+        "ExcludeTerrainTypes": [
+          "Quarry"
+        ],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 2
+      },
+      {
+        "SpringItemIndex": [
+          "wildflour.ateliercrops_jasmine",
+          "wildflour.ateliercrops_cashew",
+          "wildflour.ateliercrops_cacaopod",
+          "wildflour.ateliercrops_cilantro"
+        ],
+        "SummerItemIndex": [
+          "wildflour.ateliercrops_jasmine",
+          "wildflour.ateliercrops_mallow"
+        ],
+        "FallItemIndex": [
+          "wildflour.ateliercrops_jasmine",
+          "wildflour.ateliercrops_cashew",
+          "wildflour.ateliercrops_cacaopod"
+        ],
+        "WinterItemIndex": [
+          "wildflour.ateliercrops_jasmine",
+          "wildflour.ateliercrops_cashew"
+        ],
+        "UniqueAreaID": "Wild Food Island North",
+        "MapName": "IslandNorth",
+        "MinimumSpawnsPerDay": -3,
+        "MaximumSpawnsPerDay": 1,
+        "IncludeTerrainTypes": [
+          "Diggable",
+          "Dirt",
+          "Grass"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 2
+      },
+      {
+        "SpringItemIndex": [
+          "wildflour.ateliercrops_mint",
+          "wildflour.ateliercrops_walnut"
+        ],
+        "SummerItemIndex": [
+          "wildflour.ateliercrops_honeyfungus",
+          "wildflour.ateliercrops_thyme"
+        ],
+        "FallItemIndex": [
+          "wildflour.ateliercrops_sage",
+          "wildflour.ateliercrops_milkshroom"
+        ],
+        "WinterItemIndex": [],
+        "UniqueAreaID": "Wild Food BusStop",
+        "MapName": "BusStop",
+        "MinimumSpawnsPerDay": 0,
+        "MaximumSpawnsPerDay": 2,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 2
+      },
+      {
+        "SpringItemIndex": [],
+        "SummerItemIndex": [],
+        "FallItemIndex": [],
+        "WinterItemIndex": [],
+        "UniqueAreaID": "Faerie Garden SVR3 BusStop",
+        "MapName": "Custom_BusStopOrchard",
+        "MinimumSpawnsPerDay": -3,
+        "MaximumSpawnsPerDay": 2,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "SpringItemIndex": [],
+        "SummerItemIndex": [],
+        "FallItemIndex": [],
+        "WinterItemIndex": [],
+        "UniqueAreaID": "Faerie Garden BusStop",
+        "MapName": "BusStop",
+        "MinimumSpawnsPerDay": -3,
+        "MaximumSpawnsPerDay": 1,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "SpringItemIndex": [
+          "wildflour.ateliercrops_lemon",
+          "wildflour.ateliercrops_walnut"
+        ],
+        "SummerItemIndex": [
+          "wildflour.ateliercrops_meringueshroom",
+          "wildflour.ateliercrops_mallow",
+          "wildflour.ateliercrops_thyme"
+        ],
+        "FallItemIndex": [
+          "wildflour.ateliercrops_gentianroot"
+        ],
+        "WinterItemIndex": [],
+        "UniqueAreaID": "Wild Food ES Clearing",
+        "MapName": "Custom_ESClearingHouse",
+        "MinimumSpawnsPerDay": -1,
+        "MaximumSpawnsPerDay": 2,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 2
+      },
+      {
+        "SpringItemIndex": [
+          "wildflour.ateliercrops_mint",
+          "wildflour.ateliercrops_walnut"
+        ],
+        "SummerItemIndex": [
+          "wildflour.ateliercrops_honeyfungus",
+          "wildflour.ateliercrops_thyme"
+        ],
+        "FallItemIndex": [
+          "wildflour.ateliercrops_sage",
+          "wildflour.ateliercrops_milkshroom"
+        ],
+        "WinterItemIndex": [],
+        "UniqueAreaID": "Wild Food CS BusStop",
+        "MapName": "Custom_CapeBusStop",
+        "MinimumSpawnsPerDay": -1,
+        "MaximumSpawnsPerDay": 2,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 2
+      },
+      {
+        "SpringItemIndex": [
+          "wildflour.ateliercrops_mint",
+          "wildflour.ateliercrops_walnut"
+        ],
+        "SummerItemIndex": [
+          "wildflour.ateliercrops_honeyfungus",
+          "wildflour.ateliercrops_thyme"
+        ],
+        "FallItemIndex": [
+          "wildflour.ateliercrops_sage",
+          "wildflour.ateliercrops_milkshroom"
+        ],
+        "WinterItemIndex": [],
+        "UniqueAreaID": "Wild Food SVR3 BusStop",
+        "MapName": "Custom_BusStopOrchard",
+        "MinimumSpawnsPerDay": -1,
+        "MaximumSpawnsPerDay": 2,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 2
+      },
+      {
+        "SpringItemIndex": [
+          "wildflour.ateliercrops_lemon",
+          "wildflour.ateliercrops_walnut",
+          {
+            "category": "Buried",
+            "contents": [
+              "wildflour.ateliercrops_redonion"
+            ]
+          }
+        ],
+        "SummerItemIndex": [
+          "wildflour.ateliercrops_meringueshroom",
+          "wildflour.ateliercrops_mallow",
+          "wildflour.ateliercrops_thyme"
+        ],
+        "FallItemIndex": [
+          "wildflour.ateliercrops_gentianroot"
+        ],
+        "WinterItemIndex": [],
+        "UniqueAreaID": "Wild Food Railroad",
+        "MapName": "Railroad",
+        "MinimumSpawnsPerDay": -1,
+        "MaximumSpawnsPerDay": 2,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 2
+      },
+      {
+        "SpringItemIndex": [
+          "wildflour.ateliercrops_maiden",
+          "wildflour.ateliercrops_verdigris_agaric"
+        ],
+        "SummerItemIndex": [
+          "wildflour.ateliercrops_mugwort",
+          "wildflour.ateliercrops_dawn_trumpet"
+        ],
+        "FallItemIndex": [
+          "wildflour.ateliercrops_violet_flax",
+          "wildflour.ateliercrops_rose_flax",
+          "wildflour.ateliercrops_raven_feather"
+        ],
+        "WinterItemIndex": [
+          "wildflour.ateliercrops_unicorn_horn",
+          "wildflour.ateliercrops_crow_feather"
+        ],
+        "UniqueAreaID": "Faerie Garden Railroad",
+        "MapName": "Railroad",
+        "MinimumSpawnsPerDay": -2,
+        "MaximumSpawnsPerDay": 2,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "SpringItemIndex": [
+          "wildflour.ateliercrops_violet"
+        ],
+        "SummerItemIndex": [
+          "wildflour.ateliercrops_arctic_fox"
+        ],
+        "FallItemIndex": [
+          "wildflour.ateliercrops_giant_amanita",
+          {
+            "category": "Buried",
+            "contents": [
+              "wildflour.ateliercrops_mandrake"
+            ]
+          }
+        ],
+        "WinterItemIndex": [
+          "wildflour.ateliercrops_primrose",
+          "wildflour.ateliercrops_chiffon"
+        ],
+        "UniqueAreaID": "Faerie Garden LNH Waterfall N",
+        "MapName": "Custom_WaterfallForest_N",
+        "MinimumSpawnsPerDay": -2,
+        "MaximumSpawnsPerDay": 2,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "SpringItemIndex": [
+          "wildflour.ateliercrops_olive"
+        ],
+        "SummerItemIndex": [
+          "wildflour.ateliercrops_olive",
+          "wildflour.ateliercrops_mallow"
+        ],
+        "FallItemIndex": [
+          "wildflour.ateliercrops_cashew"
+        ],
+        "WinterItemIndex": [
+          "wildflour.ateliercrops_cashew"
+        ],
+        "UniqueAreaID": "Wild Food Beach",
+        "MapName": "Beach",
+        "MinimumSpawnsPerDay": -2,
+        "MaximumSpawnsPerDay": 1,
+        "IncludeTerrainTypes": [
+          "Diggable"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 2
+      },
+      {
+        "SpringItemIndex": [
+          "wildflour.ateliercrops_ice_dragon_scale"
+        ],
+        "SummerItemIndex": [
+          "wildflour.ateliercrops_shooting_star"
+        ],
+        "FallItemIndex": [],
+        "WinterItemIndex": [],
+        "UniqueAreaID": "Faerie Garden Beach",
+        "MapName": "Beach",
+        "MinimumSpawnsPerDay": -10,
+        "MaximumSpawnsPerDay": 1,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "SpringItemIndex": [
+          "wildflour.ateliercrops_tiny_angels"
+        ],
+        "SummerItemIndex": [],
+        "FallItemIndex": [
+          "wildflour.ateliercrops_dusk_cap",
+          "wildflour.ateliercrops_blush_cap",
+          "wildflour.ateliercrops_amanita_cluster"
+        ],
+        "WinterItemIndex": [
+          "wildflour.ateliercrops_verdigris_agaric"
+        ],
+        "UniqueAreaID": "Faerie Garden Sewer",
+        "MapName": "Sewer",
+        "MinimumSpawnsPerDay": -3,
+        "MaximumSpawnsPerDay": 1,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [
+          "0,0/4,49",
+          "13,0/33,7",
+          "22,8/33,11",
+          "22,12/26,16",
+          "5,32/39,49"
+        ],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "SpringItemIndex": [
+          "wildflour.ateliercrops_dusk_cap",
+          "wildflour.ateliercrops_tiny_angels"
+        ],
+        "SummerItemIndex": [
+          "wildflour.ateliercrops_blush_cap",
+          "wildflour.ateliercrops_amanita_cluster",
+          "wildflour.ateliercrops_verdigris_agaric"
+        ],
+        "FallItemIndex": [
+          "wildflour.ateliercrops_giant_amanita",
+          "wildflour.ateliercrops_golden_aura"
+        ],
+        "WinterItemIndex": [
+          "wildflour.ateliercrops_faerie_helmets",
+          "wildflour.ateliercrops_moon_mushroom"
+        ],
+        "UniqueAreaID": "Faerie Garden Witch Swamp",
+        "MapName": "WitchSwamp",
+        "MinimumSpawnsPerDay": -2,
+        "MaximumSpawnsPerDay": 1,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "SpringItemIndex": [],
+        "SummerItemIndex": [],
+        "FallItemIndex": [
+          "wildflour.ateliercrops_phoenix_feather"
+        ],
+        "WinterItemIndex": [
+          "wildflour.ateliercrops_faerie_helmets"
+        ],
+        "UniqueAreaID": "Faerie Garden Mine",
+        "MapName": "Mine",
+        "MinimumSpawnsPerDay": -3,
+        "MaximumSpawnsPerDay": 1,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      }
+    ],
+    "PercentExtraSpawnsPerForagingLevel": 3,
+    "SpringItemIndex": [
+      16,
+      20,
+      22,
+      257
+    ],
+    "SummerItemIndex": [
+      396,
+      398,
+      402,
+      404
+    ],
+    "FallItemIndex": [
+      281,
+      404,
+      420,
+      422
+    ],
+    "WinterItemIndex": [],
+    "CustomTileIndex": []
+  },
+  "Large_Object_Spawn_Settings": {
+    "Areas": [
+      {
+        "ObjectTypes": [
+          "Stump"
+        ],
+        "FindExistingObjectLocations": true,
+        "PercentExtraSpawnsPerSkillLevel": 0,
+        "RelatedSkill": "Foraging",
+        "UniqueAreaID": "Farm large object area 1",
+        "MapName": "Farm",
+        "MinimumSpawnsPerDay": 999,
+        "MaximumSpawnsPerDay": 999,
+        "IncludeTerrainTypes": [],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 2
+      }
+    ],
+    "CustomTileIndex": []
+  },
+  "Ore_Spawn_Settings": {
+    "Areas": [
+      {
+        "MiningLevelRequired": null,
+        "StartingSpawnChance": null,
+        "LevelTenSpawnChance": null,
+        "UniqueAreaID": "Farm ore area 1",
+        "MapName": "Farm",
+        "MinimumSpawnsPerDay": 1,
+        "MaximumSpawnsPerDay": 5,
+        "IncludeTerrainTypes": [
+          "Quarry"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 2
+      }
+    ],
+    "PercentExtraSpawnsPerMiningLevel": 0,
+    "MiningLevelRequired": {
+      "Stone": 0,
+      "Geode": 0,
+      "FrozenGeode": 5,
+      "MagmaGeode": 8,
+      "Gem": 6,
+      "Copper": 0,
+      "Iron": 4,
+      "Gold": 7,
+      "Iridium": 9,
+      "Mystic": 10,
+      "Radioactive": 10,
+      "Diamond": 6,
+      "Ruby": 6,
+      "Jade": 6,
+      "Amethyst": 6,
+      "Topaz": 6,
+      "Emerald": 6,
+      "Aquamarine": 6
+    },
+    "StartingSpawnChance": {
+      "Stone": 66,
+      "Geode": 8,
+      "FrozenGeode": 4,
+      "MagmaGeode": 2,
+      "Gem": 5,
+      "Copper": 21,
+      "Iron": 15,
+      "Gold": 10,
+      "Iridium": 1,
+      "Mystic": 1,
+      "Radioactive": 0,
+      "Diamond": 0,
+      "Ruby": 0,
+      "Jade": 0,
+      "Amethyst": 0,
+      "Topaz": 0,
+      "Emerald": 0,
+      "Aquamarine": 0
+    },
+    "LevelTenSpawnChance": {
+      "Stone": 48,
+      "Geode": 2,
+      "FrozenGeode": 2,
+      "MagmaGeode": 2,
+      "Gem": 5,
+      "Copper": 16,
+      "Iron": 13,
+      "Gold": 10,
+      "Iridium": 1,
+      "Mystic": 1,
+      "Radioactive": 0,
+      "Diamond": 0,
+      "Ruby": 0,
+      "Jade": 0,
+      "Amethyst": 0,
+      "Topaz": 0,
+      "Emerald": 0,
+      "Aquamarine": 0
+    },
+    "CustomTileIndex": []
+  },
+  "Monster_Spawn_Settings": {
+    "Areas": [
+      {
+        "MonsterTypes": [
+          {
+            "MonsterName": "shadow brute",
+            "Settings": {
+              "RelatedSkill": "Combat",
+              "MinimumSkillLevel": 8
+            }
+          },
+          {
+            "MonsterName": "wilderness golem",
+            "Settings": {
+              "SpawnWeight": 4
+            }
+          },
+          {
+            "MonsterName": "purple slime",
+            "Settings": {
+              "RelatedSkill": "Combat",
+              "MinimumSkillLevel": 10,
+              "SpawnWeight": 2
+            }
+          },
+          {
+            "MonsterName": "red slime",
+            "Settings": {
+              "RelatedSkill": "Combat",
+              "MinimumSkillLevel": 8,
+              "MaximumSkillLevel": 9,
+              "SpawnWeight": 2
+            }
+          },
+          {
+            "MonsterName": "blue slime",
+            "Settings": {
+              "RelatedSkill": "Combat",
+              "MinimumSkillLevel": 4,
+              "MaximumSkillLevel": 7,
+              "SpawnWeight": 2
+            }
+          },
+          {
+            "MonsterName": "green slime",
+            "Settings": {
+              "RelatedSkill": "Combat",
+              "MaximumSkillLevel": 3,
+              "SpawnWeight": 2
+            }
+          }
+        ],
+        "UniqueAreaID": "Farm monster area 1",
+        "MapName": "Farm",
+        "MinimumSpawnsPerDay": 5,
+        "MaximumSpawnsPerDay": 8,
+        "IncludeTerrainTypes": [
+          "Dirt",
+          "Diggable",
+          "Grass"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 1900,
+          "EndTime": 2550,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": 1,
+          "OnlySpawnIfAPlayerIsPresent": true,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 2
+      },
+      {
+        "MonsterTypes": [
+          {
+            "MonsterName": "iridium bat",
+            "Settings": {
+              "RelatedSkill": "Combat",
+              "MinimumSkillLevel": 10,
+              "SpawnWeight": 4
+            }
+          },
+          {
+            "MonsterName": "serpent",
+            "Settings": {
+              "RelatedSkill": "Combat",
+              "MinimumSkillLevel": 10,
+              "SpawnWeight": 3
+            }
+          },
+          {
+            "MonsterName": "lava bat",
+            "Settings": {
+              "RelatedSkill": "Combat",
+              "MinimumSkillLevel": 8,
+              "SpawnWeight": 4
+            }
+          },
+          {
+            "MonsterName": "frost bat",
+            "Settings": {
+              "RelatedSkill": "Combat",
+              "MinimumSkillLevel": 5,
+              "SpawnWeight": 2
+            }
+          },
+          {
+            "MonsterName": "bat",
+            "Settings": {
+              "SpawnWeight": 2
+            }
+          }
+        ],
+        "UniqueAreaID": "Farm monster area 2",
+        "MapName": "Farm",
+        "MinimumSpawnsPerDay": 2,
+        "MaximumSpawnsPerDay": 3,
+        "IncludeTerrainTypes": [
+          "Dirt",
+          "Diggable",
+          "Grass"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 1900,
+          "EndTime": 2550,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": 1,
+          "OnlySpawnIfAPlayerIsPresent": true,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 2
+      }
+    ],
+    "CustomTileIndex": []
+  },
+  "QuarryTileIndex": [
+    556,
+    558,
+    583,
+    606,
+    607,
+    608,
+    630,
+    635,
+    636,
+    680,
+    681,
+    685
+  ],
+  "File_Conditions": {
+    "FarmTypes": [],
+    "FarmerNames": [],
+    "SaveFileNames": [],
+    "OtherMods": {}
+  }
+}

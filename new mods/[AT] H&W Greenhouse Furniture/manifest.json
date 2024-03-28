@@ -1,0 +1,17 @@
+﻿{
+	"Name": "H&W Greenhouse Furniture Pack",
+	"Author": "himetarts and wildflourmods",
+	"Version": "2.0",
+	"Description": "AT pack for Hime and Wildflour's Greenhouse Furniture Pack",
+	"UniqueID": "HXW.GreenhouseFurniforAT",
+	"UpdateKeys": ["nexus:17488"],
+	"ContentPackFor": {
+		"UniqueID": "PeacefulEnd.AlternativeTextures"
+	},
+	"Dependencies": [
+		{
+			"UniqueID": "HXW.GreenhouseFurniture",
+			"IsRequired": true
+	 }
+	 ]
+}

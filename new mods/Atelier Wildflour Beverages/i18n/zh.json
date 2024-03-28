@@ -1,0 +1,339 @@
+{
+
+//////////////
+// MACHINES //
+//////////////
+
+"atelierjuicebar_JuiceStation.name":"果汁桌",
+"atelierjuicebar_JuiceStation.description":"将水果与蜂蜜做成果汁。",
+
+"atelierjuicebar_BobaStation.name":"珍珠炉",
+"atelierjuicebar_BobaStation.description":"将食材与波霸珍珠做成珍珠奶茶。",
+
+"atelierjuicebar_LemonadeStand.name":"柠檬水小站",
+"atelierjuicebar_LemonadeStand.description":"将水果与小柠檬做成调味柠檬水。.",
+
+///////////////////////////
+// MACHINE NOTIFICATIONS //
+///////////////////////////
+
+"atelierjuicebar_JuiceStation_InvalidItem.message": "无法制作",
+"atelierjuicebar_JuiceStation_InvalidCount.message": "需要蜂蜜",
+
+"atelierjuicebar_BobaStation_InvalidItem.message": "无法制作",
+"atelierjuicebar_BobaStation_InvalidCount.message": "需要波霸珍珠",
+
+"atelierjuicebar_LemonadeStand_InvalidItem.message": "无法制作",
+"atelierjuicebar_LemonadeStand_InvalidCount.message": "需要小柠檬",
+
+
+    
+//////////
+// BOBA //
+//////////
+
+"atelierjuicebar_boba_pearls.name": "波霸珍珠",
+"atelierjuicebar_boba_pearls.description": "这些含淀粉的凝胶状球体可以加在冰茶和牛奶中做成珍珠奶茶。",
+
+"atelierjuicebar_banana_boba.name": "香蕉珍奶",
+"atelierjuicebar_banana_boba.description": "美味又可爱的冰茶，除了使用香蕉调味外还加了牛奶与弹牙的珍珠！",
+
+"atelierjuicebar_blacktea_boba.name": "珍珠奶茶",
+"atelierjuicebar_blacktea_boba.description": "美味又可爱的冰茶，加了牛奶与弹牙的珍珠！",
+
+"atelierjuicebar_blueberry_boba.name": "蓝莓珍奶",
+"atelierjuicebar_blueberry_boba.description": "美味又可爱的冰茶，除了使用蓝莓调味外还加了牛奶与弹牙的珍珠！",
+
+"atelierjuicebar_brownsugar_boba.name": "黑糖珍奶",
+"atelierjuicebar_brownsugar_boba.description": "美味又可爱的冰茶，除了使用黑糖调味外还加了牛奶与弹牙的珍珠！",
+
+"atelierjuicebar_caramel_boba.name": "肉桂珍奶",
+"atelierjuicebar_caramel_boba.description": "美味又可爱的冰茶，除了使用肉桂调味外还加了牛奶与弹牙的珍珠！",
+
+"atelierjuicebar_coconut_boba.name": "椰香珍奶",
+"atelierjuicebar_coconut_boba.description": "美味又可爱的冰茶，除了使用椰子调味外还加了牛奶与弹牙的珍珠！",
+
+"atelierjuicebar_coffee_boba.name": "珍珠鸳鸯",
+"atelierjuicebar_coffee_boba.description": "美味又可爱的冰茶，除了使用咖啡调味外还加了牛奶与弹牙的珍珠！",
+
+"atelierjuicebar_jasmine_boba.name": "茉莉珍奶",
+"atelierjuicebar_jasmine_boba.description": "美味又可爱的冰茶，除了使用茉莉花调味外还加了牛奶与弹牙的珍珠！",
+
+"atelierjuicebar_mango_boba.name": "芒果珍奶",
+"atelierjuicebar_mango_boba.description": "美味又可爱的冰茶，除了使用芒果调味外还加了牛奶与弹牙的珍珠！",
+
+"atelierjuicebar_matcha_boba.name": "抹茶珍奶",
+"atelierjuicebar_matcha_boba.description": "美味又可爱的冰抹茶，加了牛奶与弹牙的珍珠！",
+
+"atelierjuicebar_melon_boba.name": "甜瓜珍奶",
+"atelierjuicebar_melon_boba.description": "美味又可爱的冰茶，除了使用甜瓜调味外还加了牛奶与弹牙的珍珠！",
+
+"atelierjuicebar_oolong_boba.name": "珍奶乌龙",
+"atelierjuicebar_oolong_boba.description": "美味又可爱的乌龙冰茶，加了牛奶与弹牙的珍珠！",
+
+"atelierjuicebar_peach_boba.name": "蜜桃珍奶",
+"atelierjuicebar_peach_boba.description": "美味又可爱的冰茶，除了使用桃子调味外还加了牛奶与弹牙的珍珠！",
+
+"atelierjuicebar_rose_boba.name": "玫瑰珍奶",
+"atelierjuicebar_rose_boba.description": "美味又可爱的冰茶，除了使用玫瑰花调味外还加了牛奶与弹牙的珍珠！",
+
+"atelierjuicebar_strawberry_boba.name": "草莓珍奶",
+"atelierjuicebar_strawberry_boba.description": "美味又可爱的冰茶，除了使用草莓调味外还加了牛奶与弹牙的珍珠！",
+
+"atelierjuicebar_taro_boba.name": "芋香珍奶",
+"atelierjuicebar_taro_boba.description": "美味又可爱的冰茶，除了使用芋头调味外还加了牛奶与弹牙的珍珠！",
+
+"atelierjuicebar_thai_boba.name": "珍珠泰奶",
+"atelierjuicebar_thai_boba.description": "美味又可爱的冰茶，加了椰奶与弹牙的珍珠！",
+
+"atelierjuicebar_vanilla_boba.name": "香草珍奶",
+"atelierjuicebar_vanilla_boba.description": "美味又可爱的冰茶，除了使用香草调味外还加了牛奶与弹牙的珍珠！",
+
+//////////////////
+// FRUIT JUICES //
+//////////////////
+
+"atelierjuicebar_apple_juice.name": "神奇苹果汁",
+"atelierjuicebar_apple_juice.description": "使用现摘苹果做的果汁！",
+
+"atelierjuicebar_berry_juice.name": "美味莓果汁",
+"atelierjuicebar_berry_juice.description": "使用农场新鲜莓果做的果汁！",
+
+"atelierjuicebar_carrot_juice.name": "兔兔最爱胡萝卜汁",
+"atelierjuicebar_carrot_juice.description": "使用农场新鲜胡萝卜做的果汁！",
+
+"atelierjuicebar_grape_juice.name": "葡萄汁",
+"atelierjuicebar_grape_juice.description": "使用农场新鲜葡萄做的果汁！",
+
+"atelierjuicebar_mix_juice.name": "综合水果汁",
+"atelierjuicebar_mix_juice.description": "使用农场新鲜水果做的果汁！",
+
+"atelierjuicebar_orange_juice.name": "早起的鸟儿橙子汁",
+"atelierjuicebar_orange_juice.description": "使用农场新鲜橙子做的果汁！",
+
+"atelierjuicebar_pomegranate_juice.name": "石榴汁",
+"atelierjuicebar_pomegranate_juice.description": "使用农场新鲜石榴做的果汁！",
+
+"atelierjuicebar_tropical_juice.name": "热带水果汁",
+"atelierjuicebar_tropical_juice.description": "使用香甜岛屿水果做的果汁！",
+
+"atelierjuicebar_fruit_punch.name": "水果潘趣酒",
+"atelierjuicebar_fruit_punch.description": "使用农场新鲜水果做的果汁！",
+
+"atelierjuicebar_amber_juice.name": "琥珀月蜜",
+"atelierjuicebar_amber_juice.description": "使用神奇月泪葡萄做的果汁。",
+
+"atelierjuicebar_jade_juice.name": "翡翠月蜜",
+"atelierjuicebar_jade_juice.description": "使用神奇月泪葡萄做的果汁。",
+
+"atelierjuicebar_lapis_juice.name": "琉璃月蜜",
+"atelierjuicebar_lapis_juice.description": "使用神奇月泪葡萄做的果汁。",
+
+"atelierjuicebar_pearl_juice.name": "珍珠月蜜",
+"atelierjuicebar_pearl_juice.description": "使用神奇月泪葡萄做的果汁。",
+
+"atelierjuicebar_apple_elixir.name": "诱人苹果灵药",
+"atelierjuicebar_apple_elixir.description": "使用神秘苹果做的果汁。",
+
+"atelierjuicebar_apricot_elixir.name": "芳香杏子灵药",
+"atelierjuicebar_apricot_elixir.description": "使用神秘杏子做的果汁。",
+
+"atelierjuicebar_cherry_elixir.name": "欣喜樱桃灵药",
+"atelierjuicebar_cherry_elixir.description": "使用神秘樱桃做的果汁。",
+
+"atelierjuicebar_mango_elixir.name": "欢快芒果灵药",
+"atelierjuicebar_mango_elixir.description": "使用神秘芒果做的果汁。",
+
+"atelierjuicebar_orange_elixir.name": "妩媚橙子灵药",
+"atelierjuicebar_orange_elixir.description": "使用神秘橙子做的果汁。",
+
+"atelierjuicebar_peach_elixir.name": "嬉戏蜜桃灵药",
+"atelierjuicebar_peach_elixir.description": "使用神秘蜜桃做的果汁。",
+
+"atelierjuicebar_pomegranate_elixir.name": "热情石榴灵药",
+"atelierjuicebar_pomegranate_elixir.description": "使用神秘石榴做的果汁。",
+
+///////////////
+// LEMONADES //
+///////////////
+
+"atelierjuicebar_blackberry_lemonade.name": "黑莓柠檬水",
+"atelierjuicebar_blackberry_lemonade.description": "加了觅食黑莓的新鲜柠檬水。",
+
+"atelierjuicebar_chamomile_lemonade.name": "洋甘菊柠檬水",
+"atelierjuicebar_chamomile_lemonade.description": "加了洋甘菊花瓣的新鲜柠檬水。",
+
+"atelierjuicebar_cherry_limeade.name": "樱桃莱姆水",
+"atelierjuicebar_cherry_limeade.description": "有趣的柠檬水变体，使用莱姆和樱桃制作。",
+
+"atelierjuicebar_classic_lemonade.name": "经典柠檬水",
+"atelierjuicebar_classic_lemonade.description": "用现榨柠檬做的清爽饮品。",
+
+"atelierjuicebar_green_lemonade.name": "柠檬绿茶",
+"atelierjuicebar_green_lemonade.description": "加了绿茶的新鲜柠檬水。",
+
+"atelierjuicebar_jasmine_lemonade.name": "茉莉柠檬水",
+"atelierjuicebar_jasmine_lemonade.description": "加了茉莉花瓣的新鲜柠檬水。",
+
+"atelierjuicebar_lavender_lemonade.name": "薰衣草柠檬水",
+"atelierjuicebar_lavender_lemonade.description": "加了薰衣草的新鲜柠檬水。",
+
+"atelierjuicebar_lime_lemonade.name": "莱姆柠檬水",
+"atelierjuicebar_lime_lemonade.description": "加了美味莱姆汁的新鲜柠檬水。",
+
+"atelierjuicebar_melon_lemonade.name": "甜瓜柠檬水",
+"atelierjuicebar_melon_lemonade.description": "加了盛夏甜瓜的新鲜柠檬水。",
+
+"atelierjuicebar_mint_lemonade.name": "薄荷柠檬水",
+"atelierjuicebar_mint_lemonade.description": "加了薄荷叶的新鲜柠檬水。",
+
+"atelierjuicebar_pomegranate_lemonade.name": "石榴柠檬水",
+"atelierjuicebar_pomegranate_lemonade.description": "加了石榴汁的新鲜柠檬水。",
+
+"atelierjuicebar_pink_lemonade.name": "粉红佳人柠檬水",
+"atelierjuicebar_pink_lemonade.description": "加了草莓汁的新鲜柠檬水。",
+
+"atelierjuicebar_rose_lemonade.name": "玫瑰柠檬水",
+"atelierjuicebar_rose_lemonade.description": "加了玫瑰花瓣的新鲜柠檬水。",
+
+"atelierjuicebar_raspberry_lemonade.name": "覆盆莓柠檬水",
+"atelierjuicebar_raspberry_lemonade.description": "加了覆盆莓汁的新鲜柠檬水。",
+
+//////////////
+// ICED TEA //
+//////////////
+
+"atelierjuicebar_iced_tea.name": "甜蜜冰茶",
+"atelierjuicebar_iced_tea.description": "一大杯冰茶。",
+
+"atelierjuicebar_green_icedtea.name": "冰绿茶",
+"atelierjuicebar_green_icedtea.description": "一大杯冰绿茶。",
+
+"atelierjuicebar_pineapple_icedtea.name": "菠萝冰茶",
+"atelierjuicebar_pineapple_icedtea.description": "使用芒果调味的一大杯冰茶。",
+
+"atelierjuicebar_peach_icedtea.name": "蜜桃冰茶",
+"atelierjuicebar_peach_icedtea.description": "使用桃子调味的一大杯冰茶。",
+
+"atelierjuicebar_thai_icedtea.name": "泰式冰茶",
+"atelierjuicebar_thai_icedtea.description": "使用椰奶加甜的一大杯冰茶。",
+
+///////////////
+// SMOOTHIES //
+///////////////
+
+"atelierjuicebar_ancient_smoothie.name": "上古睿智冰沙",
+"atelierjuicebar_ancient_smoothie.description": "最适合匆忙早餐的清爽冰沙！",
+
+"atelierjuicebar_berry_smoothie.name": "莓果突袭冰沙",
+"atelierjuicebar_berry_smoothie.description": "最适合匆忙早餐的清爽冰沙！",
+
+"atelierjuicebar_berrybanana_smoothie.name": "草莓香蕉冰沙",
+"atelierjuicebar_berrybanana_smoothie.description": "最适合匆忙早餐的清爽冰沙！",
+
+"atelierjuicebar_berrykale_smoothie.name": "蓝莓甘蓝冰沙",
+"atelierjuicebar_berrykale_smoothie.description": "最适合匆忙早餐的清爽冰沙！",
+
+"atelierjuicebar_chocoberry_smoothie.name": "巧克力莓果冰沙",
+"atelierjuicebar_chocoberry_smoothie.description": "最适合匆忙早餐的清爽冰沙！",
+
+"atelierjuicebar_gemberry_smoothie.name": "宝石甜莓风暴冰沙",
+"atelierjuicebar_gemberry_smoothie.description": "最适合匆忙早餐的清爽冰沙！",
+
+"atelierjuicebar_peachmango_smoothie.name": "蜜桃芒果冰沙",
+"atelierjuicebar_peachmango_smoothie.description": "最适合匆忙早餐的清爽冰沙！",
+
+"atelierjuicebar_sunshine_smoothie.name": "盛夏阳光冰沙",
+"atelierjuicebar_sunshine_smoothie.description": "最适合匆忙早餐的清爽冰沙！",
+
+"atelierjuicebar_tropical_smoothie.name": "热带绿洲冰沙",
+"atelierjuicebar_tropical_smoothie.description": "最适合匆忙早餐的清爽冰沙！",
+
+//////////
+// MAIL //
+//////////
+
+"atelierjuicebar_JuicerRecipe.name":"现榨果汁",
+"atelierjuicebar_JuicerRecipe.text":"@，^^农场发展得越来越好，我猜你很快就会有多余的水果了！罗宾在好几年前跟我分享这个果汁机的蓝图，但我觉得你可能比我更需要它！^^乔迪",
+
+"atelierjuicebar_BobaStationRecipe.name":"加珍珠更好！",
+"atelierjuicebar_BobaStationRecipe.text":"@，^^自制珍奶就像科学实验，而且你还能在结束后喝了它。虽然大部分的科学实验我都不建议擅自进行，不过我很欢迎你随时跟我分享你做的珍奶！^^玛鲁",
+
+"atelierjuicebar_LemonadeStandRecipe.name":"你喜欢柠檬水吗？",
+"atelierjuicebar_LemonadeStandRecipe.text":"@，^^你小时候有没有自己的柠檬水摊呀？玛妮姑姑认为浣熊会偷走所有柠檬水所以都不让我在森林里摆摊。或许我可以过去找你一起做柠檬水？^^贾斯",
+
+"atelierjuicebar_evelyn.name":"沁凉提神",
+"atelierjuicebar_evelyn.text":"@，^^你知道我喜欢喝茶，所以你应该也不会意外我喜欢喝冰茶！无论冷茶热茶，这些小柠檬都是很棒的配料。希望你能善加利用它们！^^艾芙琳",
+
+"atelierjuicebar_emily.name":"珍棒",
+"atelierjuicebar_emily.text":"@，^^玛鲁跟我说她寄了珍珠炉的蓝图给你！这超酷的！你知道可以用寒季时在附近挖到的冬根做珍珠吗？如果你哪天做了珍奶记得分我哦？！我会很乐意收下。^^艾米丽",
+
+"atelierjuicebar_lewis.name":"当生命给你一颗莱姆",
+"atelierjuicebar_lewis.text":"@，^^我很爱新鲜柠檬水，但你知道莱姆水也很好喝吗？我几年前在家种了一棵小莱姆树；你要不要试着在果汁里加一点？^^刘易斯",
+
+////////////////////
+// SPECIAL ORDERS //
+////////////////////
+
+"atelierjuicebar_SO_1.name":"增肌早餐",
+"atelierjuicebar_SO_1.text":"我忙着增肌跟练习格球；没有时间每天做早餐了！有人能帮我吗？",
+"atelierjuicebar_SO_1.deliver":"带给亚历克斯 5 杯蓝莓甘蓝冰沙",
+"atelierjuicebar_SO_1.accept":"所以这些冰沙含有蛋白质跟纤维素？赞啦！我完全可以透过这些饮料帮助增肌。",
+
+"atelierjuicebar_SO_2.name":"新潮珍珠",
+"atelierjuicebar_SO_2.text":"阿比盖尔之前跟我提到过珍奶……那是什么？好喝吗？如果有人能带一些来让我喝我会很感谢。",
+"atelierjuicebar_SO_2a.deliver":"把 2 杯珍奶乌龙放进卡洛琳的厨房。",
+"atelierjuicebar_SO_2b.deliver":"把 2 杯黑糖珍奶放进卡洛琳的厨房。",
+"atelierjuicebar_SO_2c.deliver":"把 2 杯草莓珍奶放进卡洛琳的厨房。",
+
+"atelierjuicebar_SO_3.name":"柠檬水对决冰茶",
+"atelierjuicebar_SO_3.text":"没有比在大热天喝冰凉柠檬水更好的了……或许冰茶？嗯我选不出来。有人能带它们来让我有办法下决定吗！",
+"atelierjuicebar_SO_3a.deliver":"把 2 杯柠檬绿茶放进乔治厨房里的箱子。",
+"atelierjuicebar_SO_3b.deliver":"把 2 杯经典柠檬水放进乔治厨房里的箱子。",
+"atelierjuicebar_SO_3c.deliver":"把 2 杯甜蜜冰茶放进乔治厨房里的箱子。",
+"atelierjuicebar_SO_3d.deliver":"把 2 杯蜜桃冰茶放进乔治厨房里的箱子。",
+
+"atelierjuicebar_SO_4.name":"现榨饮品",
+"atelierjuicebar_SO_4.text":"我正在尝试少喝汽水，但我还是想喝点甜的。有人有想法吗？",
+"atelierjuicebar_SO_4a.deliver":"把 2 杯葡萄汁放进山姆房间里的箱子。",
+"atelierjuicebar_SO_4b.deliver":"把 2 杯神奇苹果汁放进山姆房间里的箱子。",
+"atelierjuicebar_SO_4c.deliver":"把 2 杯美味莓果汁放进山姆房间里的箱子。",
+"atelierjuicebar_SO_4d.deliver":"把 2 杯早起的鸟儿橙子汁放进山姆房间里的箱子。",
+
+"atelierjuicebar_SO_5.name":"爆红饮品挑战",
+"atelierjuicebar_SO_5.text":"又到了每年的这个时候——我们已经开放申请年度爆红饮品挑战了！把你最好的饮料寄给我们，看你能不能赢得大奖！",
+"atelierjuicebar_SO_5.ship":"出货 100 杯金星质量的饮料。",
+
+"atelierjuicebar_SO_6.name":"给艾米丽的珍奶",
+"atelierjuicebar_SO_6.text":"我的珍奶喝完了！拜托带些新的给我！",
+"atelierjuicebar_SO_6.deliver":"带给艾米丽 4 杯珍珠奶茶。",
+"atelierjuicebar_SO_6.accept":"太好了！没有好喝珍奶我都快变得不像自己了。谢谢！",
+
+"atelierjuicebar_SO_7.name":"给海莉的冰沙",
+"atelierjuicebar_SO_7.text":"我上周太忙了没准备新的冰沙！现在我早餐要喝什么？",
+"atelierjuicebar_SO_7.deliver":"带给海莉 4 杯冰沙。",
+"atelierjuicebar_SO_7.accept":"谢天谢地！我的早上没有冰沙就不一样了。再次感谢。",
+
+"atelierjuicebar_SO_8.name":"给谢恩的果汁",
+"atelierjuicebar_SO_8.text":"我，好像，又，忘记这次轮到我为贾斯和她的朋友准备果汁了。有人能救我吗？拜托？",
+"atelierjuicebar_SO_8.deliver":"带给谢恩 8 杯果汁。",
+"atelierjuicebar_SO_8.accept":"谢谢由巴，你真的救了我一命；谢谢。",
+
+/////////////////////////
+// SPECIAL ORDERS MAIL //
+/////////////////////////
+
+"atelierjuicebar_SO2_reward.title": "谢谢！",
+"atelierjuicebar_SO2_reward.text": "@，^^^谁猜得到我会深深着迷珍珠奶茶呢？谢谢你的分享。这些礼物送你感谢你的付出。^^卡洛琳",
+
+"atelierjuicebar_SO3_reward.title": "沁凉冰饮",
+"atelierjuicebar_SO3_reward.text": "@，^^^我想起来了！我两个都喜欢！谢谢你，@。这应该能帮上你一点忙；希望你别忘了老伙伴乔治会时不时想喝冰饮！",
+
+"atelierjuicebar_SO4_reward.title": "谢谢你",
+"atelierjuicebar_SO4_reward.text": "@，^^^再次感谢你的果汁！它们很好喝，不过我还是比较喜欢汽水，看来我又回到原点了。不过我觉得这可以帮你调出更多种饮料！^^山姆",
+
+"atelierjuicebar_SO5_reward.title": "恭喜！",
+"atelierjuicebar_SO5_reward.text": "亲爱的　@，^^^你的贡献令我们印象深刻，我们很荣幸能给予你爆红饮品比赛的冠军。请领取这份奖赏。",
+
+
+}

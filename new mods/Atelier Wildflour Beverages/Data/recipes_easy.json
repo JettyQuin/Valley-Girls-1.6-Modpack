@@ -1,0 +1,18 @@
+{
+  "Changes": [
+
+    {
+	    "LogName": "Add Atelier Beverages Machines to Crafting Recipes",
+      "Action": "EditData",
+      "Target": "Data/CraftingRecipes",
+      "Entries": 
+      {
+			"wildflour.atelierjuicebar_BobaStation": "388 50 335 2 330 5/Home/wildflour.atelierjuicebar_BobaStation/true/default/{{i18n: atelierjuicebar_BobaStation.name}}",
+			"wildflour.atelierjuicebar_JuiceStation": "388 50 334 2 382 5/Home/wildflour.atelierjuicebar_JuiceStation/true/default/{{i18n: atelierjuicebar_JuiceStation.name}}",
+			"wildflour.atelierjuicebar_LemonadeStand": "388 50 335 2 330 5/Home/wildflour.atelierjuicebar_LemonadeStand/true/default/{{i18n: atelierjuicebar_LemonadeStand.name}}"
+      }
+    }
+
+  ]
+
+}

@@ -1,0 +1,2429 @@
+{
+    "Changes": [
+
+{
+    "LogName": "Add Wild Food Seeds to Seed Maker",
+    "Action": "EditData",
+    "Target": "Data/Machines",
+    "TargetField": ["(BC)25", "OutputRules"],
+    "Entries": {
+
+        "wildflour.ateliercrops_seedmaker_vanilla": {
+            "Id": "wildflour.ateliercrops_seedmaker_vanilla",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "wildflour.ateliercrops_vanilla",
+                    "RequiredCount": 1
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.ateliercrops_vanillaseeds",
+                    "ItemId": "(O)wildflour.ateliercrops_vanillaseeds",
+                    "MinStack": 1,
+                    "MaxStack": 1,
+                    "StackModifiers": [
+                        {
+                            "Id": "GoodForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 5 6",
+                            "Modification": "Add",
+                            "Amount": 1
+                        },
+                        {
+                            "Id": "GreatForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 7 9",
+                            "Modification": "Add",
+                            "Amount": 2
+                        },
+                        {
+                            "Id": "GreatestForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                            "Modification": "Add",
+                            "Amount": 3
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 20
+        },
+
+        "wildflour.ateliercrops_seedmaker_chickenwoods": {
+            "Id": "wildflour.ateliercrops_seedmaker_chickenwoods",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "wildflour.ateliercrops_chickenwoods",
+                    "RequiredCount": 1
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.ateliercrops_chickenwoodsseeds",
+                    "ItemId": "(O)wildflour.ateliercrops_chickenwoodsseeds",
+                    "MinStack": 1,
+                    "MaxStack": 1,
+                    "StackModifiers": [
+                        {
+                            "Id": "GoodForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 5 6",
+                            "Modification": "Add",
+                            "Amount": 1
+                        },
+                        {
+                            "Id": "GreatForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 7 9",
+                            "Modification": "Add",
+                            "Amount": 2
+                        },
+                        {
+                            "Id": "GreatestForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                            "Modification": "Add",
+                            "Amount": 3
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 20
+        },
+      
+        "wildflour.ateliercrops_seedmaker_cilantro": {
+            "Id": "wildflour.ateliercrops_seedmaker_cilantro",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "wildflour.ateliercrops_cilantro",
+                    "RequiredCount": 1
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.ateliercrops_cilantroseeds",
+                    "ItemId": "(O)wildflour.ateliercrops_cilantroseeds",
+                    "MinStack": 1,
+                    "MaxStack": 1,
+                    "StackModifiers": [
+                        {
+                            "Id": "GoodForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 5 6",
+                            "Modification": "Add",
+                            "Amount": 1
+                        },
+                        {
+                            "Id": "GreatForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 7 9",
+                            "Modification": "Add",
+                            "Amount": 2
+                        },
+                        {
+                            "Id": "GreatestForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                            "Modification": "Add",
+                            "Amount": 3
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 20
+        },
+      
+        "wildflour.ateliercrops_seedmaker_sage": {
+            "Id": "wildflour.ateliercrops_seedmaker_sage",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "wildflour.ateliercrops_sage",
+                    "RequiredCount": 1
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.ateliercrops_sageseeds",
+                    "ItemId": "(O)wildflour.ateliercrops_sageseeds",
+                    "MinStack": 1,
+                    "MaxStack": 1,
+                    "StackModifiers": [
+                        {
+                            "Id": "GoodForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 5 6",
+                            "Modification": "Add",
+                            "Amount": 1
+                        },
+                        {
+                            "Id": "GreatForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 7 9",
+                            "Modification": "Add",
+                            "Amount": 2
+                        },
+                        {
+                            "Id": "GreatestForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                            "Modification": "Add",
+                            "Amount": 3
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 20
+        },
+
+        "wildflour.ateliercrops_seedmaker_chamomile": {
+            "Id": "wildflour.ateliercrops_seedmaker_chamomile",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "wildflour.ateliercrops_chamomile",
+                    "RequiredCount": 1
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.ateliercrops_chamomileseeds",
+                    "ItemId": "(O)wildflour.ateliercrops_chamomileseeds",
+                    "MinStack": 1,
+                    "MaxStack": 1,
+                    "StackModifiers": [
+                        {
+                            "Id": "GoodForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 5 6",
+                            "Modification": "Add",
+                            "Amount": 1
+                        },
+                        {
+                            "Id": "GreatForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 7 9",
+                            "Modification": "Add",
+                            "Amount": 2
+                        },
+                        {
+                            "Id": "GreatestForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                            "Modification": "Add",
+                            "Amount": 3
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 20
+        },
+
+        "wildflour.ateliercrops_seedmaker_lavender": {
+            "Id": "wildflour.ateliercrops_seedmaker_lavender",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "wildflour.ateliercrops_lavender",
+                    "RequiredCount": 1
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.ateliercrops_lavenderseeds",
+                    "ItemId": "(O)wildflour.ateliercrops_lavenderseeds",
+                    "MinStack": 1,
+                    "MaxStack": 1,
+                    "StackModifiers": [
+                        {
+                            "Id": "GoodForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 5 6",
+                            "Modification": "Add",
+                            "Amount": 1
+                        },
+                        {
+                            "Id": "GreatForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 7 9",
+                            "Modification": "Add",
+                            "Amount": 2
+                        },
+                        {
+                            "Id": "GreatestForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                            "Modification": "Add",
+                            "Amount": 3
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 20
+        },
+
+        "wildflour.ateliercrops_seedmaker_jasmine": {
+            "Id": "wildflour.ateliercrops_seedmaker_jasmine",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "wildflour.ateliercrops_jasmine",
+                    "RequiredCount": 1
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.ateliercrops_jasmineseeds",
+                    "ItemId": "(O)wildflour.ateliercrops_jasmineseeds",
+                    "MinStack": 1,
+                    "MaxStack": 1,
+                    "StackModifiers": [
+                        {
+                            "Id": "GoodForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 5 6",
+                            "Modification": "Add",
+                            "Amount": 1
+                        },
+                        {
+                            "Id": "GreatForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 7 9",
+                            "Modification": "Add",
+                            "Amount": 2
+                        },
+                        {
+                            "Id": "GreatestForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                            "Modification": "Add",
+                            "Amount": 3
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 20
+        },
+
+        "wildflour.ateliercrops_seedmaker_rosemary": {
+            "Id": "wildflour.ateliercrops_seedmaker_rosemary",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "wildflour.ateliercrops_rosemary",
+                    "RequiredCount": 1
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.ateliercrops_rosemaryseeds",
+                    "ItemId": "(O)wildflour.ateliercrops_rosemaryseeds",
+                    "MinStack": 1,
+                    "MaxStack": 1,
+                    "StackModifiers": [
+                        {
+                            "Id": "GoodForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 5 6",
+                            "Modification": "Add",
+                            "Amount": 1
+                        },
+                        {
+                            "Id": "GreatForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 7 9",
+                            "Modification": "Add",
+                            "Amount": 2
+                        },
+                        {
+                            "Id": "GreatestForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                            "Modification": "Add",
+                            "Amount": 3
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 20
+        },
+
+        "wildflour.ateliercrops_seedmaker_honeyfungus": {
+            "Id": "wildflour.ateliercrops_seedmaker_honeyfungus",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "wildflour.ateliercrops_honeyfungus",
+                    "RequiredCount": 1
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.ateliercrops_honeyfungusseeds",
+                    "ItemId": "(O)wildflour.ateliercrops_honeyfungusseeds",
+                    "MinStack": 1,
+                    "MaxStack": 1,
+                    "StackModifiers": [
+                        {
+                            "Id": "GoodForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 5 6",
+                            "Modification": "Add",
+                            "Amount": 1
+                        },
+                        {
+                            "Id": "GreatForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 7 9",
+                            "Modification": "Add",
+                            "Amount": 2
+                        },
+                        {
+                            "Id": "GreatestForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                            "Modification": "Add",
+                            "Amount": 3
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 20
+        },
+
+        "wildflour.ateliercrops_seedmaker_thyme": {
+            "Id": "wildflour.ateliercrops_seedmaker_thyme",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "wildflour.ateliercrops_thyme",
+                    "RequiredCount": 1
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.ateliercrops_thymeseeds",
+                    "ItemId": "(O)wildflour.ateliercrops_thymeseeds",
+                    "MinStack": 1,
+                    "MaxStack": 1,
+                    "StackModifiers": [
+                        {
+                            "Id": "GoodForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 5 6",
+                            "Modification": "Add",
+                            "Amount": 1
+                        },
+                        {
+                            "Id": "GreatForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 7 9",
+                            "Modification": "Add",
+                            "Amount": 2
+                        },
+                        {
+                            "Id": "GreatestForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                            "Modification": "Add",
+                            "Amount": 3
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 20
+        },
+
+        "wildflour.ateliercrops_seedmaker_mallow": {
+            "Id": "wildflour.ateliercrops_seedmaker_mallow",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "wildflour.ateliercrops_mallow",
+                    "RequiredCount": 1
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.ateliercrops_mallowseeds",
+                    "ItemId": "(O)wildflour.ateliercrops_mallowseeds",
+                    "MinStack": 1,
+                    "MaxStack": 1,
+                    "StackModifiers": [
+                        {
+                            "Id": "GoodForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 5 6",
+                            "Modification": "Add",
+                            "Amount": 1
+                        },
+                        {
+                            "Id": "GreatForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 7 9",
+                            "Modification": "Add",
+                            "Amount": 2
+                        },
+                        {
+                            "Id": "GreatestForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                            "Modification": "Add",
+                            "Amount": 3
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 20
+        },
+
+        "wildflour.ateliercrops_seedmaker_meringueshroom": {
+            "Id": "wildflour.ateliercrops_seedmaker_meringueshroom",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "wildflour.ateliercrops_meringueshroom",
+                    "RequiredCount": 1
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.ateliercrops_meringueshroomseeds",
+                    "ItemId": "(O)wildflour.ateliercrops_meringueshroomseeds",
+                    "MinStack": 1,
+                    "MaxStack": 1,
+                    "StackModifiers": [
+                        {
+                            "Id": "GoodForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 5 6",
+                            "Modification": "Add",
+                            "Amount": 1
+                        },
+                        {
+                            "Id": "GreatForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 7 9",
+                            "Modification": "Add",
+                            "Amount": 2
+                        },
+                        {
+                            "Id": "GreatestForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                            "Modification": "Add",
+                            "Amount": 3
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 20
+        },
+
+        "wildflour.ateliercrops_seedmaker_milkshroom": {
+            "Id": "wildflour.ateliercrops_seedmaker_milkshroom",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "wildflour.ateliercrops_milkshroom",
+                    "RequiredCount": 1
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.ateliercrops_milkshroomseeds",
+                    "ItemId": "(O)wildflour.ateliercrops_milkshroomseeds",
+                    "MinStack": 1,
+                    "MaxStack": 1,
+                    "StackModifiers": [
+                        {
+                            "Id": "GoodForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 5 6",
+                            "Modification": "Add",
+                            "Amount": 1
+                        },
+                        {
+                            "Id": "GreatForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 7 9",
+                            "Modification": "Add",
+                            "Amount": 2
+                        },
+                        {
+                            "Id": "GreatestForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                            "Modification": "Add",
+                            "Amount": 3
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 20
+        },
+
+        "wildflour.ateliercrops_seedmaker_mint": {
+            "Id": "wildflour.ateliercrops_seedmaker_mint",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "wildflour.ateliercrops_mint",
+                    "RequiredCount": 1
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.ateliercrops_mintseeds",
+                    "ItemId": "(O)wildflour.ateliercrops_mintseeds",
+                    "MinStack": 1,
+                    "MaxStack": 1,
+                    "StackModifiers": [
+                        {
+                            "Id": "GoodForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 5 6",
+                            "Modification": "Add",
+                            "Amount": 1
+                        },
+                        {
+                            "Id": "GreatForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 7 9",
+                            "Modification": "Add",
+                            "Amount": 2
+                        },
+                        {
+                            "Id": "GreatestForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                            "Modification": "Add",
+                            "Amount": 3
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 20
+        },
+
+        "wildflour.ateliercrops_seedmaker_basil": {
+            "Id": "wildflour.ateliercrops_seedmaker_basil",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "wildflour.ateliercrops_basil",
+                    "RequiredCount": 1
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.ateliercrops_basilseeds",
+                    "ItemId": "(O)wildflour.ateliercrops_basilseeds",
+                    "MinStack": 1,
+                    "MaxStack": 1,
+                    "StackModifiers": [
+                        {
+                            "Id": "GoodForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 5 6",
+                            "Modification": "Add",
+                            "Amount": 1
+                        },
+                        {
+                            "Id": "GreatForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 7 9",
+                            "Modification": "Add",
+                            "Amount": 2
+                        },
+                        {
+                            "Id": "GreatestForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                            "Modification": "Add",
+                            "Amount": 3
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 20
+        },
+
+        "wildflour.ateliercrops_seedmaker_wheatshroom": {
+            "Id": "wildflour.ateliercrops_seedmaker_wheatshroom",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "wildflour.ateliercrops_wheatshroom",
+                    "RequiredCount": 1
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.ateliercrops_wheatshroomseeds",
+                    "ItemId": "(O)wildflour.ateliercrops_wheatshroomseeds",
+                    "MinStack": 1,
+                    "MaxStack": 1,
+                    "StackModifiers": [
+                        {
+                            "Id": "GoodForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 5 6",
+                            "Modification": "Add",
+                            "Amount": 1
+                        },
+                        {
+                            "Id": "GreatForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 7 9",
+                            "Modification": "Add",
+                            "Amount": 2
+                        },
+                        {
+                            "Id": "GreatestForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                            "Modification": "Add",
+                            "Amount": 3
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 20
+        },
+
+        "wildflour.ateliercrops_seedmaker_raspberry": {
+            "Id": "wildflour.ateliercrops_seedmaker_raspberry",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "wildflour.ateliercrops_raspberry",
+                    "RequiredCount": 1
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.ateliercrops_raspberryseeds",
+                    "ItemId": "(O)wildflour.ateliercrops_raspberryseeds",
+                    "MinStack": 1,
+                    "MaxStack": 1,
+                    "StackModifiers": [
+                        {
+                            "Id": "GoodForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 5 6",
+                            "Modification": "Add",
+                            "Amount": 1
+                        },
+                        {
+                            "Id": "GreatForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 7 9",
+                            "Modification": "Add",
+                            "Amount": 2
+                        },
+                        {
+                            "Id": "GreatestForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                            "Modification": "Add",
+                            "Amount": 3
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 20
+        },
+
+        "wildflour.ateliercrops_seedmaker_redonion": {
+            "Id": "wildflour.ateliercrops_seedmaker_redonion",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "wildflour.ateliercrops_redonion",
+                    "RequiredCount": 1
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.ateliercrops_redonionseeds",
+                    "ItemId": "(O)wildflour.ateliercrops_redonionseeds",
+                    "MinStack": 1,
+                    "MaxStack": 1,
+                    "StackModifiers": [
+                        {
+                            "Id": "GoodForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 5 6",
+                            "Modification": "Add",
+                            "Amount": 1
+                        },
+                        {
+                            "Id": "GreatForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 7 9",
+                            "Modification": "Add",
+                            "Amount": 2
+                        },
+                        {
+                            "Id": "GreatestForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                            "Modification": "Add",
+                            "Amount": 3
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 20
+        },
+
+        "wildflour.ateliercrops_seedmaker_strawberry": {
+            "Id": "wildflour.ateliercrops_seedmaker_strawberry",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "wildflour.ateliercrops_strawberry",
+                    "RequiredCount": 1
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.ateliercrops_strawberryseeds",
+                    "ItemId": "(O)wildflour.ateliercrops_strawberryseeds",
+                    "MinStack": 1,
+                    "MaxStack": 1,
+                    "StackModifiers": [
+                        {
+                            "Id": "GoodForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 5 6",
+                            "Modification": "Add",
+                            "Amount": 1
+                        },
+                        {
+                            "Id": "GreatForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 7 9",
+                            "Modification": "Add",
+                            "Amount": 2
+                        },
+                        {
+                            "Id": "GreatestForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                            "Modification": "Add",
+                            "Amount": 3
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 20
+        },
+
+        "wildflour.ateliercrops_seedmaker_wormwood": {
+            "Id": "wildflour.ateliercrops_seedmaker_wormwood",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "wildflour.ateliercrops_wormwood",
+                    "RequiredCount": 1
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.ateliercrops_wormwoodseeds",
+                    "ItemId": "(O)wildflour.ateliercrops_wormwoodseeds",
+                    "MinStack": 1,
+                    "MaxStack": 1,
+                    "StackModifiers": [
+                        {
+                            "Id": "GoodForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 5 6",
+                            "Modification": "Add",
+                            "Amount": 1
+                        },
+                        {
+                            "Id": "GreatForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 7 9",
+                            "Modification": "Add",
+                            "Amount": 2
+                        },
+                        {
+                            "Id": "GreatestForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                            "Modification": "Add",
+                            "Amount": 3
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 20
+        },
+
+        "wildflour.ateliercrops_seedmaker_pistachio": {
+            "Id": "wildflour.ateliercrops_seedmaker_pistachio",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "wildflour.ateliercrops_pistachio",
+                    "RequiredCount": 3
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.ateliercrops_pistachiosapling",
+                    "ItemId": "(O)wildflour.ateliercrops_pistachiosapling",
+                    "MinStack": 1,
+                    "MaxStack": 1,
+                    "StackModifiers": [
+                        {
+                            "Id": "GreatestForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                            "Modification": "Add",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 20
+        },
+
+        "wildflour.ateliercrops_seedmaker_olive": {
+            "Id": "wildflour.ateliercrops_seedmaker_olive",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "wildflour.ateliercrops_olive",
+                    "RequiredCount": 3
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.ateliercrops_olivesapling",
+                    "ItemId": "(O)wildflour.ateliercrops_olivesapling",
+                    "MinStack": 1,
+                    "MaxStack": 1,
+                    "StackModifiers": [
+                        {
+                            "Id": "GreatestForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                            "Modification": "Add",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 20
+        },
+
+        "wildflour.ateliercrops_seedmaker_cashew": {
+            "Id": "wildflour.ateliercrops_seedmaker_cashew",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "wildflour.ateliercrops_cashew",
+                    "RequiredCount": 3
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.ateliercrops_cashewsapling",
+                    "ItemId": "(O)wildflour.ateliercrops_cashewsapling",
+                    "MinStack": 1,
+                    "MaxStack": 1,
+                    "StackModifiers": [
+                        {
+                            "Id": "GreatestForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                            "Modification": "Add",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 20
+        },
+
+        "wildflour.ateliercrops_seedmaker_walnut": {
+            "Id": "wildflour.ateliercrops_seedmaker_walnut",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "wildflour.ateliercrops_walnut",
+                    "RequiredCount": 3
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.ateliercrops_walnutsapling",
+                    "ItemId": "(O)wildflour.ateliercrops_walnutsapling",
+                    "MinStack": 1,
+                    "MaxStack": 1,
+                    "StackModifiers": [
+                        {
+                            "Id": "GreatestForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                            "Modification": "Add",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 20
+        },
+
+        "wildflour.ateliercrops_seedmaker_lemon": {
+            "Id": "wildflour.ateliercrops_seedmaker_lemon",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "wildflour.ateliercrops_lemon",
+                    "RequiredCount": 3
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.ateliercrops_lemonsapling",
+                    "ItemId": "(O)wildflour.ateliercrops_lemonsapling",
+                    "MinStack": 1,
+                    "MaxStack": 1,
+                    "StackModifiers": [
+                        {
+                            "Id": "GreatestForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                            "Modification": "Add",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 20
+        },
+
+        "wildflour.ateliercrops_seedmaker_lime": {
+            "Id": "wildflour.ateliercrops_seedmaker_lime",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "wildflour.ateliercrops_lime",
+                    "RequiredCount": 3
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.ateliercrops_limesapling",
+                    "ItemId": "(O)wildflour.ateliercrops_limesapling",
+                    "MinStack": 1,
+                    "MaxStack": 1,
+                    "StackModifiers": [
+                        {
+                            "Id": "GreatestForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                            "Modification": "Add",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 20
+        },
+
+        "wildflour.ateliercrops_seedmaker_almond": {
+            "Id": "wildflour.ateliercrops_seedmaker_almond",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "wildflour.ateliercrops_almond",
+                    "RequiredCount": 3
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.ateliercrops_almondsapling",
+                    "ItemId": "(O)wildflour.ateliercrops_almondsapling",
+                    "MinStack": 1,
+                    "MaxStack": 1,
+                    "StackModifiers": [
+                        {
+                            "Id": "GreatestForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                            "Modification": "Add",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 20
+        },
+
+        "wildflour.ateliercrops_seedmaker_cacaopod": {
+            "Id": "wildflour.ateliercrops_seedmaker_cacaopod",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "wildflour.ateliercrops_cacaopod",
+                    "RequiredCount": 3
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.ateliercrops_cacaopodsapling",
+                    "ItemId": "(O)wildflour.ateliercrops_cacaopodsapling",
+                    "MinStack": 1,
+                    "MaxStack": 1,
+                    "StackModifiers": [
+                        {
+                            "Id": "GreatestForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                            "Modification": "Add",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 20
+        },
+    },
+    "MoveEntries": [
+        {
+            "ID": "wildflour.ateliercrops_seedmaker_almond",
+            "BeforeId": "Default"
+        },
+        {
+            "ID": "wildflour.ateliercrops_seedmaker_pistachio",
+            "BeforeId": "Default"
+        },
+        {
+            "ID": "wildflour.ateliercrops_seedmaker_olive",
+            "BeforeId": "Default"
+        },
+        {
+            "ID": "wildflour.ateliercrops_seedmaker_cashew",
+            "BeforeId": "Default"
+        },
+        {
+            "ID": "wildflour.ateliercrops_seedmaker_walnut",
+            "BeforeId": "Default"
+        },
+        {
+            "ID": "wildflour.ateliercrops_seedmaker_lemon",
+            "BeforeId": "Default"
+        },
+        {
+            "ID": "wildflour.ateliercrops_seedmaker_lime",
+            "BeforeId": "Default"
+        },
+        {
+            "ID": "wildflour.ateliercrops_seedmaker_cacaopod",
+            "BeforeId": "Default"
+        }
+    ]
+},
+
+//add mushroom rules for preserves maker
+
+{
+    "LogName": "Wild Food Mushroom Rules Preserves Jar",
+    "Action": "EditData",
+    "Target": "Data/Machines",
+    "TargetField": ["(BC)15", "OutputRules"],
+    "Entries": {
+        "wildflour.ateliercrops_preservesjar_chickenwoods": {
+            "Id": "wildflour.ateliercrops_preservesjar_chickenwoods",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "wildflour.ateliercrops_chickenwoods",
+                    "RequiredCount": 1
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "Egg",
+                    "ItemId": "(O)176",
+                    "MinStack": 1,
+                    "MaxStack": 1,
+                    "StackModifiers": [
+                        {
+                            "Id": "GoodForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 5 6",
+                            "Modification": "Add",
+                            "Amount": 1
+                        },
+                        {
+                            "Id": "GreatForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 7 9",
+                            "Modification": "Add",
+                            "Amount": 2
+                        },
+                        {
+                            "Id": "GreatestForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                            "Modification": "Add",
+                            "Amount": 3
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 20
+        },
+        "wildflour.ateliercrops_preservesjar_honeyfungus": {
+            "Id": "wildflour.ateliercrops_preservesjar_honeyfungus",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "wildflour.ateliercrops_honeyfungus",
+                    "RequiredCount": 1
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "Honey",
+                    "ItemId": "(O)340",
+                    "MinStack": 1,
+                    "MaxStack": 1,
+                    "StackModifiers": [
+                        {
+                            "Id": "GoodForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 5 6",
+                            "Modification": "Add",
+                            "Amount": 1
+                        },
+                        {
+                            "Id": "GreatForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 7 9",
+                            "Modification": "Add",
+                            "Amount": 2
+                        },
+                        {
+                            "Id": "GreatestForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                            "Modification": "Add",
+                            "Amount": 3
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 20
+        },
+        "wildflour.ateliercrops_preservesjar_meringueshroom": {
+            "Id": "wildflour.ateliercrops_preservesjar_meringueshroom",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "wildflour.ateliercrops_meringueshroom",
+                    "RequiredCount": 1
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "Sugar",
+                    "ItemId": "(O)245",
+                    "MinStack": 1,
+                    "MaxStack": 1,
+                    "StackModifiers": [
+                        {
+                            "Id": "GoodForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 5 6",
+                            "Modification": "Add",
+                            "Amount": 1
+                        },
+                        {
+                            "Id": "GreatForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 7 9",
+                            "Modification": "Add",
+                            "Amount": 2
+                        },
+                        {
+                            "Id": "GreatestForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                            "Modification": "Add",
+                            "Amount": 3
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 20
+        },
+        "wildflour.ateliercrops_preservesjar_milkshroom": {
+            "Id": "wildflour.ateliercrops_preservesjar_milkshroom",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "wildflour.ateliercrops_milkshroom",
+                    "RequiredCount": 1
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "Milk",
+                    "ItemId": "(O)184",
+                    "MinStack": 1,
+                    "MaxStack": 1,
+                    "StackModifiers": [
+                        {
+                            "Id": "GoodForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 5 6",
+                            "Modification": "Add",
+                            "Amount": 1
+                        },
+                        {
+                            "Id": "GreatForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 7 9",
+                            "Modification": "Add",
+                            "Amount": 2
+                        },
+                        {
+                            "Id": "GreatestForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                            "Modification": "Add",
+                            "Amount": 3
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 20
+        },
+        "wildflour.ateliercrops_preservesjar_wheatshroom": {
+                    "Id": "wildflour.ateliercrops_preservesjar_wheatshroom",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "wildflour.ateliercrops_wheatshroom",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "Wheat Flour",
+                            "ItemId": "(O)246",
+                            "MinStack": 1,
+                            "MaxStack": 1,
+                            "StackModifiers": [
+                                {
+                                    "Id": "GoodForager",
+                                    "Condition": "PLAYER_FORAGING_LEVEL Any 5 6",
+                                    "Modification": "Add",
+                                    "Amount": 1
+                                },
+                                {
+                                    "Id": "GreatForager",
+                                    "Condition": "PLAYER_FORAGING_LEVEL Any 7 9",
+                                    "Modification": "Add",
+                                    "Amount": 2
+                                },
+                                {
+                                    "Id": "GreatestForager",
+                                    "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                                    "Modification": "Add",
+                                    "Amount": 3
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 20
+        }
+    },
+    "MoveEntries": [
+        {
+            "ID": "wildflour.ateliercrops_preservesjar_chickenwoods",
+            "BeforeId": "Default_Pickled"
+        },
+        {
+            "ID": "wildflour.ateliercrops_preservesjar_honeyfungus",
+            "BeforeId": "Default_Pickled"
+        },
+        {
+            "ID": "wildflour.ateliercrops_preservesjar_meringueshroom",
+            "BeforeId": "Default_Pickled"
+        },
+        {
+            "ID": "wildflour.ateliercrops_preservesjar_milkshroom",
+            "BeforeId": "Default_Pickled"
+        },
+        {
+            "ID": "wildflour.ateliercrops_preservesjar_wheatshroom",
+            "BeforeId": "Default_Pickled"
+        }
+    ]
+},
+
+
+{
+    "LogName": "Add Faerie Garden Seeds to Seed Maker",
+    "Action": "EditData",
+    "Target": "Data/Machines",
+    "TargetField": ["(BC)25", "OutputRules"],
+    "Entries": {
+
+        "wildflour.ateliercrops_seedmaker_amber_moondrop": {
+            "Id": "wildflour.ateliercrops_seedmaker_amber_moondrop",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "wildflour.ateliercrops_amber_moondrop",
+                    "RequiredCount": 1
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.ateliercrops_amber_moondrop_seeds",
+                    "ItemId": "(O)wildflour.ateliercrops_amber_moondrop_seeds",
+                    "MinStack": 1,
+                    "MaxStack": 1,
+                    "StackModifiers": [
+                        {
+                            "Id": "GoodForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 5 6",
+                            "Modification": "Add",
+                            "Amount": 1
+                        },
+                        {
+                            "Id": "GreatForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 7 9",
+                            "Modification": "Add",
+                            "Amount": 2
+                        },
+                        {
+                            "Id": "GreatestForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                            "Modification": "Add",
+                            "Amount": 3
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 20
+        },
+
+        "wildflour.ateliercrops_seedmaker_arctic_fox": {
+            "Id": "wildflour.ateliercrops_seedmaker_arctic_fox",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "wildflour.ateliercrops_arctic_fox",
+                    "RequiredCount": 1
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.ateliercrops_arctic_fox_seeds",
+                    "ItemId": "(O)wildflour.ateliercrops_arctic_fox_seeds",
+                    "MinStack": 1,
+                    "MaxStack": 1,
+                    "StackModifiers": [
+                        {
+                            "Id": "GoodForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 5 6",
+                            "Modification": "Add",
+                            "Amount": 1
+                        },
+                        {
+                            "Id": "GreatForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 7 9",
+                            "Modification": "Add",
+                            "Amount": 2
+                        },
+                        {
+                            "Id": "GreatestForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                            "Modification": "Add",
+                            "Amount": 3
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 20
+        },
+      
+        "wildflour.ateliercrops_seedmaker_avalune": {
+            "Id": "wildflour.ateliercrops_seedmaker_avalune",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "wildflour.ateliercrops_avalune",
+                    "RequiredCount": 1
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.ateliercrops_avalune_seeds",
+                    "ItemId": "(O)wildflour.ateliercrops_avalune_seeds",
+                    "MinStack": 1,
+                    "MaxStack": 1,
+                    "StackModifiers": [
+                        {
+                            "Id": "GoodForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 5 6",
+                            "Modification": "Add",
+                            "Amount": 1
+                        },
+                        {
+                            "Id": "GreatForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 7 9",
+                            "Modification": "Add",
+                            "Amount": 2
+                        },
+                        {
+                            "Id": "GreatestForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                            "Modification": "Add",
+                            "Amount": 3
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 20
+        },
+      
+        "wildflour.ateliercrops_seedmaker_puffball": {
+            "Id": "wildflour.ateliercrops_seedmaker_puffball",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "wildflour.ateliercrops_puffball",
+                    "RequiredCount": 1
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.ateliercrops_puffball_seeds",
+                    "ItemId": "(O)wildflour.ateliercrops_puffball_seeds",
+                    "MinStack": 1,
+                    "MaxStack": 1,
+                    "StackModifiers": [
+                        {
+                            "Id": "GoodForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 5 6",
+                            "Modification": "Add",
+                            "Amount": 1
+                        },
+                        {
+                            "Id": "GreatForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 7 9",
+                            "Modification": "Add",
+                            "Amount": 2
+                        },
+                        {
+                            "Id": "GreatestForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                            "Modification": "Add",
+                            "Amount": 3
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 20
+        },
+
+        "wildflour.ateliercrops_seedmaker_jade_moondrop": {
+            "Id": "wildflour.ateliercrops_seedmaker_jade_moondrop",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "wildflour.ateliercrops_jade_moondrop",
+                    "RequiredCount": 1
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.ateliercrops_jade_moondrop_seeds",
+                    "ItemId": "(O)wildflour.ateliercrops_jade_moondrop_seeds",
+                    "MinStack": 1,
+                    "MaxStack": 1,
+                    "StackModifiers": [
+                        {
+                            "Id": "GoodForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 5 6",
+                            "Modification": "Add",
+                            "Amount": 1
+                        },
+                        {
+                            "Id": "GreatForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 7 9",
+                            "Modification": "Add",
+                            "Amount": 2
+                        },
+                        {
+                            "Id": "GreatestForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                            "Modification": "Add",
+                            "Amount": 3
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 20
+        },
+
+        "wildflour.ateliercrops_seedmaker_lapis_moondrop": {
+            "Id": "wildflour.ateliercrops_seedmaker_lapis_moondrop",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "wildflour.ateliercrops_lapis_moondrop",
+                    "RequiredCount": 1
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.ateliercrops_lapis_moondrop_seeds",
+                    "ItemId": "(O)wildflour.ateliercrops_lapis_moondrop_seeds",
+                    "MinStack": 1,
+                    "MaxStack": 1,
+                    "StackModifiers": [
+                        {
+                            "Id": "GoodForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 5 6",
+                            "Modification": "Add",
+                            "Amount": 1
+                        },
+                        {
+                            "Id": "GreatForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 7 9",
+                            "Modification": "Add",
+                            "Amount": 2
+                        },
+                        {
+                            "Id": "GreatestForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                            "Modification": "Add",
+                            "Amount": 3
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 20
+        },
+
+        "wildflour.ateliercrops_seedmaker_mandrake": {
+            "Id": "wildflour.ateliercrops_seedmaker_mandrake",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "wildflour.ateliercrops_mandrake",
+                    "RequiredCount": 1
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.ateliercrops_mandrake_seeds",
+                    "ItemId": "(O)wildflour.ateliercrops_mandrake_seeds",
+                    "MinStack": 1,
+                    "MaxStack": 1,
+                    "StackModifiers": [
+                        {
+                            "Id": "GoodForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 5 6",
+                            "Modification": "Add",
+                            "Amount": 1
+                        },
+                        {
+                            "Id": "GreatForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 7 9",
+                            "Modification": "Add",
+                            "Amount": 2
+                        },
+                        {
+                            "Id": "GreatestForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                            "Modification": "Add",
+                            "Amount": 3
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 20
+        },
+
+        "wildflour.ateliercrops_seedmaker_flutter": {
+            "Id": "wildflour.ateliercrops_seedmaker_flutter",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "wildflour.ateliercrops_flutter",
+                    "RequiredCount": 1
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.ateliercrops_flutter_seeds",
+                    "ItemId": "(O)wildflour.ateliercrops_flutter_seeds",
+                    "MinStack": 1,
+                    "MaxStack": 1,
+                    "StackModifiers": [
+                        {
+                            "Id": "GoodForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 5 6",
+                            "Modification": "Add",
+                            "Amount": 1
+                        },
+                        {
+                            "Id": "GreatForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 7 9",
+                            "Modification": "Add",
+                            "Amount": 2
+                        },
+                        {
+                            "Id": "GreatestForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                            "Modification": "Add",
+                            "Amount": 3
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 20
+        },
+
+        "wildflour.ateliercrops_seedmaker_maiden": {
+            "Id": "wildflour.ateliercrops_seedmaker_maiden",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "wildflour.ateliercrops_maiden",
+                    "RequiredCount": 1
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.ateliercrops_maiden_seeds",
+                    "ItemId": "(O)wildflour.ateliercrops_maiden_seeds",
+                    "MinStack": 1,
+                    "MaxStack": 1,
+                    "StackModifiers": [
+                        {
+                            "Id": "GoodForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 5 6",
+                            "Modification": "Add",
+                            "Amount": 1
+                        },
+                        {
+                            "Id": "GreatForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 7 9",
+                            "Modification": "Add",
+                            "Amount": 2
+                        },
+                        {
+                            "Id": "GreatestForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                            "Modification": "Add",
+                            "Amount": 3
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 20
+        },
+
+        "wildflour.ateliercrops_seedmaker_mugwort": {
+            "Id": "wildflour.ateliercrops_seedmaker_mugwort",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "wildflour.ateliercrops_mugwort",
+                    "RequiredCount": 1
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.ateliercrops_mugwort_seeds",
+                    "ItemId": "(O)wildflour.ateliercrops_mugwort_seeds",
+                    "MinStack": 1,
+                    "MaxStack": 1,
+                    "StackModifiers": [
+                        {
+                            "Id": "GoodForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 5 6",
+                            "Modification": "Add",
+                            "Amount": 1
+                        },
+                        {
+                            "Id": "GreatForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 7 9",
+                            "Modification": "Add",
+                            "Amount": 2
+                        },
+                        {
+                            "Id": "GreatestForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                            "Modification": "Add",
+                            "Amount": 3
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 20
+        },
+
+        "wildflour.ateliercrops_seedmaker_pearl_moondrop": {
+            "Id": "wildflour.ateliercrops_seedmaker_pearl_moondrop",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "wildflour.ateliercrops_pearl_moondrop",
+                    "RequiredCount": 1
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.ateliercrops_pearl_moondrop_seeds",
+                    "ItemId": "(O)wildflour.ateliercrops_pearl_moondrop_seeds",
+                    "MinStack": 1,
+                    "MaxStack": 1,
+                    "StackModifiers": [
+                        {
+                            "Id": "GoodForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 5 6",
+                            "Modification": "Add",
+                            "Amount": 1
+                        },
+                        {
+                            "Id": "GreatForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 7 9",
+                            "Modification": "Add",
+                            "Amount": 2
+                        },
+                        {
+                            "Id": "GreatestForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                            "Modification": "Add",
+                            "Amount": 3
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 20
+        },
+
+        "wildflour.ateliercrops_seedmaker_pixies_breath": {
+            "Id": "wildflour.ateliercrops_seedmaker_pixies_breath",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "wildflour.ateliercrops_pixies_breath",
+                    "RequiredCount": 1
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.ateliercrops_pixies_breath_seeds",
+                    "ItemId": "(O)wildflour.ateliercrops_pixies_breath_seeds",
+                    "MinStack": 1,
+                    "MaxStack": 1,
+                    "StackModifiers": [
+                        {
+                            "Id": "GoodForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 5 6",
+                            "Modification": "Add",
+                            "Amount": 1
+                        },
+                        {
+                            "Id": "GreatForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 7 9",
+                            "Modification": "Add",
+                            "Amount": 2
+                        },
+                        {
+                            "Id": "GreatestForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                            "Modification": "Add",
+                            "Amount": 3
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 20
+        },
+
+        "wildflour.ateliercrops_seedmaker_rose_flax": {
+            "Id": "wildflour.ateliercrops_seedmaker_rose_flax",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "wildflour.ateliercrops_rose_flax",
+                    "RequiredCount": 1
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.ateliercrops_rose_flax_seeds",
+                    "ItemId": "(O)wildflour.ateliercrops_rose_flax_seeds",
+                    "MinStack": 1,
+                    "MaxStack": 1,
+                    "StackModifiers": [
+                        {
+                            "Id": "GoodForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 5 6",
+                            "Modification": "Add",
+                            "Amount": 1
+                        },
+                        {
+                            "Id": "GreatForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 7 9",
+                            "Modification": "Add",
+                            "Amount": 2
+                        },
+                        {
+                            "Id": "GreatestForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                            "Modification": "Add",
+                            "Amount": 3
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 20
+        },
+
+        "wildflour.ateliercrops_seedmaker_faewings": {
+            "Id": "wildflour.ateliercrops_seedmaker_faewings",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "wildflour.ateliercrops_faewings",
+                    "RequiredCount": 1
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.ateliercrops_faewings_seeds",
+                    "ItemId": "(O)wildflour.ateliercrops_faewings_seeds",
+                    "MinStack": 1,
+                    "MaxStack": 1,
+                    "StackModifiers": [
+                        {
+                            "Id": "GoodForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 5 6",
+                            "Modification": "Add",
+                            "Amount": 1
+                        },
+                        {
+                            "Id": "GreatForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 7 9",
+                            "Modification": "Add",
+                            "Amount": 2
+                        },
+                        {
+                            "Id": "GreatestForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                            "Modification": "Add",
+                            "Amount": 3
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 20
+        },
+
+        "wildflour.ateliercrops_seedmaker_thistle": {
+            "Id": "wildflour.ateliercrops_seedmaker_thistle",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "wildflour.ateliercrops_thistle",
+                    "RequiredCount": 1
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.ateliercrops_thistle_seeds",
+                    "ItemId": "(O)wildflour.ateliercrops_thistle_seeds",
+                    "MinStack": 1,
+                    "MaxStack": 1,
+                    "StackModifiers": [
+                        {
+                            "Id": "GoodForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 5 6",
+                            "Modification": "Add",
+                            "Amount": 1
+                        },
+                        {
+                            "Id": "GreatForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 7 9",
+                            "Modification": "Add",
+                            "Amount": 2
+                        },
+                        {
+                            "Id": "GreatestForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                            "Modification": "Add",
+                            "Amount": 3
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 20
+        },
+
+        "wildflour.ateliercrops_seedmaker_valerian": {
+            "Id": "wildflour.ateliercrops_seedmaker_valerian",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "wildflour.ateliercrops_valerian",
+                    "RequiredCount": 1
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.ateliercrops_valerian_seeds",
+                    "ItemId": "(O)wildflour.ateliercrops_valerian_seeds",
+                    "MinStack": 1,
+                    "MaxStack": 1,
+                    "StackModifiers": [
+                        {
+                            "Id": "GoodForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 5 6",
+                            "Modification": "Add",
+                            "Amount": 1
+                        },
+                        {
+                            "Id": "GreatForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 7 9",
+                            "Modification": "Add",
+                            "Amount": 2
+                        },
+                        {
+                            "Id": "GreatestForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                            "Modification": "Add",
+                            "Amount": 3
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 20
+        },
+
+        "wildflour.ateliercrops_seedmaker_violet_flax": {
+            "Id": "wildflour.ateliercrops_seedmaker_violet_flax",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "wildflour.ateliercrops_violet_flax",
+                    "RequiredCount": 1
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.ateliercrops_violet_flax_seeds",
+                    "ItemId": "(O)wildflour.ateliercrops_violet_flax_seeds",
+                    "MinStack": 1,
+                    "MaxStack": 1,
+                    "StackModifiers": [
+                        {
+                            "Id": "GoodForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 5 6",
+                            "Modification": "Add",
+                            "Amount": 1
+                        },
+                        {
+                            "Id": "GreatForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 7 9",
+                            "Modification": "Add",
+                            "Amount": 2
+                        },
+                        {
+                            "Id": "GreatestForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                            "Modification": "Add",
+                            "Amount": 3
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 20
+        },
+
+        "wildflour.ateliercrops_seedmaker_yarrow": {
+            "Id": "wildflour.ateliercrops_seedmaker_yarrow",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "wildflour.ateliercrops_yarrow",
+                    "RequiredCount": 1
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.ateliercrops_yarrow_seeds",
+                    "ItemId": "(O)wildflour.ateliercrops_yarrow_seeds",
+                    "MinStack": 1,
+                    "MaxStack": 1,
+                    "StackModifiers": [
+                        {
+                            "Id": "GoodForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 5 6",
+                            "Modification": "Add",
+                            "Amount": 1
+                        },
+                        {
+                            "Id": "GreatForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 7 9",
+                            "Modification": "Add",
+                            "Amount": 2
+                        },
+                        {
+                            "Id": "GreatestForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                            "Modification": "Add",
+                            "Amount": 3
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 20
+        },
+
+        "wildflour.ateliercrops_seedmaker_anise": {
+            "Id": "wildflour.ateliercrops_seedmaker_anise",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "wildflour.ateliercrops_anise",
+                    "RequiredCount": 3
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.ateliercrops_anise_sapling",
+                    "ItemId": "(O)wildflour.ateliercrops_anise_sapling",
+                    "MinStack": 1,
+                    "MaxStack": 1,
+                    "StackModifiers": [
+                        {
+                            "Id": "GoodForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 5 6",
+                            "Modification": "Add",
+                            "Amount": 1
+                        },
+                        {
+                            "Id": "GreatForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 7 9",
+                            "Modification": "Add",
+                            "Amount": 2
+                        },
+                        {
+                            "Id": "GreatestForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                            "Modification": "Add",
+                            "Amount": 3
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 20
+        },
+      
+        "wildflour.ateliercrops_seedmaker_elderberries": {
+            "Id": "wildflour.ateliercrops_seedmaker_elderberries",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "wildflour.ateliercrops_elderberries",
+                    "RequiredCount": 3
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.ateliercrops_elder_sapling",
+                    "ItemId": "(O)wildflour.ateliercrops_elder_sapling",
+                    "MinStack": 1,
+                    "MaxStack": 1,
+                    "StackModifiers": [
+                        {
+                            "Id": "GoodForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 5 6",
+                            "Modification": "Add",
+                            "Amount": 1
+                        },
+                        {
+                            "Id": "GreatForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 7 9",
+                            "Modification": "Add",
+                            "Amount": 2
+                        },
+                        {
+                            "Id": "GreatestForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                            "Modification": "Add",
+                            "Amount": 3
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 20
+        },
+
+        "wildflour.ateliercrops_seedmaker_geranium": {
+            "Id": "wildflour.ateliercrops_seedmaker_geranium",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "wildflour.ateliercrops_geranium",
+                    "RequiredCount": 3
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.ateliercrops_geranium_sapling",
+                    "ItemId": "(O)wildflour.ateliercrops_geranium_sapling",
+                    "MinStack": 1,
+                    "MaxStack": 1,
+                    "StackModifiers": [
+                        {
+                            "Id": "GoodForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 5 6",
+                            "Modification": "Add",
+                            "Amount": 1
+                        },
+                        {
+                            "Id": "GreatForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 7 9",
+                            "Modification": "Add",
+                            "Amount": 2
+                        },
+                        {
+                            "Id": "GreatestForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                            "Modification": "Add",
+                            "Amount": 3
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 20
+        },
+
+        "wildflour.ateliercrops_seedmaker_daisy": {
+            "Id": "wildflour.ateliercrops_seedmaker_daisy",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "wildflour.ateliercrops_daisy",
+                    "RequiredCount": 3
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.ateliercrops_daisy_sapling",
+                    "ItemId": "(O)wildflour.ateliercrops_daisy_sapling",
+                    "MinStack": 1,
+                    "MaxStack": 1,
+                    "StackModifiers": [
+                        {
+                            "Id": "GoodForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 5 6",
+                            "Modification": "Add",
+                            "Amount": 1
+                        },
+                        {
+                            "Id": "GreatForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 7 9",
+                            "Modification": "Add",
+                            "Amount": 2
+                        },
+                        {
+                            "Id": "GreatestForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                            "Modification": "Add",
+                            "Amount": 3
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 20
+        },
+
+        "wildflour.ateliercrops_seedmaker_primrose": {
+            "Id": "wildflour.ateliercrops_seedmaker_primrose",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "wildflour.ateliercrops_primrose",
+                    "RequiredCount": 3
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.ateliercrops_primrose_sapling",
+                    "ItemId": "(O)wildflour.ateliercrops_primrose_sapling",
+                    "MinStack": 1,
+                    "MaxStack": 1,
+                    "StackModifiers": [
+                        {
+                            "Id": "GoodForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 5 6",
+                            "Modification": "Add",
+                            "Amount": 1
+                        },
+                        {
+                            "Id": "GreatForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 7 9",
+                            "Modification": "Add",
+                            "Amount": 2
+                        },
+                        {
+                            "Id": "GreatestForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                            "Modification": "Add",
+                            "Amount": 3
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 20
+        },
+
+        "wildflour.ateliercrops_seedmaker_chiffon": {
+            "Id": "wildflour.ateliercrops_seedmaker_chiffon",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "wildflour.ateliercrops_chiffon",
+                    "RequiredCount": 3
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.ateliercrops_chiffon_sapling",
+                    "ItemId": "(O)wildflour.ateliercrops_chiffon_sapling",
+                    "MinStack": 1,
+                    "MaxStack": 1,
+                    "StackModifiers": [
+                        {
+                            "Id": "GoodForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 5 6",
+                            "Modification": "Add",
+                            "Amount": 1
+                        },
+                        {
+                            "Id": "GreatForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 7 9",
+                            "Modification": "Add",
+                            "Amount": 2
+                        },
+                        {
+                            "Id": "GreatestForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                            "Modification": "Add",
+                            "Amount": 3
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 20
+        },  
+
+        "wildflour.ateliercrops_seedmaker_violet": {
+            "Id": "wildflour.ateliercrops_seedmaker_violet",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "wildflour.ateliercrops_violet",
+                    "RequiredCount": 3
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.ateliercrops_violet_sapling",
+                    "ItemId": "(O)wildflour.ateliercrops_violet_sapling",
+                    "MinStack": 1,
+                    "MaxStack": 1,
+                    "StackModifiers": [
+                        {
+                            "Id": "GoodForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 5 6",
+                            "Modification": "Add",
+                            "Amount": 1
+                        },
+                        {
+                            "Id": "GreatForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 7 9",
+                            "Modification": "Add",
+                            "Amount": 2
+                        },
+                        {
+                            "Id": "GreatestForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                            "Modification": "Add",
+                            "Amount": 3
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 20
+        },
+
+        "wildflour.ateliercrops_seedmaker_dawn_lily": {
+            "Id": "wildflour.ateliercrops_seedmaker_dawn_lily",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "wildflour.ateliercrops_dawn_lily",
+                    "RequiredCount": 3
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.ateliercrops_dawn_sapling",
+                    "ItemId": "(O)wildflour.ateliercrops_dawn_sapling",
+                    "MinStack": 1,
+                    "MaxStack": 1,
+                    "StackModifiers": [
+                        {
+                            "Id": "GoodForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 5 6",
+                            "Modification": "Add",
+                            "Amount": 1
+                        },
+                        {
+                            "Id": "GreatForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 7 9",
+                            "Modification": "Add",
+                            "Amount": 2
+                        },
+                        {
+                            "Id": "GreatestForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                            "Modification": "Add",
+                            "Amount": 3
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 20
+        },
+
+        "wildflour.ateliercrops_seedmaker_dusk_lily": {
+            "Id": "wildflour.ateliercrops_seedmaker_dusk_lily",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "wildflour.ateliercrops_dusk_lily",
+                    "RequiredCount": 3
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.ateliercrops_dusk_sapling",
+                    "ItemId": "(O)wildflour.ateliercrops_dusk_sapling",
+                    "MinStack": 1,
+                    "MaxStack": 1,
+                    "StackModifiers": [
+                        {
+                            "Id": "GoodForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 5 6",
+                            "Modification": "Add",
+                            "Amount": 1
+                        },
+                        {
+                            "Id": "GreatForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 7 9",
+                            "Modification": "Add",
+                            "Amount": 2
+                        },
+                        {
+                            "Id": "GreatestForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                            "Modification": "Add",
+                            "Amount": 3
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 20
+        }
+
+    },
+    "MoveEntries": [
+        {
+            "ID": "wildflour.ateliercrops_seedmaker_anise",
+            "BeforeId": "Default"
+        },
+        {
+            "ID": "wildflour.ateliercrops_seedmaker_elderberries",
+            "BeforeId": "Default"
+        },
+        {
+            "ID": "wildflour.ateliercrops_seedmaker_geranium",
+            "BeforeId": "Default"
+        },
+        {
+            "ID": "wildflour.ateliercrops_seedmaker_daisy",
+            "BeforeId": "Default"
+        },
+        {
+            "ID": "wildflour.ateliercrops_seedmaker_primrose",
+            "BeforeId": "Default"
+        },
+        {
+            "ID": "wildflour.ateliercrops_seedmaker_chiffon",
+            "BeforeId": "Default"
+        },
+        {
+            "ID": "wildflour.ateliercrops_seedmaker_violet",
+            "BeforeId": "Default"
+        },
+        {
+            "ID": "wildflour.ateliercrops_seedmaker_dawn_lily",
+            "BeforeId": "Default"
+        },
+        {
+            "ID": "wildflour.ateliercrops_seedmaker_dusk_lily",
+            "BeforeId": "Default"
+        }
+    ]
+}
+
+]
+}

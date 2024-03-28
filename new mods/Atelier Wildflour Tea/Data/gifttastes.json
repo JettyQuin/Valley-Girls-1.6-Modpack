@@ -1,0 +1,59 @@
+{
+    "Changes": [
+
+        {
+            "LogName": "Atelier Tea Gift Tastes",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+ 
+               
+
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields","Caroline", 1],
+                    "Value": "wildflour_tea_item",
+                    "Delimiter": " "
+                },
+
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields","Evelyn", 1],
+                    "Value": "wildflour.ateliertea_chamomile_tea",
+                    "Delimiter": " "
+                },
+
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields","Elliott", 1],
+                    "Value": "wildflour.ateliertea_matcha_tea",
+                    "Delimiter": " "
+                },
+
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields","Leah", 1],
+                    "Value": "wildflour.ateliertea_rose_tea",
+                    "Delimiter": " "
+                },
+
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields","Jodi", 1],
+                    "Value": "wildflour_lemon_item",
+                    "Delimiter": " "
+                },
+
+
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields","Penny", 1],
+                    "Value": "wildflour.ateliertea_breakfast_tea",
+                    "Delimiter": " "
+                }
+
+            ]
+            }
+
+]
+}

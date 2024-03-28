@@ -1,0 +1,581 @@
+{
+  "Changes": [
+
+///////////////
+// DROPBOXES //
+///////////////
+
+    {
+			"Action": "EditMap",
+            "Target": "Maps/HaleyHouse",
+			"MapTiles": [
+					{
+					   "Position": { "X": 17, "Y": 15},
+					   "Layer": "Buildings",
+					   "SetProperties": { "Action": "DropBox HaleyKitchen"}
+					}		
+			]
+		},
+
+        {
+			"Action": "EditMap",
+            "Target": "Maps/SeedShop",
+			"MapTiles": [
+					{
+					   "Position": { "X": 35, "Y": 4},
+					   "Layer": "Buildings",
+					   "SetProperties": { "Action": "DropBox CarolineKitchen"}
+					}		
+			]
+		},
+
+/////////////////////
+// SPECIAL ORDER 1 //
+/////////////////////
+
+    {
+    "LogName": "Bakery Order 1",
+    "Action": "EditData",
+    "Target": "Data/SpecialOrders",
+    "Entries": {
+      "wildflour.bakery_SO_1": {
+        "Name": "{{i18n:bakery_SO_1.name}}",
+        "Requester": "Marnie",
+        "Duration": "Week",
+        "Repeatable": "False",
+        "RequiredTags": "mail_CarolineTea, mail_georgeGifts, mail_gusGiantOmelet",
+        "OrderType": "",
+        "SpecialRule": "",
+        "ItemToRemoveOnEnd": null,
+        "MailToRemoveOnEnd": null,
+        "RandomizedElements": null,
+        "Text": "{{i18n:bakery_SO_1.text}}",
+        "Objectives": [
+
+            {
+              "Type": "Deliver",
+              "Text": "{{i18n:bakery_SO_1a.deliver}}",
+              "RequiredCount": "2",
+              "Data": {
+                "AcceptedContextTags": "item_wildflour.bakery_vanilla_cupcake",
+                "TargetName": "Marnie"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "{{i18n:bakery_SO_1b.deliver}}",
+              "RequiredCount": "2",
+              "Data": {
+                "AcceptedContextTags": "item_wildflour.bakery_strawberry_cupcake",
+                "TargetName": "Marnie"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "{{i18n:bakery_SO_1c.deliver}}",
+              "RequiredCount": "2",
+              "Data": {
+                "AcceptedContextTags": "item_wildflour.bakery_chocolate_raspberry_cupcake",
+                "Message": "{{i18n:bakery_SO_1.accept}}",
+                "TargetName": "Marnie"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "8000"
+              }
+            },
+
+            {
+              "Type": "Friendship",
+              "Data": {
+                    "Amount": "250",
+                    "TargetName": "Marnie"
+                }
+              }
+          ]
+      }
+    }
+  },
+
+/////////////////////
+// SPECIAL ORDER 2 //
+/////////////////////
+
+    {
+      "LogName": "Bakery Order 2",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "wildflour.bakery_SO_2": {
+          "Name": "{{i18n:bakery_SO_2.name}}",
+          "Requester": "Gus",
+          "Duration": "Week",
+          "Repeatable": "False",
+          "RequiredTags": "mail_CarolineTea, mail_georgeGifts, mail_gusGiantOmelet",
+          "OrderType": "",
+          "SpecialRule": "",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Text": "{{i18n:bakery_SO_2.text}}",
+          "Objectives": [
+
+  
+              {
+                "Type": "Donate",
+                "Text": "{{i18n:bakery_SO_2a.deliver}}",
+                "RequiredCount": "1",
+                "Data": {
+                  "DropBox": "GusFridge",
+							    "DropBoxGameLocation": "Saloon",
+							    "DropBoxIndicatorLocation": "18 16",
+                  "AcceptedContextTags": "item_wildflour.bakery_fruit_tart"
+                }
+              },
+              {
+                "Type": "Donate",
+                "Text": "{{i18n:bakery_SO_2b.deliver}}",
+                "RequiredCount": "1",
+                "Data": {
+                  "DropBox": "GusFridge",
+							    "DropBoxGameLocation": "Saloon",
+							    "DropBoxIndicatorLocation": "18 16",
+                  "AcceptedContextTags": "item_wildflour.bakery_berry_tart"
+                }
+              },
+              {
+                "Type": "Donate",
+                "Text": "{{i18n:bakery_SO_2c.deliver}}",
+                "RequiredCount": "1",
+                "Data": {
+                  "DropBox": "GusFridge",
+							    "DropBoxGameLocation": "Saloon",
+							    "DropBoxIndicatorLocation": "18 16",
+                  "AcceptedContextTags": "item_wildflour.bakery_chocolate_hazelnut_tart"
+                }
+              }
+            ],
+            "Rewards": [
+              {
+                "Type": "Money",
+                "Data": {
+                  "Amount": "5600"
+                }
+              },
+  
+              {
+                "Type": "Friendship",
+                "Data": {
+                      "Amount": "250",
+                      "TargetName": "Gus"
+                  }
+                },
+              {
+                "Type": "Mail",
+                "Data": {
+                      "MailReceived": "wildflour.bakery_SO2_complete",
+                      "NoLetter": "true"
+                }
+              }
+            ]
+        }
+      }
+    },
+
+/////////////////////
+// SPECIAL ORDER 3 //
+/////////////////////
+
+    {
+      "LogName": "Bakery Order 3",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "wildflour.bakery_SO_3": {
+          "Name": "{{i18n:bakery_SO_3.name}}",
+          "Requester": "Haley",
+          "Duration": "TwoWeeks",
+          "Repeatable": "False",
+          "RequiredTags": "mail_CarolineTea, mail_georgeGifts, mail_gusGiantOmelet",
+          "OrderType": "",
+          "SpecialRule": "",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Text": "{{i18n:bakery_SO_3.text}}",
+          "Objectives": [
+              {
+                "Type": "Donate",
+                "Text": "{{i18n:bakery_SO_3a.deliver}}",
+                "RequiredCount": "3",
+                "Data": {
+                  "DropBox": "HaleyKitchen",
+							    "DropBoxGameLocation": "HaleyHouse",
+							    "DropBoxIndicatorLocation": "17 15",
+                  "AcceptedContextTags": "item_wildflour.bakery_chocolate_macaron"
+                }
+              },
+              {
+                "Type": "Donate",
+                "Text": "{{i18n:bakery_SO_3b.deliver}}",
+                "RequiredCount": "3",
+                "Data": {
+                  "DropBox": "HaleyKitchen",
+							    "DropBoxGameLocation": "HaleyHouse",
+							    "DropBoxIndicatorLocation": "17 15",
+                  "AcceptedContextTags": "item_wildflour.bakery_lavender_macaron"
+                }
+              },
+              {
+                "Type": "Donate",
+                "Text": "{{i18n:bakery_SO_3c.deliver}}",
+                "RequiredCount": "3",
+                "Data": {
+                  "DropBox": "HaleyKitchen",
+							    "DropBoxGameLocation": "HaleyHouse",
+							    "DropBoxIndicatorLocation": "17 15",
+                  "AcceptedContextTags": "item_wildflour.bakery_strawberry_macaron"
+                }
+              }, {
+                "Type": "Donate",
+                "Text": "{{i18n:bakery_SO_3d.deliver}}",
+                "RequiredCount": "3",
+                "Data": {
+                  "DropBox": "HaleyKitchen",
+							    "DropBoxGameLocation": "HaleyHouse",
+							    "DropBoxIndicatorLocation": "17 15",
+                  "AcceptedContextTags": "item_wildflour.bakery_lemon_macaron"
+                }
+              }
+            ],
+            "Rewards": [
+              {
+                "Type": "Money",
+                "Data": {
+                  "Amount": "26880"
+                }
+              },
+  
+              {
+                "Type": "Friendship",
+                "Data": {
+                      "Amount": "250",
+                      "TargetName": "Haley"
+                  }
+                },
+              {
+                "Type": "Mail",
+                "Data": {
+                      "MailReceived": "wildflour.bakery_SO3_complete",
+                      "NoLetter": "true"
+                }
+              }
+            ]
+        }
+      }
+    },
+
+/////////////////////
+// SPECIAL ORDER 4 //
+/////////////////////
+
+{
+  "LogName": "Bakery Order 4",
+  "Action": "EditData",
+  "Target": "Data/SpecialOrders",
+  "Entries": {
+      "wildflour.bakery_SO_4": {
+        "Name": "{{i18n:bakery_SO_4.name}}",
+        "Requester": "Caroline",
+        "Duration": "TwoWeeks",
+        "Repeatable": "False",
+        "RequiredTags": "mail_CarolineTea, mail_georgeGifts, mail_gusGiantOmelet",
+        "OrderType": "",
+        "SpecialRule": "",
+        "ItemToRemoveOnEnd": null,
+        "MailToRemoveOnEnd": null,
+        "RandomizedElements": null,
+        "Text": "{{i18n:bakery_SO_4.text}}",
+        "Objectives": [
+      
+            {
+              "Type": "Donate",
+              "Text": "{{i18n:bakery_SO_4a.deliver}}",
+              "RequiredCount": "3",
+              "Data": {
+                "DropBox": "CarolineKitchen",
+							  "DropBoxGameLocation": "SeedShop",
+							  "DropBoxIndicatorLocation": "35 4",
+                "AcceptedContextTags": "item_wildflour.bakery_pistachio_scone"
+              }
+            },
+            {
+              "Type": "Donate",
+              "Text": "{{i18n:bakery_SO_4b.deliver}}",
+              "RequiredCount": "3",
+              "Data": {
+                "DropBox": "CarolineKitchen",
+							  "DropBoxGameLocation": "SeedShop",
+							  "DropBoxIndicatorLocation": "35 4",
+                "AcceptedContextTags": "item_wildflour.bakery_raspberry_scone"
+              }
+            },
+            {
+              "Type": "Donate",
+              "Text": "{{i18n:bakery_SO_4c.deliver}}",
+              "RequiredCount": "3",
+              "Data": {
+                "DropBox": "CarolineKitchen",
+							  "DropBoxGameLocation": "SeedShop",
+							  "DropBoxIndicatorLocation": "35 4",
+                "AcceptedContextTags": "item_wildflour.bakery_blackberry_scone"
+              }
+            },
+            {
+              "Type": "Donate",
+              "Text": "{{i18n:bakery_SO_4d.deliver}}",
+              "RequiredCount": "3",
+              "Data": {
+                "DropBox": "CarolineKitchen",
+							  "DropBoxGameLocation": "SeedShop",
+							  "DropBoxIndicatorLocation": "35 4",
+                "AcceptedContextTags": "item_wildflour.bakery_pumpkin_scone"
+              }
+            }
+          ],
+        "Rewards": [
+          {
+            "Type": "Money",
+            "Data": {
+              "Amount": "25920"
+            }
+          },
+
+          {
+            "Type": "Friendship",
+            "Data": {
+                  "Amount": "250",
+                  "TargetName": "Caroline"
+              }
+            },
+          {
+            "Type": "Mail",
+            "Data": {
+                  "MailReceived": "wildflour.bakery_SO4_complete",
+                  "NoLetter": "true"
+            }
+          }
+        ]
+    }
+  }
+},
+
+/////////////////////
+// SPECIAL ORDER 5 //
+/////////////////////
+
+{
+  "LogName": "Bakery Order 5",
+  "Action": "EditData",
+  "Target": "Data/SpecialOrders",
+  "Entries": {
+      "wildflour.bakery_SO_5": {
+        "Name": "{{i18n:bakery_SO_5.name}}",
+        "Requester": "Lewis",
+        "Duration": "Month",
+        "Repeatable": "False",
+        "RequiredTags": "mail_wildflour.bakery_SO2_complete, mail_wildflour.bakery_SO3_complete,mail_wildflour.bakery_SO4_complete",
+        "OrderType": "",
+        "SpecialRule": "",
+        "ItemToRemoveOnEnd": null,
+        "MailToRemoveOnEnd": null,
+        "RandomizedElements": null,
+        "Text": "{{i18n:bakery_SO_5.text}}",
+        "Objectives": [
+            {
+              "Type": "Ship",
+              "Text": "{{i18n:bakery_SO_5.ship}}",
+              "RequiredCount": "100",
+              "Data": {
+                "AcceptedContextTags": "wildflour_bakery_item"
+              }
+            }
+          ],
+        "Rewards": [
+          {
+            "Type": "Money",
+            "Data": {
+              "Amount": "100000"
+            }
+          },
+          {
+            "Type": "Mail",
+            "Data": {
+                  "MailReceived": "wildflour.bakery_SO5_complete",
+                  "NoLetter": "true"
+            }
+          }
+        ]
+    }
+  }
+},
+
+
+/////////////////////
+// SPECIAL ORDER 6 //
+///////////////////// 
+
+{
+  "LogName": "Bakery Order 6",
+  "Action": "EditData",
+  "Target": "Data/SpecialOrders",
+  "Entries": {
+    "wildflour.bakery_SO_6": {
+      "Name": "{{i18n:bakery_SO_6.name}}",
+      "Requester": "Jodi",
+      "Duration": "Week",
+      "Repeatable": "False",
+      "RequiredTags": "mail_CarolineTea, mail_georgeGifts, mail_gusGiantOmelet",
+      "OrderType": "",
+      "SpecialRule": "",
+      "ItemToRemoveOnEnd": null,
+      "MailToRemoveOnEnd": null,
+      "RandomizedElements": null,
+      "Text": "{{i18n:bakery_SO_6.text}}",
+      "Objectives": [
+          {
+            "Type": "Deliver",
+            "Text": "{{i18n:bakery_SO_6.deliver}}",
+            "RequiredCount": "4",
+            "Data": {
+              "AcceptedContextTags": "cheesecake_item",
+              "Message": "{{i18n:bakery_SO_6.accept}}",
+              "TargetName": "Jodi"
+            }
+          }
+        ],
+        "Rewards": [
+          {
+            "Type": "Money",
+            "Data": {
+              "Amount": "7000"
+            }
+          },
+
+          {
+            "Type": "Friendship",
+            "Data": {}
+            }
+        ]
+    }
+  }
+},
+
+/////////////////////
+// SPECIAL ORDER 7 //
+/////////////////////
+
+  {
+  "LogName": "Bakery Order 7",
+  "Action": "EditData",
+  "Target": "Data/SpecialOrders",
+  "Entries": {
+    "wildflour.bakery_SO_7": {
+      "Name": "{{i18n:bakery_SO_7.name}}",
+      "Requester": "Wizard",
+      "Duration": "Week",
+      "Repeatable": "False",
+      "RequiredTags": "mail_CarolineTea, mail_georgeGifts, mail_gusGiantOmelet",
+      "OrderType": "",
+      "SpecialRule": "",
+      "ItemToRemoveOnEnd": null,
+      "MailToRemoveOnEnd": null,
+      "RandomizedElements": null,
+      "Text": "{{i18n:bakery_SO_7.text}}",
+      "Objectives": [
+          {
+            "Type": "Deliver",
+            "Text": "{{i18n:bakery_SO_7.deliver}}",
+            "RequiredCount": "5",
+            "Data": {
+              "AcceptedContextTags": "pie_item",
+              "Message": "{{i18n:bakery_SO_7.accept}}",
+              "TargetName": "Wizard"
+            }
+          }
+        ],
+        "Rewards": [
+          {
+            "Type": "Money",
+            "Data": {
+              "Amount": "8000"
+            }
+          },
+
+        {
+            "Type": "Friendship",
+            "Data": {}
+            }
+        ]
+    }
+  }
+},
+
+/////////////////////
+// SPECIAL ORDER 8 //
+/////////////////////
+
+  {
+  "LogName": "Bakery Order 8",
+  "Action": "EditData",
+  "Target": "Data/SpecialOrders",
+  "Entries": {
+    "wildflour.bakery_SO_8": {
+      "Name": "{{i18n:bakery_SO_8.name}}",
+      "Requester": "Penny",
+      "Duration": "TwoWeeks",
+      "Repeatable": "False",
+      "RequiredTags": "mail_CarolineTea, mail_georgeGifts, mail_gusGiantOmelet",
+      "OrderType": "",
+      "SpecialRule": "",
+      "ItemToRemoveOnEnd": null,
+      "MailToRemoveOnEnd": null,
+      "RandomizedElements": null,
+      "Text": "{{i18n:bakery_SO_8.text}}",
+      "Objectives": [
+          {
+            "Type": "Deliver",
+            "Text": "{{i18n:bakery_SO_8.deliver}}",
+            "RequiredCount": "12",
+            "Data": {
+              "AcceptedContextTags": "muffin_item",
+              "Message": "{{i18n:bakery_SO_8.accept}}",
+              "TargetName": "Penny"
+            }
+          }
+        ],
+        "Rewards": [
+          {
+            "Type": "Money",
+            "Data": {
+              "Amount": "20000"
+            }
+          },
+
+          {
+            "Type": "Friendship",
+            "Data": {}
+            }
+        ]
+    }
+  }
+}
+
+
+  ]
+}
+

@@ -1,0 +1,17 @@
+﻿{
+	"Name": "H&W Outdoor Furniture Pack for AT",
+	"Author": "himetarts and wildflourmods",
+	"Version": "2.0",
+	"Description": "AT pack for Hime and Wildflour's Outdoor Furniture Pack",
+	"UniqueID": "HXW.OutdoorFurniforAT",
+	"UpdateKeys": ["nexus:17488"],
+	"ContentPackFor": {
+		"UniqueID": "PeacefulEnd.AlternativeTextures"
+	},
+	"Dependencies": [
+		{
+			"UniqueID": "HXW.OutdoorFurniture",
+			"IsRequired": true
+	 }
+	 ]
+}

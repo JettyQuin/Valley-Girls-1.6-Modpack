@@ -1,0 +1,40 @@
+{
+		
+"Changes": [
+
+{
+	"LogName":"Map Patch Forest for Secret Orchard",
+	"Action": "EditMap",
+	"Target": "Maps/Forest", 
+	"FromFile": "assets/Maps/ForestEdit.tmx",
+	"ToArea": {
+			"X": 97,
+			"Y": 55,
+			"Width": 2,
+			"Height": 3
+			},
+
+	"When":{"SecretOrchardToken": "1"}
+},
+
+{
+	"LogName":"Add Warp to Forest for Secret Orchard",
+	"Action": "EditMap",
+	"Target": "Maps/Forest",
+	"AddWarps": ["98 57 Custom_WF_SecretOrchard 31 13"],
+
+	"When":{"SecretOrchardToken": "1"}		
+},
+
+{
+	"LogName":"Add Warps to Secret Orchard",
+	"Action": "EditMap",
+	"Target": "Maps/Custom_WF_SecretOrchard",
+	"AddWarps": [
+		"30 6 Forest 96 56",
+		"31 6 Forest 96 57"
+	]	
+}
+
+	]
+}

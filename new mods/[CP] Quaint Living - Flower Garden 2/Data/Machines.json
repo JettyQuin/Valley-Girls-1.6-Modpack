@@ -1,0 +1,473 @@
+{
+    "Changes": [
+
+//MACHINE DATA
+        {
+              "Action": "EditData",
+              "Target": "Data/BigCraftables",
+              "Entries": {
+        "PC.QL.FlowerGarden2_Extractor": {
+            "Name": "PC.QL.FlowerGarden2_Extractor",
+            "DisplayName": "{{i18n: machine.Extractor.name}}",
+            "Description": "{{i18n: machine.Extractor.description}}",
+            "Price": 20000,
+            "Fragility": 0,
+            "CanBePlacedOutdoors": true,
+            "CanBePlacedIndoors": false,
+            "IsLamp": false,
+            "Texture": "Mods\\PC.QL.FlowerGarden2\\Machines",
+            "SpriteIndex": 0,
+            "CustomFields": {}
+          },
+}
+},
+
+//MACHINE RULES
+{
+                      "LogName": "QL Candied Flower Rules",
+                      "Action": "EditData",
+                      "Target": "Data/Machines",
+                      "TargetField": ["(BC)15", "OutputRules"],
+                      "Entries": {
+"PC.QL.FlowerGarden2_CandiedFlowers": 
+{
+     "Id": "PC.QL.FlowerGarden2_CandiedFlowersRules",
+     "Triggers": {
+          "Trigger": "ItemPlacedInMachine",
+          "RequiredTags": [ "flower_item", "flower_edible" ],
+          "RequiredCount": 3,
+   },
+     "OutputItem": [
+        {
+          "ID": "PC.QL.FlowerGarden2_CandiedFlowerRules",
+          "ItemID": "(O)PC.QL.FlowerGarden2_CandiedFlowers",
+          "CopyQuality":false,
+          "CopyPrice": true,
+          "PriceModifiers": 
+                   [
+                           {
+                           "Modification": "Multiply",
+                           "Amount": 1.2
+                            }
+                        ]
+                     }
+                   ],
+          "MinutesUntilReady": 180
+         }
+   ]
+}
+}
+},
+
+
+//FLOWER WINE
+
+{
+            "LogName": "QL Flower Wine Rules",
+                      "Action": "EditData",
+                      "Target": "Data/Machines",
+                      "TargetField": ["(BC)12", "OutputRules"],
+                      "Entries": {
+"PC.QL.FlowerGarden2_FlowerWine": 
+{
+     "Id": "PC.QL.FlowerGarden2_CarnationWineRules",
+     "Triggers": {
+          "Trigger": "ItemPlacedInMachine",
+          "RequiredId": "(O)PC.QL.FlowerGarden2_CarnationExtract",
+          "RequiredCount": 1,
+   },
+     "OutputItem": [
+        {
+          "ID": "PC.QL.FlowerGarden2_CarnationWineRules",
+          "ItemID": "(O)PC.QL.FlowerGarden2_CarnationWine",
+          "CopyQuality":true,
+          "CopyPrice": true,
+//research vanilla wine
+          "PriceModifiers": 
+                   [
+                           {
+                           "Modification": "Multiply",
+                           "Amount": 3
+                            }
+                        ]
+                     }
+                   ],
+          "DaysUntilReady": 10
+},
+{
+     "Id": "PC.QL.FlowerGarden2_GardeniaWineRules",
+     "Triggers": {
+          "Trigger": "ItemPlacedInMachine",
+          "RequiredId": "(O)PC.QL.FlowerGarden2_GardeniaExtract",
+          "RequiredCount": 1,
+   },
+     "OutputItem": [
+        {
+          "ID": "PC.QL.FlowerGarden2_GardeniaWineRules",
+          "ItemID": "(O)PC.QL.FlowerGarden2_GardeniaWine",
+          "CopyQuality":true,
+          "CopyPrice": true,
+          "PriceModifiers": 
+                   [
+                           {
+                           "Modification": "Multiply",
+                           "Amount": 3
+                            }
+                        ]
+                     }
+                   ],
+          "DaysUntilReady": 10
+},
+{
+     "Id": "PC.QL.FlowerGarden2_HibiscusWineRules",
+     "Triggers": {
+          "Trigger": "ItemPlacedInMachine",
+          "RequiredId": "(O)PC.QL.FlowerGarden2_HibiscusExtract",
+          "RequiredCount": 1,
+   },
+     "OutputItem": [
+        {
+          "ID": "PC.QL.FlowerGarden2_HibiscusWineRules",
+          "ItemID": "(O)PC.QL.FlowerGarden2_HibiscusWine",
+          "CopyQuality":true,
+          "CopyPrice": true,
+          "PriceModifiers": 
+                   [
+                           {
+                           "Modification": "Multiply",
+                           "Amount": 3
+                            }
+                        ]
+                     }
+                   ],
+          "DaysUntilReady": 10
+},
+{
+     "Id": "PC.QL.FlowerGarden2_JasmineWineRules",
+     "Triggers": {
+          "Trigger": "ItemPlacedInMachine",
+          "RequiredId": "(O)PC.QL.FlowerGarden2_JasmineExtract",
+          "RequiredCount": 1,
+   },
+     "OutputItem": [
+        {
+          "ID": "PC.QL.FlowerGarden2_JasmineWineRules",
+          "ItemID": "(O)PC.QL.FlowerGarden2_JasmineWine",
+          "CopyQuality":true,
+          "CopyPrice": true,
+          "PriceModifiers": 
+                   [
+                           {
+                           "Modification": "Multiply",
+                           "Amount": 3
+                            }
+                        ]
+                     }
+                   ],
+          "DaysUntilReady": 10
+},
+{
+     "Id": "PC.QL.FlowerGarden2_LavenderWineRules",
+     "Triggers": {
+          "Trigger": "ItemPlacedInMachine",
+          "RequiredId": "(O)PC.QL.FlowerGarden2_LavenderExtract",
+          "RequiredCount": 1,
+   },
+     "OutputItem": [
+        {
+          "ID": "PC.QL.FlowerGarden2_LavenderWineRules",
+          "ItemID": "(O)PC.QL.FlowerGarden2_LavenderWine",
+          "CopyQuality":true,
+          "CopyPrice": true,
+          "PriceModifiers": 
+                   [
+                           {
+                           "Modification": "Multiply",
+                           "Amount": 3
+                            }
+                        ]
+                     }
+                   ],
+          "DaysUntilReady": 10
+},
+{
+     "Id": "PC.QL.FlowerGarden2_LilacWineRules",
+     "Triggers": {
+          "Trigger": "ItemPlacedInMachine",
+          "RequiredId": "(O)PC.QL.FlowerGarden2_LilacExtract",
+          "RequiredCount": 1,
+   },
+     "OutputItem": [
+        {
+          "ID": "PC.QL.FlowerGarden2_LilacWineRules",
+          "ItemID": "(O)PC.QL.FlowerGarden2_LilacWine",
+          "CopyQuality":true,
+          "CopyPrice": true,
+          "PriceModifiers": 
+                   [
+                           {
+                           "Modification": "Multiply",
+                           "Amount": 3
+                            }
+                        ]
+                     }
+                   ],
+          "DaysUntilReady": 10
+},
+{
+     "Id": "PC.QL.FlowerGarden2_RoseWineRules",
+     "Triggers": {
+          "Trigger": "ItemPlacedInMachine",
+          "RequiredId": "(O)PC.QL.FlowerGarden2_RoseExtract",
+          "RequiredCount": 1,
+   },
+     "OutputItem": [
+        {
+          "ID": "PC.QL.FlowerGarden2_RoseWineRules",
+          "ItemID": "(O)PC.QL.FlowerGarden2_RoseWine",
+          "CopyQuality":true,
+          "CopyPrice": true,
+          "PriceModifiers": 
+                   [
+                           {
+                           "Modification": "Multiply",
+                           "Amount": 3
+                            }
+                        ]
+                     }
+                   ],
+          "DaysUntilReady": 10
+},
+}
+}
+
+//EXTRACTOR
+
+        {
+              "Action": "EditData",
+              "Target": "Data/Machines",
+              "Entries": {
+"(BC)PC.QL.FlowerGarden2_Extractor": {
+"OutputRules": [
+{
+//Carnation
+     "Id": "PC.QL.FlowerGarden2_CarnationExtractRules",
+     "Triggers": {
+          "Trigger": "ItemPlacedInMachine",
+          "RequiredId": "(O)PC.QL.FlowerGarden2_Carnation",
+          "RequiredCount": 3,
+   },
+     "OutputItem": [
+        {
+          "ID": "PC.QL.FlowerGarden2_CarnationExtractRules",
+          "ItemID": "(O)PC.QL.FlowerGarden2_CarnationExtract",
+          "CopyQuality":true,
+          "CopyPrice": true,
+          "PriceModifiers": 
+                   [
+                           {
+                           "Modification": "Multiply",
+                           "Amount": 2
+                            },
+                           {
+                           "Modification": "Add",
+                           "Amount": 50
+                            }
+                        ]
+                     }
+                   ],
+          "DaysUntilReady": 3
+},
+
+//Gardenia
+   {
+     "Id": "PC.QL.FlowerGarden2_GardeniaExtractRules",
+     "Triggers": {
+          "Trigger": "ItemPlacedInMachine",
+          "RequiredId": "(O)PC.QL.FlowerGarden2_Gardenia",
+          "RequiredCount": 3,
+   },
+     "OutputItem": [
+        {
+          "ID": "PC.QL.FlowerGarden2_GardeniaExtractRules",
+          "ItemID": "(O)PC.QL.FlowerGarden2_GardeniaExtract",
+          "CopyQuality":true,
+          "CopyPrice": true,
+          "PriceModifiers": 
+                   [
+                           {
+                           "Modification": "Multiply",
+                           "Amount": 2
+                            },
+                           {
+                           "Modification": "Add",
+                           "Amount": 50
+                            }
+                        ]
+                     }
+                   ],
+          "DaysUntilReady": 3
+},
+
+//Hibiscus Extract
+   {
+     "Id": "PC.QL.FlowerGarden2_HibiscusExtractRules",
+     "Triggers": {
+          "Trigger": "ItemPlacedInMachine",
+          "RequiredId": "(O)PC.QL.FlowerGarden2_Hibiscus",
+          "RequiredCount": 3,
+   },
+     "OutputItem": [
+        {
+          "ID": "PC.QL.FlowerGarden2_HibiscusExtractRules",
+          "ItemID": "(O)PC.QL.FlowerGarden2_HibiscusExtract",
+          "CopyQuality":true,
+          "CopyPrice": true,
+          "PriceModifiers": 
+                   [
+                           {
+                           "Modification": "Multiply",
+                           "Amount": 2
+                            },
+                           {
+                           "Modification": "Add",
+                           "Amount": 50
+                            }
+                        ]
+                     }
+                   ],
+          "DaysUntilReady": 3
+},
+
+//Jasmine Extract
+   {
+     "Id": "PC.QL.FlowerGarden2_JasmineExtractRules",
+     "Triggers": {
+          "Trigger": "ItemPlacedInMachine",
+          "RequiredId": "(O)PC.QL.FlowerGarden2_Jasmine",
+          "RequiredCount": 20,
+   },
+     "OutputItem": [
+        {
+          "ID": "PC.QL.FlowerGarden2_JasmineExtractRules",
+          "ItemID": "(O)PC.QL.FlowerGarden2_JasmineExtract",
+          "CopyQuality":true,
+          "CopyPrice": true,
+          "PriceModifiers": 
+                   [
+                           {
+                           "Modification": "Multiply",
+                           "Amount": 5
+                            },
+                           {
+                           "Modification": "Add",
+                           "Amount": 50
+                            }
+                        ]
+                     }
+                   ],
+          "DaysUntilReady": 3
+},
+
+//Lavender Extract
+   {
+     "Id": "PC.QL.FlowerGarden2_LavenderExtractRules",
+     "Triggers": {
+          "Trigger": "ItemPlacedInMachine",
+          "RequiredId": "(O)PC.QL.FlowerGarden2_Lavender",
+          "RequiredCount": 3,
+   },
+     "OutputItem": [
+        {
+          "ID": "PC.QL.FlowerGarden2_LavenderExtractRules",
+          "ItemID": "(O)PC.QL.FlowerGarden2_LavenderExtract",
+          "CopyQuality":true,
+          "CopyPrice": true,
+          "PriceModifiers": 
+                   [
+                           {
+                           "Modification": "Multiply",
+                           "Amount": 2
+                            },
+                           {
+                           "Modification": "Add",
+                           "Amount": 50
+                            }
+                        ]
+                     }
+                   ],
+          "DaysUntilReady": 3
+},
+
+//Lilac Extract
+   {
+     "Id": "PC.QL.FlowerGarden2_LilacExtractRules",
+     "Triggers": {
+          "Trigger": "ItemPlacedInMachine",
+          "RequiredId": "(O)PC.QL.FlowerGarden2_Lilac",
+          "RequiredCount": 3,
+   },
+     "OutputItem": [
+        {
+          "ID": "PC.QL.FlowerGarden2_LilacExtractRules",
+          "ItemID": "(O)PC.QL.FlowerGarden2_LilacExtract",
+          "CopyQuality":true,
+          "CopyPrice": true,
+          "PriceModifiers": 
+                   [
+                           {
+                           "Modification": "Multiply",
+                           "Amount": 2
+                            },
+                           {
+                           "Modification": "Add",
+                           "Amount": 50
+                            }
+                        ]
+                     }
+                   ],
+          "DaysUntilReady": 3
+},
+
+//Rose Extract
+
+     "Id": "PC.QL.FlowerGarden2_RoseExtractRules",
+     "Triggers": {
+          "Trigger": "ItemPlacedInMachine",
+          "RequiredId": "(O)PC.QL.FlowerGarden2_Rose",
+          "RequiredCount": 3,
+   },
+     "OutputItem": [
+        {
+          "ID": "PC.QL.FlowerGarden2_RoseExtractRules",
+          "ItemID": "(O)PC.QL.FlowerGarden2_RoseExtract",
+          "CopyQuality":true,
+          "CopyPrice": true,
+          "PriceModifiers": 
+                   [
+                           {
+                           "Modification": "Multiply",
+                           "Amount": 2
+                            },
+                           {
+                           "Modification": "Add",
+                           "Amount": 50
+                            }
+                        ]
+                     }
+                   ],
+          "DaysUntilReady": 3
+},
+    ],
+            "ShowNextIndexWhileWorking":false,
+            "ShowNextIndexWhenReady":false,
+            "WobbleWhileWorking":true
+        }
+    }
+},
+
+
+
+
+]
+}

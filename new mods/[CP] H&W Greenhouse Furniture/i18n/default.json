@@ -1,0 +1,129 @@
+{
+
+  //CATALOGUE
+
+  "GreenhouseFurniture_Catalogue": "H&W Greenhouse Furniture Catalogue",
+
+  //BARRELS 
+
+  "GreenhouseFurniture_BarrelWateringCan": "Tall Decorative Barrel",
+
+  "GreenhouseFurniture_BarrelWateringCanFlowers": "Tall Decorative Barrel",
+
+  "GreenhouseFurniture_MedBarrel": "Medium Decorative Barrel",
+
+  "GreenhouseFurniture_SmBarrel1": "Small Decorative Barrel",
+
+  "GreenhouseFurniture_SmBarrel2": "Small Decorative Barrel",
+
+  "GreenhouseFurniture_SmBarrel3": "Small Decorative Barrel",
+  
+  "GreenhouseFurniture_SmBarrel4": "Small Decorative Barrel",
+
+  "GreenhouseFurniture_StumpSeat": "Rustic Barrel Seat",
+
+  "GreenhouseFurniture_BarrelSeat": "Rustic Barrel Seat",
+
+  "GreenhouseFurniture_Bench": "Garden Bench",
+
+  "GreenhouseFurniture_SmPottedFlower": "Small Flower Pot",
+
+  "GreenhouseFurniture_SmHangingFlowers": "Small Hanging Flower Basket",
+
+  "GreenhouseFurniture_LgHangingFlowers": "Hanging Flower Basket",
+
+  //LARGER WALL ITEMS
+
+  "GreenhouseFurniture_PlantShelves1": "Wall Mounted Plant Shelves",
+
+  "GreenhouseFurniture_PlantShelves2": "Wall Mounted Plant Shelves",
+
+  //MEDIUM FURNITURE
+
+  "GreenhouseFurniture_PottingBench1": "Greenhouse Potting Bench",
+
+  "GreenhouseFurniture_PottingBench2": "Greenhouse Potting Bench",
+
+  "GreenhouseFurniture_ButterflyHutch": "Butterfly Hutch",
+
+  //MISC DECOR
+
+  "GreenhouseFurniture_Birdcage": "Birdcage",
+
+  "GreenhouseFurniture_Rake": "Garden Rake",
+
+  "GreenhouseFurniture_Shovel": "Garden Shovel",
+
+  //POTTED PLANT
+  
+  "GreenhouseFurniture_SmPottedPlant1": "Small Potted Plant",
+
+  "GreenhouseFurniture_SmPottedPlant2": "Small Potted Plant",
+
+  "GreenhouseFurniture_SmPottedPlant3": "Small Potted Plant",
+
+  "GreenhouseFurniture_SmPottedPlant4": "Small Potted Plant",
+
+  "GreenhouseFurniture_SmPot": "Brave Little Pot",
+
+  //SMALL DECOR
+
+  "GreenhouseFurniture_LgPot": "Terracotta Pot",
+  "GreenhouseFurniture_LgPot.description":"A terracotta pot ready to hold a new plant!",
+
+  "GreenhouseFurniture_Cooler": "Cooler",
+  "GreenhouseFurniture_Cooler.description":"A food cooler for keeping treats cool in the summer.",
+
+  "GreenhouseFurniture_FlowerVase": "Flower Vase",
+  "GreenhouseFurniture_FlowerVase.description":"A pretty vase holding some fresh cut flowers.",
+
+  "GreenhouseFurniture_Boucage": "Boucage",
+  "GreenhouseFurniture_Boucage.description":"A cage overflowing with flowers. What crimes did these plants commit?",
+
+  //SMALL TABLES
+
+  "GreenhouseFurniture_Table1": "Barrel Table",
+  "GreenhouseFurniture_Table1.description":"A small dining table for outdoor eating or hanging out.",
+
+  "GreenhouseFurniture_Table2": "Greenhouse Table",
+  "GreenhouseFurniture_Table2.description":"A small dining table for outdoor eating or hanging out.",
+
+  //SMALL WALL HANGING
+
+  "GreenhouseFurniture_SmHangingFlower": "Small Hanging Basket",
+  "GreenhouseFurniture_SmHangingFlower.description":"A small, decorative basket mounted to the ceiling or wall.",
+
+  //SQUARE PLANTERS
+  
+  "GreenhouseFurniture_CratePoppies": "Box of Poppies",
+  "GreenhouseFurniture_CratePoppies.description":"A box of freshly picked flowers!",
+
+  "GreenhouseFurniture_CrateForage": "Box of Forage",
+  "GreenhouseFurniture_CrateForage.description":"A box of freshly picked forage!",
+
+  "GreenhouseFurniture_CrateGreens": "Box of Greens",
+  "GreenhouseFurniture_CrateGreens.description":"A box of freshly picked greens!",
+
+  "GreenhouseFurniture_CrateFruit": "Box of Fruit",
+  "GreenhouseFurniture_CrateFruit.description":"A box of freshly picked veggies!",
+  
+  "GreenhouseFurniture_CrateVeg": "Box of Veggies",
+  "GreenhouseFurniture_CrateVeg.description":"A box of freshly picked fruit!",
+
+  //TALL DECOR
+
+  "GreenhouseFurniture_LgPlantShelves1": "Tall Plant Shelves",
+  "GreenhouseFurniture_LgPlantShelves1.description":"",
+
+  "GreenhouseFurniture_LgPlantShelves2": "Tall Plant Shelves",
+  "GreenhouseFurniture_LgPlantShelves2.description":"",
+
+  //TALL PLANTERS
+  
+  "GreenhouseFurniture_PlantWithShovel": "Potted Plant with Shovel",
+  "GreenhouseFurniture_PlantWithShovel.description":"A potted plant with a garden shovel.",
+
+  "GreenhouseFurniture_BerryPottedPlant": "Potted Berry Bush",
+  "GreenhouseFurniture_BerryPottedPlant.description":"A berry bush in a clay garden pot.",
+}
+  

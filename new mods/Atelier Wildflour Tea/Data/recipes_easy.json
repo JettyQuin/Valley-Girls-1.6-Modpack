@@ -1,0 +1,17 @@
+{
+  "Changes": [
+
+    {
+        "LogName": "Atelier Tea Processor Recipe",
+        "Action": "EditData",
+        "Target": "Data/CraftingRecipes",
+        "Entries": 
+        {
+          "wildflour.ateliertea_TeaProcessor": "388 30 330 10 815 2/Home/wildflour.ateliertea_TeaProcessor/true/default/{{i18n: ateliertea_TeaProcessor.name}}",
+          "wildflour.ateliertea_TeaKettle": "388 30 330 10 335 2/Home/wildflour.ateliertea_TeaKettle/true/default/{{i18n: ateliertea_TeaKettle.name}}",
+          
+        } 
+    }
+
+  ]
+}

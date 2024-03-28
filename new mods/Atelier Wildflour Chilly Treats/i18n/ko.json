@@ -1,0 +1,290 @@
+{
+
+//MACHINES
+
+"atelierfrozen_BlastChiller.name":"블러스트 냉각기",
+"atelierfrozen_BlastChiller.description":"차가운 디저트를 만드는 데 쓸 수 있는 작은 냉동고입니다!",
+
+"atelierfrozen_TreatMaker.name":"냉동 처리기",
+"atelierfrozen_TreatMaker.description":"수제 아이스크림과 얼린 요구르트를 위한 기계입니다.",
+
+//FROZEN YOGURT
+
+"atelierfrozen_cake_cup.name": "얼린 생일케이크 아이스요거",
+"atelierfrozen_cake_cup.description": "갓 만든 얼린 요구르트 한 잔 - 맛있어요!",
+
+"atelierfrozen_blueberry_cup.name": "블루베리 치즈케이크 아이스요거",
+"atelierfrozen_blueberry_cup.description": "갓 만든 얼린 요구르트 한 잔 - 맛있어요",
+
+"atelierfrozen_cheesecake_cup.name": "치즈케이크 아이스요거",
+"atelierfrozen_cheesecake_cup.description": "갓 만든 얼린 요구르트 한 잔 - 맛있어요",
+
+"atelierfrozen_cherrychoco_cup.name": "체리 초콜릿 아이스요거",
+"atelierfrozen_cherrychoco_cup.description": "갓 만든 얼린 요구르트 한 잔 - 맛있어요",
+
+"atelierfrozen_fruity_cup.name": "과일 아이스요거",
+"atelierfrozen_fruity_cup.description": "갓 만든 얼린 요구르트 한 잔 - 맛있어요",
+
+"atelierfrozen_choco_cup.name": "초콜릿 아이스요거",
+"atelierfrozen_choco_cup.description": "갓 만든 얼린 요구르트 한 잔 - 맛있어요",
+
+"atelierfrozen_lemon_cup.name": "레몬 셔벗",
+"atelierfrozen_lemon_cup.description": "크림과 신선한 과일을 섞어 만든 가볍고 달콤한 셔벗.",
+
+"atelierfrozen_mango_cup.name": "망고 셔벗",
+"atelierfrozen_mango_cup.description": "크림과 신선한 과일을 섞어 만든 가볍고 달콤한 셔벗.",
+
+"atelierfrozen_melon_cup.name": "멜론 셔벗",
+"atelierfrozen_melon_cup.description": "크림과 신선한 과일을 섞어 만든 가볍고 달콤한 셔벗.",
+
+"atelierfrozen_mintchoco_cup.name": "민트 초콜릿 아이스요거",
+"atelierfrozen_mintchoco_cup.description": "갓 만든 얼린 요구르트 한 잔 - 맛있어요",
+
+"atelierfrozen_orange_cup.name": "오렌지 셔벗",
+"atelierfrozen_orange_cup.description": "크림과 신선한 과일을 섞어 만든 가볍고 달콤한 셔벗.",
+
+"atelierfrozen_pumpkin_cup.name": "호박 스파이시 아이스요거",
+"atelierfrozen_pumpkin_cup.description": "갓 만든 얼린 요구르트 한 잔 - 맛있어요",
+
+"atelierfrozen_starfruit_cup.name": "스타후르츠 셔벗",
+"atelierfrozen_starfruit_cup.description": "크림과 신선한 과일을 섞어 만든 가볍고 달콤한 셔벗..",
+
+"atelierfrozen_taro_cup.name": "타로 아이스요거",
+"atelierfrozen_taro_cup.description": "갓 만든 얼린 요구르트 한 잔 - 맛있어요",
+
+"atelierfrozen_wildberry_cup.name": "야생 딸기 아이스요거",
+"atelierfrozen_wildberry_cup.description": "갓 만든 얼린 요구르트 한 잔 - 맛있어요!",
+
+//ICE CREAM
+
+"atelierfrozen_ancient_cone.name": "고대열매 아이스크림",
+"atelierfrozen_ancient_cone.description": "집에서 만든 아이스크림 - 완벽한 여름의 달콤한 간식입니다!",
+
+"atelierfrozen_apple_cone.name": "사과파이 아이스크림",
+"atelierfrozen_apple_cone.description": "집에서 만든 아이스크림 - 완벽한 여름의 달콤한 간식입니다!",
+
+"atelierfrozen_cherrynu_cone.name": "체리 아몬드 아이스크림",
+"atelierfrozen_cherrynu_cone.description": "집에서 만든 아이스크림 - 완벽한 여름의 달콤한 간식입니다!",
+
+"atelierfrozen_cherryblossom_cone.name": "벚꽃 아이스크림",
+"atelierfrozen_cherryblossom_cone.description": "집에서 만든 아이스크림 - 완벽한 여름의 달콤한 간식입니다!",
+
+"atelierfrozen_chocolate_cone.name": "초콜릿 아이스크림",
+"atelierfrozen_chocolate_cone.description": "집에서 만든 아이스크림 - 완벽한 여름의 달콤한 간식입니다!",
+
+"atelierfrozen_coconut_cone.name": "코코넛 아이스크림",
+"atelierfrozen_coconut_cone.description": "집에서 만든 아이스크림 - 완벽한 여름의 달콤한 간식입니다!",
+
+"atelierfrozen_coffee_cone.name": "커피 아이스크림",
+"atelierfrozen_coffee_cone.description": "집에서 만든 아이스크림 - 완벽한 여름의 달콤한 간식입니다!",
+
+"atelierfrozen_cookie_dough_cone.name": "쿠키 도우 아이스크림",
+"atelierfrozen_cookie_dough_cone.description": "집에서 만든 아이스크림 - 완벽한 여름의 달콤한 간식입니다!",
+
+"atelierfrozen_cookie_cone.name": "쿠키 앤 크림 아이스크림",
+"atelierfrozen_cookie_cone.description": "집에서 만든 아이스크림 - 완벽한 여름의 달콤한 간식입니다!",
+
+"atelierfrozen_horchata_cone.name": "오르차타 아이스크림",
+"atelierfrozen_horchata_cone.description": "집에서 만든 아이스크림 - 완벽한 여름의 달콤한 간식입니다!",
+
+"atelierfrozen_lavender_cone.name": "라벤더 레몬 아이스크림",
+"atelierfrozen_lavender_cone.description": "집에서 만든 아이스크림 - 완벽한 여름의 달콤한 간식입니다!",
+
+"atelierfrozen_maple_cone.name": "메이플 호두 아이스크림",
+"atelierfrozen_maple_cone.description": "집에서 만든 아이스크림 - 완벽한 여름의 달콤한 간식입니다!!",
+
+"atelierfrozen_mint_cone.name": "민트 초콜릿 아이스크림",
+"atelierfrozen_mint_cone.description": "집에서 만든 아이스크림 - 완벽한 여름의 달콤한 간식입니다!",
+
+"atelierfrozen_pistachio_cone.name": "피스타치오 아이스크림",
+"atelierfrozen_pistachio_cone.description": "집에서 만든 아이스크림 - 완벽한 여름의 달콤한 간식입니다!",
+
+"atelierfrozen_strawberry_cone.name": "딸기 앤 크림 아이스크림",
+"atelierfrozen_strawberry_cone.description": "집에서 만든 아이스크림 - 완벽한 여름의 달콤한 간식입니다!",
+
+"atelierfrozen_vanilla_cone.name": "바닐라 아이스크림",
+"atelierfrozen_vanilla_cone.description": "집에서 만든 아이스크림 - 완벽한 여름의 달콤한 간식입니다!",
+
+//MILKSHAKES
+
+"atelierfrozen_choco_milkshake.name": "초콜릿 밀크셰이크",
+"atelierfrozen_choco_milkshake.description": "아이스크림과 우유를 섞어 만든 차가운 음료!",
+
+"atelierfrozen_candy_milkshake.name": "솜사탕 밀크셰이크",
+"atelierfrozen_candy_milkshake.description": "아이스크림과 우유를 섞어 만든 차가운 음료!",
+
+"atelierfrozen_orange_milkshake.name": "오렌지 크림시클 밀크셰이크",
+"atelierfrozen_orange_milkshake.description": "아이스크림과 우유를 섞어 만든 차가운 음료!",
+
+"atelierfrozen_earlgrey_milkshake.name": "얼그레이 밀크셰이크",
+"atelierfrozen_earlgrey_milkshake.description": "아이스크림과 우유를 섞어 만든 차가운 음료!",
+
+"atelierfrozen_lime_milkshake.name": "키라임 파이 밀크셰이크",
+"atelierfrozen_lime_milkshake.description": "아이스크림과 우유를 섞어 만든 차가운 음료!",
+
+"atelierfrozen_colada_milkshake.name": "피냐 콜라다 밀크셰이크",
+"atelierfrozen_colada_milkshake.description": "아이스크림과 우유를 섞어 만든 차가운 음료!",
+
+"atelierfrozen_pumpkin_milkshake.name": "호박 스파이스 밀크셰이크",
+"atelierfrozen_pumpkin_milkshake.description": "아이스크림과 우유를 섞어 만든 차가운 음료!",
+
+"atelierfrozen_strawberry_milkshake.name": "딸기 밀크셰이크",
+"atelierfrozen_strawberry_milkshake.description": "아이스크림과 우유를 섞어 만든 차가운 음료!",
+
+"atelierfrozen_vanilla_milkshake.name": "바닐라 밀크셰이크",
+"atelierfrozen_vanilla_milkshake.description": "아이스크림과 우유를 섞어 만든 차가운 음료!",
+
+//POPSICLES
+
+"atelierfrozen_ancient_popsicle.name": "고대과일 하드",
+"atelierfrozen_ancient_popsicle.description": "막대를 꽂아 얼린 과일 주스 - 사랑스러운 여름 간식입니다.",
+
+"atelierfrozen_blueberry_popsicle.name": "블루베리 하드",
+"atelierfrozen_blueberry_popsicle.description": "막대를 꽂아 얼린 과일 주스 - 사랑스러운 여름 간식입니다.",
+
+"atelierfrozen_cherry_popsicle.name": "체리 하드",
+"atelierfrozen_cherry_popsicle.description": "막대를 꽂아 얼린 과일 주스 - 사랑스러운 여름 간식입니다.",
+
+"atelierfrozen_coconut_popsicle.name": "코코넛 하드",
+"atelierfrozen_coconut_popsicle.description": "막대를 꽂아 얼린 과일 주스 - 사랑스러운 여름 간식입니다.",
+
+"atelierfrozen_fruity_popsicle.name": "과일 하드",
+"atelierfrozen_fruity_popsicle.description": "막대를 꽂아 얼린 과일 주스 - 사랑스러운 여름 간식입니다.",
+
+"atelierfrozen_grape_popsicle.name": "포도 하드",
+"atelierfrozen_grape_popsicle.description": "막대를 꽂아 얼린 과일 주스 - 사랑스러운 여름 간식입니다.",
+
+"atelierfrozen_lemon_popsicle.name": "레몬 하드",
+"atelierfrozen_lemon_popsicle.description": "막대를 꽂아 얼린 과일 주스 - 사랑스러운 여름 간식입니다.",
+
+"atelierfrozen_lime_popsicle.name": "라임 하드",
+"atelierfrozen_lime_popsicle.description": "막대를 꽂아 얼린 과일 주스 - 사랑스러운 여름 간식입니다.",
+
+"atelierfrozen_gem_popsicle.name": "보석베리 하드",
+"atelierfrozen_gem_popsicle.description": "막대를 꽂아 얼린 과일 주스 - 사랑스러운 여름 간식입니다.",
+
+"atelierfrozen_mango_popsicle.name": "망고 하드",
+"atelierfrozen_mango_popsicle.description": "막대를 꽂아 얼린 과일 주스 - 사랑스러운 여름 간식입니다.",
+
+"atelierfrozen_melon_popsicle.name": "멜론 하드",
+"atelierfrozen_melon_popsicle.description": "막대를 꽂아 얼린 과일 주스 - 사랑스러운 여름 간식입니다.",
+
+"atelierfrozen_orange_popsicle.name": "오렌지 하드",
+"atelierfrozen_orange_popsicle.description": "막대를 꽂아 얼린 과일 주스 - 사랑스러운 여름 간식입니다.",
+
+"atelierfrozen_peach_popsicle.name": "복숭아 하드",
+"atelierfrozen_peach_popsicle.description": "막대를 꽂아 얼린 과일 주스 - 사랑스러운 여름 간식입니다.",
+
+"atelierfrozen_pineapple_popsicle.name": "파인애플 하드",
+"atelierfrozen_pineapple_popsicle.description": "막대를 꽂아 얼린 과일 주스 - 사랑스러운 여름 간식입니다.",
+
+"atelierfrozen_starfruit_popsicle.name": "스타후르츠 하드",
+"atelierfrozen_starfruit_popsicle.description": "막대를 꽂아 얼린 과일 주스 - 사랑스러운 여름 간식입니다.",
+
+"atelierfrozen_strawberry_popsicle.name": "딸기 하드",
+"atelierfrozen_strawberry_popsicle.description": "막대를 꽂아 얼린 과일 주스 - 사랑스러운 여름 간식입니다.",
+
+"atelierfrozen_raspberry_popsicle.name": "라즈베리 하드",
+"atelierfrozen_raspberry_popsicle.description": "막대를 꽂아 얼린 과일 주스 - 사랑스러운 여름 간식입니다.",
+
+"atelierfrozen_wildberry_popsicle.name": "야생딸기 하드",
+"atelierfrozen_wildberry_popsicle.description": "막대를 꽂아 얼린 과일 주스 - 사랑스러운 여름 간식입니다.",
+
+//SUNDAES
+
+"banana-sundae.name": "바나나 스플릿 선데 아이스",
+"banana-sundae.description": "시럽을 얹은 아이스크림 한 그릇.",
+
+"fudge-sundae.name": "핫 퍼지 선데 아이스",
+"fudge-sundae.description": "시럽을 얹은 아이스크림 한 그릇.",
+
+"caramel-sundae.name": "솔티 카라멜 선데 아이스",
+"caramel-sundae.description": "시럽을 얹은 아이스크림 한 그릇.",
+
+"smores-sundae.name": "스모어 선데 아이스",
+"smores-sundae.description": "시럽을 얹은 아이스크림 한 그릇.",
+
+"soda-float.name": "올드 패션 소다플로트",
+"soda-float.description": "청량감 있는 탄산음료 위에 아이스크림 한 스쿱.",
+
+//ICE CREAM SANDWICHES
+
+"atelierfrozen_cinnamon_chocolate_sandwich.name": "시나몬 초코 아이스샌드",
+"atelierfrozen_cinnamon_chocolate_sandwich.description": "폭신한 초코케이크 같은 쿠키 사이에 아이스크림을 넣었군요. 맛있어요!",
+
+"atelierfrozen_mint_chocolate_sandwich.name": "민트초코 아이스샌드",
+"atelierfrozen_mint_chocolate_sandwich.description": "폭신한 초코케이크 같은 쿠키 사이에 아이스크림을 넣었군요. 맛있어요!",
+
+"atelierfrozen_mocha_coconut_sandwich.name": "모카 코코넛 아이스샌드",
+"atelierfrozen_mocha_coconut_sandwich.description": "폭신한 초코케이크 같은 쿠키 사이에 아이스크림을 넣었군요. 맛있어요!",
+
+"atelierfrozen_mocha_sandwich..name": "모카 아이스샌드",
+"atelierfrozen_mocha_sandwich..description": "폭신한 초코케이크 같은 쿠키 사이에 아이스크림을 넣었군요. 맛있어요!",
+
+"atelierfrozen_pistachio_sandwich.name": "피스타치오 아이스샌드",
+"atelierfrozen_pistachio_sandwich.description": "폭신한 초코케이크 같은 쿠키 사이에 아이스크림을 넣었군요. 맛있어요!",
+
+"atelierfrozen_strawberry_sandwich.name": "딸기 아이스샌드",
+"atelierfrozen_strawberry_sandwich.description": "폭신한 초코케이크 같은 쿠키 사이에 아이스크림을 넣었군요. 맛있어요!",
+
+"atelierfrozen_vanilla_sandwich.name": "바닐라 아이스샌드",
+"atelierfrozen_vanilla_sandwich.description": "폭신한 초코케이크 같은 쿠키 사이에 아이스크림을 넣었군요. 맛있어요!",
+
+//MAIL TEXT
+
+"atelierfrozen_TreatMakerRecipe.text":"@, ^^ 아주 먼 고대에, 마을 사람들은 얼음을 얻기 위해 눈 덮인 산을 올라갔다가 마을까지 얼음을 짊어지고 갔었지요. 우리가 이제 과학이 발달해서 그럴 필요가 없어 기쁩니다.^^ - 드미트리우스",
+"atelierfrozen_ChillerRecipe.text":"@, ^^ 드미트리우스가 보내준 기계 설계도가 괜찮았어? 네게 그걸 보내줬다는 걸 알려줬으면 좋았을텐데. 그랬으면 내가 이걸 새 기계에 포함시켰을 수 있었을지도 몰라! 남편에게도 조금 나눠줘, 알겠지? 그는 얼음 제과류를 정말 좋아하더라고.^^ - 로빈",
+"atelierfrozen_vincent_gift.text":"@, ^^ 아이스크림을 위해 소리를 질러요! 그렇게 소리를 잔뜩 질렀을 때, 아이스크림이 마법처럼 손에 잡힌다면 멋지지 않을까요? 저는 좋아서 목소리가 사라질지도 몰라요! 하루종일 외칠 수 있거든요! 괜찮으면 아이스크림을 만들어주실 수 있어요? 숲에서 좋은 냄새가 나는 걸 나눠드릴게요.^^ - 빈센트",
+"atelierfrozen_jodi_gift.text":"@, ^^ 빈센트가 아이스크림을 너무 좋아해서 과식할까봐 걱정이 되더라. 얼린 요거트를 만들어보고 괜찮으면 그 애가 잘 먹는지 확인해줄 수 있니? 적어도 아이스크림보단 좀 더 건강하게 느껴져서 말야...^^ - 조디",
+"atelierfrozen_sam_gift.text":"@, ^^ 집에서 만드는 아이스크림? 시도하지 않을 이유가 없지 않을까? 정말 멋지잖아! 음, 이 버섯들이 네게 도움이 될 거 같아. 어디서 대체 우유를 만들 때 쓴다고도 들었거든. 으음, 그래도 독이 없는 종류면 좋겠다...^^ - 샘",
+
+////////////////////
+// SPECIAL ORDERS //
+////////////////////
+
+"atelierfrozen_SO_1.name":"드워프를 마당으로 부르는 밀크셰이크",
+"atelierfrozen_SO_1.text":"당신 말대로라면... 우유도 다른 음료로 만들 수 있다는 뜻이지? 흥미롭게 들려. 이 이상한 혼합물을 시식하기 위해 금을 내어줄 수 있어.",
+"atelierfrozen_SO_1a.deliver":"드워프에게 바닐라 밀크셰이크 1개 전달.",
+"atelierfrozen_SO_1b.deliver":"드워프에게 딸기 밀크셰이크 1개 전달.",
+"atelierfrozen_SO_1c.deliver":"드워프에게 드워프 밀크셰이크 1개 전달.",
+"atelierfrozen_SO_1.accept":"그러니까 이걸... 밀크셰이크라고 부른다고? 멋진데. 차갑고 달콤한걸. 너희 인간들은 정말 흥미로운 존재야.",
+
+"atelierfrozen_SO_2.name":"아이스 바에 대한 깊은 고찰",
+"atelierfrozen_SO_2.text":"마을에 사는 아이들이 알록달록한 얼음이 붙은 막대를 들고 있는 걸 봤어... 그걸 먹어보고 싶어!",
+"atelierfrozen_SO_2.deliver":"크로버스에게 하드 바 6개 전달.",
+"atelierfrozen_SO_2.accept":"고마워! 난 이것들을 꼭 먹어보고 싶었어.",
+
+"atelierfrozen_SO_3.name":"아이스크림 파티",
+"atelierfrozen_SO_3.text":"아이스크림 파티를 열고 싶은데, 메뉴에 어떤 맛을 넣을지 고민이에요. 도와줄 사람을 구합니다!",
+"atelierfrozen_SO_3a.deliver":"조디의 집 부엌 상자에 레몬 샤베트 3개 넣기.",
+"atelierfrozen_SO_3b.deliver":"조디의 집 부엌 상자에 민트 초콜릿 아이스요거 3개 넣기.",
+"atelierfrozen_SO_3c.deliver":"조디의 집 부엌 상자에 라벤더 레몬 아이스크림 3개 넣기.",
+"atelierfrozen_SO_3d.deliver":"조디의 집 부엌 상자에 오르차타 아이스크림 3개 넣기.",
+
+"atelierfrozen_SO_4.name":"달콤한 샌드위치",
+"atelierfrozen_SO_4.text":"저는 어린 시절 제일 좋아하던 아이스크림 샌드위치에 대한 그리움을 느껴왔습니다. 마루는 이제 그 간식이 다양한 맛을 즐길 수 있다고 하는데, 몇 가지 시도하는 걸 도와줄 수 있나요?",
+"atelierfrozen_SO_4a.deliver":"드미트리우스의 연구실 상자에 모카 아이스샌드 2개 넣기.",
+"atelierfrozen_SO_4b.deliver":"드미트리우스의 연구실 상자에 피스타치오 아이스샌드 2개 넣기.",
+"atelierfrozen_SO_4c.deliver":"드미트리우스의 연구실 상자에 딸기 아이스샌드 2개 넣기.",
+"atelierfrozen_SO_4d.deliver":"드미트리우스의 연구실 상자에 모카 코코넛 아이스샌드 2개 넣기.",
+
+"atelierfrozen_SO_5.name":"최고의 얼음과자 챌린지",
+"atelierfrozen_SO_5.text":"올해도 이 시기가 찾아왔습니다- 최고의 얼음 제과 전문장인을 위한 공식 접수가 시작되었습니다! 대상을 위한 최고의 상품을 보내주세요!",
+"atelierfrozen_SO_5.ship":"금별 품질의 얼음 제과 100개 배송하기.",
+
+"atelierfrozen_SO_6.name":"켄트를 위한 밀크셰이크",
+"atelierfrozen_SO_6.text":"특별한 간식으로 가족들을 놀라게 해주고 싶어. 밀크셰이크가 효과가 있을까요?",
+"atelierfrozen_SO_6.deliver":"켄트에게 밀크셰이크 4개 배달.",
+"atelierfrozen_SO_6.accept":"가족들이 이걸 좋아할 거 같아. 정말 고마워.",
+
+"atelierfrozen_SO_7.name":"엘리엇을 위한 하드 아이스크림",
+"atelierfrozen_SO_7.text":"문학적인 영감을 위해 하드 바 아이스크림이 필요합니다! 이유를 설명할 수는 없지만, 꼭 먹어야겠어요!",
+"atelierfrozen_SO_7.deliver":"엘리엇에게 하드 바 아이스크림 4개 전달.",
+"atelierfrozen_SO_7.accept":"완벽한 아이스바야! 고마워, 이제 나는 이걸 먹으면서 곰곰이 생각해 봐야겠어.",
+
+"atelierfrozen_SO_8.name":"거스를 위한 아이스크림",
+"atelierfrozen_SO_8.text":"살롱에서 얼음 제과를 제공하고 싶어요. 제 메뉴를 만드는 걸 도와줄 수 있나요?",
+"atelierfrozen_SO_8.deliver":"거스에게 아이스크림 12개 전달.",
+"atelierfrozen_SO_8.accept":"술집에서 모든 사람들이 좋아할 것 같군! 정말 고맙네!",
+
+}

@@ -1,0 +1,181 @@
+{
+    "Changes": [
+
+//ARTISAN GOODS
+        {
+              "LogName":"QL - Artisan Goods SpringObjects",
+              "Action": "EditData",
+              "Target": "Data/Objects",
+              "Entries": {
+                  "PC.QL.FlowerGarden2_CandiedFlowers": {                      "Name": "PC.QL.FlowerGarden2_CandiedFlowers",                      "Displayname": "{{i18n:CandiedFlowers.name}}",                      "Description": "{{i18n:CandiedFlowers.description}}",
+                    "Type": "ArtisanGoods",
+                    "Category": ‐26,
+                    "Price": 75,
+                    "Edibility": 10,
+                    "ContextTags": [
+        "color_red",
+    ],
+                    "Texture": "Mods/PC.QL.FlowerGarden2/Objects",                      "SpriteIndex": 112
+              },
+
+//EXTRACTS
+                  "PC.QL.FlowerGarden2_CarnationExtract": {                      "Name": "PC.QL.FlowerGarden2_CarnationExtract",                      "Displayname": "{{i18n:FlowerExtract.name}}",                      "Description": "{{i18n:FlowerExtract.description}}",
+                    "Type": "ArtisanGoods",
+                    "Category": ‐26,
+                    "Price": 300,
+                    "ContextTags": [
+        "item_extract",
+        "extract_flower",
+        "color_pink"
+    ],
+                    "Texture": "Mods/PC.QL.FlowerGarden2/Objects",                      "SpriteIndex": 92
+              },
+                  "PC.QL.FlowerGarden2_GardeniaExtract": {                      "Name": "PC.QL.FlowerGarden2_GardeniaExtract",                      "Displayname": "{{i18n:FlowerExtract.name}}",                      "Description": "{{i18n:FlowerExtract.description}}",
+                    "Type": "ArtisanGoods",
+                    "Category": ‐26,
+                    "Price": 300,
+                    "ContextTags": [
+        "item_extract",
+        "extract_flower",
+        "color_white"
+    ],
+                    "Texture": "Mods/PC.QL.FlowerGarden2/Objects",                      "SpriteIndex": 93
+              },
+                  "PC.QL.FlowerGarden2_HibiscusExtract": {                      "Name": "PC.QL.FlowerGarden2_HibiscusExtract",                      "Displayname": "{{i18n:FlowerExtract.name}}",                      "Description": "{{i18n:FlowerExtract.description}}",
+                    "Type": "ArtisanGoods",
+                    "Category": ‐26,
+                    "Price": 300,
+                    "ContextTags": [
+        "item_extract",
+        "extract_flower",
+        "color_red"
+    ],
+                    "Texture": "Mods/PC.QL.FlowerGarden2/Objects",                      "SpriteIndex": 94
+              },
+                  "PC.QL.FlowerGarden2_JasmineExtract": {                      "Name": "PC.QL.FlowerGarden2_JasmineExtract",                      "Displayname": "{{i18n:FlowerExtract.name}}",                      "Description": "{{i18n:FlowerExtract.description}}",
+                    "Type": "ArtisanGoods",
+                    "Category": ‐26,
+                    "Price": 300,
+                    "ContextTags": [
+        "item_extract",
+        "extract_flower",
+        "color_white"
+    ],
+                    "Texture": "Mods/PC.QL.FlowerGarden2/Objects",                      "SpriteIndex": 95
+              },
+                  "PC.QL.FlowerGarden2_LavenderExtract": {                      "Name": "PC.QL.FlowerGarden2_LavenderExtract",                      "Displayname": "{{i18n:FlowerExtract.name}}",                      "Description": "{{i18n:FlowerExtract.description}}",
+                    "Type": "ArtisanGoods",
+                    "Category": ‐26,
+                    "Price": 300,
+                    "ContextTags": [
+        "item_extract",
+        "extract_flower",
+        "color_purple"
+    ],
+                    "Texture": "Mods/PC.QL.FlowerGarden2/Objects",                      "SpriteIndex": 96
+              },
+                  "PC.QL.FlowerGarden2_LilacExtract": {                      "Name": "PC.QL.FlowerGarden2_LilacExtract",                      "Displayname": "{{i18n:FlowerExtract.name}}",                      "Description": "{{i18n:FlowerExtract.description}}",
+                    "Type": "ArtisanGoods",
+                    "Category": ‐26,
+                    "Price": 300,
+                    "ContextTags": [
+        "item_extract",
+        "extract_flower",
+        "color_light_puple"
+    ],
+                    "Texture": "Mods/PC.QL.FlowerGarden2/Objects",                      "SpriteIndex": 97
+              },
+                  "PC.QL.FlowerGarden2_RoseExtract": {                      "Name": "PC.QL.FlowerGarden2_RoseExtract",                      "Displayname": "{{i18n:FlowerExtract.name}}",                      "Description": "{{i18n:FlowerExtract.description}}",
+                    "Type": "ArtisanGoods",
+                    "Category": ‐26,
+                    "Price": 300,
+                    "ContextTags": [
+        "item_extract",
+        "extract_flower",
+        "color_pink"
+    ],
+                    "Texture": "Mods/PC.QL.FlowerGarden2/Objects",                      "SpriteIndex": 98
+              },
+
+//WINE
+                  "PC.QL.FlowerGarden2_CarnationWine": {                      "Name": "PC.QL.FlowerGarden2_CarnationWine",                      "Displayname": "{{i18n:FlowerWine.name}}",                      "Description": "{{i18n:FlowerWine.description}}",
+                    "Type": "ArtisanGoods",
+                    "Category": ‐26,
+                    "Price": 300,
+                    "ContextTags": [
+        "item_extract",
+        "color_pink"
+    ],
+                    "Texture": "Mods/PC.QL.FlowerGarden2/Objects",                      "SpriteIndex": 113
+              },
+                  "PC.QL.FlowerGarden2_GardeniaWine": {                      "Name": "PC.QL.FlowerGarden2_GardeniaWine",                      "Displayname": "{{i18n:FlowerWine.name}}",                      "Description": "{{i18n:FlowerWine.description}}",
+                    "Type": "ArtisanGoods",
+                    "Category": ‐26,
+                    "Price": 300,
+                    "ContextTags": [
+        "item_extract",
+        "color_pink"
+    ],
+                    "Texture": "Mods/PC.QL.FlowerGarden2/Objects",                      "SpriteIndex": 114
+              },
+                  "PC.QL.FlowerGarden2_HibiscusWine": {                      "Name": "PC.QL.FlowerGarden2_HibiscusWine",                      "Displayname": "{{i18n:FlowerWine.name}}",                      "Description": "{{i18n:FlowerWine.description}}",
+                    "Type": "ArtisanGoods",
+                    "Category": ‐26,
+                    "Price": 300,
+                    "ContextTags": [
+        "item_extract",
+        "color_pink"
+    ],
+                    "Texture": "Mods/PC.QL.FlowerGarden2/Objects",                      "SpriteIndex": 115
+              },
+                  "PC.QL.FlowerGarden2_JasmineWine": {                      "Name": "PC.QL.FlowerGarden2_JasmineWine",                      "Displayname": "{{i18n:FlowerWine.name}}",                      "Description": "{{i18n:FlowerWine.description}}",
+                    "Type": "ArtisanGoods",
+                    "Category": ‐26,
+                    "Price": 300,
+                    "ContextTags": [
+        "item_extract",
+        "color_pink"
+    ],
+                    "Texture": "Mods/PC.QL.FlowerGarden2/Objects",                      "SpriteIndex": 116
+              },
+                  "PC.QL.FlowerGarden2_LavenderWine": {                      "Name": "PC.QL.FlowerGarden2_LavenderWine",                      "Displayname": "{{i18n:FlowerWine.name}}",                      "Description": "{{i18n:FlowerWine.description}}",
+                    "Type": "ArtisanGoods",
+                    "Category": ‐26,
+                    "Price": 300,
+                    "ContextTags": [
+        "item_extract",
+        "color_pink"
+    ],
+                    "Texture": "Mods/PC.QL.FlowerGarden2/Objects",                      "SpriteIndex": 117
+              },
+                  "PC.QL.FlowerGarden2_LilacWine": {                      "Name": "PC.QL.FlowerGarden2_LilacWine",                      "Displayname": "{{i18n:FlowerWine.name}}",                      "Description": "{{i18n:FlowerWine.description}}",
+                    "Type": "ArtisanGoods",
+                    "Category": ‐26,
+                    "Price": 300,
+                    "ContextTags": [
+        "item_extract",
+        "color_pink"
+    ],
+                    "Texture": "Mods/PC.QL.FlowerGarden2/Objects",                      "SpriteIndex": 118
+              },
+                  "PC.QL.FlowerGarden2_RoseWine": {                      "Name": "PC.QL.FlowerGarden2_RoseWine",                      "Displayname": "{{i18n:FlowerWine.name}}",                      "Description": "{{i18n:FlowerWine.description}}",
+                    "Type": "ArtisanGoods",
+                    "Category": ‐26,
+                    "Price": 300,
+                    "ContextTags": [
+        "item_extract",
+        "color_pink"
+    ],
+                    "Texture": "Mods/PC.QL.FlowerGarden2/Objects",                      "SpriteIndex": 119
+              },
+
+    }
+},
+
+]
+}
+
+
+
+
+

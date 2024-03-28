@@ -1,0 +1,306 @@
+{
+
+//MACHINES
+
+"atelierfrozen_BlastChiller.name":"Congélateur",
+"atelierfrozen_BlastChiller.description":"Un mini congélateur que vous pouvez utiliser pour créer des friandises glacées !",
+
+"atelierfrozen_TreatMaker.name":"Machine à friandises congelées",
+"atelierfrozen_TreatMaker.description":"Une machine pour baratter des glaces et des yaourts glacés faits maison.",
+
+//FROZEN YOGURT
+
+"atelierfrozen_cake_cup.name": "Gâteau d'anniversaire glacé",
+"atelierfrozen_cake_cup.description": "Gâteau glacé fraîchement baratté pour les anniversaires - délicieux!",
+
+"atelierfrozen_blueberry_cup.name": "Cheesecake aux bleuets glacé",
+"atelierfrozen_blueberry_cup.description": " et de bleuets - délicieux!",
+
+"atelierfrozen_cheesecake_cup.name": "Cheesecake glacé",
+"atelierfrozen_cheesecake_cup.description": "Un cheesecake à base de yogourt glacé fraîchement baratté - délicieux!",
+
+"atelierfrozen_cherrychoco_cup.name": "Yaourt glacée au chocolat et aux cerises",
+"atelierfrozen_cherrychoco_cup.description": "Une tasse de yogourt glacé fraîchement baratté avec du chocolat et de la cerise - délicieux!",
+
+"atelierfrozen_fruity_cup.name": "Yaourt glacée aux fruit",
+"atelierfrozen_fruity_cup.description": "Une tasse de yogourt glacé fraîchement baratté avec des fruits - délicieux!",
+
+"atelierfrozen_choco_cup.name": "Yaourt glacée au Chocolat",
+"atelierfrozen_choco_cup.description": "Une tasse de yogourt glacé fraîchement baratté avec du chocolat - délicieux!",
+
+"atelierfrozen_lemon_cup.name": "Sorbet aux Citron",
+"atelierfrozen_lemon_cup.description": "Du citron frais mélangés à de la crème dans un sorbet léger et sucré.",
+
+"atelierfrozen_mango_cup.name": "Sorbet à la Mangue",
+"atelierfrozen_mango_cup.description": "De la mangue fraiche mélangés à de la crème dans un sorbet léger et sucré.",
+
+"atelierfrozen_melon_cup.name": "Sorbet aux Melon",
+"atelierfrozen_melon_cup.description": "Du melon frais mélangés à de la crème dans un sorbet léger et sucré.",
+
+"atelierfrozen_mintchoco_cup.name": "Yaourt glacée à la menthe",
+"atelierfrozen_mintchoco_cup.description": "Une tasse de yogourt glacé fraîchement baratté à la menthe - délicieux!",
+
+"atelierfrozen_orange_cup.name": "Sorbet à l'orange",
+"atelierfrozen_orange_cup.description": "De l'orange fraiche mélangés à de la crème dans un sorbet léger et sucré.",
+
+"atelierfrozen_pumpkin_cup.name": " aux épices et à la citrouille",
+"atelierfrozen_pumpkin_cup.description": "Une tasse de yogourt glacé fraîchement baratté avec de la citrouile et des épices - délicieux!",
+
+"atelierfrozen_starfruit_cup.name": "Sorbet de Carambole",
+"atelierfrozen_starfruit_cup.description": "Des carambole fraiche mélangés à de la crème dans un sorbet léger et sucré.",
+
+"atelierfrozen_taro_cup.name": "Yaourt glacée aux Taro",
+"atelierfrozen_taro_cup.description": "Une tasse de yogourt glacé fraîchement baratté avec du taro - délicieux!",
+
+"atelierfrozen_wildberry_cup.name": "Yaourt glacée aux baie sauvage",
+"atelierfrozen_wildberry_cup.description": "Une tasse de yogourt glacé fraîchement baratté avec des baies sauvages - délicieux!",
+
+//ICE CREAM
+
+"atelierfrozen_ancient_cone.name": "Crème Glacée à l'Ancienne",
+"atelierfrozen_ancient_cone.description": "Glace maison - la gâterie estivale parfaite!",
+
+"atelierfrozen_apple_cone.name": "Crème glacée à la tarte aux pommes",
+"atelierfrozen_apple_cone.description": "Glace maison - la gâterie estivale parfaite!",
+
+"atelierfrozen_cherrynu_cone.name": "Glace Cerise Amande",
+"atelierfrozen_cherrynu_cone.description": "Glace maison - la gâterie estivale parfaite!",
+
+"atelierfrozen_cherryblossom_cone.name": "Glace Sakura",
+"atelierfrozen_cherryblossom_cone.description": "Glace maison - la gâterie estivale parfaite!",
+
+"atelierfrozen_chocolate_cone.name": "Crème glacée au chocolat",
+"atelierfrozen_chocolate_cone.description": "Glace maison - la gâterie estivale parfaite!",
+
+"atelierfrozen_coconut_cone.name": "Glace à la noix de coco",
+"atelierfrozen_coconut_cone.description": "Glace maison - la gâterie estivale parfaite!",
+
+"atelierfrozen_coffee_cone.name": "Glace au café",
+"atelierfrozen_coffee_cone.description": "Glace maison - la gâterie estivale parfaite!",
+
+"atelierfrozen_cookie_dough_cone.name": "Crème glacée à la pâte à biscuits",
+"atelierfrozen_cookie_dough_cone.description": "Glace maison - la gâterie estivale parfaite!",
+
+"atelierfrozen_cookie_cone.name": "Biscuits et Crème Glacée",
+"atelierfrozen_cookie_cone.description": "Glace maison - la gâterie estivale parfaite!",
+
+"atelierfrozen_horchata_cone.name": "Glace à l'Orgeat",
+"atelierfrozen_horchata_cone.description": "Glace maison - la gâterie estivale parfaite!",
+
+"atelierfrozen_lavender_cone.name": "Glace Lavande Citron",
+"atelierfrozen_lavender_cone.description": "Glace maison - la gâterie estivale parfaite!",
+
+"atelierfrozen_maple_cone.name": "Crème glacée à l'érable et aux noix",
+"atelierfrozen_maple_cone.description": "Glace maison - la gâterie estivale parfaite!",
+
+"atelierfrozen_mint_cone.name": "Glace Menthe Chocolat",
+"atelierfrozen_mint_cone.description": "Glace maison - la gâterie estivale parfaite!",
+
+"atelierfrozen_pistachio_cone.name": "Glace à la pistache",
+"atelierfrozen_pistachio_cone.description": "Glace maison - la gâterie estivale parfaite!",
+
+"atelierfrozen_strawberry_cone.name": "Glace aux fraises et à la crème",
+"atelierfrozen_strawberry_cone.description": "Glace maison - la gâterie estivale parfaite!",
+
+"atelierfrozen_vanilla_cone.name": "Glace à la vanille",
+"atelierfrozen_vanilla_cone.description": "Glace maison - la gâterie estivale parfaite!",
+
+//MILKSHAKES
+
+"atelierfrozen_choco_milkshake.name": "Milkshake aux chocolat",
+"atelierfrozen_choco_milkshake.description": "De la crème glacée mélangée à du lait dans une friandise glacée à boire !",
+
+"atelierfrozen_candy_milkshake.name": "Milkshake à la barbe à papa",
+"atelierfrozen_candy_milkshake.description": "De la crème glacée mélangée à du lait dans une friandise glacée à boire !",
+
+"atelierfrozen_orange_milkshake.name": "Milkshake à la Crème glacée à base d'orange",
+"atelierfrozen_orange_milkshake.description": "De la crème glacée mélangée à du lait dans une friandise glacée à boire !",
+
+"atelierfrozen_earlgrey_milkshake.name": "Milkshake Earl Grey",
+"atelierfrozen_earlgrey_milkshake.description": "De la crème glacée mélangée à du lait dans une friandise glacée à boire !",
+
+"atelierfrozen_lime_milkshake.name": "Milkshake à base de Tarte au citron vert",
+"atelierfrozen_lime_milkshake.description": "De la crème glacée mélangée à du lait dans une friandise glacée à boire !",
+
+"atelierfrozen_colada_milkshake.name": "Milkshake à la Pina Colada ",
+"atelierfrozen_colada_milkshake.description": "De la crème glacée mélangée à du lait dans une friandise glacée à boire !",
+
+"atelierfrozen_pumpkin_milkshake.name": "Milkshake à base d'épice et de citrouille",
+"atelierfrozen_pumpkin_milkshake.description": "De la crème glacée mélangée à du lait dans une friandise glacée à boire !",
+
+"atelierfrozen_strawberry_milkshake.name": "Milkshake à la fraise",
+"atelierfrozen_strawberry_milkshake.description": "De la crème glacée mélangée à du lait dans une friandise glacée à boire !",
+
+"atelierfrozen_vanilla_milkshake.name": "Milkshake à base de Gousse de vanille",
+"atelierfrozen_vanilla_milkshake.description": "De la crème glacée mélangée à du lait dans une friandise glacée à boire !",
+
+//POPSICLES
+
+"atelierfrozen_ancient_popsicle.name": "Glace à l'eau à l'Ancienne",
+"atelierfrozen_ancient_popsicle.description": "Jus de fruits surgelés sur bâtonnet - un adorable régal estival.",
+
+"atelierfrozen_blueberry_popsicle.name": "Glace à l'eau saveur bleuets",
+"atelierfrozen_blueberry_popsicle.description": "Jus de fruits surgelés sur bâtonnet - un adorable régal estival.",
+
+"atelierfrozen_cherry_popsicle.name": "Glace à l'eau saveur cerise",
+"atelierfrozen_cherry_popsicle.description": "Jus de fruits surgelés sur bâtonnet - un adorable régal estival.",
+
+"atelierfrozen_coconut_popsicle.name": "Glace à l'eau saveur noix de coco",
+"atelierfrozen_coconut_popsicle.description": "Jus de fruits surgelés sur bâtonnet - un adorable régal estival.",
+
+"atelierfrozen_fruity_popsicle.name": "Glace à l'eau saveur fruits",
+"atelierfrozen_fruity_popsicle.description": "Jus de fruits surgelés sur bâtonnet - un adorable régal estival.",
+
+"atelierfrozen_grape_popsicle.name": "Glace à l'eau saveur raisin",
+"atelierfrozen_grape_popsicle.description": "Jus de fruits surgelés sur bâtonnet - un adorable régal estival.",
+
+"atelierfrozen_lemon_popsicle.name": "Glace à l'eau saveur citron",
+"atelierfrozen_lemon_popsicle.description": "Jus de fruits surgelés sur bâtonnet - un adorable régal estival.",
+
+"atelierfrozen_lime_popsicle.name": "Glace à l'eau saveur citron vert",
+"atelierfrozen_lime_popsicle.description": "Jus de fruits surgelés sur bâtonnet - un adorable régal estival.",
+
+"atelierfrozen_gem_popsicle.name": "Glace à l'eau saveur gem sucrée",
+"atelierfrozen_gem_popsicle.description": "Jus de fruits surgelés sur bâtonnet - un adorable régal estival.",
+
+"atelierfrozen_mango_popsicle.name": "Glace à l'eau saveur mangue",
+"atelierfrozen_mango_popsicle.description": "Jus de fruits surgelés sur bâtonnet - un adorable régal estival.",
+
+"atelierfrozen_melon_popsicle.name": "Glace à l'eau saveur melon",
+"atelierfrozen_melon_popsicle.description": "Jus de fruits surgelés sur bâtonnet - un adorable régal estival.",
+
+"atelierfrozen_orange_popsicle.name": "Glace à l'eau saveur orange",
+"atelierfrozen_orange_popsicle.description": "Jus de fruits surgelés sur bâtonnet - un adorable régal estival.",
+
+"atelierfrozen_peach_popsicle.name": "Glace à l'eau saveur pêche",
+"atelierfrozen_peach_popsicle.description": "Jus de fruits surgelés sur bâtonnet - un adorable régal estival.",
+
+"atelierfrozen_pineapple_popsicle.name": "Glace à l'eau saveur ananas",
+"atelierfrozen_pineapple_popsicle.description": "Jus de fruits surgelés sur bâtonnet - un adorable régal estival.",
+
+"atelierfrozen_starfruit_popsicle.name": "Glace à l'eau saveur carambole",
+"atelierfrozen_starfruit_popsicle.description": "Jus de fruits surgelés sur bâtonnet - un adorable régal estival.",
+
+"atelierfrozen_strawberry_popsicle.name": "Glace à l'eau saveur fraise",
+"atelierfrozen_strawberry_popsicle.description": "Jus de fruits surgelés sur bâtonnet - un adorable régal estival.",
+
+"atelierfrozen_raspberry_popsicle.name": "Glace à l'eau saveur framboise",
+"atelierfrozen_raspberry_popsicle.description": "Jus de fruits surgelés sur bâtonnet - un adorable régal estival.",
+
+"atelierfrozen_wildberry_popsicle.name": "Glace à l'eau saveur baie sauvague",
+"atelierfrozen_wildberry_popsicle.description": "Jus de fruits surgelés sur bâtonnet - un adorable régal estival.",
+
+//SUNDAES
+
+"banana-sundae.name": "Banana Split ",
+"banana-sundae.description": "Un bol glacée, fraise, chocolat, vanille avec des bananes.",
+
+"fudge-sundae.name": "Dame blanche",
+"fudge-sundae.description": "Un bol de glace à la vanille nappé de coulis chocolat.",
+
+"caramel-sundae.name": "Liégeois aux caramel beurre salé",
+"caramel-sundae.description": "Un bol de glace aux caramel beurre salé nappé de coulis de caramel.",
+
+"smores-sundae.name": "Napolitain glacée",
+"smores-sundae.description": "Un bol de glace chocolat et fraise nappé de coulis de chocolat avec une feuille de menthe poivrée.",
+
+"soda-float.name": "Soda et crème glacée",
+"soda-float.description": "Une boule de glace qui flotte sur le soda pour une boisson rafraîchissante.",
+
+//ICE CREAM SANDWICHES
+
+"atelierfrozen_cinnamon_chocolate_sandwich.name": "Oreo glacée aux chocolat et à la canelle",
+"atelierfrozen_cinnamon_chocolate_sandwich.description": "Crème glacée prise en sandwich entre deux biscuits ressemblant à un gâteau au chocolat. Miam!",
+
+"atelierfrozen_mint_chocolate_sandwich.name": "Oreo glacée à la menthe et au chocolat",
+"atelierfrozen_mint_chocolate_sandwich.description": "Crème glacée prise en sandwich entre deux biscuits ressemblant à un gâteau au chocolat. Miam!",
+
+"atelierfrozen_mocha_coconut_sandwich.name": "Oréo glacée aux café noisette",
+"atelierfrozen_mocha_coconut_sandwich.description": "Crème glacée prise en sandwich entre deux biscuits ressemblant à un gâteau au chocolat. Miam!",
+
+"atelierfrozen_mocha_sandwich..name": "Oréo glacée aux café",
+"atelierfrozen_mocha_sandwich..description": "Crème glacée prise en sandwich entre deux biscuits ressemblant à un gâteau au chocolat. Miam!",
+
+"atelierfrozen_pistachio_sandwich.name": "Oréo glacée à la pistache",
+"atelierfrozen_pistachio_sandwich.description": "Crème glacée prise en sandwich entre deux biscuits ressemblant à un gâteau au chocolat. Miam!",
+
+"atelierfrozen_strawberry_sandwich.name": "Oréo glacée à la fraise",
+"atelierfrozen_strawberry_sandwich.description": "Crème glacée prise en sandwich entre deux biscuits ressemblant à un gâteau au chocolat. Miam!",
+
+"atelierfrozen_vanilla_sandwich.name": "Oréo glacée à la vanille",
+"atelierfrozen_vanilla_sandwich.description": "Crème glacée prise en sandwich entre deux biscuits ressemblant à un gâteau au chocolat. Miam!",
+
+//MAIL TEXT
+
+"atelierfrozen_TreatMakerRecipe.text":"@, ^^ Dans les temps anciens, les villageois se rendaient dans les montagnes enneigées pour obtenir de la glace, puis la transportaient jusqu'au village pour préparer des mets glacés. Je suis content que nous ayons la science maintenant.^^ - Demetrius",
+"atelierfrozen_ChillerRecipe.text":"@, ^^ Vous amusez-vous avec les plans de machine que Demetrius vous a envoyés ? J'aurais aimé qu'il me fasse savoir qu'il les envoyait car je les aurais inclus pour ma nouvelle cellule de refroidissement rapide ! Assurez-vous simplement d'en partager avec lui, d'accord ? Cet homme adore ses friandises glacées !^^ - Robin",
+"atelierfrozen_vincent_gift.text":"@, ^^ JE CRIE POUR DE LA CRÈME GLACÉE ! Ne serait-ce pas cool si tu criais ça et que de la crème glacée apparaissait comme par magie dans ta main ? Je perdrais ma voix, je crierais pour avoir de la glace toute la journée ! Pouvez-vous faire de la crème glacée avec ceux-ci, je les ai trouvés dans les bois, ils sentent bon.^^ - Vincent",
+"atelierfrozen_jodi_gift.text":"@, ^^ Vincent a été tellement enthousiasmé par la crème glacée que j'ai peur qu'il en fasse trop. Pouvez-vous essayer de faire du yaourt glacé et voir s'il le mangera à la place ? Au moins, j'aurai l'impression qu'il mange quelque chose de plus sain.^^ - Jodi",
+"atelierfrozen_sam_gift.text":"@, ^^ Faire de la glace maison hein ? Y a-t-il quelque chose que vous n'essayerez pas ? Sérieusement, ça a l'air super cool ! Je pense que ces champignons pourraient vous aider, je pense avoir lu qu'ils produisaient du lait quelque part, mais j'espère qu'ils ne sont pas toxiques...^^ - Sam",
+
+////////////////////
+// SPECIAL ORDERS //
+////////////////////
+
+"atelierfrozen_SO_1.name":"Milkshake amène les nains dans la cour",
+"atelierfrozen_SO_1.text":"Vous dites que le lait... peut aussi être transformé en d'autres boissons ? Cela semble intrigant. Je serais prêt à payer beaucoup d'or pour goûter à certaines de ces concoctions étranges.",
+"atelierfrozen_SO_1a.deliver":"Livrez 1 Milkshake à la vanille au nain.",
+"atelierfrozen_SO_1b.deliver":"Livrez 1 milk-shake aux fraises au nain.",
+"atelierfrozen_SO_1c.deliver":"Livrez 1 milk-shake au chocolat au nain.",
+"atelierfrozen_SO_1.accept":"Alors ça s'appelle un... milkshake ? Fascinant. Froid et sucré... vous les humains êtes vraiment un peuple intrigant.",
+
+"atelierfrozen_SO_2.name":"Pensive à propos des Popsicles",
+"atelierfrozen_SO_2.text":"J'ai vu les petits en ville tenir des bâtons avec des glaçons colorés attachés... J'aimerais beaucoup les essayer !",
+"atelierfrozen_SO_2.deliver":"Livrez 6 sucettes glacées à Krobus.",
+"atelierfrozen_SO_2.accept":"Merci ! J'ai hâte de les essayer.",
+
+"atelierfrozen_SO_3.name":"Fête de la crème glacée",
+"atelierfrozen_SO_3.text":"J'organise une fête de la crème glacée chic et j'ai besoin d'aide pour choisir les saveurs que je devrais inclure dans le menu !",
+"atelierfrozen_SO_3a.deliver":"Livrez 3 sorbets au citron dans la boîte de dépôt dans la cuisine de Jodi.",
+"atelierfrozen_SO_3b.deliver":"Livrez 3 froyos au chocolat à la menthe dans la boîte de dépôt dans la cuisine de Jodi.",
+"atelierfrozen_SO_3c.deliver":"Livrez 3 glaces au citron et à la lavande dans la boîte de dépôt de la cuisine de Jodi.",
+"atelierfrozen_SO_3d.deliver":"Livrez 3 glaces à l'horchata dans la boîte de dépôt de la cuisine de Jodi.",
+
+"atelierfrozen_SO_4.name":"Sandwichs sucrés",
+"atelierfrozen_SO_4.text":"J'ai la nostalgie de ma gâterie d'enfance préférée : le sandwich à la crème glacée. Maru dit qu'il y en a maintenant des tonnes de saveurs différentes. Est-ce que quelqu'un peut m'en apporter quelques-unes pour essayer ?",
+"atelierfrozen_SO_4a.deliver":"Livrez 2 sandwichs à la crème glacée au moka dans la boîte de dépôt du laboratoire de Demetrius.",
+"atelierfrozen_SO_4b.deliver":"Livrez 2 sandwichs à la crème glacée à la pistache dans la boîte de dépôt du laboratoire de Demetrius.",
+"atelierfrozen_SO_4c.deliver":"Livrez 2 sandwichs à la crème glacée à la fraise dans la boîte de dépôt du laboratoire de Demetrius.",
+"atelierfrozen_SO_4d.deliver":"Livrez 2 sandwichs à la crème glacée au moka et à la noix de coco dans la boîte de dépôt du laboratoire de Demetrius.",
+
+"atelierfrozen_SO_5.name":"Défi du festin glacé",
+"atelierfrozen_SO_5.text":"C'est à nouveau cette période de l'année - les candidatures annuelles pour le Frozen Feast Challenge sont officiellement ouvertes ! Envoyez-nous vos friandises glacées pour voir si vous pouvez gagner le grand prix !",
+"atelierfrozen_SO_5.ship":"Expédiez 100 friandises glacées de qualité or.",
+
+//FROZEN REPEATABLE NEW
+
+"atelierfrozen_SO_6.name":"Milkshakes pour le Kent",
+"atelierfrozen_SO_6.text":"J'aimerais surprendre la famille avec une gâterie spéciale. Peut-être que des milkshakes feraient l'affaire ?",
+"atelierfrozen_SO_6.deliver":"Livrez 4 milkshakes à Kent.",
+"atelierfrozen_SO_6.accept":"La famille va adorer ça ! Merci beaucoup, mon ami.",
+
+"atelierfrozen_SO_7.name":"Des sucettes glacées pour Elliott",
+"atelierfrozen_SO_7.text":"J'ai besoin de sucettes glacées pour l'inspiration littéraire ! Pourquoi demandez-vous ? Je ne peux pas expliquer, mais je DOIS simplement avoir des sucettes glacées !",
+"atelierfrozen_SO_7.deliver":"Livrez 4 sucettes glacées à Elliott.",
+"atelierfrozen_SO_7.accept":"La perfection des sucettes glacées ! Merci, maintenant je dois réfléchir aux sucettes glacées en silence.",
+
+"atelierfrozen_SO_8.name":"Crème glacée pour Gus",
+"atelierfrozen_SO_8.text":"Je veux commencer à servir des desserts glacés au saloon. Quelqu'un peut-il m'aider à configurer mon menu ?",
+"atelierfrozen_SO_8.deliver":"Livrez 12 glaces à Gus.",
+"atelierfrozen_SO_8.accept":"Ça va plaire à tout le monde au saloon ! Merci beaucoup !",
+
+//FROZEN REWARDS MAIL
+ 
+"atelierfrozen_SO2_reward.title": "Merci !",
+"atelierfrozen_SO2_reward.text": "Des sucettes glacées. Quelle merveilleuse invention. Tu devras m'apprendre à les fabriquer un jour. J'espère que ces trésors de la mine t'aideront à faire beaucoup plus de sucettes glacées.",
+
+"atelierfrozen_SO3_reward.title": "Merci ; plus une nouvelle recette !",
+"atelierfrozen_SO3_reward.text": "Le menu est parfait maintenant grâce à vous ! J'avais des restes de glaces et j'ai trouvé une nouvelle recette pour une crème glacée enrobée de chocolat... j'ai pensé que vous devriez être le premier à l'essayer ! ",
+
+"atelierfrozen_SO4_reward.title": "Merci ; plus ma recette de glaces aux feux d'artifice !",
+"atelierfrozen_SO4_reward.text": "Ces sandwichs me ramènent vraiment. Merci pour le partage, agriculteur. Voici une recette pour une autre gâterie glacée nostalgique que j'adorais pendant la saison des feux d'artifice d'été.",
+
+"atelierfrozen_SO5_reward.title": "Félicitations !",
+"atelierfrozen_SO5_reward.text": "Votre dévouement est impressionnant. Nous sommes fiers de vous offrir le 1er prix du concours Frozen Feast. Veuillez le prendre comme une récompense.",
+   
+}

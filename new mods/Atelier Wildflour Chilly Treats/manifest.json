@@ -1,0 +1,22 @@
+{
+    "Name": "Atelier Wildflour Chilly Treats Pack",
+    "Author": "wildflourmods",
+    "Version": "3.0.1",
+    "Description": "Adds new popsicles and ice cream recipes to Stardew Valley.",
+    "UniqueID": "wildflour.atelierfrozen",
+    "UpdateKeys": ["nexus:15711"], 
+    "MinimumApiVersion": "4.0.0-alpha",
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    },
+    "Dependencies": [
+        {
+            "UniqueID": "wildflour.ateliercrops", 
+            "IsRequired": true
+        },
+        {
+           "UniqueID": "wildflour.gourmetpantry",
+           "IsRequired": true
+        }
+    ]
+}

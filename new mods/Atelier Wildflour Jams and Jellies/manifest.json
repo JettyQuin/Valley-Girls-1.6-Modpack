@@ -1,0 +1,13 @@
+{
+    "Name": "Atelier Wildflour Jams and Jellies",
+    "Author": "wildflourmods",
+    "Version": "4.0.2",
+    "Description": "new jams and jellies as cooking recipes",
+    "UniqueID": "wildflour.jams",
+    "UpdateKeys": ["Nexus:14224"], 
+    "MinimumApiVersion": "4.0.0-alpha",
+    "Dependencies": [{"UniqueID": "wildflour.ateliercrops", "IsRequired": true}],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}

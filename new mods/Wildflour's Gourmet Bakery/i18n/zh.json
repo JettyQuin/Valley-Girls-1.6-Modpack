@@ -1,0 +1,467 @@
+{
+
+	//CAKES
+
+	"bakery_carrot_cake.name":"春暖花开胡萝卜蛋糕",
+	"bakery_carrot_cake.description":"用可爱春日花朵装饰的胡萝卜蛋糕——是今年复活节的完美选择！",
+
+	"bakery_chocolate_cake.name":"巧克力樱桃千层蛋糕",
+	"bakery_chocolate_cake.description":"浓郁的巧克力与现摘樱桃创造出这奢华的千层蛋糕。",
+
+	"bakery_chocolate_raspberry_cupcake.name": "巧克力覆盆莓杯子蛋糕",
+	"bakery_chocolate_raspberry_cupcake.description": "填满覆盆莓果酱的浓郁巧克力杯子蛋糕。",
+
+	"bakery_coconut_almond_cake.name":"椰香杏仁千层蛋糕",
+	"bakery_coconut_almond_cake.description":"用杏仁糖霜装饰的轻巧蓬松椰子蛋糕。",
+
+	"bakery_confetti_cake.name":"缤纷蛋糕",
+	"bakery_confetti_cake.description":"挤上香草糖霜的香草蛋糕，还有许多彩针糖做为馅料跟装饰！",
+
+	"bakery_gingerbread_cake.name":"姜母蛋糕卷",
+	"bakery_gingerbread_cake.description":"姜香四溢的蛋糕皮铺上香草奶油霜，卷成可爱的节庆甜点。",
+
+	"bakery_lemon_cake.name":"柠檬戚风蛋糕",
+	"bakery_lemon_cake.description":"小柠檬与甜蜜奶油造就了春日派对的完美柔软蛋糕。",
+
+	"bakery_peach_cake.name":"蜜桃奶油蛋糕",
+	"bakery_peach_cake.description":"现摘夏季桃子做成的轻柔香草海绵蛋糕。",
+
+	"bakery_pineapple_cake.name":"蜂鸟蛋糕",
+	"bakery_pineapple_cake.description":"塞满新鲜菠萝和坚果的辛香蛋糕！",
+
+	"bakery_pumpkin_cake.name":"南瓜香料蛋糕卷",
+	"bakery_pumpkin_cake.description":"秋季人气王：包着奶油奶酪的浓郁南瓜蛋糕卷！",
+
+	"bakery_red_velvet_cake.name":"红丝绒蛋糕",
+	"bakery_red_velvet_cake.description":"不含人工色素；这种经典蛋糕是利用老派方法染色的：甜菜！",
+
+	"bakery_strawberry_cake.name":"草莓奶油蛋糕",
+	"bakery_strawberry_cake.description":"可爱轻巧的海绵蛋糕，放满现摘草莓与打发奶油。",
+
+	"bakery_strawberry_cupcake.name":"甜蜜小草莓杯子蛋糕",
+	"bakery_strawberry_cupcake.description":"用草莓糖霜装饰的可爱小草莓蛋糕。",
+
+	"bakery_vanilla_cupcake.name":"甜蜜小香草杯子蛋糕",
+	"bakery_vanilla_cupcake.description":"用香草糖霜装饰的可爱小香草蛋糕。",
+
+	//MUFFINS
+
+	"bakery_apple_muffin.name":"苹果香料玛芬",
+	"bakery_apple_muffin.description":"苹果和肉桂让这玛芬成为清爽秋日的完美早餐。",
+
+	"bakery_banana_muffin.name":"香蕉坚果玛芬",
+	"bakery_banana_muffin.description":"这玛芬大部分的甜味都来自成熟香蕉泥。",
+
+	"bakery_cinnamon_muffin.name":"肉桂香料玛芬",
+	"bakery_cinnamon_muffin.description":"经典玛芬蛋糕，最适合搭配咖啡享用。",
+
+	"bakery_cornbread_muffin.name":"玉米面包黄油玛芬",
+	"bakery_cornbread_muffin.description":"浓郁又充满黄油味的丰盛玛芬，最适合配汤，但其实搭什么都很棒！",
+
+	"bakery_lemon_blueberry_muffin.name":"柠檬莓果玛芬",
+	"bakery_lemon_blueberry_muffin.description":"小柠檬和蓝莓让这玛芬充满新鲜水果的风味！",
+
+	"bakery_pumpkin_muffin.name":"南瓜香料拿铁玛芬",
+	"bakery_pumpkin_muffin.description":"加了肉桂与浓缩咖啡粉的南瓜玛芬。",
+
+	"bakery_strawberry_muffin.name":"草莓大黄玛芬",
+	"bakery_strawberry_muffin.description":"使用大黄和草莓碎的轻巧松软玛芬。",
+
+	//SCONES
+
+	"bakery_blackberry_scone.name":"黑莓莱姆司康",
+	"bakery_blackberry_scone.description":"小莱姆的皮衬托出黑莓的新鲜风味！",
+
+	"bakery_blueberry_scone.name":"蓝莓奶油司康",
+	"bakery_blueberry_scone.description":"塞满新鲜蓝莓，轻巧酥脆的司康。",
+
+	"bakery_cinnamon_scone.name":"肉桂葡萄干司康",
+	"bakery_cinnamon_scone.description":"塞满香料与葡萄干，轻巧酥脆的司康，早餐的完美选择！",
+
+	"bakery_peach_scone.name":"蜜桃蜂蜜司康",
+	"bakery_peach_scone.description":"这司康的味道像蜜桃馅饼，但可以用手拿而且更好吃！",
+
+	"bakery_pistachio_scone.name":"开心果司康",
+	"bakery_pistachio_scone.description":"塞满开心果碎，轻巧酥脆的司康。",
+
+	"bakery_pumpkin_scone.name":"枫糖南瓜司康",
+	"bakery_pumpkin_scone.description":"充满南瓜与枫糖风味的司康，可爱的秋日甜点。",
+
+	"bakery_raspberry_scone.name":"覆盆莓香草司康",
+	"bakery_raspberry_scone.description":"香草籽让人更难以抵抗这个覆盆莓司康了！",
+
+	"bakery_strawberry_scone.name":"草莓蛋糕司康",
+	"bakery_strawberry_scone.description":"像奶油蛋糕的司康，剖半并填满草莓与奶油！",
+
+	//CHEESECAKE
+
+	"bakery_blueberry_cheesecake.name":"切片蓝莓芝士蛋糕",
+	"bakery_blueberry_cheesecake.description":"用甜美蓝莓果酱装饰的切片芝士蛋糕。",
+
+	"bakery_cherry_cheesecake.name":"切片樱桃芝士蛋糕",
+	"bakery_cherry_cheesecake.description":"用甜美樱桃果酱装饰的切片芝士蛋糕。",
+
+	"bakery_cheesecake.name":"切片经典巧克力蛋糕",
+	"bakery_cheesecake.description":"经典的切片芝士蛋糕，细致美味！",
+
+	"bakery_cookies_cream_cheesecake.name":"切片奶油饼干芝士蛋糕",
+	"bakery_cookies_cream_cheesecake.description":"充满奶油饼干巧克力碎片的切片芝士蛋糕。",
+
+	"bakery_lemon_cheesecake.name":"切片柠檬芝士蛋糕",
+	"bakery_lemon_cheesecake.description":"用甜美柠檬凝乳装饰的切片芝士蛋糕。",
+
+	"bakery_mango_cheesecake.name":"切片芒果芝士蛋糕",
+	"bakery_mango_cheesecake.description":"用甜美芒果果酱装饰的切片芝士蛋糕。",
+
+	"bakery_mocha_cheesecake.name":"切片摩卡芝士蛋糕",
+	"bakery_mocha_cheesecake.description":"混合巧克力与浓缩咖啡粉的切片芝士蛋糕。",
+
+	"bakery_orange_cheesecake.name":"切片橙子奶油芝士蛋糕",
+	"bakery_orange_cheesecake.description":"用甜美橙子凝乳装饰的切片芝士蛋糕。",
+
+	"bakery_pumpkin_cheesecake.name":"切片南瓜芝士蛋糕",
+	"bakery_pumpkin_cheesecake.description":"混合新鲜南瓜与香料的切片芝士蛋糕。",
+
+	"bakery_raspberry_cheesecake.name":"切片覆盆莓芝士蛋糕",
+	"bakery_raspberry_cheesecake.description":"用甜美覆盆莓果酱装饰的切片芝士蛋糕。",
+
+	"bakery_strawberry_cheesecake.name":"切片草莓芝士蛋糕",
+	"bakery_strawberry_cheesecake.description":"用甜美草莓果酱装饰的切片芝士蛋糕。",
+
+	"bakery_white_cheesecake.name":"切片白巧莱姆芝士蛋糕",
+	"bakery_white_cheesecake.description":"烘焙时加入白巧克力与新鲜莱姆皮的芝士蛋糕。",
+
+	//PETIT FOURS
+
+	"bakery_almond_petit_fours.name":"杏仁花色小蛋糕",
+	"bakery_almond_petit_fours.description":"杏仁味的精美派对蛋糕。",
+
+	"bakery_chocolate_petit_fours.name":"巧克力榛子花色小蛋糕",
+	"bakery_chocolate_petit_fours.description":"巧克力与榛子味的精美派对蛋糕。",
+
+	"bakery_lemon_petit_fours.name":"甜美柠檬花色小蛋糕",
+	"bakery_lemon_petit_fours.description":"新鲜柠檬味的精美派对蛋糕。",
+
+	"bakery_matcha_petit_fours.name":"抹茶花色小蛋糕",
+	"bakery_matcha_petit_fours.description":"抹茶味的精美派对蛋糕。",
+
+	"bakery_peach_petit_fours.name":"蜜桃花色小蛋糕",
+	"bakery_peach_petit_fours.description":"现摘桃子味的精美派对蛋糕。",
+
+	"bakery_pistachio_petit_fours.name":"开心果花色小蛋糕",
+	"bakery_pistachio_petit_fours.description":"开心果味的精美派对蛋糕。",
+
+	"bakery_strawberry_petit_fours.name":"草莓玫瑰花色小蛋糕",
+	"bakery_strawberry_petit_fours.description":"草莓与玫瑰花酱味的精美派对蛋糕。",
+
+	"bakery_tiramisu_petit_fours.name":"提拉米苏花色小蛋糕",
+	"bakery_tiramisu_petit_fours.description":"浓缩咖啡与巧克力味的精美派对蛋糕。",
+
+	"bakery_tres_leches_petit_fours.name":"特蕾斯花色小蛋糕",
+	"bakery_tres_leches_petit_fours.description":"多种牛奶与肉桂味的精美派对蛋糕。",
+
+	"bakery_tropical_petit_fours.name":"热带花色小蛋糕",
+	"bakery_tropical_petit_fours.description":"热带水果味的精美派对蛋糕。",
+
+	"bakery_vanilla_petit_fours.name":"香草覆盆莓花色小蛋糕",
+	"bakery_vanilla_petit_fours.description":"现摘覆盆莓味的精美派对蛋糕。",
+
+	//PIES
+
+	"bakery_apple_pie.name":"老式苹果派",
+	"bakery_apple_pie.description":"用当地果园的苹果烤的派。",
+
+	"bakery_banana_cream_pie.name":"老式香蕉奶油派",
+	"bakery_banana_cream_pie.description":"铺上香蕉片与奶油的卡士达派。",
+
+	"bakery_blueberry_pie.name":"老式蓝莓派",
+	"bakery_blueberry_pie.description":"用现摘蓝莓制作而成的派。",
+
+	"bakery_cherry_pie.name":"老式樱桃派",
+	"bakery_cherry_pie.description":"用当地果园的樱桃烤的派。",
+
+	"bakery_lemon_pie.name":"老式柠檬派",
+	"bakery_lemon_pie.description":"加上柠檬皮与柠檬凝乳的卡士达派。",
+
+	"bakery_peach_pie.name":"老式蜜桃派",
+	"bakery_peach_pie.description":"用当地果园的桃子烤的派。",
+
+	"bakery_lime_pie.name":"老式莱姆派",
+	"bakery_lime_pie.description":"加上莱姆皮与莱姆凝乳的卡士达派。",
+
+	"bakery_plum_pie.name":"老式野梅派",
+	"bakery_plum_pie.description":"用觅食的梅子烤的派。",
+
+	"bakery_pumpkin_pie.name":"老式南瓜派",
+	"bakery_pumpkin_pie.description":"用现采南瓜制作而成的派。",
+
+	"bakery_sweet_potato_pie.name":"老式番薯派",
+	"bakery_sweet_potato_pie.description":"把番薯、肉桂与砂糖一起炖煮，最后烤成了可爱的派。",
+
+	//TARTS
+
+	"bakery_blueberry_tart.name":"乡村蓝莓塔",
+	"bakery_blueberry_tart.description":"酥脆塔皮里填满甜蜜蓝莓馅。",
+
+	"bakery_chocolate_hazelnut_tart.name":"巧克力榛子塔",
+	"bakery_chocolate_hazelnut_tart.description":"酥脆塔皮里填满绵密的巧克力榛子酱。",
+
+	"bakery_lemon_tart.name":"小柠檬塔",
+	"bakery_lemon_tart.description":"酥脆塔皮里填满绵密甜美的柠檬馅。",
+
+	"bakery_mango_tart.name":"岛屿芒果塔",
+	"bakery_mango_tart.description":"酥脆塔皮里填满绵密的芒果卡士达馅。",
+
+	"bakery_berry_tart.name":"莓果盛宴塔",
+	"bakery_berry_tart.description":"酥脆塔皮里填满综合莓果。",
+
+	"bakery_fruit_tart.name":"什锦水果塔",
+	"bakery_fruit_tart.description":"酥脆塔皮里填满你手边的所有水果！",
+
+	"bakery_peppermint_tart.name":"摩卡薄荷塔",
+	"bakery_peppermint_tart.description":"酥脆塔皮里填满绵密的巧克力薄荷馅。",
+
+	"bakery_pina_colada_tart.name":"椰林飘香塔",
+	"bakery_pina_colada_tart.description":"酥脆塔皮里填满绵密的菠萝椰子卡士达馅。",
+
+	"bakery_raspberry_tart.name":"野生覆盆莓塔",
+	"bakery_raspberry_tart.description":"酥脆塔皮里填满甜蜜覆盆莓馅。",
+
+	"bakery_summer_tart.name":"盛夏恩惠塔",
+	"bakery_summer_tart.description":"酥脆塔皮里填满夏天最棒的水果。",
+
+	//ECLAIRS
+
+	"bakery_chocolate_eclair.name":"巧克力闪电泡芙",
+	"bakery_chocolate_eclair.description":"填满浓郁巧克力卡士达酱的精美糕点。",
+
+	"bakery_maple_eclair.name":"枫糖闪电泡芙",
+	"bakery_maple_eclair.description":"填满浓郁枫糖卡士达酱的精美糕点。",
+
+	"bakery_mocha_eclair.name":"摩卡闪电泡芙",
+	"bakery_mocha_eclair.description":"填满浓郁摩卡卡士达酱的精美糕点。",
+
+	"bakery_pistachio_eclair.name":"巧克力开心果闪电泡芙",
+	"bakery_pistachio_eclair.description":"填满甜蜜开心果卡士达酱的精美糕点。",
+
+	"bakery_raspberry_eclair.name":"覆盆莓柠檬闪电泡芙",
+	"bakery_raspberry_eclair.description":"填满酸甜覆盆莓柠檬卡士达酱的精美糕点。",
+
+	"bakery_strawberry_eclair.name":"草莓芝士蛋糕闪电泡芙",
+	"bakery_strawberry_eclair.description":"填满甜蜜草莓与奶油奶酪的精美糕点。",
+
+	"bakery_vanilla_eclair.name":"香草闪电泡芙",
+	"bakery_vanilla_eclair.description":"填满浓郁香草卡士达酱的精美糕点。",
+
+	//MACARONS
+
+	"bakery_almond_macaron.name":"华丽杏仁马卡龙",
+	"bakery_almond_macaron.description":"诱人的杏仁味蛋白霜夹心饼。",
+
+	"bakery_chocolate_macaron.name":"华丽巧克力榛子马卡龙",
+	"bakery_chocolate_macaron.description":"诱人的巧克力榛子味蛋白霜夹心饼。",
+
+	"bakery_lavender_macaron.name":"华丽薰衣草马卡龙",
+	"bakery_lavender_macaron.description":"诱人的薰衣草与香草味蛋白霜夹心饼。",
+
+	"bakery_lemon_macaron.name":"华丽柠檬马卡龙",
+	"bakery_lemon_macaron.description":"诱人的新鲜柠檬味蛋白霜夹心饼。",
+
+	"bakery_lime_macaron.name":"华丽莱姆马卡龙",
+	"bakery_lime_macaron.description":"诱人的新鲜莱姆味蛋白霜夹心饼。",
+
+	"bakery_mint_macaron.name":"华丽薄荷马卡龙",
+	"bakery_mint_macaron.description":"诱人的新鲜薄荷味蛋白霜夹心饼。",
+
+	"bakery_pistachio_macaron.name":"华丽开心果马卡龙",
+	"bakery_pistachio_macaron.description":"诱人的开心果味蛋白霜夹心饼。",
+	
+	"bakery_raspberry_macaron.name":"华丽覆盆莓马卡龙",
+	"bakery_raspberry_macaron.description":"诱人的新鲜覆盆莓味蛋白霜夹心饼。",
+	
+	"bakery_sakura_macaron.name":"华丽樱花马卡龙",
+	"bakery_sakura_macaron.description":"诱人的樱花瓣味蛋白霜夹心饼。",
+	
+	"bakery_strawberry_macaron.name":"华丽草莓马卡龙",
+	"bakery_strawberry_macaron.description":"诱人的新鲜草莓味蛋白霜夹心饼。",
+	
+	//COOKIES
+
+	"bakery_cherry_cookie.name":"樱桃指纹饼干",
+	"bakery_cherry_cookie.description":"中间填满樱桃果酱的黄油饼干。",
+
+	"bakery_chocolate_chip_cookies.name":"老式巧克力脆片饼干",
+	"bakery_chocolate_chip_cookies.description":"最典型的饼干，适合配牛奶。",
+
+	"bakery_chocolate_sandwich_cookie.name":"经典巧克力夹心饼干",
+	"bakery_chocolate_sandwich_cookie.description":"巧克力饼干夹着香草奶油馅。",
+
+	"bakery_orange_cookies.name":"橙子指纹饼干",
+	"bakery_orange_cookies.description":"中间填满橙子果酱的黄油饼干。",
+
+	"bakery_strawberry_cookie.name":"草莓指纹饼干",
+	"bakery_strawberry_cookie.description":"中间填满草莓果酱的黄油饼干。",
+
+	"bakery_vanilla_sandwich_cookies.name":"经典香草夹心饼干",
+	"bakery_vanilla_sandwich_cookies.description":"香草饼干夹着香草奶油馅。",
+
+	//BROWNIES
+
+	"bakery_cream_cheese_brownies.name":"奶油奶酪夹心布朗尼",
+	"bakery_cream_cheese_brownies.description":"夹着一层加糖奶油奶酪的浓郁布朗尼。",
+
+	"bakery_brownies.name":"老式软心布朗尼",
+	"bakery_brownies.description":"每间烘焙坊都需要这种浓郁的巧克力饼。",
+
+	"bakery_mint_brownies.name":"薄荷巧克力夹心布朗尼",
+	"bakery_mint_brownies.description":"夹着一层薄荷奶油的浓郁布朗尼。",
+
+	"bakery_nut_brownies.name":"坚果黄油夹心布朗尼",
+	"bakery_nut_brownies.description":"夹着一层坚果黄油的浓郁布朗尼。",
+
+	//BREADS
+	
+	"bakery_cinnamon_roll.name": "乡村肉桂卷",
+	"bakery_cinnamon_roll.description": "用肉桂调味跟香草糖霜装饰的加糖面包卷。",
+	
+	"bakery_cranberry_bread.name": "乡村蔓越莓坚果面包",
+	"bakery_cranberry_bread.description": "充满蔓越莓干与碎核桃的乡村面包。",
+
+	"bakery_olive_bread.name": "乡村橄榄面包",
+	"bakery_olive_bread.description": "充满橄榄的乡村面包。",
+
+	"bakery_potato_bread.name": "乡村土豆面包",
+	"bakery_potato_bread.description": "用土豆做的面包；浓郁且是制作香烤芝士三明治的完美选择！",
+
+	"bakery_pretzel.name": "乡村椒盐脆饼",
+	"bakery_pretzel.description": "洒了一层海盐的经典椒盐脆饼。配上芥末才是真正的美食。",
+
+	"bakery_pumpernickel_bread.name": "乡村德国黑裸麦面包",
+	"bakery_pumpernickel_bread.description": "微甜的乡村黑麦面包。",
+
+	"bakery_wheat_bread.name": "乡村全麦面包",
+	"bakery_wheat_bread.description": "比传统面包含有更多纤维素的面包。",
+	
+	"bakery_bread_loaf.name": "乡村小麦面包",
+	"bakery_bread_loaf.description": "常被做成三明治的经典面包。",
+
+	//DOUGHNUTS
+	
+	"bakery_chocolate_doughnut.name": "巧克力甜甜圈",
+	"bakery_chocolate_doughnut.description": "用巧克力甘纳许装饰的现炸甜甜圈。",
+	
+	"bakery_cream_chocolate_doughnut.name": "巧克力奶油甜甜圈",
+	"bakery_cream_chocolate_doughnut.description": "用巧克力甘纳许装饰并填满香草奶油的现炸甜甜圈。",
+
+	"bakery_strawberry_doughnut.name": "草莓甜甜圈",
+	"bakery_strawberry_doughnut.description": "用草莓糖霜装饰的现炸甜甜圈。",
+
+	"bakery_cream_strawberry_doughnut.name": "草莓奶油甜甜圈",
+	"bakery_cream_strawberry_doughnut.description": "用草莓糖霜装饰并填满香草奶油的现炸甜甜圈。",
+
+	"bakery_vanilla_doughnut.name": "香草甜甜圈",
+	"bakery_vanilla_doughnut.description": "用香草糖霜装饰的现炸甜甜圈。",
+
+	"bakery_vanilla_jelly_doughnut.name": "香草果酱甜甜圈",
+	"bakery_vanilla_jelly_doughnut.description": "用香草糖霜装饰并填满果酱的现炸甜甜圈。",
+
+	//PUDDING
+	
+	"bakery_banana_pudding.name": "香蕉船布丁",
+	"bakery_banana_pudding.description": "用香蕉、草莓、巧克力与樱桃做的细腻甜点。",
+
+	"bakery_chocolate_raspberry_pudding.name": "巧克力覆盆莓布丁",
+	"bakery_chocolate_raspberry_pudding.description": "用巧克力与覆盆莓做的细腻甜点。",
+
+	"bakery_cookies_cream_pudding.name": "奶油夹心饼布丁",
+	"bakery_cookies_cream_pudding.description": "用巧克力夹心饼做的细腻甜点。",
+
+	"bakery_creme_brulee_pudding.name": "烤布蕾布丁",
+	"bakery_creme_brulee_pudding.description": "用焦糖做的细腻甜点。",
+
+	"bakery_lemon_pudding.name": "柠檬蛋白霜布丁",
+	"bakery_lemon_pudding.description": "用新鲜柠檬做的细腻甜点。",
+
+	"bakery_peach_pudding.name": "蜜桃芒果布丁",
+	"bakery_peach_pudding.description": "用桃子与芒果做的细腻甜点。",
+
+	"bakery_pumpkin_maple_pudding.name": "南瓜枫糖布丁",
+	"bakery_pumpkin_maple_pudding.description": "用南瓜与枫糖做的细腻甜点。",
+
+	"bakery_sakura_pudding.name": "樱花布丁",
+	"bakery_sakura_pudding.description": "用新鲜樱花做的细腻甜点。",
+
+	"bakery_tiramisu_pudding.name": "提拉米苏布丁",
+	"bakery_tiramisu_pudding.description": "用咖啡与奶油做的细腻甜点。",
+
+	"bakery_tropical_pudding.name": "热带风情布丁",
+	"bakery_tropical_pudding.description": "用热带水果做的细腻甜点。",
+
+
+////////////////////
+// SPECIAL ORDERS //
+////////////////////
+
+
+"bakery_SO_1.name":"何不食杯子蛋糕！",
+"bakery_SO_1.text":"贾斯学校办的烘焙贩售会需要杯子蛋糕，但我真的没时间从头开始烤。救命！",
+"bakery_SO_1a.deliver":"带给玛妮 2 个甜蜜小香草杯子蛋糕。",
+"bakery_SO_1b.deliver":"带给玛妮 2 个甜蜜小草莓杯子蛋糕。",
+"bakery_SO_1c.deliver":"带给玛妮 2 个巧克力覆盆莓杯子蛋糕。",
+"bakery_SO_1.accept":"好可爱！它们真完美，我很确定会轰动整个烘焙贩卖会！",
+
+"bakery_SO_2.name":"流行果酱塔塔饼",
+"bakery_SO_2.text":"现在的小孩子都不知道什么才是真正好吃的甜点了，他们竟然在吃那个……果酱塔塔饼！我要让他们知道真正的水果塔有多好吃。",
+"bakery_SO_2a.deliver":"把 1 个什锦水果塔放进格斯的冰箱。",
+"bakery_SO_2b.deliver":"把 1 个莓果盛宴塔放进格斯的冰箱。",
+"bakery_SO_2c.deliver":"把 1 个巧克力榛子塔放进格斯的冰箱。",
+
+"bakery_SO_3.name":"法式氛围",
+"bakery_SO_3.text":"我很想试试看用好书、茶与可爱的马卡龙放松身心，有人能帮我吗？",
+"bakery_SO_3a.deliver":"把 3 个华丽柠檬马卡龙放进海莉厨房里的箱子。",
+"bakery_SO_3b.deliver":"把 3 个华丽薰衣草马卡龙放进海莉厨房里的箱子。",
+"bakery_SO_3c.deliver":"把 3 个华丽草莓马卡龙放进海莉厨房里的箱子。",
+"bakery_SO_3d.deliver":"把 3 个华丽巧克力榛子马卡龙放进海莉厨房里的箱子。",
+
+"bakery_SO_4.name":"下午茶甜点",
+"bakery_SO_4.text":"艾芙琳邀请我去她家喝茶，但我不想空手去。有人可以给我几个司康让我带去吗？",
+"bakery_SO_4a.deliver":"把 3 个开心果司康放进卡洛琳厨房里的箱子。",
+"bakery_SO_4b.deliver":"把 3 个覆盆莓香草司康放进卡洛琳厨房里的箱子。",
+"bakery_SO_4c.deliver":"把 3 个黑莓莱姆司康放进卡洛琳厨房里的箱子。",
+"bakery_SO_4d.deliver":"把 3 个枫糖南瓜司康放进卡洛琳厨房里的箱子。",
+
+"bakery_SO_5.name":"糕点大师挑战",
+"bakery_SO_5.text":"又到了每年的这个时候——我们已经开放申请年度糕点大师了！把你最好的烘焙糕点寄给我们，看你能不能赢得大奖！",
+"bakery_SO_5.ship":"出货 100 个烘焙糕点",
+
+"bakery_SO_6.name":"给乔迪的芝士蛋糕",
+"bakery_SO_6.text":"我周末的派对需要芝士蛋糕。",
+"bakery_SO_6.deliver":"带给乔迪 4 个芝士蛋糕。",
+"bakery_SO_6.accept":"太完美了！不但替我省下很多时间而且看起来还非常精致。谢谢！",
+
+"bakery_SO_7.name":"给巫师的派",
+"bakery_SO_7.text":"我需要一些派，不是自己要吃的。这只是为了研究用途，而且还刚好是祝尼魔们的最爱……",
+"bakery_SO_7.deliver":"带给巫师 6 个派。",
+"bakery_SO_7.accept":"或许现在祝尼魔们肯让我休息了。我只希望这些够他们吃。谢谢你。",
+
+"bakery_SO_8.name":"给潘妮的玛芬",
+"bakery_SO_8.text":"孩子们最近的成绩很好；我想准备特别的点心给他们惊喜！",
+"bakery_SO_8.deliver":"带给潘妮 12 个玛芬。",
+"bakery_SO_8.accept":"这些很适合当成明天下课后的奖励！非常感谢。",
+
+
+//BAKERY REWARDS MAIL
+ 
+"bakery_SO2_reward.title": "谢谢！",
+"bakery_SO2_reward.text": "@，^^^这些塔才应该流行起来啊！这些小孩再也不会想吃那种量贩纸板了。^格斯",
+
+"bakery_SO3_reward.title": "谢谢你 <3",
+"bakery_SO3_reward.text": "@，^^^哦呜光是看着这些马卡龙我就觉得自己更漂亮了。我的保养日一定会很赞；再次感谢你！^海莉",
+
+"bakery_SO4_reward.title": "谢谢你！",
+"bakery_SO4_reward.text": "@，^^^这些司康好完美！你会介意我跟艾芙琳说是自己做的吗？ 一次就好？总之谢谢你甜心，我真的好感激！^卡洛琳",
+
+"bakery_SO5_reward.title": "恭喜！",
+"bakery_SO5_reward.text": "亲爱的　@，^^^你的贡献令我们印象深刻，我们很荣幸能给予你糕点大师的头衔。请领取这份奖赏。",
+
+}

@@ -1,0 +1,1602 @@
+{
+    "Changes": [
+
+//Add Machines to Big Craftables
+
+{
+    "LogName": "Add Atelier Frozen Machines to BigCraftables",
+    "Action": "EditData",
+    "Target": "Data/BigCraftables",
+    "Entries": {
+        "wildflour.atelierfrozen_BlastChiller": {
+            "Name": "wildflour.atelierfrozen_BlastChiller",
+            "DisplayName": "{{i18n: atelierfrozen_BlastChiller.name}}",
+            "Description": "{{i18n: atelierfrozen_BlastChiller.description}}",
+            "Price": 50,
+            "Fragility": 0,
+            "CanBePlacedOutdoors": true,
+            "CanBePlacedIndoors": true,
+            "IsLamp": false,
+            "Texture": "Mods\\wildflour.atelierfrozen\\Machines_{{ChillerRecolor}}",
+            "SpriteIndex": 0,
+            "CustomFields": {}
+          },
+        "wildflour.atelierfrozen_TreatMaker": {
+            "Name": "wildflour.atelierfrozen_TreatMaker",
+            "DisplayName": "{{i18n: atelierfrozen_TreatMaker.name}}",
+            "Description": "{{i18n: atelierfrozen_TreatMaker.description}}",
+            "Price": 50,
+            "Fragility": 0,
+            "CanBePlacedOutdoors": true,
+            "CanBePlacedIndoors": true,
+            "IsLamp": false,
+            "Texture": "Mods\\wildflour.atelierfrozen\\Machines_{{FrozenRecolor}}",
+            "SpriteIndex": 8,
+            "CustomFields": {}
+        }
+    }
+},
+
+//Machine Rules for Output
+
+{
+    "LogName": "Add Atelier Frozen Rules",
+    "Action": "EditData",
+    "Target": "Data/Machines",
+    "Entries": {
+        "(BC)wildflour.atelierfrozen_BlastChiller": {
+            "OutputRules": [
+                {
+                    "Id": "wildflour.atelierfrozen_ancient_popsicle",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)454",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierfrozen_ancient_popsicle",
+                            "ItemId": "(O)wildflour.atelierfrozen_ancient_popsicle",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 1.9
+                                },
+                                {
+                                "Modification": "Add",
+                                "Amount": 65
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 720
+                },
+                {
+                    "Id": "wildflour.atelierfrozen_blueberry_popsicle",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)258",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierfrozen_blueberry_popsicle",
+                            "ItemId": "(O)wildflour.atelierfrozen_blueberry_popsicle",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                               
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 1.9
+                                },
+                                {
+                                "Modification": "Add",
+                                "Amount": 65
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 720
+                },
+                {
+                    "Id": "wildflour.atelierfrozen_cherry_popsicle",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)638",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierfrozen_cherry_popsicle",
+                            "ItemId": "(O)wildflour.atelierfrozen_cherry_popsicle",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                               
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 1.9
+                                },
+                                {
+                                "Modification": "Add",
+                                "Amount": 65
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 720
+                },
+                {
+                    "Id": "wildflour.atelierfrozen_coconut_popsicle",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)88",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierfrozen_coconut_popsicle",
+                            "ItemId": "(O)wildflour.atelierfrozen_coconut_popsicle",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                               
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 1.9
+                                },
+                                {
+                                "Modification": "Add",
+                                "Amount": 65
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 720
+                },
+                {
+                    "Id": "wildflour.atelierfrozen_grape_popsicle",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)398",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierfrozen_grape_popsicle",
+                            "ItemId": "(O)wildflour.atelierfrozen_grape_popsicle",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                               
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 1.9
+                                },
+                                {
+                                "Modification": "Add",
+                                "Amount": 65
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 720
+                },
+                {
+                    "Id": "wildflour.atelierfrozen_lemon_popsicle",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.ateliercrops_lemon",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierfrozen_lemon_popsicle",
+                            "ItemId": "(O)wildflour.atelierfrozen_lemon_popsicle",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                               
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 1.9
+                                },
+                                {
+                                "Modification": "Add",
+                                "Amount": 65
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 720
+                },
+                {
+                    "Id": "wildflour.atelierfrozen_lime_popsicle",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.ateliercrops_lime",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierfrozen_lime_popsicle",
+                            "ItemId": "(O)wildflour.atelierfrozen_lime_popsicle",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                               
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 1.9
+                                },
+                                {
+                                "Modification": "Add",
+                                "Amount": 65
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 720
+                },
+                {
+                    "Id": "wildflour.atelierfrozen_gem_popsicle",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)768",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierfrozen_gem_popsicle",
+                            "ItemId": "(O)wildflour.atelierfrozen_gem_popsicle",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                               
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 1.9
+                                },
+                                {
+                                "Modification": "Add",
+                                "Amount": 65
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 720
+                },
+                {
+                    "Id": "wildflour.atelierfrozen_mango_popsicle",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)768",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierfrozen_mango_popsicle",
+                            "ItemId": "(O)wildflour.atelierfrozen_mango_popsicle",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                               
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 1.9
+                                },
+                                {
+                                "Modification": "Add",
+                                "Amount": 65
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 720
+                },
+                {
+                    "Id": "wildflour.atelierfrozen_melon_popsicle",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)254",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierfrozen_melon_popsicle",
+                            "ItemId": "(O)wildflour.atelierfrozen_melon_popsicle",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                               
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 1.9
+                                },
+                                {
+                                "Modification": "Add",
+                                "Amount": 65
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 720
+                },
+                {
+                    "Id": "wildflour.atelierfrozen_orange_popsicle",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)635",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierfrozen_orange_popsicle",
+                            "ItemId": "(O)wildflour.atelierfrozen_orange_popsicle",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                               
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 1.9
+                                },
+                                {
+                                "Modification": "Add",
+                                "Amount": 65
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 720
+                },
+                {
+                    "Id": "wildflour.atelierfrozen_peach_popsicle",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)636",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierfrozen_peach_popsicle",
+                            "ItemId": "(O)wildflour.atelierfrozen_peach_popsicle",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                               
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 1.9
+                                },
+                                {
+                                "Modification": "Add",
+                                "Amount": 65
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 720
+                },
+                {
+                    "Id": "wildflour.atelierfrozen_pineapple_popsicle",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)832",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierfrozen_pineapple_popsicle",
+                            "ItemId": "(O)wildflour.atelierfrozen_pineapple_popsicle",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                               
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 1.9
+                                },
+                                {
+                                "Modification": "Add",
+                                "Amount": 65
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 720
+                },
+                {
+                    "Id": "wildflour.atelierfrozen_strawberry_popsicle",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)400",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierfrozen_strawberry_popsicle",
+                            "ItemId": "(O)wildflour.atelierfrozen_strawberry_popsicle",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                               
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 1.9
+                                },
+                                {
+                                "Modification": "Add",
+                                "Amount": 65
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 720
+                },
+                {
+                    "Id": "wildflour.atelierfrozen_raspberry_popsicle",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.ateliercrops_raspberry",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierfrozen_raspberry_popsicle",
+                            "ItemId": "(O)wildflour.atelierfrozen_raspberry_popsicle",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                               
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 1.9
+                                },
+                                {
+                                "Modification": "Add",
+                                "Amount": 65
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 720
+                },
+                {
+                    "Id": "wildflour.atelierfrozen_wildberry_popsicle",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.ateliercrops_strawberry",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierfrozen_wildberry_popsicle",
+                            "ItemId": "(O)wildflour.atelierfrozen_wildberry_popsicle",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                               
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 1.9
+                                },
+                                {
+                                "Modification": "Add",
+                                "Amount": 65
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 720
+                },
+            ],
+            "AdditionalConsumedItems":[
+                {
+                    "ItemId":"(O)Powdermelon",
+                    "RequiredCount": 1,
+                    "InvalidCountMessage":"{{i18n:atelierfrozen_BlastChiller_InvalidCount.message}}",
+                }
+            ],
+            "InvalidItemMessage":"{{i18n:atelierfrozen_BlastChiller_InvalidItem.message}}",
+            "ShowNextIndexWhileWorking":true,
+            "ShowNextIndexWhenReady":false,
+            "WobbleWhileWorking":false,
+            "WorkingEffects":[
+                {
+                    "Frames":[1,2,3,4,5,6],
+                    "Interval":100
+                }
+           ] 
+        },
+    
+        "(BC)wildflour.atelierfrozen_TreatMaker":{
+            "OutputRules": [
+                {
+                    "Id": "wildflour.atelierfrozen_ancient_cone",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)454",
+                            "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierfrozen_ancient_cone",
+                            "ItemId": "(O)wildflour.atelierfrozen_ancient_cone",
+                            "CopyQuality": false,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.15
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 720
+                },
+                {
+                    "Id": "wildflour.atelierfrozen_apple_cone",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)613",
+                            "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierfrozen_apple_cone",
+                            "ItemId": "(O)wildflour.atelierfrozen_apple_cone",
+                            "CopyQuality": false,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.15
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 720
+                },
+                {
+                    "Id": "wildflour.atelierfrozen_cherrynut_cone",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.ateliercrops_almond",
+                            "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierfrozen_cherrynut_cone",
+                            "ItemId": "(O)wildflour.atelierfrozen_cherrynut_cone",
+                            "CopyQuality": false,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.15
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 720
+                },
+                {
+                    "Id": "wildflour.atelierfrozen_cherryblossoms_cone",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.ateliercrops_cherryblossoms",
+                            "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierfrozen_cherryblossoms_cone",
+                            "ItemId": "(O)wildflour.atelierfrozen_cherryblossoms_cone",
+                            "CopyQuality": false,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.15
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 720
+                },
+                {
+                    "Id": "wildflour.atelierfrozen_chocolate_cone",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.ateliercrops_cacaopod",
+                            "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierfrozen_chocolate_cone",
+                            "ItemId": "(O)wildflour.atelierfrozen_chocolate_cone",
+                            "CopyQuality": false,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.15
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 720
+                },
+                {
+                    "Id": "wildflour.atelierfrozen_coconut_cone",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)88",
+                            "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierfrozen_coconut_cone",
+                            "ItemId": "(O)wildflour.atelierfrozen_coconut_cone",
+                            "CopyQuality": false,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.15
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 720
+                },
+                {
+                    "Id": "wildflour.atelierfrozen_coffee_cone",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)395",
+                            "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierfrozen_coffee_cone",
+                            "ItemId": "(O)wildflour.atelierfrozen_coffee_cone",
+                            "CopyQuality": false,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.15
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 720
+                },
+                {
+                    "Id": "wildflour.atelierfrozen_cookie_dough_cone",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)223",
+                            "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierfrozen_cookie_dough_cone",
+                            "ItemId": "(O)wildflour.atelierfrozen_cookie_dough_cone",
+                            "CopyQuality": false,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.15
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 720
+                },
+                {
+                    "Id": "wildflour.atelierfrozen_cookie_cone",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)220",
+                            "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierfrozen_cookie_cone",
+                            "ItemId": "(O)wildflour.atelierfrozen_cookie_cone",
+                            "CopyQuality": false,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.15
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 720
+                },
+                {
+                    "Id": "wildflour.atelierfrozen_horchata_cone",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.ateliercrops_cinnamon",
+                            "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierfrozen_horchata_cone",
+                            "ItemId": "(O)wildflour.atelierfrozen_horchata_cone",
+                            "CopyQuality": false,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.15
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 720
+                },
+                {
+                    "Id": "wildflour.atelierfrozen_lavender_cone",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.ateliercrops_lavender",
+                            "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierfrozen_lavender_cone",
+                            "ItemId": "(O)wildflour.atelierfrozen_lavender_cone",
+                            "CopyQuality": false,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.15
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 720
+                },
+                {
+                    "Id": "wildflour.atelierfrozen_maple_cone",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)724",
+                            "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierfrozen_maple_cone",
+                            "ItemId": "(O)wildflour.atelierfrozen_maple_cone",
+                            "CopyQuality": false,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.15
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 720
+                },
+                {
+                    "Id": "wildflour.atelierfrozen_mint_cone",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.ateliercrops_mint",
+                            "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierfrozen_mint_cone",
+                            "ItemId": "(O)wildflour.atelierfrozen_mint_cone",
+                            "CopyQuality": false,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.15
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 720
+                },
+                {
+                    "Id": "wildflour.atelierfrozen_pistachio_cone",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.ateliercrops_pistachio",
+                            "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierfrozen_pistachio_cone",
+                            "ItemId": "(O)wildflour.atelierfrozen_pistachio_cone",
+                            "CopyQuality": false,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.15
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 720
+                },
+                {
+                    "Id": "wildflour.atelierfrozen_strawberry_cone",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)400",
+                            "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierfrozen_strawberry_cone",
+                            "ItemId": "(O)wildflour.atelierfrozen_strawberry_cone",
+                            "CopyQuality": false,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.15
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 720
+                },
+                {
+                    "Id": "wildflour.atelierfrozen_vanilla_cone",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.ateliercrops_vanilla",
+                            "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierfrozen_vanilla_cone",
+                            "ItemId": "(O)wildflour.atelierfrozen_vanilla_cone",
+                            "CopyQuality": false,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.15
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 720
+                },
+                {
+                    "Id": "wildflour.atelierfrozen_cake_froyo",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.gourmetpantry_sprinkle_yogurt",
+                            "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierfrozen_cake_froyo",
+                            "ItemId": "(O)wildflour.atelierfrozen_cake_froyo",
+                            "CopyQuality": false,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.15
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 720
+                },
+                {
+                    "Id": "wildflour.atelierfrozen_blueberry_froyo",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.gourmetpantry_blueberry_yogurt",
+                            "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierfrozen_blueberry_froyo",
+                            "ItemId": "(O)wildflour.atelierfrozen_blueberry_froyo",
+                            "CopyQuality": false,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.15
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 720
+                },
+                {
+                    "Id": "wildflour.atelierfrozen_cheesecake_froyo",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.gourmetpantry_cheesecake_yogurt",
+                            "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierfrozen_cheesecake_froyo",
+                            "ItemId": "(O)wildflour.atelierfrozen_cheesecake_froyo",
+                            "CopyQuality": false,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.15
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 720
+                },
+                {
+                    "Id": "wildflour.atelierfrozen_cherrychoco_froyo",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.gourmetpantry_cherry_yogurt",
+                            "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierfrozen_cherrychoco_froyo",
+                            "ItemId": "(O)wildflour.atelierfrozen_cherrychoco_froyo",
+                            "CopyQuality": false,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.15
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 720
+                },
+                {
+                    "Id": "wildflour.atelierfrozen_choco_froyo",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.gourmetpantry_chocolate_yogurt",
+                            "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierfrozen_choco_froyo",
+                            "ItemId": "(O)wildflour.atelierfrozen_choco_froyo",
+                            "CopyQuality": false,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.15
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 720
+                },
+                {
+                    "Id": "wildflour.atelierfrozen_lemon_froyo",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.gourmetpantry_lemon_yogurt",
+                            "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierfrozen_lemon_froyo",
+                            "ItemId": "(O)wildflour.atelierfrozen_lemon_froyo",
+                            "CopyQuality": false,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.15
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 720
+                },
+                {
+                    "Id": "wildflour.atelierfrozen_mango_froyo",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.gourmetpantry_mango_yogurt",
+                            "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierfrozen_mango_froyo",
+                            "ItemId": "(O)wildflour.atelierfrozen_mango_froyo",
+                            "CopyQuality": false,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.15
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 720
+                },
+                {
+                    "Id": "wildflour.atelierfrozen_melon_froyo",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.gourmetpantry_melon_yogurt",
+                            "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierfrozen_melon_froyo",
+                            "ItemId": "(O)wildflour.atelierfrozen_melon_froyo",
+                            "CopyQuality": false,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.15
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 720
+                },
+                {
+                    "Id": "wildflour.atelierfrozen_orange_froyo",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.gourmetpantry_orange_yogurt",
+                            "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierfrozen_orange_froyo",
+                            "ItemId": "(O)wildflour.atelierfrozen_orange_froyo",
+                            "CopyQuality": false,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.15
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 720
+                },
+                {
+                    "Id": "wildflour.atelierfrozen_pumpkin_froyo",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.gourmetpantry_pumpkin_yogurt",
+                            "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierfrozen_pumpkin_froyo",
+                            "ItemId": "(O)wildflour.atelierfrozen_pumpkin_froyo",
+                            "CopyQuality": false,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.15
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 720
+                },
+                {
+                    "Id": "wildflour.atelierfrozen_starfruit_froyo",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.gourmetpantry_starfruit_yogurt",
+                            "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierfrozen_starfruit_froyo",
+                            "ItemId": "(O)wildflour.atelierfrozen_starfruit_froyo",
+                            "CopyQuality": false,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.15
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 720
+                },
+                {
+                    "Id": "wildflour.atelierfrozen_gem_froyo",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.gourmetpantry_gem_yogurt",
+                            "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierfrozen_gem_froyo",
+                            "ItemId": "(O)wildflour.atelierfrozen_gem_froyo",
+                            "CopyQuality": false,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.15
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 720
+                },
+                {
+                    "Id": "wildflour.atelierfrozen_wildberry_froyo",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.gourmetpantry_strawberry_yogurt",
+                            "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierfrozen_wildberry_froyo",
+                            "ItemId": "(O)wildflour.atelierfrozen_wildberry_froyo",
+                            "CopyQuality": false,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.15
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 720
+                }
+            ],
+            "AdditionalConsumedItems":[
+                {
+                    "ItemId":"(O)Powdermelon",
+                    "RequiredCount": 1,
+                    "InvalidCountMessage":"{{i18n:atelierfrozen_TreatMaker_InvalidCount.message}}",
+                }
+            ],
+            "InvalidItemMessage":"{{i18n:atelierfrozen_TreatMaker_InvalidItem.message}}",
+            "ShowNextIndexWhileWorking":false,
+            "ShowNextIndexWhenReady":false,
+            "WobbleWhileWorking":false,
+            "WorkingEffects":[
+                {
+                    "Frames":[0,1,2,3],
+                    "Interval":150
+                }
+           ] 
+           
+        }
+    }
+},
+
+//////////////////////////////////
+// Edit Gourmet Pantry Machines //
+//////////////////////////////////
+
+{
+    "LogName": "Atelier Frozen Kitchen Blender Edits",
+    "Action": "EditData",
+    "Target": "Data/Machines",
+    "TargetField": ["(BC)wildflour.gourmetpantry_KitchenBlender", "OutputRules"],
+    "Entries": {
+        "wildflour.atelierfrozen_KitchenBlender_choco_milkshake": 
+            {
+                "Id": "wildflour.atelierfrozen_KitchenBlender_choco_milkshake",
+                "Triggers": [
+                    {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredItemId": "(O)wildflour.gourmetpantry_chocolate_syrup",
+                        "RequiredCount": 2
+                    }
+            ],
+                "OutputItem": [
+                    {
+                        "Id": "wildflour.atelierfrozen_choco_milkshake",
+                        "ItemId": "(O)wildflour.atelierfrozen_choco_milkshake",
+                        "CopyQuality": false,
+                        "CopyPrice": true,
+                        "PriceModifiers": 
+                        [
+                            {
+                                "Modification": "Multiply",
+                                "Amount": 3.0
+                            }
+                        ]
+                    }    
+            ],
+                "MinutesUntilReady": 1200
+            },
+        "wildflour.atelierfrozen_KitchenBlender_candy_milkshake": 
+            {
+                "Id": "wildflour.atelierfrozen_KitchenBlender_candy_milkshake",
+                "Triggers": [
+                    {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredItemId": "(O)wildflour.gourmetpantry_simple_syrup",
+                        "RequiredCount": 2
+                    }
+            ],
+                "OutputItem": [
+                    {
+                        "Id": "wildflour.atelierfrozen_candy_milkshake",
+                        "ItemId": "(O)wildflour.atelierfrozen_candy_milkshake",
+                        "CopyQuality": false,
+                        "CopyPrice": true,
+                        "PriceModifiers": 
+                        [
+                            {
+                                "Modification": "Multiply",
+                                "Amount": 3.0
+                            }
+                        ]
+                    }    
+            ],
+                "MinutesUntilReady": 1200
+            },
+        "wildflour.atelierfrozen_KitchenBlender_orange_milkshake": 
+            {
+                "Id": "wildflour.atelierfrozen_KitchenBlender_orange_milkshake",
+                "Triggers": [
+                    {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredItemId": "(O)wildflour.gourmetpantry_orange_syrup",
+                        "RequiredCount": 2
+                    }
+            ],
+                "OutputItem": [
+                    {
+                        "Id": "wildflour.atelierfrozen_orange_milkshake",
+                        "ItemId": "(O)wildflour.atelierfrozen_orange_milkshake",
+                        "CopyQuality": false,
+                        "CopyPrice": true,
+                        "PriceModifiers": 
+                        [
+                            {
+                                "Modification": "Multiply",
+                                "Amount": 3.0
+                            }
+                        ]
+                    }    
+            ],
+                "MinutesUntilReady": 1200
+            },
+        "wildflour.atelierfrozen_KitchenBlender_earlgrey_milkshake": 
+            {
+                "Id": "wildflour.atelierfrozen_KitchenBlender_earlgrey_milkshake",
+                "Triggers": [
+                    {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredItemId": "(O)wildflour.gourmetpantry_lavender_syrup",
+                        "RequiredCount": 2
+                    }
+            ],
+                "OutputItem": [
+                    {
+                        "Id": "wildflour.atelierfrozen_earlgrey_milkshake",
+                        "ItemId": "(O)wildflour.atelierfrozen_earlgrey_milkshake",
+                        "CopyQuality": false,
+                        "CopyPrice": true,
+                        "PriceModifiers": 
+                        [
+                            {
+                                "Modification": "Multiply",
+                                "Amount": 3.0
+                            }
+                        ]
+                    }    
+            ],
+                "MinutesUntilReady": 1200
+            },
+        "wildflour.atelierfrozen_KitchenBlender_lime_milkshake": 
+            {
+                "Id": "wildflour.atelierfrozen_KitchenBlender_lime_milkshake",
+                "Triggers": [
+                    {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredItemId": "(O)wildflour.gourmetpantry_lime_syrup",
+                        "RequiredCount": 2
+                    }
+            ],
+                "OutputItem": [
+                    {
+                        "Id": "wildflour.atelierfrozen_lime_milkshake",
+                        "ItemId": "(O)wildflour.atelierfrozen_lime_milkshake",
+                        "CopyQuality": false,
+                        "CopyPrice": true,
+                        "PriceModifiers": 
+                        [
+                            {
+                                "Modification": "Multiply",
+                                "Amount": 3.0
+                            }
+                        ]
+                    }    
+            ],
+                "MinutesUntilReady": 1200
+            },
+        "wildflour.atelierfrozen_KitchenBlender_colada_milkshake": 
+            {
+                "Id": "wildflour.atelierfrozen_KitchenBlender_colada_milkshake",
+                "Triggers": [
+                    {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredItemId": "(O)wildflour.gourmetpantry_pineapple_syrup",
+                        "RequiredCount": 2
+                    }
+            ],
+                "OutputItem": [
+                    {
+                        "Id": "wildflour.atelierfrozen_colada_milkshake",
+                        "ItemId": "(O)wildflour.atelierfrozen_colada_milkshake",
+                        "CopyQuality": false,
+                        "CopyPrice": true,
+                        "PriceModifiers": 
+                        [
+                            {
+                                "Modification": "Multiply",
+                                "Amount": 3.0
+                            }
+                        ]
+                    }    
+            ],
+                "MinutesUntilReady": 1200
+            },
+        "wildflour.atelierfrozen_KitchenBlender_pumpkin_milkshake": 
+            {
+                "Id": "wildflour.atelierfrozen_KitchenBlender_pumpkin_milkshake",
+                "Triggers": [
+                    {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredItemId": "(O)wildflour.gourmetpantry_pumpkin_syrup",
+                        "RequiredCount": 2
+                    }
+            ],
+                "OutputItem": [
+                    {
+                        "Id": "wildflour.atelierfrozen_pumpkin_milkshake",
+                        "ItemId": "(O)wildflour.atelierfrozen_pumpkin_milkshake",
+                        "CopyQuality": false,
+                        "CopyPrice": true,
+                        "PriceModifiers": 
+                        [
+                            {
+                                "Modification": "Multiply",
+                                "Amount": 3.0
+                            }
+                        ]
+                    }    
+            ],
+                "MinutesUntilReady": 1200
+            },
+        "wildflour.atelierfrozen_KitchenBlender_strawberry_milkshake": 
+            {
+                "Id": "wildflour.atelierfrozen_KitchenBlender_strawberry_milkshake",
+                "Triggers": [
+                    {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredItemId": "(O)wildflour.gourmetpantry_strawberry_syrup",
+                        "RequiredCount": 2
+                    }
+            ],
+                "OutputItem": [
+                    {
+                        "Id": "wildflour.atelierfrozen_strawberry_milkshake",
+                        "ItemId": "(O)wildflour.atelierfrozen_strawberry_milkshake",
+                        "CopyQuality": false,
+                        "CopyPrice": true,
+                        "PriceModifiers": 
+                        [
+                            {
+                                "Modification": "Multiply",
+                                "Amount": 3.0
+                            }
+                        ]
+                    }    
+            ],
+                "MinutesUntilReady": 1200
+            },
+        "wildflour.atelierfrozen_KitchenBlender_vanilla_milkshake": 
+            {
+                "Id": "wildflour.atelierfrozen_KitchenBlender_vanilla_milkshake",
+                "Triggers": [
+                    {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredItemId": "(O)wildflour.gourmetpantry_vanilla_syrup",
+                        "RequiredCount": 2
+                    }
+            ],
+                "OutputItem": [
+                    {
+                        "Id": "wildflour.atelierfrozen_vanilla_milkshake",
+                        "ItemId": "(O)wildflour.atelierfrozen_vanilla_milkshake",
+                        "CopyQuality": false,
+                        "CopyPrice": true,
+                        "PriceModifiers": 
+                        [
+                            {
+                                "Modification": "Multiply",
+                                "Amount": 3.0
+                            }
+                        ]
+                    }    
+            ],
+                "MinutesUntilReady": 1200
+            },
+
+    }
+
+}
+
+]
+}

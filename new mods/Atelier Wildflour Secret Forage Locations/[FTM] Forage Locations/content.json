@@ -1,0 +1,760 @@
+{
+  "ForageSpawnEnabled": true,
+  "LargeObjectSpawnEnabled": false,
+  "OreSpawnEnabled": false,
+  "MonsterSpawnEnabled": false,
+  "Forage_Spawn_Settings": {
+    "Areas": [
+      {
+        "SpringItemIndex": [
+          591,
+          597,
+          22,
+          190,
+          "wildflour.ateliercrops_avalune",
+          "wildflour.ateliercrops_puffball",
+          "wildflour.ateliercrops_violet",
+          "wildflour.ateliercrops_daisy",
+          "wildflour.ateliercrops_mysteria"
+        ],
+        "SummerItemIndex": [
+          376,
+          593,
+          258,
+          421,
+          254,
+          "wildflour.ateliercrops_chamomile",
+          "wildflour.ateliercrops_geranium",
+          "wildflour.ateliercrops_arcticfox"
+        ],
+        "FallItemIndex": [
+          421,
+          276,
+          274,
+          595,
+          "wildflour.ateliercrops_lavender",
+          "wildflour.ateliercrops_pixies_breath",
+          "wildflour.ateliercrops_chiffon"
+        ],
+        "WinterItemIndex": [
+          "wildflour.ateliercrops_primrose"
+        ],
+        "UniqueAreaID": "Abandoned Farm Forage",
+        "MapName": "Custom_WF_AbandonedFarmhouse",
+        "MinimumSpawnsPerDay": 2,
+        "MaximumSpawnsPerDay": 4,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 2
+      },
+      {
+        "SpringItemIndex": [
+          {
+            "category": "Buried",
+            "contents": [
+              427
+            ]
+          },
+          {
+            "category": "Buried",
+            "contents": [
+              429
+            ]
+          }
+        ],
+        "SummerItemIndex": [
+          {
+            "category": "Buried",
+            "contents": [
+              453
+            ]
+          },
+          {
+            "category": "Buried",
+            "contents": [
+              455
+            ]
+          },
+          {
+            "category": "Buried",
+            "contents": [
+              431
+            ]
+          }
+        ],
+        "FallItemIndex": [
+          {
+            "category": "Buried",
+            "contents": [
+              431
+            ]
+          },
+          {
+            "category": "Buried",
+            "contents": [
+              425
+            ]
+          }
+        ],
+        "WinterItemIndex": [],
+        "UniqueAreaID": "Abandoned Farm Forage SEEDS ONLY",
+        "MapName": "Custom_WF_AbandonedFarmhouse",
+        "MinimumSpawnsPerDay": 0,
+        "MaximumSpawnsPerDay": 3,
+        "IncludeTerrainTypes": [
+          "Grass",
+          "Dirt"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 2
+      },
+      {
+        "SpringItemIndex": [
+          634,
+          638,
+          "wildflour.ateliercrops_apricot",
+          "wildflour.ateliercrops_cherry"
+        ],
+        "SummerItemIndex": [
+          635,
+          636,
+          "wildflour.ateliercrops_peach",
+          "wildflour.ateliercrops_orange",
+          "wildflour.ateliercrops_elderberries"
+        ],
+        "FallItemIndex": [
+          613,
+          637,
+          "wildflour.ateliercrops_apple",
+          "wildflour.ateliercrops_pomegranate"
+        ],
+        "WinterItemIndex": [],
+        "UniqueAreaID": "Secret Orchard Forage",
+        "MapName": "Custom_WF_SecretOrchard",
+        "MinimumSpawnsPerDay": 2,
+        "MaximumSpawnsPerDay": 4,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 2
+      },
+      {
+        "SpringItemIndex": [
+          {
+            "category": "Buried",
+            "contents": [
+              628
+            ]
+          },
+          {
+            "category": "Buried",
+            "contents": [
+              629
+            ]
+          }
+        ],
+        "SummerItemIndex": [
+          {
+            "category": "Buried",
+            "contents": [
+              630
+            ]
+          },
+          {
+            "category": "Buried",
+            "contents": [
+              631
+            ]
+          }
+        ],
+        "FallItemIndex": [
+          {
+            "category": "Buried",
+            "contents": [
+              633
+            ]
+          },
+          {
+            "category": "Buried",
+            "contents": [
+              632
+            ]
+          }
+        ],
+        "WinterItemIndex": [],
+        "UniqueAreaID": "Secret Orchard Forage Saplings Rare",
+        "MapName": "Custom_WF_SecretOrchard",
+        "MinimumSpawnsPerDay": 0,
+        "MaximumSpawnsPerDay": 1,
+        "IncludeTerrainTypes": [
+          "Grass",
+          "Dirt"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 2
+      },
+      {
+        "SpringItemIndex": [
+          80,
+          82,
+          86,
+          84
+        ],
+        "SummerItemIndex": [
+          80,
+          82,
+          86,
+          84
+        ],
+        "FallItemIndex": [
+          80,
+          82,
+          86,
+          84
+        ],
+        "WinterItemIndex": [
+          80,
+          82,
+          86,
+          84
+        ],
+        "UniqueAreaID": "Crystal Cave Forage",
+        "MapName": "Custom_WF_CrystalCave",
+        "MinimumSpawnsPerDay": 2,
+        "MaximumSpawnsPerDay": 4,
+        "IncludeTerrainTypes": [
+          "Dirt",
+          "Stone"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 2
+      },
+      {
+        "SpringItemIndex": [
+          "wildflour.ateliercrops_dawn_trumpet",
+          "wildflour.ateliercrops_golden_aura",
+          "wildflour.ateliercrops_tiny_angels",
+          420,
+          257
+        ],
+        "SummerItemIndex": [
+          "wildflour.ateliercrops_amanita_cluster",
+          "wildflour.ateliercrops_faerie_helmets",
+          422,
+          "wildflour.ateliercrops_peach_parasol"
+        ],
+        "FallItemIndex": [
+          "wildflour.ateliercrops_dusk_cap",
+          "wildflour.ateliercrops_giant_amanita",
+          "wildflour.ateliercrops_moon_mushroom",
+          "wildflour.ateliercrops_gloomy_blewit",
+          281
+        ],
+        "WinterItemIndex": [
+          "wildflour.ateliercrops_dusk_cap",
+          "wildflour.ateliercrops_verdigris_agaric",
+          404
+        ],
+        "UniqueAreaID": "Mystical Forest Forage",
+        "MapName": "Custom_WF_MysticalForest",
+        "MinimumSpawnsPerDay": 2,
+        "MaximumSpawnsPerDay": 4,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 2
+      },
+      {
+        "SpringItemIndex": [
+          "wildflour.ateliercrops_fire_dragon_scale",
+          "wildflour.ateliercrops_golden_aura"
+        ],
+        "SummerItemIndex": [
+          "wildflour.ateliercrops_orange",
+          "wildflour.ateliercrops_banana",
+          "wildflour.ateliercrops_amber_moondrop",
+          "wildflour.ateliercrops_blush_cap"
+        ],
+        "FallItemIndex": [
+          "wildflour.ateliercrops_mango",
+          "wildflour.ateliercrops_jade_moondrop",
+          "wildflour.ateliercrops_giant_amanita"
+        ],
+        "WinterItemIndex": [
+          "wildflour.ateliercrops_pearl_moondrop",
+          "wildflour.ateliercrops_lapis_moondrop",
+          "wildflour.ateliercrops_dusk_cap"
+        ],
+        "UniqueAreaID": "Rainforest Retreat Forage",
+        "MapName": "Custom_WF_RainforestRetreat",
+        "MinimumSpawnsPerDay": 2,
+        "MaximumSpawnsPerDay": 4,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 2
+      },
+      {
+        "SpringItemIndex": [
+          393,
+          152,
+          397,
+          717,
+          723,
+          "wildflour.ateliercrops_ice_dragon_scale"
+        ],
+        "SummerItemIndex": [
+          152,
+          397,
+          372,
+          719,
+          718,
+          394
+        ],
+        "FallItemIndex": [
+          393,
+          152,
+          397,
+          719,
+          718,
+          717
+        ],
+        "WinterItemIndex": [
+          372,
+          718,
+          392,
+          723
+        ],
+        "UniqueAreaID": "Mermaid Grotto Forage",
+        "MapName": "Custom_WF_MermaidGrotto",
+        "MinimumSpawnsPerDay": 2,
+        "MaximumSpawnsPerDay": 4,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 2
+      },
+      {
+        "SpringItemIndex": [
+          "wildflour.ateliercrops_shooting_star"
+        ],
+        "SummerItemIndex": [
+          "wildflour.ateliercrops_shooting_star",
+          797
+        ],
+        "FallItemIndex": [
+          "wildflour.ateliercrops_ice_dragon_scale"
+        ],
+        "WinterItemIndex": [
+          797
+        ],
+        "UniqueAreaID": "Mermaid Grotto Forage Rare",
+        "MapName": "Custom_WF_MermaidGrotto",
+        "MinimumSpawnsPerDay": -10,
+        "MaximumSpawnsPerDay": 3,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 2
+      },
+      {
+        "SpringItemIndex": [
+          "wildflour.ateliercrops_maiden",
+          "wildflour.ateliercrops_strawberry",
+          "wildflour.ateliercrops_pearl_moondrop",
+          "wildflour.ateliercrops_mysteria"
+        ],
+        "SummerItemIndex": [
+          "wildflour.ateliercrops_mugwort",
+          "wildflour.ateliercrops_raspberry",
+          "wildflour.ateliercrops_thistle",
+          "wildflour.ateliercrops_valerian",
+          "wildflour.ateliercrops_yarrow"
+        ],
+        "FallItemIndex": [
+          "wildflour.ateliercrops_rose_flax",
+          "wildflour.ateliercrops_violet_flax"
+        ],
+        "WinterItemIndex": [
+          "wildflour.ateliercrops_chiffon",
+          "wildflour.ateliercrops_lapis_moondrop"
+        ],
+        "UniqueAreaID": "Frog Hollow Forage",
+        "MapName": "Custom_WF_FrogHollow",
+        "MinimumSpawnsPerDay": 2,
+        "MaximumSpawnsPerDay": 4,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 2
+      }
+    ],
+    "PercentExtraSpawnsPerForagingLevel": 10,
+    "SpringItemIndex": [
+      16,
+      20,
+      22,
+      257
+    ],
+    "SummerItemIndex": [
+      396,
+      398,
+      402,
+      404
+    ],
+    "FallItemIndex": [
+      281,
+      404,
+      420,
+      422
+    ],
+    "WinterItemIndex": [],
+    "CustomTileIndex": []
+  },
+  "Large_Object_Spawn_Settings": {
+    "Areas": [],
+    "CustomTileIndex": []
+  },
+  "Ore_Spawn_Settings": {
+    "Areas": [],
+    "PercentExtraSpawnsPerMiningLevel": 0,
+    "MiningLevelRequired": {
+      "Stone": 0,
+      "Geode": 0,
+      "FrozenGeode": 5,
+      "MagmaGeode": 8,
+      "OmniGeode": 0,
+      "Gem": 6,
+      "Copper": 0,
+      "Iron": 4,
+      "Gold": 7,
+      "Iridium": 9,
+      "Mystic": 10,
+      "Radioactive": 0,
+      "Diamond": 6,
+      "Ruby": 6,
+      "Jade": 6,
+      "Amethyst": 6,
+      "Topaz": 6,
+      "Emerald": 6,
+      "Aquamarine": 6,
+      "Mussel": 0,
+      "Fossil": 0,
+      "Clay": 0,
+      "CinderShard": 0
+    },
+    "StartingSpawnChance": {
+      "Stone": 66,
+      "Geode": 8,
+      "FrozenGeode": 4,
+      "MagmaGeode": 2,
+      "OmniGeode": 0,
+      "Gem": 5,
+      "Copper": 21,
+      "Iron": 15,
+      "Gold": 10,
+      "Iridium": 1,
+      "Mystic": 1,
+      "Radioactive": 0,
+      "Diamond": 0,
+      "Ruby": 0,
+      "Jade": 0,
+      "Amethyst": 0,
+      "Topaz": 0,
+      "Emerald": 0,
+      "Aquamarine": 0,
+      "Mussel": 0,
+      "Fossil": 0,
+      "Clay": 0,
+      "CinderShard": 0
+    },
+    "LevelTenSpawnChance": {
+      "Stone": 48,
+      "Geode": 2,
+      "FrozenGeode": 2,
+      "MagmaGeode": 2,
+      "OmniGeode": 0,
+      "Gem": 5,
+      "Copper": 16,
+      "Iron": 13,
+      "Gold": 10,
+      "Iridium": 1,
+      "Mystic": 1,
+      "Radioactive": 0,
+      "Diamond": 0,
+      "Ruby": 0,
+      "Jade": 0,
+      "Amethyst": 0,
+      "Topaz": 0,
+      "Emerald": 0,
+      "Aquamarine": 0,
+      "Mussel": 0,
+      "Fossil": 0,
+      "Clay": 0,
+      "CinderShard": 0
+    },
+    "CustomTileIndex": []
+  },
+  "Monster_Spawn_Settings": {
+    "Areas": [],
+    "CustomTileIndex": []
+  },
+  "QuarryTileIndex": [
+    556,
+    558,
+    583,
+    606,
+    607,
+    608,
+    630,
+    635,
+    636,
+    680,
+    681,
+    685
+  ],
+  "File_Conditions": {
+    "FarmTypes": [],
+    "FarmerNames": [],
+    "SaveFileNames": [],
+    "OtherMods": {}
+  }
+}

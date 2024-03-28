@@ -1,0 +1,284 @@
+{
+
+//KETTLE
+
+"ateliertea_TeaProcessor.name": "Çay İşleyici",
+"ateliertea_TeaProcessor.description": "Çeşitli malzemelerden çay poşeti paketleyebilir.",
+
+"ateliertea_TeaKettle.name": "Çay Kettle",
+"ateliertea_TeaKettle.description": "Özel çaylar yapar.",
+
+///////////////////////////
+// MACHINE NOTIFICATIONS //
+///////////////////////////
+
+"ateliertea_TeaProcessor_InvalidItem.message": "Bunu işleyemez.",
+"ateliertea_TeaProcessor_InvalidCount.message": "Çay Yaprağı Gerektirir.",
+
+"ateliertea_TeaKettle_InvalidItem.message": "Bunu işleyemez.",
+"ateliertea_TeaKettle_InvalidCount.message": "Bal Gerektirir.",    
+
+
+//TEA SACHETS
+
+"ateliertea_apple_sachet.name": "Güz Elması Çay Poşeti",
+"ateliertea_apple_sachet.description": "İç ısıtan bitkiler kıtır elmayla harmanlanmış, haliyle soğuk bir güz öğleni için mükemmel oluyor.",
+
+"ateliertea_vanilla_sachet.name": "Patisko Vanilyası Çay Poşeti",
+"ateliertea_vanilla_sachet.description": "Zihin ve bedeni sakinleştirmek için bu vanilyalı çay karışımı mükemmel.",
+
+"ateliertea_matcha_sachet.name": "Geleneksel Matcha Çay Poşeti",
+"ateliertea_matcha_sachet.description": "İlk hasat yapraklarından yapılan geleneksel bir çay.",
+
+"ateliertea_cinnamon_sachet.name": "Tarçınlı Çay Poşeti",
+"ateliertea_cinnamon_sachet.description": "Çay yaprakları ve Kömürözü Tarçını tozunun harmanı, çay için mükemmel.",
+
+"ateliertea_chamomile_sachet.name": "Sıcak Papatya Çay Poşeti",
+"ateliertea_chamomile_sachet.description": "Kurutulmuş papatyalar başka sakinleştirici bitkilerle harmanlanıp rahatlatıcı bir çay karışımı olmuş.",
+
+"ateliertea_breakfast_sachet.name": "İngiliz Kahvaltısı Çay Poşeti",
+"ateliertea_breakfast_sachet.description": "Kuvvetli bir çay harmanı.",
+
+"ateliertea_jasmine_sachet.name": "Kokulu Yasemin Çay Poşeti",
+"ateliertea_jasmine_sachet.description": "Çay ve kokulu yasemin yapraklarının harmanı, çay için mükemmel.",
+
+"ateliertea_ginger_sachet.name": "Zencefil-Şeftali Çay Poşeti",
+"ateliertea_ginger_sachet.description": "Şeftalinin tatlılığıyla zencefilin hafif acısını birleştiren bir çay harmanı.",
+
+"ateliertea_grey_sachet.name": "Lady Grey Çay Poşeti",
+"ateliertea_grey_sachet.description": "Earl Grey'den daha yumuşak bir harman, hafif limon ve portakalı var.",
+
+"ateliertea_lemon_sachet.name": "Limon-Zencefil Çay Poşeti",
+"ateliertea_lemon_sachet.description": "Kurutulmuş zencefil ve ince limonun tadıyla yapılmış arındırıcı bir çay harmanı.",
+
+"ateliertea_mint_sachet.name": "Naneli Çay Poşeti",
+"ateliertea_mint_sachet.description": "Genelde soğuk algınlığı ve nezle semptomlarını gidermek için kaynatılan bir çay karışımı.",
+
+"ateliertea_berry_sachet.name": "Karışık Meyve Çay Poşeti",
+"ateliertea_berry_sachet.description": "Taze yemişlerin aroması bulunan kuvvetli bir çay harmanı.",
+
+"ateliertea_peach_sachet.name": "Şeftali-Mango Çay Poşeti",
+"ateliertea_peach_sachet.description": "Şeftali ve mango tatlarının hoş bir harmanı!",
+
+"ateliertea_pineapple_sachet.name": "Ananas-Hindistan Cevizi Çay Poşeti",
+"ateliertea_pineapple_sachet.description": "Tatlı ananas ve tazeleyici hindistan cevizi seni anında bir ada tatiline çıkarmak için harmanlanmış.",
+
+"ateliertea_pomegranate_sachet.name": "Narlı Yeşil Çay Poşeti",
+"ateliertea_pomegranate_sachet.description": "Narla süslenmiş capcanlı bir çay harmanı.",
+
+"ateliertea_raspberry_sachet.name": "Ahududu Çay Poşeti",
+"ateliertea_raspberry_sachet.description": "Mayhoş ahududu tadını öne çıkaran yumuşak bir Ferngill çay harmanı.",
+
+"ateliertea_rose_sachet.name": "Gül Yaprağı Çay Poşeti",
+"ateliertea_rose_sachet.description": "Gül çalısının taç yaprak ve tomurcuklarından yapılmış bir çay harmanı.",
+
+"ateliertea_sakura_sachet.name": "Kiraz Çiçeği Çay Poşeti",
+"ateliertea_sakura_sachet.description": "Saklanmış kiraz çiçekleriyle yapılmış bir çay harmanı.",
+
+"ateliertea_strawberry_sachet.name": "Yabani Çilek Çay Poşeti",
+"ateliertea_strawberry_sachet.description": "Yabani yaz çilekleriyle yapılmış tatlı bir çay harmanı.",
+
+//TEA
+
+"ateliertea_apple_tea.name": "Güz Elması Çayı",
+"ateliertea_apple_tea.description": "Taze kaynamış elma çayı.",
+
+"ateliertea_vanilla_tea.name": "Patisko Vanilyası Çayı",
+"ateliertea_vanilla_tea.description": "Taze kaynamış vanilya çayı.",
+
+"ateliertea_matcha_tea.name": "Geleneksel Matcha Çayı",
+"ateliertea_matcha_tea.description": "Taze kaynamış matcha çayı.",
+
+"ateliertea_cinnamon_tea.name": "Tarçınlı Çay",
+"ateliertea_cinnamon_tea.description": "Taze kaynamış tarçın çayı.",
+
+"ateliertea_chamomile_tea.name": "Sıcak Papatya Çayı",
+"ateliertea_chamomile_tea.description": "Taze kaynamış papatya çayı.",
+
+"ateliertea_breakfast_tea.name": "İngiliz Kahvaltısı Çayı",
+"ateliertea_breakfast_tea.description": "Taze kaynamış İngiliz Kahvaltısı çayı.",
+
+"ateliertea_jasmine_tea.name": "Kokulu Yasemin Çayı",
+"ateliertea_jasmine_tea.description": "Taze kaynamış yasemin çayı.",
+
+"ateliertea_ginger_tea.name": "Zencefil-Şeftali Çayı",
+"ateliertea_ginger_tea.description": "Taze kaynamış zencefil-şeftali çayı.",
+
+"ateliertea_grey_tea.name": "Lady Grey Çayı",
+"ateliertea_grey_tea.description": "Taze kaynamış Lady Grey çayı.",
+
+"ateliertea_lemon_tea.name": "Limon-Zencefil Çayı",
+"ateliertea_lemon_tea.description": "Taze kaynamış limon-zencefil çayı.",
+
+"ateliertea_mint_tea.name": "Naneli Çay",
+"ateliertea_mint_tea.description": "Taze kaynamış nane çayı.",
+
+"ateliertea_berry_tea.name": "Karışık Meyve Çayı",
+"ateliertea_berry_tea.description": "Taze kaynamış karışık meyve çayı.",
+
+"ateliertea_peach_tea.name": "Şeftali-Mango Çayı",
+"ateliertea_peach_tea.description": "Taze kaynamış şeftali-mango çayı.",
+
+"ateliertea_pineapple_tea.name": "Ananas-Hindistan Cevizi Çayı",
+"ateliertea_pineapple_tea.description": "Taze kaynamış ananas-hindistan cevizi çayı.",
+
+"ateliertea_pomegranate_tea.name": "Narlı Yeşil Çay",
+"ateliertea_pomegranate_tea.description": "Taze kaynamış narlı yeşil çay.",
+
+"ateliertea_raspberry_tea.name": "Ahududu Çayı",
+"ateliertea_raspberry_tea.description": "Taze kaynamış ahududu çayı.",
+
+"ateliertea_rose_tea.name": "Gül Yaprağı Çayı",
+"ateliertea_rose_tea.description": "Taze kaynamış gül yaprağı çayı.",
+
+"ateliertea_sakura_tea.name": "Kiraz Çiçeği Çayı",
+"ateliertea_sakura_tea.description": "Taze kaynamış kiraz çiçeği çayı.",
+
+"ateliertea_strawberry_tea.name": "Yabani Çilek Çayı",
+"ateliertea_strawberry_tea.description": "Taze kaynamış yabani çilek çayı.",
+
+//KOMBUCHA
+
+"ateliertea_apple_kombucha.name": "Güz Elma Kombucha",
+"ateliertea_apple_kombucha.description": "İçimi çok güzel olan balla fermente edilmiş çay.",
+
+"ateliertea_vanilla_kombucha.name": "Patisko Vanilya Kombucha",
+"ateliertea_vanilla_kombucha.description": "İçimi çok güzel olan balla fermente edilmiş çay.",
+
+"ateliertea_matcha_kombucha.name": "Geleneksel Matcha Kombucha",
+"ateliertea_matcha_kombucha.description": "İçimi çok güzel olan balla fermente edilmiş çay.",
+
+"ateliertea_cinnamon_kombucha.name": "Tarçınlı Kombucha",
+"ateliertea_cinnamon_kombucha.description": "İçimi çok güzel olan balla fermente edilmiş çay.",
+
+"ateliertea_chamomile_kombucha.name": "Sıcak Papatya Kombucha",
+"ateliertea_chamomile_kombucha.description": "İçimi çok güzel olan balla fermente edilmiş çay.",
+
+"ateliertea_breakfast_kombucha.name": "İngiliz Kahvaltısı Kombucha",
+"ateliertea_breakfast_kombucha.description": "İçimi çok güzel olan balla fermente edilmiş çay.",
+
+"ateliertea_jasmine_kombucha.name": "Kokulu Yasemin Kombucha",
+"ateliertea_jasmine_kombucha.description": "İçimi çok güzel olan balla fermente edilmiş çay.",
+
+"ateliertea_ginger_kombucha.name": "Zencefil-Şeftali Kombucha",
+"ateliertea_ginger_kombucha.description": "İçimi çok güzel olan balla fermente edilmiş çay.",
+
+"ateliertea_grey_kombucha.name": "Lady Grey Kombucha",
+"ateliertea_grey_kombucha.description": "İçimi çok güzel olan balla fermente edilmiş çay.",
+
+"ateliertea_lemon_kombucha.name": "Limon-Zencefil Kombucha",
+"ateliertea_lemon_kombucha.description": "İçimi çok güzel olan balla fermente edilmiş çay.",
+
+"ateliertea_mint_kombucha.name": "Naneli Kombucha",
+"ateliertea_mint_kombucha.description": "İçimi çok güzel olan balla fermente edilmiş çay.",
+
+"ateliertea_berry_kombucha.name": "Karışık Meyveli Kombucha",
+"ateliertea_berry_kombucha.description": "İçimi çok güzel olan balla fermente edilmiş çay.",
+
+"ateliertea_peach_kombucha.name": "Şeftali-Mango Kombucha",
+"ateliertea_peach_kombucha.description": "İçimi çok güzel olan balla fermente edilmiş çay.",
+
+"ateliertea_pineapple_kombucha.name": "Ananas-Hindistan Cevizi Kombucha",
+"ateliertea_pineapple_kombucha.description": "İçimi çok güzel olan balla fermente edilmiş çay.",
+
+"ateliertea_pomegranate_kombucha.name": "Narlı Yeşil Kombucha",
+"ateliertea_pomegranate_kombucha.description": "İçimi çok güzel olan balla fermente edilmiş çay.",
+
+"ateliertea_raspberry_kombucha.name": "Ahududu Kombucha",
+"ateliertea_raspberry_kombucha.description": "İçimi çok güzel olan balla fermente edilmiş çay.",
+
+"ateliertea_rose_kombucha.name": "Gül Yaprağı Kombucha",
+"ateliertea_rose_kombucha.description": "İçimi çok güzel olan balla fermente edilmiş çay.",
+
+"ateliertea_sakura_kombucha.name": "Kiraz Çiçeği Kombucha",
+"ateliertea_sakura_kombucha.description": "İçimi çok güzel olan balla fermente edilmiş çay.",
+
+"ateliertea_strawberry_kombucha.name": "Yabani Çiçek Kombucha",
+"ateliertea_strawberry_kombucha.description": "İçimi çok güzel olan balla fermente edilmiş çay.",
+
+//////////
+// MAIL //
+//////////
+
+"ateliertea_TeaProcessorRecipe.name": "Çay Poşeti Yapma Vakti!",
+"ateliertea_TeaProcessorRecipe.text":"@, ^^ Eğer çay işine gerçekten girmek istiyorsun, bu işleyicilerden birini yapmayı denemelisin. Çay poşeti yapmak için bir ayarı bile var! Yaptığın yeni çayları da denemeyi çok isterim.^^ - Elliott",
+
+"ateliertea_TeaKettleRecipe.name": "Aç Kettle'ı Aç!",
+"ateliertea_TeaKettleRecipe.text":"@, ^^ Bence kişisel bir kettleının olması evine biraz sıcaklık katar; işte kendin nasıl yapacağın burada! Sadece beni çay saatine çağırmayı unutma.^^ - Caroline",
+
+"ateliertea_evelyn_gift.name": "Tohumlar Sana",
+"ateliertea_evelyn_gift.text":"@, ^^ Çay yapımı hakkında daha çok şey öğrendiğini duydum! Çok güzel bir yola çıkıyorsun. İşte: bunlar kendi bahçemden papatya tohumları. Çiçeklerinden uyku veren rahatlatıcı bir çay yapılıyor.^^ - Evelyn",
+
+"ateliertea_leah_gift.name": "Çay Bahçene",
+"ateliertea_leah_gift.text":"@, ^^ Çay işi nasıl gidiyor? Eğer çay yaprağı bulmakta sorun yaşıyorsan, sana tohum vermekten mutlu olurum! Bunlardan sağlam çay bitkileri çıkar, sen de istediğin her çayı yaparsın.^^ - Leah",
+
+"ateliertea_maru_gift.name": "Kombucha Yapımı",
+"ateliertea_maru_gift.text": "@, ^^ Çayı fermente edip kombucha yapabileceğini biliyor muydun? Herkesin ağız tadına uymayabilir ama bence köpüklü ve leziz! Yine de fermantasyonu kolaylaştırmak için bu mantarlardan biraz yetiştirmeye başlamalısın.^^ - Maru",
+
+
+////////////////////
+// SPECIAL ORDERS //
+////////////////////
+
+"ateliertea_SO_1.name": "Poşet Stoğu",
+"ateliertea_SO_1.text": "Ev yapımı çay harmanım tamamen bitmiş! Haftayı geçirebilmem için biri bana birkaç poşet bırakır mı?",
+"ateliertea_SO_1a.deliver": "Caroline'a 2 Tarçınlı Çay Poşeti ver.",
+"ateliertea_SO_1b.deliver": "Caroline'a 2 Naneli Çay Poşeti ver.",
+"ateliertea_SO_1c.deliver": "Caroline'a 2 Lady Grey Çay Poşeti ver.",
+"ateliertea_SO_1.accept": "Ne kadar güzel çeşitler getirdin! Çay saatini bunlar benim için kesinlikle güzelleştirecek.",
+
+"ateliertea_SO_2.name": "Çay Partisi",
+"ateliertea_SO_2.text": "Hanımları kek ve çay için eve çağırıyorum, ama seçebilecekleri çeşitler olsun istiyorum! Biri bana yardım eder mi?",
+"ateliertea_SO_2a.deliver": "Evelyn'in mutfağına 2 Kiraz Çiçeği Çayı bırak.",
+"ateliertea_SO_2b.deliver": "Evelyn'in mutfağına 2 Gül Yaprağı Çayı bırak.",
+"ateliertea_SO_2c.deliver": "Evelyn'in mutfağına 2 İngiliz Kahvaltısı Çayı bırak.",
+
+"ateliertea_SO_3.name": "Gelsin Kombucha",
+"ateliertea_SO_3.text": "I heard Abigail and Sebby talking about how good kombucha is for you...can someone bring me some so I can see for myself?",
+"ateliertea_SO_3a.deliver": "Robin'in atölyesine 2 Güz Elması Kombucha bırak.",
+"ateliertea_SO_3b.deliver": "Robin'in atölyesine 2 Ahududu Kombucha bırak.",
+"ateliertea_SO_3c.deliver": "Robin'in atölyesine 2 Yabani Çilek Kombucha bırak.",
+"ateliertea_SO_3d.deliver": "Robin'in atölyesine 2 Narlı Yeşil Kombucha bırak.",
+
+"ateliertea_SO_4.name": "Uyku Çayı",
+"ateliertea_SO_4.text": "Çok yorgunum ve güzel bir uyku çekmek istiyorum. Biri bana rahatlatıcı bitki çaylarından getirebilir mi?",
+"ateliertea_SO_4a.deliver": "Jodi'nin mutfağına 3 Sıcak Papatya Çay Poşeti bırak.",
+"ateliertea_SO_4b.deliver": "Jodi'nin mutfağına 3 Naneli Çay Poşeti bırak.",
+"ateliertea_SO_4c.deliver": "Jodi'nin mutfağına 3 Patisko Vanilyası Çay Poşeti bırak.",
+"ateliertea_SO_4d.deliver": "Jodi'nin mutfağına 3 Limon-Zencefil Çay Poşeti bırak.",
+
+"ateliertea_SO_5.name": "Usta Çay Üreticisi İmtihanı",
+"ateliertea_SO_5.text": "Senenin o zamanı yine geldi - Usta Çay Üreticisi rolü için yıllık başvurular açık! Büyük ödülü alıp alamayacağınızı görmek için bize en iyi çaylarınızı gönderin!",
+"ateliertea_SO_5.ship": "100 Altın Kalite Çay Ürünü gönder.",
+ 
+"ateliertea_SO_6.name": " Alex için Kombucha",
+"ateliertea_SO_6.text": "Pierre ne kadar sorarsam sorayım kombucha getirmeyecek. Şimdi nasıl bulacağım?",
+"ateliertea_SO_6.deliver": "Alex'e 4 kombucha ver.",
+"ateliertea_SO_6.accept": "GETİRMİŞSİN! Kralsın, getirdiğin için sağol!",
+
+"ateliertea_SO_7.name": "Haley için Çay",
+"ateliertea_SO_7.text": "Çayımı internetten almak çok yorucu, göremiyorsam kalitesini nereden bileceğim? Belki kasabadan biri bana çay satabilir...",
+"ateliertea_SO_7.deliver": "Haley'e 6 çay ver.",
+"ateliertea_SO_7.accept": "Bu çaylar çok güzel duruyor. Çok hoşuma gidecekler - tekrar sağol!",
+
+"ateliertea_SO_8.name": "Sandy için Çay Poşeti", 
+"ateliertea_SO_8.text": "Çölde serin kalmak için büyük bir sürahi buzlu çay tapmak istiyorum. Biri bana birkaç poşet getirir mi?",
+"ateliertea_SO_8.deliver": "Sandy'e 8 çay poşeti ver.",
+"ateliertea_SO_8.accept": "Artık bu çöl sıcağında erimeyeceğim! Sağol, canım.",
+
+//TEA REWARDS MAIL
+ 
+"ateliertea_SO2_reward.title": "Teşekkür ederim; Artı Çay Tohumları!",
+"ateliertea_SO2_reward.text": "@,^^^ Bunlarla mükemmel bir Viktoryen çay partisi yapacağız!^^-Evelyn",
+
+"ateliertea_SO3_reward.title": "Teşekkür ederim, Artı Birkaç Mantar Başlatıcı!",
+"ateliertea_SO3_reward.text": "@,^^^ Beklediğimden daha köpüklüymüş! Ama ilginç bir şekilde güzel.^^-Robin",
+
+"ateliertea_SO4_reward.title": "Tekrar Teşekkürler!",
+"ateliertea_SO4_reward.text": "@,^^^ O kadar güzel kokuyorlar ki yastığa başımı koymayan uyuyacağım herhalde!^^-Jodi",
+
+"ateliertea_SO5_reward.title": "Tebrikler!",
+"ateliertea_SO5_reward.text": "Değerli @,^^^ Azminiz oldukça etkileyici. Size Usta Çay Üreticisi unvanını vermekten gurur duyuyoruz. Lütfen bunu bir ödül olarak kabul edin.",
+
+
+}

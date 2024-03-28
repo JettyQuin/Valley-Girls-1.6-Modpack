@@ -1,0 +1,18 @@
+{
+    "Name": "Atelier Wildflour Gourmet Pantry Pack",
+    "Author": "wildflourmods",
+    "Version": "3.0.3",
+    "Description": "Adds gourmet pantry ingredients",
+    "UniqueID": "wildflour.gourmetpantry",
+    "UpdateKeys": ["nexus:14886"], 
+    "MinimumApiVersion": "4.0.0-alpha",
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    },
+    "Dependencies": [
+        {
+            "UniqueID":"wildflour.ateliercrops",
+            "IsRequired": true
+        }
+    ]
+}

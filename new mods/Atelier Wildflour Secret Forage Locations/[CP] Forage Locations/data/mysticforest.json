@@ -1,0 +1,39 @@
+{
+		
+"Changes": [
+
+{
+	"LogName":"Map Patch Secret Woods for Mystical Forest",
+	"Action": "EditMap",
+	"Target": "Maps/Woods", 
+	"FromFile": "assets/Maps/WoodsEdit.tmx",
+	"ToArea": {
+			"X": 4,
+			"Y": 0,
+			"Width": 7,
+			"Height": 4
+		},
+
+	"When": {"MysticalForestToken": "1"}	
+},
+
+{
+	"LogName":"Add Warps to Secret Woods for Mystical Forest",
+	"Action": "EditMap",
+	"Target": "Maps/Woods",
+	"AddWarps": ["7 0 Custom_WF_MysticalForest 14 35"],
+	
+	"When": {"MysticalForestToken": "1"}	
+},
+
+{
+	"LogName":"Add Warps to Mystical Forest",
+	"Action": "EditMap",
+	"Target": "Maps/Custom_WF_MysticalForest",
+	"AddWarps": [
+				"14 38 Woods 7 3",
+				"15 38 Woods 7 3"]
+}
+
+	]
+}

@@ -1,0 +1,358 @@
+{
+
+//////////////
+// MACHINES //
+//////////////
+
+    "atelierfloral_FlowerStation.name": "花卉加工站",
+	"atelierfloral_FlowerStation.description": "将花卉精油制成奢华香氛皂。",
+
+    "atelierfloral_BouquetStation.name": "一簇野花",
+	"atelierfloral_BouquetStation.description": "将 5 朵花制成花束，或是将花卉精油制成百花香囊。",
+
+    "atelierfloral_FragranceStation.name":"香氛机",
+    "atelierfloral_FragranceStation.description":"将 2 瓶花卉精油制成高级香水。",
+
+    "atelierfloral_CandleStation.name": "蜂蜡锅釜",
+	"atelierfloral_CandleStation.description": "将花卉与蜂巢制成蜂蜡蜡烛。",
+
+///////////////////////////
+// MACHINE NOTIFICATIONS //
+///////////////////////////
+
+"atelierfloral_FlowerStation_InvalidItem.message": "无法制作",
+"atelierfloral_FlowerStation_InvalidCount.message": "需要精油或 3 朵花",
+
+"atelierfloral_BouquetStation_InvalidItem.message": "无法制作",
+"atelierfloral_BouquetStation_InvalidCount.message": "需要精油或 5 朵花",    
+
+"atelierfloral_FragranceStation_InvalidItem.message": "无法制作",
+"atelierfloral_FragranceStation_InvalidCount.message": "需要 2 瓶精油",    
+
+"atelierfloral_CandleStation_InvalidItem.message": "无法制作",
+"atelierfloral_CandleStation_InvalidCount.message": "需要蜂巢",    
+
+//////////////
+// BOUQUETS //
+//////////////
+
+    "atelierfloral_jazz_bouquet.name": "蓝爵花束",
+    "atelierfloral_jazz_bouquet.description": "一束华丽鲜花，可以当成可爱的礼物！",
+
+    "atelierfloral_vanilla_bouquet.name": "卡利科香草花束",
+    "atelierfloral_vanilla_bouquet.description": "一束华丽鲜花，可以当成可爱的礼物！",
+
+    "atelierfloral_fairy_bouquet.name": "玫瑰仙子花束",
+    "atelierfloral_fairy_bouquet.description": "一束华丽鲜花，可以当成可爱的礼物！",
+
+    "atelierfloral_chamomile_bouquet.name": "森林洋甘菊花束",
+    "atelierfloral_chamomile_bouquet.description": "一束华丽鲜花，可以当成可爱的礼物！",
+
+    "atelierfloral_lavender_bouquet.name": "森林薰衣草花束",
+    "atelierfloral_lavender_bouquet.description": "一束华丽鲜花，可以当成可爱的礼物！",
+
+    "atelierfloral_jasmine_bouquet.name": "宝石岛茉莉花束",
+    "atelierfloral_jasmine_bouquet.description": "一束华丽鲜花，可以当成可爱的礼物！",
+
+    "atelierfloral_mallow_bouquet.name": "棉花糖花束",
+    "atelierfloral_mallow_bouquet.description": "一束华丽鲜花，可以当成可爱的礼物！",
+
+    "atelierfloral_poppy_bouquet.name": "虞美人花束",
+    "atelierfloral_poppy_bouquet.description": "一束华丽鲜花，可以当成可爱的礼物！",
+
+    "atelierfloral_sakura_bouquet.name": "樱花束",
+    "atelierfloral_sakura_bouquet.description": "一束华丽鲜花，可以当成可爱的礼物！",
+
+    "atelierfloral_spangle_bouquet.name": "亮片花束",
+    "atelierfloral_spangle_bouquet.description": "一束华丽鲜花，可以当成可爱的礼物！",
+
+    "atelierfloral_sunflower_bouquet.name": "向日葵花束",
+    "atelierfloral_sunflower_bouquet.description": "一束华丽鲜花，可以当成可爱的礼物！",
+    
+    "atelierfloral_tulip_bouquet.name": "郁金香花束",
+    "atelierfloral_tulip_bouquet.description": "一束华丽鲜花，可以当成可爱的礼物！",
+
+/////////////
+// PERFUME //
+/////////////
+
+    "atelierfloral_jazz_perfume.name": "蓝爵淡香水",
+    "atelierfloral_jazz_perfume.description": "由蒸馏过的花卉精油制成的清香型香水。",
+
+    "atelierfloral_vanilla_perfume.name": "卡利科香草淡香水",
+    "atelierfloral_vanilla_perfume.description": "由蒸馏过的花卉精油制成的清香型香水。",
+
+    "atelierfloral_fairy_perfume.name": "玫瑰仙子淡香水",
+    "atelierfloral_fairy_perfume.description": "由蒸馏过的花卉精油制成的清香型香水。",
+
+    "atelierfloral_chamomile_perfume.name": "森林洋甘菊淡香水",
+    "atelierfloral_chamomile_perfume.description": "由蒸馏过的花卉精油制成的清香型香水。",
+
+    "atelierfloral_lavender_perfume.name": "森林薰衣草淡香水",
+    "atelierfloral_lavender_perfume.description": "由蒸馏过的花卉精油制成的清香型香水。",
+
+    "atelierfloral_jasmine_perfume.name": "宝石岛茉莉淡香水",
+    "atelierfloral_jasmine_perfume.description": "由蒸馏过的花卉精油制成的清香型香水。",
+
+    "atelierfloral_mallow_perfume.name": "棉花糖花淡香水",
+    "atelierfloral_mallow_perfume.description": "由蒸馏过的花卉精油制成的清香型香水。",
+
+    "atelierfloral_poppy_perfume.name": "虞美人淡香水",
+    "atelierfloral_poppy_perfume.description": "由蒸馏过的花卉精油制成的清香型香水。",
+    
+    "atelierfloral_sakura_perfume.name": "樱花淡香水",
+    "atelierfloral_sakura_perfume.description": "由蒸馏过的花卉精油制成的清香型香水。",
+    
+    "atelierfloral_spangle_perfume.name": "亮片淡香水",
+    "atelierfloral_spangle_perfume.description": "由蒸馏过的花卉精油制成的清香型香水。",
+
+    "atelierfloral_sunflower_perfume.name": "向日葵淡香水",
+    "atelierfloral_sunflower_perfume.description": "由蒸馏过的花卉精油制成的清香型香水。",
+
+    "atelierfloral_tulip_perfume.name": "郁金香淡香水",
+    "atelierfloral_tulip_perfume.description": "由蒸馏过的花卉精油制成的清香型香水。",
+
+/////////////
+// ESSENCE //
+/////////////
+
+    "atelierfloral_jazz_essence.name": "蓝爵精油",
+    "atelierfloral_jazz_essence.description": "由鲜花制成，充满芳香的油。",
+    
+    "atelierfloral_vanilla_essence.name": "卡利科香草精油",
+    "atelierfloral_vanilla_essence.description": "由鲜花制成，充满芳香的油。",
+
+    "atelierfloral_fairy_essence.name": "玫瑰仙子精油",
+    "atelierfloral_fairy_essence.description": "由鲜花制成，充满芳香的油。",
+
+    "atelierfloral_chamomile_essence.name": "森林洋甘菊精油",
+    "atelierfloral_chamomile_essence.description": "由鲜花制成，充满芳香的油。",
+
+    "atelierfloral_lavender_essence.name": "森林薰衣草精油",
+    "atelierfloral_lavender_essence.description": "由鲜花制成，充满芳香的油。",
+
+    "atelierfloral_jasmine_essence.name": "宝石岛茉莉精油",
+    "atelierfloral_jasmine_essence.description": "由鲜花制成，充满芳香的油。",
+
+    "atelierfloral_mallow_essence.name": "棉花糖花精油",
+    "atelierfloral_mallow_essence.description": "由鲜花制成，充满芳香的油。",
+
+    "atelierfloral_poppy_essence.name": "虞美人精油",
+    "atelierfloral_poppy_essence.description": "由鲜花制成，充满芳香的油。",
+
+    "atelierfloral_sakura_essence.name": "樱花精油",
+    "atelierfloral_sakura_essence.description": "由鲜花制成，充满芳香的油。",
+
+    "atelierfloral_spangle_essence.name": "亮片精油",
+    "atelierfloral_spangle_essence.description": "由鲜花制成，充满芳香的油。",
+
+    "atelierfloral_sunflower_essence.name": "向日葵精油",
+    "atelierfloral_sunflower_essence.description": "由鲜花制成，充满芳香的油。",
+
+    "atelierfloral_tulip_essence.name": "郁金香精油",
+    "atelierfloral_tulip_essence.description": "由鲜花制成，充满芳香的油。",
+
+//////////
+// SOAP //
+//////////
+
+    "atelierfloral_jazz_soap.name": "蓝爵奢华香氛皂",
+    "atelierfloral_jazz_soap.description": "带有花香的奢华香皂——真精致！",
+
+    "atelierfloral_vanilla_soap.name": "卡利科香草奢华香氛皂",
+    "atelierfloral_vanilla_soap.description": "带有花香的奢华香皂——真精致！",
+
+    "atelierfloral_fairy_soap.name": "玫瑰仙子奢华香氛皂",
+    "atelierfloral_fairy_soap.description": "带有花香的奢华香皂——真精致！",
+
+    "atelierfloral_chamomile_soap.name": "森林洋甘菊奢华香氛皂",
+    "atelierfloral_chamomile_soap.description": "带有花香的奢华香皂——真精致！",
+
+    "atelierfloral_lavender_soap.name": "森林薰衣草奢华香氛皂",
+    "atelierfloral_lavender_soap.description": "带有花香的奢华香皂——真精致！",
+
+    "atelierfloral_jasmine_soap.name": "宝石岛茉莉奢华香氛皂",
+    "atelierfloral_jasmine_soap.description": "带有花香的奢华香皂——真精致！",
+
+    "atelierfloral_mallow_soap.name": "棉花糖奢华香氛皂",
+    "atelierfloral_mallow_soap.description": "带有花香的奢华香皂——真精致！",
+
+    "atelierfloral_poppy_soap.name": "虞美人奢华香氛皂",
+    "atelierfloral_poppy_soap.description": "带有花香的奢华香皂——真精致！",
+
+    "atelierfloral_sakura_soap.name": "樱花奢华香氛皂",
+    "atelierfloral_sakura_soap.description": "带有花香的奢华香皂——真精致！",
+
+    "atelierfloral_spangle_soap.name": "亮片奢华香氛皂",
+    "atelierfloral_spangle_soap.description": "带有花香的奢华香皂——真精致！",
+
+    "atelierfloral_sunflower_soap.name": "向日葵奢华香氛皂",
+    "atelierfloral_sunflower_soap.description": "带有花香的奢华香皂——真精致！",
+
+    "atelierfloral_tulip_soap.name": "郁金香奢华香氛皂",
+    "atelierfloral_tulip_soap.description": "带有花香的奢华香皂——真精致！",
+
+///////////////
+// POTPOURRI //
+///////////////
+
+    "atelierfloral_jazz_potpourri.name": "爵士百花香囊",
+    "atelierfloral_jazz_potpourri.description": "把干燥花瓣包在棉布袋中——非常适合让您的衣橱或梳妆台抽屉保持宜人芳香。",
+
+    "atelierfloral_vanilla_potpourri.name": "香草百花香囊",
+    "atelierfloral_vanilla_potpourri.description": "把干燥花瓣包在棉布袋中——非常适合让您的衣橱或梳妆台抽屉保持宜人芳香。",
+
+    "atelierfloral_fairy_potpourri.name": "玫瑰仙子百花香囊",
+    "atelierfloral_fairy_potpourri.description": "把干燥花瓣包在棉布袋中——非常适合让您的衣橱或梳妆台抽屉保持宜人芳香。",
+
+    "atelierfloral_chamomile_potpourri.name": "洋甘菊百花香囊",
+    "atelierfloral_chamomile_potpourri.description": "把干燥花瓣包在棉布袋中——非常适合让您的衣橱或梳妆台抽屉保持宜人芳香。",
+
+    "atelierfloral_lavender_potpourri.name": "薰衣草百花香囊",
+    "atelierfloral_lavender_potpourri.description": "把干燥花瓣包在棉布袋中——非常适合让您的衣橱或梳妆台抽屉保持宜人芳香。",
+
+    "atelierfloral_jasmine_potpourri.name": "茉莉百花香囊",
+    "atelierfloral_jasmine_potpourri.description": "把干燥花瓣包在棉布袋中——非常适合让您的衣橱或梳妆台抽屉保持宜人芳香。",
+
+    "atelierfloral_mallow_potpourri.name": "棉花糖百花香囊",
+    "atelierfloral_mallow_potpourri.description": "把干燥花瓣包在棉布袋中——非常适合让您的衣橱或梳妆台抽屉保持宜人芳香。",
+
+    "atelierfloral_poppy_potpourri.name": "虞美人百花香囊",
+    "atelierfloral_poppy_potpourri.description": "把干燥花瓣包在棉布袋中——非常适合让您的衣橱或梳妆台抽屉保持宜人芳香。",
+
+    "atelierfloral_sakura_potpourri.name": "樱花百花香囊",
+    "atelierfloral_sakura_potpourri.description": "把干燥花瓣包在棉布袋中——非常适合让您的衣橱或梳妆台抽屉保持宜人芳香。",
+
+    "atelierfloral_spangle_potpourri.name": "亮片百花香囊",
+    "atelierfloral_spangle_potpourri.description": "把干燥花瓣包在棉布袋中——非常适合让您的衣橱或梳妆台抽屉保持宜人芳香。",
+
+    "atelierfloral_sunflower_potpourri.name": "向日葵百花香囊",
+    "atelierfloral_sunflower_potpourri.description": "把干燥花瓣包在棉布袋中——非常适合让您的衣橱或梳妆台抽屉保持宜人芳香。",
+
+    "atelierfloral_tulip_potpourri.name": "郁金香百花香囊",
+    "atelierfloral_tulip_potpourri.description": "把干燥花瓣包在棉布袋中——非常适合让您的衣橱或梳妆台抽屉保持宜人芳香。",
+
+/////////////
+// CANDLES //
+/////////////
+
+    "atelierfloral_jazz_candles.name": "爵士香氛蜡烛",
+    "atelierfloral_jazz_candles.description": "美丽的香氛蜡烛三件套。",
+
+    "atelierfloral_vanilla_candles.name": "香草香氛蜡烛",
+    "atelierfloral_vanilla_candles.description": "美丽的香氛蜡烛三件套。",
+
+    "atelierfloral_fairy_candles.name": "玫瑰仙子香氛蜡烛",
+    "atelierfloral_fairy_candles.description": "美丽的香氛蜡烛三件套。",
+
+    "atelierfloral_chamomile_candles.name": "洋甘菊香氛蜡烛",
+    "atelierfloral_chamomile_candles.description": "美丽的香氛蜡烛三件套。",
+
+    "atelierfloral_lavender_candles.name": "薰衣草香氛蜡烛",
+    "atelierfloral_lavender_candles.description": "美丽的香氛蜡烛三件套。",
+
+    "atelierfloral_jasmine_candles.name": "茉莉香氛蜡烛",
+    "atelierfloral_jasmine_candles.description": "美丽的香氛蜡烛三件套。",
+
+    "atelierfloral_mallow_candles.name": "棉花糖香氛蜡烛",
+    "atelierfloral_mallow_candles.description": "美丽的香氛蜡烛三件套。",
+
+    "atelierfloral_poppy_candles.name": "虞美人香氛蜡烛",
+    "atelierfloral_poppy_candles.description": "美丽的香氛蜡烛三件套。",
+
+    "atelierfloral_sakura_candles.name": "樱花香氛蜡烛",
+    "atelierfloral_sakura_candles.description": "美丽的香氛蜡烛三件套。",
+
+    "atelierfloral_spangle_candles.name": "亮片香氛蜡烛",
+    "atelierfloral_spangle_candles.description": "美丽的香氛蜡烛三件套。",
+
+    "atelierfloral_sunflower_candles.name": "向日葵香氛蜡烛",
+    "atelierfloral_sunflower_candles.description": "美丽的香氛蜡烛三件套。",
+
+    "atelierfloral_tulip_candles.name": "郁金香香氛蜡烛",
+    "atelierfloral_tulip_candles.description": "美丽的香氛蜡烛三件套。",
+
+
+//////////
+// MAIL //
+//////////
+
+    "atelierfloral_FlowerStationRecipe.name":"给刚起步的花匠",
+    "atelierfloral_FlowerStationRecipe.text":"@，^^你知道可以把花加工成香氛蜡烛和香皂吗？我很喜欢用贾斯带回家的花做，不过你或许可以用这台机器加工你种的花赚到不少钱！^^玛妮",
+
+    "atelierfloral_FragranceStationRecipe.name":"花卉精油",
+    "atelierfloral_FragranceStationRecipe.text":"@，^^我从杂志剪下这页，现在很流行自己做精油跟香水！或许你能用农场种的花试试看？^^海莉",
+
+    "atelierfloral_BouquetStationRecipe.name":"手工花束",
+    "atelierfloral_BouquetStationRecipe.text":"@，^^你知道我会打理镇上的花坛，不过我也会在家里做花束和香囊之类的。使用这个一簇野花的配方，你很快就能成为顶级花匠。^^艾芙琳",
+
+    "atelierfloral_jas_gift.name":"给农夫的花",
+    "atelierfloral_jas_gift.text":"@，^^玛妮姑姑寄给你一封跟花有关的信，所以我也想寄一封给你！我们一起在森林找到了这些香香的花，而且她说你会喜欢，所以送你吧！^^贾斯",
+
+    "atelierfloral_sandy_gift.name":"给朋友的花",
+    "atelierfloral_sandy_gift.text":"@，^^你种花种得怎么样啊？我希望沙漠可以长出更多的花但这里真的太热了。我有个宝石岛来的朋友送给我这些花，我觉得或许你可以种在温室里……^^桑迪",
+
+    "atelierfloral_emily_gift.name":"一些花束灵感",
+    "atelierfloral_emily_gift.text":"@，^^艾芙琳跟我说了你新的花卉计划，我也想帮忙！我认为玫瑰仙子会是很迷人的秋日花束，你觉得呢？^^艾米丽",
+
+////////////////////
+// SPECIAL ORDERS //
+////////////////////
+
+    "atelierfloral_SO_1.name":"春季大扫除",
+    "atelierfloral_SO_1.text":"我最近忙着大扫除，而我希望可以用些香氛让衣橱清新宜人；有人可以给我几包香囊吗？",
+    "atelierfloral_SO_1.deliver":"带给艾芙琳 6 包百花香囊。",
+    "atelierfloral_SO_1.accept":"它们闻起来真棒，整间房子立刻清新又干净了！",
+
+    "atelierfloral_SO_2.name":"抽空享受玫瑰",
+    "atelierfloral_SO_2.text":"我真的好喜欢鲜花，就算它们有时候会让我打喷嚏也一样。一束玫瑰仙子放在我房间一定很好看……",
+    "atelierfloral_SO_2.deliver":"带给山姆 1 束玫瑰仙子花束。",
+    "atelierfloral_SO_2.accept":"哇，这束花不但缤纷还很香！或许我会放在房间角落以免一直打喷嚏……",
+
+    "atelierfloral_SO_3.name":"狂芳不羁",
+    "atelierfloral_SO_3.text":"我用光最爱的香水了！没有它们我怎么活下去？",
+    "atelierfloral_SO_3a.deliver":"把 2 瓶向日葵淡香水放进海莉的房子。",
+    "atelierfloral_SO_3b.deliver":"把 2 瓶森林薰衣草淡香水放进海莉的房子。",
+    "atelierfloral_SO_3c.deliver":"把 2 瓶玫瑰仙子淡香水放进海莉的房子。",
+    "atelierfloral_SO_3d.deliver":"把 2 瓶郁金香淡香水放进海莉的房子。",
+
+    "atelierfloral_SO_4.name":"肥皂剧",
+    "atelierfloral_SO_4.text":"我正在进行关于肥皂碱液的科学实验，我需要一些样品跟我的测试用成品进行比较！",
+    "atelierfloral_SO_4.deliver":"把 10 块奢华香氛皂放进玛鲁实验室的箱子。",
+
+    "atelierfloral_SO_5.name":"花艺大师挑战",
+    "atelierfloral_SO_5.text":"又到了每年的这个时候——我们已经开放申请年度花艺大师了！把你最高级的花艺品寄给我们，看你能不能赢得大奖！",
+    "atelierfloral_SO_5.ship":"出货 100 个金星质量的花卉产品。",
+
+    "atelierfloral_SO_6.name":"给谢恩的花束",
+    "atelierfloral_SO_6.text":"贾斯跟玛妮一直都对我很有耐心，我想送她们一些好礼……",
+    "atelierfloral_SO_6.deliver":"带给谢恩 2 束花束。",
+    "atelierfloral_SO_6.accept":"它们很美。一定很适合送给贾斯跟玛妮。谢了朋友。",
+
+    "atelierfloral_SO_7.name":"给威力的香氛皂",
+    "atelierfloral_SO_7.text":"捕鱼很累还害我的皮肤龟裂！希望有香皂能修复我的皮肤。",
+    "atelierfloral_SO_7.deliver":"带给威力 4 块香氛皂。",
+    "atelierfloral_SO_7.accept":"你可能听过富贵手，不过我会说自己有超干的鱼贵手。谢谢你的香皂；我很确定它们能帮上大忙。",
+
+    "atelierfloral_SO_8.name":"给科罗布斯的蜡烛",
+    "atelierfloral_SO_8.text":"感觉人类不只对花本身，还对它们的味道有兴趣。我希望能让下水道闻起来像花一样，你能帮我的忙吗？",
+    "atelierfloral_SO_8.deliver":"带给科罗布斯 8 组香氛蜡烛。",
+    "atelierfloral_SO_8.accept":"这真迷人，蜡烛带来了宜人芳香跟温和微光。人类真是有趣的生物。谢谢你给我这些。",
+
+/////////////////////////
+// SPECIAL ORDERS MAIL //
+/////////////////////////
+
+    "atelierfloral_SO2_reward.title": "谢谢你！",
+    "atelierfloral_SO2_reward.text": "@，^^^我真的不知道该怎么感谢你给我花束，就算它们偶尔会害我鼻子痒也一样。^^山姆",
+
+    "atelierfloral_SO3_reward.title": "十分感谢！",
+    "atelierfloral_SO3_reward.text": "@，^^^你是我的救命恩人。你懂得，女生没有她最爱的香水就活不下去了。^^海莉",
+
+    "atelierfloral_SO4_reward.title": "谢谢你！",
+    "atelierfloral_SO4_reward.text": "@，^^^它们很适合我的实验！你知道制作肥皂的专有名词叫做皂化反应吗？不知道？噢，好吧，我要回去测试我的成品了！^^玛鲁",
+
+    "atelierfloral_SO5_reward.title": "恭喜！",
+    "atelierfloral_SO5_reward.text": "亲爱的　@，^^^你的贡献令我们印象深刻，我们很荣幸能给予你花艺大师的头衔。请领取这份奖赏。",
+
+}

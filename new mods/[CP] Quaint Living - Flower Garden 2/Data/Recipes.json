@@ -1,0 +1,46 @@
+{
+    "Changes": [
+
+        {
+              "LogName":"QL - Machine Recipe",
+              "Action": "EditData",
+              "Target": "Data/CraftingRecipes",
+              "Entries": {
+"PC.QL.FlowerGarden2_Extractor": "335 2 334 1 336 1 726 2/Home/PC.QL.FlowerGarden2_Extractor/true/null/{{i18n: machine.Extractor.name}}",
+    }
+},
+
+
+        {
+              "LogName":"QL - Cooking Recipes",
+              "Action": "EditData",
+              "Target": "Data/CookingRecipes",
+              "Entries": {
+
+"PC.QL.FlowerGarden2_BloomRolls": "246 1 -5 1 PC.QL.FlowerGarden2_Lilac 2/1 8/PC.QL.FlowerGarden2_BloomRolls/f Leah 4/{{i18n:BloomRolls.name}}",
+"PC.QL.FlowerGarden2_BotanicalTart": "246 1 -5 1 PC.QL.FlowerGarden2_Pansy 5/1 8/8/PC.QL.FlowerGarden2_BotanicalTart/s Foraging 4/{{i18n:BotanicalTart.name}}",
+"PC.QL.FlowerGarden2_BasketweaveCake": "246 1 182 3 PC.QL.FlowerGarden2_Rose 1 PC.QL.FlowerGarden2_Carnation 3 PC.QL.FlowerGarden2_Dahlia 1/2 2/8/PC.QL.FlowerGarden2_BasketweaveCake/s Farming 8/{{i18n:BasketweaveCake.name}}",
+"PC.QL.FlowerGarden2_CoconutDrink": "88 1 PC.QL.FlowerGarden2_Hibiscus 1/3 3/CoconutDrink/s Foraging 2/{{i18n:CoconutDrink.name}}", 
+"PC.QL.FlowerGarden2_FlowerCookies": "246 1 245 1 PC.QL.FlowerGarden2_CandiedFlowers 3/1 1/FlowerCookies/f Evelyn 6/{{i18n:FlowerCookies.name}}", 
+"PC.QL.FlowerGarden2_PrettyCrepes": "246 1 -5 1 PC.QL.FlowerGarden2_Pansy 3/20 1/8/PC.QL.FlowerGarden2_PrettyCrepes/s Foraging 6/{{i18n:PrettyCookies.name}}", 
+"PC.QL.FlowerGarden2_GardeniaBlancmange": "186 2 245 1 152 1 PC.QL.FlowerGarden2_Gardenia 1/22 3/GardeniaBlancmange/l 38/{{i18n:GardeniaBlancmange.name}}",
+"PC.QL.FlowerGarden2_JasmineGreenJelly": "-6 1 152 2 PC.QL.FlowerGarden2_Jasmine 5 815 1/6 4/8/PC.QL.FlowerGarden2_JasmineGreenJelly/f Marnie 6/{{i18n:JasmineGreenJelly.name}}",
+"PC.QL.FlowerGarden2_JasmineTea": 815 1 245 1 PC.QL.FlowerGarden2_Jasmine 3/1 1/8/PC.QL.FlowerGarden2_JasmineTea/f Caroline 4/{{i18n:JasmineTea.name}}", 
+"PC.QL.FlowerGarden2_LavenderScones": "246 1 245 1 -5 1 PC.QL.FlowerGarden2_Lavender 3/20 1/8/PC.QL.FlowerGarden2_LavenderScones/f Penny 4/{{i18n:LavenderScones.name}}", 
+"PC.QL.FlowerGarden2_LavenderMilk": "186 1 PC.QL.FlowerGarden2_Lavender 2 340 1/22 3/8/PC.QL.FlowerGarden2_LavenderMilk/l 150/{{i18n:LavenderMilk.name}}",
+"PC.QL.FlowerGarden2_LilacCake": "246 1 245 1 -5 1 PC.QL.FlowerGarden2_Extract 1 PC.QL.FlowerGarden2_Lilac 1/20 1/LilacCake/f Maru 5/{{i18n:LilacCake.name}}", 
+"PC.QL.FlowerGarden2_LilacIceCream": "186 1 PC.QL.FlowerGarden2_Lavender 2 340 1/22 3/8/PC.QL.FlowerGarden2_LilacIceCream/f Demetrius 6/{{i18n:LilacIceCream.name}}",
+"PC.QL.FlowerGarden2_MelonMarbles": "254 1 400 1 PC.QL.FlowerGarden2_Hibiscus 1/1 1/8/PC.QL.FlowerGarden2_MelonMarbles/f Gus 4/{{i18n:MelonMarbles.name}}", 
+"PC.QL.FlowerGarden2_PotatoSoup": "192 2 PC.QL.FlowerGarden2_Lavender 1 248 1 20 1/1 1/8/PC.QL.FlowerGarden2_PotatoSoup/s Farming 6/{{i18n:PotatoSoup.name}}",
+"PC.QL.FlowerGarden2_RainbowSalad": "PC.QL.FlowerGarden2_Pansy 3 246 1 417 1 419 1/20 1/8/PC.QL.FlowerGarden2_RainbowSalad/s Farming 8/{{i18n:RainbowSalad.name}}", 
+"PC.QL.FlowerGarden2_RoseTorte": "246 1 245 1 442 1 PC.QL.FlowerGarden2_Extract 1 PC.QL.FlowerGarden2_Rose 1/22 3/PC.QL.FlowerGarden2_RoseTorte/f Evelyn 10/{{i18n:RoseTorte.name}}",
+//"Sponge Cake": "151 1 246 1 247 1/3 3/202/f Jodi 3", 
+"PC.QL.FlowerGarden2_StuffedTulips": "591 3 188 1 426 1 399 1/PC.QL.FlowerGarden2_StuffedTulips/s Farming 2/{{i18n:StuffedTulips.name}}", 
+"PC.QL.FlowerGarden2_SunflowerPasta": "246 1 248 1 421 1/20 1/PC.QL.FlowerGarden2_SunflowerPasta/l 84/{{i18n:SunflowerPasta.name}}", 
+"PC.QL.FlowerGarden2_SunnyCheesecake": "424 2 245 1 -5 1 421 1/22 3/PC.QL.FlowerGarden2_SunnyCheesecake/f Emily 6/{{i18n:SunnyCheeseCake.name}}",
+
+              }
+      },
+ 
+   ]
+}

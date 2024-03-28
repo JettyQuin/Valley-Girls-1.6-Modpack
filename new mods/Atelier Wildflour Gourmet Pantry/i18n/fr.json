@@ -1,0 +1,264 @@
+{
+
+	//Kitchen Blender
+	"gourmetpantry_KitchenBlender.name": "Mélangeur de cuisine",
+	"gourmetpantry_KitchenBlender.description": "Un appareil de cuisine qui peut mélanger des noix dans des laits, des laits dans de la crème, et plus encore !",
+
+	//Kitchen Mortar
+	"gourmetpantry_KitchenMortar.name": "Mortier de cuisine",
+	"gourmetpantry_KitchenMortar.description": "Un appareil de cuisine qui peut broyer les récoltes en farines et mélanges d'épices.",
+
+	// Almond Nut Butter
+    "gourmetpantry_almond_butter.name": "Beurre de Noix d'Amande",
+	"gourmetpantry_almond_butter.description": "Une pâte à tartiner crémeuse et beurrée à base d'amandes. Parfait pour la cuisson, tartiner sur des toasts et plus encore !",
+	
+	//Almondmilk
+	"gourmetpantry_almond_milk.name": "Lait d'amande",
+	"gourmetpantry_almond_milk.description": "Un lait alternatif à base d'amandes. Un excellent substitut aux produits laitiers dans la pâtisserie, les smoothies et plus encore !",
+	
+	//Bittersweet Bakers Chocolate
+	"gourmetpantry_bittersweet_chocolate.name": "Chocolat aigre-doux des boulangers",
+	"gourmetpantry_bittersweet_chocolate.description": "Tablette de chocolat noir utilisée dans la fabrication de sucreries et de friandises.",
+	
+	//Boba Pearls
+	"boba-pearls.name": "Perles Boba",
+	"boba-pearls.description": "Sphères féculentes et gélatineuses qui sont ajoutées au thé froid et au lait pour faire du thé à bulles.",
+	
+	//Calico Vanilla Extract
+	"gourmetpantry_vanilla_extract.name": "Extrait de vanille Calico",
+	"gourmetpantry_vanilla_extract.description": "Essence de vanille distillée à partir de gousses de vanille butinées. Utilisé dans la cuisson de friandises sucrées !",
+	
+	//Cashew Nut Butter
+	"gourmetpantry_cashew_butter.name": "Beurre de noix de cajou",
+	"gourmetpantry_cashew_butter.description": "Une pâte à tartiner crémeuse à base de noix de cajou. Parfait pour la cuisson, tartiner sur des toasts et plus encore !",
+	
+	//Cashewmilk
+	"gourmetpantry_cashew_milk.name": "Lait de cajou",
+	"gourmetpantry_cashew_milk.description": "Un lait alternatif à base de noix de cajou. Un excellent substitut aux produits laitiers dans la pâtisserie, les smoothies et plus encore !",
+	
+	//Chocolate Morsels
+	"gourmetpantry_chocolate_chips.name": "Morceaux de chocolat",
+	"gourmetpantry_chocolate_chips.description": "Aussi connu sous le nom de pépites de chocolat, un MUST absolu pour tous ceux qui aiment faire des biscuits.",
+	
+	//Coconutmilk
+	"gourmetpantry_coconut_milk.name": "Lait de coco",
+	"gourmetpantry_coconut_milk.description": "Un lait alternatif à base de noix de coco. Un excellent substitut aux produits laitiers dans la pâtisserie, les smoothies et plus encore !",
+	
+	//Confectioners Sugar
+	"gourmetpantry_confectioners_sugar.name": "Confiseurs Sucre",
+	"gourmetpantry_confectioners_sugar.description": "Aussi connu sous le nom de sucre en poudre; ce sucre finement moulu contient un peu de fécule de maïs pour l'empêcher de s'agglutiner et il est souvent utilisé pour garnir les produits de boulangerie",
+
+    //Creamy Coconut Butter
+	"gourmetpantry_coconut_butter.name": "Beurre de noix de coco crémeux",
+	"gourmetpantry_coconut_butter.description": "Un substitut de beurre fabriqué à partir de la graisse de la noix de coco. Parfait pour cuisiner des friandises sans produits laitiers !",
+
+    //Espresso Powder
+	"gourmetpantry_espresso_powder.name": "Poudre d'espresso",
+	"gourmetpantry_espresso_powder.description": "La touche de saveur de café complète bien les produits de boulangerie chocolatés.",
+
+    //Farm Fresh Butter
+	"gourmetpantry_butter.name": "Beurre frais de la ferme",
+	"gourmetpantry_butter.description": "Du lait de vache frais baratté à la main en un beurre glorieux.",
+
+    //Farm Fresh Buttermilk
+	"gourmetpantry_buttermilk.name": "Babeurre frais de la ferme",
+	"gourmetpantry_buttermilk.description": "Bien qu'il sente un peu désagréable, cet ingrédient aide à créer du pain de maïs tendre et des crêpes moelleuses.",
+
+    //Farm Fresh Cream
+	"gourmetpantry_cream.name": "Crème fraîche de la ferme",
+	"gourmetpantry_cream.description": "Fabriquée à partir de lait de vaches locales, cette crème est indispensable à la cuisson de certaines pâtisseries et à la réalisation de glaçages moelleux et moelleux !",
+
+    //Farm Fresh Cream Cheese
+	"gourmetpantry_cream_cheese.name": "Fromage à la crème frais de la ferme",
+	"gourmetpantry_cream_cheese.description": "Fabriqué avec du lait de vaches locales, ce fromage à la crème est parfait pour un gâteau au fromage ou simplement pour enduire un bagel.",
+
+	//Ghee
+	"ghee.name":"Ghee frais de la ferme",
+	"ghee.description":"Sorte de beurre clarifié.",
+
+    //Farm Fresh Yogurt
+	"gourmetpantry_yogurt.name": "Yaourt frais de la ferme",
+	"gourmetpantry_yogurt.description": "Fabriqué avec du lait de vaches locales, ce yogourt regorge de probiotiques!",
+
+	//Farmstead Apple Butter
+	"gourmetpantry_apple_butter.name": "Beurre de Pomme Fermier",
+	"gourmetpantry_apple_butter.description": "Fabriqué avec la recette familiale secrète du fermier - chaud et sucré et parfait pour les toasts du matin ou badigeonné sur le côté d'un muffin",
+	
+	//Farmstead Honey Butter
+	"gourmetpantry_honey_butter..name": "Beurre de ferme au miel",
+	"gourmetpantry_honey_butter..description": "Fabriqué avec la recette familiale secrète du fermier et l'aide de quelques adorables bourdons.",
+	
+	//Farmstead Maple Butter
+	"gourmetpantry_maple_butter.name": "Beurre d'érable fermier",
+	"gourmetpantry_maple_butter.description": "Fabriqué avec la recette familiale secrète du fermier et du sirop d'érable d'origine locale",
+	
+	//Farmstead Pumpkin Butter
+	"gourmetpantry_pumpkin_butter.name": "Beurre de potiron fermier",
+	"gourmetpantry_pumpkin_butter.description": "Fabriqué avec la recette familiale secrète du fermier - parfait pour l'amateur d'épices à la citrouille en chacun de nous",
+	
+	//Gourmet Lemon Curd
+	"gourmetpantry_lemon_curd.name": "Crème de citron gourmande",
+	"gourmetpantry_lemon_curd.description": "Sa texture fondante et crémeuse est due aux jaunes d'œufs de haute qualité provenant de poules très heureuses",
+	
+	//Gourmet Lime Curd
+	"gourmetpantry_lime_curd.name": "Crèpe Gourmande au Citron Vert",
+	"gourmetpantry_lime_curd.description": "Sa texture fondante et crémeuse est due aux jaunes d'œufs de haute qualité provenant de poules très heureuses",
+
+	//Gourmet Orange Curd
+	"gourmetpantry_orange_curd.name": "Crème gourmande à l'orange",
+	"gourmetpantry_orange_curd.description": "Sa texture fondante et crémeuse est due aux jaunes d'œufs de haute qualité provenant de poules très heureuses",
+	
+	//Hazelnut Nut Butter
+	"gourmetpantry_hazelnut_butter.name": "Beurre de Noisette",
+	"gourmetpantry_hazelnut_butter.description": "Une pâte à tartiner crémeuse et beurrée à base de noisettes. Parfait pour la cuisson, tartiner sur des toasts et plus encore !",
+	
+	//Hazelnutmilk
+	"gourmetpantry_hazelnut_milk.name": "Lait de Noisette",
+	"gourmetpantry_hazelnut_milk.description": "Un lait alternatif à base de noisettes. Un excellent substitut aux produits laitiers dans la pâtisserie, les smoothies et plus encore !",
+
+    //Pectin
+	"gourmetpantry_pectin.name": "Pectine",
+	"gourmetpantry_pectin.description": "un gélifiant à base de fruits; indispensable à la conservation des confitures et gelées.",
+	
+	//Pistachio Nut Butter
+	"gourmetpantry_pistachio_butter.name": "Beurre de pistache",
+	"gourmetpantry_pistachio_butter.description": "Une pâte à tartiner crémeuse et beurrée à base de pistache. Parfait pour la cuisson, la tartinade sur des toasts et plus encore",
+	
+	//Pistachiomilk
+	"gourmetpantry_pistachio_milk.name": "Lait de Pistache",
+	"gourmetpantry_pistachio_milk.description": "Un lait alternatif à base de pistaches. Un excellent substitut aux produits laitiers dans la pâtisserie, les smoothies et plus encore !",
+	
+	//Rainbow Sprinkles
+	"gourmetpantry_rainbow_sprinkles.name": "Arc-en-ciel arrose",
+	"gourmetpantry_rainbow_sprinkles.description": "Aussi connu sous le nom de Jimmies; peu importe comment vous les appelez, ils sont doux et colorés et une garniture parfaite pour presque tout!",
+	
+	//Ricemilk
+	"rice-milk.name": "Lait de riz",
+	"rice-milk.description": "Un lait alternatif à base de riz. Un excellent substitut aux produits laitiers dans la pâtisserie, les smoothies et plus encore !",
+	
+	//Semisweet Bakers Chocolate
+    "gourmetpantry_semisweet_chocolate.name": "Chocolat mi-sucré Bakers",
+	"gourmetpantry_semisweet_chocolate.description": "Barre de chocolat légèrement sucrée utilisée dans la fabrication de bonbons et de friandises",
+	
+	//Specialty Almond Flour
+	"gourmetpantry_almond_flour.name": "Farine d'amande de spécialité",
+	"gourmetpantry_almond_flour.description": "Une farine artisanale à base d'amandes moulues. Indispensable pour les macarons, mais aussi idéal pour la pâtisserie sans gluten !",
+	
+	//Specialty Bread Flour 
+	"gourmetpantry_bread_flour.name": "Farine de pain de spécialité",
+	"gourmetpantry_bread_flour.description": "Une farine artisanale fabriquée à partir d'un type de blé plus consistant. Sa teneur plus élevée en protéines se prête bien à la plupart des pâtes à pain.",
+	
+	//Specialty Brown Sugar
+	"gourmetpantry_brown_sugar.name": "Cassonade de spécialité",
+	"gourmetpantry_brown_sugar.description": "Sucre dont toute la mélasse n'a pas été retirée lors de la transformation, ce qui donne une saveur plus riche et plus terreuse qui convient bien aux muffins et à certains gâteaux.",
+	
+	//Specialty Cake Flour
+	"gourmetpantry_cake_flour.name": "Farine à gâteau de spécialité",
+	"gourmetpantry_cake_flour.description": "Une farine artisanale faite spécialement pour la cuisson des gâteaux. Grâce à sa faible teneur en protéines, vos gâteaux ressortent plus moelleux avec une mie agréable et tendre.",
+	
+	//Specialty Cocoa Powder
+	"gourmetpantry_cocoa_powder.name": "Poudre de cacao de spécialité",
+	"gourmetpantry_cocoa_powder.description": "Cacao qui a été séché et transformé en poudre à utiliser dans les produits de boulangerie.",
+	
+	//Specialty Coconut Flour
+	"gourmetpantry_coconut_flour.name": "Farine de noix de coco de spécialité",
+	"gourmetpantry_coconut_flour.description": "Une farine artisanale à base de noix de coco moulue. Utilisé dans la confection de certains dumplings, il est également idéal pour la cuisson sans gluten !",
+	
+	//Specialty Coconut Oil
+	"coconut-oil.name":"Huile de noix de coco de spécialité",
+	"coconut-oil.description": "Huile à base de noix de coco fraîches.",
+
+	//Specialty Corn Flour
+	"gourmetpantry_corn_flour.name": "Farine de maïs de spécialité",
+	"gourmetpantry_corn_flour.description": "Une farine artisanale à base d'amandes moulues. Indispensable pour des plats comme les tamales ou le pain de maïs.",
+	
+	//Specialty Olive Oil
+	"gourmetpantry_olive_oil.name": "Huile d'olive de spécialité",
+	"gourmetpantry_olive_oil.description": "Les olives pressées à froid signifient une huile d'olive supérieure pour une utilisation sur des salades ou pour faire sauter des légumes frais !",
+	
+	//Specialty Pastry Flour
+	"gourmetpantry_pastry_flour.name": "Farine Spécialité Pâtisserie",
+	"gourmetpantry_pastry_flour.description": "Une farine artisanale pour la confection de pâtisseries. Moins riche en protéines comme la farine à gâteau, cet ingrédient est indispensable à de nombreuses tartes et pâtisseries.",
+	
+	//Specialty Rice Flour
+	"gourmetpantry_rice_flour.name": "Farine de riz de spécialité",
+	"gourmetpantry_rice_flour.description": "Une farine artisanale à base de riz moulu. Indispensable pour les boulettes et les mochi, mais aussi idéal pour la cuisson sans gluten !",
+	
+	//Walnut Nut Butter
+	"gourmetpantry_walnut_butter.name": "Beurre de noix",
+	"gourmetpantry_walnut_butter.description": "Une pâte à tartiner crémeuse et beurrée à base de noix. Parfait pour la cuisson, tartiner sur des toasts et plus encore !",
+	
+	//White Bakers Chocolate
+	"gourmetpantry_white_chocolate.name": "Chocolat Blanc Boulangers",
+	"gourmetpantry_white_chocolate.description": "Tablette de chocolat blanc utilisée dans la fabrication de sucreries et de friandises",
+	
+//MAIL
+
+"gourmetpantry_MortarRecipe.text":"@, ^^ Si vous fabriquez vous-même l'un de ces mortiers de cuisine, vous pouvez commencer à fabriquer des farines et des sucres spéciaux ! Ils sont parfaits pour cuisiner, mais vous pouvez aussi me les vendre pour un bon profit. Ce serait bien d'élargir l'offre de la boutique !^^ - Pierre",
+"gourmetpantry_BlenderRecipe.text":"@, ^^ J'ai investi dans l'un de ces mélangeurs une fois que les gens ont commencé à me demander du café avec des laits sans produits laitiers. Ceux-ci sont trop chers à importer, alors maintenant je fais le mien, mais vous devriez aussi l'essayer. Je pense que cela peut faire d'autres choses aussi, alors voyez ce que vous pouvez découvrir !^^ - Gus",
+"gourmetpantry_harvey.text":"@, ^^ Un de mes patients était allergique aux cacahuètes et sa mère m'a raconté comment elle était passée aux beurres de noix. J'étais sceptique au début, mais maintenant je suis une grande fan du beurre d'amande ! Je parie que vous pourriez faire du beurre de pistache avec ça.^^ - Harvey",
+"gourmetpantry_jodi.text":"@, ^^ Ne le dis à personne, mais j'ai l'impression que Sam pourrait être intolérant au lactose. Je suis secrètement passé au lait sans produits laitiers et il n'a pas remarqué la différence, mais j'ai bien sûr...^^ -Jodi",
+"gourmetpantry_marnie.text":"@, ^^ Alors Gus a partagé les plans d'un mixeur de cuisine ? C'est fantastique! Vous pouvez faire beaucoup de produits laitiers de spécialité avec ça. Cette crème fraîche de mes vaches devrait vous aider à démarrer.^^ -Marnie",
+
+//SPECIAL ORDERS
+
+
+"gourmetpantry_SO_1.name":"Dans une confiture",
+"gourmetpantry_SO_1.text":"Caroline a commencé à cuisiner tout le temps et je veux lui offrir quelque chose pour accompagner ses friandises.",
+"gourmetpantry_SO_1a.deliver":"Livrez du Lemon Curd Gourmet à Pierre.",
+"gourmetpantry_SO_1b.deliver":"Livrez le beurre de potiron fermier à Pierre.",
+"gourmetpantry_SO_1c.deliver":"Livrez du beurre de miel fermier à Pierre.",
+"gourmetpantry_SO_1d.deliver":"Livrez du caillé de citron vert gastronomique à Pierre.",
+"gourmetpantry_SO_1.accept":"Ceux-ci complèteront parfaitement ses gâteaux et biscuits ! J'ai hâte de la surprendre avec.",
+
+"gourmetpantry_SO_2.name":"Vous avez du lait ?",
+"gourmetpantry_SO_2.text":"Beaucoup de patients que je vois sont intolérants au lactose mais je ne connais pas grand-chose aux laits alternatifs. Quelqu'un peut-il m'en apporter quelques sortes différentes pour que je puisse les tester moi-même ?",
+"gourmetpantry_SO_2a.deliver":"Livrez 2 laits d'amande dans la boîte de dépôt de la clinique Harvey.",
+"gourmetpantry_SO_2b.deliver":"Livrez 2 laits de riz à la boîte de dépôt de la clinique Harvey.",
+"gourmetpantry_SO_2c.deliver":"Livrez 2 laits de coco dans la boîte de dépôt de la clinique Harvey.",
+"gourmetpantry_SO_2d.deliver":"Livrez 2 laits de noisette à la boîte de dépôt de la clinique Harvey.",
+
+"gourmetpantry_SO_3.name":"Nouvelles protéines nécessaires !",
+"gourmetpantry_SO_3.text":"J'ai entendu dire que les noix sont une bonne source de protéines, en particulier dans les smoothies ! Je veux en essayer plusieurs sortes dans mes shakes protéinés du matin.",
+"gourmetpantry_SO_3.deliver": "Livrez 10 beurres de noix artisanaux dans la Drop Box de la maison d'Alex.",
+
+"gourmetpantry_SO_4.name":"Créer une tempête",
+"gourmetpantry_SO_4.text":"Evelyn cuisine tellement que nous manquons constamment de farine ! Peut-être qu'elle aimerait cuisiner avec de nouvelles sortes de farines ?",
+"gourmetpantry_SO_4.deliver":"Livrez 10 farines spéciales dans la boîte de dépôt de la maison de George.",
+
+"gourmetpantry_SO_5.name":"Défi Maître Artisan",
+"gourmetpantry_SO_5.text":"C'est à nouveau cette période de l'année - les candidatures annuelles pour le rôle de maître artisan sont ouvertes ! Envoyez-nous vos ingrédients les plus de haute qualité pour voir si vous pouvez gagner le grand prix !",
+"gourmetpantry_SO_5.ship":"Expédier 100 marchandises de garde-manger de qualité or.",
+
+"gourmetpantry_SO_6.name":"Extrait pour Evelyn",
+"gourmetpantry_SO_6.text":"Je n'ai plus d'extrait de vanille ! Je ne peux pas cuisiner sans ça...",
+"gourmetpantry_SO_6.deliver":"Livrez 3 extraits de vanille à Evelyn.",
+"gourmetpantry_SO_6.accept":"Pouvez-vous imaginer faire des cookies sans vanille ? Absolument hors de question. Merci de les avoir apportés, ma chérie.",
+
+"gourmetpantry_SO_7.name":"Huile d'olive pour Abigail",
+"gourmetpantry_SO_7.text":"Je veux essayer de nouvelles recettes de cuisine, mais j'ai besoin d'huile d'olive pour le faire. Quelqu'un peut-il m'aider ?",
+"gourmetpantry_SO_7.deliver":"Livrez 5 huiles d'olive spéciales à Abigail.",
+"gourmetpantry_SO_7.accept":"Merci ! J'ai lu que j'avais besoin de beaucoup d'huile d'olive pour faire de la focaccia, donc cela me fait gagner beaucoup de temps et d'efforts.",
+
+"gourmetpantry_SO_8.name":"Du chocolat pour Gus",
+"gourmetpantry_SO_8.text":"Mon fournisseur de chocolat m'a annulé à la dernière minute ! Quelqu'un peut-il me livrer ce dont j'ai besoin ?",
+"gourmetpantry_SO_8.deliver":"Livrez 9 chocolats à Gus.",
+"gourmetpantry_SO_8.accept":"Le menu du saloon ne serait tout simplement pas le même sans le gâteau au chocolat spécial de Gus ! Vous m'avez vraiment aidé ; merci.",
+
+
+//PANTRY REWARDS MAIL
+ 
+"gourmetpantry_SO2_reward.title": "Merci ; ainsi que ma recette secrète d'horchata !",
+"gourmetpantry_SO2_reward.text": "Fabriqué à partir de choses comme du riz, des noix et même des noix de coco ? Splendide ! Ce devrait être une excellente alternative pour mes patients.",
+
+"gourmetpantry_SO3_reward.title": "Merci beaucoup !",
+"gourmetpantry_SO3_reward.text": "Génial ! Avec ça, je vais certainement pouvoir me muscler encore mieux qu'avant !",
+
+"gourmetpantry_SO4_reward.title": "Merci encore",
+"gourmetpantry_SO4_reward.text": "Peut-être qu'avec ça, nous ne manquerons pas de farine en un jour... j'espère.",
+
+"gourmetpantry_SO5_reward.title": "Félicitations !",
+"gourmetpantry_SO5_reward.text": "Votre dévouement est impressionnant. Nous sommes fiers de vous offrir le titre de Maître Artisan. Veuillez le prendre comme une récompense.",
+
+
+}

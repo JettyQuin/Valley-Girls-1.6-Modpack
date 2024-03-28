@@ -1,0 +1,1652 @@
+{
+    "Changes": [
+
+//////////////////
+// ADD MACHINES //
+//////////////////
+
+{
+    "LogName": "Add Tea Machines to BigCraftables",
+    "Action": "EditData",
+    "Target": "Data/BigCraftables",
+    "Entries": {
+        "wildflour.ateliertea_TeaProcessor": {
+            "Name": "wildflour.ateliertea_TeaProcessor",
+            "DisplayName": "{{i18n: ateliertea_TeaProcessor.name}}",
+            "Description": "{{i18n: ateliertea_TeaProcessor.description}}",
+            "Price": 50,
+            "Fragility": 0,
+            "CanBePlacedOutdoors": true,
+            "CanBePlacedIndoors": true,
+            "IsLamp": false,
+            "Texture": "Mods\\wildflour.ateliertea\\Machines_Base",
+            "SpriteIndex": 0,
+            "CustomFields": {}
+          },
+          "wildflour.ateliertea_TeaKettle": {
+            "Name": "wildflour.ateliertea_TeaKettle",
+            "DisplayName": "{{i18n: ateliertea_TeaKettle.name}}",
+            "Description": "{{i18n: ateliertea_TeaKettle.description}}",
+            "Price": 50,
+            "Fragility": 0,
+            "CanBePlacedOutdoors": true,
+            "CanBePlacedIndoors": true,
+            "IsLamp": false,
+            "Texture": "Mods\\wildflour.ateliertea\\Machines_{{KettleRecolor}}",
+            "SpriteIndex": 8,
+            "CustomFields": {}
+          }
+       
+    }
+},
+
+//////////////////
+// SACHET RULES //
+//////////////////
+
+{
+    "LogName": "Add Atelier Tea Sachet Rules",
+    "Action": "EditData",
+    "Target": "Data/Machines",
+    "Entries": {
+        "(BC)wildflour.ateliertea_TeaProcessor": {
+            "OutputRules": [
+                {
+                    "Id": "wildflour.ateliertea_apple_sachet",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)613",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.ateliertea_apple_sachet",
+                            "ItemId": "(O)wildflour.ateliertea_apple_sachet",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [ 
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 1.8
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 360
+                },
+                {
+                    "Id": "wildflour.ateliertea_vanilla_sachet",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.ateliercrops_vanilla",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.ateliertea_vanilla_sachet",
+                            "ItemId": "(O)wildflour.ateliertea_vanilla_sachet",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 1.8
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 360
+                },
+                {
+                    "Id": "wildflour.ateliertea_breakfast_sachet",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)395",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.ateliertea_breakfast_sachet",
+                            "ItemId": "(O)wildflour.ateliertea_breakfast_sachet",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 1.8
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 360
+                },
+                      {
+                    "Id": "wildflour.ateliertea_breakfast_sachet",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)395",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.ateliertea_breakfast_sachet",
+                            "ItemId": "(O)wildflour.ateliertea_breakfast_sachet",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 1.8
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 360
+                },
+                {
+                    "Id": "wildflour.ateliertea_matcha_sachet",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)815",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.ateliertea_matcha_sachet",
+                            "ItemId": "(O)wildflour.ateliertea_matcha_sachet",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 1.8
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 360
+                },
+                {
+                    "Id": "wildflour.ateliertea_cinnamon_sachet",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.ateliercrops_cinnamon",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.ateliertea_cinnamon_sachet",
+                            "ItemId": "(O)wildflour.ateliertea_cinnamon_sachet",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 1.8
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 360
+                },
+                {
+                    "Id": "wildflour.ateliertea_chamomile_sachet",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.ateliercrops_chamomile",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.ateliertea_chamomile_sachet",
+                            "ItemId": "(O)wildflour.ateliertea_chamomile_sachet",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 1.8
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 360
+                },
+                {
+                    "Id": "wildflour.ateliertea_breakfast_sachet",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)433",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.ateliertea_breakfast_sachet",
+                            "ItemId": "(O)wildflour.ateliertea_breakfast_sachet",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 1.8
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 360
+                },
+                {
+                    "Id": "wildflour.ateliertea_jasmine_sachet",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.ateliercrops_jasmine",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.ateliertea_jasmine_sachet",
+                            "ItemId": "(O)wildflour.ateliertea_jasmine_sachet",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 1.8
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 360
+                },
+                {
+                    "Id": "wildflour.ateliertea_ginger_sachet",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)829",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.ateliertea_ginger_sachet",
+                            "ItemId": "(O)wildflour.ateliertea_ginger_sachet",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 1.8
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 360
+                },
+                {
+                    "Id": "wildflour.ateliertea_grey_sachet",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.ateliercrops_lavender",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.ateliertea_grey_sachet",
+                            "ItemId": "(O)wildflour.ateliertea_grey_sachet",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 1.8
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 360
+                },
+                {
+                    "Id": "wildflour.ateliertea_lemon_sachet",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.ateliercrops_lemon",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.ateliertea_lemon_sachet",
+                            "ItemId": "(O)wildflour.ateliertea_lemon_sachet",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 1.8
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 360
+                },
+                {
+                    "Id": "wildflour.ateliertea_matcha_sachet",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)815",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.ateliertea_matcha_sachet",
+                            "ItemId": "(O)wildflour.ateliertea_matcha_sachet",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 1.8
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 360
+                },
+                {
+                    "Id": "wildflour.ateliertea_mint_sachet",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.ateliercrops_mint",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.ateliertea_mint_sachet",
+                            "ItemId": "(O)wildflour.ateliertea_mint_sachet",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 1.8
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 360
+                },
+                {
+                    "Id": "wildflour.ateliertea_berry_sachet",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)258",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.ateliertea_berry_sachet",
+                            "ItemId": "(O)wildflour.ateliertea_berry_sachet",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 1.8
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 360
+                },
+                {
+                    "Id": "wildflour.ateliertea_peach_sachet",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)636",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.ateliertea_peach_sachet",
+                            "ItemId": "(O)wildflour.ateliertea_peach_sachet",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 1.8
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 360
+                },
+                {
+                    "Id": "wildflour.ateliertea_pineapple_sachet",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)832",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.ateliertea_pineapple_sachet",
+                            "ItemId": "(O)wildflour.ateliertea_pineapple_sachet",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 1.8
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 360
+                },
+                {
+                    "Id": "wildflour.ateliertea_pomegranate_sachet",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)637",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.ateliertea_pomegranate_sachet",
+                            "ItemId": "(O)wildflour.ateliertea_pomegranate_sachet",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 1.8
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 360
+                },
+                {
+                    "Id": "wildflour.ateliertea_raspberry_sachet",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.ateliercrops_raspberry",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.ateliertea_raspberry_sachet",
+                            "ItemId": "(O)wildflour.ateliertea_raspberry_sachet",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 1.8
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 360
+                },
+                {
+                    "Id": "wildflour.ateliertea_rose_sachet",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)595",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.ateliertea_rose_sachet",
+                            "ItemId": "(O)wildflour.ateliertea_rose_sachet",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 1.8
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 360
+                },
+                {
+                    "Id": "wildflour.ateliertea_sakura_sachet",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.ateliercrops_cherryblossoms",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.ateliertea_sakura_sachet",
+                            "ItemId": "(O)wildflour.ateliertea_sakura_sachet",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 1.8
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 360
+                },
+                {
+                    "Id": "wildflour.ateliertea_strawberry_sachet",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.ateliercrops_strawberry",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.ateliertea_strawberry_sachet",
+                            "ItemId": "(O)wildflour.ateliertea_strawberry_sachet",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 1.8
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 360
+                }
+            ],
+            "AdditionalConsumedItems":[
+                {
+                    "ItemId":"(O)815",
+                    "RequiredCount":1,
+                    "InvalidCountMessage":"{{i18n:ateliertea_TeaProcessor_InvalidCount.message}}"
+                }
+            ],
+            "InvalidItemMessage":"{{i18n:ateliertea_TeaProcessor_InvalidItem.message}}",
+            "ShowNextIndexWhileWorking":false,
+            "ShowNextIndexWhenReady":false,
+            "WobbleWhileWorking":false,
+            "WorkingEffects":[
+                {
+                    "Frames":[1,2,3,4],
+                    "Interval":100
+                }
+           ] 
+        }
+    }
+},
+
+///////////////
+// TEA RULES //
+///////////////
+
+{
+    "LogName": "Add Atelier Tea Rules for Kettle",
+    "Action": "EditData",
+    "Target": "Data/Machines",
+    "Entries": {
+        "(BC)wildflour.ateliertea_TeaKettle": {
+            "OutputRules": [
+                {
+                    "Id": "wildflour.ateliertea_apple_tea",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "wildflour.ateliertea_apple_sachet",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.ateliertea_apple_tea",
+                            "ItemId": "(O)wildflour.ateliertea_apple_tea",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": [
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 2.25
+                                }
+                            ]
+                        }
+                    ],
+                   
+                    "MinutesUntilReady": 720
+                },
+                {
+                    "Id": "wildflour.ateliertea_vanilla_tea",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "wildflour.ateliertea_vanilla_sachet",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.ateliertea_vanilla_tea",
+                            "ItemId": "(O)wildflour.ateliertea_vanilla_tea",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": [
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 2.25
+                                }
+                            ]
+                        }
+                    ],
+                   
+                    "MinutesUntilReady": 720
+                },
+                {
+                    "Id": "wildflour.ateliertea_matcha_tea",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "wildflour.ateliertea_matcha_sachet",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.ateliertea_matcha_tea",
+                            "ItemId": "(O)wildflour.ateliertea_matcha_tea",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": [
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 2.25
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 720
+                },
+                {
+                    "Id": "wildflour.ateliertea_cinnamon_tea",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "wildflour.ateliertea_cinnamon_sachet",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.ateliertea_cinnamon_tea",
+                            "ItemId": "(O)wildflour.ateliertea_cinnamon_tea",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": [
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 2.25
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 720
+                },
+                {
+                    "Id": "wildflour.ateliertea_chamomile_tea",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "wildflour.ateliertea_chamomile_sachet",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.ateliertea_chamomile_tea",
+                            "ItemId": "(O)wildflour.ateliertea_chamomile_tea",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": [
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 2.25
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 720
+                },
+               {
+                    "Id": "wildflour.ateliertea_Keg_breakfast_tea",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "wildflour.ateliertea_breakfast_sachet",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.ateliertea_breakfast_tea",
+                            "ItemId": "(O)wildflour.ateliertea_breakfast_tea",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": [
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 2.25
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 720
+                },
+                {
+                    "Id": "wildflour.ateliertea_jasmine_tea",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "wildflour.ateliertea_jasmine_sachet",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.ateliertea_jasmine_tea",
+                            "ItemId": "(O)wildflour.ateliertea_jasmine_tea",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": [
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 2.25
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 720
+                },
+                {
+                    "Id": "wildflour.ateliertea_ginger_tea",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "wildflour.ateliertea_ginger_sachet",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.ateliertea_ginger_tea",
+                            "ItemId": "(O)wildflour.ateliertea_ginger_tea",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": [
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 2.25
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 720
+                },
+                {
+                    "Id": "wildflour.ateliertea_grey_tea",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "wildflour.ateliertea_grey_sachet",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.ateliertea_grey_tea",
+                            "ItemId": "(O)wildflour.ateliertea_grey_tea",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": [
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 2.25
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 720
+                },
+                {
+                    "Id": "wildflour.ateliertea_lemon_tea",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "wildflour.ateliertea_lemon_sachet",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.ateliertea_lemon_tea",
+                            "ItemId": "(O)wildflour.ateliertea_lemon_tea",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": [
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 2.25
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 720
+                },
+                {
+                    "Id": "wildflour.ateliertea_mint_tea",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "wildflour.ateliertea_mint_sachet",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.ateliertea_mint_tea",
+                            "ItemId": "(O)wildflour.ateliertea_mint_tea",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": [
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 2.25
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 720
+                },
+              {
+                    "Id": "wildflour.ateliertea_berry_tea",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "wildflour.ateliertea_berry_sachet",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.ateliertea_berry_tea",
+                            "ItemId": "(O)wildflour.ateliertea_berry_tea",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": [
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 2.25
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 720
+                },
+                {
+                    "Id": "wildflour.ateliertea_peach_tea",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "wildflour.ateliertea_peach_sachet",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.ateliertea_peach_tea",
+                            "ItemId": "(O)wildflour.ateliertea_peach_tea",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": [
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 2.25
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 720
+                },
+               {
+                    "Id": "wildflour.ateliertea_pineapple_tea",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "wildflour.ateliertea_pineapple_sachet",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.ateliertea_pineapple_tea",
+                            "ItemId": "(O)wildflour.ateliertea_pineapple_tea",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": [
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 2.25
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 720
+                },
+               {
+                    "Id": "wildflour.ateliertea_pomegranate_tea",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "wildflour.ateliertea_pomegranate_sachet",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.ateliertea_pomegranate_tea",
+                            "ItemId": "(O)wildflour.ateliertea_pomegranate_tea",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": [
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 2.25
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 720
+                },
+                {
+                    "Id": "wildflour.ateliertea_raspberry_tea",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "wildflour.ateliertea_raspberry_sachet",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.ateliertea_raspberry_tea",
+                            "ItemId": "(O)wildflour.ateliertea_raspberry_tea",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": [
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 2.25
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 720
+                },
+                {
+                    "Id": "wildflour.ateliertea_rose_tea",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "wildflour.ateliertea_rose_sachet",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.ateliertea_rose_tea",
+                            "ItemId": "(O)wildflour.ateliertea_rose_tea",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": [
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 2.25
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 720
+                },
+                {
+                    "Id": "wildflour.ateliertea_sakura_tea",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "wildflour.ateliertea_sakura_sachet",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.ateliertea_sakura_tea",
+                            "ItemId": "(O)wildflour.ateliertea_sakura_tea",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": [
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 2.25
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 720
+                },
+                {
+                    "Id": "wildflour.ateliertea_strawberry_tea",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "wildflour.ateliertea_strawberry_sachet",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.ateliertea_strawberry_tea",
+                            "ItemId": "(O)wildflour.ateliertea_strawberry_tea",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": [
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 2.25
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 720
+                }
+        
+            ],
+            "AdditionalConsumedItems":[
+                {
+                    "ItemId":"(O)340",
+                    "RequiredCount":1,
+                    "InvalidCountMessage":"{{i18n:ateliertea_TeaKettle_InvalidCount.message}}"
+                }
+            ],
+            "InvalidItemMessage":"{{i18n:ateliertea_TeaKettle_InvalidItem.message}}",
+            "ShowNextIndexWhileWorking":false,
+            "ShowNextIndexWhenReady":false,
+            "WobbleWhileWorking":false,
+            "WorkingEffects":[
+                {
+                    "Frames":[1,2,3,4,5,6],
+                    "Interval":100
+                }
+           ] 
+        }
+    }
+},
+
+////////////////////
+// KOMBUCHA RULES //
+////////////////////
+
+{
+    "LogName": "Add Kombucha Rules to Keg",
+    "Action": "EditData",
+    "Target": "Data/Machines",
+    "TargetField": ["(BC)12", "OutputRules"],
+    "Entries": {
+
+        "wildflour.ateliertea_keg_apple_kombucha": {
+            "Id": "wildflour.ateliertea_keg_apple_kombucha",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "wildflour.ateliertea_apple_tea",
+                    "RequiredCount": 1
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.ateliertea_apple_kombucha",
+                    "ItemId": "(O)wildflour.ateliertea_apple_kombucha",
+                    "CopyQuality":true,
+                    "CopyPrice": true,
+                    "PriceModifiers": [
+                        {
+                        "Modification": "Multiply",
+                        "Amount": 2.25
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 1500
+        },
+        "wildflour.ateliertea_keg_vanilla_kombucha": {
+            "Id": "wildflour.ateliertea_keg_vanilla_kombucha",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "wildflour.ateliertea_vanilla_tea",
+                    "RequiredCount": 1
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.ateliertea_vanilla_kombucha",
+                    "ItemId": "(O)wildflour.ateliertea_vanilla_kombucha",
+                    "CopyQuality":true,
+                    "CopyPrice": true,
+                    "PriceModifiers": [
+                        {
+                        "Modification": "Multiply",
+                        "Amount": 2.25
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 1500
+        },
+        "wildflour.ateliertea_keg_matcha_kombucha": {
+            "Id": "wildflour.ateliertea_keg_matcha_kombucha",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "wildflour.ateliertea_matcha_tea",
+                    "RequiredCount": 1
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.ateliertea_matcha_kombucha",
+                    "ItemId": "(O)wildflour.ateliertea_matcha_kombucha",
+                    "CopyQuality":true,
+                    "CopyPrice": true,
+                    "PriceModifiers": [
+                        {
+                        "Modification": "Multiply",
+                        "Amount": 2.25
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 1500
+        },
+        "wildflour.ateliertea_keg_cinnamon_kombucha": {
+            "Id": "wildflour.ateliertea_keg_cinnamon_kombucha",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "wildflour.ateliertea_cinnamon_tea",
+                    "RequiredCount": 1
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.ateliertea_cinnamon_kombucha",
+                    "ItemId": "(O)wildflour.ateliertea_cinnamon_kombucha",
+                    "CopyQuality":true,
+                    "CopyPrice": true,
+                    "PriceModifiers": [
+                        {
+                        "Modification": "Multiply",
+                        "Amount": 2.25
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 1500
+        },
+        "wildflour.ateliertea_keg_chamomile_kombucha": {
+            "Id": "wildflour.ateliertea_keg_chamomile_kombucha",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "wildflour.ateliertea_chamomile_tea",
+                    "RequiredCount": 1
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.ateliertea_chamomile_kombucha",
+                    "ItemId": "(O)wildflour.ateliertea_chamomile_kombucha",
+                    "CopyQuality":true,
+                    "CopyPrice": true,
+                    "PriceModifiers": [
+                        {
+                        "Modification": "Multiply",
+                        "Amount": 2.25
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 1500
+        },
+        "wildflour.ateliertea_keg_breakfast_kombucha": {
+            "Id": "wildflour.ateliertea_keg_breakfast_kombucha",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "wildflour.ateliertea_breakfast_tea",
+                    "RequiredCount": 1
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.ateliertea_breakfast_kombucha",
+                    "ItemId": "(O)wildflour.ateliertea_breakfast_kombucha",
+                    "CopyQuality":true,
+                    "CopyPrice": true,
+                    "PriceModifiers": [
+                        {
+                        "Modification": "Multiply",
+                        "Amount": 2.25
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 1500
+        },
+        "wildflour.ateliertea_keg_jasmine_kombucha": {
+            "Id": "wildflour.ateliertea_keg_jasmine_kombucha",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "wildflour.ateliertea_jasmine_tea",
+                    "RequiredCount": 1
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.ateliertea_jasmine_kombucha",
+                    "ItemId": "(O)wildflour.ateliertea_jasmine_kombucha",
+                    "CopyQuality":true,
+                    "CopyPrice": true,
+                    "PriceModifiers": [
+                        {
+                        "Modification": "Multiply",
+                        "Amount": 2.25
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 1500
+        },
+        "wildflour.ateliertea_keg_ginger_kombucha": {
+            "Id": "wildflour.ateliertea_keg_ginger_kombucha",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "wildflour.ateliertea_ginger_tea",
+                    "RequiredCount": 1
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.ateliertea_ginger_kombucha",
+                    "ItemId": "(O)wildflour.ateliertea_ginger_kombucha",
+                    "CopyQuality":true,
+                    "CopyPrice": true,
+                    "PriceModifiers": [
+                        {
+                        "Modification": "Multiply",
+                        "Amount": 2.25
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 1500
+        },
+        "wildflour.ateliertea_keg_grey_kombucha": {
+            "Id": "wildflour.ateliertea_keg_grey_kombucha",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "wildflour.ateliertea_grey_tea",
+                    "RequiredCount": 1
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.ateliertea_grey_kombucha",
+                    "ItemId": "(O)wildflour.ateliertea_grey_kombucha",
+                    "CopyQuality":true,
+                    "CopyPrice": true,
+                    "PriceModifiers": [
+                        {
+                        "Modification": "Multiply",
+                        "Amount": 2.25
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 1500
+        },
+        "wildflour.ateliertea_keg_lemon_kombucha": {
+            "Id": "wildflour.ateliertea_keg_lemon_kombucha",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "wildflour.ateliertea_lemon_tea",
+                    "RequiredCount": 1
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.ateliertea_lemon_kombucha",
+                    "ItemId": "(O)wildflour.ateliertea_lemon_kombucha",
+                    "CopyQuality":true,
+                    "CopyPrice": true,
+                    "PriceModifiers": [
+                        {
+                        "Modification": "Multiply",
+                        "Amount": 2.25
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 1500
+        },
+        "wildflour.ateliertea_keg_mint_kombucha": {
+            "Id": "wildflour.ateliertea_keg_mint_kombucha",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "wildflour.ateliertea_mint_tea",
+                    "RequiredCount": 1
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.ateliertea_mint_kombucha",
+                    "ItemId": "(O)wildflour.ateliertea_mint_kombucha",
+                    "CopyQuality":true,
+                    "CopyPrice": true,
+                    "PriceModifiers": [
+                        {
+                        "Modification": "Multiply",
+                        "Amount": 2.25
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 1500
+        },
+        "wildflour.ateliertea_keg_berry_kombucha": {
+            "Id": "wildflour.ateliertea_keg_berry_kombucha",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "wildflour.ateliertea_berry_tea",
+                    "RequiredCount": 1
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.ateliertea_berry_kombucha",
+                    "ItemId": "(O)wildflour.ateliertea_berry_kombucha",
+                    "CopyQuality":true,
+                    "CopyPrice": true,
+                    "PriceModifiers": [
+                        {
+                        "Modification": "Multiply",
+                        "Amount": 2.25
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 1500
+        },
+        "wildflour.ateliertea_keg_peach_kombucha": {
+            "Id": "wildflour.ateliertea_keg_peach_kombucha",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "wildflour.ateliertea_peach_tea",
+                    "RequiredCount": 1
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.ateliertea_peach_kombucha",
+                    "ItemId": "(O)wildflour.ateliertea_peach_kombucha",
+                    "CopyQuality":true,
+                    "CopyPrice": true,
+                    "PriceModifiers": [
+                        {
+                        "Modification": "Multiply",
+                        "Amount": 2.25
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 1500
+        },
+        "wildflour.ateliertea_keg_pineapple_kombucha": {
+            "Id": "wildflour.ateliertea_keg_pineapple_kombucha",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "wildflour.ateliertea_pineapple_tea",
+                    "RequiredCount": 1
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.ateliertea_pineapple_kombucha",
+                    "ItemId": "(O)wildflour.ateliertea_pineapple_kombucha",
+                    "CopyQuality":true,
+                    "CopyPrice": true,
+                    "PriceModifiers": [
+                        {
+                        "Modification": "Multiply",
+                        "Amount": 2.25
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 1500
+        },
+        "wildflour.ateliertea_keg_pomegranate_kombucha": {
+            "Id": "wildflour.ateliertea_keg_pomegranate_kombucha",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "wildflour.ateliertea_pomegranate_tea",
+                    "RequiredCount": 1
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.ateliertea_pomegranate_kombucha",
+                    "ItemId": "(O)wildflour.ateliertea_pomegranate_kombucha",
+                    "CopyQuality":true,
+                    "CopyPrice": true,
+                    "PriceModifiers": [
+                        {
+                        "Modification": "Multiply",
+                        "Amount": 2.25
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 1500
+        },
+        "wildflour.ateliertea_keg_raspberry_kombucha": {
+            "Id": "wildflour.ateliertea_keg_raspberry_kombucha",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "wildflour.ateliertea_raspberry_tea",
+                    "RequiredCount": 1
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.ateliertea_raspberry_kombucha",
+                    "ItemId": "(O)wildflour.ateliertea_raspberry_kombucha",
+                    "CopyQuality":true,
+                    "CopyPrice": true,
+                    "PriceModifiers": [
+                        {
+                        "Modification": "Multiply",
+                        "Amount": 2.25
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 1500
+        },
+        "wildflour.ateliertea_keg_rose_kombucha": {
+            "Id": "wildflour.ateliertea_keg_rose_kombucha",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "wildflour.ateliertea_rose_tea",
+                    "RequiredCount": 1
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.ateliertea_rose_kombucha",
+                    "ItemId": "(O)wildflour.ateliertea_rose_kombucha",
+                    "CopyQuality":true,
+                    "CopyPrice": true,
+                    "PriceModifiers": [
+                        {
+                        "Modification": "Multiply",
+                        "Amount": 2.25
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 1500
+        },
+        "wildflour.ateliertea_keg_sakura_kombucha": {
+            "Id": "wildflour.ateliertea_keg_sakura_kombucha",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "wildflour.ateliertea_sakura_tea",
+                    "RequiredCount": 1
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.ateliertea_sakura_kombucha",
+                    "ItemId": "(O)wildflour.ateliertea_sakura_kombucha",
+                    "CopyQuality":true,
+                    "CopyPrice": true,
+                    "PriceModifiers": [
+                        {
+                        "Modification": "Multiply",
+                        "Amount": 2.25
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 1500
+        },
+        "wildflour.ateliertea_keg_strawberry_kombucha": {
+            "Id": "wildflour.ateliertea_keg_strawberry_kombucha",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "wildflour.ateliertea_strawberry_tea",
+                    "RequiredCount": 1
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.ateliertea_strawberry_kombucha",
+                    "ItemId": "(O)wildflour.ateliertea_strawberry_kombucha",
+                    "CopyQuality":true,
+                    "CopyPrice": true,
+                    "PriceModifiers": [
+                        {
+                        "Modification": "Multiply",
+                        "Amount": 2.25
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 1500
+        }
+
+    }
+    
+}
+   
+
+]
+}

@@ -1,0 +1,26 @@
+{
+    "Name": "Atelier Wildflour Beverages Pack",
+    "Author": "wildflourmods",
+    "Version": "3.0.2",
+    "Description": "Adds fancy juices and soft drinks to Stardew Valley.",
+    "UniqueID": "wildflour.atelierjuicebar",
+    "UpdateKeys": ["Nexus:15609"], 
+    "MinimumApiVersion": "4.0.0-alpha",
+    "Dependencies": [
+        {
+            "UniqueID": "wildflour.ateliercrops", 
+            "IsRequired": true
+        },
+        {
+           "UniqueID": "wildflour.gourmetpantry",
+           "IsRequired": true
+        },
+        {
+            "UniqueID": "wildflour.ateliertea",
+            "IsRequired": false
+         }
+    ],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}

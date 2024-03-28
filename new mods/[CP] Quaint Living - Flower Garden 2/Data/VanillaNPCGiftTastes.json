@@ -1,0 +1,510 @@
+{
+    "Changes": [
+//UNIVERSAL
+        {
+              "Action": "EditData",
+              "Target": "Data/NPCGiftTastes",
+              "TextOperations": [
+                  {
+                      "Operation": "Append",
+                      "Target": ["Entries", "Universal_Like"],
+                      "Value": "PC.QL.FlowerGarden2_Alamanda PC.QL.FlowerGarden2_Amaryllis PC.QL.FlowerGarden2_CallaLily PC.QL.FlowerGarden2_Carnation PC.QL.FlowerGarden2_Dahlia PC.QL.FlowerGarden2_Delphinium PC.QL.FlowerGarden2_Freesia PC.QL.FlowerGarden2_Gardenia PC.QL.FlowerGarden2_Hibiscus PC.QL.FlowerGarden2_Iris PC.QL.FlowerGarden2_Jasmine PC.QL.FlowerGarden2_Lavender PC.QL.FlowerGarden2_Lilac PC.QL.FlowerGarden2_Lily PC.QL.FlowerGarden2_Orchid PC.QL.FlowerGarden2_Pansy PC.QL.FlowerGarden2_Peony PC.QL.FlowerGarden2_Rose PC.QL.FlowerGarden2_Snapdragon PC.QL.FlowerGarden2_StripedSquill",
+",
+                      "Delimiter": " "
+                  },
+/*                  {
+                      "Operation": "Append",
+                      "Target": ["Entries", "Universal_Neutral"],
+                      "Value": "PC.QL.FlowerGarden2_Tuberose",
+                      "Delimiter": " "
+                  },*/
+                  {
+                      "Operation": "Append",
+                      "Target": ["Entries", "Universal_Disike"],
+                      "Value": "PC.QL.FlowerGarden2_Fritillaria",
+                      "Delimiter": " "
+                  }
+              ]
+          }, 
+
+//NPC (Fields: 2 love, 4 like, 6 disllike, 8 hate, 10 neutral)
+
+//ABIGAIL
+        {
+              "Action": "EditData",
+              "Target": "Data/NPCGiftTastes",
+              "TextOperations": [
+//Neutral
+                  {
+                      "Operation": "Append",
+                      "Target": ["Fields", "Abigail", 10],
+                      "Value": "PC.QL.FlowerGarden2_CallaLily",
+                      "Delimiter": " "
+                  },
+//Dislike
+                  {
+                      "Operation": "Append",
+                      "Target": ["Fields", "Abigail", 6],
+                      "Value": "PC.QL.FlowerGarden2_Jasmine",
+                      "Delimiter": " "
+                  }
+              ]
+          }, 
+
+//ALEX
+        {
+              "Action": "EditData",
+              "Target": "Data/NPCGiftTastes",
+              "TextOperations": [
+//Dislike
+                  {
+                      "Operation": "Append",
+                      "Target": ["Fields", "Alex", 6],
+                      "Value": "PC.QL.FlowerGarden2_Delphinium",
+                      "Delimiter": " "
+                  },
+//Hate
+                  {
+                      "Operation": "Append",
+                      "Target": ["Fields", "Alex", 8],
+                      "Value": "PC.QL.FlowerGarden2_Fritillaria",
+                      "Delimiter": " "
+                  }
+              ]
+          }, 
+
+//CAROLINE
+        {
+              "Action": "EditData",
+              "Target": "Data/NPCGiftTastes",
+              "TextOperations": [
+//Love
+                  {
+                      "Operation": "Append",
+                      "Target": ["Fields", "Caroline", 2],
+                      "Value": "PC.QL.FlowerGarden2_Jasmine PC.QL.FlowerGarden2_Peony PC.QL.FlowerGarden2_Orchid",
+                      "Delimiter": " "
+                  },
+//Hate
+                  {
+                      "Operation": "Append",
+                      "Target": ["Fields", "Caroline", 8],
+                      "Value": "PC.QL.FlowerGarden2_Fritillaria",
+                      "Delimiter": " "
+                  }
+              ]
+          }, 
+
+//DEMETRIUS
+        {
+              "Action": "EditData",
+              "Target": "Data/NPCGiftTastes",
+              "TextOperations": [
+//Love
+                  {
+                      "Operation": "Append",
+                      "Target": ["Fields", "Demetrius", 2],
+                      "Value": "PC.QL.FlowerGarden2_Fritillaria PC.QL.FlowerGarden2_Orchid",
+                      "Delimiter": " "
+                  }
+              ]
+          }, 
+
+//EMILY
+        {
+              "Action": "EditData",
+              "Target": "Data/NPCGiftTastes",
+              "TextOperations": [
+//Love
+                  {
+                      "Operation": "Append",
+                      "Target": ["Fields", "Emily", 2],
+                      "Value": "PC.QL.FlowerGarden2_Jasmine PC.QL.FlowerGarden2_Lavender PC.QL.FlowerGarden2_Alamanda",
+                      "Delimiter": " "
+                  },
+//Like
+                  {
+                      "Operation": "Append",
+                      "Target": ["Fields", "Emily", 4],
+                      "Value": "PC.QL.FlowerGarden2_Fritillaria",
+                      "Delimiter": " "
+                  }
+              ]
+          }, 
+
+//EVELYN
+        {
+              "Action": "EditData",
+              "Target": "Data/NPCGiftTastes",
+              "TextOperations": [
+//Love
+                  {
+                      "Operation": "Append",
+                      "Target": ["Fields", "Evelyn", 2],
+                      "Value": "PC.QL.FlowerGarden2_Gardenia PC.QL.FlowerGarden2_Orchid PC.QL.FlowerGarden2_Peony PC.QL.FlowerGarden2_Pansy",
+                      "Delimiter": " "
+                  }
+              ]
+          }, 
+
+//HALEY
+        {
+              "Action": "EditData",
+              "Target": "Data/NPCGiftTastes",
+              "TextOperations": [
+//Love
+                  {
+                      "Operation": "Append",
+                      "Target": ["Fields", "Haley", 2],
+                      "Value": "PC.QL.FlowerGarden2_Dahlia PC.QL.FlowerGarden2_Lily PC.QL.FlowerGarden2_Rose PC.QL.FlowerGarden2_Orchid",
+                      "Delimiter": " "
+                  },
+//Hate
+                  {
+                      "Operation": "Append",
+                      "Target": ["Fields", "Haley", 8],
+                      "Value": "PC.QL.FlowerGarden2_Fritillaria",
+                      "Delimiter": " "
+                  }
+              ]
+          }, 
+
+//JAS
+        {
+              "Action": "EditData",
+              "Target": "Data/NPCGiftTastes",
+              "TextOperations": [
+//Love
+                  {
+                      "Operation": "Append",
+                      "Target": ["Fields", "Jas", 2],
+                      "Value": "PC.QL.FlowerGarden2_Jasmine PC.QL.FlowerGarden2_Delphinium PC.QL.FlowerGarden2_Orchid",
+                      "Delimiter": " "
+                  },
+//Hate
+                  {
+                      "Operation": "Append",
+                      "Target": ["Fields", "Jas", 8],
+                      "Value": "PC.QL.FlowerGarden2_Fritillaria",
+                      "Delimiter": " "
+                  }
+              ]
+          }, 
+
+//JODI
+        {
+              "Action": "EditData",
+              "Target": "Data/NPCGiftTastes",
+              "TextOperations": [
+//Hate
+                  {
+                      "Operation": "Append",
+                      "Target": ["Fields", "Jodi", 8],
+                      "Value": "PC.QL.FlowerGarden2_Fritillaria PC.QL.FlowerGarden2_Jasmine",
+                      "Delimiter": " "
+                  }
+              ]
+          }, 
+
+//LEAH
+        {
+              "Action": "EditData",
+              "Target": "Data/NPCGiftTastes",
+              "TextOperations": [
+//Love
+                  {
+                      "Operation": "Append",
+                      "Target": ["Fields", "Leah", 2],
+                      "Value": "PC.QL.FlowerGarden2_Iris PC.QL.FlowerGarden2_Lilac PC.QL.FlowerGarden2_Orchid",
+                      "Delimiter": " "
+                  }
+              ]
+          }, 
+
+//LEWIS
+        {
+              "Action": "EditData",
+              "Target": "Data/NPCGiftTastes",
+              "TextOperations": [
+//Love
+                  {
+                      "Operation": "Append",
+                      "Target": ["Fields", "Lewis", 2],
+                      "Value": "PC.QL.FlowerGarden2_CallaLily PC.QL.FlowerGarden2_Orchid",
+                      "Delimiter": " "
+                  },
+//Hate
+                  {
+                      "Operation": "Append",
+                      "Target": ["Fields", "Lewis", 8],
+                      "Value": "PC.QL.FlowerGarden2_Fritillaria",
+                      "Delimiter": " "
+                  },
+              ]
+          }, 
+
+//LINUS
+        {
+              "Action": "EditData",
+              "Target": "Data/NPCGiftTastes",
+              "TextOperations": [
+//Love
+                  {
+                      "Operation": "Append",
+                      "Target": ["Fields", "Linus", 2],
+                      "Value": "PC.QL.FlowerGarden2_Dahlia PC.QL.FlowerGarden2_Jasmine PC.QL.FlowerGarden2_StripedSquill",
+                      "Delimiter": " "
+                  },
+//Like
+                  {
+                      "Operation": "Append",
+                      "Target": ["Fields", "Linus", 4],
+                      "Value": "PC.QL.FlowerGarden2_Fritillaria",
+                      "Delimiter": " "
+                  },
+              ]
+          }, 
+
+//MARNIE
+        {
+              "Action": "EditData",
+              "Target": "Data/NPCGiftTastes",
+              "TextOperations": [
+//Love
+                  {
+                      "Operation": "Append",
+                      "Target": ["Fields", "Marnie", 2],
+                      "Value": "PC.QL.FlowerGarden2_Gardenia PC.QL.FlowerGarden2_Jasmine PC.QL.FlowerGarden2_Rose",
+                      "Delimiter": " "
+                  }
+              ]
+          }, 
+
+//MARU
+        {
+              "Action": "EditData",
+              "Target": "Data/NPCGiftTastes",
+              "TextOperations": [
+//Neutral
+                  {
+                      "Operation": "Append",
+                      "Target": ["Fields", "Maru", 10],
+                      "Value": "PC.QL.FlowerGarden2_Lilac",
+                      "Delimiter": " "
+                  }
+              ]
+          }, 
+
+
+//PAM
+        {
+              "Action": "EditData",
+              "Target": "Data/NPCGiftTastes",
+              "TextOperations": [
+//Love
+                  {
+                      "Operation": "Append",
+                      "Target": ["Fields", "Pam", 2],
+                      "Value": "PC.QL.FlowerGarden2_Orchid PC.QL.FlowerGarden2_Rose",
+                      "Delimiter": " "
+                  }
+              ]
+          }, 
+
+//PENNY
+        {
+              "Action": "EditData",
+              "Target": "Data/NPCGiftTastes",
+              "TextOperations": [
+//Love
+                  {
+                      "Operation": "Append",
+                      "Target": ["Fields", "Penny", 2],
+                      "Value": "PC.QL.FlowerGarden2_Lavender PC.QL.FlowerGarden2_Orchid PC.QL.FlowerGarden2_Peony",
+                      "Delimiter": " "
+                  }
+              ]
+          }, 
+
+//PIERRE
+        {
+              "Action": "EditData",
+              "Target": "Data/NPCGiftTastes",
+              "TextOperations": [
+//Dislike
+                  {
+                      "Operation": "Append",
+                      "Target": ["Fields", "Pierre", 6],
+                      "Value": "PC.QL.FlowerGarden2_Gardenia",
+                      "Delimiter": " "
+                  },
+//Hate
+                  {
+                      "Operation": "Append",
+                      "Target": ["Fields", "Pierre", 8],
+                      "Value": "PC.QL.FlowerGarden2_Fritillaria",
+                      "Delimiter": " "
+                  },
+              ]
+          }, 
+
+//SAM
+        {
+              "Action": "EditData",
+              "Target": "Data/NPCGiftTastes",
+              "TextOperations": [
+//Neutral
+                  {
+                      "Operation": "Append",
+                      "Target": ["Fields", "Sam", 10],
+                      "Value": "PC.QL.FlowerGarden2_CallaLily PC.QL.FlowerGarden2_Jasmine PC.QL.FlowerGarden2_Peony",
+                      "Delimiter": " "
+                  },
+//Dislike
+                  {
+                      "Operation": "Append",
+                      "Target": ["Fields", "Sam", 6],
+                      "Value": "PC.QL.FlowerGarden2_Amaryllis PC.QL.FlowerGarden2_Dahlia PC.QL.FlowerGarden2_Jasmine PC.QL.FlowerGarden2_Lily",
+                      "Delimiter": " "
+                  },
+//Hate
+                  {
+                      "Operation": "Append",
+                      "Target": ["Fields", "Sam", 8],
+                      "Value": "PC.QL.FlowerGarden2_Fritillaria",
+                      "Delimiter": " "
+                  }
+              ]
+          }, 
+
+//SANDY
+        {
+              "Action": "EditData",
+              "Target": "Data/NPCGiftTastes",
+              "TextOperations": [
+//Love
+                  {
+                      "Operation": "Append",
+                      "Target": ["Fields", "Sandy", 2],
+                      "Value": "PC.QL.FlowerGarden2_Jasmine PC.QL.FlowerGarden2_Orchid PC.QL.FlowerGarden2_Rose PC.QL.FlowerGarden2_Hibiscus PC.QL.FlowerGarden2_Lily",
+                      "Delimiter": " "
+                  }
+              ]
+          }, 
+
+//SEBASTIAN
+        {
+              "Action": "EditData",
+              "Target": "Data/NPCGiftTastes",
+              "TextOperations": [
+//Neutral
+                  {
+                      "Operation": "Append",
+                      "Target": ["Fields", "Sebastian", 10],
+                      "Value": "PC.QL.FlowerGarden2_Snapdragon",
+                      "Delimiter": " "
+                  },
+//Dislike
+                  {
+                      "Operation": "Append",
+                      "Target": ["Fields", "Sebastian", 6],
+                      "Value": "PC.QL.FlowerGarden2_CallaLily PC.QL.FlowerGarden2_Carnation PC.QL.FlowerGarden2_Dahlia PC.QL.FlowerGarden2_Freesia PC.QL.FlowerGarden2_Delphinium PC.QL.FlowerGarden2_Fritillaria PC.QL.FlowerGarden2_Jasmine PC.QL.FlowerGarden2_Iris PC.QL.FlowerGarden2_Peony PC.QL.FlowerGarden2_Orchid PC.QL.FlowerGarden2_Pansy PC.QL.FlowerGarden2_Rose PC.QL.FlowerGarden2_Lily PC.QL.FlowerGarden2_StripedSquill PC.QL.FlowerGarden2_Zinnia PC.QL.FlowerGarden2_Alamanda PC.QL.FlowerGarden2_Gardenia PC.QL.FlowerGarden2_Hibiscus PC.QL.FlowerGarden2_Lilac",
+                      "Delimiter": " "
+                  },
+//Hate
+                  {
+                      "Operation": "Append",
+                      "Target": ["Fields", "Sebastian", 8],
+                      "Value": "PC.QL.FlowerGarden2_Fritillaria",
+                      "Delimiter": " "
+                  },
+              ]
+          }, 
+
+//SHANE
+//Neutral
+        {
+              "Action": "EditData",
+              "Target": "Data/NPCGiftTastes",
+              "TextOperations": [
+                  {
+                      "Operation": "Append",
+                      "Target": ["Fields", "Shane", 10],
+                      "Value": "PC.QL.FlowerGarden2_Jasmine",
+                      "Delimiter": " "
+                  }, 
+//Dislike
+                  {
+                      "Operation": "Append",
+                      "Target": ["Fields", "Shane", 6],
+                      "Value": "PC.QL.FlowerGarden2_CallaLily",
+                      "Delimiter": " "
+                  }
+              ]
+          }, 
+
+//VINCENT
+        {
+              "Action": "EditData",
+              "Target": "Data/NPCGiftTastes",
+              "TextOperations": [
+//Love
+                  {
+                      "Operation": "Append",
+                      "Target": ["Fields", "Vincent", 2],
+                      "Value": "PC.QL.FlowerGarden2_Dahlia PC.QL.FlowerGarden2_Snapdragon",
+                      "Delimiter": " "
+                  },
+//Neutral
+                  {
+                      "Operation": "Append",
+                      "Target": ["Fields", "Vincent", 10],
+                      "Value": "PC.QL.FlowerGarden2_Amaryllis PC.QL.FlowerGarden2_CallaLily",
+                      "Delimiter": " "
+                  },
+//Hate
+                  {
+                      "Operation": "Append",
+                      "Target": ["Fields", "Vincent", 8],
+                      "Value": "PC.QL.FlowerGarden2_Fritillaria",
+                      "Delimiter": " "
+                  }
+              ]
+          }, 
+
+//WILLY
+//Dislike
+        {
+              "Action": "EditData",
+              "Target": "Data/NPCGiftTastes",
+              "TextOperations": [
+                  {
+                      "Operation": "Append",
+                      "Target": ["Fields", "Willy", 6],
+                      "Value": "PC.QL.FlowerGarden2_Amaryllis PC.QL.FlowerGarden2_CallaLily PC.QL.FlowerGarden2_Carnation PC.QL.FlowerGarden2_Dahlia PC.QL.FlowerGarden2_Freesia PC.QL.FlowerGarden2_Delphinium PC.QL.FlowerGarden2_Fritillaria PC.QL.FlowerGarden2_Jasmine PC.QL.FlowerGarden2_Iris PC.QL.FlowerGarden2_Peony PC.QL.FlowerGarden2_Orchid PC.QL.FlowerGarden2_Lavender PC.QL.FlowerGarden2_Pansy PC.QL.FlowerGarden2_Rose PC.QL.FlowerGarden2_Lily PC.QL.FlowerGarden2_StripedSquill PC.QL.FlowerGarden2_Snapdragon PC.QL.FlowerGarden2_Zinnia PC.QL.FlowerGarden2_Alamanda PC.QL.FlowerGarden2_Gardenia PC.QL.FlowerGarden2_Hibiscus PC.QL.FlowerGarden2_Lilac",
+                      "Delimiter": " "
+                  }
+              ]
+          }, 
+
+//WIZARD
+        {
+              "Action": "EditData",
+              "Target": "Data/NPCGiftTastes",
+              "TextOperations": [
+//Love
+                  {
+                      "Operation": "Append",
+                      "Target": ["Fields", "Wizard", 2],
+                      "Value": "PC.QL.FlowerGarden2_Amaryllis PC.QL.FlowerGarden2_Jasmine",
+                      "Delimiter": " "
+                  }
+              ]
+          }, 
+
+
+
+
+
+           ]
+}

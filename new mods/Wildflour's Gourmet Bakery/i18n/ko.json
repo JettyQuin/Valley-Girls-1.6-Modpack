@@ -1,0 +1,453 @@
+{
+
+	//CAKES
+
+	"bakery_carrot_cake.name":"봄꽃 당근 케이크",
+	"bakery_carrot_cake.description":"이 당근 케이크는 사랑스럽고 신선한 봄꽃으로 장식되어 있습니다-때문에 올해의 달걀 축제와 완벽하게 어울리죠!",
+
+	"bakery_chocolate_cake.name":"초콜릿 체리 레이어 케이크",
+	"bakery_chocolate_cake.description":"풍부한 초콜릿과 갓 딴 체리로 만든 달콤한 레이어 케이크.",
+
+	"bakery_chocolate_raspberry_cupcake.name": "초콜릿 라즈베리 컵케이크",
+	"bakery_chocolate_raspberry_cupcake.description": "라즈베리 잼으로 채운 풍부한 초콜릿 맛의 컵케이크.",
+
+	"bakery_coconut_almond_cake.name":"코코넛 아몬드 레이어 케이크",
+	"bakery_coconut_almond_cake.description":"아몬드 프로스팅이 들어간 가볍고 폭신폭신한 코코넛 케이크.",
+
+	"bakery_confetti_cake.name":"컨페티 케이크",
+	"bakery_confetti_cake.description":"바닐라 프로스팅이 들어간 바닐라 케이크에 레인보우 스프링클을 듬뿍 얹었습니다!",
+
+	"bakery_gingerbread_cake.name":"진저 브레드 롤케이크",
+	"bakery_gingerbread_cake.description":"멋진 연휴 디저트로 제격인 크림 바닐라 프로스팅과 함께 둥글게 만 풍부한 맛의 진저 케이크.",
+
+	"bakery_lemon_cake.name":"레몬 쉬폰 케이크",
+	"bakery_lemon_cake.description":"작은 레몬과 달콤한 크림이 봄의 파티에 완벽히 어울리는 부드러운 케이크로 탄생합니다.",
+
+	"bakery_peach_cake.name":"피치 앤 크림 케이크",
+	"bakery_peach_cake.description":"갓 딴 여름 복숭아가 섬세한 바닐라 스펀지 케이크로 만들졌습니다.",
+
+	"bakery_pineapple_cake.name":"허밍버드 케이크",
+	"bakery_pineapple_cake.description":"신선한 파인애플과 견과류로 채워진 따뜻하고 향긋한 케이크!",
+
+	"bakery_pumpkin_cake.name":"펌킨 스파이스 롤케이크",
+	"bakery_pumpkin_cake.description":"계절 인기 메뉴: 크림 치즈 프로스팅과 둥글게 말아서 만든 풍부한 맛의 호박 케이크.",
+
+	"bakery_red_velvet_cake.name":"레드벨벳 롤케이크",
+	"bakery_red_velvet_cake.description":"식용 색소 함량 0%: 이 고전적인 케이크는 옛날 방식대로 사탕무로 색을 냈습니다!",
+
+	"bakery_strawberry_cake.name":"딸기 생크림 케이크",
+	"bakery_strawberry_cake.description":"신선한 딸기와 생크림이 듬뿍 들어간 가벼운 바닐라 스펀지 케이크.",
+
+	"bakery_strawberry_cupcake.name":"작고 달콤한 딸기 컴케이크",
+	"bakery_strawberry_cupcake.description":"딸기 프로스팅을 얹은 사랑스럽고 자그만 딸기 케이크.",
+
+	"bakery_vanilla_cupcake.name":"작고 달콤한 바닐라 컵케이크",
+	"bakery_vanilla_cupcake.description":"바닐라 프로스팅을 얹은 사랑스럽고 자그만 바닐라 케이크.",
+
+	//MUFFINS
+
+	"bakery_apple_muffin.name":"애플 시나몬 머핀",
+	"bakery_apple_muffin.description":"사과와 시나몬은 이 머핀을 바삭바삭하고 완벽한 가을 아침 식사로 만듭니다.",
+
+	"bakery_banana_muffin.name":"바나나 넛츠 머핀",
+	"bakery_banana_muffin.description":"이 머핀은 잘 익은 바나나를 으깨 넣어 매우 달콤합니다.",
+
+	"bakery_cinnamon_muffin.name":"시나몬 머핀",
+	"bakery_cinnamon_muffin.description":"신선한 커피 한 잔과 함께 즐기는 최고의 클래식 머핀.",
+
+	"bakery_cornbread_muffin.name":"버터 콘브레드 머핀",
+	"bakery_cornbread_muffin.description":"버터가 듬뿍 들어간 진한 맛의 머핀은 스프나 거의 대부분의 것들과 잘 어울립니다!",
+
+	"bakery_lemon_blueberry_muffin.name":"레몬베리 머핀",
+	"bakery_lemon_blueberry_muffin.description":"작은 레몬과 블루베리. 이 머핀이 신선한 과일 맛으로 가득 차 있다는 뜻이죠!",
+
+	"bakery_pumpkin_muffin.name":"펌킨 스파이스 라떼 머핀",
+	"bakery_pumpkin_muffin.description":"시나몬과 에스프레소 파우더를 첨가한 호박 머핀.",
+
+	"bakery_strawberry_muffin.name":"딸기 루바브 머핀",
+	"bakery_strawberry_muffin.description":"대황과 딸기로 채운 가볍고 부드러운 머핀.",
+
+	//SCONES
+
+	"bakery_blackberry_scone.name":"블랙베리 라임 스콘",
+	"bakery_blackberry_scone.description":"작은 라임의 향이 블랙베리의 신선한 맛을 정말 돋보이게 하네요!",
+
+	"bakery_blueberry_scone.name":"블루베리 크림 스콘",
+	"bakery_blueberry_scone.description":"신선한 블루베리로 가득한 부드럽고 잘 부스러지는 스콘.",
+
+	"bakery_cinnamon_scone.name":"시나몬 건포도 스콘",
+	"bakery_cinnamon_scone.description":"시나몬과 건포도로 채운 부드럽고 잘 부스러지는 아침 식사로 안성맞춤인 스콘!",
+
+	"bakery_peach_scone.name":"피치 허니 스콘",
+	"bakery_peach_scone.description":"이 스콘은 복숭아 코블러 맛이 나지만, 손에 들고 먹을 수 있다는 점이 훨씬 좋습니다!",
+
+	"bakery_pistachio_scone.name":"피스타치오 스콘",
+	"bakery_pistachio_scone.description":"으깬 피스타치오를 채워넣은 부드럽고 잘 부스러지는 스콘입니다.",
+
+	"bakery_pumpkin_scone.name":"메이플 호박 스콘",
+	"bakery_pumpkin_scone.description":"호박과 메이플 시럽으로 맛을 낸 스콘. 가을의 매력적인 간식입니다.",
+
+	"bakery_raspberry_scone.name":"라즈베리 바닐라 스콘",
+	"bakery_raspberry_scone.description":"바닐라빈이 이 라즈베리 스콘을 더욱 거부할 수 없게 만들어요!",
+
+	"bakery_strawberry_scone.name":"딸기 쇼트케이크 스콘",
+	"bakery_strawberry_scone.description":"반으로 갈라 딸기와 크림으로 채운 쇼트케이크 스타일의 스콘!",
+
+	//CHEESECAKE
+
+	"bakery_blueberry_cheesecake.name":"블루베리 조각 치즈케이크",
+	"bakery_blueberry_cheesecake.description":"달콤한 블루베리 잼을 얹은 치즈 케이크 한 조각.",
+
+	"bakery_cherry_cheesecake.name":"체리 조각 치즈케이크",
+	"bakery_cherry_cheesecake.description":"달콤한 체리 잼을 얹은 치즈 케이크 한 조각.",
+
+	"bakery_cheesecake.name":"클래식 조각 치즈케이크",
+	"bakery_cheesecake.description":"클래식 조각 치즈케이크, 크리미하고 맛있습니다!",
+
+	"bakery_cookies_cream_cheesecake.name":"쿠앤크 조각 치즈케이크",
+	"bakery_cookies_cream_cheesecake.description":"초콜릿 크림 쿠키를 곁들인 치즈 케이크.",
+
+	"bakery_lemon_cheesecake.name":"레몬 조각 치즈케이크",
+	"bakery_lemon_cheesecake.description":"달콤한 레몬 커드를 얹은 치즈 케이크 한 조각.",
+
+	"bakery_mango_cheesecake.name":"망고 조각 치즈케이크",
+	"bakery_mango_cheesecake.description":"달콤한 망고 잼을 얹은 치즈 케이크 한 조각.",
+
+	"bakery_mocha_cheesecake.name":"모카 조각 치즈케이크",
+	"bakery_mocha_cheesecake.description":"초콜릿과 에스프레소 파우더를 섞은 치즈 케이크 한 조각.",
+
+	"bakery_orange_cheesecake.name":"오렌지 커드 조각 치즈케이크",
+	"bakery_orange_cheesecake.description":"달콤한 오렌지 커드를 얹은 치즈 케이크 한 조각.",
+
+	"bakery_pumpkin_cheesecake.name":"펌킨 조각 치즈케이크",
+	"bakery_pumpkin_cheesecake.description":"신선한 호박과 향신료를 섞은 치즈 케이크 한 조각.",
+
+	"bakery_raspberry_cheesecake.name":"라즈베리 조각 치즈케이크",
+	"bakery_raspberry_cheesecake.description":"달콤한 라즈베리 잼을 얹은 치즈 케이크 한 조각.",
+
+	"bakery_strawberry_cheesecake.name":"스트로베리 조각 치즈케이크",
+	"bakery_strawberry_cheesecake.description":"달콤한 딸기 잼을 얹은 치즈 케이크 한 조각.",
+
+	"bakery_white_cheesecake.name":"화이트 초콜릿 라임 조각 치즈케이크",
+	"bakery_white_cheesecake.description":"화이트 초콜릿과 싱싱한 라임 껍질을 사용해 구운 치즈 케이크.",
+
+	//PETIT FOURS
+
+	"bakery_almond_petit_fours.name":"아몬드 쁘띠 푸르",
+	"bakery_almond_petit_fours.description":"아몬드로 맛을 낸 섬세한 파티 케이크.",
+
+	"bakery_chocolate_petit_fours.name":"초콜릿 헤이즐넛 쁘띠 푸르",
+	"bakery_chocolate_petit_fours.description":"초콜릿과 헤이즐넛으로 맛을 낸 섬세한 파티 케이크.",
+
+	"bakery_lemon_petit_fours.name":"달콤한 레몬 쁘띠 푸르",
+	"bakery_lemon_petit_fours.description":"신선한 레몬으로 맛을 낸 섬세한 파티 케이크.",
+
+	"bakery_matcha_petit_fours.name":"말차 쁘띠 푸르",
+	"bakery_matcha_petit_fours.description":"말차로 맛을 낸 섬세한 파티 케이크.",
+
+	"bakery_peach_petit_fours.name":"복숭아 쁘띠 푸르",
+	"bakery_peach_petit_fours.description":"갓 수확한 복숭아로 맛을 낸 섬세한 파티 케이크.",
+
+	"bakery_pistachio_petit_fours.name":"피스타치오 쁘띠 푸르",
+	"bakery_pistachio_petit_fours.description":"피스타치오로 맛을 낸 섬세한 파티 케이크.",
+
+	"bakery_strawberry_petit_fours.name":"스트로베리 로즈 쁘띠 푸르",
+	"bakery_strawberry_petit_fours.description":"딸기와 장미 젤리로 맛을 낸 섬세한 파티 케이크.",
+
+	"bakery_tiramisu_petit_fours.name":"티라미수 쁘띠 푸르",
+	"bakery_tiramisu_petit_fours.description":"에스프레소 파우더와 초콜릿으로 맛을 낸 섬세한 파티 케이크.",
+
+	"bakery_tres_leches_petit_fours.name":"트레스 레체스 쁘띠 푸르",
+	"bakery_tres_leches_petit_fours.description":"서로 다른 우유와 시나몬으로 맛을 낸 섬세한 파티 케이크.",
+
+	"tropical-petitfour.name":"트로피컬 쁘띠 푸르",
+	"tropical-petitfour.description":"열대 과일로 맛을 낸 섬세한 파티 케이크.",
+
+	"bakery_vanilla_petit_fours.name":"라즈베리 쁘띠 푸르",
+	"bakery_vanilla_petit_fours.description":"갓 딴 라즈베리로 맛을 낸 섬세한 파티 케이크.",
+
+	//PIES
+
+	"bakery_apple_pie.name":"옛날풍 사과 파이",
+	"bakery_apple_pie.description":"역 과수원에서 딴 사과로 만든 파이.",
+
+	"bakery_banana_cream_pie.name":"옛날풍 바나나 크림 파이",
+	"bakery_banana_cream_pie.description":"얇게 썬 바나나와 크림을 얹은 커스터드 파이.",
+
+	"bakery_blueberry_pie.name":"옛날풍 블루베리 파이",
+	"bakery_blueberry_pie.description":"갓 딴 블루베리로 만든 파이.",
+
+	"bakery_cherry_pie.name":"옛날풍 체리 파이",
+	"bakery_cherry_pie.description":"지역 과수원에서 딴 체리로 만든 파이.",
+
+	"bakery_lemon_pie.name":"옛날풍 레몬 파이",
+	"bakery_lemon_pie.description":"레몬 껍질과 레몬 커드로 만든 커스터드 파이",
+
+	"bakery_peach_pie.name":"옛날풍 복숭아 파이",
+	"bakery_peach_pie.description":"지역 과수원에서 딴 복숭아로 만든 파이.",
+
+	"bakery_lime_pie.name":"옛날풍 라임 파이",
+	"bakery_lime_pie.description":"라임 껍질과 라임 커드로 만든 커스터드 파이.",
+
+	"bakery_plum_pie.name":"옛날풍 자두 파이",
+	"bakery_plum_pie.description":"야생 자두로 만든 파이.",
+
+	"bakery_pumpkin_pie.name":"옛날풍 호박 파이",
+	"bakery_pumpkin_pie.description":"갓 수확한 호박으로 만든 파이.",
+
+	"bakery_sweet_potato_pie.name":"옛날풍 고구마 파이",
+	"bakery_sweet_potato_pie.description":"시나몬과 설탕을 넣고 졸인 고구마를 넣은 맛있는 파이.",
+
+	//TARTS
+
+	"bakery_blueberry_tart.name":"소박한 블루베리 타르트",
+	"bakery_blueberry_tart.description":"달콤한 블루베리 필링으로 채운 바삭바삭하고 얇게 벗겨지는 타르트 생지.",
+
+	"bakery_chocolate_hazelnut_tart.name":"초콜릿 헤이즐넛 타르트",
+	"bakery_chocolate_hazelnut_tart.description":"부드러운 초콜릿 헤이즐넛 필링으로 채운 바삭바삭하고 얇게 벗겨지는 타르트 생지.",
+
+	"bakery_lemon_tart.name":"작은 레몬 타르트",
+	"bakery_lemon_tart.description":"달콤하고 부드러운 레몬 필링으로 채운 바삭바삭하고 얇게 벗겨지는 타르트 생지.",
+
+	"bakery_mango_tart.name":"아일랜드 망고 타르트",
+	"bakery_mango_tart.description":"부드러운 망고 커스터드로 채운 바삭바삭하고 얇게 벗겨지는 타르트 생지.",
+
+	"bakery_berry_tart.name":"베리 몽땅 타르트",
+	"bakery_berry_tart.description":"다른 종류의 베리들로 채운 바삭바삭하고 얇게 벗겨지는 타르트 생지.",
+
+	"bakery_fruit_tart.name":"투티 프루티 타르트",
+	"bakery_fruit_tart.description":"무엇이든 당신이 가지고 있는 과일들로 채운 바삭바삭하고 얇게 벗겨지는 타르트 생지!",
+
+	"bakery_peppermint_tart.name":"민트 초코 타르트",
+	"bakery_peppermint_tart.description":"부드러운 민트 초코로 채운 바삭바삭하고 얇게 벗겨지는 타르트 생지.",
+
+	"bakery_pina_colada_tart.name":"피냐 콜라다 타르트",
+	"bakery_pina_colada_tart.description":"부드러운 파인애플 코코넛 커스터드로 채운 바삭바삭하고 얇게 벗겨지는 타르트 생지.",
+
+	"bakery_raspberry_tart.name":"야생 라즈베리 타르트",
+	"bakery_raspberry_tart.description":"달콤한 라즈베리 필링으로 채운 바삭바삭하고 얇게 벗겨지는 타르트 생지.",
+
+	"bakery_summer_tart.name":"여름의 선물 타르트",
+	"bakery_summer_tart.description":"여름 최고의 과일들로 채운 바삭바삭하고 얇게 벗겨지는 타르트 생지.",
+
+	//ECLAIRS
+
+	"bakery_chocolate_eclair.name":"초콜릿 에클레어",
+	"bakery_chocolate_eclair.description":"풍부한 초콜릿 커스터드로 가득 채운 섬세한 페이스트리.",
+
+	"bakery_maple_eclair.name":"메이플 에클레어",
+	"bakery_maple_eclair.description":"풍부한 메이플 커스터드로 가득 채운 섬세한 페이스트리.",
+
+	"bakery_mocha_eclair.name":"모카 에클레어",
+	"bakery_mocha_eclair.description":"풍부한 모카 커스터드로 가득 채운 섬세한 페이스트리.",
+
+	"bakery_pistachio_eclair.name":"초콜릿 피스타치오 에클레어",
+	"bakery_pistachio_eclair.description":"달콤한 피스타치오 커스터드로 가득 채운 섬세한 페이스트리.",
+
+	"bakery_raspberry_eclair.name":"라즈베리 레몬 에클레어",
+	"bakery_raspberry_eclair.description":"새콤달콤한 라즈베리 레몬 커스터드로 가득 채운 섬세한 페이스트리.",
+
+	"bakery_strawberry_eclair.name":"딸기 치즈케이크 에클레어",
+	"bakery_strawberry_eclair.description":"달콤한 딸기와 크림치즈 커스터드로 가득 채운 섬세한 페이스트리.",
+
+	"bakery_vanilla_eclair.name":"바닐라 에클레어",
+	"bakery_vanilla_eclair.description":"풍부한 바닐라 커스터드로 가득 채운 섬세한 페이스트리.",
+
+	//MACARONS
+
+	"bakery_almond_macaron.name":"팬시 아몬드 마카롱",
+	"bakery_almond_macaron.description":"아몬드로 맛을 낸 거부할 수 없는 머랭 쿠키 샌드.",
+
+	"bakery_chocolate_macaron.name":"팬시 초콜릿 헤이즐넛 마카롱",
+	"bakery_chocolate_macaron.description":"초콜릿과 헤이즐넛으로 맛을 낸 거부할 수 없는 머랭 쿠키 샌드.",
+
+	"bakery_lavender_macaron.name":"팬시 라벤더 마카롱",
+	"bakery_lavender_macaron.description":"라벤더와 바닐라로 맛을 낸 거부할 수 없는 머랭 쿠키 샌드.",
+
+	"bakery_lemon_macaron.name":"팬시 레몬 마카롱",
+	"bakery_lemon_macaron.description":"신선한 레몬으로 맛을 낸 거부할 수 없는 머랭 쿠키 샌드.",
+
+	"bakery_lime_macaron.name":"팬시 라임 마카롱",
+	"bakery_lime_macaron.description":"신선한 라임으로 맛을 낸 거부할 수 없는 머랭 쿠키 샌드.",
+
+	"bakery_mint_macaron.name":"팬시 민트 마카롱",
+	"bakery_mint_macaron.description":"신선한 민트로 맛을 낸 거부할 수 없는 머랭 쿠키 샌드.",
+
+	"bakery_pistachio_macaron.name":"팬시 피스타치오 마카롱",
+	"bakery_pistachio_macaron.description":"피스타치오로 맛을 낸 거부할 수 없는 머랭 쿠키 샌드.",
+	
+	"bakery_raspberry_macaron.name":"팬시 라즈베리 마카롱",
+	"bakery_raspberry_macaron.description":"신선한 라즈베리로 맛을 낸 거부할 수 없는 머랭 쿠키 샌드.",
+	
+	"bakery_sakura_macaron.name":"팬시 벚꽃 마카롱",
+	"bakery_sakura_macaron.description":"벚꽃 꽃잎으로 맛을 낸 거부할 수 없는 머랭 쿠키 샌드.",
+	
+	"bakery_strawberry_macaron.name":"팬시 딸기 마카롱",
+	"bakery_strawberry_macaron.description":"신선한 딸기로 맛을 낸 거부할 수 없는 머랭 쿠키 샌드.",
+	
+	//COOKIES
+
+	"bakery_cherry_cookie.name":"체리 잼 썸프린트 쿠키",
+	"bakery_cherry_cookie.description":"체리 잼을 가운데 얹은 버터 쿠키.",
+
+	"bakery_chocolate_chip_cookies.name":"옛날풍 초콜릿 칩 쿠키",
+	"bakery_chocolate_chip_cookies.description":"대표적인 쿠키 종류; 우유 한 잔과 잘 어울립니다.",
+
+	"bakery_chocolate_sandwich_cookie.name":"클래식 초콜릿 샌드 쿠키",
+	"bakery_chocolate_sandwich_cookie.description":"바닐라 크림을 사이에 끼워넣은 초콜릿 쿠키.",
+
+	"bakery_orange_cookie.name":"오렌지 잼 썸프린트 쿠키",
+	"bakery_orange_cookie.description":"오렌지 잼을 가운데 얹은 버터 쿠키.",
+
+	"bakery_strawberry_cookie.name":"딸기 잼 썸프린트 쿠키",
+	"bakery_strawberry_cookie.description":"딸기 잼을 가운데 얹은 버터 쿠키.",
+
+	"bakery_vanilla_sandwich_cookies.name":"클래식 바닐라 샌드 쿠키",
+	"bakery_vanilla_sandwich_cookies.description":"바닐라 크림을 사이에 끼워넣은 바닐라 쿠키.",
+
+	//BROWNIES
+
+	"bakery_cream_cheese_brownies.name":"크림치즈 레이어드 브라우니",
+	"bakery_cream_cheese_brownies.description":"속에 달콤한 크림 치즈 층이 있는 진한 브라우니.",
+
+	"bakery_brownies.name":"전통적인 퍼지 브라우니",
+	"bakery_brownies.description":"어떤 빵집에서든 필수적인 진한 풍미의 초콜릿 바 쿠키.",
+
+	"bakery_mint_brownies.name":"민트 초콜릿 레이어드 브라우니",
+	"bakery_mint_brownies.description":"속에 민트 크림을 바른 진한 브라우니.",
+
+	"bakery_nut_brownies.name":"넛츠 버터 레이어드 브라우니",
+	"bakery_nut_brownies.description":"속에 견과류 버터 필링을 바른 진한 브라우니.",
+
+	//BREADS
+	
+	"bakery_cinnamon_roll.name": "소박한 시나몬 롤",
+	"bakery_cinnamon_roll.description": "시나몬으로 맛을 내고 바닐라 아이싱을 얹은 달콤한 롤 빵.",
+	
+	"bakery_cranberry_bread.name": "소박한 크랜베리 호두빵",
+	"bakery_cranberry_bread.description": "말린 크랜베리와 잘게 썬 호두로 가득 채운 소박한 빵.",
+
+	"bakery_olive_bread.name": "소박한 올리브빵",
+	"bakery_olive_bread.description": "올리브를 잔뜩 넣은 소박한 빵.",
+
+	"bakery_potato_bread.name": "소박한 감자빵",
+	"bakery_potato_bread.description": "감자로 만든 빵; 구운 치즈 샌드위치를 만들기에 풍족하고 완벽한 선택!",
+
+	"bakery_pretzel.name": "소박한 프레첼",
+	"bakery_pretzel.description": "위에 가는 소금을 뿌린 대표적인 프레첼. 머스타드와 함께 먹으면 진정한 맛을 느낄 수 있습니다.",
+
+	"bakery_pumpernickel_bread.name": "소박한 호밀빵",
+	"bakery_pumpernickel_bread.description": "소박하고 살짝 달콤한 호밀빵.",
+
+	"bakery_wheat_bread.name": "소박한 통밀빵",
+	"bakery_wheat_bread.description": "전통적인 빵보다 섬유질이 많은 빵.",
+	
+	"bakery_bread_loaf.name": "소박한 밀빵",
+	"bakery_bread_loaf.description": "샌드위치를 만드는데 사용되는 대표적인 빵.",
+
+	//DOUGHNUTS
+	
+	"bakery_chocolate_doughnut.name": "초콜릿 도넛",
+	"bakery_chocolate_doughnut.description": "초콜릿 가나슈를 얹은 갓 튀긴 도넛.",
+	
+	"bakery_cream_chocolate_doughnut.name": "초콜릿 크림 도넛",
+	"bakery_cream_chocolate_doughnut.description": "바닐라 크림을 채우고 초콜릿 가나슈를 얹은 갓 튀긴 도넛.",
+
+	"bakery_strawberry_doughnut.name": "딸기 도넛",
+	"bakery_strawberry_doughnut.description": "딸기 프로스팅을 얹은 갓 튀긴 도넛.",
+
+	"bakery_cream_strawberry_doughnut.name": "딸기 크림 도넛",
+	"bakery_cream_strawberry_doughnut.description": "바닐라 크림을 채우고 딸기 프로스팅을 얹은 갓 튀긴 도넛.",
+
+	"bakery_vanilla_doughnut.name": "바닐라 도넛",
+	"bakery_vanilla_doughnut.description": "바닐라 프로스팅을 얹은 갓 튀긴 도넛.",
+
+	"bakery_vanilla_jelly_doughnut.name": "바닐라 젤리 도넛",
+	"bakery_vanilla_jelly_doughnut.description": "바닐라 프로스팅을 얹고 과일 젤리를 채운 얹은 갓 튀긴 도넛.",
+
+	//PUDDING
+	
+	"bakery_banana_pudding.name": "바나나 스플릿 푸딩",
+	"bakery_banana_pudding.description": "바나나, 딸기, 초콜릿, 그리고 체리맛이 나는 크리미한 디저트.",
+
+	"bakery_chocolate_raspberry_pudding.name": "초콜릿 라즈베리 푸딩",
+	"bakery_chocolate_raspberry_pudding.description": "초콜릿과 라즈베리 맛이 나는 크리미한 디저트.",
+
+	"bakery_cookies_cream_pudding.name": "쿠앤크 푸딩",
+	"bakery_cookies_cream_pudding.description": "초콜릿 샌드 쿠키 맛이 나는 크리미한 디저트.",
+
+	"bakery_creme_brulee_pudding.name": "크렘 브륄레 푸딩",
+	"bakery_creme_brulee_pudding.description": "캐러멜화된 설탕을 얹은 크리미한 디저트.",
+
+	"bakery_lemon_pudding.name": "레몬 머랭 푸딩",
+	"bakery_lemon_pudding.description": "신선한 레몬 맛이 나는 크리미한 디저트.",
+
+	"bakery_peach_pudding.name": "복숭아 망고 푸딩",
+	"bakery_peach_pudding.description": "복숭아와 망고 맛이 나는 크리미한 디저트.",
+
+	"bakery_pumpkin_maple_pudding.name": "펌킨 메이플 푸딩",
+	"bakery_pumpkin_maple_pudding.description": "호박과 메이플 시럽 맛이 나는 크리미한 디저트.",
+
+	"bakery_sakura_pudding.name": "벚꽃잎 푸딩",
+	"bakery_sakura_pudding.description": "상큼한 벚꽃 향이 나는 크리미한 디저트.",
+
+	"bakery_tiramisu_pudding.name": "티라미수 푸딩",
+	"bakery_tiramisu_pudding.description": "커피와 크림 맛이 나는 크리미한 디저트.",
+
+	"bakery_tropical_pudding.name": "트로피컬 푸딩",
+	"bakery_tropical_pudding.description": "열대 과일 맛이 나는 크리미한 디저트.",
+
+////////////////////
+// SPECIAL ORDERS //
+////////////////////
+
+"bakery_SO_1.name":"컵케이크를 주고 싶어요!",
+"bakery_SO_1.text":"재스의 학교 제과 판매에 컵케이크가 필요한데, 지금 너무 바빠서 손을 쓸 수가 없어요. 도와줄 사람?!",
+"bakery_SO_1a.deliver":"마니에게 바닐라 컵케이크 2개 전달.",
+"bakery_SO_1b.deliver":"마니에게 딸기 컵케이크 2개 전달.",
+"bakery_SO_1c.deliver":"마니에게 초콜릿 컵케이크 2개 전달.",
+"bakery_SO_1.accept":"정말 귀여워! 전부 완벽해. 제과 판매할 때 가장 인기있는 상품일거라고 장담할 수 있어!",
+
+"bakery_SO_2.name":"팝 타르트",
+"bakery_SO_2.text":"마을의 아이들이 진짜로 좋은 디저트를 모르는 것 같아. 난 그 애들이 팝 타르트를 먹는 걸 봤거든. 그 대신 진짜 과일 타르트가 얼마나 맛있는지 알려주고 싶어.",
+"bakery_SO_2a.deliver":"거스의 냉장고에 투티 프루티 타르트 1개를 넣으시오.",
+"bakery_SO_2b.deliver":"거스의 냉장고에 베리 몽땅 타르트 1개를 넣으시오.",
+"bakery_SO_2c.deliver":"거스의 냉장고에 초콜릿 헤이즐넛 타르트 1개를 넣으시오.",
+
+"bakery_SO_3.name":"파티세리 바이브",
+"bakery_SO_3.text":"좋은 책, 차 한 잔, 그리고 사랑스러운 마카롱과 함께하는 휴식을 취하고 싶습니다. 도와줄 사람이 있을까요?",
+"bakery_SO_3a.deliver":"헤일리의 집 부엌에 있는 상자에 레몬 마카롱 3개를 넣으시오.",
+"bakery_SO_3b.deliver":"헤일리의 집 부엌에 있는 상자에 라벤더 마카롱 3개를 넣으시오.",
+"bakery_SO_3c.deliver":"헤일리의 집 부엌에 있는 상자에 딸기 마카롱 3개를 넣으시오.",
+"bakery_SO_3d.deliver":"헤일리의 집 부엌에 있는 상자에 초콜릿 마카롱 3개를 넣으시오.",
+
+"bakery_SO_4.name":"달콤한 티 타임",
+"bakery_SO_4.text":"에블린의 티타임에 초대받았는데, 빈손으로 가기 좀 그렇네요. 가지고 갈 스콘을 나눠줄 사람이 있을까요?",
+"bakery_SO_4a.deliver":"캐롤라인의 집 부엌에 있는 상자에 피스타치오 스콘 3개를 넣으시오.",
+"bakery_SO_4b.deliver":"캐롤라인의 집 부엌에 있는 상자에 라즈베리 바닐라 스콘 3개를 넣으시오.",
+"bakery_SO_4c.deliver":"캐롤라인의 집 부엌에 있는 상자에 블랙베리 스콘 3개를 넣으시오.",
+"bakery_SO_4d.deliver":"캐롤라인의 집 부엌에 있는 상자에 메이플 호박 스콘 3개를 넣으시오.",
+
+"bakery_SO_5.name":"최고의 파티시에 챌린지",
+"bakery_SO_5.text":"올해도 이 시기가 찾아왔습니다 - 최고의 파티시에의 역할을 위한 연례 신청이 시작되었습니다! 대상을 받기 위한 여러분의 베스트셀러를 보내주세요!",
+"bakery_SO_5.ship":"제과류 100개를 배송할 것. (타르트, 에클레어, 스콘, 파이 등)",
+
+
+"bakery_SO_6.name":"조디를 위한 치즈케이크",
+"bakery_SO_6.text":"주말에 열 파티에 쓸 치즈케이크가 필요해요.",
+"bakery_SO_6.deliver":"조디에게 치즈케이크 4개 전달.",
+"bakery_SO_6.accept":"완벽해! 덕분에 시간을 많이 절약할 수 있었어. 거기다 정말 맛있어보인다, 고마워!",
+
+"bakery_SO_7.name":"마법사를 위한 파이",
+"bakery_SO_7.text":"파이가 필요하네. 나한테 필요한 게 아니라, 마법을 위한 연구에 필요한 종류일세. 주니모 정령들이 제일 좋아하는 파이기도 하지...",
+"bakery_SO_7.deliver":"마법사에게 파이 6개 전달.",
+"bakery_SO_7.accept":"이제 주니모들도 날 좀 쉬게 해주겠지. 이 정도로 만족해주면 좋겠어. 고맙네.",
+
+"bakery_SO_8.name":"페니를 위한 머핀",
+"bakery_SO_8.text":"이번 주에 아이들이 모두 공부를 열심히 했어요. 특별한 간식으로 아이들을 놀라게 해주고 싶어요!",
+"bakery_SO_8.deliver":"페니에게 머핀 12개 전달.",
+"bakery_SO_8.accept":"내일 수업 후에 간식으로 먹기 딱 좋겠어요! 정말 고마워요.",
+
+
+
+}

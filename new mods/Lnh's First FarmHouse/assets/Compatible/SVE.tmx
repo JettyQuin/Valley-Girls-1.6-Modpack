@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="1" height="1" tilewidth="16" tileheight="16" infinite="0" nextlayerid="9" nextobjectid="1">
+ <properties>
+  <property name="DayTiles_asdf" value="Buildings 3 1 15 Buildings 3 2 27 Back 3 4 51 Back 3 5 63"/>
+  <property name="NightTiles_asdf" value="Buildings 3 1 144 Buildings 3 2 156 Back 3 4 53 Back 3 5 65"/>
+  <property name="ViewportFollowPlayer" type="bool" value="true"/>
+  <property name="Warp" value="12 30 Farm 64 15 13 30 Farm 64 15 22 1 FarmHouse 34 105 23 1 FarmHouse 35 105 34 106 FarmHouse 22 2 35 106 FarmHouse 23 2 15 69 FarmHouse 26 93 16 69 FarmHouse 26 93 26 92 FarmHouse 15 68 30 33 FarmHouse 34 189 31 33 FarmHouse 35 189 34 188 FarmHouse 30 32 35 188 FarmHouse 31 32 38 156 FarmHouse 43 96 39 156 FarmHouse 43 96"/>
+  <property name="asdf" type="bool" value="false"/>
+ </properties>
+ <tileset firstgid="1" name="untitled tile sheet" tilewidth="16" tileheight="16" tilecount="264" columns="12">
+  <image source="farmhouse_tiles" width="192" height="352"/>
+ </tileset>
+ <layer id="1" name="Back" width="1" height="1">
+  <data encoding="base64" compression="zlib">
+   eJxjYGBgAAAABAAB
+  </data>
+ </layer>
+ <objectgroup id="2" name="Back"/>
+ <layer id="3" name="Buildings" width="1" height="1">
+  <data encoding="base64" compression="zlib">
+   eJyLYGBgAAABZABZ
+  </data>
+ </layer>
+ <objectgroup id="4" name="Buildings"/>
+ <layer id="5" name="Front" width="1" height="1">
+  <data encoding="base64" compression="zlib">
+   eJxjYGBgAAAABAAB
+  </data>
+ </layer>
+ <objectgroup id="6" name="Front"/>
+ <layer id="7" name="AlwaysFront" width="1" height="1">
+  <data encoding="base64" compression="zlib">
+   eJyLYGBgAAABZABZ
+  </data>
+ </layer>
+ <objectgroup id="8" name="AlwaysFront"/>
+</map>

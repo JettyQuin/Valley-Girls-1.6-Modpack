@@ -1,0 +1,33 @@
+{
+  "Changes": [
+
+    {
+      "LogName":"Add Gnome House Furniture",
+      "Action": "EditData",
+      "Target": "Data/Furniture",
+      "Entries": {
+        "HXW.FairyGardenFurni_GnomeHouseAesthete": "HXW_GnomeHouseAesthete/Decor/2 3/2 2/2/5000/2/{{i18n: FairyGardenFurni_GnomeHouseAesthete}}/0/Mods\\HXW.FairyGardenFurniture\\Furniture_GnomeHouses/true/collection_hwfairygardenfurni",
+        "HXW.FairyGardenFurni_GnomeHouseAngelTrumpet": "HXW_GnomeHouseAngelTrumpet/Decor/2 3/2 2/2/5000/2/{{i18n: FairyGardenFurni_GnomeHouseAngelTrumpet}}/4/Mods\\HXW.FairyGardenFurniture\\Furniture_GnomeHouses/true/collection_hwfairygardenfurni",
+        "HXW.FairyGardenFurni_GnomeHouseArtsy": "HXW_GnomeHouseArtsy/Decor/2 3/2 2/2/5000/2/{{i18n: FairyGardenFurni_GnomeHouseArtsy}}/8/Mods\\HXW.FairyGardenFurniture\\Furniture_GnomeHouses/true/collection_hwfairygardenfurni",
+        "HXW.FairyGardenFurni_GnomeHouseBelladonna": "HXW_GnomeHouseBelladonna/Decor/2 3/2 2/2/5000/2/{{i18n: FairyGardenFurni_GnomeHouseBelladonna}}/12/Mods\\HXW.FairyGardenFurniture\\Furniture_GnomeHouses/true/collection_hwfairygardenfurni",
+        "HXW.FairyGardenFurni_GnomeHouseDainty": "HXW_GnomeHouseDainty/Decor/3 3/3 2/2/5000/2/{{i18n: FairyGardenFurni_GnomeHouseDainty}}/48/Mods\\HXW.FairyGardenFurniture\\Furniture_GnomeHouses/true/collection_hwfairygardenfurni",
+        "HXW.FairyGardenFurni_GnomeHouseDroopy": "HXW_GnomeHouseDroopy/Decor/2 3/2 2/2/5000/2/{{i18n: FairyGardenFurni_GnomeHouseDroopy}}/56/Mods\\HXW.FairyGardenFurniture\\Furniture_GnomeHouses/true/collection_hwfairygardenfurni",
+        "HXW.FairyGardenFurni_GnomeHouseDuplex": "HXW_GnomeHouseDuplex/Decor/2 3/2 2/2/5000/2/{{i18n: FairyGardenFurni_GnomeHouseDuplex}}/60/Mods\\HXW.FairyGardenFurniture\\Furniture_GnomeHouses/true/collection_hwfairygardenfurni",
+        "HXW.FairyGardenFurni_GnomeHouseFancy": "HXW_GnomeHouseFancy/Decor/2 3/2 2/2/5000/2/{{i18n: FairyGardenFurni_GnomeHouseFancy}}/96/Mods\\HXW.FairyGardenFurniture\\Furniture_GnomeHouses/true/collection_hwfairygardenfurni",
+        "HXW.FairyGardenFurni_GnomeHouseFlowering": "HXW_GnomeHouseFlowering/Decor/2 3/2 2/2/5000/2/{{i18n: FairyGardenFurni_GnomeHouseFlowering}}/100/Mods\\HXW.FairyGardenFurniture\\Furniture_GnomeHouses/true/collection_hwfairygardenfurni",
+        "HXW.FairyGardenFurni_GnomeHouseLeafy": "HXW_GnomeHouseLeafy/Decor/2 3/2 2/2/5000/2/{{i18n: FairyGardenFurni_GnomeHouseLeafy}}/104/Mods\\HXW.FairyGardenFurniture\\Furniture_GnomeHouses/true/collection_hwfairygardenfurni",
+      
+        "HXW.FairyGardenFurni_GnomeHouseLively": "HXW_GnomeHouseLively/Decor/2 3/2 2/2/5000/2/{{i18n: FairyGardenFurni_GnomeHouseLively}}/108/Mods\\HXW.FairyGardenFurniture\\Furniture_GnomeHouses/true/collection_hwfairygardenfurni",
+        "HXW.FairyGardenFurni_GnomeHouseMinacious": "HXW_GnomeHouseMinacious/Decor/2 3/2 2/2/5000/2/{{i18n: FairyGardenFurni_GnomeHouseMinacious}}/144/Mods\\HXW.FairyGardenFurniture\\Furniture_GnomeHouses/true/collection_hwfairygardenfurni",
+        "HXW.FairyGardenFurni_GnomeHouseOldStump": "HXW_GnomeHouseOldStump/Decor/2 3/2 2/2/5000/2/{{i18n: FairyGardenFurni_GnomeHouseOldStump}}/148/Mods\\HXW.FairyGardenFurniture\\Furniture_GnomeHouses/true/collection_hwfairygardenfurni",
+        "HXW.FairyGardenFurni_GnomeHouseQuaint": "HXW_GnomeHouseQuaint/Decor/2 3/2 2/2/5000/2/{{i18n: FairyGardenFurni_GnomeHouseQuaint}}/152/Mods\\HXW.FairyGardenFurniture\\Furniture_GnomeHouses/true/collection_hwfairygardenfurni",
+        "HXW.FairyGardenFurni_GnomeHouseSimple": "HXW_GnomeHouseSimple/Decor/2 3/2 2/2/5000/2/{{i18n: FairyGardenFurni_GnomeHouseSimple}}/156/Mods\\HXW.FairyGardenFurniture\\Furniture_GnomeHouses/true/collection_hwfairygardenfurni",
+        "HXW.FairyGardenFurni_GnomeHouseSweet": "HXW_GnomeHouseSweet/Decor/3 3/3 2/2/5000/2/{{i18n: FairyGardenFurni_GnomeHouseSweet}}/192/Mods\\HXW.FairyGardenFurniture\\Furniture_GnomeHouses/true/collection_hwfairygardenfurni",
+        "HXW.FairyGardenFurni_GnomeHouseTall": "HXW_GnomeHouseTall/Decor/2 3/2 2/2/5000/2/{{i18n: FairyGardenFurni_GnomeHouseTall}}/200/Mods\\HXW.FairyGardenFurniture\\Furniture_GnomeHouses/true/collection_hwfairygardenfurni",
+        "HXW.FairyGardenFurni_GnomeHouseWateringCan": "HXW_GnomeHouseWateringCan/Decor/3 3/3 2/2/5000/2/{{i18n: FairyGardenFurni_GnomeHouseWateringCan}}/240/Mods\\HXW.FairyGardenFurniture\\Furniture_GnomeHouses/true/collection_hwfairygardenfurni"
+      
+      }
+    }
+
+  ]
+}

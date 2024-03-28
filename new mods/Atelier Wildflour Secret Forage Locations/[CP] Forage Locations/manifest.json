@@ -1,0 +1,14 @@
+{
+  "Name": "Atelier Wildflour - Secret Forage Maps",
+  "Author": "wildflourmods",
+  "Version": "2.0",
+  "Description": "Discoverable secret foraging locations all over Stardew Valley",
+  "UniqueID": "wildflour.foragelocations",
+  "UpdateKeys": ["nexus:17231"],
+  "MinimumApiVersion": "4.0.0-alpha",
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  },
+  "Dependencies": [{"UniqueID": "wildflour.ateliercrops", "IsRequired": true}]
+  
+}

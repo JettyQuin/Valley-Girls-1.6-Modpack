@@ -1,0 +1,440 @@
+{
+	//////////////
+	// MACHINES //
+	//////////////
+	
+	"gourmetpantry_KitchenBlender.name": "厨房调理机",
+	"gourmetpantry_KitchenBlender.description": "将坚果搅拌成植物奶、植物奶搅拌成黄油的厨房用具，还有更多用途！",
+
+	"gourmetpantry_KitchenMortar.name": "厨房研磨臼",
+	"gourmetpantry_KitchenMortar.description": "将作物研磨成粉类和调味料的厨房用具。",
+
+	"gourmetpantry_YogurtBowl.name": "优格碗",
+	"gourmetpantry_YogurtBowl.description": "可以做出滑顺的调味优格。",
+
+	"gourmetpantry_SyrupMaker.name": "蒸馏台",
+	"gourmetpantry_SyrupMaker.description": "用于蒸馏调味糖浆与液体混合物。",
+
+	///////////////////////////
+	// MACHINE NOTIFICATIONS //
+	///////////////////////////
+
+	"gourmetpantry_KitchenBlender_InvalidItem.message": "无法制作",
+	"gourmetpantry_KitchenBlender_InvalidCount.message": "需要印度丽蘑",
+
+	"gourmetpantry_KitchenMortar_InvalidItem.message": "无法制作",
+	"gourmetpantry_KitchenMortar_InvalidCount.message": "需要更多食材",
+
+	"gourmetpantry_YogurtBowl_InvalidItem.message": "无法制作",
+	"gourmetpantry_YogurtBowl_InvalidCount.message": "需要印度丽蘑",
+
+	"gourmetpantry_SyrupMaker_InvalidItem.message": "无法制作",
+	"gourmetpantry_SyrupMaker_InvalidCount.message": "需要更多食材",
+
+
+	/////////////////////////
+	// NUT & FRUIT BUTTERS //
+	/////////////////////////
+
+    "gourmetpantry_almond_butter.name": "杏仁黄油酱",
+	"gourmetpantry_almond_butter.description": "由杏仁制成的黄油状抹酱，非常适合烘焙或是抹在吐司上等等！",
+	
+	"gourmetpantry_cashew_butter.name": "腰果黄油酱",
+	"gourmetpantry_cashew_butter.description": "由腰果制成的黄油状抹酱，非常适合烘焙或是抹在吐司上等等！",
+	
+	"gourmetpantry_coconut_butter.name": "椰子黄油酱",
+	"gourmetpantry_coconut_butter.description": "用椰子脂肪制成的黄油替代品，制作无奶制品点心的完美选择！",
+
+	"gourmetpantry_apple_butter.name": "苹果黄油酱",
+	"gourmetpantry_apple_butter.description": "依农民的秘传家庭食谱制成——温暖甜蜜，抹在早餐吐司或是玛芬上的完美选择。",
+	
+	"gourmetpantry_honey_butter.name": "蜂蜜黄油酱",
+	"gourmetpantry_honey_butter.description": "依农民的秘传家庭食谱制成，还有一些可爱的大黄蜂帮忙哦。",
+	
+	"gourmetpantry_maple_butter.name": "枫糖黄油酱",
+	"gourmetpantry_maple_butter.description": "依农民的秘传家庭食谱制成，还有加入在地枫糖浆。",
+	
+	"gourmetpantry_pumpkin_butter.name": "南瓜黄油酱",
+	"gourmetpantry_pumpkin_butter.description": "依农民的秘传家庭食谱制成——对南瓜香料爱好者，例如我们所有人来说是个完美选择。",
+	
+	"gourmetpantry_lemon_curd.name": "柠檬凝乳",
+	"gourmetpantry_lemon_curd.description": "这香浓的奶油质地都要归功于快乐母鸡们生下的高质量蛋黄。",
+	
+	"gourmetpantry_lime_curd.name": "莱姆凝乳",
+	"gourmetpantry_lime_curd.description": "这香浓的奶油质地都要归功于快乐母鸡们生下的高质量蛋黄。",
+
+	"gourmetpantry_orange_curd.name": "橙子凝乳",
+	"gourmetpantry_orange_curd.description": "这香浓的奶油质地都要归功于快乐母鸡们生下的高质量蛋黄。",
+	
+	"gourmetpantry_hazelnut_butter.name": "榛子黄油酱",
+	"gourmetpantry_hazelnut_butter.description": "由榛子制成的黄油状抹酱，非常适合烘焙或是抹在吐司上等等！",
+	
+	"gourmetpantry_pistachio_butter.name": "开心果黄油酱",
+	"gourmetpantry_pistachio_butter.description": "由开心果制成的黄油状抹酱，非常适合烘焙或是抹在吐司上等等！",
+	
+	"gourmetpantry_walnut_butter.name": "核桃黄油酱",
+	"gourmetpantry_walnut_butter.description": "由核桃制成的黄油状抹酱，非常适合烘焙或是抹在吐司上等等！",
+	
+	///////////
+	// MILKS //
+	///////////
+
+	"gourmetpantry_almond_milk.name": "杏仁奶",
+	"gourmetpantry_almond_milk.description": "由杏仁制成的替代奶，在烘焙、做冰沙等等的过程中是绝佳的奶制品替代品！",
+	
+	"gourmetpantry_cashew_milk.name": "腰果奶",
+	"gourmetpantry_cashew_milk.description": "由腰果制成的替代奶，在烘焙、做冰沙等等的过程中是绝佳的奶制品替代品！",
+	
+	"gourmetpantry_coconut_milk.name": "椰奶",
+	"gourmetpantry_coconut_milk.description": "由椰子制成的替代奶，在烘焙、做冰沙等等的过程中是绝佳的奶制品替代品！",
+	
+	"gourmetpantry_hazelnut_milk.name": "榛子奶",
+	"gourmetpantry_hazelnut_milk.description": "由榛子制成的替代奶，在烘焙、做冰沙等等的过程中是绝佳的奶制品替代品！",
+
+	"gourmetpantry_pistachio_milk.name": "开心果奶",
+	"gourmetpantry_pistachio_milk.description": "由开心果制成的替代奶，在烘焙、做冰沙等等的过程中是绝佳的奶制品替代品！",
+
+	"gourmetpantry_rice_milk.name": "米浆",
+	"gourmetpantry_rice_milk.description": "由米制成的替代奶，在烘焙、做冰沙等等的过程中是绝佳的奶制品替代品！",
+
+	///////////////
+	// CHOCOLATE //
+	///////////////
+
+	"gourmetpantry_bittersweet_chocolate.name": "苦甜巧克力",
+	"gourmetpantry_bittersweet_chocolate.description": "用来制作甜点和零食的黑巧克力棒。",
+	
+	"gourmetpantry_chocolate_chips.name": "巧克力碎片",
+	"gourmetpantry_chocolate_chips.description": "也被称为巧克力豆，对喜欢烤饼干的人来说这无庸置疑是必需品。",
+	
+    "gourmetpantry_semisweet_chocolate.name": "半甜巧克力",
+	"gourmetpantry_semisweet_chocolate.description": "用来制作甜点和零食的微甜巧克力棒。",
+
+	"gourmetpantry_white_chocolate.name": "白巧克力",
+	"gourmetpantry_white_chocolate.description": "用来制作甜点和零食的白巧克力棒。",
+
+	/////////////////
+	// INGREDIENTS //
+	/////////////////
+
+	"gourmetpantry_vanilla_extract.name": "香草精",
+	"gourmetpantry_vanilla_extract.description": "提炼自觅食来的香草荚。可以在烘焙甜点时使用！",
+	
+	"gourmetpantry_confectioners_sugar.name": "糖粉",
+	"gourmetpantry_confectioners_sugar.description": "加了一点玉米淀粉防止结块的经研磨细砂糖粉，常用来撒在烘焙食品的顶部。",
+
+	"gourmetpantry_espresso_powder.name": "浓缩咖啡粉",
+	"gourmetpantry_espresso_powder.description": "浓郁的咖啡味是巧克力烘焙食品的最佳拍档。",
+
+	"gourmetpantry_pectin.name": "果胶",
+	"gourmetpantry_pectin.description": "由水果制成的凝胶剂；保存果酱的必需品。",
+	
+	"gourmetpantry_rainbow_sprinkles.name": "彩针糖",
+	"gourmetpantry_rainbow_sprinkles.description": "就是彩色巧克力米；不管你怎么叫，又甜又缤纷的它们不管撒在什么东西上都很完美！",
+
+	"gourmetpantry_brown_sugar.name": "黑糖",
+	"gourmetpantry_brown_sugar.description": "在制程中没将所有糖蜜去除的糖，会产生更浓郁、自然的风味，适合用来做玛芬以及某些蛋糕。",
+	
+	"gourmetpantry_cocoa_powder.name": "可可粉",
+	"gourmetpantry_cocoa_powder.description": "已经被干燥并磨成粉以制作烘焙食品的可可。",
+	
+	"gourmetpantry_olive_oil.name": "橄榄油",
+	"gourmetpantry_olive_oil.description": "冷压代表这是一种用来制作沙拉或是炒新鲜蔬菜用的优质橄榄油！",
+	
+
+	///////////
+	// DAIRY //
+	///////////
+
+	"gourmetpantry_butter.name": "黄油",
+	"gourmetpantry_butter.description": "用手将鲜奶搅成的美味黄油。",
+
+	"gourmetpantry_buttermilk.name": "酪乳",
+	"gourmetpantry_buttermilk.description": "虽然不是很好闻，但这种食材有助于制作柔软的玉米面包以及蓬松的松饼。",
+
+	"gourmetpantry_cream.name": "奶油",
+	"gourmetpantry_cream.description": "由在地奶牛的牛奶制成，制作某些糕点和打出柔软蓬松的糖霜需要这种奶油！",
+
+	"gourmetpantry_cream_cheese.name": "奶油奶酪",
+	"gourmetpantry_cream_cheese.description": "由在地奶牛的牛奶制成，这种奶油奶酪不管是制作芝士蛋糕还是单纯涂在贝果上都很合。",
+
+	////////////
+	// YOGURT //
+	////////////
+
+	"gourmetpantry_plain_yogurt.name": "原味优格",
+	"gourmetpantry_plain_yogurt.description": "由在地奶牛的牛奶制成，这种优格充满益生菌！",
+    
+	"gourmetpantry_ambrosia_yogurt.name": "圣芳优格",
+	"gourmetpantry_ambrosia_yogurt.description": "由在地奶牛的牛奶制成，这种优格充满益生菌！",
+    
+	"gourmetpantry_ancient_yogurt.name": "上古优格",
+	"gourmetpantry_ancient_yogurt.description": "由在地奶牛的牛奶制成，这种优格充满益生菌！",
+    
+	"gourmetpantry_apple_yogurt.name": "苹果优格",
+	"gourmetpantry_apple_yogurt.description": "由在地奶牛的牛奶制成，这种优格充满益生菌！",
+    
+	"gourmetpantry_apricot_yogurt.name": "杏子优格",
+	"gourmetpantry_apricot_yogurt.description": "由在地奶牛的牛奶制成，这种优格充满益生菌！",
+    
+	"gourmetpantry_banana_yogurt.name": "香蕉优格",
+	"gourmetpantry_banana_yogurt.description": "由在地奶牛的牛奶制成，这种优格充满益生菌！",
+    
+	"gourmetpantry_blood_orange_yogurt.name": "血橙优格",
+	"gourmetpantry_blood_orange_yogurt.description": "由在地奶牛的牛奶制成，这种优格充满益生菌！",
+    
+	"gourmetpantry_blueberry_yogurt.name": "蓝莓优格",
+	"gourmetpantry_blueberry_yogurt.description": "由在地奶牛的牛奶制成，这种优格充满益生菌！",
+    
+	"gourmetpantry_chocolate_yogurt.name": "巧克力优格",
+	"gourmetpantry_chocolate_yogurt.description": "由在地奶牛的牛奶制成，这种优格充满益生菌！",
+    
+	"gourmetpantry_cheesecake_yogurt.name": "芝士蛋糕优格",
+	"gourmetpantry_cheesecake_yogurt.description": "由在地奶牛的牛奶制成，这种优格充满益生菌！",
+    
+	"gourmetpantry_vanilla_yogurt.name": "香草优格",
+	"gourmetpantry_vanilla_yogurt.description": "由在地奶牛的牛奶制成，这种优格充满益生菌！",
+    
+	"gourmetpantry_caramel_yogurt.name": "焦糖优格",
+	"gourmetpantry_caramel_yogurt.description": "由在地奶牛的牛奶制成，这种优格充满益生菌！",
+    
+	"gourmetpantry_cherry_yogurt.name": "樱桃优格",
+	"gourmetpantry_cherry_yogurt.description": "由在地奶牛的牛奶制成，这种优格充满益生菌！",
+    
+	"gourmetpantry_coconut_yogurt.name": "椰香优格",
+	"gourmetpantry_coconut_yogurt.description": "由在地奶牛的牛奶制成，这种优格充满益生菌！",
+    
+	"gourmetpantry_coffee_yogurt.name": "咖啡优格",
+	"gourmetpantry_coffee_yogurt.description": "由在地奶牛的牛奶制成，这种优格充满益生菌！",
+    
+	"gourmetpantry_creamsicle_yogurt.name": "奶油冰棍优格",
+	"gourmetpantry_creamsicle_yogurt.description": "由在地奶牛的牛奶制成，这种优格充满益生菌！",
+    
+	"gourmetpantry_custard_yogurt.name": "卡士达优格",
+	"gourmetpantry_custard_yogurt.description": "由在地奶牛的牛奶制成，这种优格充满益生菌！",
+    
+	"gourmetpantry_eversweet_yogurt.name": "永甜优格",
+	"gourmetpantry_eversweet_yogurt.description": "由在地奶牛的牛奶制成，这种优格充满益生菌！",
+    
+	"gourmetpantry_candy_yogurt.name": "糖果优格",
+	"gourmetpantry_candy_yogurt.description": "由在地奶牛的牛奶制成，这种优格充满益生菌！",
+    
+	"gourmetpantry_tiramisu_yogurt.name": "提拉米苏优格",
+	"gourmetpantry_tiramisu_yogurt.description": "由在地奶牛的牛奶制成，这种优格充满益生菌！",
+    
+	"gourmetpantry_macaron_yogurt.name": "马卡龙优格",
+	"gourmetpantry_macaron_yogurt.description": "由在地奶牛的牛奶制成，这种优格充满益生菌！",
+    
+	"gourmetpantry_mango_yogurt.name": "芒果优格",
+	"gourmetpantry_mango_yogurt.description": "由在地奶牛的牛奶制成，这种优格充满益生菌！",
+    
+	"gourmetpantry_melon_yogurt.name": "甜瓜优格",
+	"gourmetpantry_melon_yogurt.description": "由在地奶牛的牛奶制成，这种优格充满益生菌！",
+    
+	"gourmetpantry_galaxy_yogurt.name": "银河优格",
+	"gourmetpantry_galaxy_yogurt.description": "由在地奶牛的牛奶制成，这种优格充满益生菌！",
+    
+	"gourmetpantry_moongold_yogurt.name": "月金优格",
+	"gourmetpantry_moongold_yogurt.description": "由在地奶牛的牛奶制成，这种优格充满益生菌！",
+    
+	"gourmetpantry_orange_yogurt.name": "橙子优格",
+	"gourmetpantry_orange_yogurt.description": "由在地奶牛的牛奶制成，这种优格充满益生菌！",
+    
+	"gourmetpantry_peach_yogurt.name": "蜜桃优格",
+	"gourmetpantry_peach_yogurt.description": "由在地奶牛的牛奶制成，这种优格充满益生菌！",
+    
+	"gourmetpantry_mint_yogurt.name": "薄荷优格",
+	"gourmetpantry_mint_yogurt.description": "由在地奶牛的牛奶制成，这种优格充满益生菌！",
+    
+	"gourmetpantry_lemon_yogurt.name": "柠檬优格",
+	"gourmetpantry_lemon_yogurt.description": "由在地奶牛的牛奶制成，这种优格充满益生菌！",
+    
+	"gourmetpantry_lime_yogurt.name": "莱姆优格",
+	"gourmetpantry_lime_yogurt.description": "由在地奶牛的牛奶制成，这种优格充满益生菌！",
+    
+	"gourmetpantry_pie_yogurt.name": "派优格",
+	"gourmetpantry_pie_yogurt.description": "由在地奶牛的牛奶制成，这种优格充满益生菌！",
+    
+	"gourmetpantry_pineapple_yogurt.name": "菠萝优格",
+	"gourmetpantry_pineapple_yogurt.description": "由在地奶牛的牛奶制成，这种优格充满益生菌！",
+    
+	"gourmetpantry_pomegranate_yogurt.name": "石榴优格",
+	"gourmetpantry_pomegranate_yogurt.description": "由在地奶牛的牛奶制成，这种优格充满益生菌！",
+    
+	"gourmetpantry_pumpkin_yogurt.name": "南瓜优格",
+	"gourmetpantry_pumpkin_yogurt.description": "由在地奶牛的牛奶制成，这种优格充满益生菌！",
+    
+	"gourmetpantry_shortcake_yogurt.name": "奶油蛋糕优格",
+	"gourmetpantry_shortcake_yogurt.description": "由在地奶牛的牛奶制成，这种优格充满益生菌！",
+    
+	"gourmetpantry_snow_yogurt.name": "雪优格",
+	"gourmetpantry_snow_yogurt.description": "由在地奶牛的牛奶制成，这种优格充满益生菌！",
+    
+	"gourmetpantry_sprinkle_yogurt.name": "亮片优格",
+	"gourmetpantry_sprinkle_yogurt.description": "由在地奶牛的牛奶制成，这种优格充满益生菌！",
+    
+	"gourmetpantry_starfruit_yogurt.name": "杨桃优格",
+	"gourmetpantry_starfruit_yogurt.description": "由在地奶牛的牛奶制成，这种优格充满益生菌！",
+    
+	"gourmetpantry_sugar_yogurt.name": "砂糖优格",
+	"gourmetpantry_sugar_yogurt.description": "由在地奶牛的牛奶制成，这种优格充满益生菌！",
+    
+	"gourmetpantry_sunset_yogurt.name": "余晖芒果优格",
+	"gourmetpantry_sunset_yogurt.description": "由在地奶牛的牛奶制成，这种优格充满益生菌！",
+    
+	"gourmetpantry_gem_yogurt.name": "宝石甜莓优格",
+	"gourmetpantry_gem_yogurt.description": "由在地奶牛的牛奶制成，这种优格充满益生菌！",
+    
+	"gourmetpantry_raspberry_yogurt.name": "野生覆盆莓优格",
+	"gourmetpantry_raspberry_yogurt.description": "由在地奶牛的牛奶制成，这种优格充满益生菌！",
+    
+	"gourmetpantry_strawberry_yogurt.name": "野生草莓优格",
+	"gourmetpantry_strawberry_yogurt.description": "由在地奶牛的牛奶制成，这种优格充满益生菌！",
+    
+	////////////
+	// SYRUPS //
+	////////////
+
+	"gourmetpantry_ancient_syrup.name": "上古糖浆",
+	"gourmetpantry_ancient_syrup.description": "上古水果味的简易糖浆。适合制作特调饮品与美食佳肴！",
+    
+	"gourmetpantry_apple_syrup.name": "苹果糖浆",
+	"gourmetpantry_apple_syrup.description": "苹果味的简易糖浆。适合制作特调饮品与美食佳肴！",
+    
+	"gourmetpantry_apricot_syrup.name": "杏子糖浆",
+	"gourmetpantry_apricot_syrup.description": "杏子味的简易糖浆。适合制作特调饮品与美食佳肴！",
+    
+	"gourmetpantry_banana_syrup.name": "香蕉糖浆",
+	"gourmetpantry_banana_syrup.description": "香蕉味的简易糖浆。适合制作特调饮品与美食佳肴！",
+    
+	"gourmetpantry_cherry_syrup.name": "樱桃糖浆",
+	"gourmetpantry_cherry_syrup.description": "樱桃味的简易糖浆。适合制作特调饮品与美食佳肴！",
+    
+	"gourmetpantry_grenadine_syrup.name": "红石榴糖浆",
+	"gourmetpantry_grenadine_syrup.description": "石榴味的简易糖浆。适合制作特调饮品与美食佳肴！",
+    
+	"gourmetpantry_mango_syrup.name": "芒果糖浆",
+	"gourmetpantry_mango_syrup.description": "芒果味的简易糖浆。适合制作特调饮品与美食佳肴！",
+    
+	"gourmetpantry_orange_syrup.name": "橙子糖浆",
+	"gourmetpantry_orange_syrup.description": "橙子味的简易糖浆。适合制作特调饮品与美食佳肴！",
+    
+	"gourmetpantry_peach_syrup.name": "蜜桃糖浆",
+	"gourmetpantry_peach_syrup.description": "桃子味的简易糖浆。适合制作特调饮品与美食佳肴！",
+    
+	"gourmetpantry_gem_syrup.name": "宝石糖浆",
+	"gourmetpantry_gem_syrup.description": "宝石甜莓味的简易糖浆。适合制作特调饮品与美食佳肴！",
+    
+	"gourmetpantry_raspberry_syrup.name": "覆盆莓糖浆",
+	"gourmetpantry_raspberry_syrup.description": "野生覆盆莓味的简易糖浆。适合制作特调饮品与美食佳肴！",
+    
+	"gourmetpantry_wild_strawberry_syrup.name": "野生草莓糖浆",
+	"gourmetpantry_wild_strawberry_syrup.description": "野生草莓味的简易糖浆。适合制作特调饮品与美食佳肴！",
+    
+	////////////
+	// FLOURS //
+	////////////
+
+	"gourmetpantry_almond_flour.name": "杏仁粉",
+	"gourmetpantry_almond_flour.description": "把杏仁磨碎制成的手工粉末。是马卡龙的必备原料，但也很适合用于无麸质烘焙！",
+	
+	"gourmetpantry_bread_flour.name": "面包粉",
+	"gourmetpantry_bread_flour.description": "用更营养的小麦制成的手工粉末。较高的蛋白质含量使其适合用在大部分的面包面团上。",
+	
+	"gourmetpantry_cake_flour.name": "蛋糕粉",
+	"gourmetpantry_cake_flour.description": "用来制作蛋糕的手工粉末。较低的蛋白质含量会让你的蛋糕更松软，并具有令人愉快的柔软蛋糕屑。",
+
+	"gourmetpantry_coconut_flour.name": "椰子粉",
+	"gourmetpantry_coconut_flour.description": "把椰子磨碎制成的手工粉末。用于制作一些特定的面食，但也很适合用在无麸质烘焙！",
+	
+	"gourmetpantry_corn_flour.name": "玉米粉",
+	"gourmetpantry_corn_flour.description": "把玉米磨碎制成的手工粉末。是墨西哥粽或玉米面包等佳肴的必备原料。",
+	
+	"gourmetpantry_pastry_flour.name": "糕粉",
+	"gourmetpantry_pastry_flour.description": "用来制作糕点的手工粉末。像蛋糕粉一样有着较低的蛋白质含量，是许多派跟糕饼必备的食材。",
+	
+	"gourmetpantry_rice_flour.name": "米谷粉",
+	"gourmetpantry_rice_flour.description": "把米磨碎制成的手工粉末。是饺子或团子的必备原料，但也很适合用于无麸质烘焙！",
+	
+
+//////////
+// MAIL //
+//////////
+
+	"gourmetpantry_MortarRecipe.name":"家庭用厨房研磨臼！",
+    "gourmetpantry_MortarRecipe.text":"@，^^如果你自己制作像这样的厨房研磨臼，就能自制特殊粉类与砂糖了！它们很适合用于烘焙，不过我也会出不错的价格向你收购，如果能增加商店的库存会很棒！^^皮耶尔",
+    
+	"gourmetpantry_BlenderRecipe.name":"调理时间到！",
+	"gourmetpantry_BlenderRecipe.text":"@，^^自从人们开始要我用非乳品奶类泡咖啡后我就投资这种调理机了。进口那些原料的成本太高，所以我现在都自己做，你也该试试看。我觉得这也能用在其他食材，就看看你能做出什么来吧！^^格斯",
+    
+	"gourmetpantry_harvey.name":"婉拒花生！",
+	"gourmetpantry_harvey.text":"@，^^我有个病人对花生过敏，他的妈妈跟我说坚果黄油酱的做法。我一开始还抱有疑心，不过我现在超推杏仁黄油酱！我赌你可以用这个做出开心果黄油酱。^^哈维",
+    
+	"gourmetpantry_jodi.name":"终于使用非乳品",
+	"gourmetpantry_jodi.text":"@，^^别跟别人说哦，我总觉得山姆有乳糖不耐症。我偷偷改用非乳品奶类而他没有发现，不过我真的有换……^^乔迪",
+    
+	"gourmetpantry_marnie.name":"来自牛的礼物",
+	"gourmetpantry_marnie.text":"@，^^所以格斯跟你分享食物调理机的蓝图？太棒了！你可以用它制作很多特别的奶制品。这壶用我家奶牛的奶制作的新鲜奶油应该有助于你起步。^^玛妮",
+	
+
+////////////////////
+// SPECIAL ORDERS //
+////////////////////
+
+	"gourmetpantry_SO_1.name":"无可奶何",
+	"gourmetpantry_SO_1.text":"卡洛琳现在整天都在烘焙，我想给她能搭配的食材。",
+	"gourmetpantry_SO_1a.deliver":"带给皮耶尔 1 罐柠檬凝乳。",
+	"gourmetpantry_SO_1b.deliver":"带给皮耶尔 1 罐南瓜黄油酱。",
+	"gourmetpantry_SO_1c.deliver":"带给皮耶尔 1 罐蜂蜜黄油酱。",
+	"gourmetpantry_SO_1d.deliver":"带给皮耶尔 1 罐莱姆凝乳。",
+	"gourmetpantry_SO_1.accept":"这会让她的蛋糕跟比斯吉很完美！我等不及用这些给她惊喜了。",
+
+	"gourmetpantry_SO_2.name":"浓、纯、香！",
+	"gourmetpantry_SO_2.text":"我遇到很多乳糖不耐症的病人，但我不太懂替代奶。有人能带给我几种让我亲自喝看看吗？",
+	"gourmetpantry_SO_2a.deliver":"把 2 瓶杏仁奶放进哈维诊所里的箱子。",
+	"gourmetpantry_SO_2b.deliver":"把 2 瓶米浆放进哈维诊所里的箱子。",
+	"gourmetpantry_SO_2c.deliver":"把 2 瓶椰奶放进哈维诊所里的箱子。",
+	"gourmetpantry_SO_2d.deliver":"把 2 瓶榛子奶放进哈维诊所里的箱子。",
+
+	"gourmetpantry_SO_3.name":"需要全新蛋白质！",
+	"gourmetpantry_SO_3.text":"我听说坚果是很好的蛋白质来源，尤其是加进冰沙里！我想在早餐的蛋白质奶昔中尝试几种不同的坚果。",
+	"gourmetpantry_SO_3.deliver": "把 10 罐坚果黄油酱放进亚历克斯家里的箱子。",
+
+	"gourmetpantry_SO_4.name":"引起粉乱",
+	"gourmetpantry_SO_4.text":"艾芙琳常常烘焙导致我们的面粉总是不够！或许她会乐意用不同的粉烘焙？",
+	"gourmetpantry_SO_4.deliver":"把 10 包特制粉类放进乔治家里的箱子。",
+
+	"gourmetpantry_SO_5.name":"加工大师挑战",
+	"gourmetpantry_SO_5.text":"又到了每年的这个时候——我们已经开放申请年度加工大师了！把你最高级的食材寄给我们，看你能不能赢得大奖！",
+	"gourmetpantry_SO_5.ship":"出货 100 个金星质量的加工食材。",
+
+	"gourmetpantry_SO_6.name":"给艾芙琳的香草精",
+	"gourmetpantry_SO_6.text":"我的香草精用完了！没有它我没办法烘焙……",
+	"gourmetpantry_SO_6.deliver":"带给艾芙琳 3 瓶香草精。",
+	"gourmetpantry_SO_6.accept":"你能想象饼干没有加香草吗？那绝对不可以。谢谢你带给我这些香草精，甜心。",
+
+	"gourmetpantry_SO_7.name":"给阿比盖尔的橄榄油",
+	"gourmetpantry_SO_7.text":"我想试一些全新的烹饪食谱，但我需要橄榄油。有人能帮忙吗？",
+	"gourmetpantry_SO_7.deliver":"带给阿比盖尔 5 瓶橄榄油。",
+	"gourmetpantry_SO_7.accept":"谢谢你！我在食谱读到做佛卡夏需要大量橄榄油，这能帮我省下许多时间跟精力。",
+
+	"gourmetpantry_SO_8.name":"给格斯的巧克力",
+	"gourmetpantry_SO_8.text":"我的巧克力供应商在最后一分钟跑单了！有人能给我需要的食材吗？",
+	"gourmetpantry_SO_8.deliver":"带给格斯 9 个烘焙用巧克力。",
+	"gourmetpantry_SO_8.accept":"酒吧菜单没有我的特制巧克力蛋糕就不一样了！你真的帮了我一个大忙；谢谢你。",
+
+//PANTRY REWARDS MAIL
+	
+	"gourmetpantry_SO2_reward.title": "谢谢你！",
+	"gourmetpantry_SO2_reward.text": "@，^^^用米、坚果甚至是椰子做的？真令人惊艳！这对我的病人来说会是很好的替代品。^哈维",
+
+	"gourmetpantry_SO3_reward.title": "非常感谢！",
+	"gourmetpantry_SO3_reward.text": "@，^^^太棒了！有了这些我的增肌效果一定会比以前更好！你真狂！^亚历克斯",
+
+	"gourmetpantry_SO4_reward.title": "再次感谢",
+	"gourmetpantry_SO4_reward.text": "@，^^^或许我们有这些粉后就不会一天用光了……至少我希望是这样。谢谢你的帮忙，农夫。^乔治",
+
+	"gourmetpantry_SO5_reward.title": "恭喜！",
+	"gourmetpantry_SO5_reward.text": "亲爱的　@，^^^你的贡献令我们印象深刻，我们很荣幸能给予你加工大师的头衔。请领取这份奖赏。",
+
+}

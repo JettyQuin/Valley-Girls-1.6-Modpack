@@ -1,0 +1,210 @@
+{
+
+//MACHINES
+
+	"atelierbotanicals_IncenseStation.name": "채집가의 작업장",
+	"atelierbotanicals_IncenseStation.description": "숙련된 채집가의 작업대. 다양한 식물을 이용해 마른 향을 만들어냅니다.",
+
+
+//DRIED HERBS SPICES
+
+	"atelierbotanicals_dried_geranium.name": "말린 제라늄",
+	"atelierbotanicals_dried_geranium.description": "잘 말린 꽃 한 묶음. 짧게는 몇 달에서 길게는 몇 년간 이 상태가 유지됩니다.",
+
+	"atelierbotanicals_dried_apple.name": "말린 사과",
+	"atelierbotanicals_dried_apple.description": "끈에 묶어 매달아 말린 사과입니다. 어둡고 서늘한 저장고 구석에서 몇 달간 보관됩니다.",
+
+	"atelierbotanicals_dried_arcticfox.name": "말린 북극여우꽃",
+	"atelierbotanicals_dried_arcticfox.description": "잘 말린 꽃 한 묶음. 짧게는 몇 달에서 길게는 몇 년간 이 상태가 유지됩니다.",
+
+	"atelierbotanicals_dried_avalune.name": "말린 에이발룬",
+	"atelierbotanicals_dried_avalune.description": "잘 말린 꽃 한 묶음. 짧게는 몇 달에서 길게는 몇 년간 이 상태가 유지됩니다.",
+
+	"atelierbotanicals_dried_bluechiffon.name": "말린 블루시폰",
+	"atelierbotanicals_dried_bluechiffon.description": "잘 말린 꽃 한 묶음. 짧게는 몇 달에서 길게는 몇 년간 이 상태가 유지됩니다.",
+
+	"atelierbotanicals_dried_chamomile.name": "말린 캐모마일",
+	"atelierbotanicals_dried_chamomile.description": "잘 말린 꽃 한 묶음. 짧게는 몇 달에서 길게는 몇 년간 이 상태가 유지됩니다.",
+
+	"atelierbotanicals_dried_cilantro.name": "건조 실란트로",
+	"atelierbotanicals_dried_cilantro.description": "잘 말린 허브 한 묶음. 짧게는 몇 달에서 길게는 몇 년간 보관됩니다.",
+
+	"atelierbotanicals_dried_daisy.name": "말린 데이지",
+	"atelierbotanicals_dried_daisy.description": "잘 말린 꽃 한 묶음. 짧게는 몇 달에서 길게는 몇 년간 이 상태가 유지됩니다.",
+
+	"atelierbotanicals_dried_dawnlily.name": "말린 여명나리꽃",
+	"atelierbotanicals_dried_dawnlily.description": "잘 말린 꽃 한 묶음. 짧게는 몇 달에서 길게는 몇 년간 이 상태가 유지됩니다.",
+
+	"atelierbotanicals_dried_dusklily.name": "말린 황혼나리꽃",
+	"atelierbotanicals_dried_dusklily.description": "잘 말린 꽃 한 묶음. 짧게는 몇 달에서 길게는 몇 년간 이 상태가 유지됩니다.",
+
+	"atelierbotanicals_dried_puffball.name": "말린 분첩",
+	"atelierbotanicals_dried_puffball.description": "잘 말린 꽃 한 묶음. 짧게는 몇 달에서 길게는 몇 년간 이 상태가 유지됩니다.",
+
+	"atelierbotanicals_dried_garlic.name": "건조 마늘",
+	"atelierbotanicals_dried_garlic.description": "끈에 묶어 매달아 말린 마늘입니다. 서늘하고 어두운 저장고 안쪽에서 몇 달간 보관될 예정입니다.",
+
+	"atelierbotanicals_dried_jasmine.name": "말린 자스민",
+	"atelierbotanicals_dried_jasmine.description": "잘 말린 꽃 한 묶음. 짧게는 몇 달에서 길게는 몇 년간 이 상태가 유지됩니다.",
+
+	"atelierbotanicals_dried_lavender.name": "말린 라벤더",
+	"atelierbotanicals_dried_lavender.description": "잘 말린 꽃 한 묶음. 짧게는 몇 달에서 길게는 몇 년간 이 상태가 유지됩니다.",
+
+	"atelierbotanicals_dried_violet.name": "말린 제비꽃",
+	"atelierbotanicals_dried_violet.description": "잘 말린 꽃 한 묶음. 짧게는 몇 달에서 길게는 몇 년간 이 상태가 유지됩니다.",
+
+	"atelierbotanicals_dried_mint.name": "건조 박하풀",
+	"atelierbotanicals_dried_mint.description": "잘 말린 허브 한 묶음. 짧게는 몇 달에서 길게는 몇 년간 보관됩니다.",
+
+	"atelierbotanicals_dried_moon_maiden.name": "말린 달의 여인",
+	"atelierbotanicals_dried_moon_maiden.description": "잘 말린 꽃 한 묶음. 짧게는 몇 달에서 길게는 몇 년간 이 상태가 유지됩니다.",
+
+	"atelierbotanicals_dried_mugwort.name": "말린 향쑥",
+	"atelierbotanicals_dried_mugwort.description": "잘 말린 꽃 한 묶음. 짧게는 몇 달에서 길게는 몇 년간 이 상태가 유지됩니다.",
+
+	"atelierbotanicals_dried_peppers.name": "마른 후추",
+	"atelierbotanicals_dried_peppers.description": "끈에 묶어 매달아 말린 후추입니다. 서늘하고 어두운 저장고 안쪽에서 몇 달간 보관될 예정입니다.",
+
+	"atelierbotanicals_dried_pixiesbreath.name": "말린 요정숨결",
+	"atelierbotanicals_dried_pixiesbreath.description": "잘 말린 꽃 한 묶음. 짧게는 몇 달에서 길게는 몇 년간 이 상태가 유지됩니다.",
+
+	"atelierbotanicals_dried_primrose.name": "말린 석양앵초",
+	"atelierbotanicals_dried_primrose.description": "잘 말린 꽃 한 묶음. 짧게는 몇 달에서 길게는 몇 년간 이 상태가 유지됩니다.",
+
+	"atelierbotanicals_dried_rosemary.name": "건조 로즈마리",
+	"atelierbotanicals_dried_rosemary.description": "잘 말린 허브 한 묶음. 짧게는 몇 달에서 길게는 몇 년간 보관됩니다.",
+
+	"atelierbotanicals_dried_sage.name": "건조 세이지",
+	"atelierbotanicals_dried_sage.description": "잘 말린 허브 한 묶음. 짧게는 몇 달에서 길게는 몇 년간 보관됩니다.",
+
+	"atelierbotanicals_dried_poppy.name": "말린 양귀비",
+	"atelierbotanicals_dried_poppy.description": "잘 말린 꽃 한 묶음. 짧게는 몇 달에서 길게는 몇 년간 이 상태가 유지됩니다.",
+
+	"atelierbotanicals_dried_anise.name": "건조 팔각",
+	"atelierbotanicals_dried_anise.description": "통채로 건조시킨 팔각.",
+
+	"atelierbotanicals_dried_thistle.name": "마른 엉겅퀴",
+	"atelierbotanicals_dried_thistle.description": "잘 말린 꽃 한 묶음. 짧게는 몇 달에서 길게는 몇 년간 이 상태가 유지됩니다.",
+
+	"atelierbotanicals_dried_twinblooms.name": "말린 쌍둥이꽃",
+	"atelierbotanicals_dried_twinblooms.description": "잘 말린 꽃 한 묶음. 짧게는 몇 달에서 길게는 몇 년간 이 상태가 유지됩니다.",
+
+	"atelierbotanicals_dried_valerian.name": "말린 고양이풀",
+	"atelierbotanicals_dried_valerian.description": "잘 말린 꽃 한 묶음. 짧게는 몇 달에서 길게는 몇 년간 이 상태가 유지됩니다.",
+
+	"atelierbotanicals_dried_yarrow.name": "말린 서양톱풀",
+	"atelierbotanicals_dried_yarrow.description": "잘 말린 꽃 한 묶음. 짧게는 몇 달에서 길게는 몇 년간 이 상태가 유지됩니다.",
+
+//DRIED MUSHROOMS
+
+"atelierbotanicals_dried_amanita.name": "건조 아마니타",
+"atelierbotanicals_dried_amanita.description": "잘 말린 버섯이 들은 병. 이 상태에서 몇 달에서 몇 년간 보관이 가능합니다.",
+
+"atelierbotanicals_dried_chanterelles.name": "건조 살구버섯",
+"atelierbotanicals_dried_chanterelles.description": "잘 말린 버섯이 들은 병. 이 상태에서 몇 달에서 몇 년간 보관이 가능합니다.",
+
+"atelierbotanicals_dried_chickenofthewoods.name": "건조 포레스트 치킨",
+"atelierbotanicals_dried_chickenofthewoods.description": "잘 말린 버섯이 들은 병. 이 상태에서 몇 달에서 몇 년간 보관이 가능합니다.",
+
+"atelierbotanicals_dried_dawnstrumpet.name": "건조 새벽나팔",
+"atelierbotanicals_dried_dawnstrumpet.description": "잘 말린 버섯이 들은 병. 이 상태에서 몇 달에서 몇 년간 보관이 가능합니다.",
+
+"atelierbotanicals_dried_duskcap.name": "건조 황혼모자",
+"atelierbotanicals_dried_duskcap.description": "잘 말린 버섯이 들은 병. 이 상태에서 몇 달에서 몇 년간 보관이 가능합니다.",
+
+"atelierbotanicals_dried_faeriehelmets.name": "건조 요정보닛",
+"atelierbotanicals_dried_faeriehelmets.description": "잘 말린 버섯이 들은 병. 이 상태에서 몇 달에서 몇 년간 보관이 가능합니다.",
+
+"atelierbotanicals_dried_goldmushrooms.name": "건조 황금아우라",
+"atelierbotanicals_dried_goldmushrooms.description": "잘 말린 버섯이 들은 병. 이 상태에서 몇 달에서 몇 년간 보관이 가능합니다.",
+
+"atelierbotanicals_dried_honeyfungus.name": "건조 꿀곰팡이버섯",
+"atelierbotanicals_dried_honeyfungus.description": "잘 말린 버섯이 들은 병. 이 상태에서 몇 달에서 몇 년간 보관이 가능합니다.",
+
+"atelierbotanicals_dried_meringueshrooms.name": "건조 머랭버섯",
+"atelierbotanicals_dried_meringueshrooms.description": "잘 말린 버섯이 들은 병. 이 상태에서 몇 달에서 몇 년간 보관이 가능합니다.",
+
+"atelierbotanicals_dried_milkshrooms.name": "건조 밀키버섯",
+"atelierbotanicals_dried_milkshrooms.description": "잘 말린 버섯이 들은 병. 이 상태에서 몇 달에서 몇 년간 보관이 가능합니다.",
+
+"atelierbotanicals_dried_morels.name": "건조 곰보버섯",
+"atelierbotanicals_dried_morels.description": "잘 말린 버섯이 들은 병. 이 상태에서 몇 달에서 몇 년간 보관이 가능합니다.",
+
+"atelierbotanicals_dried_red_mushrooms.name": "건조 붉은버섯",
+"atelierbotanicals_dried_red_mushrooms.description": "잘 말린 버섯이 들은 병. 이 상태에서 몇 달에서 몇 년간 보관이 가능합니다e.",
+
+"atelierbotanicals_dried_slime_caps.name": "건조 슬라임모자",
+"atelierbotanicals_dried_slime_caps.description": "잘 말린 버섯이 들은 병. 이 상태에서 몇 달에서 몇 년간 보관이 가능합니다.",
+
+"atelierbotanicals_dried_verdigris_agaric.name": "건조 폭풍우산버섯",
+"atelierbotanicals_dried_verdigris_agaric.description": "잘 말린 버섯이 들은 병. 이 상태에서 몇 달에서 몇 년간 보관이 가능합니다.",
+
+"atelierbotanicals_dried_wheatshrooms.name": "건조 밀베리",
+"atelierbotanicals_dried_wheatshrooms.description": "잘 말린 버섯이 들은 병. 이 상태에서 몇 달에서 몇 년간 보관이 가능합니다.",
+
+//INCENSE
+
+"atelierbotanicals_autumn_incense.name":"가을의 정취",
+"atelierbotanicals_autumn_incense.description":"아로마 테라피, 혹은 명상을 위해 태우는 인센스 스틱; 계절의 변화를 맞이하기 위해 가을에 피는 꽃을 더했습니다.",
+
+"atelierbotanicals_chamomile_incense.name":"행복의 향",
+"atelierbotanicals_chamomile_incense.description":"아로마 테라피, 혹은 명상을 위해 태우는 인센스 스틱; 평화와 조화로움의 연관성으로 캐모마일을 더했습니다.",
+
+"atelierbotanicals_chiffon_incense.name":"향의 조화",
+"atelierbotanicals_chiffon_incense.description":"아로마 테라피, 혹은 명상을 위해 태우는 인센스 스틱; 조화로움과 평화의 연관성으로 블루 쉬폰을 더했습니다.",
+
+"atelierbotanicals_daisy_incense.name":"가득찬 희망",
+"atelierbotanicals_daisy_incense.description":"아로마 테라피, 혹은 명상을 위해 태우는 인센스 스틱; 희망, 그리고 보호와의 연관성으로 천사 제라늄을 더했습니다.",
+
+"atelierbotanicals_elder_incense.name":"정화의 꽃",
+"atelierbotanicals_elder_incense.description":"아로마 테라피, 혹은 명상을 위해 태우는 인센스 스틱; 정화와 순수함의 연관성으로 딱총나무 꽃을 더했습니다.",
+
+"atelierbotanicals_jasmine_incense.name":"명상의 향",
+"atelierbotanicals_jasmine_incense.description":"아로마 테라피, 혹은 명상을 위해 태우는 인센스 스틱; 화합과 영성이 어우러지게끔 자스민을 더했습니다.",
+
+"atelierbotanicals_lavender_incense.name":"진정의 꽃",
+"atelierbotanicals_lavender_incense.description":"아로마 테라피, 혹은 명상을 위해 태우는 인센스 스틱; 진정 효과를 위해 라벤더를 더했습니다.",
+
+"atelierbotanicals_lily_incense.name":"보호의 꽃",
+"atelierbotanicals_lily_incense.description":"아로마 테라피, 혹은 명상을 위해 태우는 인센스 스틱; 저주와 사악한 주술에서 보호하기 위해 나리꽃을 더했습니다.",
+
+"atelierbotanicals_mandrake_incense.name":"맨드레이크의 향",
+"atelierbotanicals_mandrake_incense.description":"아로마 테라피, 혹은 명상을 위해 태우는 인센스 스틱; 마법적인 특성으로 인해 맨드레이크를 더했습니다.",
+
+"atelierbotanicals_mugwort_incense.name":"예언가의 말",
+"atelierbotanicals_mugwort_incense.description":"아로마 테라피, 혹은 명상을 위해 태우는 인센스 스틱; 마법적인 특성을 고려하여 향쑥을 사용했습니다.",
+
+"atelierbotanicals_pixie_incense.name":"요정의 재치",
+"atelierbotanicals_pixie_incense.description":"아로마 테라피, 혹은 명상을 위해 태우는 인센스 스틱; 요정의 숨결을 더한 이유는, 창의성과 연관된 향이기 때문입니다.",
+
+"atelierbotanicals_primrose_incense.name":"치유의 향기",
+"atelierbotanicals_primrose_incense.description":"아로마 테라피, 혹은 명상을 위해 태우는 인센스 스틱; 긍정적인 에너지와의 연계를 생각하여 석영앵초를 더했습니다.",
+
+"atelierbotanicals_secret_incense.name":"번영의 비밀",
+"atelierbotanicals_secret_incense.description":"아로마 테라피, 혹은 명상을 위해 태우는 인센스 스틱; 번영과 관련해서는 이 비밀 양귀비만한 게 없습니다.",
+
+"atelierbotanicals_spring_incense.name":"봄의 정취",
+"atelierbotanicals_spring_incense.description":"아로마 테라피, 혹은 명상을 위해 태우는 인센스 스틱; 새로운 시작을 맞이하기 위해 봄에 피는 꽃을 더했습니다.",
+
+"atelierbotanicals_summer_incense.name":"여름의 정취",
+"atelierbotanicals_summer_incense.description":"아로마 테라피, 혹은 명상을 위해 태우는 인센스 스틱; 바뀌는 계절을 기념하여 여름에 피는 꽃을 더했습니다.",
+
+"atelierbotanicals_thistle_incense.name":"찬란한 보호",
+"atelierbotanicals_thistle_incense.description":"아로마 테라피, 혹은 명상을 위해 태우는 인센스 스틱; 보호와 번영을 함께 신경쓴다면, 엉겅퀴만한 게 없습니다.",
+
+"atelierbotanicals_valerian_incense.name":"달콤한 꿈",
+"atelierbotanicals_valerian_incense.description":"아로마 테라피, 혹은 명상을 위해 태우는 인센스 스틱; 잔잔하고 고요함을 안겨주기 위해 고양이풀을 더했습니다.",
+
+"atelierbotanicals_vanilla_incense.name":"그리운 집",
+"atelierbotanicals_vanilla_incense.description":"아로마 테라피, 혹은 명상을 위해 태우는 인센스 스틱; 위로와 진정에는 바닐라의 향이 일품입니다.",
+
+"atelierbotanicals_violet_incense.name":"비너스의 향",
+"atelierbotanicals_violet_incense.description":"아로마 테라피, 혹은 명상을 위해 태우는 인센스 스틱; 사랑과 다산, 풍요를 위해 그 힘에 젖은 제비꽃을 더했습니다.",
+
+"atelierbotanicals_winter_incense.name":"겨울의 정취",
+"atelierbotanicals_winter_incense.description":"아로마 테라피, 혹은 명상을 위해 태우는 인센스 스틱; 한 해의 마지막을 끝마치기 위해 야생 크로커스를 더했습니다.",
+
+"atelierbotanicals_yarrow_incense.name":"북돋아진 용기",
+"atelierbotanicals_yarrow_incense.description":"아로마 테라피, 혹은 명상을 위해 태우는 인센스 스틱; 용기와 사랑을 북돋아주는 것에 있어 서양톱풀만한 게 없습니다.",
+
+}

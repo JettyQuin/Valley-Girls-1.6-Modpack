@@ -1,0 +1,13 @@
+{
+    "Name": "Atelier Wildflour Tea Pack",
+    "Author": "wildflourmods",
+    "Version": "4.0",
+    "Description": "Adds tea sachets and teas and kombuchas to Stardew Valley",
+    "UniqueID": "wildflour.ateliertea",
+    "UpdateKeys": ["nexus:14667"], 
+    "MinimumApiVersion": "4.0.0-alpha",
+    "Dependencies": [{"UniqueID": "wildflour.ateliercrops", "IsRequired": true}],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}

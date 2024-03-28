@@ -1,0 +1,22 @@
+{
+    "Name": "Wildflour's Gourmet Bakery Recipes",
+    "Author": "wildflourmods",
+    "Version": "2.1",
+    "Description": "a bunch of new bakery recipes for Stardew Valley",
+    "UniqueID": "wildflour.bakery",
+    "MinimumApiVersion": "4.0.0-alpha",
+    "UpdateKeys": ["nexus:14965" ], 
+    "Dependencies": [
+        {
+            "UniqueID": "wildflour.ateliercrops", 
+            "IsRequired": true
+        },
+        {
+           "UniqueID": "wildflour.gourmetpantry",
+           "IsRequired": true
+        }
+    ],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}

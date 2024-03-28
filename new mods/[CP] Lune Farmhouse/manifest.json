@@ -1,0 +1,12 @@
+{
+  "Name": "Lune FarmHouse",
+  "Author": "Lu.B17",
+  "Version": "1.0.0",
+  "Description": "A new Farmhouse",
+  "UniqueID": "Lu.B17.LuneFarmhouse",
+  "UpdateKeys": [],
+  "Dependencies": [],
+  "ContentPackFor": {
+     "UniqueID": "Pathoschild.ContentPatcher",
+  }
+}

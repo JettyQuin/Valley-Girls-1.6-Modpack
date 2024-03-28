@@ -1,0 +1,467 @@
+{
+
+	//CAKES
+
+	"bakery_carrot_cake.name":"Spring Blooms Carrot Cake",
+	"bakery_carrot_cake.description":"This carrot cake is decorated with lovely fresh spring flowers - perfect for this year's Egg Hunt Festival!",
+
+	"bakery_chocolate_cake.name":"Chocolate Cherry Layer Cake",
+	"bakery_chocolate_cake.description":"Rich chocolate plus freshly picked cherries makes for a luscious layer cake.",
+
+	"bakery_chocolate_raspberry_cupcake.name": "Chocolate Raspberry Cupcake",
+	"bakery_chocolate_raspberry_cupcake.description": "A rich, chocolatey cupcake filled with raspberry jam.",
+
+	"bakery_coconut_almond_cake.name":"Coconut Almond Layer Cake",
+	"bakery_coconut_almond_cake.description":"A light and fluffy coconut cake with almond frosting.",
+
+	"bakery_confetti_cake.name":"Confetti Cake",
+	"bakery_confetti_cake.description":"Vanilla cake with vanilla frosting, filled and topped with plenty of rainbow sprinkles!",
+
+	"bakery_gingerbread_cake.name":"Gingerbread Cake Roll",
+	"bakery_gingerbread_cake.description":"Rich gingery cake, rolled with creamy vanilla frosting into a lovely holiday dessert.",
+
+	"bakery_lemon_cake.name":"Lemon Chiffon Cake",
+	"bakery_lemon_cake.description":"Petite lemons and sweet cream result in a tender cake perfect for spring parties.",
+
+	"bakery_peach_cake.name":"Peaches 'n Cream Cake",
+	"bakery_peach_cake.description":"Freshly picked summer peaches baked into a delicate vanilla sponge cake.",
+
+	"bakery_pineapple_cake.name":"Hummingbird Cake",
+	"bakery_pineapple_cake.description":"A warm spice cake filled with bits of fresh pineapple and nuts!",
+
+	"bakery_pumpkin_cake.name":"Pumpkin Spice Cake Roll",
+	"bakery_pumpkin_cake.description":"A seasonal favorite: rich pumpkin cake rolled with cream cheese frosting.",
+
+	"bakery_red_velvet_cake.name":"Red Velvet Cake Roll",
+	"bakery_red_velvet_cake.description":"No food coloring here; this classic cake gets it color the old-fashioned way, from beets!",
+
+	"bakery_strawberry_cake.name":"Strawberries 'n Cream Cake",
+	"bakery_strawberry_cake.description":"A lovely light vanilla sponge filled with freshly picked strawberries and whipped cream",
+
+	"bakery_strawberry_cupcake.name":"Sweet Lil Strawberry Cupcake",
+	"bakery_strawberry_cupcake.description":"A lovely little strawberry cake topped with strawberry frosting",
+
+	"bakery_vanilla_cupcake.name":"Sweet Lil Vanilla Cupcake",
+	"bakery_vanilla_cupcake.description":"A lovely little vanilla cake topped with vanilla frosting.",
+
+	//MUFFINS
+
+	"bakery_apple_muffin.name":"Apple Spice Muffin",
+	"bakery_apple_muffin.description":"Apples and cinnamon make this muffin the perfect breakfast on a crisp, Autumn morning.",
+
+	"bakery_banana_muffin.name":"Banana Nut Muffin",
+	"bakery_banana_muffin.description":"This muffin gets most of its sweetness from mashed ripe bananas.",
+
+	"bakery_cinnamon_muffin.name":"Cinnamon Spice Muffin",
+	"bakery_cinnamon_muffin.description":"A classic muffin best enjoyed with a cup of fresh coffee.",
+
+	"bakery_cornbread_muffin.name":"Buttery Cornbread Muffin",
+	"bakery_cornbread_muffin.description":"A hearty muffin that is rich and buttery, goes well with soup or pretty much anything!",
+
+	"bakery_lemon_blueberry_muffin.name":"Lemonberry Muffin",
+	"bakery_lemon_blueberry_muffin.description":"Petite lemons and blueberries means this muffin is bursting with fresh fruit flavor!",
+
+	"bakery_pumpkin_muffin.name":"Pumpkin Spice Latte Muffin",
+	"bakery_pumpkin_muffin.description":"A pumpkin muffin with the addition of cinnamon and espresso powder.",
+
+	"bakery_strawberry_muffin.name":"Strawberry Rhubarb Muffin",
+	"bakery_strawberry_muffin.description":"A light and tender muffin filled with rhubarb and strawberry bits",
+
+	//SCONES
+
+	"bakery_blackberry_scone.name":"Blackberry Lime Scone",
+	"bakery_blackberry_scone.description":"The zest from the petite limes really accentuates the blackberries fresh flavor!",
+
+	"bakery_blueberry_scone.name":"Blueberry Cream Scone",
+	"bakery_blueberry_scone.description":"A tender, crumbly scone filled with fresh blueberries.",
+
+	"bakery_cinnamon_scone.name":"Cinnamon Raisin Scone",
+	"bakery_cinnamon_scone.description":"A tender, crumbly scone filled with spices and raisins, perfect for breakfast!",
+
+	"bakery_peach_scone.name":"Peach Honey Scone",
+	"bakery_peach_scone.description":"This scone tastes like peach cobbler, but handheld and so even better!",
+
+	"bakery_pistachio_scone.name":"Pistachio Scone",
+	"bakery_pistachio_scone.description":"A tender, crumbly scone filled with crushed pistachios.",
+
+	"bakery_pumpkin_scone.name":"Maple Pumpkin Scone",
+	"bakery_pumpkin_scone.description":"Scones flavored with pumpkin and maple, a lovely treat on an Autumn day.",
+
+	"bakery_raspberry_scone.name":"Raspberry Vanilla Scone",
+	"bakery_raspberry_scone.description":"Vanilla beans make this raspberry scone even more irresistible!",
+
+	"bakery_strawberry_scone.name":"Strawberry Shortcake Scone",
+	"bakery_strawberry_scone.description":"A scone prepared in the style of a shortcake, cut in half and filled with strawberries and cream!",
+
+	//CHEESECAKE
+
+	"bakery_blueberry_cheesecake.name":"Blueberry Cheesecake Slice",
+	"bakery_blueberry_cheesecake.description":"A slice of cheesecake topped with luscious blueberry jam.",
+
+	"bakery_cherry_cheesecake.name":"Cherry Cheesecake Slice",
+	"bakery_cherry_cheesecake.description":"A slice of cheesecake topped with luscious cherry jam.",
+
+	"bakery_cheesecake.name":"Classic Cheesecake Slice",
+	"bakery_cheesecake.description":"The classic cheesecake slice, creamy and delicious!",
+
+	"bakery_cookies_cream_cheesecake.name":"Cookies n' Cream Cheesecake Slice",
+	"bakery_cookies_cream_cheesecake.description":"Cheesecake with bits of chocolate cream cookies throughout.",
+
+	"bakery_lemon_cheesecake.name":"Lemon Cheesecake Slice",
+	"bakery_lemon_cheesecake.description":"A slice of cheesecake topped with luscious lemon curd.",
+
+	"bakery_mango_cheesecake.name":"Mango Cheesecake Slice",
+	"bakery_mango_cheesecake.description":"A slice of cheesecake topped with luscious mango jam.",
+
+	"bakery_mocha_cheesecake.name":"Mocha Cheesecake Slice",
+	"bakery_mocha_cheesecake.description":"A slice of cheesecake blended with chocolate and espresso powder.",
+
+	"bakery_orange_cheesecake.name":"Orange Creamsicle Cheesecake Slice",
+	"bakery_orange_cheesecake.description":"A slice of cheesecake topped with luscious orange curd.",
+
+	"bakery_pumpkin_cheesecake.name":"Pumpkin Cheesecake Slice",
+	"bakery_pumpkin_cheesecake.description":"A slice of cheesecake blended with fresh pumpkin and spices.",
+
+	"bakery_raspberry_cheesecake.name":"Raspberry Cheesecake Slice",
+	"bakery_raspberry_cheesecake.description":"A slice of cheesecake topped with luscious raspberry jam.",
+
+	"bakery_strawberry_cheesecake.name":"Strawberry Cheesecake Slice",
+	"bakery_strawberry_cheesecake.description":"A slice of cheesecake topped with luscious strawberry jam.",
+
+	"bakery_white_cheesecake.name":"White Chocolate Lime Cheesecake Slice",
+	"bakery_white_cheesecake.description":"Cheesecake baked using white chocolate and fresh lime zest.",
+
+	//PETIT FOURS
+
+	"bakery_almond_petit_fours.name":"Almond Petit Four",
+	"bakery_almond_petit_fours.description":"A delicate party cake, flavored with almonds.",
+
+	"bakery_chocolate_petit_fours.name":"Chocolate Hazelnut Petit Four",
+	"bakery_chocolate_petit_fours.description":"A delicate party cake, flavored with chocolate and hazelnuts",
+
+	"bakery_lemon_petit_fours.name":"Luscious Lemon Petit Four",
+	"bakery_lemon_petit_fours.description":"A delicate party cake, flavored with fresh lemon.",
+
+	"bakery_matcha_petit_fours.name":"Matcha Petit Four",
+	"bakery_matcha_petit_fours.description":"A delicate party cake, flavored with matcha tea.",
+
+	"bakery_peach_petit_fours.name":"Peach Petit Four",
+	"bakery_peach_petit_fours.description":"A delicate party cake, flavored with freshly-picked peaches.",
+
+	"bakery_pistachio_petit_fours.name":"Pistachio Petit Four",
+	"bakery_pistachio_petit_fours.description":"A delicate party cake, flavored with pistachios.",
+
+	"bakery_strawberry_petit_fours.name":"Strawberry Rose Petit Four",
+	"bakery_strawberry_petit_fours.description":"A delicate party cake, flavored with strawberries and rose jelly.",
+
+	"bakery_tiramisu_petit_fours.name":"Tiramisu Petit Four",
+	"bakery_tiramisu_petit_fours.description":"A delicate party cake, flavored with espresso powder and chocolate.",
+
+	"bakery_tres_leches_petit_fours.name":"Tres Leches Petit Four",
+	"bakery_tres_leches_petit_fours.description":"A delicate party cake, flavored with different milks and cinnamon.",
+
+	"bakery_tropical_petit_fours.name":"Tropical Petit Four",
+	"bakery_tropical_petit_fours.description":"A delicate party cake, flavored with tropical fruit.",
+
+	"bakery_vanilla_petit_fours.name":"Vanilla Raspberry Petit Four",
+	"bakery_vanilla_petit_fours.description":"A delicate party cake, flavored with freshly-picked raspberries.",
+
+	//PIES
+
+	"bakery_apple_pie.name":"Old-Fashioned Apple Pie",
+	"bakery_apple_pie.description":"Pie made with apples picked from local orchards",
+
+	"bakery_banana_cream_pie.name":"Old-Fashioned Banana Cream Pie",
+	"bakery_banana_cream_pie.description":"A custard pie layered with sliced bananas and cream.",
+
+	"bakery_blueberry_pie.name":"Old-Fashioned Blueberry Pie",
+	"bakery_blueberry_pie.description":"Pie made with freshly-picked blueberries",
+
+	"bakery_cherry_pie.name":"Old-Fashioned Cherry Pie",
+	"bakery_cherry_pie.description":"Pie made with cherries picked from local orchards",
+
+	"bakery_lemon_pie.name":"Old-Fashioned Lemon Pie",
+	"bakery_lemon_pie.description":"A custard pie made with lemon zest and lemon curd.",
+
+	"bakery_peach_pie.name":"Old-Fashioned Peach Pie",
+	"bakery_peach_pie.description":"Pie made with peaches picked from local orchards",
+
+	"bakery_lime_pie.name":"Old-Fashioned Lime Pie",
+	"bakery_lime_pie.description":"A custard pie made with lime zest and lime curd.",
+
+	"bakery_plum_pie.name":"Old-Fashioned Plum Pie",
+	"bakery_plum_pie.description":"Pie made with foraged plums.",
+
+	"bakery_pumpkin_pie.name":"Old-Fashioned Pumpkin Pie",
+	"bakery_pumpkin_pie.description":"Pie made with freshly-picked pumpkins.",
+
+	"bakery_sweet_potato_pie.name":"Old-Fashioned Sweet Potato Pie",
+	"bakery_sweet_potato_pie.description":"Sweet potatoes cooked down with cinnamon and sugar into a lovely pie.",
+
+	//TARTS
+
+	"bakery_blueberry_tart.name":"Rustic Blueberry Tart",
+	"bakery_blueberry_tart.description":"A crisp, flaky tart shell filled with a sweet blueberry filling.",
+
+	"bakery_chocolate_hazelnut_tart.name":"Chocolate Hazelnut Tart",
+	"bakery_chocolate_hazelnut_tart.description":"A crisp, flaky tart shell filled with a smooth chocolate-hazelnut filling.",
+
+	"bakery_lemon_tart.name":"Petite Lemon Tart",
+	"bakery_lemon_tart.description":"A crisp, flaky tart shell filled with a smooth and luscious lemon filling.",
+
+	"bakery_mango_tart.name":"Island Mango Tart",
+	"bakery_mango_tart.description":"A crisp, flaky tart shell filled with a smooth mango custard filling.",
+
+	"bakery_berry_tart.name":"Berry Bushel Tart",
+	"bakery_berry_tart.description":"A crisp, flaky tart shell filled with a mix of different berries.",
+
+	"bakery_fruit_tart.name":"Tooti Frooti Tart",
+	"bakery_fruit_tart.description":"A crisp, flaky tart shell filled with whatever fruits you have on hand!",
+
+	"bakery_peppermint_tart.name":"Mocha Mint Tart",
+	"bakery_peppermint_tart.description":"A crisp, flaky tart shell filled with a smooth chocolate-mint filling.",
+
+	"bakery_pina_colada_tart.name":"Piña Colada Tart",
+	"bakery_pina_colada_tart.description":"A crisp, flaky tart shell filled with a smooth pineapple-coconut custard filling.",
+
+	"bakery_raspberry_tart.name":"Wild Raspberry Tart",
+	"bakery_raspberry_tart.description":"A crisp, flaky tart shell filled with a sweet raspberry filling.",
+
+	"bakery_summer_tart.name":"Summer's Bounty Tart",
+	"bakery_summer_tart.description":"A crisp, flaky tart shell filled with summer's finest fruits.",
+
+	//ECLAIRS
+
+	"bakery_chocolate_eclair.name":"Chocolate Eclair",
+	"bakery_chocolate_eclair.description":"A delicate pastry filled with a rich, chocolate custard.",
+
+	"bakery_maple_eclair.name":"Maple Eclair",
+	"bakery_maple_eclair.description":"A delicate pastry filled with a rich, maple custard.",
+
+	"bakery_mocha_eclair.name":"Mocha Eclair",
+	"bakery_mocha_eclair.description":"A delicate pastry filled with a rich, mocha custard.",
+
+	"bakery_pistachio_eclair.name":"Chocolate Pistachio Eclair",
+	"bakery_pistachio_eclair.description":"A delicate pastry filled with a sweet pistachio custard.",
+
+	"bakery_raspberry_eclair.name":"Raspberry Lemon Eclair",
+	"bakery_raspberry_eclair.description":"A delicate pastry filled with a sweet and tart raspberry-lemon custard.",
+
+	"bakery_strawberry_eclair.name":"Strawberry Cheesecake Eclair",
+	"bakery_strawberry_eclair.description":"A delicate pastry filled with a sweet strawberry and cream cheese custard.",
+
+	"bakery_vanilla_eclair.name":"Vanilla Eclair",
+	"bakery_vanilla_eclair.description":"A delicate pastry filled with a rich vanilla custard.",
+
+	//MACARONS
+
+	"bakery_almond_macaron.name":"Fancy Almond Macaron",
+	"bakery_almond_macaron.description":"An irresistible meringue cookie sandwich flavored with almonds.",
+
+	"bakery_chocolate_macaron.name":"Fancy Chocolate Hazelnut Macaron",
+	"bakery_chocolate_macaron.description":"An irresistible meringue cookie sandwich flavored with chocolate and hazelnuts.",
+
+	"bakery_lavender_macaron.name":"Fancy Lavender Macaron",
+	"bakery_lavender_macaron.description":"An irresistible meringue cookie sandwich flavored with lavender and vanilla.",
+
+	"bakery_lemon_macaron.name":"Fancy Lemon Macaron",
+	"bakery_lemon_macaron.description":"An irresistible meringue cookie sandwich flavored with fresh lemon.",
+
+	"bakery_lime_macaron.name":"Fancy Lime Macaron",
+	"bakery_lime_macaron.description":"An irresistible meringue cookie sandwich flavored with fresh lime.",
+
+	"bakery_mint_macaron.name":"Fancy Mint Macaron",
+	"bakery_mint_macaron.description":"An irresistible meringue cookie sandwich flavored with fresh mint.",
+
+	"bakery_pistachio_macaron.name":"Fancy Pistachio Macaron",
+	"bakery_pistachio_macaron.description":"An irresistible meringue cookie sandwich flavored with pistachios.",
+	
+	"bakery_raspberry_macaron.name":"Fancy Raspberry Macaron",
+	"bakery_raspberry_macaron.description":"An irresistible meringue cookie sandwich flavored with fresh raspberries",
+	
+	"bakery_sakura_macaron.name":"Fancy Sakura Macaron",
+	"bakery_sakura_macaron.description":"An irresistible meringue cookie sandwich flavored with cherry blossom petals.",
+	
+	"bakery_strawberry_macaron.name":"Fancy Strawberry Macaron",
+	"bakery_strawberry_macaron.description":"An irresistible meringue cookie sandwich flavored with fresh strawberries.",
+	
+	//COOKIES
+
+	"bakery_cherry_cookie.name":"Cherry Jam Thumbprint Cookie",
+	"bakery_cherry_cookie.description":"A buttery cookie with a cherry jam center.",
+
+	"bakery_chocolate_chip_cookies.name":"Old-Fashioned Chocolate Chip Cookies",
+	"bakery_chocolate_chip_cookies.description":"The quintessential cookies; goes well with a tall glass of milk.",
+
+	"bakery_chocolate_sandwich_cookie.name":"Classic Chocolate Sandwich Cookies",
+	"bakery_chocolate_sandwich_cookie.description":"Chocolate cookies sandwiched together with vanilla cream.",
+
+	"bakery_orange_cookies.name":"Orange Jam Thumbprint Cookie",
+	"bakery_orange_cookies.description":"A buttery cookie with an orange jam center.",
+
+	"bakery_strawberry_cookie.name":"Strawberry Jam Thumbprint Cookie",
+	"bakery_strawberry_cookie.description":"A buttery cookie with a strawberry jam center.",
+
+	"bakery_vanilla_sandwich_cookies.name":"Classic Vanilla Sandwich Cookies",
+	"bakery_vanilla_sandwich_cookies.description":"Vanilla cookies sandwiched together with vanilla cream.",
+
+	//BROWNIES
+
+	"bakery_cream_cheese_brownies.name":"Cream Cheese Layered Brownies",
+	"bakery_cream_cheese_brownies.description":"Rich brownies with a layer of sweetened cream cheese inside.",
+
+	"bakery_brownies.name":"Old-Fashioned Fudgy Brownies",
+	"bakery_brownies.description":"Rich, chocolatey bar cookies that are essential at any bake sale.",
+
+	"bakery_mint_brownies.name":"Mint Chocolate Layered Brownies",
+	"bakery_mint_brownies.description":"Rich brownies with a layer of mint cream filling inside.",
+
+	"bakery_nut_brownies.name":"Nut Butter Layered Brownies",
+	"bakery_nut_brownies.description":"Rich brownies with a layer of nut butter filling inside.",
+
+	//BREADS
+	
+	"bakery_cinnamon_roll.name": "Rustic Cinnamon Roll",
+	"bakery_cinnamon_roll.description": "A sweetened bread roll flavored with cinnamon and topped with vanilla icing.",
+	
+	"bakery_cranberry_bread.name": "Rustic Cranberry Nut Bread",
+	"bakery_cranberry_bread.description": "A rustic bread loaf filled with dried cranberries and chopped walnuts.",
+
+	"bakery_olive_bread.name": "Rustic Olive Bread",
+	"bakery_olive_bread.description": "A rustic bread loaf filled with olives.",
+
+	"bakery_potato_bread.name": "Rustic Potato Bread",
+	"bakery_potato_bread.description": "A loaf of bread made with potatoes; rich and perfect for making grilled cheese sandwiches!",
+
+	"bakery_pretzel.name": "Rustic Pretzel",
+	"bakery_pretzel.description": "A classic pretzel topped with flakey sea salt. Pair with mustard for a real treat.",
+
+	"bakery_pumpernickel_bread.name": "Rustic Pumpernickel Bread",
+	"bakery_pumpernickel_bread.description": "A rustic, slightly sweet loaf of rye bread.",
+
+	"bakery_wheat_bread.name": "Rustic Whole Wheat Bread",
+	"bakery_wheat_bread.description": "A loaf of bread with more fiber than traditional bread.",
+	
+	"bakery_bread_loaf.name": "Rustic Wheat Bread",
+	"bakery_bread_loaf.description": "A classic loaf of bread used for making sandwiches.",
+
+	//DOUGHNUTS
+	
+	"bakery_chocolate_doughnut.name": "Chocolate Doughnut",
+	"bakery_chocolate_doughnut.description": "A freshly-fried doughnut topped with chocolate ganache.",
+	
+	"bakery_cream_chocolate_doughnut.name": "Chocolate Cream Doughnut",
+	"bakery_cream_chocolate_doughnut.description": "A freshly-fried doughnut topped with chocolate ganache and filled with vanilla cream.",
+
+	"bakery_strawberry_doughnut.name": "Strawberry Doughnut",
+	"bakery_strawberry_doughnut.description": "A freshly-fried doughnut topped with strawberry frosting.",
+
+	"bakery_cream_strawberry_doughnut.name": "Strawberry Cream Doughnut",
+	"bakery_cream_strawberry_doughnut.description": "A freshly-fried doughnut topped with strawberry frosting and filled with vanilla cream.",
+
+	"bakery_vanilla_doughnut.name": "Vanilla Doughnut",
+	"bakery_vanilla_doughnut.description": "A freshly-fried doughnut topped with vanilla frosting.",
+
+	"bakery_vanilla_jelly_doughnut.name": "Vanilla Jelly Doughnut",
+	"bakery_vanilla_jelly_doughnut.description": "A freshly-fried doughnut topped with vanilla frosting and filled with fruit jelly.",
+
+	//PUDDING
+	
+	"bakery_banana_pudding.name": "Banana Split Pudding",
+	"bakery_banana_pudding.description": "A creamy dessert with the flavors of banana, strawberry, chocolate and cherry.",
+
+	"bakery_chocolate_raspberry_pudding.name": "Chocolate Raspberry Pudding",
+	"bakery_chocolate_raspberry_pudding.description": "A creamy dessert with the flavors of chocolate and raspberry.",
+
+	"bakery_cookies_cream_pudding.name": "Cookies and Cream Pudding",
+	"bakery_cookies_cream_pudding.description": "A creamy dessert with the flavor of chocolate sandwich cookies.",
+
+	"bakery_creme_brulee_pudding.name": "Creme Brulee Pudding",
+	"bakery_creme_brulee_pudding.description": "A creamy dessert topped with caramelized sugar.",
+
+	"bakery_lemon_pudding.name": "Lemon Meringue Pudding",
+	"bakery_lemon_pudding.description": "A creamy dessert with the flavor of fresh lemon.",
+
+	"bakery_peach_pudding.name": "Peach Mango Pudding",
+	"bakery_peach_pudding.description": "A creamy dessert with the flavors of peach and mango.",
+
+	"bakery_pumpkin_maple_pudding.name": "Pumpkin Maple Pudding",
+	"bakery_pumpkin_maple_pudding.description": "A creamy dessert with the flavors of pumpkin and maple.",
+
+	"bakery_sakura_pudding.name": "Sakura Pudding",
+	"bakery_sakura_pudding.description": "A creamy dessert with the flavor of fresh cherry blossoms.",
+
+	"bakery_tiramisu_pudding.name": "Tiramisu Pudding",
+	"bakery_tiramisu_pudding.description": "A creamy dessert with the flavors of coffee and cream.",
+
+	"bakery_tropical_pudding.name": "Tropical Pudding",
+	"bakery_tropical_pudding.description": "A creamy dessert with the flavors of tropical fruits.",
+
+
+////////////////////
+// SPECIAL ORDERS //
+////////////////////
+
+
+"bakery_SO_1.name":"Let Them Eat Cupcakes!",
+"bakery_SO_1.text":"Jas needs cupcakes for a school bake sale and I'm too busy to bake them from scratch. HELP!",
+"bakery_SO_1a.deliver":"Deliver 2 vanilla cupcakes to Marnie.",
+"bakery_SO_1b.deliver":"Deliver 2 strawberry cupcakes to Marnie.",
+"bakery_SO_1c.deliver":"Deliver 2 chocolate cupcakes to Marnie.",
+"bakery_SO_1.accept":"How cute! These are perfect I'm sure they will be a smash hit at the bake sale!",
+
+"bakery_SO_2.name":"Pop Tarts",
+"bakery_SO_2.text":"The kids in town don't know what truly good desserts are. I saw them eating Pop Tarts! I want to show them how good real fruit tarts are instead.",
+"bakery_SO_2a.deliver":"Deliver 1 Tooti Frooti Tart to Gus's Fridge.",
+"bakery_SO_2b.deliver":"Deliver 1 Berry Bushel Tart to Gus's Fridge.",
+"bakery_SO_2c.deliver":"Deliver 1 Chocolate Hazelnut Tart to Gus's Fridge.",
+
+"bakery_SO_3.name":"Patisserie Vibes",
+"bakery_SO_3.text":"I would love to relax with a good book, a cup of tea, and some adorable macarons. Can someone help?",
+"bakery_SO_3a.deliver":"Deliver 3 lemon macarons to the drop box in Haley's kitchen.",
+"bakery_SO_3b.deliver":"Deliver 3 lavender macarons to the drop box in Haley's kitchen.",
+"bakery_SO_3c.deliver":"Deliver 3 strawberry macarons to the drop box in Haley's kitchen.",
+"bakery_SO_3d.deliver":"Deliver 3 chocolate macarons to the drop box in Haley's kitchen.",
+
+"bakery_SO_4.name":"Tea Time Sweets",
+"bakery_SO_4.text":"Evelyn is having me over for tea time and I don't want to show up empty-handed. Can someone bring me some scones to bring with me?",
+"bakery_SO_4a.deliver":"Deliver 3 pistachio scones to the dropbox in Caroline's kitchen.",
+"bakery_SO_4b.deliver":"Deliver 3 raspberry scones to the dropbox in Caroline's kitchen.",
+"bakery_SO_4c.deliver":"Deliver 3 blackberry scones to the dropbox in Caroline's kitchen.",
+"bakery_SO_4d.deliver":"Deliver 3 pumpkin scones to the dropbox in Caroline's kitchen.",
+
+"bakery_SO_5.name":"Master Pastry Chef Challenge",
+"bakery_SO_5.text":"It's that time of year again - annual applications for the role of Master Pastry Chef are open! Send us your best baked goods to see if you can earn the grand prize!",
+"bakery_SO_5.ship":"Ship 100 baked goods.",
+
+"bakery_SO_6.name":"Cheesecake for Jodi",
+"bakery_SO_6.text":"In need of cheesecake for a party I'm throwing at the end of the week",
+"bakery_SO_6.deliver":"Deliver 4 cheesecake to Jodi.",
+"bakery_SO_6.accept":"Perfect! This saves me so much time, and they look gorgeous. Thanks!",
+
+"bakery_SO_7.name":"Pies for the Wizard",
+"bakery_SO_7.text":"I am in need of pies, but not for me They are for the continued study of magic, and they happen to be a favorite amongst the junimo spirits...",
+"bakery_SO_7.deliver":"Deliver 6 pies to the Wizard.",
+"bakery_SO_7.accept":"Maybe now the junimos will let me rest. I just hope this is enough. Thank you.",
+
+"bakery_SO_8.name":"Muffins for Penny",
+"bakery_SO_8.text":"The kids have been so good in their studies; I'd like to surprise them with a special treat!",
+"bakery_SO_8.deliver":"Deliver 12 muffins to Penny.",
+"bakery_SO_8.accept":"These will be the perfect treat after class tomorrow! Thanks so much.",
+
+
+//BAKERY REWARDS MAIL
+ 
+"bakery_SO2_reward.title": "Thanks!",
+"bakery_SO2_reward.text": "@,^^^ Now THESE are what I call pop tarts! Those kids will never want one of those prepackaged pieces of cardboard ever again.^-Gus",
+
+"bakery_SO3_reward.title": "Thank you <3",
+"bakery_SO3_reward.text": "@,^^^ Ooo I feel fancier already looking at these. My self care day is going to be amazing now; thanks again! ^-Haley",
+
+"bakery_SO4_reward.title": "Thank you; Plus Instructions to Craft Bakery Boxes!",
+"bakery_SO4_reward.text": "@,^^^ These are perfect! Would you mind terribly if I told Evelyn I made them? Just this once? Oh thank you, sweetie, I really appreciate it!^-Caroline",
+
+"bakery_SO5_reward.title": "Congratulations!",
+"bakery_SO5_reward.text": "Dear @,^^^ Your dedication is impressive. We are proud to offer you the title of Master Pastry Chef. Please take this as a reward.",
+
+}

@@ -1,0 +1,259 @@
+{
+
+//KETTLE
+
+"ateliertea_TeaKettle.name":"Bouilloire",
+"ateliertea_TeaKettle.description":"Peut créer des sachets de thé emballés et ensuite infuser des thés savoureux !",
+
+//TEA SACHETS
+
+"ateliertea_apple_sachet.name": "Sachet de thé aux pommes d'automne",
+"ateliertea_apple_sachet.description": "Mélange d'épices chaudes et de pomme croquante, ce mélange de thé est parfait pour un après-midi d'automne frais.",
+
+"ateliertea_vanilla_sachet.name": "Sachet de thé Calico Vanille",
+"ateliertea_vanilla_sachet.description": "Ce mélange de thé à la vanille est parfait pour calmer l'esprit et le corps.",
+
+"ateliertea_matcha_sachet.name": "Sachet de thé matcha de cérémonie",
+"ateliertea_matcha_sachet.description": "Un mélange de thé de qualité cérémonielle fabriqué à partir de feuilles de première récolte.",
+
+"ateliertea_cinnamon_sachet.name": "Sachet de thé aux épices à la cannelle",
+"ateliertea_cinnamon_sachet.description": "Un mélange de feuilles de thé et de cannelle Cindersap moulue, parfait pour infuser le thé.",
+
+"ateliertea_chamomile_sachet.name": "Sachet de thé à la camomille douillet",
+"ateliertea_chamomile_sachet.description": "Fleurs de camomille séchées mélangées à d'autres herbes apaisantes pour produire un mélange de thé apaisant.",
+
+"ateliertea_breakfast_sachet.name": "Sachet de thé English Breakfast",
+"ateliertea_breakfast_sachet.description": "Un mélange de thé corsé et robuste.",
+
+"ateliertea_jasmine_sachet.name": "Sachet de thé au jasmin parfumé",
+"ateliertea_jasmine_sachet.description": "Un mélange de feuilles de thé et de pétales de jasmin parfumés, parfait pour infuser le thé.",
+
+"ateliertea_ginger_sachet.name": "Sachet de Thé Gingembre Pêche",
+"ateliertea_ginger_sachet.description": "Un mélange de thé qui marie le doux fruité des pêches avec l'épice chaude du gingembre.",
+
+"ateliertea_grey_sachet.name": "Sachet de thé Lady Grey",
+"ateliertea_grey_sachet.description": "Un mélange plus doux et plus subtil que l'Earl Grey, avec des notes de citron et d'orange.",
+
+"ateliertea_lemon_sachet.name": "Sachet Thé Citron Gingembre",
+"ateliertea_lemon_sachet.description": "Un mélange de thé revigorant à base de zeste de petits citrons et de gingembre séché.",
+
+"ateliertea_mint_sachet.name": "Sachet de thé à la menthe joyeuse",
+"ateliertea_mint_sachet.description": "Un mélange de thé rafraîchissant souvent infusé pour soulager les symptômes du rhume et de la grippe.",
+
+"ateliertea_berry_sachet.name": "Sachet de thé aux baies mélangées",
+"ateliertea_berry_sachet.description": "Un mélange de thé corsé avec l'arôme de baies fraîches.",
+
+"ateliertea_peach_sachet.name": "Sachet Thé Pêche Mangue",
+"ateliertea_peach_sachet.description": "Un délicieux mélange de saveurs de pêche et de mangue!",
+
+"ateliertea_pineapple_sachet.name": "Sachet de Thé Ananas Noix de Coco",
+"ateliertea_pineapple_sachet.description": "Un mélange d'ananas sucré et de noix de coco rafraîchissante pour vous emmener instantanément dans une escapade insulaire.",
+
+"ateliertea_pomegranate_sachet.name": "Sachet Thé Vert Grenade",
+"ateliertea_pomegranate_sachet.description": "Un mélange de thé herbacé et vif rehaussé de grenade éclatante.",
+
+"ateliertea_raspberry_sachet.name": "Sachet Thé Framboise Citron",
+"ateliertea_raspberry_sachet.description": "Un mélange de thé Ferngill onctueux qui équilibre les saveurs de framboises acidulées et de petit citron parfumé.",
+
+"ateliertea_rose_sachet.name": "Sachet de thé aux pétales de rose",
+"ateliertea_rose_sachet.description": "Un mélange de thé à base de pétales et de bourgeons de rosier.",
+
+"ateliertea_sakura_sachet.name": "Sachet de thé Sakura",
+"ateliertea_sakura_sachet.description": "Un mélange de thé à base de fleurs de cerisier confites.",
+
+"ateliertea_strawberry_sachet.name": "Sachet de thé à la fraise des bois",
+"ateliertea_strawberry_sachet.description": "Un mélange de thé sucré à base de fraises sauvages d'été.",
+
+//TEA
+
+"ateliertea_apple_tea.name": "Thé d'automne aux pommes",
+"ateliertea_apple_tea.description": "Thé aux pommes fraîchement infusé.",
+
+"ateliertea_vanilla_tea.name": "Thé Calico Vanille",
+"ateliertea_vanilla_tea.description": "Thé à la vanille fraîchement infusé.",
+
+"ateliertea_matcha_tea.name": "Thé matcha de cérémonie",
+"ateliertea_matcha_tea.description": "Thé matcha fraîchement infusé.",
+
+"ateliertea_cinnamon_tea.name": "Thé aux épices à la cannelle",
+"ateliertea_cinnamon_tea.description": "Thé à la cannelle fraîchement infusé.",
+
+"ateliertea_chamomile_tea.name": "Thé à la camomille douillet",
+"ateliertea_chamomile_tea.description": "Thé à la camomille fraîchement infusé.",
+
+"ateliertea_breakfast_tea.name": "Thé du petit-déjeuner anglais",
+"ateliertea_breakfast_tea.description": "Thé de petit-déjeuner anglais fraîchement infusé.",
+
+"ateliertea_jasmine_tea.name": "Thé parfumé au jasmin",
+"ateliertea_jasmine_tea.description": "Thé au jasmin fraîchement infusé.",
+
+"ateliertea_ginger_tea.name": "Thé Gingembre Pêche",
+"ateliertea_ginger_tea.description": "Thé pêche au gingembre fraîchement infusé.",
+
+"ateliertea_grey_tea.name": "Thé Lady Grey",
+"ateliertea_grey_tea.description": "Thé Lady Grey fraîchement infusé.",
+
+"ateliertea_lemon_tea.name": "Thé Citron Gingembre",
+"ateliertea_lemon_tea.description": "Thé au citron et au gingembre fraîchement infusé.",
+
+"ateliertea_mint_tea.name": "Thé à la menthe joyeuse",
+"ateliertea_mint_tea.description": "Thé à la menthe fraîchement infusé.",
+
+"ateliertea_berry_tea.name": "Thé aux baies mélangées",
+"ateliertea_berry_tea.description": "Thé aux baies mélangées fraîchement infusé.",
+
+"ateliertea_peach_tea.name": "Thé Pêche Mangue",
+"ateliertea_peach_tea.description": "Thé mangue pêche fraîchement infusé.",
+
+"ateliertea_pineapple_tea.name": "Thé Ananas Noix De Coco",
+"ateliertea_pineapple_tea.description": "Thé à l'ananas et à la noix de coco fraîchement infusé.",
+
+"ateliertea_pomegranate_tea.name": "Thé Vert à la Grenade",
+"ateliertea_pomegranate_tea.description": "Thé vert à la grenade fraîchement infusé.",
+
+"ateliertea_raspberry_tea.name": "Thé Citron à la Framboise",
+"ateliertea_raspberry_tea.description": "Thé citron framboise fraîchement infusé.",
+
+"ateliertea_rose_tea.name": "Thé aux pétales de rose",
+"ateliertea_rose_tea.description": "Thé aux pétales de rose fraîchement infusé.",
+
+"ateliertea_sakura_tea.name": "Thé aux Sakura",
+"ateliertea_sakura_tea.description": "Thé de sakura fraîchement infusé.",
+
+"ateliertea_strawberry_tea.name": "Thé à la fraise des bois",
+"ateliertea_strawberry_tea.description": "Thé fraise des bois fraîchement infusé.",
+
+//KOMBUCHA
+
+"ateliertea_apple_kombucha.name": "Kombucha aux pommes d'automne",
+"ateliertea_apple_kombucha.description": "Thé qui a été fermenté avec du miel en une délicieuse boisson pétillante.",
+
+"ateliertea_vanilla_kombucha.name": "Calico Vanille Kombucha",
+"ateliertea_vanilla_kombucha.description": "Thé qui a été fermenté avec du miel en une délicieuse boisson pétillante.",
+
+"ateliertea_matcha_kombucha.name": "Cérémonial Matcha Kombucha",
+"ateliertea_matcha_kombucha.description": "Thé qui a été fermenté avec du miel en une délicieuse boisson pétillante.",
+
+"ateliertea_cinnamon_kombucha.name": "Kombucha à la cannelle et aux épices",
+"ateliertea_cinnamon_kombucha.description": "Thé qui a été fermenté avec du miel en une délicieuse boisson pétillante.",
+
+"ateliertea_chamomile_kombucha.name": "Kombucha à la camomille confortable",
+"ateliertea_chamomile_kombucha.description": "Thé qui a été fermenté avec du miel en une délicieuse boisson pétillante.",
+
+"ateliertea_breakfast_kombucha.name": "Petit-déjeuner anglais Kombucha",
+"ateliertea_breakfast_kombucha.description": "Thé qui a été fermenté avec du miel en une délicieuse boisson pétillante.",
+
+"ateliertea_jasmine_kombucha.name": "Kombucha parfumé au jasmin",
+"ateliertea_jasmine_kombucha.description": "Thé qui a été fermenté avec du miel en une délicieuse boisson pétillante.",
+
+"ateliertea_ginger_kombucha.name": "Kombucha Gingembre Pêche",
+"ateliertea_ginger_kombucha.description": "Thé qui a été fermenté avec du miel en une délicieuse boisson pétillante.",
+
+"ateliertea_grey_kombucha.name": "Lady Grey Kombucha",
+"ateliertea_grey_kombucha.description": "Thé qui a été fermenté avec du miel en une délicieuse boisson pétillante.",
+
+"ateliertea_lemon_kombucha.name": "Kombucha Citron Gingembre",
+"ateliertea_lemon_kombucha.description": "Thé qui a été fermenté avec du miel en une délicieuse boisson pétillante.",
+
+"ateliertea_mint_kombucha.name": "Kombucha Menthe joyeuse",
+"ateliertea_mint_kombucha.description": "Thé qui a été fermenté avec du miel en une délicieuse boisson pétillante.",
+
+"ateliertea_berry_kombucha.name": "Kombucha aux baies mélangées",
+"ateliertea_berry_kombucha.description": "Thé qui a été fermenté avec du miel en une délicieuse boisson pétillante.",
+
+"ateliertea_peach_kombucha.name": "Kombucha Pêche Mangue",
+"ateliertea_peach_kombucha.description": "Thé qui a été fermenté avec du miel en une délicieuse boisson pétillante.",
+
+"ateliertea_pineapple_kombucha.name": "Kombucha Ananas Noix de Coco",
+"ateliertea_pineapple_kombucha.description": "Thé qui a été fermenté avec du miel en une délicieuse boisson pétillante.",
+
+"ateliertea_pomegranate_kombucha.name": "Kombucha Vert Grenade",
+"ateliertea_pomegranate_kombucha.description": "Thé qui a été fermenté avec du miel en une délicieuse boisson pétillante.",
+
+"ateliertea_raspberry_kombucha.name": "Kombucha Citron Framboise",
+"ateliertea_raspberry_kombucha.description": "Thé qui a été fermenté avec du miel en une délicieuse boisson pétillante.",
+
+"ateliertea_rose_kombucha.name": "Kombucha aux pétales de rose",
+"ateliertea_rose_kombucha.description": "Thé qui a été fermenté avec du miel en une délicieuse boisson pétillante.",
+
+"ateliertea_sakura_kombucha.name": "Kombucha aux Sakura",
+"ateliertea_sakura_kombucha.description": "Thé qui a été fermenté avec du miel en une délicieuse boisson pétillante.",
+
+"ateliertea_strawberry_kombucha.name": "Kombucha aux fraises des bois",
+"ateliertea_strawberry_kombucha.description": "Thé qui a été fermenté avec du miel en une délicieuse boisson pétillante.",
+
+//////////
+// MAIL //
+//////////
+
+"ateliertea_TeaKettleRecipe.text":"@, ^^ Si vous voulez vraiment vous lancer dans la préparation du thé, vous devriez essayer de fabriquer l'une de ces bouilloires. Il a aussi un moyen intégré de faire des sachets de thé ! J'aimerais essayer tous les nouveaux thés que vous créez.^^ - Caroline",
+"ateliertea_evelyn_gift.text":"@, ^^ J'ai entendu dire que vous en appreniez plus sur la préparation du thé ! Quelle merveilleuse aventure vous vous apprêtez à commencer. Ici : ce sont des graines de camomille de mon jardin. Les fleurs font une tisane apaisante qui aide à dormir.^^ - Evelyn",
+"ateliertea_leah_gift.text":"@, ^^ Comment se passe la préparation du thé ? Si vous avez du mal à récolter suffisamment de feuilles de thé, je serais heureuse de partager quelques graines avec vous ! Ceux-ci feront des buissons de thé robustes afin que vous puissiez faire tout le thé que vous voulez.^^ - Leah",
+"ateliertea_maru_gift.text":"@, ^^ Saviez-vous que vous pouvez fermenter le thé en kombucha ? Ce n'est pas la tasse de thé de tout le monde (désolé pour le jeu de mots) mais je trouve que c'est pétillant et délicieux ! Vous voudrez commencer à cultiver certains de ces champignons pour aider à la fermentation.^^ - Maru",
+
+////////////////////
+// SPECIAL ORDERS //
+////////////////////
+
+"ateliertea_SO_1.name":"Stock de sachets",
+"ateliertea_SO_1.text":"Je n'ai plus mon mélange de thé fait maison ! Quelqu'un peut-il me déposer des sachets pour passer la semaine ?",
+"ateliertea_SO_1a.deliver":"Livrez 2 sachets de thé épicé à la cannelle à Caroline.",
+"ateliertea_SO_1b.deliver":"Livrez 2 sachets de thé Merry Mint à Caroline.",
+"ateliertea_SO_1c.deliver":"Livrez 2 sachets de thé Lady Grey à Caroline.",
+"ateliertea_SO_1.accept":"Quelle belle variété de saveurs vous avez apportée ! Cela va certainement pimenter l'heure du thé pour moi.",
+
+"ateliertea_SO_2.name":"Tea Party",
+"ateliertea_SO_2.text":"Je reçois des dames pour du thé et des scones, mais je veux avoir une variété de saveurs parmi lesquelles choisir ! Quelqu'un peut-il m'aider ?",
+"ateliertea_SO_2a.deliver":"Livrez 2 thés Sakura dans la boîte de dépôt dans la cuisine d'Evelyn.",
+"ateliertea_SO_2b.deliver":"Livrez 2 thés aux pétales de rose dans la boîte de dépôt dans la cuisine d'Evelyn.",
+"ateliertea_SO_2c.deliver":"Livrez 2 thés anglais pour le petit-déjeuner dans la boîte de dépôt de la cuisine d'Evelyn.",
+
+"ateliertea_SO_3.name":"Apportez le Booch",
+"ateliertea_SO_3.text":"J'ai entendu Abigail et Sebby parler de la qualité du kombucha pour vous... quelqu'un peut-il m'en apporter pour que je puisse voir par moi-même ?",
+"ateliertea_SO_3a.deliver":"Livrez 2 kombuchas aux pommes d'automne dans la boîte de dépôt de l'atelier de Robin.",
+"ateliertea_SO_3b.deliver":"Livrez 2 kombuchas framboise-citron dans la boîte de dépôt de l'atelier de Robin.",
+"ateliertea_SO_3c.deliver":"Livrez 2 kombuchas à la fraise des bois dans la boîte de dépôt de l'atelier de Robin.",
+"ateliertea_SO_3d.deliver":"Livrez 2 kombuchas vert grenade dans la boîte de dépôt de l'atelier de Robin.",
+
+"ateliertea_SO_4.name": "Thé pour dormir",
+"ateliertea_SO_4.text":"Je suis épuisé et j'aimerais bien dormir. Quelqu'un peut-il m'apporter des tisanes apaisantes pour m'aider ?",
+"ateliertea_SO_4a.deliver":"Livrez 3 sachets de thé à la camomille dans la boîte de dépôt de la cuisine de Jodi.",
+"ateliertea_SO_4b.deliver":"Livrez 3 sachets de thé à la menthe joyeuse dans la boîte de dépôt dans la cuisine de Jodi.",
+"ateliertea_SO_4c.deliver":"Livrez 3 sachets de thé à la vanille Calico dans la boîte de dépôt dans la cuisine de Jodi.",
+"ateliertea_SO_4d.deliver":"Livrez 3 sachets de thé au citron et au gingembre dans la boîte de dépôt de la cuisine de Jodi.",
+
+"ateliertea_SO_5.name":"Défi du maître brasseur de thé",
+"ateliertea_SO_5.text":"C'est encore cette période de l'année - les candidatures annuelles pour le rôle de maître brasseur de thé sont ouvertes ! Envoyez-nous vos meilleurs thés pour voir si vous pouvez gagner le grand prix !",
+"ateliertea_SO_5.ship":"Expédier 100 produits de thé de qualité Or.",
+
+"ateliertea_SO_6.name":"Kombucha pour Alex",
+"ateliertea_SO_6.text":"Pierre ne portera pas de kombucha peu importe ce que je lui demande. Comment vais-je l'obtenir maintenant ?",
+"ateliertea_SO_6.deliver":"Livrez 4 kombucha à Alex.",
+"ateliertea_SO_6.accept":"VOUS AVEZ APPORTÉ LE BOOCH ! Merci de les avoir déposés.",
+
+"ateliertea_SO_7.name":"Thé pour Haley",
+"ateliertea_SO_7.text":"C'est tellement fatigant de commander mon thé en ligne ; comment puis-je savoir qu'il est de haute qualité si je ne peux même pas le voir ? Peut-être que quelqu'un en ville pourrait me vendre des thés à la place..." ,
+"ateliertea_SO_7.deliver":"Livrez 6 thés à Haley.",
+"ateliertea_SO_7.accept":"Ces thés sont absolument ravissants. Je vais en profiter - merci encore !",
+
+"ateliertea_SO_8.name":"Sachets pour Sandy",
+"ateliertea_SO_8.text":"Je veux faire un grand pichet de thé glacé pour me rafraîchir ici dans le désert. Quelqu'un peut-il me livrer des sachets ?",
+"ateliertea_SO_8.deliver":"Livrez 8 sachets à Sandy.",
+"ateliertea_SO_8.accept":"Maintenant, je n'aurai plus l'impression de fondre dans la chaleur du désert ! Merci, mon ami.",
+
+//TEA REWARDS MAIL
+ 
+"ateliertea_SO2_reward.title": "Merci ; plus quelques graines de thé !",
+"ateliertea_SO2_reward.text": "Eh bien, n'allons-nous pas avoir le thé victorien parfait avec ça !",
+
+"ateliertea_SO3_reward.title": "Merci, plus quelques entrées de champignons !",
+"ateliertea_SO3_reward.text": "Oh, c'est plus pétillant que je ne l'imaginais ! Mais étonnamment savoureux.",
+
+"ateliertea_SO4_reward.title": "Merci encore !",
+"ateliertea_SO4_reward.text": "Ces odeurs sont si apaisantes que je parie que je m'endormirai avant de toucher l'oreiller ce soir !",
+
+"ateliertea_SO5_reward.title": "Félicitations !",
+"ateliertea_SO5_reward.text": "Votre dévouement est impressionnant. Nous sommes fiers de vous offrir le titre de Maître brasseur de thé. Veuillez le prendre comme une récompense.",
+
+
+}

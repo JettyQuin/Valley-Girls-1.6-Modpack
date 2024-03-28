@@ -1,0 +1,155 @@
+{
+    "Changes": [
+
+        {
+              "LogName":"QL - Seeds and Sapling SpringObjects",
+              "Action": "EditData",
+              "Target": "Data/Objects",
+              "Entries": {
+//SEEDS
+                  "PC.QL.FlowerGarden2_AmaryllisSeeds": {                      "Name": "Amaryllis Bulb",                      "Displayname": "{{i18n:Amaryllis.seed.name}}",                      "Description": "{{i18n:Amaryllis.seed.description}}",
+                    "Type": "Seeds",
+                    "Category": ‐74,
+                    "Price": 35,
+                    "Texture": "Mods/PC.QL.FlowerGarden2/Objects",                      "SpriteIndex": 48
+              },
+{
+                  "PC.QL.FlowerGarden2_CallaLilySeeds": {                      "Name": "Calla Lily Bulb",                      "Displayname": "{{i18n:CallaLily.seed.name}}",                      "Description": "{{i18n:CallaLily.seed.description}}",
+                    "Type": "Seeds",
+                    "Category": ‐74,
+                    "Price": 100,
+                    "Texture": "Mods/PC.QL.FlowerGarden2/Objects",                      "SpriteIndex": 49
+              },
+                  "PC.QL.FlowerGarden2_CarnationSeeds": {                      "Name": "Carnation Seeds",                      "Displayname": "{{i18n:Carnation.seed.name}}",                      "Description": "{{i18n:Carnation.seed.description}}",
+                    "Type": "Seeds",
+                    "Category": ‐74,
+                    "Price": 50,
+                    "Texture": "Mods/PC.QL.FlowerGarden2/Objects",                      "SpriteIndex": 50
+              },
+{
+                  "PC.QL.FlowerGarden2_DahliaSeeds": {                      "Name": "Dahlia Seeds",                      "Displayname": "{{i18n:Dahlia.seed.name}}",                      "Description": "{{i18n:Dahlia.seed.description}}",
+                    "Type": "Seeds",
+                    "Category": ‐74,
+                    "Price": 35,
+                    "Texture": "Mods/PC.QL.FlowerGarden2/Objects",                      "SpriteIndex": 51
+              },
+                  "PC.QL.FlowerGarden2_DelphiniumSeeds": {                      "Name": "Dephinium Seeds",                      "Displayname": "{{i18n:Delphinium.seed.name}}",                      "Description": "{{i18n:Delphinium.seed.description}}",
+                    "Type": "Seeds",
+                    "Category": ‐74,
+                    "Price": 65,
+                    "Texture": "Mods/PC.QL.FlowerGarden2/Objects",                      "SpriteIndex": 52
+              },
+                  "PC.QL.FlowerGarden2_FreesiaSeeds": {                      "Name": "Freesia Corms",                      "Displayname": "{{i18n:Freesia.seed.name}}",                      "Description": "{{i18n:Freesi.seed.description}}",
+                    "Type": "Seeds",
+                    "Category": ‐74,
+                    "Price": 50,
+                    "Texture": "Mods/PC.QL.FlowerGarden2/Objects",                      "SpriteIndex": 53
+              },
+                  "PC.QL.FlowerGarden2_FritillariaSeeds": {                      "Name": "Fritillaria Bulb",                      "Displayname": "{{i18n:Fritillaria.seed.name}}",                      "Description": "{{i18n:Fritillaria.seed.description}}",
+                    "Type": "Seeds",
+                    "Category": ‐74,
+                    "Price": 40,
+                    "Texture": "Mods/PC.QL.FlowerGarden2/Objects",                      "SpriteIndex": 54
+              },
+                  "PC.QL.FlowerGarden2_IrisSeeds": {                      "Name": "Dahlia Seeds",                      "Displayname": "{{i18n:Iris.seed.name}}",                      "Description": "{{i18n:Iris.seed.description}}",
+                    "Type": "Seeds",
+                    "Category": ‐74,
+                    "Price": 40,
+                    "Texture": "Mods/PC.QL.FlowerGarden2/Objects",                      "SpriteIndex": 55
+              },
+                  "PC.QL.FlowerGarden2_JasmineSeeds": {  
+                    "Name": "Jasmine Starters",                      "Displayname": "{{i18n:Jasmine.seed.name}}",                      "Description": "{{i18n:Jasmine.seed.description}}",
+                    "Type": "Seeds",
+                    "Category": ‐74,
+                    "Price": 80,
+                    "Texture": "Mods/PC.QL.FlowerGarden2/Objects",                      "SpriteIndex": 56
+              },
+                  "PC.QL.FlowerGarden2_LavenderSeeds": {                      "Name": "Lavender Seeds",                      "Displayname": "{{i18n:Lavender.seed.name}}",                      "Description": "{{i18n:Lavender.seed.description}}",
+                    "Type": "Seeds",
+                    "Category": ‐74,
+                    "Price": 45,
+                    "Texture": "Mods/PC.QL.FlowerGarden2/Objects",                      "SpriteIndex": 57
+              },
+                  "PC.QL.FlowerGarden2_LilySeeds": {                      "Name": "Lily Bulb",                      "Displayname": "{{i18n:Lily.seed.name}}",                      "Description": "{{i18n:Lily.seed.description}}",
+                    "Type": "Seeds",
+                    "Category": ‐74,
+                    "Price": 60,
+                    "Texture": "Mods/PC.QL.FlowerGarden2/Objects",                      "SpriteIndex": 58
+              },
+                  "PC.QL.FlowerGarden2_OrchidSeeds": {                      "Name": "Orchid Seedling",                      "Displayname": "{{i18n:Lily.seed.name}}",                      "Description": "{{i18n:Lily.seed.description}}",
+                    "Type": "Seeds",
+                    "Category": ‐74,
+                    "Price": 1500,
+                    "Texture": "Mods/PC.QL.FlowerGarden2/Objects",                      "SpriteIndex": 59
+              },
+                  "PC.QL.FlowerGarden2_PansySeeds": {                      "Name": "Lily Bulb",                      "Displayname": "{{i18n:Pansy.seed.name}}",                      "Description": "{{i18n:Pansy.seed.description}}",
+                    "Type": "Seeds",
+                    "Category": ‐74,
+                    "Price": 15,
+                    "Texture": "Mods/PC.QL.FlowerGarden2/Objects",                      "SpriteIndex": 60
+              },
+                  "PC.QL.FlowerGarden2_PeonySeeds": {                      "Name": "Peony Seeds",                      "Displayname": "{{i18n:Peony.seed.name}}",                      "Description": "{{i18n:Peony.seed.description}}",
+                    "Type": "Seeds",
+                    "Category": ‐74,
+                    "Price": 100,
+                    "Texture": "Mods/PC.QL.FlowerGarden2/Objects",                      "SpriteIndex": 61
+              },
+                  "PC.QL.FlowerGarden2_RoseSeeds": {  
+                    "Name": "Rose Starter",                      "Displayname": "{{i18n:Rose.seed.name}}",                      "Description": "{{i18n:Rose.seed.description}}",
+                    "Type": "Seeds",
+                    "Category": ‐74,
+                    "Price": 800,
+                    "Texture": "Mods/PC.QL.FlowerGarden2/Objects",                      "SpriteIndex": 62
+              },
+                  "PC.QL.FlowerGarden2_SnapdragonSeeds": {                      "Name": "Snapdragon Seeds",                      "Displayname": "{{i18n:Snapdragon.seed.name}}",                      "Description": "{{i18n:Snapdragon.seed.description}}",
+                    "Type": "Seeds",
+                    "Category": ‐74,
+                    "Price": 70,
+                    "Texture": "Mods/PC.QL.FlowerGarden2/Objects",                      "SpriteIndex": 63
+              },
+                  "PC.QL.FlowerGarden2_StripedSquillSeeds": {                      "Name": "Striped Squill Bulb",                      "Displayname": "{{i18n:StripedSquill.seed.name}}",                      "Description": "{{i18n:StripedSquill.seed.description}}",
+                    "Type": "Seeds",
+                    "Category": ‐74,
+                    "Price": 25,
+                    "Texture": "Mods/PC.QL.FlowerGarden2/Objects",                      "SpriteIndex": 64
+              },
+                  "PC.QL.FlowerGarden2_ZinniaSeeds": {                      "Name": "Zinnia Seeds",                      "Displayname": "{{i18n:Zinnia.seed.name}}",                      "Description": "{{i18n:Zinnia.seed.description}}",
+                    "Type": "Seeds",
+                    "Category": ‐74,
+                    "Price": 50,
+                    "Texture": "Mods/PC.QL.FlowerGarden2/Objects",                      "SpriteIndex": 65
+              },
+
+//TREE SAPLINGS
+
+                  "PC.QL.FlowerGarden2_AlamandaSapling": {                      "Name": "PC.QL.FlowerGarden2_AlamandaSapling",                      "Displayname": "{{i18n:Alamanda.seed.name}}",                      "Description": "{{i18n:Alamanda.seed.description}}",
+                    "Type": "Basic",
+                    "Category": ‐74,
+                    "Price": 2500,
+                    "Texture": "Mods/PC.QL.FlowerGarden2/Objects",                      "SpriteIndex": 80
+              },
+                  "PC.QL.FlowerGarden2_GardeniaSapling": {                      "Name": "PC.QL.FlowerGarden2_GardeniaSapling",                      "Displayname": "{{i18n:Gardenia.sapling.name}}",                      "Description": "{{i18n:Gardenia.sapling.description}}",
+                    "Type": "Basic",
+                    "Category": ‐74,
+                    "Price": 5000,
+                    "Texture": "Mods/PC.QL.FlowerGarden2/Objects",                      "SpriteIndex": 81
+              },
+                  "PC.QL.FlowerGarden2_HibiscusSapling": {                      "Name": "PC.QL.FlowerGarden2_HibiscusSapling",                      "Displayname": "{{i18n:Hibiscus.sapling.name}}",                      "Description": "{{i18n:Hibiscus.sapling.description}}",
+                    "Type": "Basic",
+                    "Category": ‐74,
+                    "Price": 3500,
+                    "Texture": "Mods/PC.QL.FlowerGarden2/Objects",                      "SpriteIndex": 82
+              },
+                  "PC.QL.FlowerGarden2_LilacSapling": {                      "Name": "PC.QL.FlowerGarden2_LilacSapling",                      "Displayname": "{{i18n:Lilac.sapling.name}}",                      "Description": "{{i18n:Lilac.sapling.description}}",
+                    "Type": "Basic",
+                    "Category": ‐74,
+                    "Price": 4000,
+                    "Texture": "Mods/PC.QL.FlowerGarden2/Objects",                      "SpriteIndex": 83
+              },
+         }
+    }
+
+
+
+           ]
+}

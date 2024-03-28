@@ -1,0 +1,167 @@
+{
+   
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Dwarf", "Items" ],
+            "Entries": {
+                "PC.QL.FlowerGarden2_Extractor": {
+                    "Id": "PC.QL.FlowerGarden2_Extractor",
+                    "ItemId": "(BC)PC.QL.FlowerGarden2_Extractor",
+                    "Price": 25000
+                },
+        }
+   },
+
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Sandy", "Items" ],
+            "Entries": {
+                "PC.QL.FlowerGarden2_JasmineSeeds": {
+                    "Id": "PC.QL.FlowerGarden2_JasmineSeeds",
+                    "ItemId": "(O)PC.QL.FlowerGarden2_JasmineSeeds",
+                    "Price": 40,
+                    "Condition": "SEASON spring summer, PLAYER_MONEY_EARNED 500000"
+                }
+        }
+},
+
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "SeedShop", "Items" ],
+            "Entries": {
+
+//FLOWER CROPS
+                "PC.QL.FlowerGarden2_AmaryllisSeeds": {
+                    "Id": "PC.QL.FlowerGarden2_AmaryllisSeeds",
+                    "ItemId": "(O)PC.QL.FlowerGarden2_AmaryllisSeeds",
+                    "Price": 50,
+                    "Condition": "SEASON winter, YEAR 2"
+                },
+                "PC.QL.FlowerGarden2_CallaLilySeeds": {
+                    "Id": "PC.QL.FlowerGarden2_CallaLilySeeds",
+                    "ItemId": "(O)PC.QL.FlowerGarden2_CallaLilySeeds",
+                    "Price": 100,
+                    "Condition": "SEASON summer, PLAYER_FARMING_LEVEL 6"
+                },
+                "PC.QL.FlowerGarden2_CarnationSeeds": {
+                    "Id": "PC.QL.FlowerGarden2_CarnationSeeds",
+                    "ItemId": "(O)PC.QL.FlowerGarden2_CarnationSeeds",
+                    "Price": 150,
+                    "Condition": "SEASON summer, PLAYER_LUCK_LEVEL 3"
+                },
+                "PC.QL.FlowerGarden2_DahliaSeeds": {
+                    "Id": "PC.QL.FlowerGarden2_DahliaSeeds",
+                    "ItemId": "(O)PC.QL.FlowerGarden2_DahliaSeeds",
+                    "Price": 40,
+                    "Condition": "SEASON spring fall"
+                },
+                "PC.QL.FlowerGarden2_DelphiniumSeeds": {
+                    "Id": "PC.QL.FlowerGarden2_DelphiniumSeeds",
+                    "ItemId": "(O)PC.QL.FlowerGarden2_DelphiniumSeeds",
+                    "Price": 65,
+                    "Condition": "SEASON summer"
+                },
+                "PC.QL.FlowerGarden2_FreesiaSeeds": {
+                    "Id": "PC.QL.FlowerGarden2_FreesiaSeeds",
+                    "ItemId": "(O)PC.QL.FlowerGarden2_FreesiaSeeds",
+                    "Price": 80,
+                    "Condition": "SEASON spring"
+                },
+                "PC.QL.FlowerGarden2_FritillariaSeeds": {
+                    "Id": "PC.QL.FlowerGarden2_FritillariaSeeds",
+                    "ItemId": "(O)PC.QL.FlowerGarden2_FritillariaSeeds",
+                    "Price": 40,
+                    "Condition": "SEASON spring"
+                },
+                "PC.QL.FlowerGarden2_IrisSeeds": {
+                    "Id": "PC.QL.FlowerGarden2_IrisSeeds",
+                    "ItemId": "(O)PC.QL.FlowerGarden2_IrisSeeds",
+                    "Price": 40,
+                    "Condition": "SEASON spring summer fall"
+                },
+                "PC.QL.FlowerGarden2_LavenderSeeds": {
+                    "Id": "PC.QL.FlowerGarden2_LavenderSeeds",
+                    "ItemId": "(O)PC.QL.FlowerGarden2_LavenderSeeds",
+                    "Price": 45,
+                    "Condition": "SEASON fall, PLAYER_FARMING_LEVEL 5"
+                },
+                "PC.QL.FlowerGarden2_LilySeeds": {
+                    "Id": "PC.QL.FlowerGarden2_LilySeeds",
+                    "ItemId": "(O)PC.QL.FlowerGarden2_LilySeeds",
+                    "Price": 60,
+                    "Condition": "SEASON summer fall"
+                },
+                "PC.QL.FlowerGarden2_OrchidSeeds": {
+                    "Id": "PC.QL.FlowerGarden2_OrchidSeeds",
+                    "ItemId": "(O)PC.QL.FlowerGarden2_OrchidSeeds",
+                    "Price": 1500,
+                    "Condition": "PLAYER_MONEY_EARNED 1000000"
+                },
+                "PC.QL.FlowerGarden2_PansySeeds": {
+                    "Id": "PC.QL.FlowerGarden2_PansySeeds",
+                    "ItemId": "(O)PC.QL.FlowerGarden2_PansySeeds",
+                    "Price": 15,
+                    "Condition": "SEASON spring winter"
+                },
+                "PC.QL.FlowerGarden2_PeonySeeds": {
+                    "Id": "PC.QL.FlowerGarden2_PeonySeeds",
+                    "ItemId": "(O)PC.QL.FlowerGarden2_PeonySeeds",
+                    "Price": 100,
+                    "Condition": "SEASON spring"
+                },
+                "PC.QL.FlowerGarden2_RoseSeeds": {
+                    "Id": "PC.QL.FlowerGarden2_RoseSeeds",
+                    "ItemId": "(O)PC.QL.FlowerGarden2_RoseSeeds",
+                    "Price": 800,
+                    "Condition": "SEASON spring summer fall, YEAR 2"
+                },
+                "PC.QL.FlowerGarden2_SnapdragonSeeds": {
+                    "Id": "PC.QL.FlowerGarden2_SnapdragonSeeds",
+                    "ItemId": "(O)PC.QL.FlowerGarden2_SnapdragonSeeds",
+                    "Price": 70,
+                    "Condition": "SEASON spring fall, YEAR 2"
+                },
+                "PC.QL.FlowerGarden2_StripedSquillSeeds": {
+                    "Id": "PC.QL.FlowerGarden2_StripedSquillSeeds",
+                    "ItemId": "(O)PC.QL.FlowerGarden2_StripedSquillSeeds",
+                    "Price": 25,
+                    "Condition": "SEASON spring winter, PLAYER_FARMING_LEVEL 5"
+                },
+                "PC.QL.FlowerGarden2_ZinniaSeeds": {
+                    "Id": "PC.QL.FlowerGarden2_ZinniaSeeds",
+                    "ItemId": "(O)PC.QL.FlowerGarden2_ZinniaSeeds",
+                    "Price": 30,
+                    "Condition": "SEASON summer fall"
+                },
+//FLOWER BUSHES
+                "PC.QL.FlowerGarden2_AlamandaSapling": {
+                    "Id": "PC.QL.FlowerGarden2_AlamandaSapling",
+                    "ItemId": "(O)PC.QL.FlowerGarden2_AlamandaSapling",
+                    "Price": 2500,
+                    "Condition": "YEAR 2"
+                },
+                "PC.QL.FlowerGarden2_GardeniaSapling": {
+                    "Id": "PC.QL.FlowerGarden2_GardeniaSapling",
+                    "ItemId": "(O)PC.QL.FlowerGarden2_GardeniaSapling",
+                    "Price": 5000
+                },
+                "PC.QL.FlowerGarden2_HibiscusSapling": {
+                    "Id": "PC.QL.FlowerGarden2_HibiscusSapling",
+                    "ItemId": "(O)PC.QL.FlowerGarden2_HibiscusSapling",
+                    "Price": 3500
+                },
+                "PC.QL.FlowerGarden2_LilacSapling": {
+                    "Id": "PC.QL.FlowerGarden2_LilacSapling",
+                    "ItemId": "(O)PC.QL.FlowerGarden2_LilacSapling",
+                    "Price": 4000
+                },
+
+        }
+},
+
+   ]
+}

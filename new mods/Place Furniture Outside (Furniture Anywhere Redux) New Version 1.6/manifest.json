@@ -1,0 +1,13 @@
+{
+  "Name": "Place Furniture Outside (Furniture Anywhere Redux) by glymr",
+  "Author": "glymr",
+  "Version": "1.0.0",
+  "Description": "Allows you to place furniture outside. @New Version",
+  "UniqueID": "glymr.FurnitureOutside",
+  "UpdateKeys": [
+//    "Nexus:21147@New",
+  ],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  }
+}

@@ -1,0 +1,380 @@
+{
+    "Format": "2.0.0",
+
+    "ConfigSchema": {
+      
+        "EasyRecipes": {
+          "Description": "If you want the machine recipes to be default/known immediately. Otherwise they will unlock when you reach certain heart levels with NPCS.",
+          "AllowValues": "true, false",
+          "Default": "false",
+          "AllowBlank": false,
+          "AllowMultiple": false
+        },
+        "ShippingCollection": {
+            "Description": "If you want to include the objects in this mod from the shipping collection. Set to false if you do not want these items required for perfection or shipping achievement. Defaults to True.",
+            "AllowValues": "true, false",
+            "Default": "true",
+            "AllowBlank": false,
+            "AllowMultiple": false
+          },
+        "FlowerStationColor": 
+        {
+            "Description": "Option to Choose Recolor for the Flower Station. Defaults to base original color.",
+            "AllowValues": "Base, Black, Blue, Cream, Mint, Mocha, Pink, Purple",
+            "Default": "Base",
+            "AllowBlank": false
+        },
+
+        "FragranceStationColor": 
+        {
+            "Description": "Option to Choose Recolor for the Fragrance Station. Defaults to base original color.",
+            "AllowValues": "Base, Black, Blue, Cream, Mint, Mocha, Pink, Purple",
+            "Default": "Base",
+            "AllowBlank": false
+        },
+
+        "WildflourTubColor": 
+        {
+            "Description": "Option to Choose Recolor for the Tub of Wildflours. Defaults to base original color.",
+            "AllowValues": "Base, Black, Blue, Cream, Mint, Mocha, Pink, Purple",
+            "Default": "Base",
+            "AllowBlank": false
+        },
+
+        "WaxCauldronColor": 
+        {
+            "Description": "Option to Choose Recolor for the Wax Cauldron. ONLY applied if Bees Knees Mod is also installed.",
+            "AllowValues": "Base, Black, Blue, Cream, Mint, Mocha, Pink, Purple",
+            "Default": "Base",
+            "AllowBlank": false
+        },
+
+        "EnableSpecialOrders": 
+		{
+            "Description": "If you want to enable special orders that correspond to this mod's new items. True by default",
+			"AllowValues": "true, false",
+			"Default": "true",
+            "AllowBlank": false
+		}
+},
+
+"DynamicTokens": [
+    {
+        "Name": "ShippingConfig",
+        "Value": "False",
+        "When": {
+            "ShippingCollection": "True"
+        }
+    },
+    {
+        "Name": "ShippingConfig",
+        "Value": "True",
+        "When": {
+            "ShippingCollection": "False"
+        }
+    },
+    {
+        "Name": "FlowerRecolor",
+        "Value": "Base",
+        "When": {
+            "FlowerStationColor": "Base"
+        }
+    },
+    {
+        "Name": "FlowerRecolor",
+        "Value": "Black",
+        "When": {
+            "FlowerStationColor": "Black"
+        }
+    },
+    {
+        "Name": "FlowerRecolor",
+        "Value": "Blue",
+        "When": {
+            "FlowerStationColor": "Blue"
+        }
+    },
+    {
+        "Name": "FlowerRecolor",
+        "Value": "Cream",
+        "When": {
+            "FlowerStationColor": "Cream"
+        }
+    },
+    {
+        "Name": "FlowerRecolor",
+        "Value": "Mint",
+        "When": {
+            "FlowerStationColor": "Mint"
+        }
+    },
+    {
+        "Name": "FlowerRecolor",
+        "Value": "Mocha",
+        "When": {
+            "FlowerStationColor": "Mocha"
+        }
+    },
+    {
+        "Name": "FlowerRecolor",
+        "Value": "Pink",
+        "When": {
+            "FlowerStationColor": "Pink"
+        }
+    },
+    {
+        "Name": "FlowerRecolor",
+        "Value": "Purple",
+        "When": {
+            "FlowerStationColor": "Purple"
+        }
+    },
+
+    {
+        "Name": "FragranceRecolor",
+        "Value": "Base",
+        "When": {
+            "FragranceStationColor": "Base"
+        }
+    },
+    {
+        "Name": "FragranceRecolor",
+        "Value": "Black",
+        "When": {
+            "FragranceStationColor": "Black"
+        }
+    },
+    {
+        "Name": "FragranceRecolor",
+        "Value": "Blue",
+        "When": {
+            "FragranceStationColor": "Blue"
+        }
+    },
+    {
+        "Name": "FragranceRecolor",
+        "Value": "Cream",
+        "When": {
+            "FragranceStationColor": "Cream"
+        }
+    },
+    {
+        "Name": "FragranceRecolor",
+        "Value": "Mint",
+        "When": {
+            "FragranceStationColor": "Mint"
+        }
+    },
+    {
+        "Name": "FragranceRecolor",
+        "Value": "Mocha",
+        "When": {
+            "FragranceStationColor": "Mocha"
+        }
+    },
+    {
+        "Name": "FragranceRecolor",
+        "Value": "Pink",
+        "When": {
+            "FragranceStationColor": "Pink"
+        }
+    },
+    {
+        "Name": "FragranceRecolor",
+        "Value": "Purple",
+        "When": {
+            "FragranceStationColor": "Purple"
+        }
+    },
+
+    {
+        "Name": "TubRecolor",
+        "Value": "Base",
+        "When": {
+            "WildflourTubColor": "Base"
+        }
+    },
+    {
+        "Name": "TubRecolor",
+        "Value": "Black",
+        "When": {
+            "WildflourTubColor": "Black"
+        }
+    },
+    {
+        "Name": "TubRecolor",
+        "Value": "Blue",
+        "When": {
+            "WildflourTubColor": "Blue"
+        }
+    },
+    {
+        "Name": "TubRecolor",
+        "Value": "Cream",
+        "When": {
+            "WildflourTubColor": "Cream"
+        }
+    },
+    {
+        "Name": "TubRecolor",
+        "Value": "Mint",
+        "When": {
+            "WildflourTubColor": "Mint"
+        }
+    },
+    {
+        "Name": "TubRecolor",
+        "Value": "Mocha",
+        "When": {
+            "WildflourTubColor": "Mocha"
+        }
+    },
+    {
+        "Name": "TubRecolor",
+        "Value": "Pink",
+        "When": {
+            "WildflourTubColor": "Pink"
+        }
+    },
+    {
+        "Name": "TubRecolor",
+        "Value": "Purple",
+        "When": {
+            "WildflourTubColor": "Purple"
+        }
+    },
+    {
+        "Name": "CauldronRecolor",
+        "Value": "Base",
+        "When": {
+            "WaxCauldronColor": "Base"
+        }
+    },
+    {
+        "Name": "CauldronRecolor",
+        "Value": "Black",
+        "When": {
+            "WaxCauldronColor": "Black"
+        }
+    },
+    {
+        "Name": "CauldronRecolor",
+        "Value": "Blue",
+        "When": {
+            "WaxCauldronColor": "Blue"
+        }
+    },
+    {
+        "Name": "CauldronRecolor",
+        "Value": "Cream",
+        "When": {
+            "WaxCauldronColor": "Cream"
+        }
+    },
+    {
+        "Name": "CauldronRecolor",
+        "Value": "Mint",
+        "When": {
+            "WaxCauldronColor": "Mint"
+        }
+    },
+    {
+        "Name": "CauldronRecolor",
+        "Value": "Mocha",
+        "When": {
+            "WaxCauldronColor": "Mocha"
+        }
+    },
+    {
+        "Name": "CauldronRecolor",
+        "Value": "Pink",
+        "When": {
+            "WaxCauldronColor": "Pink"
+        }
+    },
+    {
+        "Name": "CauldronRecolor",
+        "Value": "Purple",
+        "When": {
+            "WaxCauldronColor": "Purple"
+        }
+    },
+],
+
+    "Changes": [
+      
+        //Include Objects
+
+        {
+            "LogName": "Floral Objects",
+            "Action": "Include",
+            "FromFile": "Data/objects.json",
+        },
+
+        //Include Candles Add On
+
+        {
+            "LogName": "Candles Add On",
+            "Action": "Include",
+            "FromFile": "Data/objects_candles.json",
+            "When":{"HasMod |contains=wildflour.honeybees": true}
+        },
+
+        //Include Crafting Recipes
+
+        {
+            "LogName": "Crafting Recipes",
+            "Action": "Include",
+            "FromFile": "Data/recipes.json",
+            "When": {"EasyRecipes": false}
+        },
+
+        {
+            "LogName": "Crafting Recipes Easy",
+            "Action": "Include",
+            "FromFile": "Data/recipes_easy.json",
+            "When": {"EasyRecipes": true}
+        },
+       
+        //Include Gift Tastes
+
+        {
+            "LogName": "Floral Gift Tastes",
+            "Action": "Include",
+            "FromFile": "Data/gifttastes.json",
+        },
+
+         //Include Mail
+
+        {
+            "LogName": "Floral Mail",
+            "Action": "Include",
+            "FromFile": "Data/mail.json",
+        },
+
+        //Include Machine Interactions
+
+        {
+            "LogName": "Floral Machine Rules",
+            "Action": "Include",
+            "FromFile": "Data/machines.json",
+        },
+
+        //Include Special Orders
+
+        {
+            "LogName": "Floral Special Orders",
+            "Action": "Include",
+            "FromFile": "Data/specialorders.json",
+            "When": {"EnableSpecialOrders": true}
+        },
+        
+        //Include Textures
+
+        {
+            "LogName": "Floral Textures",
+            "Action": "Include",
+            "FromFile": "Data/textures.json",
+        },
+    ]
+}

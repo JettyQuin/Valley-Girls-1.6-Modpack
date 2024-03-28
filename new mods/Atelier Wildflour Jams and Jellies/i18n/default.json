@@ -1,0 +1,164 @@
+{
+
+    "jams_banana_maple_jam.name": "Banana Maple Jam",
+	"jams_banana_maple_jam.description": "Jam made from mashed ripe bananas and locally sourced maple syrup.",
+
+	"jams_banana_split_jam.name": "Banana Split Jam",
+	"jams_banana_split_jam.description": "Bananas, strawberries and a cherry on top!",
+
+	"jams_blackberry_mint_jelly.name": "Blackberry Mint Jelly",
+	"jams_blackberry_mint_jelly.description": "A sweet jelly made from foraged blackberries and homegrown mint.",
+
+	"jams_blueberry_lavender_jelly.name": "Blueberry Lavender Jelly",
+	"jams_blueberry_lavender_jelly.description": "A sweet jelly made with fresh blueberries and foraged lavender.",
+	
+	"jams_blue_jazz_jelly.name": "Blue Jazz Jelly",
+	"jams_blue_jazz_jelly.description": "Floral jelly made from the petals of blue jazz flowers.",
+
+	"jams_chamomile_jelly.name":"Chamomile Jelly",
+	"jams_chamomile_jelly.description":"Floral jelly made from the petals of foraged chamomile flowers.",
+	
+	"jams_cherry_vanilla_jam.name": "Cherry Vanilla Jam",
+	"jams_cherry_vanilla_jam.description": "Jam made with freshly picked cherries and floral vanilla bean.",
+	
+	"jams_cinnamon_apple_preserves.name": "Cinnamon Apple Preserves",
+	"jams_cinnamon_apple_preserves.description": "Fresh, crisp apples and spicy cinnamon _ add these preserves to pretty much anything for a blast of Autumn flavor.",
+
+	"jams_cranberry_chutney.name": "Cranberry Chutney",
+	"jams_cranberry_chutney.description": "Cranberry sauce is so overrated _ have you tried this bright and citrusy chutney instead?",
+
+	"jams_crocus_jelly.name": "Crocus Jelly",
+	"jams_crocus_jelly.description": "Jelly made from wild crocus blossoms; its flavor is a bit like vanilla and spice.",
+
+	"jams_dandelion_jelly.name": "Dandelion Jelly",
+	"jams_dandelion_jelly.description": "Jelly made from foraged dandelions; it tastes delicate and sweet.",
+
+	"jams_honey_apricot_preserves.name": "Honey Apricot Preserves",
+	"jams_honey_apricot_preserves.description": "Preserves made with local honey and freshly picked apricots",
+
+	"jams_honey_peach_preserves.name": "Honey Peach Preserves",
+	"jams_honey_peach_preserves.description": "Preserves made with local honey and freshly_picked peaches.",
+
+	"jams_mango_chutney.name": "Mango Chutney",
+	"jams_mango_chutney.description": "This summery chutney is perfect over a freshly caught and roasted fish.",
+	
+	"jams_mixed_berry_preserves.name": "Mixed Berry Preserves",
+	"jams_mixed_berry_preserves.description": "Preserves made with three kinds of fresh berries.",
+
+	"jams_peach_blossom_jelly.name":"Sakura Peach Jelly",
+	"jams_peach_blossom_jelly.description":"Cherry blossom petals and freshly_picked peaches cooked down into a deliciously fragrant jelly.",
+	
+	"jams_peach_ginger_preserves.name": "Peach Ginger Preserves",
+	"jams_peach_ginger_preserves.description": "Preserves made with peaches and a bit of Ginger Island ginger for an added kick of flavor.",
+	
+	"jams_rose_petal_jelly.name":"Rose Petal Jelly",
+	"jams_rose_petal_jelly.description":"Floral jelly made from rose petals.",
+	
+	"jams_flower_dance_jelly.name": "Special Edition Flower Dance Jelly",
+	"jams_flower_dance_jelly.description": "Small batch jelly made in celebration of Pelican Town's Annual Flower Dance!",
+	
+	"jams_luau_jam.name": "Special Edition Luau Jam",
+	"jams_luau_jam.description": "Small batch jam made to celebrate Pelican Town's Annual Luau!",
+	
+	"jams_spirits_eve_jam.name": "Special Edition Spirits Eve Jam",
+	"jams_spirits_eve_jam.description": "Small batch jam made to celebrate Spirits' Eve!",
+	
+	"jams_winter_star_jelly.name": "Special Edition Winter Star Jelly",
+	"jams_winter_star_jelly.description": "Small batch jelly made in celebration of the Feast of the Winter Star!",
+	
+	"jams_lemon_marmalade.name": "Spring Lemon Marmalade",
+	"jams_lemon_marmalade.description": "Thanks to the bits of whole lemon zest, the bright, bold flavor of the lemons really comes through!",
+	
+	"jams_strawberry_rhubarb_jam.name": "Strawberry Rhubarb Jam",
+	"jams_strawberry_rhubarb_jam.description": "Jam made by combining sweet strawberries with tart rhubarb.",
+
+	"jams_strawberry_rose_jelly.name":"Strawberry Rose Jelly",
+	"jams_strawberry_rose_jelly.description": "Freshly foraged wild strawberries and rose petals cooked together to make a fragrant, sweet jelly.",
+	
+	"jams_spangle_jelly.name": "Summer Spangle Jelly",
+	"jams_spangle_jelly.description": "Jelly made from summer's best spangle blossoms, it tastes like sunshine in a jar.",
+	
+	"jams_orange_marmalade.name": "Summery Orange Marmalade",
+	"jams_orange_marmalade.description": "Thanks to the bits of whole orange zest, the bright, bold flavor of the oranges really comes through!",
+	
+	"jams_sunflower_jelly.name": "Sunflower Jelly",
+	"jams_sunflower_jelly.description": "Jelly made from sunflower petals, it tastes faintly nutty.",	
+
+	"jams_lime_marmalade.name": "Sweet Lime Marmalade",
+	"jams_lime_marmalade.description": "Thanks to the bits of whole lime zest, the tart yet sweet flavor of the lime really comes through!",
+
+	"jams_jasmine_jelly.name": "Sweet Jasmine Jelly",
+	"jams_jasmine_jelly.description": "Jelly made from freshly picked jasmine, it tastes fresh and floral.",
+
+	"jams_citrus_marmalade.name": "Triple Citrus Marmalade",
+	"jams_citrus_marmalade.description": "Lemons, limes and oranges come together for a burst of citrusy flavor.",
+
+	"jams_tulip_jelly.name": "Tulip Jelly",
+	"jams_tulip_jelly.description": "Jelly made from freshly picked tulips, it tastes fresh and floral.",
+
+	"jams_vanilla_raspberry_preserves.name": "Vanilla Raspberry Preserves",
+	"jams_vanilla_raspberry_preserves.description": "Vanilla and Raspberry are the perfect pairing _ spread these preserves on toast or use as a filling in cake for a truly sweet treat!",
+
+////////////////////
+// SPECIAL ORDERS //
+////////////////////
+
+	"jams_SO_1.name":"Springtime Treat for Evelyn",
+	"jams_SO_1.text":"Evelyn does so much for me; I want to give her something to show her how much I appreciate her. Tulips are her favorite, so maybe some tulip jelly for her scones would do the trick?",
+	"jams_SO_1.deliver":"Deliver 5 Tulip Jelly to George.",
+	"jams_SO_1.accept":"She's going to love this - I owe you one.",
+
+	"jams_SO_2.name":"Pretty in Pink",
+	"jams_SO_2.text":"Jas is in a phase where she wants everything to be pink, even her food! Can someone help??",
+	"jams_SO_2.deliver":"Deliver 5 Strawberry Rose Jelly to Marnie.",
+	"jams_SO_2.accept":"Oh thank goodness! Maybe with this I can get her to eat breakfast by putting it on a bagel...",
+
+	"jams_SO_3.name":"The Perfect Pancake Topper",
+	"jams_SO_3.text":"Pancakes are a Sunday treat in our house, and I want something to top them with instead of plain old maple syrup. Anyone have any ideas?",
+	"jams_SO_3a.deliver":"Deliver 3 Cherry Vanilla Jams to the Drop Box in Jodi's kitchen.",
+	"jams_SO_3b.deliver":"Deliver 3 Honey Peach Preserves to the Drop Box in Jodi's kitchen.",
+	"jams_SO_3c.deliver":"Deliver 3 Strawberry Rhubarb Jellies to the Drop Box in Jodi's kitchen.",
+
+	"jams_SO_4.name":"Gotta Have My Vitamin C",
+	"jams_SO_4.text":"Vitamins are important to a healthy diet! I'm sure the vitamin c in some marmalade would work the same way. right? Right.",
+	"jams_SO_4a.deliver":"Deliver 2 Triple Citrus Marmalades to the Drop Box in Lewis's kitchen.",
+	"jams_SO_4b.deliver":"Deliver 2 Sweet Lime Marmalades to the Drop Box in Lewis's kitchen.",
+	"jams_SO_4c.deliver":"Deliver 2 Summery Orange Marmalades to the Drop Box in Lewis's kitchen.",
+	"jams_SO_4d.deliver":"Deliver 2 Spring Lemon Marmalades to the Drop Box in Lewis's kitchen.",
+
+	"jams_SO_5.name":"Master Canner Challenge",
+	"jams_SO_5.text":"It's that time of year again - annual applications for the role of Master Canner are open! Send us your best  jams and jellies to see if you can earn the grand prize!",
+	"jams_SO_5.ship":"Ship 100 specialty jams.",
+
+	"jams_SO_6.name":"Jams for Linus",
+	"jams_SO_6.text":"I would love to have some preserved fruit to enjoy nature's bounty once winter arrives...",
+	"jams_SO_6.deliver":"Deliver 3 jams to Linus.",
+	"jams_SO_6.accept":"How lovely. Now I'll be able to enjoy nature's gifts even in the depths of winter. Thank you, friend.",
+
+	"jams_SO_7.name":"Jams for Penny",
+	"jams_SO_7.text":"Mom and I love a good jam to have with our breakfast. Can someone deliver a few interesting flavors to us?",
+	"jams_SO_7.deliver":"Deliver 5 jams to Penny.",
+	"jams_SO_7.accept":"These will go perfect with our Sunday pancakes! Thanks a bunch!",
+
+	"jams_SO_8.name":"Jams for Clint",
+	"jams_SO_8.text":"I'd like to stock up my pantry with more gourmet ingredients. I like jelly, maybe that's a good place to start?",
+	"jams_SO_8.deliver":"Deliver 10 jams to Clint.",
+	"jams_SO_8.accept":"What am I going to do with all this jam? I don't know yet, but it sure looks nice in my kitchen. Thanks.",
+
+////////////////////////
+// SPECIAL ORDER MAIL //
+////////////////////////
+
+	"jams_SO2_reward.title": "Thank you!",
+	"jams_SO2_reward.text": "@,^^^ Thanks again for the jam. It was a huge hit with Jas! Here's some pectin in case you feel like making more for yourself. ^^-Marnie",
+
+	"jams_SO3_reward.title": "Thanks again!",
+	"jams_SO3_reward.text": "@,^^^ Wow! Pancakes just got a serious upgrade thanks to these! ^^-Jodi",
+
+	"jams_SO4_reward.title": "Thank you!",
+	"jams_SO4_reward.text": "@,^^^ These are great! Now I don't have to worry about things like scurvy ever again.^^-Lewis",
+
+	"jams_SO5_reward.title": "Congratulations!",
+	"jams_SO5_reward.text": "Dear @,^^^ Your dedication is impressive. We are proud to offer you the title of Master Canner. Please take this as a reward.",
+	
+}

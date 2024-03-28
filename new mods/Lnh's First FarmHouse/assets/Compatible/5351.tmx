@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="2" height="4" tilewidth="16" tileheight="16" infinite="0" nextlayerid="12" nextobjectid="1376">
+ <tileset firstgid="1" name="walls_and_floors" tilewidth="16" tileheight="16" tilecount="560" columns="16">
+  <image source="walls_and_floors.png" width="256" height="560"/>
+ </tileset>
+ <tileset firstgid="561" name="indoor" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
+  <image source="townInterior.png" width="512" height="1088"/>
+  <tile id="1885">
+   <properties>
+    <property name="Type" value="Wood"/>
+   </properties>
+  </tile>
+  <tile id="2078">
+   <properties>
+    <property name="Type" value="Wood"/>
+   </properties>
+  </tile>
+  <tile id="2079">
+   <properties>
+    <property name="Type" value="Wood"/>
+   </properties>
+  </tile>
+  <tile id="2106">
+   <properties>
+    <property name="Type" value="Wood"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer id="1" name="Back" width="2" height="4">
+  <data encoding="base64" compression="zlib">
+   eJxLZGTAADAhQSAGAAyvAHU=
+  </data>
+ </layer>
+ <layer id="3" name="Buildings" width="2" height="4">
+  <data encoding="base64" compression="zlib">
+   eJxjYGBgMGRiAAMjKH2MnQEOABNVATU=
+  </data>
+ </layer>
+ <layer id="5" name="Front" width="2" height="4">
+  <data encoding="base64" compression="zlib">
+   eJxjYGBgMGRiAAMjKB0FpZ+xMzAAABG7AbE=
+  </data>
+ </layer>
+ <layer id="9" name="Paths" width="2" height="4">
+  <data encoding="base64" compression="zlib">
+   eJxjYMAPAAAgAAE=
+  </data>
+ </layer>
+ <layer id="7" name="AlwaysFront" width="2" height="4">
+  <data encoding="base64" compression="zlib">
+   eJxjYMAPAAAgAAE=
+  </data>
+ </layer>
+ <objectgroup id="2" name="Back">
+  <object id="18" name="TileData" x="0" y="0" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="LivingRoom"/>
+   </properties>
+  </object>
+  <object id="1375" name="TileData" x="16" y="32" width="16" height="16">
+   <properties>
+    <property name="WallID" value="Bedroom"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="4" name="Buildings"/>
+ <objectgroup id="6" name="Front"/>
+ <objectgroup id="10" name="Paths"/>
+ <objectgroup id="8" name="AlwaysFront"/>
+</map>

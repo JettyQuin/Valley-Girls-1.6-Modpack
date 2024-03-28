@@ -1,0 +1,486 @@
+{
+    "Format": "2.0.0",
+	"Changes": [
+    {
+	"Action": "EditData",
+	"Target": "Data/Furniture",
+	"Fields": {
+//Lamps
+		"1443": {
+			6: 2,
+		},
+ 		 "1445": { 
+ 			6: 2,
+		},
+ 		 "1447": { 
+ 			6: 2,
+		},
+ 		 "1449": { 
+ 			6: 2,
+		},
+ 		 "1751": { 
+ 			6: 2,
+		},
+ 		 "1758": { 
+ 			6: 2,
+		},
+//Fishtanks
+ 		 "2304": { 
+ 			6: 2,
+		},
+ 		 "2312": { 
+ 			6: 2,
+		},
+ 		 "2322": { 
+ 			6: 2,
+		},
+ 		 "2400": { 
+ 			6: 2,
+		},
+ 		 "2414": { 
+ 			6: 2,
+		},
+//Dressers, Fireplaces, TVs
+ 		 "704": { 
+ 			6: 2,
+		},
+ 		 "709": { 
+ 			6: 2,
+		},
+ 		 "714": { 
+ 			6: 2,
+		},
+ 		 "719": { 
+ 			6: 2,
+		},
+ 		 "1792": { 
+ 			6: 2,
+		},
+ 		 "1794": { 
+ 			6: 2,
+		},
+ 		 "1796": { 
+ 			6: 2,
+		},
+ 		 "1798": { 
+ 			6: 2,
+		},
+ 		 "1800": { 
+ 			6: 2,
+		},
+ 		 "1866": { 
+ 			6: 2,
+		},
+ 		 "1466": { 
+ 			6: 2,
+		},
+ 		 "1468": { 
+ 			6: 2,
+		},
+ 		 "1680": { 
+ 			6: 2,
+		},
+ 		 "2326": { 
+ 			6: 2,
+		},
+// Couches and Armchairs 		 "416": { 
+ 			6: 2,
+		},
+ 		 "424": { 
+ 			6: 2,
+		},
+ 		 "432": { 
+ 			6: 2,
+		},
+ 		 "440": { 
+ 			6: 2,
+		},
+ 		 "512": { 
+ 			6: 2,
+		},
+ 		 "520": { 
+ 			6: 2,
+		},
+ 		 "528": { 
+ 			6: 2,
+		},
+ 		 "536": { 
+ 			6: 2,
+		},
+ 		 "2720": { 
+ 			6: 2,
+		},
+ 		 "288": { 
+ 			6: 2,
+		},
+ 		 "294": { 
+ 			6: 2,
+		},
+ 		 "300": { 
+ 			6: 2,
+		},
+ 		 "306": { 
+ 			6: 2,
+		},
+ 		 "312": { 
+ 			6: 2,
+		},
+//	Bookcases 		 "1283": { 
+ 			6: 2,
+		},
+ 		 "1285": { 
+ 			6: 2,
+		},
+ 		 "1287": { 
+ 			6: 2,
+		},
+ 		 "1289": { 
+ 			6: 2,
+		},
+ 		 "1280": { 
+ 			6: 2,
+		},
+// Rugs 		 "1451": { 
+ 			6: 2,
+		},
+ 		 "1456": { 
+ 			6: 2,
+		},
+ 		 "1461": { 
+ 			6: 2,
+		},
+ 		 "1618": { 
+ 			6: 2,
+		},
+ 		 "1623": { 
+ 			6: 2,
+		},
+ 		 "1628": { 
+ 			6: 2,
+		},
+ 		 "1664": { 
+ 			6: 2,
+		},
+ 		 "1737": { 
+ 			6: 2,
+		},
+ 		 "1742": { 
+ 			6: 2,
+		},
+ 		 "1755": { 
+ 			6: 2,
+		},
+ 		 "1777": { 
+ 			6: 2,
+		},
+ 		 "1902": { 
+ 			6: 2,
+		},
+ 		 "1964": { 
+ 			6: 2,
+		},
+ 		 "1909": { 
+ 			6: 2,
+		},
+ 		 "1978": { 
+ 			6: 2,
+		},
+ 		 "1228": { 
+ 			6: 2,
+		},
+ 		 "2637": { 
+ 			6: 2,
+		},
+ 		 "2638": { 
+ 			6: 2,
+		},
+ 		 "2639": { 
+ 			6: 2,
+		},
+ 		 "2640": { 
+ 			6: 2,
+		},
+ 		 "2641": { 
+ 			6: 2,
+		},
+ 		 "2642": { 
+ 			6: 2,
+		},
+ 		 "2643": { 
+ 			6: 2,
+		},
+ 		 "2644": { 
+ 			6: 2,
+		},
+ 		 "2645": { 
+ 			6: 2,
+		},
+ 		 "2646": { 
+ 			6: 2,
+		},
+ 		 "2647": { 
+ 			6: 2,
+		},
+ 		 "2648": { 
+ 			6: 2,
+		},
+ 		 "2649": { 
+ 			6: 2,
+		},
+ 		 "2650": { 
+ 			6: 2,
+		},
+ 		 "2651": { 
+ 			6: 2,
+		},
+ 		 "2652": { 
+ 			6: 2,
+		},
+ 		 "2488": { 
+ 			6: 2,
+		},
+ 		 "2784": { 
+ 			6: 2,
+		},
+ 		 "2790": { 
+ 			6: 2,
+		},
+ 		 "2794": { 
+ 			6: 2,
+		},
+ 		 "2798": { 
+ 			6: 2,
+		},
+ 		 "2802": { 
+ 			6: 2,
+		},
+		 "2742": { 
+ 			6: 2,
+		},
+ 		 "2870": { 
+ 			6: 2,
+		},
+ 		 "2875": { 
+ 			6: 2,
+		},
+//New for 1.6
+		 "RetroTV": {
+			6: 2,
+		 },
+//New Bookcases
+		 "ShortBookcase": {
+			6: 2,
+		 },
+		 "GrayJojaBookcase": {
+			6: 2,
+		 },
+		 "JojaBookcase": {
+			6: 2,
+		 },
+		 "LargeWizardBookcase": {
+			6: 2,
+		 },
+		 "WizardBookcase": {
+			6: 2,
+		 },
+		 "ShortWizardBookcase": {
+			6: 2,
+		 },
+		 "SmallWizardBookcase": {
+			6: 2,
+		 },
+//New Fireplaces
+
+		 "DesertFireplace": {
+			 6: 2,
+		 },
+		  "JojaFireplace": {
+			 6: 2,
+		 },
+		  "WizardFireplace": {
+			 6: 2,
+		 },
+		  "JunimoFireplace": {
+			 6: 2,
+		 },
+		  "RetroFireplace": {
+			 6: 2,
+		 },
+//New Rugs
+		  "SandyRug": {
+			 6: 2,
+		 },
+		  "DesertRug": {
+			 6: 2,
+		 },
+		  "GrayJojaCushion": {
+			 6: 2,
+		 },
+		  "JojaCushion": {
+			 6: 2,
+		 },
+		  "LargeJojaRug": {
+			 6: 2,
+		 },
+		  "SmallJojaRug": {
+			 6: 2,
+		 },
+		  "SquareJojaRug": {
+			 6: 2,
+		 },
+		  "JojaRug": {
+			 6: 2,
+		 },
+		  "WizardCushion": {
+			 6: 2,
+		 },
+		  "DarkWizardCushion": {
+			 6: 2,
+		 },
+		  "StoneFlooring": {
+			 6: 2,
+		 },
+		  "RuneRug": {
+			 6: 2,
+		 },
+		  "SwirlRug": {
+			 6: 2,
+		 },
+		  "StarryMoonRug": {
+			 6: 2,
+		 },
+		  "JunimoCushion": {
+			 6: 2,
+		 },
+		  "DarkJunimoCushion": {
+			 6: 2,
+		 },
+		  "JunimoRug": {
+			 6: 2,
+		 },
+		  "JunimoMat": {
+			 6: 2,
+		 },
+		 "CircularJunimoRug": {
+			 6: 2,
+		 },
+		 "SmallJunimoMat": {
+			 6: 2,
+		 },
+		 "RetroCushion": {
+			 6: 2,
+		 },
+		 "DarkRetroCushion": {
+			 6: 2,
+		 },
+		 "RetroRug": {
+			 6: 2,
+		 },
+         "RetroSquareRug": {
+			 6: 2,
+		 },
+         "RetroMat": {
+			 6: 2,
+		 },
+         "LargeRetroRug": {
+			 6: 2,
+		 },
+         "BlueCushion": {
+			 6: 2,
+		 },
+         "YellowCushion": {
+			 6: 2,
+		 },
+         "GreenCushion": {
+			 6: 2,
+		 },
+         "RedCushion": {
+			 6: 2,
+		 },
+         "BrownCushion": {
+			 6: 2,
+		 },
+         "BlackCushion": {
+			 6: 2,
+		 },
+		 "SixPackRings": {
+			 6: 2,
+		 },
+         "GreenBottle": {
+			 6: 2,
+		 },
+         "PlasticBag": {
+			 6: 2,
+		 },
+         "AluminumCan": {
+			 6: 2,
+		 },
+         "BlueBottle": {
+			 6: 2,
+		 },
+//New Couches
+         "JojaCouch": {
+			 6: 2,
+		 },
+		 "JunimoCouch": {
+			 6: 2,
+		 },
+		 "RetroCouch": {
+			 6: 2,
+		 },
+		 "MoldyCouch": {
+			 6: 2,
+		 },
+//New Lamps
+		 "JojaLamp": {
+			 6: 2,
+		 },
+		 "WizardLamp": {
+			 6: 2,
+		 },
+         "JunimoLamp": {
+			 6: 2,
+		 },
+		 "RetroLamp": {
+			 6: 2,
+		 },
+         "OakLampEndTable": {
+			 6: 2,
+		 },
+         "WalnutLampEndTable": {
+			 6: 2,
+		 },
+         "BirchLampEndTable": {
+			 6: 2,
+		 },
+         "MahoganyLampEndTable": {
+			 6: 2,
+		 },
+//New Dressers
+		 "JojaDresser": {
+			 6: 2,
+		 },
+         "GrayJojaDresser": {
+			 6: 2,
+		 },
+		 "WizardDresser": {
+			 6: 2,
+		 },
+         "JunimoDresser": {
+			 6: 2,
+		 },
+		 "RetroDresser": {
+			 6: 2,
+		 },
+/New Fishtanks
+		 "JungleTank": {
+			 6: 2,
+		 },
+         "CCFishTank": {
+			 6: 2,
+		 },
+//End
+	}
+}
+]	
+}	

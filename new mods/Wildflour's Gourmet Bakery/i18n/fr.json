@@ -1,0 +1,468 @@
+{
+
+	//CAKES
+
+	"bakery_carrot_cake.name":"Gâteau aux carottes aux fleurs printanières",
+	"bakery_carrot_cake.description":"Ce gâteau aux carottes est décoré de jolies fleurs printanières fraîches - parfait pour le festival de la chasse aux œufs de cette année!",
+
+	"bakery_chocolate_cake.name":"Gâteau étagé au chocolat et aux cerises",
+	"bakery_chocolate_cake.description":"Le chocolat riche et les cerises fraîchement cueillies forment un gâteau étagé succulent.",
+
+	"bakery_chocolate_raspberry_cupcake.name": "Cupcake Chocolat Framboise",
+	"bakery_chocolate_raspberry_cupcake.description": "Un cupcake riche et chocolaté rempli de confiture de framboises.",
+
+	"bakery_coconut_almond_cake.name":"Gâteau étagé à la noix de coco et aux amandes",
+	"bakery_coconut_almond_cake.description":"Un gâteau à la noix de coco léger et moelleux avec un glaçage aux amandes.",
+
+	"bakery_confetti_cake.name":"Gâteau Confettis",
+	"bakery_confetti_cake.description":"Gâteau à la vanille avec glaçage à la vanille, fourré et garni de nombreuses vermicelles arc-en-ciel !",
+
+	"bakery_gingerbread_cake.name":"Rouleau de gâteau au pain d'épice",
+	"bakery_gingerbread_cake.description":"Gâteau au gingembre riche, roulé avec un glaçage crémeux à la vanille dans un délicieux dessert des Fêtes.",
+
+	"bakery_lemon_cake.name":"Gâteau mousseline au citron",
+	"bakery_lemon_cake.description":"De petits citrons et de la crème douce donnent un gâteau tendre parfait pour les fêtes printanières.",
+
+	"bakery_peach_cake.name":"Gâteau aux pêches et à la crème",
+	"bakery_peach_cake.description":"Pêches d'été fraîchement cueillies cuites dans une délicate génoise à la vanille.",
+
+	"bakery_pineapple_cake.name":"Le gâteau de colibri",
+	"bakery_pineapple_cake.description":"Un gâteau aux épices chaud rempli de morceaux d'ananas frais et de noix!",
+
+	"bakery_pumpkin_cake.name":"Rouleau de gâteau aux épices à la citrouille",
+	"bakery_pumpkin_cake.description":"Un favori de saison : riche gâteau à la citrouille roulé avec un glaçage au fromage à la crème.",
+
+	"bakery_red_velvet_cake.name":"Rouleau de gâteau de velours rouge",
+	"bakery_red_velvet_cake.description":"Pas de colorant alimentaire ici; ce gâteau classique se colore à l'ancienne, à partir de betteraves !",
+
+	"bakery_strawberry_cake.name":"Gâteau aux fraises et à la crème",
+	"bakery_strawberry_cake.description":"Une belle génoise légère à la vanille garnie de fraises fraîchement cueillies et de crème fouettée",
+
+	"bakery_strawberry_cupcake.name":"Petit gâteau sucré aux fraises",
+	"bakery_strawberry_cupcake.description":"Un joli petit gâteau aux fraises garni d'un glaçage aux fraises",
+
+	"bakery_vanilla_cupcake.name":"Petit gâteau sucré à la vanille",
+	"bakery_vanilla_cupcake.description":"Un joli petit gâteau à la vanille garni d'un glaçage à la vanille.",
+
+	//MUFFINS
+
+	"bakery_apple_muffin.name":"Muffin aux pommes et aux épices",
+	"bakery_apple_muffin.description":"Les pommes et la cannelle font de ce muffin le petit-déjeuner parfait par une fraîche matinée d'automne.",
+
+	"bakery_banana_muffin.name":"Muffin aux bananes et aux noix",
+	"bakery_banana_muffin.description":"Ce muffin tire l'essentiel de sa douceur de la purée de bananes mûres.",
+
+	"bakery_cinnamon_muffin.name":"Muffin à la cannelle et aux épices",
+	"bakery_cinnamon_muffin.description":"Un muffin classique à déguster avec une tasse de café frais.",
+
+	"bakery_cornbread_muffin.name":"Muffin au pain de maïs au beurre",
+	"bakery_cornbread_muffin.description":"Un muffin copieux, riche et beurré, qui se marie bien avec une soupe ou à peu près n'importe quoi !",
+
+	"bakery_lemon_blueberry_muffin.name":"Muffin à la citronnelle",
+	"bakery_lemon_blueberry_muffin.description":"De petits citrons et bleuets signifient que ce muffin regorge de saveurs de fruits frais!",
+
+	"bakery_pumpkin_muffin.name":"Muffin au latte à la citrouille et aux épices",
+	"bakery_pumpkin_muffin.description":"Un muffin à la citrouille avec l'ajout de cannelle et de poudre d'espresso.",
+
+	"bakery_strawberry_muffin.name":"Muffin Fraise Rhubarbe",
+	"bakery_strawberry_muffin.description":"Un muffin léger et tendre rempli de morceaux de rhubarbe et de fraise",
+
+	//SCONES
+
+	"bakery_blackberry_scone.name":"Scone aux mûres et à la lime",
+	"bakery_blackberry_scone.description":"Le zeste des petites limes accentue vraiment la saveur fraîche des mûres !",
+
+	"bakery_blueberry_scone.name":"Scone à la crème de bleuets",
+	"bakery_blueberry_scone.description":"Un scone tendre et friable rempli de myrtilles fraîches.",
+
+	"bakery_cinnamon_scone.name":"Scone à la cannelle et aux raisins secs",
+	"bakery_cinnamon_scone.description":"Un scone tendre et friable rempli d'épices et de raisins secs, parfait pour le petit déjeuner !",
+
+	"bakery_peach_scone.name":"Scone aux pêches et au miel",
+	"bakery_peach_scone.description":"Ce scone a le goût d'un cordonnier aux pêches, mais tenu dans la main et donc encore meilleur!",
+
+	"bakery_pistachio_scone.name":"Scones à la pistache",
+	"bakery_pistachio_scone.description":"Un scone tendre et friable rempli de pistaches concassées.",
+
+	"bakery_pumpkin_scone.name":"Scone à la citrouille et à l'érable",
+	"bakery_pumpkin_scone.description":"Des scones parfumés à la citrouille et à l'érable, un régal pour une journée d'automne.",
+
+	"bakery_raspberry_scone.name":"Scone Framboise Vanille",
+	"bakery_raspberry_scone.description":"Les gousses de vanille rendent ce scone aux framboises encore plus irrésistible !",
+
+	"bakery_strawberry_scone.name":"Scone aux fraises",
+	"bakery_strawberry_scone.description":"Un scone préparé à la manière d'un shortcake, coupé en deux et fourré de fraises et de crème !",
+
+	//CHEESECAKE
+
+	"bakery_blueberry_cheesecake.name":"Cheesecake aux Bleuets",
+	"bakery_blueberry_cheesecake.description":"Une tranche de gâteau au fromage garnie d'une succulente confiture de myrtilles.",
+
+	"bakery_cherry_cheesecake.name":"Cheesecake aux cerises",
+	"bakery_cherry_cheesecake.description":"Une tranche de gâteau au fromage garnie d'une succulente confiture de cerises.",
+
+	"bakery_cheesecake.name":"Cheesecake",
+	"bakery_cheesecake.description":"La tranche de cheesecake classique, crémeuse et délicieuse !",
+
+	"bakery_cookies_cream_cheesecake.name":"Cheesecake aux biscuits et à la crème",
+	"bakery_cookies_cream_cheesecake.description":"Gâteau au fromage avec des morceaux de biscuits à la crème au chocolat partout.",
+
+	"bakery_lemon_cheesecake.name":"Cheesecake aux citron",
+	"bakery_lemon_cheesecake.description":"Une tranche de gâteau au fromage garnie d'une délicieuse crème au citron.",
+
+	"bakery_mango_cheesecake.name":"Cheesecake à la mangue",
+	"bakery_mango_cheesecake.description":"Une tranche de gâteau au fromage garnie d'une succulente confiture de mangue.",
+
+	"bakery_mocha_cheesecake.name":"Cheesecake aux moka",
+	"bakery_mocha_cheesecake.description":"Une tranche de gâteau au fromage mélangée avec du chocolat et de la poudre d'espresso.",
+
+	"bakery_orange_cheesecake.name":"Cheesecake à l'orange",
+	"bakery_orange_cheesecake.description":"Une tranche de gâteau au fromage garnie d'un délicieux caillé à l'orange.",
+
+	"bakery_pumpkin_cheesecake.name":"Cheesecake à la citrouille",
+	"bakery_pumpkin_cheesecake.description":"Une tranche de gâteau au fromage mélangé avec de la citrouille fraîche et des épices.",
+
+	"bakery_raspberry_cheesecake.name":"Cheesecake aux framboises",
+	"bakery_raspberry_cheesecake.description":"Une tranche de gâteau au fromage garnie d'une succulente confiture de framboises.",
+
+	"bakery_strawberry_cheesecake.name":"Cheesecake à la fraise",
+	"bakery_strawberry_cheesecake.description":"Une tranche de gâteau au fromage garnie d'une succulente confiture de fraises.",
+
+	"bakery_white_cheesecake.name":"Cheesecake au chocolat blanc et à la lime",
+	"bakery_white_cheesecake.description":"Gâteau au fromage cuit avec du chocolat blanc et du zeste de citron vert frais.",
+
+	//PETIT FOURS
+
+	"bakery_almond_petit_fours.name":"Petit four aux amandes",
+	"bakery_almond_petit_fours.description":"Un gâteau de fête délicat, parfumé aux amandes.",
+
+	"bakery_chocolate_petit_fours.name":"Petit Four Chocolat Noisette",
+	"bakery_chocolate_petit_fours.description":"Un gâteau de fête délicat, parfumé au chocolat et aux noisettes",
+
+	"bakery_lemon_petit_fours.name":"Succulent petit four au citron",
+	"bakery_lemon_petit_fours.description":"Un gâteau de fête délicat, parfumé au citron frais.",
+
+	"bakery_matcha_petit_fours.name":"Petit Four aux Matcha",
+	"bakery_matcha_petit_fours.description":"Un gâteau de fête délicat, parfumé au thé matcha.",
+
+	"bakery_peach_petit_fours.name":"Petit Four aux pêches",
+	"bakery_peach_petit_fours.description":"Un gâteau de fête délicat, parfumé aux pêches fraîchement cueillies.",
+
+	"bakery_pistachio_petit_fours.name":"Petit Four à la Pistache",
+	"bakery_pistachio_petit_fours.description":"Un gâteau de fête délicat, parfumé aux pistaches.",
+
+	"bakery_strawberry_petit_fours.name":"Fraise Rose Petit Four",
+	"bakery_strawberry_petit_fours.description":"Un gâteau de fête délicat, parfumé aux fraises et à la gelée de rose.",
+
+	"bakery_tiramisu_petit_fours.name":"Petit Four gout Tiramisu",
+	"bakery_tiramisu_petit_fours.description":"Un gâteau de fête délicat, parfumé à la poudre d'espresso et au chocolat.",
+
+	"bakery_tres_leches_petit_fours.name":"Petit Four aux trois lait",
+	"bakery_tres_leches_petit_fours.description":"Un gâteau de fête délicat, parfumé avec différents laits et cannelle.",
+
+	"tropical-petitfour.name":"Petit Four Tropical",
+	"tropical-petitfour.description":"Un gâteau de fête délicat, parfumé aux fruits tropicaux.",
+
+	"bakery_vanilla_petit_fours.name":"Petit Four Framboise",
+	"bakery_vanilla_petit_fours.description":"Un gâteau de fête délicat, parfumé aux framboises fraîchement cueillies.",
+
+	//PIES
+
+	"bakery_apple_pie.name":"Tarte aux pommes à l'ancienne",
+	"bakery_apple_pie.description":"Tarte aux pommes cueillies dans les vergers locaux",
+
+	"bakery_banana_cream_pie.name":"Tarte à la crème de banane à l'ancienne",
+	"bakery_banana_cream_pie.description":"Une tarte à la crème recouverte de tranches de bananes et de crème.",
+
+	"bakery_blueberry_pie.name":"Tarte aux bleuets à l'ancienne",
+	"bakery_blueberry_pie.description":"Tarte aux myrtilles fraîchement cueillies",
+
+	"bakery_cherry_pie.name":"Tarte aux cerises à l'ancienne",
+	"bakery_cherry_pie.description":"Tarte aux cerises cueillies dans les vergers locaux",
+
+	"bakery_lemon_pie.name":"Tarte au citron à l'ancienne",
+	"bakery_lemon_pie.description":"Une tarte à la crème faite avec du zeste de citron et de la crème de citron.",
+
+	"bakery_peach_pie.name":"Tarte aux pêches à l'ancienne",
+	"bakery_peach_pie.description":"Tarte aux pêches cueillies dans les vergers locaux",
+
+	"bakery_lime_pie.name":"Tarte à l'ancienne au citron vert",
+	"bakery_lime_pie.description":"Une tarte à la crème faite avec du zeste de citron vert et du caillé de citron vert.",
+
+	"bakery_plum_pie.name":"Tarte aux prunes à l'ancienne",
+	"bakery_plum_pie.description":"Tarte aux prunes cueillies dans les verges locaux.",
+
+	"bakery_pumpkin_pie.name":"Tarte à la citrouille à l'ancienne",
+	"bakery_pumpkin_pie.description":"Tarte aux citrouilles fraîchement cueillies.",
+
+	"bakery_sweet_potato_pie.name":"Tarte aux patates douces à l'ancienne",
+	"bakery_sweet_potato_pie.description":"Patates douces cuites avec de la cannelle et du sucre dans une belle tarte.",
+
+	//TARTS
+
+	"bakery_blueberry_tart.name":"Tarte rustique aux bleuets",
+	"bakery_blueberry_tart.description":"Une coquille de tarte croustillante et feuilletée remplie d'une garniture aux bleuets sucrés.",
+
+	"bakery_chocolate_hazelnut_tart.name":"Tarte Chocolat Noisette",
+	"bakery_chocolate_hazelnut_tart.description":"Une croûte de tarte croustillante et feuilletée fourrée d'une garniture onctueuse au chocolat et aux noisettes.",
+
+	"bakery_lemon_tart.name":"Petite tarte au citron",
+	"bakery_lemon_tart.description":"Une coquille de tarte croustillante et feuilletée fourrée d'une garniture au citron onctueuse et succulente.",
+
+	"bakery_mango_tart.name":"Tarte à la mangue des îles",
+	"bakery_mango_tart.description":"Un fond de tarte croustillant et feuilleté fourré d'une crème onctueuse à la mangue.",
+
+	"bakery_berry_tart.name":"Tarte aux boisseaux de baies",
+	"bakery_berry_tart.description":"Une tarte croustillante et feuilletée remplie d'un mélange de différentes baies.",
+
+	"bakery_fruit_tart.name":"Tarte aux Fruits",
+	"bakery_fruit_tart.description":"Une tarte croustillante et feuilletée remplie de tous les fruits que vous avez sous la main !",
+
+	"bakery_peppermint_tart.name":"Tarte Moka Menthe",
+	"bakery_peppermint_tart.description":"Une croûte de tarte croustillante et feuilletée fourrée d'une garniture onctueuse au chocolat et à la menthe.",
+
+	"bakery_pina_colada_tart.name":"Tarte à la Piña Colada",
+	"bakery_pina_colada_tart.description":"Une coquille de tarte croustillante et feuilletée remplie d'une garniture onctueuse à la crème pâtissière à l'ananas et à la noix de coco.",
+
+	"bakery_raspberry_tart.name":"Tarte Framboise Sauvage",
+	"bakery_raspberry_tart.description":"Une croûte de tarte croustillante et feuilletée fourrée d'une garniture sucrée à la framboise.",
+
+	"bakery_summer_tart.name":"Tarte aux primes de l'été",
+	"bakery_summer_tart.description":"Une tarte croustillante et feuilletée remplie des meilleurs fruits de l'été.",
+
+	//ECLAIRS
+
+	"bakery_chocolate_eclair.name":"Éclair au chocolat",
+	"bakery_chocolate_eclair.description":"Une délicate pâtisserie fourrée d'une riche crème pâtissière au chocolat.",
+
+	"bakery_maple_eclair.name":"à l'érable",
+	"bakery_maple_eclair.description":"Une délicate pâtisserie garnie d'une riche crème pâtissière à l'érable.",
+
+	"bakery_mocha_eclair.name":"Éclair aux Café",
+	"bakery_mocha_eclair.description":"Une pâtisserie délicate remplie d'une riche crème pâtissière aux cafés.",
+
+	"bakery_pistachio_eclair.name":"Éclair Chocolat Pistache",
+	"bakery_pistachio_eclair.description":"Une délicate pâtisserie fourrée d'une douce crème pâtissière à la pistache.",
+
+	"bakery_raspberry_eclair.name":"Eclair Framboise Citron",
+	"bakery_raspberry_eclair.description":"Une délicate pâtisserie garnie d'une crème pâtissière framboise-citron sucrée et acidulée.",
+
+	"bakery_strawberry_eclair.name":"Éclair gout Cheesecake aux fraises",
+	"bakery_strawberry_eclair.description":"Une pâtisserie délicate fourrée d'une crème pâtissière à la fraise et au fromage à la crème.",
+
+	"bakery_vanilla_eclair.name":"Éclair Vanille",
+	"bakery_vanilla_eclair.description":"Une délicate pâtisserie fourrée d'une riche crème pâtissière à la vanille.",
+
+	//MACARONS
+
+	"bakery_almond_macaron.name":"Macaron fantaisie aux amandes",
+	"bakery_almond_macaron.description":"Un irrésistible gâteau meringué et crèmeux parfumé aux amandes.",
+
+	"bakery_chocolate_macaron.name":"Macaron Fantaisie Chocolat Noisette",
+	"bakery_chocolate_macaron.description":"Un irrésistible gâteau meringué et crémeux parfumé au chocolat et aux noisettes.",
+
+	"bakery_lavender_macaron.name":"Macaron Fantaisie à la Lavande",
+	"bakery_lavender_macaron.description":"Un irrésistible gâteau meringué et crémeux parfumé à la lavande et à la vanille.",
+
+	"bakery_lemon_macaron.name":"Macaron fantaisie au citron",
+	"bakery_lemon_macaron.description":"Un irrésistible gâteau meringué et crémeux parfumé au citron frais.",
+
+	"bakery_lime_macaron.name":"Macaron fantaisie au citron vert",
+	"bakery_lime_macaron.description":"Un irrésistible gâteau meringué et crémeux parfumé au citron vert frais.",
+
+	"bakery_mint_macaron.name":"Macaron Menthe Fantaisie",
+	"bakery_mint_macaron.description":"Un irrésistible gâteau meringué et crémeux parfumé à la menthe fraîche.",
+
+	"bakery_pistachio_macaron.name":"Macaron Pistache Fantaisie",
+	"bakery_pistachio_macaron.description":"Un irrésistible gâteau meringué et crémeux parfumé à la pistache.",
+	
+	"bakery_raspberry_macaron.name":"Macaron Framboise Fantaisie",
+	"bakery_raspberry_macaron.description":"Un irrésistible gâteau meringué et crémeux parfumé aux framboises fraîches",
+	
+	"bakery_sakura_macaron.name":"Macaron fantaisie Sakura",
+	"bakery_sakura_macaron.description":"Un irrésistible gâteau meringué et crémeux parfumé aux pétales de fleur de cerisier.",
+	
+	"bakery_strawberry_macaron.name":"Macaron Fraise Fantaisie",
+	"bakery_strawberry_macaron.description":"Un irrésistible gâteau meringué et crémeux parfumé aux fraises fraîches.",
+	
+	//COOKIES
+
+	"bakery_cherry_cookie.name":"Biscuits barquette à la confiture de cerises",
+	"bakery_cherry_cookie.description":"Un biscuit au beurre avec un centre de confiture de cerise.",
+
+	"bakery_chocolate_chip_cookies.name":"Cookie aux pépites de chocolat à l'ancienne",
+	"bakery_chocolate_chip_cookies.description":"Les cookies par excellence ; se marie bien avec un grand verre de lait.",
+
+	"bakery_chocolate_sandwich_cookie.name":"Biscuits-sandwichs au chocolat classiques",
+	"bakery_chocolate_sandwich_cookie.description":"Biscuits au chocolat en sandwich avec de la crème à la vanille.",
+
+	"bakery_orange_cookie.name":"Biscuit barquette à la confiture d'orange",
+	"bakery_orange_cookie.description":"Un biscuit au beurre avec un centre de confiture d'orange.",
+
+	"bakery_strawberry_cookie.name":"Biscuit barquette à la confiture de fraises",
+	"bakery_strawberry_cookie.description":"Un biscuit au beurre avec un centre de confiture de fraise.",
+
+	"bakery_vanilla_sandwich_cookies.name":"Biscuits-sandwichs classiques à la vanille",
+	"bakery_vanilla_sandwich_cookies.description":"Biscuits à la vanille en sandwich avec de la crème à la vanille.",
+
+	//BROWNIES
+
+	"bakery_cream_cheese_brownies.name":"Brownies étagés au fromage à la crème",
+	"bakery_cream_cheese_brownies.description":"Brownies riches avec une couche de fromage à la crème sucré à l'intérieur.",
+
+	"bakery_brownies.name":"Brownies fondants à l'ancienne",
+	"bakery_brownies.description":"Des biscuits riches et chocolatés qui sont essentiels à toute vente de pâtisseries.",
+
+	"bakery_mint_brownies.name":"Brownies étagés au chocolat à la menthe",
+	"bakery_mint_brownies.description":"Brownies riches avec une couche de crème à la menthe à l'intérieur.",
+
+	"bakery_nut_brownies.name":"Brownies étagés au beurre de noix",
+	"bakery_nut_brownies.description":"Brownies riches avec une couche de garniture au beurre de noix à l'intérieur.",
+
+	//BREADS
+	
+	"bakery_cinnamon_roll.name": "Brioche à la cannelle rustique",
+	"bakery_cinnamon_roll.description": "Un petit pain sucré parfumé à la cannelle et recouvert d'un glaçage à la vanille.",
+	
+	"bakery_cranberry_bread.name": "Pain rustique aux canneberges et aux noix",
+	"bakery_cranberry_bread.description": "Un pain rustique rempli de canneberges séchées et de noix hachées.",
+
+	"bakery_olive_bread.name": "Pain rustique aux olives",
+	"bakery_olive_bread.description": "Un pain rustique rempli d'olives.",
+
+	"bakery_potato_bread.name": "Pain de pommes de terre rustique",
+	"bakery_potato_bread.description": "Une miche de pain faite avec des pommes de terre; riche et parfait pour faire des sandwichs au fromage grillé!",
+
+	"bakery_pretzel.name": "Bretzel rustique",
+	"bakery_pretzel.description": "Un bretzel classique garni de flocons de sel de mer. Associez-le à de la moutarde pour un vrai régal.",
+
+	"bakery_pumpernickel_bread.name": "Pain Pumpernickel Rustique",
+	"bakery_pumpernickel_bread.description": "Un pain de seigle rustique légèrement sucré.",
+
+	"bakery_wheat_bread.name": "Pain de blé entier rustique",
+	"bakery_wheat_bread.description": "Une miche de pain avec plus de fibres que le pain traditionnel.",
+	
+	"bakery_bread_loaf.name": "Pain de Blé Rustique",
+	"bakery_bread_loaf.description": "Une miche de pain classique utilisée pour faire des sandwichs.",
+
+	//DOUGHNUTS
+	
+	"bakery_chocolate_doughnut.name": "Beignet au chocolat",
+	"bakery_chocolate_doughnut.description": "Un beignet fraîchement frit garni d'une ganache au chocolat.",
+	
+	"bakery_cream_chocolate_doughnut.name": "Beignet à la crème au chocolat",
+	"bakery_cream_chocolate_doughnut.description": "Un beignet fraîchement frit garni de ganache au chocolat et fourré de crème à la vanille.",
+
+	"bakery_strawberry_doughnut.name": "Beignet aux fraises",
+	"bakery_strawberry_doughnut.description": "Un beignet fraîchement frit garni d'un glaçage à la fraise.",
+
+	"bakery_cream_strawberry_doughnut.name": "Beignet à la crème de fraise",
+	"bakery_cream_strawberry_doughnut.description": "Un beignet fraîchement frit garni d'un glaçage à la fraise et rempli de crème à la vanille.",
+
+	"bakery_vanilla_doughnut.name": "Beignet à la vanille",
+	"bakery_vanilla_doughnut.description": "Un beignet fraîchement frit garni d'un glaçage à la vanille.",
+
+	"bakery_vanilla_jelly_doughnut.name": "Beignet à la gelée de vanille",
+	"bakery_vanilla_jelly_doughnut.description": "Un beignet fraîchement frit garni d'un glaçage à la vanille et rempli de gelée de fruits.",
+
+	//PUDDING
+	
+	"bakery_banana_pudding.name": "Pouding aux bananes fendues",
+	"bakery_banana_pudding.description": "Un dessert crémeux aux saveurs de banane, fraise, chocolat et cerise.",
+
+	"bakery_chocolate_raspberry_pudding.name": "Pudding au chocolat et aux framboises",
+	"bakery_chocolate_raspberry_pudding.description": "Un dessert onctueux aux saveurs de chocolat et de framboise.",
+
+	"bakery_cookies_cream_pudding.name": "Biscuits et pouding à la crème",
+	"bakery_cookies_cream_pudding.description": "Un dessert crémeux au goût de biscuits sandwich au chocolat.",
+
+	"bakery_creme_brulee_pudding.name": "Crème brûlée",
+	"bakery_creme_brulee_pudding.description": "Un dessert crémeux garni de sucre caramélisé.",
+
+	"bakery_lemon_pudding.name": "Pudding au citron meringué",
+	"bakery_lemon_pudding.description": "Un dessert crémeux au goût de citron frais.",
+
+	"bakery_peach_pudding.name": "Pudding à la pêche et à la mangue",
+	"bakery_peach_pudding.description": "Un dessert crémeux aux saveurs de pêche et de mangue.",
+
+	"bakery_pumpkin_maple_pudding.name": "Pouding à la citrouille et à l'érable",
+	"bakery_pumpkin_maple_pudding.description": "Un dessert crémeux aux saveurs de citrouille et d'érable.",
+
+	"bakery_sakura_pudding.name": "Pudding Sakura",
+	"bakery_sakura_pudding.description": "Un dessert crémeux au goût de fleurs de cerisier fraîches.",
+
+	"bakery_tiramisu_pudding.name": "Pouding au tiramisu",
+	"bakery_tiramisu_pudding.description": "Un dessert crémeux aux saveurs de café et de crème.",
+
+	"bakery_tropical_pudding.name": "Pudding tropical",
+	"bakery_tropical_pudding.description": "Un dessert crémeux aux saveurs de fruits tropicaux.",
+
+////////////////////
+// SPECIAL ORDERS //
+////////////////////
+	
+"bakery_SO_1.name":"Laissez-les manger des cupcakes !",
+"bakery_SO_1.text":"Jas a besoin de cupcakes pour une vente de pâtisseries à l'école et je suis trop occupé pour les préparer à partir de zéro. HELP !",
+"bakery_SO_1a.deliver":"Livrez 2 cupcakes à la vanille à Marnie.",
+"bakery_SO_1b.deliver":"Livrez 2 cupcakes aux fraises à Marnie.",
+"bakery_SO_1c.deliver":"Livrez 2 cupcakes au chocolat à Marnie.",
+"bakery_SO_1.accept":"Comme c'est mignon ! Ils sont parfaits, je suis sûr qu'ils seront un succès retentissant à la vente de pâtisseries !",
+
+"bakery_SO_2.name":"Pop tartes",
+"bakery_SO_2.text":"Les enfants de la ville ne savent pas ce que sont les vrais bons desserts. Je les ai vus manger des Pop Tarts ! Je veux leur montrer à quel point les vraies tartes aux fruits sont bonnes.",
+"bakery_SO_2a.deliver":"Livrez 1 tarte Tooti Frooti au réfrigérateur de Gus.",
+"bakery_SO_2b.deliver":"Livrez 1 tartelette au boisseau de baies au réfrigérateur de Gus.",
+"bakery_SO_2c.deliver":"Livrez 1 tarte au chocolat et aux noisettes au réfrigérateur de Gus.",
+
+"bakery_SO_3.name":"Pâtisserie Vibes",
+"bakery_SO_3.text":"J'aimerais me détendre avec un bon livre, une tasse de thé et d'adorables macarons. Quelqu'un peut-il m'aider ?",
+"bakery_SO_3a.deliver":"Livrez 3 macarons au citron dans la boîte de dépôt dans la cuisine de Haley.",
+"bakery_SO_3b.deliver":"Livrez 3 macarons à la lavande dans la boîte de dépôt dans la cuisine de Haley.",
+"bakery_SO_3c.deliver":"Livrez 3 macarons aux fraises dans la boîte de dépôt dans la cuisine de Haley.",
+"bakery_SO_3d.deliver":"Livrez 3 macarons au chocolat dans la boîte de dépôt dans la cuisine de Haley.",
+
+"bakery_SO_4.name":"Bonbons à l'heure du thé",
+"bakery_SO_4.text":"Evelyn m'invite à l'heure du thé et je ne veux pas arriver les mains vides. Quelqu'un peut-il m'apporter des scones ?",
+"bakery_SO_4a.deliver":"Livrez 3 scones à la pistache dans la boîte de dépôt de la cuisine de Caroline.",
+"bakery_SO_4b.deliver":"Livrez 3 scones aux framboises dans la boîte de dépôt de la cuisine de Caroline.",
+"bakery_SO_4c.deliver":"Livrez 3 scones aux mûres dans la boîte de dépôt de la cuisine de Caroline.",
+"bakery_SO_4d.deliver":"Livrez 3 scones à la citrouille dans la boîte de dépôt de la cuisine de Caroline.",
+
+"bakery_SO_5.name":"Défi du maître pâtissier",
+"bakery_SO_5.text":"C'est encore cette période de l'année - les candidatures annuelles pour le poste de Maître Pâtissier sont ouvertes ! Envoyez-nous vos meilleurs produits de boulangerie pour voir si vous pouvez gagner le grand prix !",
+"bakery_SO_5.ship":"Expédiez 100 produits de boulangerie.",
+
+//BAKERY REPEATABLE NEW
+
+"bakery_SO_6.name":"Gâteau au fromage pour Jodi",
+"bakery_SO_6.text":"Besoin d'un cheesecake pour une fête que j'organise en fin de semaine",
+"bakery_SO_6.deliver":"Livrez 4 cheesecakes à Jodi.",
+"bakery_SO_6.accept":"Parfait ! Cela me fait gagner beaucoup de temps et ils sont magnifiques. Merci !",
+
+"bakery_SO_7.name":"Tartes pour le sorcier",
+"bakery_SO_7.text":"J'ai besoin de tartes, mais pas pour moi. Elles sont destinées à l'étude continue de la magie, et il se trouve qu'elles sont les préférées des esprits junimo...",
+"bakery_SO_7.deliver":"Livrez 6 tartes au magicien.",
+"bakery_SO_7.accept":"Peut-être que maintenant les junimos vont me laisser me reposer. J'espère juste que ça suffit. Merci.",
+
+"bakery_SO_8.name":"Muffins pour Penny",
+"bakery_SO_8.text":"Les enfants ont été si bons dans leurs études ; j'aimerais les surprendre avec une gâterie spéciale !",
+"bakery_SO_8.deliver":"Livrez 12 muffins à Penny.",
+"bakery_SO_8.accept":"Ce sera la gâterie parfaite après les cours, demain ! Merci beaucoup.",
+
+
+//BAKERY REWARDS MAIL
+ 
+"bakery_SO2_reward.title": "Merci !",
+"bakery_SO2_reward.text": "Maintenant, VOICI ce que j'appelle des tartelettes ! Ces enfants ne voudront plus jamais un de ces morceaux de carton préemballés.",
+
+"bakery_SO3_reward.title": "Merci <3",
+"bakery_SO3_reward.text": "Ooo je me sens déjà plus fantaisiste en les regardant. Ma journée de soins personnels va être incroyable maintenant ; merci encore !",
+
+"bakery_SO4_reward.title": "Merci ; ainsi que des instructions pour fabriquer des boîtes de boulangerie !",
+"bakery_SO4_reward.text": "Elles sont parfaites ! Est-ce que ça vous dérangerait si je disais à Evelyn que je les ai faites ? Juste pour cette fois ? Oh merci, ma chérie, j'apprécie vraiment !",
+
+"bakery_SO5_reward.title": "Félicitations !",
+"bakery_SO5_reward.text": "Votre dévouement est impressionnant. Nous sommes fiers de vous offrir le titre de Maître Pâtissier. Veuillez le prendre comme une récompense.",
+
+
+}

@@ -1,0 +1,119 @@
+{
+    "Changes": [
+
+        {
+              "LogName":"QL - Flower Bushes",
+              "Action": "EditData",
+              "Target": "Data/FruitTrees",
+              "Entries": {
+                    "PC.QL.FlowerGarden2_AlamandaSapling": {
+                    "DisplayName": "{{i18n:Alamanda.sapling.name}}",
+                    "Seasons": [
+                        "summer"
+                    ],
+                    "Fruit": [
+                        {
+                            "Id": "PC.QL.FlowerGarden2_Alamanda",
+                            "ItemId": "PC.QL.FlowerGarden2_Alamanda",
+                            "Season": "summer",
+                            "Chance": 0.25,
+                            "Condition": null,
+                            "RandomItemId": null,
+                            "MinStack": 0,
+                            "MaxStack": 1,
+                            "Quality": 0
+                        },
+                        {
+                            "Id": "PC.QL.FlowerGarden2_AlamandaSapling",
+                            "ItemId": "PC.QL.FlowerGarden2_AlamandaSapling",
+                            "Season": "fall",
+                            "Chance": 0.0025,
+                            "Condition": null,
+                            "RandomItemId": null,
+                            "MinStack": 0,
+                            "MaxStack": 1,
+                            "Quality": 0
+                        }
+
+                    ],
+                    "Texture": "Mods/PC.QL.FlowerGarden2/FruitTrees",
+                    "TextureSpriteRow": 0
+                },
+
+              "PC.QL.FlowerGarden2_Gardenia": {
+                    "DisplayName": "{{i18n:Gardenia.sapling.name}}",
+                    "Seasons": [
+                        "summer"
+                    ],
+                    "Fruit": [
+                        {
+                            "Id": "PC.QL.FlowerGarden2_Gardenia",
+                            "ItemId": "PC.QL.FlowerGarden2_Gardenia",
+                            "Season": "summer",
+                            "Chance": 0.25,
+                            "Condition": null,
+                            "RandomItemId": null,
+                            "MinStack": 0,
+                            "MaxStack": 1,
+                            "Quality": 0
+                        }
+                    ],
+                    "Texture": "Mods/PC.QL.FlowerGarden2/FruitTrees",
+                    "TextureSpriteRow": 1
+                },
+
+
+                    "PC.QL.FlowerGarden2_Hibiscus": {
+                    "DisplayName": "{{i18n:Hibiscus.sapling.name}}",
+                    "Seasons": [
+                        "summer"
+                    ],
+                    "Fruit": [
+                        {
+                            "Id": "PC.QL.FlowerGarden2_Hibiscus",
+                            "ItemId": "PC.QL.FlowerGarden2_Hibiscus",
+                            "Season": "summer",
+                            "Chance": 0.25,
+                            "Condition": null,
+                            "RandomItemId": null,
+                            "MinStack": 0,
+                            "MaxStack": 1,
+                            "Quality": 0
+                        }
+                    ],
+                    "Texture": "Mods/PC.QL.FlowerGarden2/FruitTrees",
+                    "TextureSpriteRow": 2
+                }
+            }
+        }, 
+
+        {
+              "Action": "EditData",
+              "Target": "Data/FruitTrees",
+              "Entries": {
+                    "PC.QL.FlowerGarden2_Lilac": {
+                    "DisplayName": "{{i18n:Lilac.sapling.name}}",
+                    "Seasons": [
+                        "spring"
+                    ],
+                    "Fruit": [
+                        {
+                            "Id": "PC.QL.FlowerGarden2_Lilac",
+                            "ItemId": "PC.QL.FlowerGarden2_Lilac",
+                            "Season": "spring",
+                            "Chance": 0.25,
+                            "Condition": null,
+                            "RandomItemId": null,
+                            "MinStack": 0,
+                            "MaxStack": 1,
+                            "Quality": 0
+                        }
+                    ],
+                    "Texture": "Mods/PC.QL.FlowerGarden2/FruitTrees",
+                    "TextureSpriteRow": 3
+                }
+            }
+        }, 
+
+           ]
+}

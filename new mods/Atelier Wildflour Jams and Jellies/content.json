@@ -1,0 +1,69 @@
+{
+    "Format": "2.0.0",
+
+   "ConfigSchema": {
+
+        "EnableSpecialOrders": 
+		{
+            "Description": "If you want to enable special orders that correspond to this mod's new items. True by default",
+			"AllowValues": "true, false",
+			"Default": "true",
+            "AllowBlank": false
+		}
+},
+
+
+
+
+    "Changes": [
+      
+        //Include Objects
+
+        {
+            "LogName": "Jam Objects",
+            "Action": "Include",
+            "FromFile": "Data/objects.json",
+        },
+
+        //Include Cooking Recipes
+
+        {
+            "LogName": "Cooking Recipes",
+            "Action": "Include",
+            "FromFile": "Data/recipes.json",
+        },
+
+        //Include Gift Tastes
+
+        {
+            "LogName": "Jam Gift Tastes",
+            "Action": "Include",
+            "FromFile": "Data/gifttastes.json",
+        },
+
+         //Include Mail
+
+        {
+            "LogName": "Jam Mail",
+            "Action": "Include",
+            "FromFile": "Data/mail.json",
+        },
+
+        //Include Special Orders
+
+        {
+            "LogName": "Jams Special Orders",
+            "Action": "Include",
+            "FromFile": "Data/specialorders.json",
+            "When": {"EnableSpecialOrders": true}
+        },
+        
+        //Include Textures
+
+        {
+            "LogName": "Jam Textures",
+            "Action": "Include",
+            "FromFile": "Data/textures.json",
+        },
+    ]
+}

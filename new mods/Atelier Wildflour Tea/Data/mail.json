@@ -1,0 +1,56 @@
+{
+    "Changes": [
+
+//////////////
+// ADD MAIL //
+//////////////
+
+        {
+            "Action": "EditData",
+            "Target": "Data/Mail",
+                "Entries": {
+                    "wildflour.ateliertea_TeaProcessorRecipe": "{{i18n: ateliertea_TeaProcessorRecipe.text}} %item craftingRecipe wildflour.ateliertea_TeaProcessor %%[#]{{i18n: ateliertea_TeaProcessorRecipe.name}}",
+                    "wildflour.ateliertea_TeaKettleRecipe": "{{i18n: ateliertea_TeaKettleRecipe.text}} %item craftingRecipe wildflour.ateliertea_TeaKettle %%[#]{{i18n: ateliertea_TeaKettleRecipe.name}}",
+                    "wildflour.ateliertea_evelyn_gift": "{{i18n: ateliertea_evelyn_gift.text}} %item id (O)wildflour.ateliercrops_chamomileseeds 3 %%[#]{{i18n: ateliertea_evelyn_gift.name}}",
+                    "wildflour.ateliertea_leah_gift": "{{i18n: ateliertea_leah_gift.text}} %item id (O)815 3 %%[#]{{i18n: ateliertea_leah_gift.name}}",
+                    "wildflour.ateliertea_maru_gift": "{{i18n: ateliertea_maru_gift.text}} %item id (O)wildflour.ateliercrops_honeyfungusseeds 3 %%[#]{{i18n: ateliertea_maru_gift.name}}",
+                    "wildflour.ateliertea_SO2_reward": "{{i18n: ateliertea_SO2_reward.text}} %item id (O)251 5 %%[#]{{i18n: ateliertea_SO2_reward.name}}",     
+                    "wildflour.ateliertea_SO3_reward": "{{i18n: ateliertea_SO3_reward.text}} %item id (O)wildflour.ateliercrops_cacaopodsapling 3 %%[#]{{i18n: ateliertea_SO3_reward.name}}", 
+                    "wildflour.ateliertea_SO4_reward": "{{i18n: ateliertea_SO4_reward.text}} %item id (O)835 1 %%[#]{{i18n: ateliertea_SO4_reward.name}}", 
+                    "wildflour.ateliertea_SO5_reward": "{{i18n: ateliertea_SO5_reward.text}} %item id (O)StardropTea 3 %%[#]{{i18n: ateliertea_SO5_reward.name}}" 
+                     
+                }
+        },
+
+///////////////
+// SEND MAIL //
+///////////////
+
+        {
+            "Action": "EditData",
+            "Target": "Data/Events/Farm",
+        
+            "Entries": {	
+                "wildflour.ateliertea_evelynmail/f Evelyn 750/G {{HasCraftingRecipe: wildflour.ateliertea_TeaProcessor}}/x wildflour.ateliertea_evelyn_gift": "null",
+                "wildflour.ateliertea_leahmail/f Leah 1000/G {{HasCraftingRecipe: wildflour.ateliertea_TeaProcessor}}/x wildflour.ateliertea_leah_gift": "null",
+                "wildflour.ateliertea_marumail/f Maru 750/G {{HasCraftingRecipe: wildflour.ateliertea_TeaKettle}}/x wildflour.ateliertea_maru_gift": "null",
+                "wildflour.ateliertea_SO2mail/n wildflour.ateliertea_SO2_complete/x wildflour.ateliertea_SO2_reward": "null",
+                "wildflour.ateliertea_SO3mail/n wildflour.ateliertea_SO3_complete/x wildflour.ateliertea_SO3_reward": "null",
+                "wildflour.ateliertea_SO4mail/n wildflour.ateliertea_SO4_complete/x wildflour.ateliertea_SO4_reward": "null",			
+                "wildflour.ateliertea_SO5mail/n wildflour.ateliertea_SO5_complete/x wildflour.ateliertea_SO5_reward": "null"		
+            
+            }
+            },         
+        
+        {
+            "Action": "EditData",
+            "Target": "Data/Events/Farm",
+            "Entries": {
+                "wildflour.ateliertea_TeaProcessor_mail/f Elliott 500/x wildflour.ateliertea_TeaProcessorRecipe": "null",	
+                "wildflour.ateliertea_TeaKettle_mail/f Caroline 500/x wildflour.ateliertea_TeaKettleRecipe": "null",			
+            },
+            "When": {"EasyRecipes": false}
+            }       
+
+]
+}

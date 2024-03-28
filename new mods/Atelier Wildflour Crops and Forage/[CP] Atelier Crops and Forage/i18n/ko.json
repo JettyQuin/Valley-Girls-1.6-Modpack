@@ -1,0 +1,598 @@
+{
+
+	//SEEDS
+
+	"ateliercrops_vanillaseeds.name": "바닐라 스타터",
+	"ateliercrops_vanillaseeds.description": "여름에 심으세요. 성장하려면 14일이 소요되고, 5일마다 수확 할 수 있습니다.",
+
+	"ateliercrops_chamomileseeds.name": "캐모마일 씨앗",
+	"ateliercrops_chamomileseeds.description": "봄, 혹은 여름에 심으세요. 성장하려면 5일이 걸립니다.",
+
+	"ateliercrops_lavenderseeds.name": "라벤더 씨앗",
+	"ateliercrops_lavenderseeds.description": "봄, 여름 또는 가을에 심으세요. 성장하려면 14일이 소요되고, 4일마다 수확할 수 있습니다.",
+
+	"ateliercrops_jasmineseeds.name": "자스민 씨앗",
+	"ateliercrops_jasmineseeds.description": "여름에 심으세요. 성장하려면 14일이 소요되고, 5일마다 수확할 수 있습니다.",
+
+	"ateliercrops_mallowseeds.name": "마시멜로 씨앗",
+	"ateliercrops_mallowseeds.description": "봄, 혹은 여름에 심으세요. 성장하려면 8일이 소요되고, 4일마다 수확할 수 있습니다.",
+
+	"ateliercrops_mintseeds.name": "박하풀 씨앗",
+	"ateliercrops_mintseeds.description": "봄, 혹은 여름에 심으세요. 성장하려면 12일이 소요되고, 3일마다 수확할 수 있습니다.",
+
+	"ateliercrops_redonionseeds.name": "적양파 씨앗",
+	"ateliercrops_redonionseeds.description": "봄, 혹은 가을에 심으세요. 성장하려면 7일이 소요됩니다.",
+
+	"ateliercrops_strawberryseeds.name": "야생딸기 덤불",
+	"ateliercrops_strawberryseeds.description": "봄에 심으세요. 성장하려면 12일이 소요되고, 3일마다 수확 할 수 있습니다.",
+
+	"ateliercrops_raspberryseeds.name": "라즈베리 덤불",
+	"ateliercrops_raspberryseeds.description": "여름에 심으세요. 성장하려면 10일이 소요되고, 4일마다 수확 할 수 있습니다.",
+
+	"ateliercrops_wormwoodseeds.name": "쓴쑥 씨앗",
+	"ateliercrops_wormwoodseeds.description": "여름에 심으세요. 성장하려면 10일이 소요되고, 3일마다 수확 할 수 있습니다.",
+
+	//HERB SEEDS
+
+	"ateliercrops_basilseeds.name": "바질 씨앗",
+	"ateliercrops_basilseeds.description": "여름에 심습니다. 자라는 데 14일이 걸리며 이후 3일마다 수확할 수 있습니다.",
+	
+	"ateliercrops_cilantroseeds.name": "실란토르 씨앗",
+	"ateliercrops_cilantroseeds.description": "봄에 심습니다. 자라는 데 7일이 걸리며 이후 5일마다 수확할 수 있습니다.",
+	
+	"ateliercrops_rosemaryseeds.name": "로즈마리 씨앗",
+	"ateliercrops_rosemaryseeds.description": "봄이나 가을에 심습니다. 자라는 데 14일이 걸리며 이후 4일마다 수확할 수 있습니다.",
+	
+	"ateliercrops_sageseeds.name": "세이지 씨앗",
+	"ateliercrops_sageseeds.description": "가을에 심습니다. 자라는 데 12일이 걸리며 이후 5일마다 수확할 수 있습니다.",
+	
+	"ateliercrops_thymeseeds.name": "백리향 씨앗",
+	"ateliercrops_thymeseeds.description": "봄, 여름에 심습니다. 자라는 데 12일이 걸리며 이후 5일마다 수확할 수 있습니다.",
+
+	"ateliercrops_gentianroot.name": "용담뿌리",
+	"ateliercrops_gentianroot.description": "고산지대에서 수확할 수 있는 식물의 뿌리로, 음료에 씁쓸한 맛을 더하거나 향료로써 사용됩니다.",
+
+	"ateliercrops_wormwood.name": "쓴쑥",
+	"ateliercrops_wormwood.description": "압생트의 주요 재료 중 하나로 알려진 이 풀은 다양한 용도로 쓸 수 있습니다.",
+
+	// MUSHROOM STARTERS
+
+    "ateliercrops_chickenwoodsseeds.name":"포레스트 치킨 스타터",
+    "ateliercrops_chickenwoodsseeds.description":"여름에 심습니다. 자라는데 14일이 걸리고, 이후 5일마다 수확할 수 있습니다.",
+
+    "ateliercrops_honeyfungusseeds.name":"꿀곰팡이 버섯 스타터",
+    "ateliercrops_honeyfungusseeds.description":"봄에 심습니다. 자라는데 21일이 걸리고, 이후 3일마다 수확할 수 있습니다.",
+
+    "ateliercrops_meringueshroomseeds.name":"머랭 버섯 스타터",
+    "ateliercrops_meringueshroomseeds.description":"가을에 심습니다. 자라는데 16일이 걸리고, 이후 3일마다 수확할 수 있습니다.",
+
+    "ateliercrops_milkshroomseeds.name":"밀키 버섯 스타터",
+    "ateliercrops_milkshroomseeds.description":"여름, 혹은 가을에 심습니다. 자라는데 14일이 걸리고, 이후 5일마다 수확할 수 있습니다.",
+
+    "ateliercrops_wheatshroomseeds.name":"밀베리 버섯 스타터",
+    "ateliercrops_wheatshroomseeds.description":"가을에 심습니다. 자라는데 12일이 걸리고, 이후 4일마다 수확할 수 있습니다.",
+	
+	//HERBS
+	
+	"ateliercrops_basil.name": "스위트 바질",
+	"ateliercrops_basil.description": "예로부터 다양한 요리에 색상과 맛을 더해주는 용도로 쓰이던 인기 있는 허브입니다.",
+	
+	"ateliercrops_cilantro.name": "잉걸불수액 실란트로",
+	"ateliercrops_cilantro.description": "매콤한 요리나 살사에 자주 사용되는, 야생 품종의 고수풀입니다. 코리앤더라고도 알려졌습니다.",
+	
+	"ateliercrops_sage.name": "잉걸불수액 세이지",
+	"ateliercrops_sage.description": "많은 가을 요리에 풍미를 더해주는 것으로 사용되는, 꽃 향기가 특징인 섬세한 풍미의 허브입니다.",
+	
+	"ateliercrops_rosemary.name": "하디 로즈마리",
+	"ateliercrops_rosemary.description": "어디에서나 잘 자라는 튼튼하고 질긴 향초. 작은 소나무를 닮았습니다.",
+	
+	"ateliercrops_thyme.name": "레몬 백리향",
+	"ateliercrops_thyme.description": "어느 정원에서나 잘 자라는 인기 허브; 레몬 백리향은 허브향과 시트러스 향이 함께 나기 때문에 더 귀하게 여깁니다.",
+
+	"ateliercrops_anise.name": "팔각",
+	"ateliercrops_anise.description": "많은 전통적인, 옛 부엌에서부터 사용되던 약초입니다. 다양한 마법적인 재료로도 여겨지고, 예언과 관련된 주술에서도 곧잘 사용됩니다.",
+
+	
+	//TREES NEW
+
+	"ateliercrops_lemonsapling.name":"레몬나무 묘목",
+	"ateliercrops_lemonsapling.description":"성목이 되기까지 28일이 걸립니다. 봄에 열매를 맺습니다..",
+	
+	"ateliercrops_limesapling.name":"라임나무 묘목",
+	"ateliercrops_limesapling.description":"성목이 되기까지 28일이 걸립니다. 봄에 열매를 맺습니다.",
+
+	"ateliercrops_anise_sapling.name": "팔각나무 묘목",
+	"ateliercrops_anise_sapling.description": "성목이 되기까지 28일이 걸립니다. 봄에 열매를 맺습니다.",
+
+	"ateliercrops_elder_sapling.name": "딱총나무 묘목",
+	"ateliercrops_elder_sapling.description": "성목이 되기까지 28일이 걸립니다. 여름에 열매를 맺습니다.",
+
+	//TREES
+
+	"ateliercrops_pistachiosapling.name": "피스타치오 묘목",
+	"ateliercrops_pistachiosapling.description": "성목이 되기까지 28일이 걸립니다. 여름과 가을에 열매를 맺습니다.",
+
+	"ateliercrops_cinnamonsapling.name": "시나몬 묘목",
+	"ateliercrops_cinnamonsapling.description": "성목이 되기까지 28일이 걸립니다. 겨울에 수확할 수 있습니다.",
+
+	"ateliercrops_olivesapling.name": "올리브 묘목",
+	"ateliercrops_olivesapling.description": "성목이 되기까지 28일이 걸립니다. 여름에 열매를 맺습니다.",
+
+	"ateliercrops_cashewsapling.name": "캐슈애플 묘목",
+	"ateliercrops_cashewsapling.description": "성목이 되기까지 28일이 걸립니다. 가을에 열매를 맺습니다.",
+
+	"ateliercrops_walnutsapling.name": "호두 묘목",
+	"ateliercrops_walnutsapling.description": "성목이 되기까지 28일이 걸립니다. 가을에 열매를 맺습니다.",
+
+	"ateliercrops_almondsapling.name": "아몬드 묘목",
+	"ateliercrops_almondsapling.description": "성목이 되기까지 28일이 걸립니다. 여름에 열매를 맺습니다.",
+
+	"ateliercrops_cacaopodsapling.name": "카카오 묘목",
+	"ateliercrops_cacaopodsapling.description": "성목이 되기까지 28일이 걸립니다. 가을에 열매를 맺습니다.",
+
+	//OBJECTS
+
+	"ateliercrops_pistachio.name":"칼리코 피스타치오",
+	"ateliercrops_pistachio.description":"칼리코 사막에서 채집으로만 발견되는 독특하고 희귀한 품종의 피스타치오.",
+
+	"ateliercrops_vanilla.name": "칼리코 바닐라",
+	"ateliercrops_vanilla.description": "칼리코 사막에서 채집으로만 발견되는 독특하고 희귀한 품종의 바닐라.",
+
+	"ateliercrops_cherryblossoms.name": "벚꽃잎",
+	"ateliercrops_cherryblossoms.description": "활짝 핀 벚꽃의 신선한 꽃잎.",
+
+	"ateliercrops_chickenwoods.name": "포레스트 치킨",
+	"ateliercrops_chickenwoods.description": "이 이상한 이름의 버섯은 전 세계에서 발견되며 어떤 사람들은 이것이 정말로 닭고기와 맛이 똑같다고 주장합니다!",
+	
+	"ateliercrops_cinnamon.name": "잉걸불수액 시나몬",
+	"ateliercrops_cinnamon.description": "겨우내 잉걸불수액 숲에서만 볼 수 있는 진귀한 시나몬.",
+	
+	"ateliercrops_olive.name": "페른섬 올리브",
+	"ateliercrops_olive.description": "열대지방에서 발견되는 희귀한 품종의 올리브로, 펀길 공화국의 해변에선 숙련된 채집가에 의해 발견되곤 합니다.",
+	
+	"ateliercrops_chamomile.name": "숲 캐모마일",
+	"ateliercrops_chamomile.description": "숲 속 깊은 곳에서 발견되는 섬세한 성질의 꽃. 차로 만들면 딱 좋습니다.",
+	
+	"ateliercrops_lavender.name": "숲 라벤더",
+	"ateliercrops_lavender.description": "깊은 숲 속에서만 발견되는 향기롭고 우거진 채 피어나는 꽃.",
+
+	"ateliercrops_jasmine.name": "보석섬 자스민",
+	"ateliercrops_jasmine.description": "진저 섬에서 채집으로 찾아낼 수 있는 아름다운 향의 꽃입니다.",
+	
+	"ateliercrops_cashew.name": "보석해 캐슈",
+	"ateliercrops_cashew.description": "보석해 연안의 섬에서만 구할 수 있는 캐슈애플에서 얻은 씨앗입니다.",
+	
+	"ateliercrops_walnut.name": "그램플턴 호두",
+	"ateliercrops_walnut.description": "그램플턴에서 자라는 야생 호두 품종이 발견된 적이 있습니다. 지금은 펠리컨 타운에서도 볼 수 있군요!",
+
+	"ateliercrops_honeyfungus.name": "꿀곰팡이 버섯",
+	"ateliercrops_honeyfungus.description": "생으로 먹는 것은 위험하지만, 이 버섯은 적절하게 요리하면 풍부하고 고소한 맛이 납니다.",	
+	
+	"ateliercrops_mallow.name": "마시멜로꽃",
+	"ateliercrops_mallow.description": "주로 디저트를 만드는 데 사용되는 마시멜로 꽃.",
+
+	"ateliercrops_meringueshroom.name": "머랭 버섯",
+	"ateliercrops_meringueshroom.description": "계곡 최고의 채집가들만이 찾아볼 수 있는 이상하게 달콤한 버섯으로 색깔과 모양이 마치 사탕처럼 생겼습니다.",
+	
+	"ateliercrops_milkshroom.name": "밀키 버섯",
+	"ateliercrops_milkshroom.description": "이 버섯은 밝은 흰색이며 크림 같은 질감을 가지고 있습니다.",
+
+	"ateliercrops_mint.name": "펠리컨 박하",
+	"ateliercrops_mint.description": "마을 사람들이 아무리 제거하려 노력해도 펠리컨 마을 주변에서 자라는 박하의 한 종류.",
+	
+	"ateliercrops_lemon.name": "작은 레몬",
+	"ateliercrops_lemon.description": "숙련된 채집가가 야생에서 발견한 작지만 향긋한 레몬.",
+
+	"ateliercrops_lime.name": "작은 라임",
+	"ateliercrops_lime.description": "숙련된 채집가가 야생에서 발견한 작지만 향긋한 라임.",
+	
+    "ateliercrops_almond.name": "성 카놀리 아몬드",
+	"ateliercrops_almond.description": "숙련된 채집가의 꿈이 이루어졌습니다! 노장 카놀리가 직접 재배한 것으로 알려진 가장 희귀한 아몬드입니다.",
+	
+	"ateliercrops_wheatshroom.name": "밀베리 버섯",
+	"ateliercrops_wheatshroom.description": "아마추어 채집가에게 있어 매우 흔한 버섯이지만 숙련된 채집가들은 이 곰팡이가 중요한 요리 재료로 전환될 수 있다는 것을 알고 있습니다.",
+
+	"ateliercrops_cacaopod.name": "야생 카카오",
+	"ateliercrops_cacaopod.description": "코코아 및 이국적인 음식을 만드는 데 사용되는 카카오 나무의 열매.",
+	
+	"ateliercrops_raspberry.name": "야생 라즈베리",
+	"ateliercrops_raspberry.description": "펀길 전역의 숲에서 자생하는 작고 달콤한 베리.",
+	
+	"ateliercrops_redonion.name": "야생 적양파",
+	"ateliercrops_redonion.description": "주의하세요. 그렇지 않으면 울게 될겁니다!",
+	
+	"ateliercrops_strawberry.name": "야생딸기",
+	"ateliercrops_strawberry.description": "펀길 전역의 숲에서 자생하는 작은 종류의 딸기.",
+
+	
+	"ateliercrops_elderberries.name": "엘더베리 꽃",
+	"ateliercrops_elderberries.description": "엘더베리와 꽃 한 줌. 훌륭한 차로도, 혹은 향신료로도 추천됩니다.",
+
+	
+////////////////////
+// SPECIAL ORDERS //
+////////////////////
+
+	"ateliercrops_SO_1.name":"칼리코 사막의 꿈",
+	"ateliercrops_SO_1.text":"특별한 계절에만 구할 수 있는, 칼리코 사막의 독특한 꽃에 대해 들어본 적 있나요? 말려서 텐트에 보관하고 싶군요.",
+	"ateliercrops_SO_1.deliver":"라이너스에게 칼리코 바닐라 2개 전달하기",
+	"ateliercrops_SO_1.accept":"오, 칼리코 사막은 정말 사랑스럽지 않았나? 이 바닐라를 말린다면, 집에서도 사막의 향을 얼마든지 그릴 수 있겠지...",
+
+	"ateliercrops_SO_2.name":"베리를 가득",
+	"ateliercrops_SO_2.text":"모아놓은 베리가 다 떨어졌어요. 초콜릿 베리 타르트를 만들고 싶은데, 나눠줄 분이 있을까요?",
+	"ateliercrops_SO_2a.deliver":"레아의 집 보관함에 야생딸기 4개 배달.",
+	"ateliercrops_SO_2b.deliver":"레아의 집 보관함에 야생 라즈베리 4개 배달.",
+
+	"ateliercrops_SO_3.name":"치킨과 같은 맛",
+	"ateliercrops_SO_3.text":"계곡에서는 육류의 대체제로 버섯을 고르는데, 연구에도 꽤 필요합니다.",
+	"ateliercrops_SO_3.deliver":"드미트리우스의 연구실 보관함에 포레스트 치킨 15개 넣기.",
+
+	"ateliercrops_SO_4.name":"사막에 피는 꽃",
+	"ateliercrops_SO_4.text":"사막은 그 나름대로 매력이 있지만, 계곡에서만 자라는 꽃이 슬슬 그리워지고 있어요. 보내주실 분?",
+	"ateliercrops_SO_4a.deliver":"샌디의 오아시스 보관함에 숲 라벤더 5개 배달.",
+	"ateliercrops_SO_4b.deliver":"샌디의 오아시스 보관함에 숲 캐모마일 5개 배달.",
+
+	"ateliercrops_SO_5.name":"채집 장인 챌린지",
+	"ateliercrops_SO_5.text":"올해도 이 시기가 찾아왔습니다- 최고의 채집가를 노리는 분들은 최고의 상품을 보내주세요!",
+	"ateliercrops_SO_5.ship":"배송 상자에 금별 품질의 채집물 100개 배송.",
+
+	"ateliercrops_SO_6.name":"마루를 위한 버섯",
+	"ateliercrops_SO_6.text":"실험을 위해 신선한 버섯이 필요하지만, 병원에서 일하느라 구하러 갈 시간이 없어요. 여분이 있다면 도와주실 분 계실까요?",
+	"ateliercrops_SO_6.deliver":"마루에게 종류 불문 버섯 5개 전달하기.",
+	"ateliercrops_SO_6.accept":"이거 너무 완벽하다! 찾는 데 걸릴 시간을 덜어줘서 정말 고마워!",
+
+	"ateliercrops_SO_7.name":"거스를 위한 과일",
+	"ateliercrops_SO_7.text":"신선한 과일의 배송이 늦어지고 있습니다. 칵테일을 만들어야 하는데요! 도와줄 사람?",
+	"ateliercrops_SO_7.deliver":"거스에게 야생 과일 6개 전달하기.",
+	"ateliercrops_SO_7.accept":"내 칵테일은 이 정도면 충분히 만들 수 있을걸세. 정말 고마워.",
+
+	"ateliercrops_SO_8.name":"에블린을 위한 허브",
+	"ateliercrops_SO_8.text":"요리에 필요한 허브가 다 떨어졌어요. 혹시 도와줄 사람이 있을까요?",
+	"ateliercrops_SO_8.deliver":"에블린에게 야생 허브 8개 전달하기.",
+	"ateliercrops_SO_8.accept":"요리에 꼭 필요한 허브만 가져왔구나! 도와줘서 고맙단다, 아가야.",
+
+////////////////////////
+// SPECIAL ORDER MAIL //
+////////////////////////
+
+	"ateliercrops_SO2_reward.title": "고마워요.",
+	"ateliercrops_SO2_reward.text": "보내준 베리로 딱 맞게 타르트를 만들었어! 도와줘서 고마워!^^-레아",
+	
+	"ateliercrops_SO3_reward.title": "감사의 편지와 버섯 스타터",
+	"ateliercrops_SO3_reward.text": "친애하는 @ ^^ 내 연구를 도와줘서 고마워. 덕분에 완벽한 식물성 단백질 공급원을 찾기에 더 가까워졌어. ^^-드미트리우스",
+	
+	"ateliercrops_SO4_reward.title": "감사 인사와 약간의 버섯 스타터 !",
+	"ateliercrops_SO4_reward.text": "내가 바라던 걸 딱 들어줘서 고마워, 자기야! 내 일기에도 꼭 적어둘거야.^^-샌디",
+	
+	"ateliercrops_SO5_reward.title": "축하합니다!!",
+	"ateliercrops_SO5_reward.text": "당신의 헌신과 노고는 우리 협회에 큰 인상을 남겼습니다. 당신에게 최고의 채집 장인이라는 직함을 제공하게 되어 자랑스럽습니다. 보상을 받아주십시오.",
+
+
+///////////////////////////////
+// FAERIE GARDEN TRANSLATION //
+///////////////////////////////
+
+//MUSHROOMS
+
+"ateliercrops_dawn_trumpet.name":"새벽의 나팔",
+"ateliercrops_dawn_trumpet.description":"새벽에만 자란다고 하는 신비로운 버섯.",
+
+"ateliercrops_dusk_cap.name":"황혼의 모자",
+"ateliercrops_dusk_cap.description":"일몰이 지속되는 몇 시간 동안만 자란다는 신비로운 버섯",
+
+"ateliercrops_giant_amanita.name":"자이언트 아마니타",
+"ateliercrops_giant_amanita.description":"유난히 커다란 독버섯입니다.",
+
+"ateliercrops_amanita_cluster.name":"아마니타 송이",
+"ateliercrops_amanita_cluster.description":"작은 군집을 이루며 자라는 독버섯. 특정 물약을 제조할 때 쓰이지만, 그대로 섭취하면 아주 치명적입니다.",
+
+"ateliercrops_golden_aura.name":"황금 아우라",
+"ateliercrops_golden_aura.description":"마법 혼합물 제작에 사용되는, 놀랄만큼 아름다운 황금빛 버섯.",
+
+"ateliercrops_moon_mushroom.name":"달버섯",
+"ateliercrops_moon_mushroom.description":"보름달처럼 보이기도 하는, 섬뜩한 느낌을 안겨주는 말불버섯의 일종.",
+
+"ateliercrops_gloomy_blewit.name":"글루미 블레윗",
+"ateliercrops_gloomy_blewit.description":"폭풍우 때 유난히 많이 보인다고 하는 어두침침하고 이상한 버섯.",
+
+"ateliercrops_tiny_angels.name":"작은 천사들",
+"ateliercrops_tiny_angels.description":"그들의 먼 사촌격인 파괴의 천사와 달리, 이 작은 버섯은 식용이 가능할 뿐 아니라 샐러드와 잘 어울립니다.",
+
+"ateliercrops_verdigris_agaric.name":"독청버섯",
+"ateliercrops_verdigris_agaric.description":"환각성 물질을 가져 때때로 섭취하기도 하는 청록색 버섯입니다. 일정량 이상 섭취할 경우 독으로 작용하니 주의하세요.",
+
+"ateliercrops_faerie_helmets.name":"요정의 보닛",
+"ateliercrops_faerie_helmets.description":"자그마한 크기와 모자처럼 생긴 모양으로 요정의 보닛이라는 별명이 붙었습니다.",
+
+"ateliercrops_blush_cap.name":"붉은슬라임 모자버섯",
+"ateliercrops_blush_cap.description":"숙련된 마녀나 채집가만이 취급해야 하는 맹독성의 버섯입니다.",
+
+"ateliercrops_peach_parasol.name":"복숭아 파라솔",
+"ateliercrops_peach_parasol.description":"장미색을 띈 이상한 버섯. 한 때 옷이나 화장품의 색을 내기 위한 염료의 재료였다는 소문이 있습니다.",
+
+//FLOWERS
+
+"ateliercrops_geranium.name": "천사 제라늄",
+"ateliercrops_geranium.description": "아름답고 눈에 띄는 색으로 유명한 풍성한 꽃의 제라늄.",
+
+"ateliercrops_arctic_fox.name": "북극여우꽃",
+"ateliercrops_arctic_fox.description": "여우의 장갑이라고도 불리는 심장풀의 한 품종입니다. 화려하지만, 인간에겐 독이 있습니다.",
+
+"ateliercrops_avalune.name": "에이벌룬",
+"ateliercrops_avalune.description": "다양한 색상을 자랑하는 루핀 꽃의 일종입니다. 요정들에겐 특히나 좋은 선물이라고 하네요.",
+
+"ateliercrops_chiffon.name": "블루 시폰",
+"ateliercrops_chiffon.description": "아름다운 푸른빛을 띈 작약의 한 종류.",
+
+"ateliercrops_daisy.name": "덩굴 데이지",
+"ateliercrops_daisy.description": "종종 흔하게 여겨지지만, 이 데이지꽃의 많은 부분은 요리, 의학, 그리고 마법적인 부분에서도 사용할 수 있습니다.",
+
+"ateliercrops_dawn_lily.name": "여명나리",
+"ateliercrops_dawn_lily.description": "백합류에 속하지만, 아주 희귀한 품종으로 새벽에만 꽃이 핍니다. 마력이 강한 땅에서 번성하는 특징이 있습니다.",
+
+"ateliercrops_dusk_lily.name": "황혼나리",
+"ateliercrops_dusk_lily.description": "백합류에 속하지만, 아주 희귀한 품종으로 해질녘에만 꽃이 핍니다. 마력이 강한 땅에서 번성하는 특징이 있습니다.",
+
+"ateliercrops_puffball.name": "요정 분첩",
+"ateliercrops_puffball.description": "구름처럼 부드러운 촉감의 꽃입니다. 요정의 마술이 하늘과 연관된 이유가 이 꽃에 있을지도 모릅니다.",
+
+"ateliercrops_violet.name": "초원 제비꽃",
+"ateliercrops_violet.description": "짙은 보랏빛으로 초원 전체에 덩굴처럼 퍼져나가는 제비꽃의 일종.",
+
+"ateliercrops_maiden.name": "달빛여인",
+"ateliercrops_maiden.description": "이 섬세한 성질의 꽃은 친절한 요정이 봄을 맞이해 인간에게 보내는 선물이라는 전설이 있습니다.",
+
+"ateliercrops_pixies_breath.name": "요정의 숨결",
+"ateliercrops_pixies_breath.description": "어린 아이의 숨결처럼 부드럽고, 마법적인 성질을 가진 식물입니다.",
+
+"ateliercrops_primrose.name": "석영앵초꽃",
+"ateliercrops_primrose.description": "격자에서 잘 자라는 난쟁이 앵초꽃입니다. 색과 향 모두 귀하게 여기는 꽃으로, 로즈쿼츠를 떠올리는 꽃입니다. ",
+
+"ateliercrops_cake_blossom.name":"케이크꽃",
+"ateliercrops_cake_blossom.description":"달콤한 향의 황금빛 꽃. 생일 케이크를 떠올리는 맛입니다.",
+
+"ateliercrops_caramel_blossom.name":"카라멜꽃",
+"ateliercrops_caramel_blossom.description":"달콤한 향을 가진 3겹의 꽃송이. 흑설탕을 떠올리는 맛입니다.",
+
+"ateliercrops_creamsicle_blossom.name":"크림시클꽃",
+"ateliercrops_creamsicle_blossom.description":"달콤한 향의 주황빛 꽃. 생일 케이크를 연상시키는 맛입니다.",
+
+"ateliercrops_custard_blossom.name":"커스터드꽃",
+"ateliercrops_custard_blossom.description":"달콤한 향의 새하얀 꽃. 바닐라빈을 떠올리는 맛입니다.",
+
+"ateliercrops_gumdrop_blossom.name":"구미젤리꽃",
+"ateliercrops_gumdrop_blossom.description":"달콤한 향을 가진 3송이의 꽃이 모여 피었습니다. 과일사탕을 연상시키는 맛입니다.",
+
+"ateliercrops_macaron_blossom.name":"마카롱꽃",
+"ateliercrops_macaron_blossom.description":"달콤한 향의 보랏빛 꽃. 라벤더 마카롱을 연상시키는 맛입니다.",
+
+"ateliercrops_pie_blossom.name":"파이꽃",
+"ateliercrops_pie_blossom.description":"달콤한 향의 푸른 꽃. 블루베리 파이를 연상시키는 맛입니다.",
+
+"ateliercrops_shortcake_blossom.name":"쇼트케이크꽃",
+"ateliercrops_shortcake_blossom.description":"달콤한 분홍빛 꽃. 달콤한 여름 딸기를 연상시킵니다.",
+
+"ateliercrops_sprinkle_blossom.name":"스프링클꽃",
+"ateliercrops_sprinkle_blossom.description":"달콤한 향의 분홍빛 꽃. 레인보우 스프링클이 생각나는 맛입니다.",
+
+"ateliercrops_sugar_blossom.name":"설탕꽃",
+"ateliercrops_sugar_blossom.description":"달콤한 맛의 분홍빛 꽃. 생일케이크를 연상시키는 맛입니다.",
+
+"ateliercrops_mysteria.name":"미스테리아",
+"ateliercrops_mysteria.description":"희귀하고 아주 귀중한, 등나무의 한 종류입니다. 독성이 강한 대신 매혹적인 향기와 마법적인 특성으로 수많은 사람들에게 사랑받고 있습니다.",
+
+//FRUITS
+
+"ateliercrops_amber_moondrop.name": "호박 달방울",
+"ateliercrops_amber_moondrop.description": "아름답고 희귀한 금빛 포도 품종으로, 원래는 펀길 공화국의 요정족에 의해 재배되었다고 한다.",
+
+"ateliercrops_apple.name": "암브로시아 사과",
+"ateliercrops_apple.description": "신들의 음식에서 따온 이름을 붙일 정도로 매우 달콤한, 밝은 녹색 사과.",
+
+"ateliercrops_orange.name": "블러드 오렌지",
+"ateliercrops_orange.description": "보기 드문 시트러스 계열의 과실.",
+
+"ateliercrops_pomegranate.name": "에버스윗 석류",
+"ateliercrops_pomegranate.description": "신비에 싸여있는, 선명한 색이 아름다운 석류입니다. 이 과일은 수확 시기에 관계없이 언제나 즙이 많고 달콤하다고 합니다.",
+
+"ateliercrops_jade_moondrop.name": "비취 달방울",
+"ateliercrops_jade_moondrop.description": "아름답고 희귀한 청포도 품종으로, 원래는 펀길 공화국의 요정족에 의해 재배되었다고 한다.",
+
+"ateliercrops_banana.name": "레이디핑거 바나나",
+"ateliercrops_banana.description": "길쭉하고 섬세한 성질의 바나나 품종으로, 일반 바나나보다 더 달콤하다고 합니다.",
+
+"ateliercrops_lapis_moondrop.name": "청금 달방울",
+"ateliercrops_lapis_moondrop.description": "아름답고 희귀한 푸른색 포도 품종으로, 원래는 펀길 공화국의 요정족에 의해 재배되었다고 한다.",
+
+"ateliercrops_apricot.name": "황금달 살구",
+"ateliercrops_apricot.description": "달의 신들이 좋아한다는 엷은 황금빛 살구.",
+
+"ateliercrops_pearl_moondrop.name": "진주 달방울",
+"ateliercrops_pearl_moondrop.description": "아름답고 희귀한 흰색 포도 품종으로, 원래는 펀길 공화국의 요정족에 의해 재배되었다고 한다.",
+
+"ateliercrops_peach.name": "설미려 복숭아",
+"ateliercrops_peach.description": "희귀하고 섬세한 성질의 복숭아. 고대 설화에 나오는 어느 공주가 가장 좋아하던 과일이라고 합니다.",
+
+"ateliercrops_cherry.name": "유성산 체리",
+"ateliercrops_cherry.description": "평범한 체리처럼 보이지만, 이 독특한 품종의 맛은 과일보단 신맛나는 사탕 같아요.",
+
+"ateliercrops_mango.name": "저녁놀 망고",
+"ateliercrops_mango.description": "이 섬세한 맛의 망고는 석양 아래에서 익었습니다.",
+
+//HERBS
+
+"ateliercrops_rose_flax.name":"장미아마풀",
+"ateliercrops_rose_flax.description":"아름다운 분홍빛의 곡물입니다. 갈게 되면 특별하고 귀한 밀가루를 만듭니다.",
+
+"ateliercrops_mugwort.name": "향쑥",
+"ateliercrops_mugwort.description": "국화과에 속하는 이 식물은 꿈을 꾸게 하거나 점을 치는 데에 필요한 특성으로 마녀들이 주로 키웠습니다.",
+
+"ateliercrops_violet_flax.name":"보라아마풀",
+"ateliercrops_violet_flax.description":"아름다운 보랏빛의 곡물입니다. 갈게 되면 특별하고 귀한 밀가루를 만듭니다.",
+
+"ateliercrops_thistle.name": "엉겅퀴",
+"ateliercrops_thistle.description": "흔하게 잡초로 여겨지는 풀이지만, 정신적인 부분을 치료하는 데에 좋기에 마녀들이 소중하게 여기는 꽃이기도 합니다.",
+
+"ateliercrops_valerian.name": "고양이풀",
+"ateliercrops_valerian.description": "잠이 잘 오는 차에 쓰이는 허브로, 번개나 홍수를 방지하는 데에도 쓸 수 있습니다.",
+
+"ateliercrops_yarrow.name":"서양톱풀",
+"ateliercrops_yarrow.description":"악마의 쐐기풀이라는 별명이 붙은 이 풀은, 수 세기 동안 현명한 마녀와 채집가에 의해 위경련을 완화시키는 약초로 쓰였습니다.",
+
+//FEATHERS
+
+"ateliercrops_bluebird_feather.name": "산사랑지빠귀 깃털",
+"ateliercrops_bluebird_feather.description": "산에서 볼 수 있는 파랑새가 가진, 아름다운 바다빛 깃털.",
+
+"ateliercrops_crow_feather.name": "까마귀 깃털",
+"ateliercrops_crow_feather.description": "이 깃털은 밤하늘처럼 새까맣습니다.",
+
+"ateliercrops_lovebird_feather.name": "모란앵무 깃털",
+"ateliercrops_lovebird_feather.description": "다채로운 색을 가진 모란앵무의 깃털.",
+
+"ateliercrops_owl_feather.name": "흰올빼미 깃털",
+"ateliercrops_owl_feather.description": "흰올빼미의 장엄한 흰 깃털입니다.",
+
+"ateliercrops_phoenix_feather.name": "불사조 깃털",
+"ateliercrops_phoenix_feather.description": "변화 도중 떨어진 것으로 추측되는 불사조의 아름다운 진홍빛 깃털.",
+
+"ateliercrops_raven_feather.name": "갈까마귀 깃털",
+"ateliercrops_raven_feather.description": "짙은 보랏빛 광택을 가진 검은 깃털의 위대한 발견은 연금술사나 산울타리 마녀에 의해 이루어졌습니다.",
+
+"ateliercrops_rosefinch_feather.name": "양진이새 깃털",
+"ateliercrops_rosefinch_feather.description": "양진이새의 아름답고 밝은 분홍빛 깃털.",
+
+"ateliercrops_starling_feather.name": "자수정 찌르레기 깃털",
+"ateliercrops_starling_feather.description": "자수정 찌르레기는 이리듐 광석과 같은 색을 지닌 새로, 이 새의 깃털은 채집가 사이에서 귀중한 보물로 여겨집니다.",
+
+//FORAGE
+
+"ateliercrops_fire_dragon_scale.name": "화룡의 비늘",
+"ateliercrops_fire_dragon_scale.description": "신화 속 불꽃의 용에게서 떨어진 반짝이는 비늘입니다.",
+
+"ateliercrops_clover.name": "숨겨진 행운",
+"ateliercrops_clover.description": "희귀한 네잎 클로버.",
+
+"ateliercrops_mandrake.name": "맨드레이크",
+"ateliercrops_mandrake.description": "아주 독특하게 생긴 뿌리... 식물? 전설에 따르면 땅에서 뽑힐 때 비명을 지르므로, 현명한 마녀들은 귀마개를 착용합니다.",
+
+"ateliercrops_ice_dragon_scale.name": "해룡의 비늘",
+"ateliercrops_ice_dragon_scale.description": "신화 속 바다의 용에게서 떨어진 반짝이는 비늘입니다.",
+
+"ateliercrops_shooting_star.name": "별똥별",
+"ateliercrops_shooting_star.description": "별똥별! 채집가 마녀와 마법사에겐 정말 희귀하고 영광스러운 발견이에요.",
+
+"ateliercrops_unicorn_horn.name": "일각수의 뿔",
+"ateliercrops_unicorn_horn.description": "어린 유니콘에게서 떨어진 뿔. 마녀나 마법사에게 있어 아주 희귀하고 귀중한 채집품입니다.",
+
+//TREE SAPLINGS
+
+"ateliercrops_chiffon_sapling.name": "블루시폰 트렐리스",
+"ateliercrops_chiffon_sapling.description": "격자에서 자랍니다. 28일 후 성목이 됩니다. 가을에 꽃이 핍니다. 주변 8칸이 비어있어야 자랍니다.",
+
+"ateliercrops_daisy_sapling.name": "덩굴데이지 트렐리스",
+"ateliercrops_daisy_sapling.description": "격자에서 자랍니다. 28일 후 성목이 됩니다. 봄에 꽃이 핍니다. 주변 8칸이 비어있어야 자랍니다.",
+
+"ateliercrops_dawn_sapling.name": "여명나리 트렐리스",
+"ateliercrops_dawn_sapling.description": "격자에서 자랍니다. 28일 후 성목이 됩니다. 여름에 꽃이 핍니다. 주변 8칸이 비어있어야 자랍니다.",
+
+"ateliercrops_dusk_sapling.name": "황혼나리 트렐리스",
+"ateliercrops_dusk_sapling.description": "격자에서 자랍니다. 28일 후 성목이 됩니다. 여름에 꽃이 핍니다. 주변 8칸이 비어있어야 자랍니다.",
+
+"ateliercrops_geranium_sapling.name": "천사 제라늄 트렐리스",
+"ateliercrops_geranium_sapling.description": "격자에서 자랍니다. 28일 후 성목이 됩니다. 가을에 꽃이 핍니다. 주변 8칸이 비어있어야 자랍니다.",
+
+"ateliercrops_primrose_sapling.name": "석영앵초 트렐리스",
+"ateliercrops_primrose_sapling.description": "격자에서 자랍니다. 28일 후 성목이 됩니다. 가을에 꽃이 핍니다. 주변 8칸이 비어있어야 자랍니다.",
+
+"ateliercrops_violet_sapling.name": "초원제비꽃 트렐리스",
+"ateliercrops_violet_sapling.description": "격자에서 자랍니다. 28일 후 성목이 됩니다. 봄에 꽃이 핍니다. 주변 8칸이 비어있어야 자랍니다.",
+
+"ateliercrops_mysteria_sapling.name": "미스테리아 트렐리스",
+"ateliercrops_mysteria_sapling.description": "격자에서 자랍니다. 28일 후 성목이 됩니다. 봄에 꽃이 핍니다. 주변 8칸이 비어있어야 자랍니다.",
+
+
+//SWEET TREE SAPLINGS
+
+"ateliercrops_pavlova_sapling.name": "파블로바 묘목",
+"ateliercrops_pavlova_sapling.description": "28일 후 성목이 됩니다. 봄과 여름에 수확합니다. 주변 8칸이 비어있어야 자랍니다.",
+
+"ateliercrops_gelato_sapling.name": "젤라토 묘목",
+"ateliercrops_gelato_sapling.description": "28일 후 성목이 됩니다. 여름과 겨울 수확합니다. 주변 8칸이 비어있어야 자랍니다.",
+
+"ateliercrops_souffle_sapling.name": "수플레 묘목",
+"ateliercrops_souffle_sapling.description": "28일 후 성목이 됩니다. 여름과 가을 수확합니다. 주변 8칸이 비어있어야 자랍니다.",
+
+"ateliercrops_brulee_sapling.name": "브륄레 묘목",
+"ateliercrops_brulee_sapling.description": "28일 후 성목이 됩니다. 가을과 겨울 수확합니다. 주변 8칸이 비어있어야 자랍니다.",
+
+"ateliercrops_buttercream_sapling.name": "버터크림 묘목",
+"ateliercrops_buttercream_sapling.description": "28일 후 성목이 됩니다. 봄과 여름에 수확합니다. 주변 8칸이 비어있어야 자랍니다.",
+
+//MUSHROOM TREES
+
+"ateliercrops_MysticTrumpet_seeds.name":"나팔버섯 씨앗",
+"ateliercrops_MysticTrumpet_seeds.description":"커다란 버섯나무로 자랄 수 있는 마법의 씨앗.",
+
+"ateliercrops_StrangeCap_seeds.name":"잉크캡버섯 씨앗",
+"ateliercrops_StrangeCap_seeds.description":"커다란 버섯나무로 자랄 수 있는 마법의 씨앗.",
+
+"ateliercrops_WitchwoodTree_seeds.name":"마녀나무 씨앗",
+"ateliercrops_WitchwoodTree_seeds.description":"커다란 버섯나무로 자랄 수 있는 마법의 씨앗.",
+
+//FLOWER SEEDS
+
+"ateliercrops_arctic_fox_seeds.name": "얼어붙은 불꽃씨앗",
+"ateliercrops_arctic_fox_seeds.description": "봄, 혹은 여름에 심습니다. 성장에 20일이 걸립니다.",
+
+"ateliercrops_avalune_seeds.name": "에이벌룬 씨앗",
+"ateliercrops_avalune_seeds.description": "봄, 혹은 여름에 심습니다. 성장에 12일이 걸립니다.",
+
+"ateliercrops_puffball_seeds.name": "요정분첩 씨앗",
+"ateliercrops_puffball_seeds.description": "봄에 심습니다. 다 자라는 데 12일이 걸리며, 5일마다 수확할 수 있습니다.",
+
+"ateliercrops_maiden_seeds.name": "달빛여인 씨앗",
+"ateliercrops_maiden_seeds.description": "봄에 심습니다. 다 자라는 데 5일이 걸립니다.",
+
+"ateliercrops_pixies_breath_seeds.name": "요정의 숨결 씨앗",
+"ateliercrops_pixies_breath_seeds.description": "가을에 심습니다. 다 자라는 데 14일이 걸리며, 3일마다 수확할 수 있습니다.",
+
+//FRUIT SEEDS
+
+"ateliercrops_amber_moondrop_seeds.name": "호박 달방울 씨앗",
+"ateliercrops_amber_moondrop_seeds.description": "봄이나 여름에 심으세요. 자라는 데 21일이 걸리고, 4일마다 수확할 수 있습니다.",
+
+"ateliercrops_lapis_moondrop_seeds.name": "라피스 달방울 씨앗",
+"ateliercrops_lapis_moondrop_seeds.description": "여름, 혹은 가을에 심으세요. 자라는 데 21일이 걸리고, 4일마다 수확할 수 있습니다.",
+
+"ateliercrops_jade_moondrop_seeds.name": "비취 달방울 씨앗",
+"ateliercrops_jade_moondrop_seeds.description": "여름, 혹은 가을에 심으세요. 자라는 데 21일이 걸리고, 4일마다 수확할 수 있습니다.",
+
+"ateliercrops_pearl_moondrop_seeds.name": "진주 달방울 씨앗",
+"ateliercrops_pearl_moondrop_seeds.description": "여름, 혹은 가을에 심으세요. 자라는 데 21일이 걸리고, 4일마다 수확할 수 있습니다.",
+
+//HERB SEEDS
+
+"ateliercrops_rose_flax_seeds.name": "장미아마풀 씨앗",
+"ateliercrops_rose_flax_seeds.description": "아무 계절에나 심습니다. 다 자라는 데 4일이 걸리며, 낫으로 수확할 수 있습니다.",
+
+"ateliercrops_mandrake_seeds.name": "맨드레이크 씨앗",
+"ateliercrops_mandrake_seeds.description": "가을에 심습니다. 성장에 10일이 걸립니다.",
+
+"ateliercrops_mugwort_seeds.name": "향쑥 씨앗",
+"ateliercrops_mugwort_seeds.description": "여름, 혹은 가을에 심습니다. 다 자라는 데 12일이 걸리며, 4일마다 수확할 수 있습니다.",
+
+"ateliercrops_violet_flax_seeds.name": "보라아마풀 씨앗",
+"ateliercrops_violet_flax_seeds.description": "아무 계절에나 심습니다. 다 자라는 데 4일이 걸리며, 낫으로 수확할 수 있습니다.",
+
+"ateliercrops_thistle_seeds.name": "엉겅퀴 씨앗",
+"ateliercrops_thistle_seeds.description": "여름, 혹은 가을에 심습니다. 다 자라는 데 10일이 걸리며, 5일마다 수확할 수 있습니다.",
+
+"ateliercrops_valerian_seeds.name": "고양이풀 씨앗",
+"ateliercrops_valerian_seeds.description": "여름에 심습니다. 다 자라는 데 13일이 걸리며, 5일마다 수확할 수 있습니다.",
+
+"ateliercrops_yarrow_seeds.name": "서양톱풀 씨앗",
+"ateliercrops_yarrow_seeds.description": "봄, 혹은 여름에 심습니다. 다 자라는 데 12일이 걸립니다."	
+
+
+}

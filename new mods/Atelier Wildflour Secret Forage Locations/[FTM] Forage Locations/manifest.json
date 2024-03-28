@@ -1,0 +1,8 @@
+{
+	"Name": "[FTM] Secret Forage Locations",
+	"Author": "wildflourmods",
+	"Description": "Generates Forage Items for New Custom Forage Areas",
+	"Version": "2.0",
+	"UniqueID": "foragelocations.FTM",
+		"ContentPackFor": {"UniqueID": "Esca.FarmTypeManager"}
+}

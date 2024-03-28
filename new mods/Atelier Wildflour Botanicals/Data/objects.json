@@ -1,0 +1,937 @@
+{
+    "Changes": [
+
+        {
+            "LogName":"Add Atelier Botanicals Objects",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "wildflour.atelierbotanicals_dried_geranium": {
+                    "Name": "wildflour.atelierbotanicals_dried_geranium",
+                    "DisplayName": "{{i18n:atelierbotanicals_dried_geranium.name}}",
+                    "Description": "{{i18n:atelierbotanicals_dried_geranium.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -10,
+                    "Price": 100,
+
+                    "ContextTags":
+                    ["wildflour_botanical_item",
+                    "dried_flower_item",
+                    "color_red"],
+
+                    "Texture": "Mods/wildflour.atelierbotanicals/Objects",
+                    "SpriteIndex": 64
+            },
+                "wildflour.atelierbotanicals_dried_arcticfox": {
+                    "Name": "wildflour.atelierbotanicals_dried_arcticfox",
+                    "DisplayName": "{{i18n:atelierbotanicals_dried_arcticfox.name}}",
+                    "Description": "{{i18n:atelierbotanicals_dried_arcticfox.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -10,
+                    "Price": 100,
+
+                    "ContextTags":
+                    ["wildflour_botanical_item",
+                    "dried_flower_item",
+                    "color_blue"],
+
+                    "Texture": "Mods/wildflour.atelierbotanicals/Objects",
+                    "SpriteIndex": 66
+            },
+                "wildflour.atelierbotanicals_dried_avalune": {
+                    "Name": "wildflour.atelierbotanicals_dried_avalune",
+                    "DisplayName": "{{i18n:atelierbotanicals_dried_avalune.name}}",
+                    "Description": "{{i18n:atelierbotanicals_dried_avalune.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -10,
+                    "Price": 100,
+
+                    "ContextTags":
+                    ["wildflour_botanical_item",
+                    "dried_flower_item",
+                    "color_pink"],
+
+                    "Texture": "Mods/wildflour.atelierbotanicals/Objects",
+                    "SpriteIndex": 65
+            },
+                "wildflour.atelierbotanicals_dried_chamomile": {
+                    "Name": "wildflour.atelierbotanicals_dried_chamomile",
+                    "DisplayName": "{{i18n:atelierbotanicals_dried_chamomile.name}}",
+                    "Description": "{{i18n:atelierbotanicals_dried_chamomile.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -10,
+                    "Price": 100,
+
+                    "ContextTags":
+                    ["wildflour_botanical_item",
+                    "dried_flower_item",
+                    "color_cream"],
+
+                    "Texture": "Mods/wildflour.atelierbotanicals/Objects",
+                    "SpriteIndex": 68
+            },
+                "wildflour.atelierbotanicals_dried_daisy": {
+                    "Name": "wildflour.atelierbotanicals_dried_daisy",
+                    "DisplayName": "{{i18n:atelierbotanicals_dried_daisy.name}}",
+                    "Description": "{{i18n:atelierbotanicals_dried_daisy.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -10,
+                    "Price": 100,
+
+                    "ContextTags":
+                    ["wildflour_botanical_item",
+                    "incense_item",
+                    "color_green"],
+
+                    "Texture": "Mods/wildflour.atelierbotanicals/Objects",
+                    "SpriteIndex": 4
+            },
+                "wildflour.atelierbotanicals_dried_dawn_lily": {
+                    "Name": "wildflour.atelierbotanicals_dried_dawn_lily",
+                    "DisplayName": "{{i18n:atelierbotanicals_dried_dawn_lily.name}}",
+                    "Description": "{{i18n:atelierbotanicals_dried_dawn_lily.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -10,
+                    "Price": 100,
+
+                    "ContextTags":
+                    ["wildflour_botanical_item",
+                    "dried_flower_item",
+                    "color_pink"],
+
+                    "Texture": "Mods/wildflour.atelierbotanicals/Objects",
+                    "SpriteIndex": 70
+            },
+                "wildflour.atelierbotanicals_dried_dusk_lily": {
+                    "Name": "wildflour.atelierbotanicals_dried_dusk_lily",
+                    "DisplayName": "{{i18n:atelierbotanicals_dried_dusk_lily.name}}",
+                    "Description": "{{i18n:atelierbotanicals_dried_dusk_lily.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -10,
+                    "Price": 100,
+
+                    "ContextTags":
+                    ["wildflour_botanical_item",
+                    "dried_flower_item",
+                    "color_purple"],
+
+                    "Texture": "Mods/wildflour.atelierbotanicals/Objects",
+                    "SpriteIndex": 71
+            },
+                "wildflour.atelierbotanicals_dried_puffball": {
+                    "Name": "wildflour.atelierbotanicals_dried_puffball",
+                    "DisplayName": "{{i18n:atelierbotanicals_dried_puffball.name}}",
+                    "Description": "{{i18n:atelierbotanicals_dried_puffball.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -10,
+                    "Price": 100,
+
+                    "ContextTags":
+                    ["wildflour_botanical_item",
+                    "dried_flower_item",
+                    "color_pink"],
+
+                    "Texture": "Mods/wildflour.atelierbotanicals/Objects",
+                    "SpriteIndex": 72
+            },
+                "wildflour.atelierbotanicals_dried_jasmine": {
+                    "Name": "wildflour.atelierbotanicals_dried_jasmine",
+                    "DisplayName": "{{i18n:atelierbotanicals_dried_jasmine.name}}",
+                    "Description": "{{i18n:atelierbotanicals_dried_jasmine.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -10,
+                    "Price": 100,
+
+                    "ContextTags":
+                    ["wildflour_botanical_item",
+                    "dried_flower_item",
+                    "color_cream"],
+
+                    "Texture": "Mods/wildflour.atelierbotanicals/Objects",
+                    "SpriteIndex": 69
+            },
+                "wildflour.atelierbotanicals_dried_lavender": {
+                    "Name": "wildflour.atelierbotanicals_dried_lavender",
+                    "DisplayName": "{{i18n:atelierbotanicals_dried_lavender.name}}",
+                    "Description": "{{i18n:atelierbotanicals_dried_lavender.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -10,
+                    "Price": 100,
+
+                    "ContextTags":
+                    ["wildflour_botanical_item",
+                    "dried_flower_item",
+                    "color_pale_violet"],
+
+                    "Texture": "Mods/wildflour.atelierbotanicals/Objects",
+                    "SpriteIndex": 74
+            },
+                "wildflour.atelierbotanicals_dried_violet": {
+                    "Name": "wildflour.atelierbotanicals_dried_violet",
+                    "DisplayName": "{{i18n:atelierbotanicals_dried_violet.name}}",
+                    "Description": "{{i18n:atelierbotanicals_dried_violet.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -10,
+                    "Price": 100,
+
+                    "ContextTags":
+                    ["wildflour_botanical_item",
+                    "dried_flower_item",
+                    "color_violet"],
+
+                    "Texture": "Mods/wildflour.atelierbotanicals/Objects",
+                    "SpriteIndex": 80
+            },
+                "wildflour.atelierbotanicals_dried_moon_maiden": {
+                    "Name": "wildflour.atelierbotanicals_dried_moon_maiden",
+                    "DisplayName": "{{i18n:atelierbotanicals_dried_moon_maiden.name}}",
+                    "Description": "{{i18n:atelierbotanicals_dried_moon_maiden.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -10,
+                    "Price": 100,
+
+                    "ContextTags":
+                    ["wildflour_botanical_item",
+                    "dried_flower_item",
+                    "color_pale_cyan"],
+
+                    "Texture": "Mods/wildflour.atelierbotanicals/Objects",
+                    "SpriteIndex": 82
+            },
+                "wildflour.atelierbotanicals_dried_mugwort": {
+                    "Name": "wildflour.atelierbotanicals_dried_mugwort",
+                    "DisplayName": "{{i18n:atelierbotanicals_dried_mugwort.name}}",
+                    "Description": "{{i18n:atelierbotanicals_dried_mugwort.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -10,
+                    "Price": 100,
+
+                    "ContextTags":
+                    ["wildflour_botanical_item",
+                    "herb_item",
+                    "color_dark_purple"],
+
+                    "Texture": "Mods/wildflour.atelierbotanicals/Objects",
+                    "SpriteIndex": 84
+            },
+                "wildflour.atelierbotanicals_dried_primrose": {
+                    "Name": "wildflour.atelierbotanicals_dried_primrose",
+                    "DisplayName": "{{i18n:atelierbotanicals_dried_primrose.name}}",
+                    "Description": "{{i18n:atelierbotanicals_dried_primrose.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -10,
+                    "Price": 100,
+
+                    "ContextTags":
+                    ["wildflour_botanical_item",
+                    "dried_flower_item",
+                    "color_pink"],
+
+                    "Texture": "Mods/wildflour.atelierbotanicals/Objects",
+                    "SpriteIndex": 86
+            },
+                "wildflour.atelierbotanicals_dried_poppy": {
+                    "Name": "wildflour.atelierbotanicals_dried_poppy",
+                    "DisplayName": "{{i18n:atelierbotanicals_dried_poppy.name}}",
+                    "Description": "{{i18n:atelierbotanicals_dried_poppy.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": 0,
+                    "Price": 100,
+
+                    "ContextTags":
+                    ["wildflour_botanical_item",
+                    "herb_item",
+                    "color_green"],
+
+                    "Texture": "Mods/wildflour.atelierbotanicals/Objects",
+                    "SpriteIndex": 87
+            },
+                "wildflour.atelierbotanicals_dried_thistle": {
+                    "Name": "wildflour.atelierbotanicals_dried_thistle",
+                    "DisplayName": "{{i18n:atelierbotanicals_dried_thistle.name}}",
+                    "Description": "{{i18n:atelierbotanicals_dried_thistle.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": 0,
+                    "Price": 100,
+
+                    "ContextTags":
+                    ["wildflour_botanical_item",
+                    "herb_item",
+                    "color_dark_pink"],
+
+                    "Texture": "Mods/wildflour.atelierbotanicals/Objects",
+                    "SpriteIndex": 80
+            },
+                "wildflour.atelierbotanicals_dried_valerian": {
+                    "Name": "wildflour.atelierbotanicals_dried_valerian",
+                    "DisplayName": "{{i18n:atelierbotanicals_dried_valerian.name}}",
+                    "Description": "{{i18n:atelierbotanicals_dried_valerian.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": 0,
+                    "Price": 100,
+
+                    "ContextTags":
+                    ["wildflour_botanical_item",
+                    "dried_flower_item",
+                    "color_pink"],
+
+                    "Texture": "Mods/wildflour.atelierbotanicals/Objects",
+                    "SpriteIndex": 66
+            },
+                "wildflour.atelierbotanicals_dried_yarrow": {
+                    "Name": "wildflour.atelierbotanicals_dried_yarrow",
+                    "DisplayName": "{{i18n:atelierbotanicals_dried_yarrow.name}}",
+                    "Description": "{{i18n:atelierbotanicals_dried_yarrow.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": 0,
+                    "Price": 100,
+
+                    "ContextTags":
+                    ["wildflour_botanical_item",
+                    "herb_item",
+                    "dried_flower_item",
+                    "color_yellow"],
+
+                    "Texture": "Mods/wildflour.atelierbotanicals/Objects",
+                    "SpriteIndex": 81
+            },
+                "wildflour.atelierbotanicals_dried_mysteria": {
+                    "Name": "wildflour.atelierbotanicals_dried_mysteria",
+                    "DisplayName": "{{i18n:atelierbotanicals_dried_mysteria.name}}",
+                    "Description": "{{i18n:atelierbotanicals_dried_mysteria.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": 0,
+                    "Price": 100,
+
+                    "ContextTags":
+                    ["wildflour_botanical_item",
+                    "herb_item",
+                    "dried_flower_item",
+                    "color_purple"],
+
+                    "Texture": "Mods/wildflour.atelierbotanicals/Objects",
+                    "SpriteIndex": 76
+            },
+                "wildflour.atelierbotanicals_dried_amanita": {
+                    "Name": "wildflour.atelierbotanicals_dried_amanita",
+                    "DisplayName": "{{i18n:atelierbotanicals_dried_amanita.name}}",
+                    "Description": "{{i18n:atelierbotanicals_dried_amanita.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -10,
+                    "Price": 100,
+
+                    "ContextTags":
+                    ["wildflour_botanical_item",
+                    "dried_mushroom_item",
+                    "color_red"],
+
+                    "Texture": "Mods/wildflour.atelierbotanicals/Objects",
+                    "SpriteIndex": 32
+            },
+                "wildflour.atelierbotanicals_dried_chickenofthewoods": {
+                    "Name": "wildflour.atelierbotanicals_dried_chickenofthewoods",
+                    "DisplayName": "{{i18n:atelierbotanicals_dried_chickenofthewoods.name}}",
+                    "Description": "{{i18n:atelierbotanicals_dried_chickenofthewoods.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -10,
+                    "Price": 100,
+
+                    "ContextTags":
+                    ["wildflour_botanical_item",
+                    "dried_mushroom_item",
+                    "color_beige"],
+
+                    "Texture": "Mods/wildflour.atelierbotanicals/Objects",
+                    "SpriteIndex": 34
+            },
+                "wildflour.atelierbotanicals_dried_dawns_trumpet": {
+                    "Name": "wildflour.atelierbotanicals_dried_dawns_trumpet",
+                    "DisplayName": "{{i18n:atelierbotanicals_dried_dawns_trumpet.name}}",
+                    "Description": "{{i18n:atelierbotanicals_dried_dawns_trumpet.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -10,
+                    "Price": 100,
+
+                    "ContextTags":
+                    ["wildflour_botanical_item",
+                    "dried_mushroom_item",
+                    "color_pink"],
+
+                    "Texture": "Mods/wildflour.atelierbotanicals/Objects",
+                    "SpriteIndex": 37
+            },
+                "wildflour.atelierbotanicals_dried_dusk_cap": {
+                    "Name": "wildflour.atelierbotanicals_dried_dusk_cap",
+                    "DisplayName": "{{i18n:atelierbotanicals_dried_dusk_cap.name}}",
+                    "Description": "{{i18n:atelierbotanicals_dried_dusk_cap.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -10,
+                    "Price": 100,
+
+                    "ContextTags":
+                    ["wildflour_botanical_item",
+                    "dried_mushroom_item",
+                    "color_dark_blue"],
+
+                    "Texture": "Mods/wildflour.atelierbotanicals/Objects",
+                    "SpriteIndex": 38
+            },
+                "wildflour.atelierbotanicals_dried_faerie_helmets": {
+                    "Name": "wildflour.atelierbotanicals_dried_faerie_helmets",
+                    "DisplayName": "{{i18n:atelierbotanicals_dried_faerie_helmets.name}}",
+                    "Description": "{{i18n:atelierbotanicals_dried_faerie_helmets.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -10,
+                    "Price": 100,
+
+                    "ContextTags":
+                    ["wildflour_botanical_item",
+                    "dried_mushroom_item",
+                    "color_jade"],
+
+                    "Texture": "Mods/wildflour.atelierbotanicals/Objects",
+                    "SpriteIndex": 39
+            },
+                "wildflour.atelierbotanicals_dried_golden_aura": {
+                    "Name": "wildflour.atelierbotanicals_dried_golden_aura",
+                    "DisplayName": "{{i18n:atelierbotanicals_dried_golden_aura.name}}",
+                    "Description": "{{i18n:atelierbotanicals_dried_golden_aura.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -10,
+                    "Price": 100,
+
+                    "ContextTags":
+                    ["wildflour_botanical_item",
+                    "dried_mushroom_item",
+                    "color_gold"],
+
+                    "Texture": "Mods/wildflour.atelierbotanicals/Objects",
+                    "SpriteIndex": 40
+            },
+                "wildflour.atelierbotanicals_dried_honeyfungus": {
+                    "Name": "wildflour.atelierbotanicals_dried_honeyfungus",
+                    "DisplayName": "{{i18n:atelierbotanicals_dried_honeyfungus.name}}",
+                    "Description": "{{i18n:atelierbotanicals_dried_honeyfungus.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -10,
+                    "Price": 100,
+
+                    "ContextTags":
+                    ["wildflour_botanical_item",
+                    "dried_mushroom_item",
+                    "color_beige"],
+
+                    "Texture": "Mods/wildflour.atelierbotanicals/Objects",
+                    "SpriteIndex": 41
+            },
+                "wildflour.atelierbotanicals_dried_meringueshrooms": {
+                    "Name": "wildflour.atelierbotanicals_dried_meringueshrooms",
+                    "DisplayName": "{{i18n:atelierbotanicals_dried_meringueshrooms.name}}",
+                    "Description": "{{i18n:atelierbotanicals_dried_meringueshrooms.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -10,
+                    "Price": 100,
+
+                    "ContextTags":
+                    ["wildflour_botanical_item",
+                    "dried_mushroom_item",
+                    "color_pink"],
+
+                    "Texture": "Mods/wildflour.atelierbotanicals/Objects",
+                    "SpriteIndex": 42
+            },
+                "wildflour.atelierbotanicals_dried_milkshrooms": {
+                    "Name": "wildflour.atelierbotanicals_dried_milkshrooms",
+                    "DisplayName": "{{i18n:atelierbotanicals_dried_milkshrooms.name}}",
+                    "Description": "{{i18n:atelierbotanicals_dried_milkshrooms.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -10,
+                    "Price": 100,
+
+                    "ContextTags":
+                    ["wildflour_botanical_item",
+                    "dried_mushroom_item",
+                    "color_white"],
+
+                    "Texture": "Mods/wildflour.atelierbotanicals/Objects",
+                    "SpriteIndex": 43
+            },
+                "wildflour.atelierbotanicals_dried_red_mushrooms": {
+                    "Name": "wildflour.atelierbotanicals_dried_red_mushrooms",
+                    "DisplayName": "{{i18n:atelierbotanicals_dried_red_mushrooms.name}}",
+                    "Description": "{{i18n:atelierbotanicals_dried_red_mushrooms.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -10,
+                    "Price": 100,
+
+                    "ContextTags":
+                    ["wildflour_botanical_item",
+                    "dried_mushroom_item",
+                    "color_red"],
+
+                    "Texture": "Mods/wildflour.atelierbotanicals/Objects",
+                    "SpriteIndex": 47
+            },
+                "wildflour.atelierbotanicals_dried_slime_caps": {
+                    "Name": "wildflour.atelierbotanicals_dried_slime_caps",
+                    "DisplayName": "{{i18n:atelierbotanicals_dried_slime_caps.name}}",
+                    "Description": "{{i18n:atelierbotanicals_dried_slime_caps.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -10,
+                    "Price": 100,
+
+                    "ContextTags":
+                    ["wildflour_botanical_item",
+                    "dried_mushroom_item",
+                    "color_peach"],
+
+                    "Texture": "Mods/wildflour.atelierbotanicals/Objects",
+                    "SpriteIndex": 48
+            },
+                "wildflour.atelierbotanicals_dried_verdigris_agaric": {
+                    "Name": "wildflour.atelierbotanicals_dried_verdigris_agaric",
+                    "DisplayName": "{{i18n:atelierbotanicals_dried_verdigris_agaric.name}}",
+                    "Description": "{{i18n:atelierbotanicals_dried_verdigris_agaric.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -10,
+                    "Price": 100,
+
+                    "ContextTags":
+                    ["wildflour_botanical_item",
+                    "dried_mushroom_item",
+                    "color_cyan"],
+
+                    "Texture": "Mods/wildflour.atelierbotanicals/Objects",
+                    "SpriteIndex": 49
+            },
+                "wildflour.atelierbotanicals_dried_wheatshrooms": {
+                    "Name": "wildflour.atelierbotanicals_dried_wheatshrooms",
+                    "DisplayName": "{{i18n:atelierbotanicals_dried_wheatshrooms.name}}",
+                    "Description": "{{i18n:atelierbotanicals_dried_wheatshrooms.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": 0,
+                    "Price": 100,
+
+                    "ContextTags":
+                    ["wildflour_botanical_item",
+                    "dried_mushroom_item",
+                    "color_beige"],
+
+                    "Texture": "Mods/wildflour.atelierbotanicals/Objects",
+                    "SpriteIndex": 50
+            },
+                "wildflour.atelierbotanicals_dried_peach_parasol": {
+                    "Name": "wildflour.atelierbotanicals_dried_peach_parasol",
+                    "DisplayName": "{{i18n:atelierbotanicals_dried_peach_parasol.name}}",
+                    "Description": "{{i18n:atelierbotanicals_dried_peach_parasol.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -10,
+                    "Price": 100,
+
+                    "ContextTags":
+                    ["wildflour_botanical_item",
+                    "dried_mushroom_item",
+                    "color_peach"],
+
+                    "Texture": "Mods/wildflour.atelierbotanicals/Objects",
+                    "SpriteIndex": 36
+            },
+                "wildflour.atelierbotanicals_autumn_incense": {
+                    "Name": "wildflour.atelierbotanicals_autumn_incense",
+                    "DisplayName": "{{i18n:atelierbotanicals_autumn_incense.name}}",
+                    "Description": "{{i18n:atelierbotanicals_autumn_incense.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -10,
+                    "Price": 100,
+
+                    "ContextTags":
+                    ["wildflour_botanical_item",
+                    "incense_item",
+                    "color_red"],
+
+                    "Texture": "Mods/wildflour.atelierbotanicals/Objects",
+                    "SpriteIndex": 1
+            },
+                "wildflour.atelierbotanicals_chamomile_incense": {
+                    "Name": "wildflour.atelierbotanicals_chamomile_incense",
+                    "DisplayName": "{{i18n:atelierbotanicals_chamomile_incense.name}}",
+                    "Description": "{{i18n:atelierbotanicals_chamomile_incense.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -10,
+                    "Price": 100,
+
+                    "ContextTags":
+                    ["wildflour_botanical_item",
+                    "incense_item",
+                    "color_cream"],
+
+                    "Texture": "Mods/wildflour.atelierbotanicals/Objects",
+                    "SpriteIndex": 3
+            },
+                "wildflour.atelierbotanicals_chiffon_incense": {
+                    "Name": "wildflour.atelierbotanicals_chiffon_incense",
+                    "DisplayName": "{{i18n:atelierbotanicals_chiffon_incense.name}}",
+                    "Description": "{{i18n:atelierbotanicals_chiffon_incense.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -10,
+                    "Price": 100,
+
+                    "ContextTags":
+                    ["wildflour_botanical_item",
+                    "incense_item",
+                    "color_blue"],
+
+                    "Texture": "Mods/wildflour.atelierbotanicals/Objects",
+                    "SpriteIndex": 2
+            },
+                "wildflour.atelierbotanicals_daisy_incense": {
+                    "Name": "wildflour.atelierbotanicals_daisy_incense",
+                    "DisplayName": "{{i18n:atelierbotanicals_daisy_incense.name}}",
+                    "Description": "{{i18n:atelierbotanicals_daisy_incense.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -10,
+                    "Price": 100,
+
+                    "ContextTags":
+                    ["wildflour_botanical_item",
+                    "incense_item",
+                    "color_cream"],
+
+                    "Texture": "Mods/wildflour.atelierbotanicals/Objects",
+                    "SpriteIndex": 0
+            },
+                "wildflour.atelierbotanicals_elder_incense ": {
+                    "Name": "wildflour.atelierbotanicals_elder_incense",
+                    "DisplayName": "{{i18n:atelierbotanicals_elder_incense.name}}",
+                    "Description": "{{i18n:atelierbotanicals_elder_incense.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -10,
+                    "Price": 100,
+
+                    "ContextTags":
+                    ["wildflour_botanical_item",
+                    "incense_item",
+                    "color_blue"],
+
+                    "Texture": "Mods/wildflour.atelierbotanicals/Objects",
+                    "SpriteIndex": 6
+            },
+                "wildflour.atelierbotanicals_jasmine_incense": {
+                    "Name": "wildflour.atelierbotanicals_jasmine_incense",
+                    "DisplayName": "{{i18n:atelierbotanicals_jasmine_incense.name}}",
+                    "Description": "{{i18n:atelierbotanicals_jasmine_incense.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -10,
+                    "Price": 100,
+
+                    "ContextTags":
+                    ["wildflour_botanical_item",
+                    "incense_item",
+                    "color_cream"],
+
+                    "Texture": "Mods/wildflour.atelierbotanicals/Objects",
+                    "SpriteIndex": 0
+            },
+                "wildflour.atelierbotanicals_lavender_incense": {
+                    "Name": "wildflour.atelierbotanicals_lavender_incense",
+                    "DisplayName": "{{i18n:atelierbotanicals_lavender_incense.name}}",
+                    "Description": "{{i18n:atelierbotanicals_lavender_incense.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -10,
+                    "Price": 100,
+
+                    "ContextTags":
+                    ["wildflour_botanical_item",
+                    "incense_item",
+                    "color_pale_violet"],
+
+                    "Texture": "Mods/wildflour.atelierbotanicals/Objects",
+                    "SpriteIndex": 4
+            },
+                "wildflour.atelierbotanicals_lily_incense": {
+                    "Name": "wildflour.atelierbotanicals_lily_incense",
+                    "DisplayName": "{{i18n:atelierbotanicals_lily_incense.name}}",
+                    "Description": "{{i18n:atelierbotanicals_lily_incense.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -10,
+                    "Price": 100,
+
+                    "ContextTags":
+                    ["wildflour_botanical_item",
+                    "incense_item",
+                    "color_orange"],
+
+                    "Texture": "Mods/wildflour.atelierbotanicals/Objects",
+                    "SpriteIndex": 5
+            },
+                "wildflour.atelierbotanicals_mandrake_incense": {
+                    "Name": "wildflour.atelierbotanicals_mandrake_incense",
+                    "DisplayName": "{{i18n:atelierbotanicals_mandrake_incense.name}}",
+                    "Description": "{{i18n:atelierbotanicals_mandrake_incense.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -10,
+                    "Price": 100,
+
+                    "ContextTags":
+                    ["wildflour_botanical_item",
+                    "incense_item",
+                    "color_green"],
+
+                    "Texture": "Mods/wildflour.atelierbotanicals/Objects",
+                    "SpriteIndex": 6
+            },
+                "wildflour.atelierbotanicals_mugwort_incense": {
+                    "Name": "wildflour.atelierbotanicals_mugwort_incense",
+                    "DisplayName": "{{i18n:atelierbotanicals_mugwort_incense.name}}",
+                    "Description": "{{i18n:atelierbotanicals_mugwort_incense.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -10,
+                    "Price": 100,
+
+                    "ContextTags":
+                    ["wildflour_botanical_item",
+                    "incense_item",
+                    "color_green"],
+
+                    "Texture": "Mods/wildflour.atelierbotanicals/Objects",
+                    "SpriteIndex": 7
+            },
+                "wildflour.atelierbotanicals_pixie_incense": {
+                    "Name": "wildflour.atelierbotanicals_pixie_incense",
+                    "DisplayName": "{{i18n:atelierbotanicals_pixie_incense.name}}",
+                    "Description": "{{i18n:atelierbotanicals_pixie_incense.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -10,
+                    "Price": 100,
+
+                    "ContextTags":
+                    ["wildflour_botanical_item",
+                    "incense_item",
+                    "color_pink"],
+
+                    "Texture": "Mods/wildflour.atelierbotanicals/Objects",
+                    "SpriteIndex": 8
+            },
+                "wildflour.atelierbotanicals_primrose_incense": {
+                    "Name": "wildflour.atelierbotanicals_primrose_incense",
+                    "DisplayName": "{{i18n:atelierbotanicals_primrose_incense.name}}",
+                    "Description": "{{i18n:atelierbotanicals_primrose_incense.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -10,
+                    "Price": 100,
+
+                    "ContextTags":
+                    ["wildflour_botanical_item",
+                    "incense_item",
+                    "color_pink"],
+
+                    "Texture": "Mods/wildflour.atelierbotanicals/Objects",
+                    "SpriteIndex": 9
+            },
+                "wildflour.atelierbotanicals_mysteria_incense": {
+                    "Name": "wildflour.atelierbotanicals_mysteria_incense",
+                    "DisplayName": "{{i18n:atelierbotanicals_mysteria_incense.name}}",
+                    "Description": "{{i18n:atelierbotanicals_mysteria_incense.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -10,
+                    "Price": 100,
+
+                    "ContextTags":
+                    ["wildflour_botanical_item",
+                    "incense_item",
+                    "color_gold"],
+
+                    "Texture": "Mods/wildflour.atelierbotanicals/Objects",
+                    "SpriteIndex": 10
+            },
+                "wildflour.atelierbotanicals_spring_incense": {
+                    "Name": "wildflour.atelierbotanicals_spring_incense",
+                    "DisplayName": "{{i18n:atelierbotanicals_spring_incense.name}}",
+                    "Description": "{{i18n:atelierbotanicals_spring_incense.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -10,
+                    "Price": 100,
+
+                    "ContextTags":
+                    ["wildflour_botanical_item",
+                    "incense_item",
+                    "color_white"],
+
+                    "Texture": "Mods/wildflour.atelierbotanicals/Objects",
+                    "SpriteIndex": 11
+            },
+                "wildflour.atelierbotanicals_summer_incense": {
+                    "Name": "wildflour.atelierbotanicals_summer_incense",
+                    "DisplayName": "{{i18n:atelierbotanicals_summer_incense.name}}",
+                    "Description": "{{i18n:atelierbotanicals_summer_incense.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -10,
+                    "Price": 100,
+
+                    "ContextTags":
+                    ["wildflour_botanical_item",
+                    "incense_item",
+                    "color_pink"],
+
+                    "Texture": "Mods/wildflour.atelierbotanicals/Objects",
+                    "SpriteIndex": 12
+            },
+                "wildflour.atelierbotanicals_thistle_incense": {
+                    "Name": "wildflour.atelierbotanicals_thistle_incense",
+                    "DisplayName": "{{i18n:atelierbotanicals_thistle_incense.name}}",
+                    "Description": "{{i18n:atelierbotanicals_thistle_incense.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -10,
+                    "Price": 100,
+
+                    "ContextTags":
+                    ["wildflour_botanical_item",
+                    "incense_item",
+                    "color_green"],
+
+                    "Texture": "Mods/wildflour.atelierbotanicals/Objects",
+                    "SpriteIndex": 13
+            },
+                "wildflour.atelierbotanicals_valerian_incense": {
+                    "Name": "wildflour.atelierbotanicals_valerian_incense",
+                    "DisplayName": "{{i18n:atelierbotanicals_valerian_incense.name}}",
+                    "Description": "{{i18n:atelierbotanicals_valerian_incense.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -10,
+                    "Price": 100,
+
+                    "ContextTags":
+                    ["wildflour_botanical_item",
+                    "incense_item",
+                    "color_pink"],
+
+                    "Texture": "Mods/wildflour.atelierbotanicals/Objects",
+                    "SpriteIndex": 8
+            },
+                "wildflour.atelierbotanicals_vanilla_incense": {
+                    "Name": "wildflour.atelierbotanicals_vanilla_incense",
+                    "DisplayName": "{{i18n:atelierbotanicals_vanilla_incense.name}}",
+                    "Description": "{{i18n:atelierbotanicals_vanilla_incense.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -10,
+                    "Price": 100,
+
+                    "ContextTags":
+                    ["wildflour_botanical_item",
+                    "incense_item",
+                    "color_white"],
+
+                    "Texture": "Mods/wildflour.atelierbotanicals/Objects",
+                    "SpriteIndex": 3
+            },
+                "wildflour.atelierbotanicals_violet_incense": {
+                    "Name": "wildflour.atelierbotanicals_violet_incense",
+                    "DisplayName": "{{i18n:atelierbotanicals_violet_incense.name}}",
+                    "Description": "{{i18n:atelierbotanicals_violet_incense.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -10,
+                    "Price": 100,
+
+                    "ContextTags":
+                    ["wildflour_botanical_item",
+                    "incense_item",
+                    "color_purple"],
+
+                    "Texture": "Mods/wildflour.atelierbotanicals/Objects",
+                    "SpriteIndex": 4
+            },
+                "wildflour.atelierbotanicals_winter_incense": {
+                    "Name": "wildflour.atelierbotanicals_winter_incense",
+                    "DisplayName": "{{i18n:atelierbotanicals_winter_incense.name}}",
+                    "Description": "{{i18n:atelierbotanicals_winter_incense.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -10,
+                    "Price": 100,
+
+                    "ContextTags":
+                    ["wildflour_botanical_item",
+                    "incense_item",
+                    "color_white"],
+
+                    "Texture": "Mods/wildflour.atelierbotanicals/Objects",
+                    "SpriteIndex": 14
+            },
+                "wildflour.atelierbotanicals_yarrow_incense": {
+                    "Name": "wildflour.atelierbotanicals_yarrow_incense",
+                    "DisplayName": "{{i18n:atelierbotanicals_yarrow_incense.name}}",
+                    "Description": "{{i18n:atelierbotanicals_yarrow_incense.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -10,
+                    "Price": 100,
+
+                    "ContextTags":
+                    ["wildflour_botanical_item",
+                    "incense_item",
+                    "color_yellow"],
+
+                    "Texture": "Mods/wildflour.atelierbotanicals/Objects",
+                    "SpriteIndex": 15
+            },
+
+
+
+
+        }
+        }
+
+    ]
+}

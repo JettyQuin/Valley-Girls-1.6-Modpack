@@ -1,0 +1,2071 @@
+{
+    "Changes": [
+
+//Add Machines to Big Craftables
+
+{
+    "LogName": "Add Atelier Floral Machines to BigCraftables",
+    "Action": "EditData",
+    "Target": "Data/BigCraftables",
+    "Entries": {
+        "wildflour.atelierfloral_FlowerStation": {
+            "Name": "wildflour.atelierfloral_FlowerStation",
+            "DisplayName": "{{i18n: atelierfloral_FlowerStation.name}}",
+            "Description": "{{i18n: atelierfloral_FlowerStation.description}}",
+            "Price": 50,
+            "Fragility": 0,
+            "CanBePlacedOutdoors": true,
+            "CanBePlacedIndoors": true,
+            "IsLamp": false,
+            "Texture": "Mods\\wildflour.atelierfloral\\Machines_{{FlowerRecolor}}",
+            "SpriteIndex": 0,
+            "CustomFields": {}
+          },
+        "wildflour.atelierfloral_FragranceStation": {
+            "Name": "wildflour.atelierfloral_FragranceStation",
+            "DisplayName": "{{i18n: atelierfloral_FragranceStation.name}}",
+            "Description": "{{i18n: atelierfloral_FragranceStation.description}}",
+            "Price": 50,
+            "Fragility": 0,
+            "CanBePlacedOutdoors": true,
+            "CanBePlacedIndoors": true,
+            "IsLamp": false,
+            "Texture": "Mods\\wildflour.atelierfloral\\Machines_{{FragranceRecolor}}",
+            "SpriteIndex": 8,
+            "CustomFields": {}
+        },
+        "wildflour.atelierfloral_BouquetStation": {
+            "Name": "wildflour.atelierfloral_BouquetStation",
+            "DisplayName": "{{i18n: atelierfloral_BouquetStation.name}}",
+            "Description": "{{i18n: atelierfloral_BouquetStation.description}}",
+            "Price": 50,
+            "Fragility": 0,
+            "CanBePlacedOutdoors": true,
+            "CanBePlacedIndoors": true,
+            "IsLamp": false,
+            "Texture": "Mods\\wildflour.atelierfloral\\Machines_{{TubRecolor}}",
+            "SpriteIndex": 16,
+            "CustomFields": {}
+        }
+    }
+},
+
+//Machine Rules for Output
+
+{
+    "LogName": "Add Atelier Floral Rules",
+    "Action": "EditData",
+    "Target": "Data/Machines",
+    "Entries": {
+        "(BC)wildflour.atelierfloral_FlowerStation": {
+            "OutputRules": [
+                {
+                    "Id": "wildflour.atelierfloral_jazz_soap",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.atelierfloral_jazz_essence",
+                            "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierfloral_jazz_soap",
+                            "ItemId": "(O)wildflour.atelierfloral_jazz_soap",
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.85
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 2000
+                },
+                {
+                    "Id": "wildflour.atelierfloral_vanilla_soap",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.atelierfloral_vanilla_essence",
+                            "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierfloral_vanilla_soap",
+                            "ItemId": "(O)wildflour.atelierfloral_vanilla_soap",
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.85
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 2000
+                },
+                {
+                    "Id": "wildflour.atelierfloral_fairy_soap",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.atelierfloral_fairy_essence",
+                            "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierfloral_fairy_soap",
+                            "ItemId": "(O)wildflour.atelierfloral_fairy_soap",
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.85
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 2000
+                },
+                {
+                    "Id": "wildflour.atelierfloral_chamomile_soap",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.atelierfloral_chamomile_essence",
+                            "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierfloral_chamomile_soap",
+                            "ItemId": "(O)wildflour.atelierfloral_chamomile_soap",
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.85
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 2000
+                },
+                {
+                    "Id": "wildflour.atelierfloral_lavender_soap",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.atelierfloral_lavender_essence",
+                            "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierfloral_lavender_soap",
+                            "ItemId": "(O)wildflour.atelierfloral_lavender_soap",
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.85
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 2000
+                },
+                {
+                    "Id": "wildflour.atelierfloral_jasmine_soap",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.atelierfloral_jasmine_essence",
+                            "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierfloral_jasmine_soap",
+                            "ItemId": "(O)wildflour.atelierfloral_jasmine_soap",
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.85
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 2000
+                },
+                {
+                    "Id": "wildflour.atelierfloral_mallow_soap",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.atelierfloral_mallow_essence",
+                            "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierfloral_mallow_soap",
+                            "ItemId": "(O)wildflour.atelierfloral_mallow_soap",
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.85
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 2000
+                },
+                {
+                    "Id": "wildflour.atelierfloral_poppy_soap",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.atelierfloral_poppy_essence",
+                            "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierfloral_poppy_soap",
+                            "ItemId": "(O)wildflour.atelierfloral_poppy_soap",
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.85
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 2000
+                },
+                {
+                    "Id": "wildflour.atelierfloral_sakura_soap",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.atelierfloral_sakura_essence",
+                            "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierfloral_sakura_soap",
+                            "ItemId": "(O)wildflour.atelierfloral_sakura_soap",
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.85
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 2000
+                },
+                {
+                    "Id": "wildflour.atelierfloral_spangle_soap",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.atelierfloral_spangle_essence",
+                            "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierfloral_spangle_soap",
+                            "ItemId": "(O)wildflour.atelierfloral_spangle_soap",
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.85
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 2000
+                },
+                {
+                    "Id": "wildflour.atelierfloral_sunflower_soap",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.atelierfloral_sunflower_essence",
+                            "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierfloral_sunflower_soap",
+                            "ItemId": "(O)wildflour.atelierfloral_sunflower_soap",
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.85
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 2000
+                },
+                {
+                    "Id": "wildflour.atelierfloral_tulip_soap",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.atelierfloral_tulip_essence",
+                            "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierfloral_tulip_soap",
+                            "ItemId": "(O)wildflour.atelierfloral_tulip_soap",
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.85
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 2000
+                }
+
+            ],
+            "InvalidCountMessage":"{{i18n:atelierfloral_FlowerStation_InvalidCount.message}}",
+            "InvalidItemMessage":"{{i18n:atelierfloral_FlowerStation_InvalidItem.message}}",
+            "ShowNextIndexWhileWorking":false,
+            "ShowNextIndexWhenReady":false,
+            "WobbleWhileWorking":false,
+            "WorkingEffects":[
+                {
+                    "Frames":[0,1,2,3,4,5,6,7],
+                    "Interval":100
+                }
+           ] 
+        },
+        "(BC)wildflour.atelierfloral_FragranceStation":{
+            "OutputRules": [
+                {
+                    "Id": "wildflour.atelierfloral_jazz_essence",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)597",
+                            "RequiredCount": 2
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierfloral_jazz_essence",
+                            "ItemId": "(O)wildflour.atelierfloral_jazz_essence",
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 1.8
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 120
+                },
+                {
+                    "Id": "wildflour.atelierfloral_vanilla_essence",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.ateliercrops_vanilla",
+                            "RequiredCount": 2
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierfloral_vanilla_essence",
+                            "ItemId": "(O)wildflour.atelierfloral_vanilla_essence",
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 1.8
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 120
+                },
+                {
+                    "Id": "wildflour.atelierfloral_fairy_essence",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)595",
+                            "RequiredCount": 2
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierfloral_fairy_essence",
+                            "ItemId": "(O)wildflour.atelierfloral_fairy_essence",
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 1.8
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 120
+                },
+                {
+                    "Id": "wildflour.atelierfloral_chamomile_essence",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.ateliercrops_chamomile",
+                            "RequiredCount": 2
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierfloral_chamomile_essence",
+                            "ItemId": "(O)wildflour.atelierfloral_chamomile_essence",
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 1.8
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 120
+                },
+                {
+                    "Id": "wildflour.atelierfloral_lavender_essence",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.ateliercrops_lavender",
+                            "RequiredCount": 2
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierfloral_lavender_essence",
+                            "ItemId": "(O)wildflour.atelierfloral_lavender_essence",
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 1.8
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 120
+                },
+                {
+                    "Id": "wildflour.atelierfloral_jasmine_essence",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.ateliercrops_jasmine",
+                            "RequiredCount": 2
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierfloral_jasmine_essence",
+                            "ItemId": "(O)wildflour.atelierfloral_jasmine_essence",
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 1.8
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 120
+                },
+                {
+                    "Id": "wildflour.atelierfloral_mallow_essence",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.ateliercrops_mallow",
+                            "RequiredCount": 2
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierfloral_mallow_essence",
+                            "ItemId": "(O)wildflour.atelierfloral_mallow_essence",
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 1.8
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 120
+                },
+                {
+                    "Id": "wildflour.atelierfloral_poppy_essence",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)376",
+                            "RequiredCount": 2
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierfloral_poppy_essence",
+                            "ItemId": "(O)wildflour.atelierfloral_poppy_essence",
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 1.8
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 120
+                },
+                {
+                    "Id": "wildflour.atelierfloral_sakura_essence",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.ateliercrops_cherryblossoms",
+                            "RequiredCount": 2
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierfloral_sakura_essence",
+                            "ItemId": "(O)wildflour.atelierfloral_sakura_essence",
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 1.8
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 120
+                },
+                {
+                    "Id": "wildflour.atelierfloral_spangle_essence",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)593",
+                            "RequiredCount": 2
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierfloral_spangle_essence",
+                            "ItemId": "(O)wildflour.atelierfloral_spangle_essence",
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 1.8
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 120
+                },
+                {
+                    "Id": "wildflour.atelierfloral_sunflower_essence",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)421",
+                            "RequiredCount": 2
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierfloral_sunflower_essence",
+                            "ItemId": "(O)wildflour.atelierfloral_sunflower_essence",
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 1.8
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 120
+                },
+                {
+                    "Id": "wildflour.atelierfloral_tulip_essence",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)591",
+                            "RequiredCount": 2
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierfloral_tulip_essence",
+                            "ItemId": "(O)wildflour.atelierfloral_tulip_essence",
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 1.8
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 120
+                }
+            ],
+            "InvalidCountMessage":"{{i18n:atelierfloral_FragranceStation_InvalidCount.message}}",
+            "InvalidItemMessage":"{{i18n:atelierfloral_FragranceStation_InvalidItem.message}}",
+            "ShowNextIndexWhileWorking":false,
+            "ShowNextIndexWhenReady":false,
+            "WobbleWhileWorking":false,
+            "WorkingEffects":[
+                {
+                    "Frames":[0,1,2,3,4,5,6,7],
+                    "Interval":100
+                }
+           ] 
+           
+        },
+        "(BC)wildflour.atelierfloral_BouquetStation":{
+            "OutputRules": [
+                {
+                    "Id": "wildflour.atelierfloral_jazz_bouquet",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)597",
+                            "RequiredCount": 5
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierfloral_jazz_bouquet",
+                            "ItemId": "(O)wildflour.atelierfloral_jazz_bouquet",
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 6.75
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 460
+                },
+                {
+                    "Id": "wildflour.atelierfloral_vanilla_bouquet",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.ateliercrops_vanilla",
+                            "RequiredCount": 5
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierfloral_vanilla_bouquet",
+                            "ItemId": "(O)wildflour.atelierfloral_vanilla_bouquet",
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 6.75
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 460
+                },
+                {
+                    "Id": "wildflour.atelierfloral_fairy_bouquet",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)595",
+                            "RequiredCount": 5
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierfloral_fairy_bouquet",
+                            "ItemId": "(O)wildflour.atelierfloral_fairy_bouquet",
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 6.75
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 460
+                },
+                {
+                    "Id": "wildflour.atelierfloral_chamomile_bouquet",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.ateliercrops_chamomile",
+                            "RequiredCount": 5
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierfloral_chamomile_bouquet",
+                            "ItemId": "(O)wildflour.atelierfloral_chamomile_bouquet",
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 6.75
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 460
+                },
+                {
+                    "Id": "wildflour.atelierfloral_lavender_bouquet",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.ateliercrops_lavender",
+                            "RequiredCount": 5
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierfloral_lavender_bouquet",
+                            "ItemId": "(O)wildflour.atelierfloral_lavender_bouquet",
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 6.75
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 460
+                },
+                {
+                    "Id": "wildflour.atelierfloral_jasmine_bouquet",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.ateliercrops_jasmine",
+                            "RequiredCount": 5
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierfloral_jasmine_bouquet",
+                            "ItemId": "(O)wildflour.atelierfloral_jasmine_bouquet",
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 6.75
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 460
+                },
+                {
+                    "Id": "wildflour.atelierfloral_mallow_bouquet",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.ateliercrops_mallow",
+                            "RequiredCount": 5
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierfloral_mallow_bouquet",
+                            "ItemId": "(O)wildflour.atelierfloral_mallow_bouquet",
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 6.75
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 460
+                },
+                {
+                    "Id": "wildflour.atelierfloral_poppy_bouquet",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)376",
+                            "RequiredCount": 5
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierfloral_poppy_bouquet",
+                            "ItemId": "(O)wildflour.atelierfloral_poppy_bouquet",
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 6.75
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 460
+                },
+                {
+                    "Id": "wildflour.atelierfloral_sakura_bouquet",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.ateliercrops_cherryblossoms",
+                            "RequiredCount": 5
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierfloral_sakura_bouquet",
+                            "ItemId": "(O)wildflour.atelierfloral_sakura_bouquet",
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 6.75
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 460
+                },
+                {
+                    "Id": "wildflour.atelierfloral_spangle_bouquet",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)593",
+                            "RequiredCount": 5
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierfloral_spangle_bouquet",
+                            "ItemId": "(O)wildflour.atelierfloral_spangle_bouquet",
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 6.75
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 460
+                },
+                {
+                    "Id": "wildflour.atelierfloral_sunflower_bouquet",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)421",
+                            "RequiredCount": 5
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierfloral_sunflower_bouquet",
+                            "ItemId": "(O)wildflour.atelierfloral_sunflower_bouquet",
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 6.75
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 460
+                },
+                {
+                    "Id": "wildflour.atelierfloral_tulip_bouquet",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)591",
+                            "RequiredCount": 5
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierfloral_tulip_bouquet",
+                            "ItemId": "(O)wildflour.atelierfloral_tulip_bouquet",
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 6.75
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 460
+                },
+                {
+                    "Id": "wildflour.atelierfloral_jazz_potpourri",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.atelierfloral_jazz_essence",
+                            "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierfloral_jazz_potpourri",
+                            "ItemId": "(O)wildflour.atelierfloral_jazz_potpourri",
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.25
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 650
+                },
+                {
+                    "Id": "wildflour.atelierfloral_vanilla_potpourri",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.atelierfloral_vanilla_essence",
+                            "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierfloral_vanilla_potpourri",
+                            "ItemId": "(O)wildflour.atelierfloral_vanilla_potpourri",
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.25
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 650
+                },
+                {
+                    "Id": "wildflour.atelierfloral_fairy_potpourri",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.atelierfloral_fairy_essence",
+                            "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierfloral_fairy_potpourri",
+                            "ItemId": "(O)wildflour.atelierfloral_fairy_potpourri",
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.25
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 650
+                },
+                {
+                    "Id": "wildflour.atelierfloral_chamomile_potpourri",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.atelierfloral_chamomile_essence",
+                            "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierfloral_chamomile_potpourri",
+                            "ItemId": "(O)wildflour.atelierfloral_chamomile_potpourri",
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.25
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 650
+                },
+                {
+                    "Id": "wildflour.atelierfloral_lavender_potpourri",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.atelierfloral_lavender_essence",
+                            "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierfloral_lavender_potpourri",
+                            "ItemId": "(O)wildflour.atelierfloral_lavender_potpourri",
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.25
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 650
+                },
+                {
+                    "Id": "wildflour.atelierfloral_jasmine_potpourri",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.atelierfloral_jasmine_essence",
+                            "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierfloral_jasmine_potpourri",
+                            "ItemId": "(O)wildflour.atelierfloral_jasmine_potpourri",
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.25
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 650
+                },
+                {
+                    "Id": "wildflour.atelierfloral_mallow_potpourri",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.atelierfloral_mallow_essence",
+                            "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierfloral_mallow_potpourri",
+                            "ItemId": "(O)wildflour.atelierfloral_mallow_potpourri",
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.25
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 650
+                },
+                {
+                    "Id": "wildflour.atelierfloral_poppy_potpourri",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.atelierfloral_poppy_essence",
+                            "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierfloral_poppy_potpourri",
+                            "ItemId": "(O)wildflour.atelierfloral_poppy_potpourri",
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.25
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 650
+                },
+                {
+                    "Id": "wildflour.atelierfloral_sakura_potpourri",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.atelierfloral_sakura_essence",
+                            "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierfloral_sakura_potpourri",
+                            "ItemId": "(O)wildflour.atelierfloral_sakura_potpourri",
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.25
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 650
+                },
+                {
+                    "Id": "wildflour.atelierfloral_spangle_potpourri",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.atelierfloral_spangle_essence",
+                            "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierfloral_spangle_potpourri",
+                            "ItemId": "(O)wildflour.atelierfloral_spangle_potpourri",
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.25
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 650
+                },
+                {
+                    "Id": "wildflour.atelierfloral_sunflower_potpourri",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.atelierfloral_sunflower_essence",
+                            "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierfloral_sunflower_potpourri",
+                            "ItemId": "(O)wildflour.atelierfloral_sunflower_potpourri",
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.25
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 650
+                },
+                {
+                    "Id": "wildflour.atelierfloral_tulip_potpourri",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.atelierfloral_tulip_essence",
+                            "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierfloral_tulip_potpourri",
+                            "ItemId": "(O)wildflour.atelierfloral_tulip_potpourri",
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.25
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 650
+                }
+     
+            ], 
+            "InvalidCountMessage":"{{i18n:atelierfloral_BouquetStation_InvalidCount.message}}",
+            "InvalidItemMessage":"{{i18n:atelierfloral_BouquetStation_InvalidItem.message}}",
+            "ShowNextIndexWhileWorking":false,
+            "ShowNextIndexWhenReady":false,
+            "WobbleWhileWorking":false,
+            "WorkingEffects":[
+                {
+                    "Frames":[0,1,2,3,4,5,6,7],
+                    "Interval":100
+                }
+           ] 
+           
+        }
+    }
+},
+
+///////////////////
+// CANDLE ADD ON //
+///////////////////
+
+//Add Machines to Big Craftables
+
+{
+    "LogName": "Add Atelier Floral Candle Machine to BigCraftables",
+    "Action": "EditData",
+    "Target": "Data/BigCraftables",
+    "When":{"HasMod |contains=wildflour.honeybees": true},
+    "Entries": {
+        "wildflour.atelierfloral_CandleStation": {
+            "Name": "wildflour.atelierfloral_CandleStation",
+            "DisplayName": "{{i18n: atelierfloral_CandleStation.name}}",
+            "Description": "{{i18n: atelierfloral_CandleStation.description}}",
+            "Price": 50,
+            "Fragility": 0,
+            "CanBePlacedOutdoors": true,
+            "CanBePlacedIndoors": true,
+            "IsLamp": false,
+            "Texture": "Mods\\wildflour.atelierfloral\\Machines_{{CauldronRecolor}}",
+            "SpriteIndex": 24,
+            "CustomFields": {}
+          }    
+    }
+},
+
+{
+    "LogName": "Add Atelier Floral Candle Add On Rules",
+    "Action": "EditData",
+    "Target": "Data/Machines",
+    "When":{"HasMod |contains=wildflour.honeybees": true},
+    "Entries": {
+        "(BC)wildflour.atelierfloral_CandleStation": {
+            "OutputRules": [              
+                {
+                    "Id": "wildflour.atelierfloral_jazz_candles",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)597",
+                            "RequiredCount": 3
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierfloral_jazz_candles",
+                            "ItemId": "(O)wildflour.atelierfloral_jazz_candles",
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 4
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 1750
+                },
+                {
+                    "Id": "wildflour.atelierfloral_vanilla_candles",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.ateliercrops_vanilla",
+                            "RequiredCount": 3
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierfloral_vanilla_candles",
+                            "ItemId": "(O)wildflour.atelierfloral_vanilla_candles",
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 4
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 1750
+                },
+                {
+                    "Id": "wildflour.atelierfloral_fairy_candles",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)595",
+                            "RequiredCount": 3
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierfloral_fairy_candles",
+                            "ItemId": "(O)wildflour.atelierfloral_fairy_candles",
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 4
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 1750
+                },
+                {
+                    "Id": "wildflour.atelierfloral_chamomile_candles",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.ateliercrops_chamomile",
+                            "RequiredCount": 3
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierfloral_chamomile_candles",
+                            "ItemId": "(O)wildflour.atelierfloral_chamomile_candles",
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 4
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 1750
+                },
+                {
+                    "Id": "wildflour.atelierfloral_lavender_candles",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.ateliercrops_lavender",
+                            "RequiredCount": 3
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierfloral_lavender_candles",
+                            "ItemId": "(O)wildflour.atelierfloral_lavender_candles",
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 4
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 1750
+                },
+                {
+                    "Id": "wildflour.atelierfloral_jasmine_candles",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.ateliercrops_jasmine",
+                            "RequiredCount": 3
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierfloral_jasmine_candles",
+                            "ItemId": "(O)wildflour.atelierfloral_jasmine_candles",
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 4
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 1750
+                },
+                {
+                    "Id": "wildflour.atelierfloral_mallow_candles",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.ateliercrops_mallow",
+                            "RequiredCount": 3
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierfloral_mallow_candles",
+                            "ItemId": "(O)wildflour.atelierfloral_mallow_candles",
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 4
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 1750
+                },
+                {
+                    "Id": "wildflour.atelierfloral_poppy_candles",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)376",
+                            "RequiredCount": 3
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierfloral_poppy_candles",
+                            "ItemId": "(O)wildflour.atelierfloral_poppy_candles",
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 4
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 1750
+                },
+                {
+                    "Id": "wildflour.atelierfloral_sakura_candles",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.ateliercrops_cherryblossoms",
+                            "RequiredCount": 3
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierfloral_sakura_candles",
+                            "ItemId": "(O)wildflour.atelierfloral_sakura_candles",
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 4
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 1750
+                },
+                {
+                    "Id": "wildflour.atelierfloral_spangle_candles",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)593",
+                            "RequiredCount": 3
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierfloral_spangle_candles",
+                            "ItemId": "(O)wildflour.atelierfloral_spangle_candles",
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 4
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 1750
+                },
+                {
+                    "Id": "wildflour.atelierfloral_sunflower_candles",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)421",
+                            "RequiredCount": 3
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierfloral_sunflower_candles",
+                            "ItemId": "(O)wildflour.atelierfloral_sunflower_candles",
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 4
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 1750
+                },
+                {
+                    "Id": "wildflour.atelierfloral_tulip_candles",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)591",
+                            "RequiredCount": 3
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierfloral_tulip_candles",
+                            "ItemId": "(O)wildflour.atelierfloral_tulip_candles",
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 4
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 1750
+                }
+            ],
+            "AdditionalConsumedItems":[
+                {
+                    "ItemId":"(O)wildflour.honeybees_honeycomb",
+                    "RequiredCount": 1,
+                    "InvalidCountMessage":"{{i18n:atelierfloral_CandleStation_InvalidCount.message}}"
+                }
+            ],
+            "InvalidItemMessage":"{{i18n:atelierfloral_CandleStation_InvalidItem.message}}",
+            "ShowNextIndexWhileWorking":false,
+            "ShowNextIndexWhenReady":false,
+            "WobbleWhileWorking":false,
+            "WorkingEffects":[
+                {
+                    "Frames":[1,2,3,4,5,6,7],
+                    "Interval":100
+                }
+           ] 
+        }
+        }
+    },
+
+///////////////////////////
+// Edit Vanilla Machines //
+///////////////////////////
+
+{
+    "LogName": "Atelier Floral Oil Maker Edits",
+    "Action": "EditData",
+    "Target": "Data/Machines",
+    "TargetField": ["(BC)19", "OutputRules"],
+    "Entries": {
+        "wildflour.atelierfloral_OilMaker_jazz_perfume": 
+        {
+            "Id": "wildflour.atelierfloral_OilMaker_jazz_perfume",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "(O)wildflour.atelierfloral_jazz_essence",
+                    "RequiredCount": 1
+                }
+        ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.atelierfloral_jazz_perfume",
+                    "ItemId": "(O)wildflour.atelierfloral_jazz_perfume",
+                    "CopyQuality": true,
+                    "CopyPrice": true,
+                    "PriceModifiers": 
+                    [
+                        {
+                            "Modification": "Multiply",
+                            "Amount": 3.0
+                        }
+                    ]
+                }    
+        ],
+            "MinutesUntilReady": 2200
+        },
+        "wildflour.atelierfloral_OilMaker_vanilla_perfume": 
+        {
+            "Id": "wildflour.atelierfloral_OilMaker_vanilla_perfume",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "(O)wildflour.atelierfloral_vanilla_essence",
+                    "RequiredCount": 1
+                }
+        ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.atelierfloral_vanilla_perfume",
+                    "ItemId": "(O)wildflour.atelierfloral_vanilla_perfume",
+                    "CopyQuality": true,
+                    "CopyPrice": true,
+                    "PriceModifiers": 
+                    [
+                        {
+                            "Modification": "Multiply",
+                            "Amount": 3.0
+                        }
+                    ]
+                }    
+        ],
+            "MinutesUntilReady": 2200
+        },
+        "wildflour.atelierfloral_OilMaker_fairy_perfume":                 
+        {
+            "Id": "wildflour.atelierfloral_OilMaker_fairy_perfume",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "(O)wildflour.atelierfloral_fairy_essence",
+                    "RequiredCount": 1
+                }
+        ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.atelierfloral_fairy_perfume",
+                    "ItemId": "(O)wildflour.atelierfloral_fairy_perfume",
+
+                    "CopyQuality": true,
+                    "CopyPrice": true,
+                    "PriceModifiers": 
+                    [
+                        {
+                            "Modification": "Multiply",
+                            "Amount": 3.0
+                        }
+                    ]
+                }    
+        ],
+            "MinutesUntilReady": 2200
+        },
+        "wildflour.atelierfloral_OilMaker_chamomile_perfume": 
+        {
+            "Id": "wildflour.atelierfloral_OilMaker_chamomile_perfume",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "(O)wildflour.atelierfloral_chamomile_essence",
+                    "RequiredCount": 1
+                }
+        ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.atelierfloral_chamomile_perfume",
+                    "ItemId": "(O)wildflour.atelierfloral_chamomile_perfume",
+                    "CopyQuality": true,
+                    "CopyPrice": true,
+                    "PriceModifiers": 
+                    [
+                        {
+                            "Modification": "Multiply",
+                            "Amount": 3.0
+                        }
+                    ]
+                }    
+        ],
+            "MinutesUntilReady": 2200
+        },
+        "wildflour.atelierfloral_OilMaker_lavender_perfume":                 
+        {
+            "Id": "wildflour.atelierfloral_OilMaker_lavender_perfume",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "(O)wildflour.atelierfloral_lavender_essence",
+                    "RequiredCount": 1
+                }
+        ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.atelierfloral_lavender_perfume",
+                    "ItemId": "(O)wildflour.atelierfloral_lavender_perfume",
+                    "CopyQuality": true,
+                    "CopyPrice": true,
+                    "PriceModifiers": 
+                    [
+                        {
+                            "Modification": "Multiply",
+                            "Amount": 3.0
+                        }
+                    ]
+                }    
+        ],
+            "MinutesUntilReady": 2200
+        },
+        "wildflour.atelierfloral_OilMaker_jasmine_perfume": 
+        {
+            "Id": "wildflour.atelierfloral_OilMaker_jasmine_perfume",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "(O)wildflour.atelierfloral_jasmine_essence",
+                    "RequiredCount": 1
+                }
+        ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.atelierfloral_jasmine_perfume",
+                    "ItemId": "(O)wildflour.atelierfloral_jasmine_perfume",
+                    "CopyQuality": true,
+                    "CopyPrice": true,
+                    "PriceModifiers": 
+                    [
+                        {
+                            "Modification": "Multiply",
+                            "Amount": 3.0
+                        }
+                    ]
+                }    
+        ],
+            "MinutesUntilReady": 2200
+        },
+        "wildflour.atelierfloral_OilMaker_mallow_perfume": 
+        {
+            "Id": "wildflour.atelierfloral_OilMaker_mallow_perfume",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "(O)wildflour.atelierfloral_mallow_essence",
+                    "RequiredCount": 1
+                }
+        ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.atelierfloral_mallow_perfume",
+                    "ItemId": "(O)wildflour.atelierfloral_mallow_perfume",
+                    "CopyQuality": true,
+                    "CopyPrice": true,
+                    "PriceModifiers": 
+                    [
+                        {
+                            "Modification": "Multiply",
+                            "Amount": 3.0
+                        }
+                    ]
+                }    
+        ],
+            "MinutesUntilReady": 2200
+        },
+        "wildflour.atelierfloral_OilMaker_poppy_perfume": 
+        {
+            "Id": "wildflour.atelierfloral_OilMaker_poppy_perfume",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "(O)wildflour.atelierfloral_poppy_essence",
+                    "RequiredCount": 1
+                }
+        ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.atelierfloral_poppy_perfume",
+                    "ItemId": "(O)wildflour.atelierfloral_poppy_perfume",
+                    "CopyQuality": true,
+                    "CopyPrice": true,
+                    "PriceModifiers": 
+                    [
+                        {
+                            "Modification": "Multiply",
+                            "Amount": 3.0
+                        }
+                    ]
+                }    
+        ],
+            "MinutesUntilReady": 2200
+        },
+        "wildflour.atelierfloral_OilMaker_sakura_perfume": 
+        {
+            "Id": "wildflour.atelierfloral_OilMaker_sakura_perfume",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "(O)wildflour.atelierfloral_sakura_essence",
+                    "RequiredCount": 1
+                }
+        ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.atelierfloral_sakura_perfume",
+                    "ItemId": "(O)wildflour.atelierfloral_sakura_perfume",
+                    "CopyQuality": true,
+                    "CopyPrice": true,
+                    "PriceModifiers": 
+                    [
+                        {
+                            "Modification": "Multiply",
+                            "Amount": 3.0
+                        }
+                    ]
+                }    
+        ],
+            "MinutesUntilReady": 2200
+        },
+        "wildflour.atelierfloral_OilMaker_spangle_perfume":                 
+        {
+            "Id": "wildflour.atelierfloral_OilMaker_spangle_perfume",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "(O)wildflour.atelierfloral_spangle_essence",
+                    "RequiredCount": 1
+                }
+        ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.atelierfloral_spangle_perfume",
+                    "ItemId": "(O)wildflour.atelierfloral_spangle_perfume",
+                    "CopyQuality": true,
+                    "CopyPrice": true,
+                    "PriceModifiers": 
+                    [
+                        {
+                            "Modification": "Multiply",
+                            "Amount": 3.0
+                        }
+                    ]
+                }    
+        ],
+            "MinutesUntilReady": 2200
+        },
+        "wildflour.atelierfloral_OilMaker_sunflower_perfume": 
+        {
+            "Id": "wildflour.atelierfloral_OilMaker_sunflower_perfume",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "(O)wildflour.atelierfloral_sunflower_essence",
+                    "RequiredCount": 1
+                }
+        ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.atelierfloral_sunflower_perfume",
+                    "ItemId": "(O)wildflour.atelierfloral_sunflower_perfume",
+                    "CopyQuality": true,
+                    "CopyPrice": true,
+                    "PriceModifiers": 
+                    [
+                        {
+                            "Modification": "Multiply",
+                            "Amount": 3.0
+                        }
+                    ]
+                }    
+        ],
+            "MinutesUntilReady": 2200
+        },
+        "wildflour.atelierfloral_OilMaker_tulip_perfume": 
+        {
+            "Id": "wildflour.atelierfloral_OilMaker_tulip_perfume",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "(O)wildflour.atelierfloral_tulip_essence",
+                    "RequiredCount": 1
+                }
+        ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.atelierfloral_tulip_perfume",
+                    "ItemId": "(O)wildflour.atelierfloral_tulip_perfume",
+                    "CopyQuality": true,
+                    "CopyPrice": true,
+                    "PriceModifiers": 
+                    [
+                        {
+                            "Modification": "Multiply",
+                            "Amount": 3.0
+                        }
+                    ]
+                }    
+        ],
+            "MinutesUntilReady": 2200
+        }
+
+   }
+}
+   
+
+]
+}

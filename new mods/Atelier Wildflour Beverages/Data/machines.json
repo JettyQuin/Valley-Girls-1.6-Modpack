@@ -1,0 +1,2055 @@
+{
+    "Changes": [
+
+//////////////////////////
+// ADD MACHINES TO GAME //
+//////////////////////////
+
+{
+    "LogName": "Add Atelier Beverage Machines to BigCraftables",
+    "Action": "EditData",
+    "Target": "Data/BigCraftables",
+    "Entries": {
+        "wildflour.atelierjuicebar_BobaStation": {
+            "Name": "wildflour.atelierjuicebar_BobaStation",
+            "DisplayName": "{{i18n: atelierjuicebar_BobaStation.name}}",
+            "Description": "{{i18n: atelierjuicebar_BobaStation.description}}",
+            "Price": 50,
+            "Fragility": 0,
+            "CanBePlacedOutdoors": true,
+            "CanBePlacedIndoors": true,
+            "IsLamp": false,
+            "Texture": "Mods\\wildflour.atelierjuicebar\\Machines_{{BobaRecolor}}",
+            "SpriteIndex": 0,
+            "CustomFields": {}
+          },
+        "wildflour.atelierjuicebar_JuiceStation": {
+            "Name": "wildflour.atelierjuicebar_JuiceStation",
+            "DisplayName": "{{i18n: atelierjuicebar_JuiceStation.name}}",
+            "Description": "{{i18n: atelierjuicebar_JuiceStation.description}}",
+            "Price": 50,
+            "Fragility": 0,
+            "CanBePlacedOutdoors": true,
+            "CanBePlacedIndoors": true,
+            "IsLamp": false,
+            "Texture": "Mods\\wildflour.atelierjuicebar\\Machines_{{JuicerRecolor}}",
+            "SpriteIndex": 16,
+            "CustomFields": {}
+        },
+        "wildflour.atelierjuicebar_LemonadeStand": {
+            "Name": "wildflour.atelierjuicebar_LemonadeStand",
+            "DisplayName": "{{i18n: atelierjuicebar_LemonadeStand.name}}",
+            "Description": "{{i18n: atelierjuicebar_LemonadeStand.description}}",
+            "Price": 50,
+            "Fragility": 0,
+            "CanBePlacedOutdoors": true,
+            "CanBePlacedIndoors": true,
+            "IsLamp": false,
+            "Texture": "Mods\\wildflour.atelierjuicebar\\Machines_{{LemonadeRecolor}}",
+            "SpriteIndex": 8,
+            "CustomFields": {}
+        }
+    }
+},
+
+///////////////////
+// MACHINE RULES //
+///////////////////
+
+{
+    "LogName": "Add Atelier Beverages Rules",
+    "Action": "EditData",
+    "Target": "Data/Machines",
+    "Entries": {
+        "(BC)wildflour.atelierjuicebar_BobaStation": {
+            "OutputRules": [
+                {
+                    "Id": "wildflour.atelierjuicebar_banana_boba",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)91",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierjuicebar_banana_boba",
+                            "ItemId": "(O)wildflour.atelierjuicebar_banana_boba",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                               
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 2.25
+                                },
+                                {
+                                "Modification": "Add",
+                                "Amount": 50
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 620
+                },
+                {
+                    "Id": "wildflour.atelierjuicebar_blacktea_boba",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)815",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierjuicebar_blacktea_boba",
+                            "ItemId": "(O)wildflour.atelierjuicebar_blacktea_boba",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                               
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 2.25
+                                },
+                                {
+                                "Modification": "Add",
+                                "Amount": 50
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 620
+                },
+                {
+                    "Id": "wildflour.atelierjuicebar_blueberry_boba",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)258",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierjuicebar_blueberry_boba",
+                            "ItemId": "(O)wildflour.atelierjuicebar_blueberry_boba",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                               
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 2.25
+                                },
+                                {
+                                "Modification": "Add",
+                                "Amount": 50
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 620
+                },
+                {
+                    "Id": "wildflour.atelierjuicebar_brownsugar_boba",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.gourmetpantry_brown_sugar",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierjuicebar_brownsugar_boba",
+                            "ItemId": "(O)wildflour.atelierjuicebar_brownsugar_boba",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                               
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 2.25
+                                },
+                                {
+                                "Modification": "Add",
+                                "Amount": 50
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 620
+                },
+                {
+                    "Id": "wildflour.atelierjuicebar_caramel_boba",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)245",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierjuicebar_caramel_boba",
+                            "ItemId": "(O)wildflour.atelierjuicebar_caramel_boba",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                               
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 2.25
+                                },
+                                {
+                                "Modification": "Add",
+                                "Amount": 50
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 620
+                },
+                {
+                    "Id": "wildflour.atelierjuicebar_coconut_boba",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)88",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierjuicebar_coconut_boba",
+                            "ItemId": "(O)wildflour.atelierjuicebar_coconut_boba",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                               
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 2.25
+                                },
+                                {
+                                "Modification": "Add",
+                                "Amount": 50
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 620
+                },
+                {
+                    "Id": "wildflour.atelierjuicebar_coffee_boba",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)395",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierjuicebar_coffee_boba",
+                            "ItemId": "(O)wildflour.atelierjuicebar_coffee_boba",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                               
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 2.25
+                                },
+                                {
+                                "Modification": "Add",
+                                "Amount": 50
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 620
+                },
+                {
+                    "Id": "wildflour.atelierjuicebar_jasmine_boba",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.ateliercrops_jasmine",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierjuicebar_jasmine_boba",
+                            "ItemId": "(O)wildflour.atelierjuicebar_jasmine_boba",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                               
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 2.25
+                                },
+                                {
+                                "Modification": "Add",
+                                "Amount": 50
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 620
+                },
+                {
+                    "Id": "wildflour.atelierjuicebar_mango_boba",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)834",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierjuicebar_mango_boba",
+                            "ItemId": "(O)wildflour.atelierjuicebar_mango_boba",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                               
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 2.25
+                                },
+                                {
+                                "Modification": "Add",
+                                "Amount": 50
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 620
+                },
+                {
+                    "Id": "wildflour.atelierjuicebar_matcha_boba",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)614",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierjuicebar_matcha_boba",
+                            "ItemId": "(O)wildflour.atelierjuicebar_matcha_boba",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                               
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 2.25
+                                },
+                                {
+                                "Modification": "Add",
+                                "Amount": 50
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 620
+                },
+                {
+                    "Id": "wildflour.atelierjuicebar_melon_boba",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)254",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierjuicebar_melon_boba",
+                            "ItemId": "(O)wildflour.atelierjuicebar_melon_boba",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                               
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 2.25
+                                },
+                                {
+                                "Modification": "Add",
+                                "Amount": 50
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 620
+                },
+                {
+                    "Id": "wildflour.atelierjuicebar_oolong_boba",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)340",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierjuicebar_oolong_boba",
+                            "ItemId": "(O)wildflour.atelierjuicebar_oolong_boba",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                               
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 2.25
+                                },
+                                {
+                                "Modification": "Add",
+                                "Amount": 50
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 620
+                },
+                {
+                    "Id": "wildflour.atelierjuicebar_peach_boba",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)636",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierjuicebar_peach_boba",
+                            "ItemId": "(O)wildflour.atelierjuicebar_peach_boba",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                               
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 2.25
+                                },
+                                {
+                                "Modification": "Add",
+                                "Amount": 50
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 620
+                },
+                {
+                    "Id": "wildflour.atelierjuicebar_rose_boba",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)595",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierjuicebar_rose_boba",
+                            "ItemId": "(O)wildflour.atelierjuicebar_rose_boba",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                               
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 2.25
+                                },
+                                {
+                                "Modification": "Add",
+                                "Amount": 50
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 620
+                },
+                {
+                    "Id": "wildflour.atelierjuicebar_strawberry_boba",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)400",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierjuicebar_strawberry_boba",
+                            "ItemId": "(O)wildflour.atelierjuicebar_strawberry_boba",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                               
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 2.25
+                                },
+                                {
+                                "Modification": "Add",
+                                "Amount": 50
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 620
+                },
+                {
+                    "Id": "wildflour.atelierjuicebar_taro_boba",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)830",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierjuicebar_taro_boba",
+                            "ItemId": "(O)wildflour.atelierjuicebar_taro_boba",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                               
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 2.25
+                                },
+                                {
+                                "Modification": "Add",
+                                "Amount": 50
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 620
+                },
+                {
+                    "Id": "wildflour.atelierjuicebar_thai_boba",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.gourmetpantry_coconut_milk",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierjuicebar_thai_boba",
+                            "ItemId": "(O)wildflour.atelierjuicebar_thai_boba",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                               
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 2.25
+                                },
+                                {
+                                "Modification": "Add",
+                                "Amount": 50
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 620
+                },
+                {
+                    "Id": "wildflour.atelierjuicebar_vanilla_boba",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.ateliercrops_vanilla",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierjuicebar_vanilla_boba",
+                            "ItemId": "(O)wildflour.atelierjuicebar_vanilla_boba",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                               
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 2.25
+                                },
+                                {
+                                "Modification": "Add",
+                                "Amount": 50
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 20
+                }
+            ],
+            "AdditionalConsumedItems":[
+                {
+                    "ItemId":"(O)wildflour.atelierjuicebar_boba_pearls",
+                    "RequiredCount":1,
+                    "InvalidCountMessage":"{{i18n:atelierjuicebar_BobaStation_InvalidCount.message}}"
+                }
+            ],
+            "InvalidItemMessage":"{{i18n:atelierjuicebar_BobaStation_InvalidItem.message}}",
+            "ShowNextIndexWhileWorking":true,
+            "ShowNextIndexWhenReady":false,
+            "WobbleWhileWorking":false,
+            "WorkingEffects":[
+                {
+                    "Frames":[0,1,2,3,4,5],
+                    "Interval":100
+                }
+           ] 
+        },
+        "(BC)wildflour.atelierjuicebar_JuiceStation":{
+            "OutputRules": [
+                {
+                    "Id": "wildflour.atelierjuicebar_apple_juice",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)613",
+                            "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierjuicebar_apple_juice",
+                            "ItemId": "(O)wildflour.atelierjuicebar_apple_juice",
+                            "CopyQuality": false,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 1.8
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 1800
+                },
+                {
+                    "Id": "wildflour.atelierjuicebar_berry_juice",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)258",
+                            "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierjuicebar_berry_juice",
+                            "ItemId": "(O)wildflour.atelierjuicebar_berry_juice",
+                            "CopyQuality": false,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 1.8
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 1800
+                },
+                {
+                    "Id": "wildflour.atelierjuicebar_carrot_juice",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)Carrot",
+                            "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierjuicebar_carrot_juice",
+                            "ItemId": "(O)wildflour.atelierjuicebar_carrot_juice",
+                            "CopyQuality": false,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 1.8
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 1800
+                },
+                {
+                    "Id": "wildflour.atelierjuicebar_grape_juice",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)398",
+                            "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierjuicebar_grape_juice",
+                            "ItemId": "(O)wildflour.atelierjuicebar_grape_juice",
+                            "CopyQuality": false,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 1.8
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 1800
+                },
+                {
+                    "Id": "wildflour.atelierjuicebar_mix_juice",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)410",
+                            "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierjuicebar_mix_juice",
+                            "ItemId": "(O)wildflour.atelierjuicebar_mix_juice",
+                            "CopyQuality": false,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 1.8
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 1800
+                },
+                {
+                    "Id": "wildflour.atelierjuicebar_orange_juice",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)635",
+                            "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierjuicebar_orange_juice",
+                            "ItemId": "(O)wildflour.atelierjuicebar_orange_juice",
+                            "CopyQuality": false,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 1.8
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 1800
+                },
+                {
+                    "Id": "wildflour.atelierjuicebar_pomegranate_juice",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)637",
+                            "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierjuicebar_pomegranate_juice",
+                            "ItemId": "(O)wildflour.atelierjuicebar_pomegranate_juice",
+                            "CopyQuality": false,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 1.8
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 1800
+                },
+                {
+                    "Id": "wildflour.atelierjuicebar_tropical_juice",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)834",
+                            "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierjuicebar_tropical_juice",
+                            "ItemId": "(O)wildflour.atelierjuicebar_tropical_juice",
+                            "CopyQuality": false,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 1.8
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 1800
+                },
+                {
+                    "Id": "wildflour.atelierjuicebar_fruit_punch",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)282",
+                            "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierjuicebar_fruit_punch",
+                            "ItemId": "(O)wildflour.atelierjuicebar_fruit_punch",
+                            "CopyQuality": false,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 1.8
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 1800
+                },
+                {
+                    "Id": "wildflour.atelierjuicebar_amber_juice",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.ateliercrops_amber_moondrop",
+                            "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierjuicebar_amber_juice",
+                            "ItemId": "(O)wildflour.atelierjuicebar_amber_juice",
+                            "CopyQuality": false,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 1.8
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 1800
+                },
+                {
+                    "Id": "wildflour.atelierjuicebar_jade_juice",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.ateliercrops_jade_moondrop",
+                            "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierjuicebar_jade_juice",
+                            "ItemId": "(O)wildflour.atelierjuicebar_jade_juice",
+                            "CopyQuality": false,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 1.8
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 1800
+                },
+                {
+                    "Id": "wildflour.atelierjuicebar_lapis_juice",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.ateliercrops_lapis_moondrop",
+                            "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierjuicebar_lapis_juice",
+                            "ItemId": "(O)wildflour.atelierjuicebar_lapis_juice",
+                            "CopyQuality": false,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 1.8
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 1800
+                },
+                {
+                    "Id": "wildflour.atelierjuicebar_pearl_juice",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.ateliercrops_pearl_moondrop",
+                            "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierjuicebar_pearl_juice",
+                            "ItemId": "(O)wildflour.atelierjuicebar_pearl_juice",
+                            "CopyQuality": false,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 1.8
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 1800
+                },
+                {
+                    "Id": "wildflour.atelierjuicebar_apricot_elixir",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.ateliercrops_apricot",
+                            "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierjuicebar_apricot_elixir",
+                            "ItemId": "(O)wildflour.atelierjuicebar_apricot_elixir",
+                            "CopyQuality": false,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 1.8
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 1800
+                },
+                {
+                    "Id": "wildflour.atelierjuicebar_apple_elixir",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.ateliercrops_apple",
+                            "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierjuicebar_apple_elixir",
+                            "ItemId": "(O)wildflour.atelierjuicebar_apple_elixir",
+                            "CopyQuality": false,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 1.8
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 1800
+                },
+                {
+                    "Id": "wildflour.atelierjuicebar_cherry_elixir",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.ateliercrops_cherry",
+                            "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierjuicebar_cherry_elixir",
+                            "ItemId": "(O)wildflour.atelierjuicebar_cherry_elixir",
+                            "CopyQuality": false,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 1.8
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 1800
+                },
+                {
+                    "Id": "wildflour.atelierjuicebar_mango_elixir",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.ateliercrops_mango",
+                            "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierjuicebar_mango_elixir",
+                            "ItemId": "(O)wildflour.atelierjuicebar_mango_elixir",
+                            "CopyQuality": false,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 1.8
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 1800
+                },
+                {
+                    "Id": "wildflour.atelierjuicebar_orange_elixir",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.ateliercrops_orange",
+                            "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierjuicebar_orange_elixir",
+                            "ItemId": "(O)wildflour.atelierjuicebar_orange_elixir",
+                            "CopyQuality": false,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 1.8
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 1800
+                },
+                {
+                    "Id": "wildflour.atelierjuicebar_peach_elixir",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.ateliercrops_peach",
+                            "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierjuicebar_peach_elixir",
+                            "ItemId": "(O)wildflour.atelierjuicebar_peach_elixir",
+                            "CopyQuality": false,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 1.8
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 1800
+                },
+                {
+                    "Id": "wildflour.atelierjuicebar_pomegranate_elixir",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.ateliercrops_pomegranate",
+                            "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierjuicebar_pomegranate_elixir",
+                            "ItemId": "(O)wildflour.atelierjuicebar_pomegranate_elixir",
+                            "CopyQuality": false,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 1.8
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 1800
+                },
+        //iced tea
+                {
+                    "Id": "wildflour.atelierjuicebar_iced_tea",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.ateliertea_breakfast_tea",
+                            "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierjuicebar_iced_tea",
+                            "ItemId": "(O)wildflour.atelierjuicebar_iced_tea",
+                            "CopyQuality": false,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 1.8
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 1800
+                },
+                {
+                    "Id": "wildflour.atelierjuicebar_green_icedtea",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)614",
+                            "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierjuicebar_green_icedtea",
+                            "ItemId": "(O)wildflour.atelierjuicebar_green_icedtea",
+                            "CopyQuality": false,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 1.8
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 1800
+                },
+                {
+                    "Id": "wildflour.atelierjuicebar_pineapple_icedtea",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.ateliertea_pineapple_tea",
+                            "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierjuicebar_pineapple_icedtea",
+                            "ItemId": "(O)wildflour.atelierjuicebar_pineapple_icedtea",
+                            "CopyQuality": false,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 1.8
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 1800
+                },
+                {
+                    "Id": "wildflour.atelierjuicebar_peach_icedtea",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.ateliertea_peach_tea",
+                            "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierjuicebar_peach_icedtea",
+                            "ItemId": "(O)wildflour.atelierjuicebar_peach_icedtea",
+                            "CopyQuality": false,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 1.8
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 1800
+                },
+                {
+                    "Id": "wildflour.atelierjuicebar_thai_icedtea",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.ateliertea_vanilla_tea",
+                            "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierjuicebar_thai_icedtea",
+                            "ItemId": "(O)wildflour.atelierjuicebar_thai_icedtea",
+                            "CopyQuality": false,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 1.8
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 1800
+                }
+            ],
+            "AdditionalConsumedItems":[
+                {
+                    "ItemId":"(O)340",
+                    "RequiredCount": 1,
+                    "InvalidCountMessage":"{{i18n:atelierjuicebar_JuiceStation_InvalidCount.message}}"
+                }
+            ],
+            "InvalidItemMessage":"{{i18n:atelierjuicebar_JuiceStation_InvalidItem.message}}",
+            "ShowNextIndexWhileWorking":false,
+            "ShowNextIndexWhenReady":false,
+            "WobbleWhileWorking":false,
+            "WorkingEffects":[
+                {
+                    "Frames":[1,2,3,4,5,6],
+                    "Interval":100
+                }
+           ] 
+           
+        },
+        "(BC)wildflour.atelierjuicebar_LemonadeStand":{
+            "OutputRules": [
+                {
+                    "Id": "wildflour.atelierjuicebar_blackberry_lemonade",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)410",
+                            "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierjuicebar_blackberry_lemonade",
+                            "ItemId": "(O)wildflour.atelierjuicebar_blackberry_lemonade",
+                            "CopyQuality": false,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.0
+                                },
+                                {
+
+                                    "Modification": "Add",
+                                    "Amount": 65
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 600
+                },
+                {
+                    "Id": "wildflour.atelierjuicebar_chamomile_lemonade",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.ateliercrops_chamomile",
+                            "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierjuicebar_chamomile_lemonade",
+                            "ItemId": "(O)wildflour.atelierjuicebar_chamomile_lemonade",
+                            "CopyQuality": false,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.0
+                                },
+                                {
+
+                                    "Modification": "Add",
+                                    "Amount": 65
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 600
+                },
+                {
+                    "Id": "wildflour.atelierjuicebar_cherry_lemonade",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)638",
+                            "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierjuicebar_cherry_lemonade",
+                            "ItemId": "(O)wildflour.atelierjuicebar_cherry_lemonade",
+                            "CopyQuality": false,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.0
+                                },
+                                {
+
+                                    "Modification": "Add",
+                                    "Amount": 65
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 600
+                },
+                {
+                    "Id": "wildflour.atelierjuicebar_classic_lemonade",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.ateliercrops_lemon",
+                            "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierjuicebar_classic_lemonade",
+                            "ItemId": "(O)wildflour.atelierjuicebar_classic_lemonade",
+                            "CopyQuality": false,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.0
+                                },
+                                {
+
+                                    "Modification": "Add",
+                                    "Amount": 65
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 600
+                },
+                {
+                    "Id": "wildflour.atelierjuicebar_green_lemonade",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)614",
+                            "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierjuicebar_green_lemonade",
+                            "ItemId": "(O)wildflour.atelierjuicebar_green_lemonade",
+                            "CopyQuality": false,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.0
+                                },
+                                {
+
+                                    "Modification": "Add",
+                                    "Amount": 65
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 600
+                },
+                {
+                    "Id": "wildflour.atelierjuicebar_jasmine_lemonade",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.ateliercrops_jasmine",
+                            "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierjuicebar_jasmine_lemonade",
+                            "ItemId": "(O)wildflour.atelierjuicebar_jasmine_lemonade",
+                            "CopyQuality": false,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.0
+                                },
+                                {
+
+                                    "Modification": "Add",
+                                    "Amount": 65
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 600
+                },
+                {
+                    "Id": "wildflour.atelierjuicebar_lavender_lemonade",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.ateliercrops_lavender",
+                            "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierjuicebar_lavender_lemonade",
+                            "ItemId": "(O)wildflour.atelierjuicebar_lavender_lemonade",
+                            "CopyQuality": false,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.0
+                                },
+                                {
+
+                                    "Modification": "Add",
+                                    "Amount": 65
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 600
+                },
+                {
+                    "Id": "wildflour.atelierjuicebar_lime_lemonade",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.ateliercrops_lime",
+                            "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierjuicebar_lime_lemonade",
+                            "ItemId": "(O)wildflour.atelierjuicebar_lime_lemonade",
+                            "CopyQuality": false,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.0
+                                },
+                                {
+
+                                    "Modification": "Add",
+                                    "Amount": 65
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 600
+                },
+                {
+                    "Id": "wildflour.atelierjuicebar_melon_lemonade",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)254",
+                            "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierjuicebar_melon_lemonade",
+                            "ItemId": "(O)wildflour.atelierjuicebar_melon_lemonade",
+                            "CopyQuality": false,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.0
+                                },
+                                {
+
+                                    "Modification": "Add",
+                                    "Amount": 65
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 600
+                },
+                {
+                    "Id": "wildflour.atelierjuicebar_mint_lemonade",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.ateliercrops_mint",
+                            "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierjuicebar_mint_lemonade",
+                            "ItemId": "(O)wildflour.atelierjuicebar_mint_lemonade",
+                            "CopyQuality": false,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.0
+                                },
+                                {
+
+                                    "Modification": "Add",
+                                    "Amount": 65
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 600
+                },
+                {
+                    "Id": "wildflour.atelierjuicebar_pomegranate_lemonade",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)637",
+                            "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierjuicebar_pomegranate_lemonade",
+                            "ItemId": "(O)wildflour.atelierjuicebar_pomegranate_lemonade",
+                            "CopyQuality": false,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.0
+                                },
+                                {
+
+                                    "Modification": "Add",
+                                    "Amount": 65
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 600
+                },
+                {
+                    "Id": "wildflour.atelierjuicebar_pink_lemonade",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.ateliercrops_strawberry",
+                            "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierjuicebar_pink_lemonade",
+                            "ItemId": "(O)wildflour.atelierjuicebar_pink_lemonade",
+                            "CopyQuality": false,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.0
+                                },
+                                {
+
+                                    "Modification": "Add",
+                                    "Amount": 65
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 600
+                },
+                {
+                    "Id": "wildflour.atelierjuicebar_rose_lemonade",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)595",
+                            "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierjuicebar_rose_lemonade",
+                            "ItemId": "(O)wildflour.atelierjuicebar_rose_lemonade",
+                            "CopyQuality": false,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.0
+                                },
+                                {
+
+                                    "Modification": "Add",
+                                    "Amount": 65
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 600
+                },
+                {
+                    "Id": "wildflour.atelierjuicebar_raspberry_lemonade",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)wildflour.ateliercrops_raspberry",
+                            "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.atelierjuicebar_raspberry_lemonade",
+                            "ItemId": "(O)wildflour.atelierjuicebar_raspberry_lemonade",
+                            "CopyQuality": false,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.0
+                                },
+                                {
+
+                                    "Modification": "Add",
+                                    "Amount": 65
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 600
+                }  
+            ],
+            "AdditionalConsumedItems":[
+                {
+                    "ItemId":"(O)wildflour.ateliercrops_lemon",
+                    "RequiredCount": 1,
+                    "InvalidCountMessage":"{{i18n:atelierjuicebar_LemonadeStand_InvalidCount.message}}"
+                }
+            ],
+            "InvalidItemMessage":"{{i18n:atelierjuicebar_LemonadeStand_InvalidItem.message}}",
+            "ShowNextIndexWhileWorking":false,
+            "ShowNextIndexWhenReady":false,
+            "WobbleWhileWorking":false,
+            "WorkingEffects":[
+                {
+                    "Frames":[0,1,2,3,4,5,6,7],
+                    "Interval":100
+                }
+           ] 
+           
+        }
+    }
+},
+
+
+/////////////////////
+// SMOOTHIE COMPAT //
+/////////////////////
+
+{
+    "LogName": "Adding Smoothie Rules to Kitchen Blender",
+    "Action": "EditData",
+    "Target": "Data/Machines",
+    "TargetField": ["(BC)wildflour.gourmetpantry_KitchenBlender", "OutputRules"],
+    "Entries": {
+        "wildflour.atelierjuicebar_KitchenBlender_ancient_smoothie": {
+            "Id": "wildflour.atelierjuicebar_KitchenBlender_ancient_smoothie",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "(O)wildflour.gourmetpantry_ancient_yogurt",
+                    "RequiredCount": 1
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.atelierjuicebar_ancient_smoothie",
+                    "ItemId": "(O)wildflour.atelierjuicebar_ancient_smoothie",
+                    "PriceModifiers": 
+                    [
+                        {
+                            "Modification": "Multiply",
+                            "Amount": 2.0
+                        }
+                    ]
+                   
+                }
+            ],
+            "MinutesUntilReady": 480
+        },
+        "wildflour.atelierjuicebar_KitchenBlender_berry_smoothie": {
+            "Id": "wildflour.atelierjuicebar_KitchenBlender_berry_smoothie",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "(O)wildflour.gourmetpantry_berry_yogurt",
+                    "RequiredCount": 1
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.atelierjuicebar_berry_smoothie",
+                    "ItemId": "(O)wildflour.atelierjuicebar_berry_smoothie",
+                    "PriceModifiers": 
+                    [
+                        {
+                            "Modification": "Multiply",
+                            "Amount": 2.0
+                        }
+                    ]
+                   
+                }
+            ],
+            "MinutesUntilReady": 480
+        },
+        "wildflour.atelierjuicebar_KitchenBlender_berrybanana_smoothie": {
+            "Id": "wildflour.atelierjuicebar_KitchenBlender_berrybanana_smoothie",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "(O)wildflour.gourmetpantry_banana_yogurt",
+                    "RequiredCount": 1
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.atelierjuicebar_berrybanana_smoothie",
+                    "ItemId": "(O)wildflour.atelierjuicebar_berrybanana_smoothie",
+                    "PriceModifiers": 
+                    [
+                        {
+                            "Modification": "Multiply",
+                            "Amount": 2.0
+                        }
+                    ]
+                   
+                }
+            ],
+            "MinutesUntilReady": 480
+        },
+        "wildflour.atelierjuicebar_KitchenBlender_berrykale_smoothie": {
+            "Id": "wildflour.atelierjuicebar_KitchenBlender_berrykale_smoothie",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "(O)wildflour.gourmetpantry_blueberry_yogurt",
+                    "RequiredCount": 1
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.atelierjuicebar_berrykale_smoothie",
+                    "ItemId": "(O)wildflour.atelierjuicebar_berrykale_smoothie",
+                    "PriceModifiers": 
+                    [
+                        {
+                            "Modification": "Multiply",
+                            "Amount": 2.0
+                        }
+                    ]
+                   
+                }
+            ],
+            "MinutesUntilReady": 480
+        },
+        "wildflour.atelierjuicebar_KitchenBlender_chocoberry_smoothie": {
+            "Id": "wildflour.atelierjuicebar_KitchenBlender_chocoberry_smoothie",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "(O)wildflour.gourmetpantry_chocolate_yogurt",
+                    "RequiredCount": 1
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.atelierjuicebar_chocoberry_smoothie",
+                    "ItemId": "(O)wildflour.atelierjuicebar_chocoberry_smoothie",
+                    "PriceModifiers": 
+                    [
+                        {
+                            "Modification": "Multiply",
+                            "Amount": 2.0
+                        }
+                    ]
+                   
+                }
+            ],
+            "MinutesUntilReady": 480
+        },
+        "wildflour.atelierjuicebar_KitchenBlender_gemberry_smoothie": {
+            "Id": "wildflour.atelierjuicebar_KitchenBlender_gemberry_smoothie",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "(O)wildflour.gourmetpantry_gem_yogurt",
+                    "RequiredCount": 1
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.atelierjuicebar_gemberry_smoothie",
+                    "ItemId": "(O)wildflour.atelierjuicebar_gemberry_smoothie",
+                    "PriceModifiers": 
+                    [
+                        {
+                            "Modification": "Multiply",
+                            "Amount": 2.0
+                        }
+                    ]
+                   
+                }
+            ],
+            "MinutesUntilReady": 480
+        },
+        "wildflour.atelierjuicebar_blender_peachmango_smoothie": {
+            "Id": "wildflour.atelierjuicebar_blender_peachmango_smoothie",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "(O)wildflour.gourmetpantry_peach_yogurt",
+                    "RequiredCount": 1
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.atelierjuicebar_peachmango_smoothie",
+                    "ItemId": "(O)wildflour.atelierjuicebar_peachmango_smoothie",
+                    "PriceModifiers": 
+                    [
+                        {
+                            "Modification": "Multiply",
+                            "Amount": 2.0
+                        }
+                    ]
+                   
+                }
+            ],
+            "MinutesUntilReady": 480
+        },
+        "wildflour.atelierjuicebar_blender_sunshine_smoothie": {
+            "Id": "wildflour.atelierjuicebar_blender_sunshine_smoothie",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "(O)wildflour.gourmetpantry_starfruit_yogurt",
+                    "RequiredCount": 1
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.atelierjuicebar_sunshine_smoothie",
+                    "ItemId": "(O)wildflour.atelierjuicebar_sunshine_smoothie",
+                    "PriceModifiers": 
+                    [
+                        {
+                            "Modification": "Multiply",
+                            "Amount": 2.0
+                        }
+                    ]
+                   
+                }
+            ],
+            "MinutesUntilReady": 480
+        },
+        "wildflour.atelierjuicebar_blender_tropical_smoothie": {
+            "Id": "wildflour.atelierjuicebar_blender_tropical_smoothie",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "(O)wildflour.gourmetpantry_pineapple_yogurt",
+                    "RequiredCount": 1
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.atelierjuicebar_tropical_smoothie",
+                    "ItemId": "(O)wildflour.atelierjuicebar_tropical_smoothie",
+                    "PriceModifiers": 
+                    [
+                        {
+                            "Modification": "Multiply",
+                            "Amount": 2.0
+                        }
+                    ]
+                   
+                }
+            ],
+            "MinutesUntilReady": 480
+        }
+    }
+},
+
+/////////////////
+// BOBA PEARLS //
+/////////////////
+
+{
+    "LogName": "Adding Boba Pearls Rules to Kitchen Mortar",
+    "Action": "EditData",
+    "Target": "Data/Machines",
+    "TargetField": ["(BC)wildflour.gourmetpantry_KitchenMortar", "OutputRules"],
+    "Entries": {
+        "wildflour.atelierjuicebar_KitchenMortar_boba_pearls": {
+            "Id": "wildflour.atelierjuicebar_KitchenMortar_boba_pearls",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "(O)412",
+                    "RequiredCount": 1
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "wildflour.atelierjuicebar_boba_pearls",
+                    "ItemId": "(O)wildflour.atelierjuicebar_boba_pearls",
+                    "PriceModifiers": 
+                    [
+                        {
+                            "Modification": "Add",
+                            "Amount": 50
+                        }
+                    ]
+                   
+                }
+            ],
+            "MinutesUntilReady": 480
+        }
+       
+    }
+}
+
+
+]
+}

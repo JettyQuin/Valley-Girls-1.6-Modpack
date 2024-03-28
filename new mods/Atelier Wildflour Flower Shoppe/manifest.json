@@ -1,0 +1,23 @@
+{
+    "Name": "Atelier Wildflour Flower Shoppe",
+    "Author": "wildflourmods",
+    "Version": "3.0",
+    "Description": "Adds many floral based goods to Stardew Valley.",
+    "UniqueID": "wildflour.atelierfloral",
+    "UpdateKeys": ["nexus:14834"], 
+    "MinimumApiVersion": "4.0.0-alpha",
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    },
+    "Dependencies":[
+        {
+            "UniqueID":"wildflour.ateliercrops",
+		    "IsRequired": true
+        },
+
+		{
+            "UniqueID":"wildflour.honeybees",
+		    "IsRequired": false
+        }
+	]
+}

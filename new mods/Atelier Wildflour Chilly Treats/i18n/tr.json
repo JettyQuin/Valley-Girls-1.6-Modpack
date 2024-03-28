@@ -1,0 +1,301 @@
+{
+
+//MACHINES
+
+"atelierfrozen_BlastChiller.name": "Ani Dondurucu",
+"atelierfrozen_BlastChiller.description": "Donmuş atıştırmalık yapmak için kullanabileceğin küçük bir dondurucu!",
+
+"atelierfrozen_TreatMaker.name": "Donmuş Atıştırmalık Makinesi",
+"atelierfrozen_TreatMaker.description": "Ev yapımı dondurma ve donmuş yoğurt yapmak için bir makine.",
+
+///////////////////////////
+// MACHINE NOTIFICATIONS //
+///////////////////////////
+
+"atelierfrozen_BlastChiller_InvalidItem.message": "Bunu işleyemez.",
+"atelierfrozen_BlastChiller_InvalidCount.message": "Kış Kavunu gerektirir.",
+
+"atelierfrozen_TreatMaker_InvalidItem.message": "Bunu işleyemez.",
+"atelierfrozen_TreatMaker_InvalidCount.message": "Kış Kavunu gerektirir.",
+
+//ICE CREAM CUP
+
+"atelierfrozen_cake_cup.name": "Doğumgünü Pastası Kasesi",
+"atelierfrozen_cake_cup.description": "Bir kase taze yapılmış yumuşak dondurma - enfes!",
+
+"atelierfrozen_blueberry_cup.name": "Yabanmersini Cheesecake Kasesi",
+"atelierfrozen_blueberry_cup.description": "Bir kase taze yapılmış yumuşak dondurma - enfes!",
+
+"atelierfrozen_cheesecake_cup.name": "Cheesecake Kasesi",
+"atelierfrozen_cheesecake_cup.description": "Bir kase taze yapılmış yumuşak dondurma - enfes!",
+
+"atelierfrozen_cherrychoco_cup.name": "Kirazlı Çikolata Kasesi",
+"atelierfrozen_cherrychoco_cup.description": "Bir kase taze yapılmış yumuşak dondurma - enfes!",
+
+"atelierfrozen_fruity_cup.name": "Meyveli Kase",
+"atelierfrozen_fruity_cup.description": "Bir kase taze yapılmış yumuşak dondurma - enfes!",
+
+"atelierfrozen_choco_cup.name": "Çikolatalı Kasesi",
+"atelierfrozen_choco_cup.description": "Bir kase taze yapılmış yumuşak dondurma - enfes!",
+
+"atelierfrozen_lemon_cup.name": "Limon Şerbeti",
+"atelierfrozen_lemon_cup.description": "Kremayla bir olmuş taze meyveden yapılmış hafif ve tatlı bir şerbet.",
+
+"atelierfrozen_mango_cup.name": "Mango Şerbeti",
+"atelierfrozen_mango_cup.description": "Kremayla bir olmuş taze meyveden yapılmış hafif ve tatlı bir şerbet.",
+
+"atelierfrozen_melon_cup.name": "Kavun Şerbeti",
+"atelierfrozen_melon_cup.description": "Kremayla bir olmuş taze meyveden yapılmış hafif ve tatlı bir şerbet.",
+
+"atelierfrozen_mintchoco_cup.name": "Naneli Çikolata Kasesi",
+"atelierfrozen_mintchoco_cup.description": "Bir kase taze yapılmış yumuşak dondurma - enfes!",
+
+"atelierfrozen_orange_cup.name": "Portakal Şerbeti",
+"atelierfrozen_orange_cup.description": "Kremayla bir olmuş taze meyveden yapılmış hafif ve tatlı bir şerbet.",
+
+"atelierfrozen_pumpkin_cup.name": "Kabak Kasesi",
+"atelierfrozen_pumpkin_cup.description": "Bir kase taze yapılmış yumuşak dondurma - enfes!",
+
+"atelierfrozen_starfruit_cup.name": "Yıldızmeyvesi Şerbeti",
+"atelierfrozen_starfruit_cup.description": "Kremayla bir olmuş taze meyveden yapılmış hafif ve tatlı bir şerbet.",
+
+"atelierfrozen_taro_cup.name": "Gölevez Kasesi",
+"atelierfrozen_taro_cup.description": "Bir kase taze yapılmış yumuşak dondurma - enfes!",
+
+"atelierfrozen_wildberry_cup.name": "Yabani Meyve Kasesi",
+"atelierfrozen_wildberry_cup.description": "Bir kase taze yapılmış yumuşak dondurma - enfes!",
+
+//ICE CREAM CONE
+
+"atelierfrozen_ancient_cone.name": "Antik Dondurma",
+"atelierfrozen_ancient_cone.description": "Waffle bir külaha konmuş ev yapımı dondurma.",
+
+"atelierfrozen_apple_cone.name": "Elmalı Turta Dondurma",
+"atelierfrozen_apple_cone.description": "Waffle bir külaha konmuş ev yapımı dondurma.",
+
+"atelierfrozen_cherrynut_cone.name": "Kirazlı Bademli Dondurma",
+"atelierfrozen_cherrynut_cone.description": "Waffle bir külaha konmuş ev yapımı dondurma.",
+
+"atelierfrozen_cherryblossom_cone.name": "Sakura Dondurma",
+"atelierfrozen_cherryblossom_cone.description": "Waffle bir külaha konmuş ev yapımı dondurma.",
+
+"atelierfrozen_chocolate_cone.name": "Çikolatalı Dondurma",
+"atelierfrozen_chocolate_cone.description": "Waffle bir külaha konmuş ev yapımı dondurma.",
+
+"atelierfrozen_coconut_cone.name": "Hindistan Cevizli Dondurma",
+"atelierfrozen_coconut_cone.description": "Waffle bir külaha konmuş ev yapımı dondurma.",
+
+"atelierfrozen_coffee_cone.name": "Kahveli Dondurma",
+"atelierfrozen_coffee_cone.description": "Waffle bir külaha konmuş ev yapımı dondurma.",
+
+"atelierfrozen_cookie_dough_cone.name": "Kurabiyeli Dondurma",
+"atelierfrozen_cookie_dough_cone.description": "Waffle bir külaha konmuş ev yapımı dondurma.",
+
+"atelierfrozen_cookie_cone.name": "Kurabiyeli Kremalı Dondurma",
+"atelierfrozen_cookie_cone.description": "Waffle bir külaha konmuş ev yapımı dondurma.",
+
+"atelierfrozen_horchata_cone.name": "Horchata Dondurma",
+"atelierfrozen_horchata_cone.description": "Waffle bir külaha konmuş ev yapımı dondurma.",
+
+"atelierfrozen_lavender_cone.name": "Lavantalı Limonlu Dondurma",
+"atelierfrozen_lavender_cone.description": "Waffle bir külaha konmuş ev yapımı dondurma.",
+
+"atelierfrozen_maple_cone.name": "Akçaağaçlı Cevizli Dondurma",
+"atelierfrozen_maple_cone.description": "Waffle bir külaha konmuş ev yapımı dondurma.",
+
+"atelierfrozen_mint_cone.name": "Naneli Çikolatalı Dondurma",
+"atelierfrozen_mint_cone.description": "Waffle bir külaha konmuş ev yapımı dondurma.",
+
+"atelierfrozen_pistachio_cone.name": "Antep Fıstıklı Dondurma",
+"atelierfrozen_pistachio_cone.description": "Waffle bir külaha konmuş ev yapımı dondurma.",
+
+"atelierfrozen_strawberry_cone.name": "Çilekli Kremalı Dondurma",
+"atelierfrozen_strawberry_cone.description": "Waffle bir külaha konmuş ev yapımı dondurma.",
+
+"atelierfrozen_vanilla_cone.name": "Vanilyalı Dondurma",
+"atelierfrozen_vanilla_cone.description": "Waffle bir külaha konmuş ev yapımı dondurma.",
+
+//MILKSHAKES
+
+"atelierfrozen_choco_milkshake.name": "Çikolatalı Milkshake",
+"atelierfrozen_choco_milkshake.description": "Dondurma çırpılarak soğuk bir içeceğe dönüşmüş!",
+
+"atelierfrozen_candy_milkshake.name": "Pamuk Şekerli Milkshake",
+"atelierfrozen_candy_milkshake.description": "Dondurma çırpılarak soğuk bir içeceğe dönüşmüş!",
+
+"atelierfrozen_orange_milkshake.name": "Portakal Creamsicle Milkshake",
+"atelierfrozen_orange_milkshake.description": "Dondurma çırpılarak soğuk bir içeceğe dönüşmüş!",
+
+"atelierfrozen_earlgrey_milkshake.name": "Earl Grey Milkshake",
+"atelierfrozen_earlgrey_milkshake.description": "Dondurma çırpılarak soğuk bir içeceğe dönüşmüş!",
+
+"atelierfrozen_lime_milkshake.name": "Lime Turta Milkshake",
+"atelierfrozen_lime_milkshake.description": "Dondurma çırpılarak soğuk bir içeceğe dönüşmüş!",
+
+"atelierfrozen_colada_milkshake.name": "Pina Colada Milkshake",
+"atelierfrozen_colada_milkshake.description": "Dondurma çırpılarak soğuk bir içeceğe dönüşmüş!",
+
+"atelierfrozen_pumpkin_milkshake.name": "Kabaklı Milkshake",
+"atelierfrozen_pumpkin_milkshake.description": "Dondurma çırpılarak soğuk bir içeceğe dönüşmüş!",
+
+"atelierfrozen_strawberry_milkshake.name": "Çilekli Milkshake",
+"atelierfrozen_strawberry_milkshake.description": "Dondurma çırpılarak soğuk bir içeceğe dönüşmüş!",
+
+"atelierfrozen_vanilla_milkshake.name": "Vanilyalı Milkshake",
+"atelierfrozen_vanilla_milkshake.description": "Dondurma çırpılarak soğuk bir içeceğe dönüşmüş!",
+
+//POPSICLES
+
+"atelierfrozen_ancient_popsicle.name": "Antik Popsicle",
+"atelierfrozen_ancient_popsicle.description": "Çubukta donmuş meyve - sevimli bir yaz tatlısı.",
+
+"atelierfrozen_blueberry_popsicle.name": "Yabanmersini Popsicle",
+"atelierfrozen_blueberry_popsicle.description": "Çubukta donmuş meyve - sevimli bir yaz tatlısı.",
+
+"atelierfrozen_cherry_popsicle.name": "Kiraz Popsicle",
+"atelierfrozen_cherry_popsicle.description": "Çubukta donmuş meyve - sevimli bir yaz tatlısı.",
+
+"atelierfrozen_coconut_popsicle.name": "Hindistan Cevizi Popsicle",
+"atelierfrozen_coconut_popsicle.description": "Çubukta donmuş meyve - sevimli bir yaz tatlısı.",
+
+"atelierfrozen_fruity_popsicle.name": "Meyveli Popsicle",
+"atelierfrozen_fruity_popsicle.description": "Çubukta donmuş meyve - sevimli bir yaz tatlısı.",
+
+"atelierfrozen_grape_popsicle.name": "Üzüm Popsicle",
+"atelierfrozen_grape_popsicle.description": "Çubukta donmuş meyve - sevimli bir yaz tatlısı.",
+
+"atelierfrozen_lemon_popsicle.name": "Limon Popsicle",
+"atelierfrozen_lemon_popsicle.description": "Çubukta donmuş meyve - sevimli bir yaz tatlısı.",
+
+"atelierfrozen_lime_popsicle.name": "Lime Popsicle",
+"atelierfrozen_lime_popsicle.description": "Çubukta donmuş meyve - sevimli bir yaz tatlısı.",
+
+"atelierfrozen_gem_popsicle.name": "Mücevher Popsicle",
+"atelierfrozen_gem_popsicle.description": "Çubukta donmuş meyve - sevimli bir yaz tatlısı.",
+
+"atelierfrozen_mango_popsicle.name": "Mango Popsicle",
+"atelierfrozen_mango_popsicle.description": "Çubukta donmuş meyve - sevimli bir yaz tatlısı.",
+
+"atelierfrozen_melon_popsicle.name": "Kavun Popsicle",
+"atelierfrozen_melon_popsicle.description": "Çubukta donmuş meyve - sevimli bir yaz tatlısı.",
+
+"atelierfrozen_orange_popsicle.name": "Portakal Popsicle",
+"atelierfrozen_orange_popsicle.description": "Çubukta donmuş meyve - sevimli bir yaz tatlısı.",
+
+"atelierfrozen_peach_popsicle.name": "Şeftali Popsicle",
+"atelierfrozen_peach_popsicle.description": "Çubukta donmuş meyve - sevimli bir yaz tatlısı.",
+
+"atelierfrozen_pineapple_popsicle.name": "Ananas Popsicle",
+"atelierfrozen_pineapple_popsicle.description": "Çubukta donmuş meyve - sevimli bir yaz tatlısı.",
+
+"atelierfrozen_starfruit_popsicle.name": "Yıldızmeyvesi Popsicle",
+"atelierfrozen_starfruit_popsicle.description": "Çubukta donmuş meyve - sevimli bir yaz tatlısı.",
+
+"atelierfrozen_strawberry_popsicle.name": "Çilek Popsicle",
+"atelierfrozen_strawberry_popsicle.description": "Çubukta donmuş meyve - sevimli bir yaz tatlısı.",
+
+"atelierfrozen_raspberry_popsicle.name": "Ahududu Popsicle",
+"atelierfrozen_raspberry_popsicle.description": "Çubukta donmuş meyve - sevimli bir yaz tatlısı.",
+
+"atelierfrozen_wildberry_popsicle.name": "Yabani Meyveli Popsicle",
+"atelierfrozen_wildberry_popsicle.description": "Çubukta donmuş meyve - sevimli bir yaz tatlısı.",
+
+//ICE CREAM SANDWICHES
+
+"atelierfrozen_cinnamon_chocolate_sandwich.name": "Tarçınlı Çikolatalı Dondurma Sandviçi",
+"atelierfrozen_cinnamon_chocolate_sandwich.description": "Çikolatalı keke benzeyen kurabiye arası dondurma. Leziz!",
+
+"atelierfrozen_mint_chocolate_sandwich.name": "Naneli Çikolatalı Dondurma Sandviçi",
+"atelierfrozen_mint_chocolate_sandwich.description": "Çikolatalı keke benzeyen kurabiye arası dondurma. Leziz!",
+
+"atelierfrozen_mocha_coconut_sandwich.name": "Mocha Hindistan Cevizli Dondurma Sandviçi",
+"atelierfrozen_mocha_coconut_sandwich.description": "Çikolatalı keke benzeyen kurabiye arası dondurma. Leziz!",
+
+"atelierfrozen_mocha_sandwich.name": "Mocha Dondurma Sandviçi",
+"atelierfrozen_mocha_sandwich.description": "Çikolatalı keke benzeyen kurabiye arası dondurma. Leziz!",
+
+"atelierfrozen_pistachio_sandwich.name": "Antep Fıstıklı Dondurma Sandviçi",
+"atelierfrozen_pistachio_sandwich.description": "Çikolatalı keke benzeyen kurabiye arası dondurma. Leziz!",
+
+"atelierfrozen_strawberry_sandwich.name": "Çilekli Dondurma Sandviçi",
+"atelierfrozen_strawberry_sandwich.description": "Çikolatalı keke benzeyen kurabiye arası dondurma. Leziz!",
+
+"atelierfrozen_vanilla_sandwich.name": "Vanilyalı Dondurma Sandviçi",
+"atelierfrozen_vanilla_sandwich.description": "Çikolatalı keke benzeyen kurabiye arası dondurma. Leziz!",
+
+//MAIL
+
+"atelierfrozen_TreatMakerRecipe.text": "@, ^^ Çok eski zamanlarda, halk buz için karlı dağlara çıkar, sonra da buzlu bir tatlı yapabilmek için kasabaya kadar onları taşırdı. Neyseki artık bilim var.^^ - Demetrius",
+
+"atelierfrozen_ChillerRecipe.text": "@, ^^Sadece bir ani dondurucu için yaptığım planları seninle paylaşmak istedim. Bununla çiftliğindeki meyvelerden muhteşem dondurmalar yapabilirsin! Belki buraya birkaç tane bırakırsın? Demetrius ve Maru buna bayılır!^^ - Robin",
+
+"atelierfrozen_vincent_gift.text": "@, ^^ DONDURMA İÇİN YANIYORUM! Bunu bağırınca elinde büyülü bir şekilde dondurma belirse havalı olmaz mıydı? Koca gün dondurma için bağırsam sesim kısılırdı! Bunlardan biraz dondurma yapar mısın ormanda buldum güzel kokuyor.^^ - Vincent",
+
+"atelierfrozen_jodi_gift.text": "@, ^^ Vincent dondurma konusunda o kadar heyecanlı ki aşırıya kaçacak diye korkuyorum. Dondurulmuş yoğurt yapıp beğenecek mi diye bakar mısın? En azından daha faydalı bir şey yiyormuş gibi hissederim.^^ - Jodi",
+
+"atelierfrozen_sam_gift.text": "@, ^^ Ev yapımı dondurma ha? Ortada denemeyeceğin bir iş var mı? Şaka bir yana gerçekten kulağa harika geliyor! Bu mantarlar sanırım sana yardımcı olabilir galiba bir yerlerde süt ürettiklerini okumuştum ama umarım zehirli değildir...^^ - Sam",
+
+////////////////////
+// SPECIAL ORDERS //
+////////////////////
+
+"atelierfrozen_SO_1.name": "Milkshake Cüceleri Bahçeye Getiriyor",
+"atelierfrozen_SO_1.text": "Yani sen şimdi süt... başka içeceklere dönüştürülebilir mi diyorsun? İlginç. Bu garip karışımlardan örnek getirecek birine güzel bir ücret verirdim.",
+"atelierfrozen_SO_1a.deliver": "Cüce'ye 1 Vanilyalı Milkshake ver.",
+"atelierfrozen_SO_1b.deliver": "Cüce'ye 1 Çilekli Milkshake ver.",
+"atelierfrozen_SO_1c.deliver": "Cüce'ye 1 Çikolatalı Milkshake ver.",
+"atelierfrozen_SO_1.accept": "Bunun adı milkshake mi? Büyüleyici. Soğuk ve tatlı... siz insanlar çok ilginç bir halksınız.",
+
+"atelierfrozen_SO_2.name": "Popsicle Dalgınlığı",
+"atelierfrozen_SO_2.text": "Küçükleri kasabada ellerinde çubuklu renkli buz küpleri tutarken görüyorum... Denemeyi oldukça isterim!",
+"atelierfrozen_SO_2.deliver": "Krobus'a 6 popsicle ver.",
+"atelierfrozen_SO_2.accept": "Teşekkür ederim! Bunları denemek için oldukça sabırsızım.",
+
+"atelierfrozen_SO_3.name": "Dondurma Partisi",
+"atelierfrozen_SO_3.text": "Bir dondurma partisi düzenliyorum ve menüye hangi çeşitleri koyacağımı seçmek için yardım gerek!",
+"atelierfrozen_SO_3a.deliver": "Jodi'nin mutfağına 3 Limonlu Şerbet bırak.",
+"atelierfrozen_SO_3b.deliver": "Jodi'nin mutfağına 3 Naneli Çikolatalı Donmuş Yoğurt bırak.",
+"atelierfrozen_SO_3c.deliver": "Jodi'nin mutfağına 3 Limonlu Lavantalı Dondurma bırak.",
+"atelierfrozen_SO_3d.deliver": "Jodi'nin mutfağına 3 Horchata Dondurma bırak.",
+
+"atelierfrozen_SO_4.name": "Tatlı Sandviç",
+"atelierfrozen_SO_4.text": "En sevdiğim çocukluk tatlımı özlüyorum: Dondurma Sandviçi. Maru artık tonla çeşidi olduğunu söylüyor. Biri bana denemem için birkaç tane getirebilir mi?",
+"atelierfrozen_SO_4a.deliver": "Demetrius'un Laboratuvarı'na 2 Mocha Dondurma Sandviçi bırak.",
+"atelierfrozen_SO_4b.deliver": "Demetrius'un Laboratuvarı'na 2 Antep Fıstıklı Dondurma Sandviçi bırak.",
+"atelierfrozen_SO_4c.deliver": "Demetrius'un Laboratuvarı'na 2 Çilekli Dondurma Sandviçi bırak.",
+"atelierfrozen_SO_4d.deliver": "Demetrius'un Laboratuvarı'na 2 Mochalı Hindistan Cevizli Dondurma Sandviçi bırak.",
+
+"atelierfrozen_SO_5.name": "Donmuş Ziyafet İmtihanı",
+"atelierfrozen_SO_5.text": "Senenin o vakti yine geldi - Donmuş Ziyafet İmtihanı için yıllık başvurular artık açık! Büyük ödülü alıp alamayacağını görmek için bize en iyi donmuş atıştırmalıklarınızı gönderin!",
+"atelierfrozen_SO_5.ship": "100 altın kalite donmuş atıştırmalık gönder.",
+
+"atelierfrozen_SO_6.name": "Kent için Milkshake",
+"atelierfrozen_SO_6.text": "Özel bir şeyle ailemi şaşırtmak istiyorum. Belki milkshakeler işimi görür?",
+"atelierfrozen_SO_6.deliver": "Kent'e 4 Milkshake ver.",
+"atelierfrozen_SO_6.accept": "Ailem bunlara bayılacak! Çok sağol, dostum.",
+
+"atelierfrozen_SO_7.name": "Elliott için Popsicle",
+"atelierfrozen_SO_7.text": "Edebi ilham için bana popsicle gerekiyor! Neden mi? Açıklayamam ancak açıkçası ihtiyacım var!",
+"atelierfrozen_SO_7.deliver": "Elliott'a 4 popsicle ver.",
+"atelierfrozen_SO_7.accept": "Popsicle mükemmeliyeti! Teşekkür ederim, şimdi popsicleları sessizlik içerisinde incelemeliyim.",
+
+"atelierfrozen_SO_8.name": "Gus için Dondurma",
+"atelierfrozen_SO_8.text": "Salonda donmuş tatlı satmaya başlamak istiyorum. Biri bana menüm için yardım eder mi?",
+"atelierfrozen_SO_8.deliver": "Gus'a 12 dondurma ver.",
+"atelierfrozen_SO_8.accept": "Salondakiler bunlara bayılacak! Çok sağol!",
+
+//FROZEN REWARDS MAIL
+ 
+"atelierfrozen_SO2_reward.title": "Sağol!",
+"atelierfrozen_SO2_reward.text": "@,^^^ Çubuklu dondurmalar. Ne muhteşem bir icat. Bir gün bana da öğreteceksindir nasıl yapıldığını illaki. Madenden gelen bu hazineler umarım daha çok çubuklu dondurma yapmana yardımcı olur.^^-Krobus",
+
+"atelierfrozen_SO3_reward.title": "Teşekkür ederim!",
+"atelierfrozen_SO3_reward.text": "@,^^^ Sayende menü artık mükemmel!!^^-Jodi",
+
+"atelierfrozen_SO4_reward.title": "Teşekkür ederim!",
+"atelierfrozen_SO4_reward.text": "@,^^^ Bu sandviçler beni gerçekten geçmişe götürüyor. Tekrar sağol!^^-Jodi",
+
+"atelierfrozen_SO5_reward.title": "Tebrikler!",
+"atelierfrozen_SO5_reward.text": "Değerli @,^^^ Azminiz oldukça etkileyici. Size Donmuş Ziyafet Yarışması'nda 1. yeri vermekten gurur duyuyoruz. Lütfen bunu bir ödül olarak alın.",
+   
+}

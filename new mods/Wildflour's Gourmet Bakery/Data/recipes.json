@@ -1,0 +1,155 @@
+{
+  "Changes": [
+
+
+//////////////
+// MACARONS //
+//////////////
+
+{
+  "LogName": "Add Gourmet Bakery Recipes",
+  "Action": "EditData",
+  "Target": "Data/CookingRecipes",
+  "Entries": {
+  "wildflour.bakery_almond_macaron": "wildflour.gourmetpantry_almond_flour 1 wildflour.gourmetpantry_confectioners_sugar 1 wildflour.ateliercrops_meringueshroom 1 wildflour.ateliercrops_almond 1/25 5/wildflour.bakery_almond_macaron/default/{{i18n: bakery_almond_macaron.name}}",
+  "wildflour.bakery_chocolate_macaron": "wildflour.gourmetpantry_almond_flour 1 wildflour.gourmetpantry_confectioners_sugar 1 wildflour.ateliercrops_meringueshroom 1 wildflour.gourmetpantry_cocoa_powder 1 408 1/25 5/wildflour.bakery_chocolate_macaron/default/{{i18n: bakery_chocolate_macaron.name}}",
+  "wildflour.bakery_lavender_macaron": "wildflour.gourmetpantry_almond_flour 1 wildflour.gourmetpantry_confectioners_sugar 1 wildflour.ateliercrops_meringueshroom 1 wildflour.ateliercrops_lavender 1/25 5/wildflour.bakery_lavender_macaron/default/{{i18n: bakery_lavender_macaron.name}}",
+  "wildflour.bakery_lemon_macaron": "wildflour.gourmetpantry_almond_flour 1 wildflour.gourmetpantry_confectioners_sugar 1 wildflour.ateliercrops_meringueshroom 1 wildflour.ateliercrops_lemon 1/25 5/wildflour.bakery_lemon_macaron/default/{{i18n: bakery_lemon_macaron.name}}",
+  "wildflour.bakery_lime_macaron": "wildflour.gourmetpantry_almond_flour 1 wildflour.gourmetpantry_confectioners_sugar 1 wildflour.ateliercrops_meringueshroom 1 wildflour.ateliercrops_lime 1/25 5/wildflour.bakery_lime_macaron/default/{{i18n: bakery_lime_macaron.name}}",
+  "wildflour.bakery_mint_macaron": "wildflour.gourmetpantry_almond_flour 1 wildflour.gourmetpantry_confectioners_sugar 1 wildflour.ateliercrops_meringueshroom 1 wildflour.ateliercrops_mint 1/25 5/wildflour.bakery_mint_macaron/default/{{i18n: bakery_mint_macaron.name}}",
+  "wildflour.bakery_pistachio_macaron": "wildflour.gourmetpantry_almond_flour 1 wildflour.gourmetpantry_confectioners_sugar 1 wildflour.ateliercrops_meringueshroom 1 wildflour.ateliercrops_pistachio 1/25 5/wildflour.bakery_pistachio_macaron/default/{{i18n: bakery_pistachio_macaron.name}}",
+  "wildflour.bakery_raspberry_macaron": "wildflour.gourmetpantry_almond_flour 1 wildflour.gourmetpantry_confectioners_sugar 1 wildflour.ateliercrops_meringueshroom 1 wildflour.ateliercrops_raspberry 1/25 5/wildflour.bakery_raspberry_macaron/default/{{i18n: bakery_raspberry_macaron.name}}",
+  "wildflour.bakery_sakura_macaron": "wildflour.gourmetpantry_almond_flour 1 wildflour.gourmetpantry_confectioners_sugar 1 wildflour.ateliercrops_meringueshroom 1 wildflour.ateliercrops_cherryblossoms 1/25 5/wildflour.bakery_sakura_macaron/default/{{i18n: bakery_sakura_macaron.name}}",
+  "wildflour.bakery_strawberry_macaron": "wildflour.gourmetpantry_almond_flour 1 wildflour.gourmetpantry_confectioners_sugar 1 wildflour.ateliercrops_meringueshroom 1 wildflour.ateliercrops_strawberry 1/25 5/wildflour.bakery_strawberry_macaron/default/{{i18n: bakery_strawberry_macaron.name}}",
+  
+  "wildflour.bakery_almond_petit_fours": "wildflour.gourmetpantry_cake_flour 1 245 1 wildflour.gourmetpantry_butter 1 wildflour.ateliercrops_almond 1/25 5/wildflour.bakery_almond_petit_fours/default/{{i18n: bakery_almond_petit_fours.name}}",
+  "wildflour.bakery_chocolate_petit_fours": "wildflour.gourmetpantry_cake_flour 1 245 1 wildflour.gourmetpantry_butter 1 408 1 wildflour.gourmetpantry_cocoa_powder 1/25 5/wildflour.bakery_chocolate_petit_fours/default/{{i18n: bakery_chocolate_petit_fours.name}}",
+  "wildflour.bakery_lemon_petit_fours": "wildflour.gourmetpantry_cake_flour 1 245 1 wildflour.gourmetpantry_butter 1 wildflour.ateliercrops_lemon 1 wildflour.ateliercrops_lavender 1/25 5/wildflour.bakery_lemon_petit_fours/default/{{i18n: bakery_lemon_petit_fours.name}}",
+  "wildflour.bakery_matcha_petit_fours": "wildflour.gourmetpantry_cake_flour 1 245 1 wildflour.gourmetpantry_butter 1 815 1/25 5/wildflour.bakery_matcha_petit_fours/default/{{i18n: bakery_matcha_petit_fours.name}}",
+  "wildflour.bakery_peach_petit_fours": "wildflour.gourmetpantry_cake_flour 1 245 1 wildflour.gourmetpantry_butter 1 636 1/25 5/wildflour.bakery_peach_petit_fours/default/{{i18n: bakery_peach_petit_fours.name}}",
+  "wildflour.bakery_pistachio_petit_fours": "wildflour.gourmetpantry_cake_flour 1 245 1 wildflour.gourmetpantry_butter 1 wildflour.ateliercrops_pistachio 1/25 5/wildflour.bakery_pistachio_petit_fours/default/{{i18n: bakery_pistachio_petit_fours.name}}",
+  "wildflour.bakery_strawberry_petit_fours": "wildflour.gourmetpantry_cake_flour 1 245 1 wildflour.gourmetpantry_butter 1 wildflour.ateliercrops_strawberry 1 595 1/25 5/wildflour.bakery_strawberry_petit_fours/default/{{i18n: bakery_strawberry_petit_fours.name}}",
+  "wildflour.bakery_tiramisu_petit_fours": "wildflour.gourmetpantry_cake_flour 1 245 1 wildflour.gourmetpantry_butter 1 wildflour.gourmetpantry_espresso_powder 1/25 5/wildflour.bakery_tiramisu_petit_fours/default/{{i18n: bakery_tiramisu_petit_fours.name}}",
+  "wildflour.bakery_tres_leches_petit_fours": "wildflour.gourmetpantry_cake_flour 1 245 1 wildflour.gourmetpantry_butter 1 -6 1/25 5/wildflour.bakery_tres_leches_petit_fours/default/{{i18n: bakery_tres_leches_petit_fours.name}}",
+  "wildflour.bakery_tropical_petit_fours": "wildflour.gourmetpantry_cake_flour 1 245 1 wildflour.gourmetpantry_butter 1 88 1 834 1/25 5/wildflour.bakery_tropical_petit_fours/default/{{i18n: bakery_tropical_petit_fours.name}}",
+  "wildflour.bakery_vanilla_petit_fours": "wildflour.gourmetpantry_cake_flour 1 245 1 wildflour.gourmetpantry_butter 1 wildflour.ateliercrops_almond 1/25 5/wildflour.bakery_vanilla_petit_fours/default/{{i18n: bakery_vanilla_petit_fours.name}}",
+
+  "wildflour.bakery_apple_muffin": "wildflour.gourmetpantry_bread_flour 1 wildflour.gourmetpantry_brown_sugar 1 247 1 613 1 wildflour.ateliercrops_cinnamon 1/25 5/wildflour.bakery_apple_muffin/default/{{i18n: bakery_apple_muffin.name}}",
+  "wildflour.bakery_banana_muffin": "wildflour.gourmetpantry_bread_flour 1 wildflour.gourmetpantry_brown_sugar 1 247 1 91 1 wildflour.ateliercrops_walnut 1/25 5/wildflour.bakery_banana_muffin/default/{{i18n: bakery_banana_muffin.name}}",
+  "wildflour.bakery_cinnamon_muffin": "wildflour.gourmetpantry_bread_flour 1 wildflour.gourmetpantry_brown_sugar 1 247 1 wildflour.ateliercrops_cinnamon 1/25 5/wildflour.bakery_cinnamon_muffin/default/{{i18n: bakery_cinnamon_muffin.name}}",
+  "wildflour.bakery_cornbread_muffin": "wildflour.gourmetpantry_corn_flour 1 340 1 wildflour.gourmetpantry_butter 1/25 5/wildflour.bakery_cornbread_muffin/default/{{i18n: bakery_cornbread_muffin.name}}",
+  "wildflour.bakery_lemon_blueberry_muffin": "wildflour.gourmetpantry_bread_flour 1 724 1 247 1 258 1 wildflour.ateliercrops_lemon 1/25 5/wildflour.bakery_lemon_blueberry_muffin/default/{{i18n: bakery_lemon_blueberry_muffin.name}}",
+  "wildflour.bakery_pumpkin_muffin": "wildflour.gourmetpantry_bread_flour 1 wildflour.gourmetpantry_brown_sugar 1 247 1 276 1 wildflour.ateliercrops_cinnamon 1/25 5/wildflour.bakery_pumpkin_muffin/default/{{i18n: bakery_pumpkin_muffin.name}}",
+  "wildflour.bakery_strawberry_muffin": "wildflour.gourmetpantry_bread_flour 1 wildflour.gourmetpantry_brown_sugar 1 247 1 252 1 wildflour.ateliercrops_strawberry 1/25 5/wildflour.bakery_strawberry_muffin/default/{{i18n: bakery_strawberry_muffin.name}}",
+ 
+  
+  "wildflour.bakery_apple_pie": "wildflour.gourmetpantry_pastry_flour 1 wildflour.gourmetpantry_butter 1 245 1 -5 1 613 1/25 5/wildflour.bakery_apple_pie/default/{{i18n: bakery_apple_pie.name}}",
+  "wildflour.bakery_banana_cream_pie": "wildflour.gourmetpantry_pastry_flour 1 wildflour.gourmetpantry_butter 1 245 1 -5 1 91 2/25 5/wildflour.bakery_banana_cream_pie/default/{{i18n: bakery_banana_cream_pie.name}}",
+  "wildflour.bakery_blueberry_pie": "wildflour.gourmetpantry_pastry_flour 1 wildflour.gourmetpantry_butter 1 245 1 -5 1 258 3/25 5/wildflour.bakery_blueberry_pie/default/{{i18n: bakery_blueberry_pie.name}}",
+  "wildflour.bakery_cherry_pie": "wildflour.gourmetpantry_pastry_flour 1 wildflour.gourmetpantry_butter 1 245 1 -5 1 638 1/25 5/wildflour.bakery_cherry_pie/default/{{i18n: bakery_cherry_pie.name}}",
+  "wildflour.bakery_lemon_pie": "wildflour.gourmetpantry_pastry_flour 1 wildflour.gourmetpantry_butter 1 245 1 -5 1 wildflour.ateliercrops_lemon 2/25 5/wildflour.bakery_lemon_pie/default/{{i18n: bakery_lemon_pie.name}}",
+  "wildflour.bakery_lime_pie": "wildflour.gourmetpantry_pastry_flour 1 wildflour.gourmetpantry_butter 1 245 1 -5 1 wildflour.ateliercrops_lime 2/25 5/wildflour.bakery_lime_pie/default/{{i18n: bakery_lime_pie.name}}",
+  "wildflour.bakery_plum_pie": "wildflour.gourmetpantry_pastry_flour 1 wildflour.gourmetpantry_butter 1 245 1 -5 1 406 3/25 5/wildflour.bakery_plum_pie/default/{{i18n: bakery_plum_pie.name}}",
+  "wildflour.bakery_pumpkin_pie": "wildflour.gourmetpantry_pastry_flour 1 wildflour.gourmetpantry_butter 1 245 1 -5 1 276 2/25 5/wildflour.bakery_pumpkin_pie/default/{{i18n: bakery_pumpkin_pie.name}}",
+  "wildflour.bakery_sweet_potato_pie": "wildflour.gourmetpantry_pastry_flour 1 wildflour.gourmetpantry_butter 1 245 1 -5 1 280 2/25 5/wildflour.bakery_sweet_potato_pie/default/{{i18n: bakery_sweet_potato_pie.name}}",
+
+  "wildflour.bakery_banana_pudding": "wildflour.gourmetpantry_cream 2 245 1 91 1 wildflour.ateliercrops_strawberry 1 wildflour.gourmetpantry_bittersweet_chocolate 1 638 1/25 5/wildflour.bakery_banana_pudding/default/{{i18n: bakery_banana_pudding.name}}",
+  "wildflour.bakery_chocolate_raspberry_pudding": "wildflour.gourmetpantry_cream 2 245 1 wildflour.gourmetpantry_bittersweet_chocolate 1 wildflour.ateliercrops_raspberry 1/25 5/wildflour.bakery_chocolate_raspberry_pudding/default/{{i18n: bakery_chocolate_raspberry_pudding.name}}",
+  "wildflour.bakery_cookies_cream_pudding": "wildflour.gourmetpantry_cream 2 245 1 wildflour.bakery_chocolate_sandwich_cookie 1/25 5/wildflour.bakery_cookies_cream_pudding/default/{{i18n: bakery_cookies_cream_pudding.name}}",
+  "wildflour.bakery_creme_brulee_pudding": "wildflour.gourmetpantry_cream 2 245 1 wildflour.gourmetpantry_brown_sugar 1 wildflour.gourmetpantry_vanilla_extract 1/25 5/wildflour.bakery_creme_brulee_pudding/default/{{i18n: bakery_creme_brulee_pudding.name}}",
+  "wildflour.bakery_lemon_pudding": "wildflour.gourmetpantry_cream 2 245 1 wildflour.ateliercrops_lemon 1 wildflour.ateliercrops_mallow 1/25 5/wildflour.bakery_lemon_pudding/default/{{i18n: bakery_lemon_pudding.name}}",
+  "wildflour.bakery_peach_pudding": "wildflour.gourmetpantry_cream 2 245 1 636 1 834 1/25 5/wildflour.bakery_peach_pudding/default/{{i18n: bakery_peach_pudding.name}}",
+  "wildflour.bakery_pumpkin_maple_pudding": "wildflour.gourmetpantry_cream 2 245 1 276 1 724 1/25 5/wildflour.bakery_pumpkin_maple_pudding/default/{{i18n: bakery_pumpkin_maple_pudding.name}}",
+  "wildflour.bakery_sakura_pudding": "wildflour.gourmetpantry_cream 2 245 1 638 1 wildflour.ateliercrops_cherryblossoms 1/25 5/wildflour.bakery_sakura_pudding/default/{{i18n: bakery_sakura_pudding.name}}",
+  "wildflour.bakery_tiramisu_pudding": "wildflour.gourmetpantry_cream 2 245 1 wildflour.gourmetpantry_espresso_powder 1/25 5/wildflour.bakery_tiramisu_pudding/default/{{i18n: bakery_tiramisu_pudding.name}}",
+  "wildflour.bakery_tropical_pudding": "wildflour.gourmetpantry_cream 2 245 1 832 1 834 1 91 1/25 5/wildflour.bakery_tropical_pudding/default/{{i18n: bakery_tropical_pudding.name}}",
+  
+  "wildflour.bakery_blackberry_scone": "wildflour.gourmetpantry_bread_flour 1 wildflour.gourmetpantry_cream 1 245 1 410 1 wildflour.ateliercrops_lime 1/25 5/wildflour.bakery_blackberry_scone/default/{{i18n: bakery_blackberry_scone.name}}",
+  "wildflour.bakery_blueberry_scone": "wildflour.gourmetpantry_bread_flour 1 wildflour.gourmetpantry_cream 1 245 1 258 3/25 5/wildflour.bakery_blueberry_scone/default/{{i18n: bakery_blueberry_scone.name}}",
+  "wildflour.bakery_cinnamon_scone": "wildflour.gourmetpantry_bread_flour 1 wildflour.gourmetpantry_cream 1 245 1 wildflour.ateliercrops_cinnamon 1 Raisins 1/25 5/wildflour.bakery_cinnamon_scone/default/{{i18n: bakery_cinnamon_scone.name}}",
+  "wildflour.bakery_peach_scone": "wildflour.gourmetpantry_bread_flour 1 wildflour.gourmetpantry_cream 1 245 1 636 1/25 5/wildflour.bakery_peach_scone/default/{{i18n: bakery_peach_scone.name}}",
+  "wildflour.bakery_pistachio_scone": "wildflour.gourmetpantry_bread_flour 1 wildflour.gourmetpantry_cream 1 245 1 wildflour.ateliercrops_pistachio 1/25 5/wildflour.bakery_pistachio_scone/default/{{i18n: bakery_pistachio_scone.name}}",
+  "wildflour.bakery_pumpkin_scone": "wildflour.gourmetpantry_bread_flour 1 wildflour.gourmetpantry_cream 1 245 1 276 1 wildflour.ateliercrops_cinnamon 1/25 5/wildflour.bakery_pumpkin_scone/default/{{i18n: bakery_pumpkin_scone.name}}",
+  "wildflour.bakery_raspberry_scone": "wildflour.gourmetpantry_bread_flour 1 wildflour.gourmetpantry_cream 1 245 1 wildflour.ateliercrops_raspberry 1/25 5/wildflour.bakery_raspberry_scone/default/{{i18n: bakery_raspberry_scone.name}}",
+  "wildflour.bakery_strawberry_scone": "wildflour.gourmetpantry_bread_flour 1 wildflour.gourmetpantry_cream 1 245 1 wildflour.ateliercrops_strawberry 1/25 5/wildflour.bakery_strawberry_scone/default/{{i18n: bakery_strawberry_scone.name}}",
+
+  "wildflour.bakery_blueberry_cheesecake": "wildflour.gourmetpantry_pastry_flour 1 245 1 wildflour.gourmetpantry_cream_cheese 1 258 3/25 5/wildflour.bakery_blueberry_cheesecake/default/{{i18n: bakery_blueberry_cheesecake.name}}",
+  "wildflour.bakery_cherry_cheesecake": "wildflour.gourmetpantry_pastry_flour 1 245 1 wildflour.gourmetpantry_cream_cheese 1 638 3/25 5/wildflour.bakery_cherry_cheesecake/default/{{i18n: bakery_cherry_cheesecake.name}}",
+  "wildflour.bakery_cheesecake": "wildflour.gourmetpantry_pastry_flour 1 245 1 wildflour.gourmetpantry_cream_cheese 1/25 5/wildflour.bakery_cheesecake/default/{{i18n: bakery_cheesecake.name}}",
+  "wildflour.bakery_cookies_cream_cheesecake": "wildflour.gourmetpantry_pastry_flour 1 245 1 wildflour.gourmetpantry_cream_cheese 1 wildflour.bakery_chocolate_sandwich_cookie 1/25 5/wildflour.bakery_cookies_cream_cheesecake/default/{{i18n: bakery_cookies_cream_cheesecake.name}}",
+  "wildflour.bakery_lemon_cheesecake": "wildflour.gourmetpantry_pastry_flour 1 245 1 wildflour.gourmetpantry_cream_cheese 1 wildflour.ateliercrops_lemon 2/25 5/wildflour.bakery_lemon_cheesecake/default/{{i18n: bakery_lemon_cheesecake.name}}",
+  "wildflour.bakery_mango_cheesecake": "wildflour.gourmetpantry_pastry_flour 1 245 1 wildflour.gourmetpantry_cream_cheese 1 834 1/25 5/wildflour.bakery_mango_cheesecake/default/{{i18n: bakery_mango_cheesecake.name}}",
+  "wildflour.bakery_orange_cheesecake": "wildflour.gourmetpantry_pastry_flour 1 245 1 wildflour.gourmetpantry_cream_cheese 1 635 1/25 5/wildflour.bakery_orange_cheesecake/default/{{i18n: bakery_orange_cheesecake.name}}",
+  "wildflour.bakery_pumpkin_cheesecake": "wildflour.gourmetpantry_pastry_flour 1 245 1 wildflour.gourmetpantry_cream_cheese 1 276 1/25 5/wildflour.bakery_pumpkin_cheesecake/default/{{i18n: bakery_pumpkin_cheesecake.name}}",
+  "wildflour.bakery_raspberry_cheesecake": "wildflour.gourmetpantry_pastry_flour 1 245 1 wildflour.gourmetpantry_cream_cheese 1 wildflour.ateliercrops_raspberry 2/25 5/wildflour.bakery_raspberry_cheesecake/default/{{i18n: bakery_raspberry_cheesecake.name}}",
+  "wildflour.bakery_white_cheesecake": "wildflour.gourmetpantry_pastry_flour 1 245 1 wildflour.gourmetpantry_cream_cheese 1 wildflour.gourmetpantry_white_chocolate 1 wildflour.ateliercrops_lime 1/25 5/wildflour.bakery_white_cheesecake/default/{{i18n: bakery_white_cheesecake.name}}",
+
+  "wildflour.bakery_blueberry_tart": "wildflour.gourmetpantry_pastry_flour 1 wildflour.gourmetpantry_pectin 1 245 1 258 3/25 5/wildflour.bakery_blueberry_tart/default/{{i18n: bakery_blueberry_tart.name}}",
+  "wildflour.bakery_chocolate_hazelnut_tart": "wildflour.gourmetpantry_pastry_flour 1 wildflour.gourmetpantry_pectin 1 245 1 wildflour.gourmetpantry_bittersweet_chocolate 1 408 1/25 5/wildflour.bakery_chocolate_hazelnut_tart/default/{{i18n: bakery_chocolate_hazelnut_tart.name}}",
+  "wildflour.bakery_lemon_tart": "wildflour.gourmetpantry_pastry_flour 1 wildflour.gourmetpantry_pectin 1 245 1 wildflour.ateliercrops_lemon 2/25 5/wildflour.bakery_lemon_tart/default/{{i18n: bakery_lemon_tart.name}}",
+  "wildflour.bakery_mango_tart": "wildflour.gourmetpantry_pastry_flour 1 wildflour.gourmetpantry_pectin 1 245 1 834 1/25 5/wildflour.bakery_mango_tart/default/{{i18n: bakery_mango_tart.name}}",
+  "wildflour.bakery_berry_tart": "wildflour.gourmetpantry_pastry_flour 1 wildflour.gourmetpantry_pectin 1 245 1 258 2 400 2/25 5/wildflour.bakery_berry_tart/default/{{i18n: bakery_berry_tart.name}}",
+  "wildflour.bakery_fruit_tart": "wildflour.gourmetpantry_pastry_flour 1 wildflour.gourmetpantry_pectin 1 245 1 -79 5/25 5/wildflour.bakery_fruit_tart/default/{{i18n: bakery_fruit_tart.name}}",
+  "wildflour.bakery_peppermint_tart": "wildflour.gourmetpantry_pastry_flour 1 wildflour.gourmetpantry_pectin 1 245 1 wildflour.ateliercrops_mint 1 395 1/25 5/wildflour.bakery_peppermint_tart/default/{{i18n: bakery_peppermint_tart.name}}",
+  "wildflour.bakery_pina_colada_tart": "wildflour.gourmetpantry_pastry_flour 1 wildflour.gourmetpantry_pectin 1 245 1 832 1 88 1/25 5/wildflour.bakery_pina_colada_tart/default/{{i18n: bakery_pina_colada_tart.name}}",
+  "wildflour.bakery_raspberry_tart": "wildflour.gourmetpantry_pastry_flour 1 wildflour.gourmetpantry_pectin 1 245 1 wildflour.ateliercrops_raspberry 2/25 5/wildflour.bakery_raspberry_tart/default/{{i18n: bakery_raspberry_tart.name}}",
+  "wildflour.bakery_summer_tart": "wildflour.gourmetpantry_pastry_flour 1 wildflour.gourmetpantry_pectin 1 245 1 258 1 254 1 268 1/25 5/wildflour.bakery_summer_tart/default/{{i18n: bakery_summer_tart.name}}",
+
+  "wildflour.bakery_bread_loaf": "wildflour.gourmetpantry_bread_flour 2 245 1/25 5/wildflour.bakery_bread_loaf/default/{{i18n: bakery_bread_loaf.name}}",
+  "wildflour.bakery_cinnamon_roll": "wildflour.gourmetpantry_bread_flour 2 245 1 wildflour.ateliercrops_cinnamon 1/25 5/wildflour.bakery_cinnamon_roll/default/{{i18n: bakery_cinnamon_roll.name}}",
+  "wildflour.bakery_cranberry_bread": "wildflour.gourmetpantry_bread_flour 2 245 1 282 1 wildflour.ateliercrops_walnut 1/25 5/wildflour.bakery_cranberry_bread/default/{{i18n: bakery_cranberry_bread.name}}",
+  "wildflour.bakery_olive_bread": "wildflour.gourmetpantry_bread_flour 2 245 1 247 1 wildflour.ateliercrops_olive 2/25 5/wildflour.bakery_olive_bread/default/{{i18n: bakery_olive_bread.name}}",
+  "wildflour.bakery_potato_bread": "wildflour.gourmetpantry_bread_flour 2 245 1 192 2/25 5/wildflour.bakery_potato_bread/default/{{i18n: bakery_potato_bread.name}}",
+  "wildflour.bakery_pretzel": "wildflour.gourmetpantry_bread_flour 2 340 1 -5 1/25 5/wildflour.bakery_pretzel/default/{{i18n: bakery_pretzel.name}}",
+  "wildflour.bakery_pumpernickel_bread": "wildflour.gourmetpantry_bread_flour 2 245 1 262 1/25 5/wildflour.bakery_pumpernickel_bread/default/{{i18n: bakery_pumpernickel_bread.name}}",
+  "wildflour.bakery_wheat_bread": "wildflour.gourmetpantry_bread_flour 2 340 1 300 1/25 5/wildflour.bakery_wheat_bread/default/{{i18n: bakery_wheat_bread.name}}",
+
+  "wildflour.bakery_carrot_cake": "wildflour.gourmetpantry_cake_flour 1 245 1 wildflour.gourmetpantry_butter 1 Carrot 2 wildflour.ateliercrops_cinnamon 1/25 5/wildflour.bakery_carrot_cake/default/{{i18n: bakery_carrot_cake.name}}",
+  "wildflour.bakery_chocolate_cake": "wildflour.gourmetpantry_cake_flour 1 245 1 wildflour.gourmetpantry_butter 1 wildflour.gourmetpantry_cocoa_powder 1 638 1/25 5/wildflour.bakery_chocolate_cake/default/{{i18n: bakery_chocolate_cake.name}}",
+  "wildflour.bakery_chocolate_raspberry_cupcake": "wildflour.gourmetpantry_cake_flour 1 245 1 wildflour.gourmetpantry_butter 1 wildflour.ateliercrops_raspberry 1 wildflour.gourmetpantry_bittersweet_chocolate 1/25 5/wildflour.bakery_chocolate_raspberry_cupcake/default/{{i18n: bakery_chocolate_raspberry_cupcake.name}}",
+  "wildflour.bakery_coconut_almond_cake": "wildflour.gourmetpantry_cake_flour 1 245 1 wildflour.gourmetpantry_butter 1 88 1 wildflour.ateliercrops_almond 1/25 5/wildflour.bakery_coconut_almond_cake/default/{{i18n: bakery_coconut_almond_cake.name}}",
+  "wildflour.bakery_confetti_cake": "wildflour.gourmetpantry_cake_flour 1 245 1 wildflour.gourmetpantry_butter 1 wildflour.gourmetpantry_rainbow_sprinkles 1/25 5/wildflour.bakery_confetti_cake/default/{{i18n: bakery_confetti_cake.name}}",
+  "wildflour.bakery_gingerbread_cake": "wildflour.gourmetpantry_cake_flour 1 245 1 wildflour.gourmetpantry_butter 1 829 1/25 5/wildflour.bakery_gingerbread_cake/default/{{i18n: bakery_gingerbread_cake.name}}",
+  "wildflour.bakery_lemon_cake": "wildflour.gourmetpantry_cake_flour 1 245 1 wildflour.gourmetpantry_butter 1 wildflour.ateliercrops_lemon 1 wildflour.ateliercrops_mallow 1/25 5/wildflour.bakery_lemon_cake/default/{{i18n: bakery_lemon_cake.name}}",
+  "wildflour.bakery_peach_cake": "wildflour.gourmetpantry_cake_flour 1 245 1 wildflour.gourmetpantry_butter 1 636 1 wildflour.gourmetpantry_cream 1/25 5/wildflour.bakery_peach_cake/default/{{i18n: bakery_peach_cake.name}}",
+  "wildflour.bakery_pineapple_cake": "wildflour.gourmetpantry_cake_flour 1 245 1 wildflour.gourmetpantry_butter 1 832 1 wildflour.ateliercrops_walnut 1/25 5/wildflour.bakery_pineapple_cake/default/{{i18n: bakery_pineapple_cake.name}}",
+  "wildflour.bakery_pumpkin_cake": "wildflour.gourmetpantry_cake_flour 1 245 1 wildflour.gourmetpantry_butter 1 276 1 wildflour.ateliercrops_cinnamon 1/25 5/wildflour.bakery_pumpkin_cake/default/{{i18n: bakery_pumpkin_cake.name}}",
+  "wildflour.bakery_red_velvet_cake": "wildflour.gourmetpantry_cake_flour 1 245 1 wildflour.gourmetpantry_butter 1 284 1 wildflour.gourmetpantry_cocoa_powder 1/25 5/wildflour.bakery_red_velvet_cake/default/{{i18n: bakery_red_velvet_cake.name}}",
+  "wildflour.bakery_strawberry_cake": "wildflour.gourmetpantry_cake_flour 1 245 1 wildflour.gourmetpantry_butter 1 wildflour.ateliercrops_strawberry 1 wildflour.gourmetpantry_cream 1/25 5/wildflour.bakery_strawberry_cake/default/{{i18n: bakery_strawberry_cake.name}}",
+  "wildflour.bakery_strawberry_cupcake": "wildflour.gourmetpantry_cake_flour 1 245 1 wildflour.gourmetpantry_butter 1 wildflour.ateliercrops_strawberry 1/25 5/wildflour.bakery_strawberry_cupcake/default/{{i18n: bakery_strawberry_cupcake.name}}",
+  "wildflour.bakery_vanilla_cupcake": "wildflour.gourmetpantry_cake_flour 1 245 1 wildflour.gourmetpantry_butter 1 wildflour.gourmetpantry_vanilla_extract 1/25 5/wildflour.bakery_vanilla_cupcake/default/{{i18n: bakery_vanilla_cupcake.name}}",
+
+  "wildflour.bakery_cherry_cookie": "246 1 245 1 wildflour.gourmetpantry_butter 1 638 2/25 5/wildflour.bakery_cherry_cookie/default/{{i18n: bakery_cherry_cookie.name}}",
+  "wildflour.bakery_chocolate_chip_cookies": "246 1 245 1 wildflour.gourmetpantry_butter 1 wildflour.gourmetpantry_chocolate_chips 1/25 5/wildflour.bakery_chocolate_chip_cookies/default/{{i18n: bakery_chocolate_chip_cookies.name}}",
+  "wildflour.bakery_chocolate_sandwich_cookie": "246 1 245 1 wildflour.gourmetpantry_butter 1 wildflour.gourmetpantry_cocoa_powder 1/25 5/wildflour.bakery_chocolate_sandwich_cookie/default/{{i18n: bakery_chocolate_sandwich_cookie.name}}",
+  "wildflour.bakery_cream_cheese_brownies": "246 1 wildflour.gourmetpantry_cocoa_powder 1 wildflour.gourmetpantry_butter 1 245 1 wildflour.gourmetpantry_cream_cheese 1/25 5/wildflour.bakery_cream_cheese_brownies/default/{{i18n: bakery_cream_cheese_brownies.name}}",
+  "wildflour.bakery_brownies": "246 1 wildflour.gourmetpantry_cocoa_powder 1 wildflour.gourmetpantry_butter 1 245 1/25 5/wildflour.bakery_brownies/default/{{i18n: bakery_brownies.name}}",
+  "wildflour.bakery_mint_brownies": "246 1 wildflour.gourmetpantry_cocoa_powder 1 wildflour.gourmetpantry_butter 1 245 1 wildflour.ateliercrops_mint 1/25 5/wildflour.bakery_mint_brownies/default/{{i18n: bakery_mint_brownies.name}}",
+  "wildflour.bakery_nut_brownies": "246 1 wildflour.gourmetpantry_cocoa_powder 1 wildflour.gourmetpantry_butter 1 245 1 wildflour.gourmetpantry_almond_butter 1/25 5/wildflour.bakery_nut_brownies/default/{{i18n: bakery_nut_brownies.name}}",
+  "wildflour.bakery_orange_cookies": "246 1 245 1 wildflour.gourmetpantry_butter 1 635 2/25 5/wildflour.bakery_orange_cookies/default/{{i18n: bakery_orange_cookies.name}}",
+  "wildflour.bakery_strawberry_cookie": "246 1 245 1 wildflour.gourmetpantry_butter 1 wildflour.ateliercrops_strawberry 2/25 5/wildflour.bakery_strawberry_cookie/default/{{i18n: bakery_strawberry_cookie.name}}",
+  "wildflour.bakery_vanilla_sandwich_cookies": "246 1 245 1 wildflour.gourmetpantry_butter 1 wildflour.gourmetpantry_vanilla_extract 1/25 5/wildflour.bakery_vanilla_sandwich_cookies/default/{{i18n: bakery_vanilla_sandwich_cookies.name}}",
+
+  "wildflour.bakery_chocolate_doughnut": "246 1 245 1 247 1 wildflour.gourmetpantry_cocoa_powder 1/25 5/wildflour.bakery_chocolate_doughnut/default/{{i18n: bakery_chocolate_doughnut.name}}",
+  "wildflour.bakery_chocolate_eclair": "wildflour.gourmetpantry_pastry_flour 1 wildflour.gourmetpantry_butter 1 -5 1 wildflour.gourmetpantry_bittersweet_chocolate 1/25 5/wildflour.bakery_chocolate_eclair/default/{{i18n: bakery_chocolate_eclair.name}}",
+  "wildflour.bakery_cream_chocolate_doughnut": "246 1 245 1 247 1 wildflour.gourmetpantry_cocoa_powder 1 wildflour.gourmetpantry_cream 1/25 5/wildflour.bakery_cream_chocolate_doughnut/default/{{i18n: bakery_cream_chocolate_doughnut.name}}",
+  "wildflour.bakery_cream_strawberry_doughnut": "246 1 245 1 247 1 wildflour.ateliercrops_strawberry 1 wildflour.gourmetpantry_cream 1/25 5/wildflour.bakery_cream_strawberry_doughnut/default/{{i18n: bakery_cream_strawberry_doughnut.name}}",
+  "wildflour.bakery_maple_eclair": "wildflour.gourmetpantry_pastry_flour 1 wildflour.gourmetpantry_butter 1 -5 1 724 1 91 1/25 5/wildflour.bakery_maple_eclair/default/{{i18n: bakery_maple_eclair.name}}",
+  "wildflour.bakery_mocha_eclair": "wildflour.gourmetpantry_pastry_flour 1 wildflour.gourmetpantry_butter 1 -5 1 wildflour.gourmetpantry_bittersweet_chocolate 1 wildflour.gourmetpantry_espresso_powder 1/25 5/wildflour.bakery_mocha_eclair/default/{{i18n: bakery_mocha_eclair.name}}",
+  "wildflour.bakery_pistachio_eclair": "wildflour.gourmetpantry_pastry_flour 1 wildflour.gourmetpantry_butter 1 -5 1 wildflour.ateliercrops_pistachio 1/25 5/wildflour.bakery_pistachio_eclair/default/{{i18n: bakery_pistachio_eclair.name}}",
+  "wildflour.bakery_raspberry_eclair": "wildflour.gourmetpantry_pastry_flour 1 wildflour.gourmetpantry_butter 1 -5 1 wildflour.ateliercrops_raspberry 1 wildflour.ateliercrops_lemon 1/25 5/wildflour.bakery_raspberry_eclair/default/{{i18n: bakery_raspberry_eclair.name}}",
+  "wildflour.bakery_strawberry_eclair": "wildflour.gourmetpantry_pastry_flour 1 wildflour.gourmetpantry_butter 1 -5 1 wildflour.ateliercrops_strawberry 1 wildflour.gourmetpantry_cream_cheese 1/25 5/wildflour.bakery_strawberry_eclair/default/{{i18n: bakery_strawberry_eclair.name}}",
+  "wildflour.bakery_strawberry_doughnut": "246 1 245 1 247 1 wildflour.ateliercrops_strawberry 1/25 5/wildflour.bakery_strawberry_doughnut/default/{{i18n: bakery_strawberry_doughnut.name}}",
+  "wildflour.bakery_vanilla_doughnut": "246 1 245 1 247 1 wildflour.gourmetpantry_vanilla_extract 1/25 5/wildflour.bakery_vanilla_doughnut/default/{{i18n: bakery_vanilla_doughnut.name}}",
+  "wildflour.bakery_vanilla_eclair": "wildflour.gourmetpantry_pastry_flour 1 wildflour.gourmetpantry_butter 1 -5 1 wildflour.gourmetpantry_vanilla_extract 1/25 5/wildflour.bakery_vanilla_eclair/default/{{i18n: bakery_vanilla_eclair.name}}",
+  "wildflour.bakery_vanilla_jelly_doughnut": "246 1 245 1 247 1 wildflour.gourmetpantry_vanilla_extract 1 344 1/25 5/wildflour.bakery_vanilla_jelly_doughnut/default/{{i18n: bakery_vanilla_jelly_doughnut.name}}",
+
+
+  }
+}
+
+
+
+
+  ]
+}

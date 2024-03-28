@@ -1,0 +1,57 @@
+{
+    "Changes": [
+
+//////////////
+// ADD MAIL //
+//////////////
+
+        {
+            "Action": "EditData",
+            "Target": "Data/Mail",
+                "Entries": {
+                    "wildflour.atelierfrozen_ChillerRecipe": "{{i18n: atelierfrozen_ChillerRecipe.text}} %item craftingRecipe wildflour.atelierfrozen_BlastChiller %%[#]{{i18n: atelierfrozen_ChillerRecipe.name}}",
+                    "wildflour.atelierfrozen_TreatMakerRecipe": "{{i18n: atelierfrozen_TreatMakerRecipe.text}} %item craftingRecipe wildflour.atelierfrozen_TreatMaker %%[#]{{i18n: atelierfrozen_TreatMakerRecipe.name}}",
+                    "wildflour.atelierfrozen_vincentgift": "{{i18n: atelierfrozen_vincent_gift.text}} %item id (O)wildflour.ateliercrops_cacaopod 3 %%[#]{{i18n: atelierfrozen_vincent_gift.name}}",
+                    "wildflour.atelierfrozen_jodigift": "{{i18n: atelierfrozen_jodi_gift.text}} %item id (O)wildflour.ateliercrops_vanilla 3 %%[#]{{i18n: atelierfrozen_jodi_gift.name}}",
+                    "wildflour.atelierfrozen_samgift": "{{i18n: atelierfrozen_sam_gift.text}} %item id (O)84 3 %%[#]{{i18n: atelierfrozen_sam_gift.name}}",
+                    "wildflour.atelierfrozen_SO2_reward": "{{i18n: atelierfrozen_SO2_reward.text}} %item id (O)PowdermelonSeeds 5 %%[#]{{i18n: atelierfrozen_SO2_reward.name}}",     
+                    "wildflour.atelierfrozen_SO3_reward": "{{i18n: atelierfrozen_SO3_reward.text}} %item id (BC)wildflour.atelierfrozen_TreatMaker 2 %%[#]{{i18n: atelierfrozen_SO3_reward.name}}", 
+                    "wildflour.atelierfrozen_SO4_reward": "{{i18n: atelierfrozen_SO4_reward.text}} %item id (BC)wildflour.atelierfrozen_BlastChiller 2 %%[#]{{i18n: atelierfrozen_SO4_reward.name}}", 
+                    "wildflour.atelierfrozen_SO5_reward": "{{i18n: atelierfrozen_SO5_reward.text}} %item id (O)StardropTea 3 %%[#]{{i18n: atelierfrozen_SO5_reward.name}}" 
+                     
+                }
+            },
+
+
+///////////////
+// SEND MAIL //
+///////////////
+
+        {
+            "Action": "EditData",
+            "Target": "Data/Events/Farm",
+        
+            "Entries": {	
+                "wildflour.atelierfrozen_vincentmail/f vincent 750/G {{HasCraftingRecipe: wildflour.atelierfrozen_BlastChiller}}/x wildflour.atelierfrozen_vincentgift": "null",
+                "wildflour.atelierfrozen_jodimail/f jodi 1250/G {{HasCraftingRecipe: wildflour.atelierfrozen_TreatMaker}}/x wildflour.atelierfrozen_jodigift": "null",
+                "wildflour.atelierfrozen_sammail/f sam 1000/G {{HasCraftingRecipe: wildflour.atelierfrozen_TreatMaker}}/x wildflour.atelierfrozen_samgift": "null",
+                "wildflour.atelierfrozen_SO2mail/n wildflour.atelierfrozen_SO2_complete/x wildflour.atelierfrozen_SO2_reward": "null",
+                "wildflour.atelierfrozen_SO3mail/n wildflour.atelierfrozen_SO3_complete/x wildflour.atelierfrozen_SO3_reward": "null",
+                "wildflour.atelierfrozen_SO4mail/n wildflour.atelierfrozen_SO4_complete/x wildflour.atelierfrozen_SO4_reward": "null",			
+                "wildflour.atelierfrozen_SO5mail/n wildflour.atelierfrozen_SO5_complete/x wildflour.atelierfrozen_SO5_reward": "null"		
+            
+            }
+            },         
+        
+        {
+            "Action": "EditData",
+            "Target": "Data/Events/Farm",
+            "Entries": {
+                "wildflour.atelierfrozen_chillermail/f Robin 1250/x wildflour.atelierfrozen_ChillerRecipe": "null",
+                "wildflour.atelierfrozen_treatmakermail/f Demetrius 1250/x wildflour.atelierfrozen_TreatMakerRecipe": "null"			
+            },
+            "When": {"EasyRecipes": false}
+            }       
+
+]
+}

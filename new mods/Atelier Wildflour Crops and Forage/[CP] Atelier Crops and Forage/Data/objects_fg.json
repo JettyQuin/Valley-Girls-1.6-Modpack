@@ -1,0 +1,1682 @@
+{
+    "Changes": [
+
+//////////////
+// SAPLINGS //
+//////////////
+
+{
+    "LogName":"Add Faerie Garden Saplings",
+    "Action": "EditData",
+    "Target": "Data/Objects",
+    "Entries": {
+        "wildflour.ateliercrops_geranium_sapling": {
+            "Name": "wildflour.ateliercrops_geranium_sapling",
+            "DisplayName": "{{i18n:ateliercrops_geranium_sapling.name}}",
+            "Description": "{{i18n:ateliercrops_geranium_sapling.description}}",
+            "Type": "Basic",
+            "Category": -74,
+            "Price": 6000,
+
+            "Texture": "Mods/wildflour.ateliercrops/ObjectsFG",
+            "SpriteIndex": 1
+    },
+        "wildflour.ateliercrops_chiffon_sapling": {
+            "Name": "wildflour.ateliercrops_chiffon_sapling",
+            "DisplayName": "{{i18n:ateliercrops_chiffon_sapling.name}}",
+            "Description": "{{i18n:ateliercrops_chiffon_sapling.description}}",
+            "Type": "Basic",
+            "Category": -74,
+            "Price": 6000,
+
+            "Texture": "Mods/wildflour.ateliercrops/ObjectsFG",
+            "SpriteIndex": 3
+    },
+        "wildflour.ateliercrops_mysteria_sapling": {
+            "Name": "wildflour.ateliercrops_mysteria_sapling",
+            "DisplayName": "{{i18n:ateliercrops_mysteria_sapling.name}}",
+            "Description": "{{i18n:ateliercrops_mysteria_sapling.description}}",
+            "Type": "Basic",
+            "Category": -74,
+            "Price": 6000,
+
+            "Texture": "Mods/wildflour.ateliercrops/ObjectsFG",
+            "SpriteIndex": 11
+    },
+        "wildflour.ateliercrops_daisy_sapling": {
+            "Name": "wildflour.ateliercrops_daisy_sapling",
+            "DisplayName": "{{i18n:ateliercrops_daisy_sapling.name}}",
+            "Description": "{{i18n:ateliercrops_daisy_sapling.description}}",
+            "Type": "Basic",
+            "Category": -74,
+            "Price": 4750,
+
+            "Texture": "Mods/wildflour.ateliercrops/ObjectsFG",
+            "SpriteIndex": 5
+    },
+        "wildflour.ateliercrops_dawn_sapling": {
+            "Name": "wildflour.ateliercrops_dawn_sapling",
+            "DisplayName": "{{i18n:ateliercrops_dawn_sapling.name}}",
+            "Description": "{{i18n:ateliercrops_dawn_sapling.description}}",
+            "Type": "Basic",
+            "Category": -74,
+            "Price": 7500,
+
+            "Texture": "Mods/wildflour.ateliercrops/ObjectsFG",
+            "SpriteIndex": 7
+    },
+        "wildflour.ateliercrops_dusk_sapling": {
+            "Name": "wildflour.ateliercrops_dusk_sapling",
+            "DisplayName": "{{i18n:ateliercrops_dusk_sapling.name}}",
+            "Description": "{{i18n:ateliercrops_dusk_sapling.description}}",
+            "Type": "Basic",
+            "Category": -74,
+            "Price": 7500,
+
+            "Texture": "Mods/wildflour.ateliercrops/ObjectsFG",
+            "SpriteIndex": 9
+    },
+        "wildflour.ateliercrops_violet_sapling": {
+            "Name": "wildflour.ateliercrops_violet_sapling",
+            "DisplayName": "{{i18n:ateliercrops_violet_sapling.name}}",
+            "Description": "{{i18n:ateliercrops_violet_sapling.description}}",
+            "Type": "Basic",
+            "Category": -74,
+            "Price": 4000,
+
+            "Texture": "Mods/wildflour.ateliercrops/ObjectsFG",
+            "SpriteIndex": 13
+    },
+        "wildflour.ateliercrops_primrose_sapling": {
+            "Name": "wildflour.ateliercrops_primrose_sapling",
+            "DisplayName": "{{i18n:ateliercrops_primrose_sapling.name}}",
+            "Description": "{{i18n:ateliercrops_primrose_sapling.description}}",
+            "Type": "Basic",
+            "Category": -74,
+            "Price": 7000,
+
+            "Texture": "Mods/wildflour.ateliercrops/ObjectsFG",
+            "SpriteIndex": 15
+    },
+        "wildflour.ateliercrops_buttercream_sapling": {
+            "Name": "wildflour.ateliercrops_buttercream_sapling",
+            "DisplayName": "{{i18n:ateliercrops_buttercream_sapling.name}}",
+            "Description": "{{i18n:ateliercrops_buttercream_sapling.description}}",
+            "Type": "Basic",
+            "Category": -74,
+            "Price": 10000,
+
+            "Texture": "Mods/wildflour.ateliercrops/ObjectsFG",
+            "SpriteIndex": 17
+    },
+        "wildflour.ateliercrops_brulee_sapling": {
+            "Name": "wildflour.ateliercrops_brulee_sapling",
+            "DisplayName": "{{i18n:ateliercrops_brulee_sapling.name}}",
+            "Description": "{{i18n:ateliercrops_brulee_sapling.description}}",
+            "Type": "Basic",
+            "Category": -74,
+            "Price": 12000,
+
+            "Texture": "Mods/wildflour.ateliercrops/ObjectsFG",
+            "SpriteIndex": 19
+    },
+        "wildflour.ateliercrops_gelato_sapling": {
+            "Name": "wildflour.ateliercrops_gelato_sapling",
+            "DisplayName": "{{i18n:ateliercrops_gelato_sapling.name}}",
+            "Description": "{{i18n:ateliercrops_gelato_sapling.description}}",
+            "Type": "Basic",
+            "Category": -74,
+            "Price": 12500,
+
+            "Texture": "Mods/wildflour.ateliercrops/ObjectsFG",
+            "SpriteIndex": 21
+    },
+        "wildflour.ateliercrops_souffle_sapling": {
+            "Name": "wildflour.ateliercrops_souffle_sapling",
+            "DisplayName": "{{i18n:ateliercrops_souffle_sapling.name}}",
+            "Description": "{{i18n:ateliercrops_souffle_sapling.description}}",
+            "Type": "Basic",
+            "Category": -74,
+            "Price": 14000,
+
+            "Texture": "Mods/wildflour.ateliercrops/ObjectsFG",
+            "SpriteIndex": 23
+    },
+        "wildflour.ateliercrops_pavlova_sapling": {
+            "Name": "wildflour.ateliercrops_pavlova_sapling",
+            "DisplayName": "{{i18n:ateliercrops_pavlova_sapling.name}}",
+            "Description": "{{i18n:ateliercrops_pavlova_sapling.description}}",
+            "Type": "Basic",
+            "Category": -74,
+            "Price": 15000,
+
+            "Texture": "Mods/wildflour.ateliercrops/ObjectsFG",
+            "SpriteIndex": 25
+    },
+
+        "wildflour.ateliercrops_StrangeCap_seeds": {
+            "Name": "wildflour.ateliercrops_StrangeCap_seeds",
+            "DisplayName": "{{i18n:ateliercrops_StrangeCap_seeds.name}}",
+            "Description": "{{i18n:ateliercrops_StrangeCap_seeds.description}}",
+            "Type": "Seeds",
+            "Category": -74,
+            "Price": 5,
+
+            "Texture": "Mods/wildflour.ateliercrops/ObjectsFG",
+            "SpriteIndex": 36
+    },
+     
+        "wildflour.ateliercrops_MysticTrumpet_seeds": {
+            "Name": "wildflour.ateliercrops_MysticTrumpet_seeds",
+            "DisplayName": "{{i18n:ateliercrops_MysticTrumpet_seeds.name}}",
+            "Description": "{{i18n:ateliercrops_MysticTrumpet_seeds.description}}",
+            "Type": "Seeds",
+            "Category": -74,
+            "Price": 5,
+
+            "Texture": "Mods/wildflour.ateliercrops/ObjectsFG",
+            "SpriteIndex": 37
+    },
+
+        "wildflour.ateliercrops_WitchwoodTree_seeds": {
+            "Name": "wildflour.ateliercrops_WitchwoodTree_seeds",
+            "DisplayName": "{{i18n:ateliercrops_WitchwoodTree_seeds.name}}",
+            "Description": "{{i18n:ateliercrops_WitchwoodTree_seeds.description}}",
+            "Type": "Seeds",
+            "Category": -74,
+            "Price": 5,
+
+            "Texture": "Mods/wildflour.ateliercrops/ObjectsFG",
+            "SpriteIndex": 38
+    },
+
+
+}
+},
+
+////////////
+// SEEDS ///
+////////////
+
+{
+    "LogName":"Add Faerie Garden Seeds",
+    "Action": "EditData",
+    "Target": "Data/Objects",
+    "Entries": {
+        "wildflour.ateliercrops_amber_moondrop_seeds": {
+            "Name": "wildflour.ateliercrops_amber_moondrop_seeds",
+            "DisplayName": "{{i18n:ateliercrops_amber_moondrop_seeds.name}}",
+            "Description": "{{i18n:ateliercrops_amber_moondrop_seeds.description}}",
+            "Type": "Seeds",
+            "Category": -74,
+            "Price": 220,
+
+            "Texture": "Mods/wildflour.ateliercrops/ObjectsFG",
+            "SpriteIndex": 49
+    },     
+        "wildflour.ateliercrops_avalune_seeds": {
+            "Name": "wildflour.ateliercrops_avalune_seeds",
+            "DisplayName": "{{i18n:ateliercrops_avalune_seeds.name}}",
+            "Description": "{{i18n:ateliercrops_avalune_seeds.description}}",
+            "Type": "Seeds",
+            "Category": -74,
+            "Price": 100,
+
+            "Texture": "Mods/wildflour.ateliercrops/ObjectsFG",
+            "SpriteIndex": 75
+    },
+        "wildflour.ateliercrops_puffball_seeds": {
+            "Name": "wildflour.ateliercrops_puffball_seeds",
+            "DisplayName": "{{i18n:ateliercrops_puffball_seeds.name}}",
+            "Description": "{{i18n:ateliercrops_puffball_seeds.description}}",
+            "Type": "Seeds",
+            "Category": -74,
+            "Price": 150,
+
+            "Texture": "Mods/wildflour.ateliercrops/ObjectsFG",
+            "SpriteIndex": 54
+    },
+        "wildflour.ateliercrops_jade_moondrop_seeds": {
+            "Name": "wildflour.ateliercrops_jade_moondrop_seeds",
+            "DisplayName": "{{i18n:ateliercrops_jade_moondrop_seeds.name}}",
+            "Description": "{{i18n:ateliercrops_jade_moondrop_seeds.description}}",
+            "Type": "Seeds",
+            "Category": -74,
+            "Price": 220,
+
+            "Texture": "Mods/wildflour.ateliercrops/ObjectsFG",
+            "SpriteIndex": 58
+    },    
+        "wildflour.ateliercrops_lapis_moondrop_seeds": {
+            "Name": "wildflour.ateliercrops_lapis_moondrop_seeds",
+            "DisplayName": "{{i18n:ateliercrops_lapis_moondrop_seeds.name}}",
+            "Description": "{{i18n:ateliercrops_lapis_moondrop_seeds.description}}",
+            "Type": "Seeds",
+            "Category": -74,
+            "Price": 220,
+
+            "Texture": "Mods/wildflour.ateliercrops/ObjectsFG",
+            "SpriteIndex": 60
+    }, 
+        "wildflour.ateliercrops_maiden_seeds": {
+            "Name": "wildflour.ateliercrops_maiden_seeds",
+            "DisplayName": "{{i18n:ateliercrops_maiden_seeds.name}}",
+            "Description": "{{i18n:ateliercrops_maiden_seeds.description}}",
+            "Type": "Seeds",
+            "Category": -74,
+            "Price": 115,
+
+            "Texture": "Mods/wildflour.ateliercrops/ObjectsFG",
+            "SpriteIndex": 62
+    },
+        "wildflour.ateliercrops_mandrake_seeds": {
+            "Name": "wildflour.ateliercrops_mandrake_seeds",
+            "DisplayName": "{{i18n:ateliercrops_mandrake_seeds.name}}",
+            "Description": "{{i18n:ateliercrops_mandrake_seeds.description}}",
+            "Type": "Seeds",
+            "Category": -74,
+            "Price": 100,
+
+            "Texture": "Mods/wildflour.ateliercrops/ObjectsFG",
+            "SpriteIndex": 64
+    },
+        "wildflour.ateliercrops_mugwort_seeds": {
+            "Name": "wildflour.ateliercrops_mugwort_seeds",
+            "DisplayName": "{{i18n:ateliercrops_mugwort_seeds.name}}",
+            "Description": "{{i18n:ateliercrops_mugwort_seeds.description}}",
+            "Type": "Seeds",
+            "Category": -74,
+            "Price": 125,
+
+            "Texture": "Mods/wildflour.ateliercrops/ObjectsFG",
+            "SpriteIndex": 66
+    },
+        "wildflour.ateliercrops_pearl_moondrop_seeds": {
+            "Name": "wildflour.ateliercrops_pearl_moondrop_seeds",
+            "DisplayName": "{{i18n:ateliercrops_pearl_moondrop_seeds.name}}",
+            "Description": "{{i18n:ateliercrops_pearl_moondrop_seeds.description}}",
+            "Type": "Seeds",
+            "Category": -74,
+            "Price": 220,
+
+            "Texture": "Mods/wildflour.ateliercrops/ObjectsFG",
+            "SpriteIndex": 68
+    },
+        "wildflour.ateliercrops_pixies_breath_seeds": {
+            "Name": "wildflour.ateliercrops_pixies_breath_seeds",
+            "DisplayName": "{{i18n:ateliercrops_pixies_breath_seeds.name}}",
+            "Description": "{{i18n:ateliercrops_pixies_breath_seeds.description}}",
+            "Type": "Seeds",
+            "Category": -74,
+            "Price": 150,
+
+            "Texture": "Mods/wildflour.ateliercrops/ObjectsFG",
+            "SpriteIndex": 70
+    },
+        "wildflour.ateliercrops_rose_flax_seeds": {
+            "Name": "wildflour.ateliercrops_rose_flax_seeds",
+            "DisplayName": "{{i18n:ateliercrops_rose_flax_seeds.name}}",
+            "Description": "{{i18n:ateliercrops_rose_flax_seeds.description}}",
+            "Type": "Seeds",
+            "Category": -74,
+            "Price": 25,
+
+            "Texture": "Mods/wildflour.ateliercrops/ObjectsFG",
+            "SpriteIndex": 72
+    },
+        "wildflour.ateliercrops_arctic_fox_seeds": {
+            "Name": "wildflour.ateliercrops_arctic_fox_seeds",
+            "DisplayName": "{{i18n:ateliercrops_arctic_fox_seeds.name}}",
+            "Description": "{{i18n:ateliercrops_arctic_fox_seeds.description}}",
+            "Type": "Seeds",
+            "Category": -74,
+            "Price": 110,
+
+            "Texture": "Mods/wildflour.ateliercrops/ObjectsFG",
+            "SpriteIndex": 52
+    },
+        "wildflour.ateliercrops_thistle_seeds": {
+            "Name": "wildflour.ateliercrops_thistle_seeds",
+            "DisplayName": "{{i18n:ateliercrops_thistle_seeds.name}}",
+            "Description": "{{i18n:ateliercrops_thistle_seeds.description}}",
+            "Type": "Seeds",
+            "Category": -74,
+            "Price": 105,
+
+            "Texture": "Mods/wildflour.ateliercrops/ObjectsFG",
+            "SpriteIndex": 77
+    },
+        "wildflour.ateliercrops_valerian_seeds": {
+            "Name": "wildflour.ateliercrops_valerian_seeds",
+            "DisplayName": "{{i18n:ateliercrops_valerian_seeds.name}}",
+            "Description": "{{i18n:ateliercrops_valerian_seeds.description}}",
+            "Type": "Seeds",
+            "Category": -74,
+            "Price": 180,
+
+            "Texture": "Mods/wildflour.ateliercrops/ObjectsFG",
+            "SpriteIndex": 79
+    },
+        "wildflour.ateliercrops_violet_flax_seeds": {
+            "Name": "wildflour.ateliercrops_violet_flax_seeds",
+            "DisplayName": "{{i18n:ateliercrops_violet_flax_seeds.name}}",
+            "Description": "{{i18n:ateliercrops_violet_flax_seeds.description}}",
+            "Type": "Seeds",
+            "Category": -74,
+            "Price": 25,
+
+            "Texture": "Mods/wildflour.ateliercrops/ObjectsFG",
+            "SpriteIndex": 81
+    },
+        "wildflour.ateliercrops_yarrow_seeds": {
+            "Name": "wildflour.ateliercrops_yarrow_seeds",
+            "DisplayName": "{{i18n:ateliercrops_yarrow_seeds.name}}",
+            "Description": "{{i18n:ateliercrops_yarrow_seeds.description}}",
+            "Type": "Seeds",
+            "Category": -74,
+            "Price": 95,
+
+            "Texture": "Mods/wildflour.ateliercrops/ObjectsFG",
+            "SpriteIndex": 84
+    }
+
+}
+},
+
+/////////////
+// FRUITS ///
+/////////////
+
+{
+    "LogName":"Add Faerie Garden Fruits",
+    "Action": "EditData",
+    "Target": "Data/Objects",
+    "Entries": {
+        "wildflour.ateliercrops_amber_moondrop": {
+            "Name": "wildflour.ateliercrops_amber_moondrop",
+            "DisplayName": "{{i18n:ateliercrops_amber_moondrop.name}}",
+            "Description": "{{i18n:ateliercrops_amber_moondrop.description}}",
+            "Type": "Fruit",          
+            "Category": -79,
+            "Edibility": 20,
+            "Price": 80,
+
+            "ContextTags":
+            ["faeriegarden_forage",
+            "forage_item",
+            "fruit_item",
+            "color_gold"],
+
+            "Texture": "Mods/wildflour.ateliercrops/ObjectsFG",
+            "SpriteIndex": 48
+    },
+        "wildflour.ateliercrops_apple": {
+            "Name": "wildflour.ateliercrops_apple",
+            "DisplayName": "{{i18n:ateliercrops_apple.name}}",
+            "Description": "{{i18n:ateliercrops_apple.description}}",
+            "Type": "Fruit",          
+            "Category": -79,
+            "Edibility": 18,
+            "Price": 200,
+
+            "ContextTags":
+            ["faeriegarden_forage",
+            "forage_item",
+            "fruit_item",
+            "color_green"],
+
+            "Texture": "Mods/wildflour.ateliercrops/ObjectsFG",
+            "SpriteIndex": 85
+    },
+        "wildflour.ateliercrops_apricot": {
+            "Name": "wildflour.ateliercrops_apricot",
+            "DisplayName": "{{i18n:ateliercrops_apricot.name}}",
+            "Description": "{{i18n:ateliercrops_apricot.description}}",
+            "Type": "Fruit",          
+            "Category": -79,
+            "Edibility": 18,
+            "Price": 100,
+
+            "ContextTags":
+            ["faeriegarden_forage",
+            "forage_item",
+            "fruit_item",
+            "color_salmon"],
+
+            "Texture": "Mods/wildflour.ateliercrops/ObjectsFG",
+            "SpriteIndex": 86
+    },
+        "wildflour.ateliercrops_banana": {
+            "Name": "wildflour.ateliercrops_banana",
+            "DisplayName": "{{i18n:ateliercrops_banana.name}}",
+            "Description": "{{i18n:ateliercrops_banana.description}}",
+            "Type": "Fruit",          
+            "Category": -79,
+            "Edibility": 18,
+            "Price": 300,
+
+            "ContextTags":
+            ["faeriegarden_forage",
+            "forage_item",
+            "fruit_item",
+            "color_yellow"],
+
+            "Texture": "Mods/wildflour.ateliercrops/ObjectsFG",
+            "SpriteIndex": 87
+    },
+        "wildflour.ateliercrops_cherry": {
+            "Name": "wildflour.ateliercrops_cherry",
+            "DisplayName": "{{i18n:ateliercrops_cherry.name}}",
+            "Description": "{{i18n:ateliercrops_cherry.description}}",
+            "Type": "Fruit",          
+            "Category": -79,
+            "Edibility": 18,
+            "Price": 160,
+
+            "ContextTags":
+            ["faeriegarden_forage",
+            "forage_item",
+            "fruit_item",
+            "color_red"],
+
+            "Texture": "Mods/wildflour.ateliercrops/ObjectsFG",
+            "SpriteIndex": 88
+    },
+        "wildflour.ateliercrops_jade_moondrop": {
+            "Name": "wildflour.ateliercrops_jade_moondrop",
+            "DisplayName": "{{i18n:ateliercrops_jade_moondrop.name}}",
+            "Description": "{{i18n:ateliercrops_jade_moondrop.description}}",
+            "Type": "Fruit",          
+            "Category": -79,
+            "Edibility": 18,
+            "Price": 80,
+
+            "ContextTags":
+            ["faeriegarden_forage",
+            "forage_item",
+            "fruit_item",
+            "color_jade"],
+
+            "Texture": "Mods/wildflour.ateliercrops/ObjectsFG",
+            "SpriteIndex": 57
+    },
+        "wildflour.ateliercrops_lapis_moondrop": {
+            "Name": "wildflour.ateliercrops_lapis_moondrop",
+            "DisplayName": "{{i18n:ateliercrops_lapis_moondrop.name}}",
+            "Description": "{{i18n:ateliercrops_lapis_moondrop.description}}",
+            "Type": "Fruit",          
+            "Category": -79,
+            "Edibility": 18,
+            "Price": 80,
+
+            "ContextTags":
+            ["faeriegarden_forage",
+            "forage_item",
+            "fruit_item",
+            "color_cyan"],
+
+            "Texture": "Mods/wildflour.ateliercrops/ObjectsFG",
+            "SpriteIndex": 59
+    },
+        "wildflour.ateliercrops_mango": {
+            "Name": "wildflour.ateliercrops_mango",
+            "DisplayName": "{{i18n:ateliercrops_mango.name}}",
+            "Description": "{{i18n:ateliercrops_mango.description}}",
+            "Type": "Fruit",          
+            "Category": -79,
+            "Edibility": 18,
+            "Price": 260,
+
+            "ContextTags":
+            ["faeriegarden_forage",
+            "forage_item",
+            "fruit_item",
+            "color_yellow"],
+
+            "Texture": "Mods/wildflour.ateliercrops/ObjectsFG",
+            "SpriteIndex": 89
+    },
+        "wildflour.ateliercrops_orange": {
+            "Name": "wildflour.ateliercrops_orange",
+            "DisplayName": "{{i18n:ateliercrops_orange.name}}",
+            "Description": "{{i18n:ateliercrops_orange.description}}",
+            "Type": "Fruit",          
+            "Category": -79,
+            "Edibility": 18,
+            "Price": 200,
+
+            "ContextTags":
+            ["faeriegarden_forage",
+            "forage_item",
+            "fruit_item",
+            "color_orange"],
+
+            "Texture": "Mods/wildflour.ateliercrops/ObjectsFG",
+            "SpriteIndex": 90
+    },
+        "wildflour.ateliercrops_peach": {
+            "Name": "wildflour.ateliercrops_peach",
+            "DisplayName": "{{i18n:ateliercrops_peach.name}}",
+            "Description": "{{i18n:ateliercrops_peach.description}}",
+            "Type": "Fruit",          
+            "Category": -79,
+            "Edibility": 18,
+            "Price": 280,
+
+            "ContextTags":
+            ["faeriegarden_forage",
+            "forage_item",
+            "fruit_item",
+            "color_pink"],
+
+            "Texture": "Mods/wildflour.ateliercrops/ObjectsFG",
+            "SpriteIndex": 91
+    },
+        "wildflour.ateliercrops_pearl_moondrop": {
+            "Name": "wildflour.ateliercrops_pearl_moondrop",
+            "DisplayName": "{{i18n:ateliercrops_pearl_moondrop.name}}",
+            "Description": "{{i18n:ateliercrops_pearl_moondrop.description}}",
+            "Type": "Fruit",          
+            "Category": -79,
+            "Edibility": 18,
+            "Price": 80,
+
+            "ContextTags":
+            ["faeriegarden_forage",
+            "forage_item",
+            "fruit_item",
+            "color_white"],
+
+            "Texture": "Mods/wildflour.ateliercrops/ObjectsFG",
+            "SpriteIndex": 67
+    },
+        "wildflour.ateliercrops_pomegranate": {
+            "Name": "wildflour.ateliercrops_pomegranate",
+            "DisplayName": "{{i18n:ateliercrops_pomegranate.name}}",
+            "Description": "{{i18n:ateliercrops_pomegranate.description}}",
+            "Type": "Fruit",          
+            "Category": -79,
+            "Edibility": 18,
+            "Price": 280,
+
+            "ContextTags":
+            ["faeriegarden_forage",
+            "forage_item",
+            "fruit_item",
+            "color_purple"],
+
+            "Texture": "Mods/wildflour.ateliercrops/ObjectsFG",
+            "SpriteIndex": 92
+    }
+      
+}
+},
+
+//////////////
+// FLOWERS ///
+//////////////
+
+{
+"LogName":"Add Faerie Garden Flowers",
+"Action": "EditData",
+"Target": "Data/Objects",
+"Entries": {
+    "wildflour.ateliercrops_cake_blossom": {
+        "Name": "wildflour.ateliercrops_cake_blossom",
+        "DisplayName": "{{i18n:ateliercrops_cake_blossom.name}}",
+        "Description": "{{i18n:ateliercrops_cake_blossom.description}}",
+        "Type": "Flower",          
+        "Category": -80,
+        "Edibility": 15,
+        "Price": 195,
+
+        "ContextTags":
+        ["faeriegarden_forage",
+        "forage_item",
+        "edible_flower_item",
+        "flower_item",
+        "color_gold"],
+
+        "Texture": "Mods/wildflour.ateliercrops/ObjectsFG",
+        "SpriteIndex": 16
+    },
+    "wildflour.ateliercrops_caramel_blossom": {
+        "Name": "wildflour.ateliercrops_caramel_blossom",
+        "DisplayName": "{{i18n:ateliercrops_caramel_blossom.name}}",
+        "Description": "{{i18n:ateliercrops_caramel_blossom.description}}",
+        "Type": "Flower",          
+        "Category": -80,
+        "Edibility": 15,
+        "Price": 225,
+
+        "ContextTags":
+        ["faeriegarden_forage",
+        "forage_item",
+        "edible_flower_item",
+        "flower_item",
+        "color_sand"],
+
+        "Texture": "Mods/wildflour.ateliercrops/ObjectsFG",
+        "SpriteIndex": 18
+    },
+    "wildflour.ateliercrops_creamsicle_blossom": {
+        "Name": "wildflour.ateliercrops_creamsicle_blossom",
+        "DisplayName": "{{i18n:ateliercrops_creamsicle_blossom.name}}",
+        "Description": "{{i18n:ateliercrops_creamsicle_blossom.description}}",
+        "Type": "Flower",          
+        "Category": -80,
+        "Edibility": 15,
+        "Price": 240,
+
+        "ContextTags":
+        ["faeriegarden_forage",
+        "forage_item",
+        "edible_flower_item",
+        "flower_item",
+        "color_salmon"],
+
+        "Texture": "Mods/wildflour.ateliercrops/ObjectsFG",
+        "SpriteIndex": 20
+    },
+    "wildflour.ateliercrops_custard_blossom": {
+        "Name": "wildflour.ateliercrops_custard_blossom",
+        "DisplayName": "{{i18n:ateliercrops_custard_blossom.name}}",
+        "Description": "{{i18n:ateliercrops_custard_blossom.description}}",
+        "Type": "Flower",          
+        "Category": -80,
+        "Edibility": 15,
+        "Price": 265,
+
+        "ContextTags":
+        ["faeriegarden_forage",
+        "forage_item",
+        "edible_flower_item",
+        "flower_item",
+        "color_csand"],
+
+        "Texture": "Mods/wildflour.ateliercrops/ObjectsFG",
+        "SpriteIndex": 22
+    },
+    "wildflour.ateliercrops_gumdrop_blossom": {
+        "Name": "wildflour.ateliercrops_gumdrop_blossom",
+        "DisplayName": "{{i18n:ateliercrops_gumdrop_blossom.name}}",
+        "Description": "{{i18n:ateliercrops_gumdrop_blossom.description}}",
+        "Type": "Flower",          
+        "Category": -80,
+        "Edibility": 15,
+        "Price": 235,
+
+        "ContextTags":
+        ["faeriegarden_forage",
+        "forage_item",
+        "edible_flower_item",
+        "flower_item",
+        "color_pink"],
+
+        "Texture": "Mods/wildflour.ateliercrops/ObjectsFG",
+        "SpriteIndex": 24
+    },
+    "wildflour.ateliercrops_macaron_blossom": {
+        "Name": "wildflour.ateliercrops_macaron_blossom",
+        "DisplayName": "{{i18n:ateliercrops_macaron_blossom.name}}",
+        "Description": "{{i18n:ateliercrops_macaron_blossom.description}}",
+        "Type": "Flower",          
+        "Category": -80,
+        "Edibility": 15,
+        "Price": 290,
+
+        "ContextTags":
+        ["faeriegarden_forage",
+        "forage_item",
+        "edible_flower_item",
+        "flower_item",
+        "color_pale_violet"],
+
+        "Texture": "Mods/wildflour.ateliercrops/ObjectsFG",
+        "SpriteIndex": 26
+    },
+    "wildflour.ateliercrops_pie_blossom": {
+        "Name": "wildflour.ateliercrops_pie_blossom",
+        "DisplayName": "{{i18n:ateliercrops_pie_blossom.name}}",
+        "Description": "{{i18n:ateliercrops_pie_blossom.description}}",
+        "Type": "Flower",          
+        "Category": -80,
+        "Edibility": 15,
+        "Price": 275,
+
+        "ContextTags":
+        ["faeriegarden_forage",
+        "forage_item",
+        "flower_item",
+        "edible_flower_item",
+        "color_cyan"],
+
+        "Texture": "Mods/wildflour.ateliercrops/ObjectsFG",
+        "SpriteIndex": 28
+    },
+    "wildflour.ateliercrops_shortcake_blossom": {
+        "Name": "wildflour.ateliercrops_shortcake_blossom",
+        "DisplayName": "{{i18n:ateliercrops_shortcake_blossom.name}}",
+        "Description": "{{i18n:ateliercrops_shortcake_blossom.description}}",
+        "Type": "Flower",          
+        "Category": -80,
+        "Edibility": 15,
+        "Price": 295,
+
+        "ContextTags":
+        ["faeriegarden_forage",
+        "forage_item",
+        "edible_flower_item",
+        "flower_item",
+        "color_pink"],
+
+        "Texture": "Mods/wildflour.ateliercrops/ObjectsFG",
+        "SpriteIndex": 30
+    },
+    "wildflour.ateliercrops_sprinkle_blossom": {
+        "Name": "wildflour.ateliercrops_sprinkle_blossom",
+        "DisplayName": "{{i18n:ateliercrops_sprinkle_blossom.name}}",
+        "Description": "{{i18n:ateliercrops_sprinkle_blossom.description}}",
+        "Type": "Flower",          
+        "Category": -80,
+        "Edibility": 15,
+        "Price": 250,
+
+        "ContextTags":
+        ["faeriegarden_forage",
+        "forage_item",
+        "edible_flower_item",
+        "flower_item",
+        "color_pink"],
+
+        "Texture": "Mods/wildflour.ateliercrops/ObjectsFG",
+        "SpriteIndex": 32
+    },
+    "wildflour.ateliercrops_sugar_blossom": {
+        "Name": "wildflour.ateliercrops_sugar_blossom",
+        "DisplayName": "{{i18n:ateliercrops_sugar_blossom.name}}",
+        "Description": "{{i18n:ateliercrops_sugar_blossom.description}}",
+        "Type": "Flower",          
+        "Category": -80,
+        "Edibility": 15,
+        "Price": 200,
+
+        "ContextTags":
+        ["faeriegarden_forage",
+        "forage_item",
+        "flower_item",
+        "edible_flower_item",
+        "color_cyan"],
+
+        "Texture": "Mods/wildflour.ateliercrops/ObjectsFG",
+        "SpriteIndex": 34
+    },
+
+"wildflour.ateliercrops_geranium": {
+    "Name": "wildflour.ateliercrops_geranium",
+    "DisplayName": "{{i18n:ateliercrops_geranium.name}}",
+    "Description": "{{i18n:ateliercrops_geranium.description}}",
+    "Type": "Flower",          
+    "Category": -80,
+    "Edibility": -25,
+    "Price": 110,
+
+    "ContextTags":
+    ["faeriegarden_forage",
+    "forage_item",
+    "flower_item",
+    "color_red"],
+
+    "Texture": "Mods/wildflour.ateliercrops/ObjectsFG",
+    "SpriteIndex": 0
+},
+    "wildflour.ateliercrops_mysteria": {
+        "Name": "wildflour.ateliercrops_mysteria",
+        "DisplayName": "{{i18n:ateliercrops_mysteria.name}}",
+        "Description": "{{i18n:ateliercrops_mysteria.description}}",
+        "Type": "Flower",          
+        "Category": -80,
+        "Edibility": -25,
+        "Price": 135,
+
+        "ContextTags":
+        ["faeriegarden_forage",
+        "forage_item",
+        "flower_item",
+        "color_purple"],
+
+        "Texture": "Mods/wildflour.ateliercrops/ObjectsFG",
+        "SpriteIndex": 10
+    },
+
+"wildflour.ateliercrops_avalune": {
+    "Name": "wildflour.ateliercrops_avalune",
+    "DisplayName": "{{i18n:ateliercrops_avalune.name}}",
+    "Description": "{{i18n:ateliercrops_avalune.description}}",
+    "Type": "Flower",          
+    "Category": -80,
+    "Edibility": 5,
+    "Price": 145,
+
+    "ContextTags":
+    ["faeriegarden_forage",
+    "forage_item",
+    "edible_flower_item",
+    "flower_item",
+    "color_pink"],
+
+    "Texture": "Mods/wildflour.ateliercrops/ObjectsFG",
+    "SpriteIndex": 73
+},
+"wildflour.ateliercrops_chiffon": {
+    "Name": "wildflour.ateliercrops_chiffon",
+    "DisplayName": "{{i18n:ateliercrops_chiffon.name}}",
+    "Description": "{{i18n:ateliercrops_chiffon.description}}",
+    "Type": "Flower",          
+    "Category": -80,
+    "Edibility": 15,
+    "Price": 140,
+
+    "ContextTags":
+    ["faeriegarden_forage",
+    "forage_item",
+    "edible_flower_item",
+    "flower_item",
+    "color_dark_blue"],
+
+    "Texture": "Mods/wildflour.ateliercrops/ObjectsFG",
+    "SpriteIndex": 2
+},
+"wildflour.ateliercrops_daisy": {
+    "Name": "wildflour.ateliercrops_daisy",
+    "DisplayName": "{{i18n:ateliercrops_daisy.name}}",
+    "Description": "{{i18n:ateliercrops_daisy.description}}",
+    "Type": "Flower",          
+    "Category": -80,
+    "Edibility": 5,
+    "Price": 90,
+
+    "ContextTags":
+    ["faeriegarden_forage",
+    "forage_item",
+    "edible_flower_item",
+    "flower_item",
+    "color_white"],
+
+    "Texture": "Mods/wildflour.ateliercrops/ObjectsFG",
+    "SpriteIndex": 4
+},
+"wildflour.ateliercrops_dawn_lily": {
+    "Name": "wildflour.ateliercrops_dawn_lily",
+    "DisplayName": "{{i18n:ateliercrops_dawn_lily.name}}",
+    "Description": "{{i18n:ateliercrops_dawn_lily.description}}",
+    "Type": "Flower",          
+    "Category": -80,
+    "Edibility": 10,
+    "Price": 130,
+
+    "ContextTags":
+    ["faeriegarden_forage",
+    "forage_item",
+    "edible_flower_item",
+    "flower_item",
+    "color_dark_pink"],
+
+    "Texture": "Mods/wildflour.ateliercrops/ObjectsFG",
+    "SpriteIndex": 6
+},
+"wildflour.ateliercrops_dusk_lily": {
+    "Name": "wildflour.ateliercrops_dusk_lily",
+    "DisplayName": "{{i18n:ateliercrops_dusk_lily.name}}",
+    "Description": "{{i18n:ateliercrops_dusk_lily.description}}",
+    "Type": "Flower",          
+    "Category": -80,
+    "Edibility": 10,
+    "Price": 130,
+
+    "ContextTags":
+    ["faeriegarden_forage",
+    "forage_item",
+    "edible_flower_item",
+    "flower_item",
+    "color_purple"],
+
+    "Texture": "Mods/wildflour.ateliercrops/ObjectsFG",
+    "SpriteIndex": 8
+},
+"wildflour.ateliercrops_puffball": {
+    "Name": "wildflour.ateliercrops_puffball",
+    "DisplayName": "{{i18n:ateliercrops_puffball.name}}",
+    "Description": "{{i18n:ateliercrops_puffball.description}}",
+    "Type": "Flower",          
+    "Category": -80,
+    "Edibility": 7,
+    "Price": 55,
+
+    "ContextTags":
+    ["faeriegarden_forage",
+    "forage_item",
+    "edible_flower_item",
+    "flower_item",
+    "color_light_pink"],
+
+    "Texture": "Mods/wildflour.ateliercrops/ObjectsFG",
+    "SpriteIndex": 53
+},
+"wildflour.ateliercrops_violet": {
+    "Name": "wildflour.ateliercrops_violet",
+    "DisplayName": "{{i18n:ateliercrops_violet.name}}",
+    "Description": "{{i18n:ateliercrops_violet.description}}",
+    "Type": "Flower",          
+    "Category": -80,
+    "Edibility": 7,
+    "Price": 90,
+
+    "ContextTags":
+    ["faeriegarden_forage",
+    "forage_item",
+    "edible_flower_item",
+    "flower_item",
+    "color_purple"],
+
+    "Texture": "Mods/wildflour.ateliercrops/ObjectsFG",
+    "SpriteIndex": 12
+},
+"wildflour.ateliercrops_maiden": {
+    "Name": "wildflour.ateliercrops_maiden",
+    "DisplayName": "{{i18n:ateliercrops_maiden.name}}",
+    "Description": "{{i18n:ateliercrops_maiden.description}}",
+    "Type": "Flower",          
+    "Category": -80,
+    "Edibility": -25,
+    "Price": 135,
+
+    "ContextTags":
+    ["faeriegarden_forage",
+    "forage_item",
+    "flower_item",
+    "color_white"],
+
+    "Texture": "Mods/wildflour.ateliercrops/ObjectsFG",
+    "SpriteIndex": 61
+},
+"wildflour.ateliercrops_pixies_breath": {
+    "Name": "wildflour.ateliercrops_pixies_breath",
+    "DisplayName": "{{i18n:ateliercrops_pixies_breath.name}}",
+    "Description": "{{i18n:ateliercrops_pixies_breath.description}}",
+    "Type": "Flower",          
+    "Category": -80,
+    "Edibility": 8,
+    "Price": 55,
+
+    "ContextTags":
+    ["faeriegarden_forage",
+    "forage_item",
+    "edible_flower_item",
+    "flower_item",
+    "color_blue"],
+
+    "Texture": "Mods/wildflour.ateliercrops/ObjectsFG",
+    "SpriteIndex": 69
+},
+"wildflour.ateliercrops_primrose": {
+    "Name": "wildflour.ateliercrops_primrose",
+    "DisplayName": "{{i18n:ateliercrops_primrose.name}}",
+    "Description": "{{i18n:ateliercrops_primrose.description}}",
+    "Type": "Flower",          
+    "Category": -80,
+    "Edibility": 10,
+    "Price": 155,
+
+    "ContextTags":
+    ["faeriegarden_forage",
+    "forage_item",
+    "edible_flower_item",
+    "flower_item",
+    "color_pink"],
+
+    "Texture": "Mods/wildflour.ateliercrops/ObjectsFG",
+    "SpriteIndex": 14
+},
+"wildflour.ateliercrops_arctic_fox": {
+    "Name": "wildflour.ateliercrops_arctic_fox",
+    "DisplayName": "{{i18n:ateliercrops_arctic_fox.name}}",
+    "Description": "{{i18n:ateliercrops_arctic_fox.description}}",
+    "Type": "Flower",          
+    "Category": -80,
+    "Edibility": 15,
+    "Price": 130,
+
+    "ContextTags":
+    ["faeriegarden_forage",
+    "forage_item",
+    "edible_flower_item",
+    "flower_item",
+    "color_cyan"],
+
+    "Texture": "Mods/wildflour.ateliercrops/ObjectsFG",
+    "SpriteIndex": 50
+},
+}
+},        
+
+///////////
+// HERBS //
+///////////
+
+{
+"LogName":"Add Faerie Garden Herbs",
+"Action": "EditData",
+"Target": "Data/Objects",
+"Entries": {
+
+"wildflour.ateliercrops_mandrake": {
+    "Name": "wildflour.ateliercrops_mandrake",
+    "DisplayName": "{{i18n:ateliercrops_mandrake.name}}",
+    "Description": "{{i18n:ateliercrops_mandrake.description}}",
+    "Type": "Greens",          
+    "Category": -81,
+    "Edibility": 15,
+    "Price": 65,
+
+    "ContextTags":
+    ["faeriegarden_forage",
+    "forage_item",
+    "herb_item",
+    "color_beige"],
+
+    "Texture": "Mods/wildflour.ateliercrops/ObjectsFG",
+    "SpriteIndex": 63
+},
+"wildflour.ateliercrops_mugwort": {
+    "Name": "wildflour.ateliercrops_mugwort",
+    "DisplayName": "{{i18n:ateliercrops_mugwort.name}}",
+    "Description": "{{i18n:ateliercrops_mugwort.description}}",
+    "Type": "Greens",          
+    "Category": -81,
+    "Edibility": 15,
+    "Price": 55,
+
+    "ContextTags":
+    ["faeriegarden_forage",
+    "forage_item",
+    "herb_item",
+    "color_dark_green"],
+
+    "Texture": "Mods/wildflour.ateliercrops/ObjectsFG",
+    "SpriteIndex": 65
+},
+"wildflour.ateliercrops_rose_flax": {
+    "Name": "wildflour.ateliercrops_rose_flax",
+    "DisplayName": "{{i18n:ateliercrops_rose_flax.name}}",
+    "Description": "{{i18n:ateliercrops_rose_flax.description}}",
+    "Type": "Greens",          
+    "Category": -81,
+    "Edibility": 15,
+    "Price": 25,
+
+    "ContextTags":
+    ["faeriegarden_forage",
+    "forage_item",
+    "herb_item",
+    "color_pink"],
+
+    "Texture": "Mods/wildflour.ateliercrops/ObjectsFG",
+    "SpriteIndex": 71
+},
+"wildflour.ateliercrops_thistle": {
+    "Name": "wildflour.ateliercrops_thistle",
+    "DisplayName": "{{i18n:ateliercrops_thistle.name}}",
+    "Description": "{{i18n:ateliercrops_thistle.description}}",
+    "Type": "Greens",          
+    "Category": -81,
+    "Edibility": 15,
+    "Price": 50,
+
+    "ContextTags":
+    ["faeriegarden_forage",
+    "forage_item",
+    "herb_item",
+    "color_dark_pink"],
+
+    "Texture": "Mods/wildflour.ateliercrops/ObjectsFG",
+    "SpriteIndex": 76
+},
+"wildflour.ateliercrops_valerian": {
+    "Name": "wildflour.ateliercrops_valerian",
+    "DisplayName": "{{i18n:ateliercrops_valerian.name}}",
+    "Description": "{{i18n:ateliercrops_valerian.description}}",
+    "Type": "Greens",          
+    "Category": -81,
+    "Edibility": 15,
+    "Price": 70,
+
+    "ContextTags":
+    ["faeriegarden_forage",
+    "forage_item",
+    "herb_item",
+    "color_pink"],
+
+    "Texture": "Mods/wildflour.ateliercrops/ObjectsFG",
+    "SpriteIndex": 78
+},
+"wildflour.ateliercrops_violet_flax": {
+    "Name": "wildflour.ateliercrops_violet_flax",
+    "DisplayName": "{{i18n:ateliercrops_violet_flax.name}}",
+    "Description": "{{i18n:ateliercrops_violet_flax.description}}",
+    "Type": "Greens",          
+    "Category": -81,
+    "Edibility": 15,
+    "Price": 25,
+
+    "ContextTags":
+    ["faeriegarden_forage",
+    "forage_item",
+    "herb_item",
+    "color_violet"],
+
+    "Texture": "Mods/wildflour.ateliercrops/ObjectsFG",
+    "SpriteIndex": 80
+},
+"wildflour.ateliercrops_yarrow": {
+    "Name": "wildflour.ateliercrops_yarrow",
+    "DisplayName": "{{i18n:ateliercrops_yarrow.name}}",
+    "Description": "{{i18n:ateliercrops_yarrow.description}}",
+    "Type": "Greens",          
+    "Category": -81,
+    "Edibility": 15,
+    "Price": 125,
+
+    "ContextTags":
+    ["faeriegarden_forage",
+    "forage_item",
+    "herb_item",
+    "color_yellow"],
+
+    "Texture": "Mods/wildflour.ateliercrops/ObjectsFG",
+    "SpriteIndex": 82
+}
+
+}
+},
+
+///////////////
+// MUSHROOMS //
+///////////////
+
+{
+"LogName":"Add Faerie Garden Mushrooms",
+"Action": "EditData",
+"Target": "Data/Objects",
+"Entries": {
+"wildflour.ateliercrops_blush_cap": {
+    "Name": "wildflour.ateliercrops_blush_cap",
+    "DisplayName": "{{i18n:ateliercrops_blush_cap.name}}",
+    "Description": "{{i18n:ateliercrops_blush_cap.description}}",
+    "Type": "Greens",          
+    "Category": -81,
+    "Edibility": -15,
+    "Price": 170,
+
+    "ContextTags":
+    ["faeriegarden_forage",
+    "forage_item",
+    "mushroom_item",
+    "color_dark_pink"],
+
+    "Texture": "Mods/wildflour.ateliercrops/ObjectsFG",
+    "SpriteIndex": 112
+},
+"wildflour.ateliercrops_dawn_trumpet": {
+    "Name": "wildflour.ateliercrops_dawn_trumpet",
+    "DisplayName": "{{i18n:ateliercrops_dawn_trumpet.name}}",
+    "Description": "{{i18n:ateliercrops_dawn_trumpet.description}}",
+    "Type": "Greens",          
+    "Category": -81,
+    "Edibility": -15,
+    "Price": 120,
+
+    "ContextTags":
+    ["faeriegarden_forage",
+    "forage_item",
+    "mushroom_item",
+    "color_salmon"],
+
+    "Texture": "Mods/wildflour.ateliercrops/ObjectsFG",
+    "SpriteIndex": 114
+},
+"wildflour.ateliercrops_dusk_cap": {
+    "Name": "wildflour.ateliercrops_dusk_cap",
+    "DisplayName": "{{i18n:ateliercrops_dusk_cap.name}}",
+    "Description": "{{i18n:ateliercrops_dusk_cap.description}}",
+    "Type": "Greens",          
+    "Category": -81,
+    "Edibility": -15,
+    "Price": 140,
+
+    "ContextTags":
+    ["faeriegarden_forage",
+    "forage_item",
+    "mushroom_item",
+    "color_black"],
+
+    "Texture": "Mods/wildflour.ateliercrops/ObjectsFG",
+    "SpriteIndex": 113
+},
+"wildflour.ateliercrops_faerie_helmets": {
+    "Name": "wildflour.ateliercrops_faerie_helmets",
+    "DisplayName": "{{i18n:ateliercrops_faerie_helmets.name}}",
+    "Description": "{{i18n:ateliercrops_faerie_helmets.description}}",
+    "Type": "Greens",          
+    "Category": -81,
+    "Edibility": -15,
+    "Price": 125,
+
+    "ContextTags":
+    ["faeriegarden_forage",
+    "forage_item",
+    "mushroom_item",
+    "color_light_green"],
+
+    "Texture": "Mods/wildflour.ateliercrops/ObjectsFG",
+    "SpriteIndex": 116
+},
+"wildflour.ateliercrops_giant_amanita": {
+    "Name": "wildflour.ateliercrops_giant_amanita",
+    "DisplayName": "{{i18n:ateliercrops_giant_amanita.name}}",
+    "Description": "{{i18n:ateliercrops_giant_amanita.description}}",
+    "Type": "Greens",          
+    "Category": -81,
+    "Edibility": -15,
+    "Price": 185,
+
+    "ContextTags":
+    ["faeriegarden_forage",
+    "forage_item",
+    "mushroom_item",
+    "color_red"],
+
+    "Texture": "Mods/wildflour.ateliercrops/ObjectsFG",
+    "SpriteIndex": 117
+},
+"wildflour.ateliercrops_amanita_cluster": {
+    "Name": "wildflour.ateliercrops_amanita_cluster",
+    "DisplayName": "{{i18n:ateliercrops_amanita_cluster.name}}",
+    "Description": "{{i18n:ateliercrops_amanita_cluster.description}}",
+    "Type": "Greens",          
+    "Category": -81,
+    "Edibility": -15,
+    "Price": 185,
+
+    "ContextTags":
+    ["faeriegarden_forage",
+    "forage_item",
+    "mushroom_item",
+    "color_red"],
+
+    "Texture": "Mods/wildflour.ateliercrops/ObjectsFG",
+    "SpriteIndex": 123
+},
+"wildflour.ateliercrops_golden_aura": {
+    "Name": "wildflour.ateliercrops_golden_aura",
+    "DisplayName": "{{i18n:ateliercrops_golden_aura.name}}",
+    "Description": "{{i18n:ateliercrops_golden_aura.description}}",
+    "Type": "Greens",          
+    "Category": -81,
+    "Edibility": -15,
+    "Price": 195,
+
+    "ContextTags":
+    ["faeriegarden_forage",
+    "forage_item",
+    "mushroom_item",
+    "color_gold"],
+
+    "Texture": "Mods/wildflour.ateliercrops/ObjectsFG",
+    "SpriteIndex": 118
+},
+"wildflour.ateliercrops_moon_mushroom": {
+    "Name": "wildflour.ateliercrops_moon_mushroom",
+    "DisplayName": "{{i18n:ateliercrops_moon_mushroom.name}}",
+    "Description": "{{i18n:ateliercrops_moon_mushroom.description}}",
+    "Type": "Greens",          
+    "Category": -81,
+    "Edibility": -15,
+    "Price": 195,
+
+    "ContextTags":
+    ["faeriegarden_forage",
+    "forage_item",
+    "mushroom_item",
+    "color_white"],
+
+    "Texture": "Mods/wildflour.ateliercrops/ObjectsFG",
+    "SpriteIndex": 121
+},
+"wildflour.ateliercrops_gloomy_blewit": {
+    "Name": "wildflour.ateliercrops_gloomy_blewit",
+    "DisplayName": "{{i18n:ateliercrops_gloomy_blewit.name}}",
+    "Description": "{{i18n:ateliercrops_gloomy_blewit.description}}",
+    "Type": "Greens",          
+    "Category": -81,
+    "Edibility": -15,
+    "Price": 65,
+
+    "ContextTags":
+    ["faeriegarden_forage",
+    "forage_item",
+    "mushroom_item",
+    "color_dark_blue"],
+
+    "Texture": "Mods/wildflour.ateliercrops/ObjectsFG",
+    "SpriteIndex": 115
+},
+"wildflour.ateliercrops_tiny_angels": {
+    "Name": "wildflour.ateliercrops_tiny_angels",
+    "DisplayName": "{{i18n:ateliercrops_tiny_angels.name}}",
+    "Description": "{{i18n:ateliercrops_tiny_angels.description}}",
+    "Type": "Greens",          
+    "Category": -81,
+    "Edibility": -15,
+    "Price": 65,
+
+    "ContextTags":
+    ["faeriegarden_forage",
+    "forage_item",
+    "mushroom_item",
+    "color_white"],
+
+    "Texture": "Mods/wildflour.ateliercrops/ObjectsFG",
+    "SpriteIndex": 122
+},
+"wildflour.ateliercrops_peach_parasol": {
+    "Name": "wildflour.ateliercrops_peach_parasol",
+    "DisplayName": "{{i18n:ateliercrops_peach_parasol.name}}",
+    "Description": "{{i18n:ateliercrops_peach_parasol.description}}",
+    "Type": "Greens",          
+    "Category": -81,
+    "Edibility": -15,
+    "Price": 80,
+
+    "ContextTags":
+    ["faeriegarden_forage",
+    "forage_item",
+    "mushroom_item",
+    "color_pink"],
+
+    "Texture": "Mods/wildflour.ateliercrops/ObjectsFG",
+    "SpriteIndex": 120
+},
+"wildflour.ateliercrops_verdigris_agaric": {
+    "Name": "wildflour.ateliercrops_verdigris_agaric",
+    "DisplayName": "{{i18n:ateliercrops_verdigris_agaric.name}}",
+    "Description": "{{i18n:ateliercrops_verdigris_agaric.description}}",
+    "Type": "Greens",          
+    "Category": -81,
+    "Edibility": -15,
+    "Price": 195,
+
+    "ContextTags":
+    ["faeriegarden_forage",
+    "forage_item",
+    "mushroom_item",
+    "color_teal"],
+
+    "Texture": "Mods/wildflour.ateliercrops/ObjectsFG",
+    "SpriteIndex": 119
+},
+
+}
+},
+
+/////////////
+// FORAGE ///
+/////////////
+
+{
+"LogName":"Add Faerie Garden Forage Items",
+"Action": "EditData",
+"Target": "Data/Objects",
+"Entries": {
+"wildflour.ateliercrops_fire_dragon_scale": {
+    "Name": "wildflour.ateliercrops_fire_dragon_scale",
+    "DisplayName": "{{i18n:ateliercrops_fire_dragon_scale.name}}",
+    "Description": "{{i18n:ateliercrops_fire_dragon_scale.description}}",
+    "Type": "Greens",          
+    "Category": -81,
+    "Edibility": -100,
+    "Price": 135,
+
+    "ContextTags":
+    ["faeriegarden_forage",
+    "forage_item",
+    "herb_item",
+    "color_purple"],
+
+    "Texture": "Mods/wildflour.ateliercrops/ObjectsFG",
+    "SpriteIndex": 97
+},
+"wildflour.ateliercrops_ice_dragon_scale": {
+    "Name": "wildflour.ateliercrops_ice_dragon_scale",
+    "DisplayName": "{{i18n:ateliercrops_ice_dragon_scale.name}}",
+    "Description": "{{i18n:ateliercrops_ice_dragon_scale.description}}",
+    "Type": "Greens",          
+    "Category": -81,
+    "Edibility": -100,
+    "Price": 135,
+
+    "ContextTags":
+    ["faeriegarden_forage",
+    "forage_item",
+    "herb_item",
+    "color_light_green"],
+
+    "Texture": "Mods/wildflour.ateliercrops/ObjectsFG",
+    "SpriteIndex": 98
+},
+"wildflour.ateliercrops_shooting_star": {
+    "Name": "wildflour.ateliercrops_shooting_star",
+    "DisplayName": "{{i18n:ateliercrops_shooting_star.name}}",
+    "Description": "{{i18n:ateliercrops_shooting_star.description}}",
+    "Type": "Greens",          
+    "Category": -81,
+    "Edibility": -100,
+    "Price": 275,
+
+    "ContextTags":
+    ["faeriegarden_forage",
+    "forage_item",
+    "herb_item",
+    "color_light_blue"],
+
+    "Texture": "Mods/wildflour.ateliercrops/ObjectsFG",
+    "SpriteIndex": 99
+},
+"wildflour.ateliercrops_unicorn_horn": {
+    "Name": "wildflour.ateliercrops_unicorn_horn",
+    "DisplayName": "{{i18n:ateliercrops_unicorn_horn.name}}",
+    "Description": "{{i18n:ateliercrops_unicorn_horn.description}}",
+    "Type": "Greens",          
+    "Category": -81,
+    "Edibility": -100,
+    "Price": 370,
+
+    "ContextTags":
+    ["faeriegarden_forage",
+    "forage_item",
+    "herb_item",
+    "color_light_blue"],
+
+    "Texture": "Mods/wildflour.ateliercrops/ObjectsFG",
+    "SpriteIndex": 100
+},
+"wildflour.ateliercrops_clover": {
+    "Name": "wildflour.ateliercrops_clover",
+    "DisplayName": "{{i18n:ateliercrops_clover.name}}",
+    "Description": "{{i18n:ateliercrops_clover.description}}",
+    "Type": "Greens",          
+    "Category": -81,
+    "Edibility": 8,
+    "Price": 55,
+
+    "ContextTags":
+    ["faeriegarden_forage",
+    "forage_item",
+    "color_light_green"],
+
+    "Texture": "Mods/wildflour.ateliercrops/ObjectsFG",
+    "SpriteIndex": 96
+},
+"wildflour.ateliercrops_crow_feather": {
+    "Name": "wildflour.ateliercrops_crow_feather",
+    "DisplayName": "{{i18n:ateliercrops_crow_feather.name}}",
+    "Description": "{{i18n:ateliercrops_crow_feather.description}}",
+    "Type": "Greens",          
+    "Category": -81,
+    "Edibility": -100,
+    "Price": 75,
+
+    "ContextTags":
+    ["faeriegarden_forage",
+    "forage_item",
+    "feather_item",
+    "color_grey"],
+
+    "Texture": "Mods/wildflour.ateliercrops/ObjectsFG",
+    "SpriteIndex": 102
+},
+"wildflour.ateliercrops_lovebird_feather": {
+    "Name": "wildflour.ateliercrops_lovebird_feather",
+    "DisplayName": "{{i18n:ateliercrops_lovebird_feather.name}}",
+    "Description": "{{i18n:ateliercrops_lovebird_feather.description}}",
+    "Type": "Greens",          
+    "Category": -81,
+    "Edibility": -100,
+    "Price": 80,
+
+    "ContextTags":
+    ["faeriegarden_forage",
+    "forage_item",
+    "feather_item",
+    "color_light_green"],
+
+    "Texture": "Mods/wildflour.ateliercrops/ObjectsFG",
+    "SpriteIndex": 103
+},
+"wildflour.ateliercrops_bluebird_feather": {
+    "Name": "wildflour.ateliercrops_bluebird_feather",
+    "DisplayName": "{{i18n:ateliercrops_bluebird_feather.name}}",
+    "Description": "{{i18n:ateliercrops_bluebird_feather.description}}",
+    "Type": "Greens",          
+    "Category": -81,
+    "Edibility": -100,
+    "Price": 65,
+
+    "ContextTags":
+    ["faeriegarden_forage",
+    "forage_item",
+    "feather_item",
+    "color_light_blue"],
+
+    "Texture": "Mods/wildflour.ateliercrops/ObjectsFG",
+    "SpriteIndex": 104
+},
+"wildflour.ateliercrops_phoenix_feather": {
+    "Name": "wildflour.ateliercrops_phoenix_feather",
+    "DisplayName": "{{i18n:ateliercrops_phoenix_feather.name}}",
+    "Description": "{{i18n:ateliercrops_phoenix_feather.description}}",
+    "Type": "Greens",          
+    "Category": -81,
+    "Edibility": -100,
+    "Price": 225,
+
+    "ContextTags":
+    ["faeriegarden_forage",
+    "forage_item",
+    "feather_item",
+    "color_red"],
+
+    "Texture": "Mods/wildflour.ateliercrops/ObjectsFG",
+    "SpriteIndex": 105
+},
+"wildflour.ateliercrops_raven_feather": {
+    "Name": "wildflour.ateliercrops_raven_feather",
+    "DisplayName": "{{i18n:ateliercrops_raven_feather.name}}",
+    "Description": "{{i18n:ateliercrops_raven_feather.description}}",
+    "Type": "Greens",          
+    "Category": -81,
+    "Edibility": -100,
+    "Price": 100,
+
+    "ContextTags":
+    ["faeriegarden_forage",
+    "forage_item",
+    "feather_item",
+    "color_black"],
+
+    "Texture": "Mods/wildflour.ateliercrops/ObjectsFG",
+    "SpriteIndex": 106
+},
+"wildflour.ateliercrops_rosefinch_feather": {
+    "Name": "wildflour.ateliercrops_rosefinch_feather",
+    "DisplayName": "{{i18n:ateliercrops_rosefinch_feather.name}}",
+    "Description": "{{i18n:ateliercrops_rosefinch_feather.description}}",
+    "Type": "Greens",          
+    "Category": -81,
+    "Edibility": -100,
+    "Price": 105,
+
+    "ContextTags":
+    ["faeriegarden_forage",
+    "forage_item",
+    "feather_item",
+    "color_light_pink"],
+
+    "Texture": "Mods/wildflour.ateliercrops/ObjectsFG",
+    "SpriteIndex": 107
+},
+"wildflour.ateliercrops_owl_feather": {
+    "Name": "wildflour.ateliercrops_owl_feather",
+    "DisplayName": "{{i18n:ateliercrops_owl_feather.name}}",
+    "Description": "{{i18n:ateliercrops_owl_feather.description}}",
+    "Type": "Greens",          
+    "Category": -81,
+    "Edibility": -100,
+    "Price": 95,
+
+    "ContextTags":
+    ["faeriegarden_forage",
+    "forage_item",
+    "feather_item",
+    "color_white"],
+
+    "Texture": "Mods/wildflour.ateliercrops/ObjectsFG",
+    "SpriteIndex": 108
+},
+"wildflour.ateliercrops_starling_feather": {
+    "Name": "wildflour.ateliercrops_starling_feather",
+    "DisplayName": "{{i18n:ateliercrops_starling_feather.name}}",
+    "Description": "{{i18n:ateliercrops_starling_feather.description}}",
+    "Type": "Greens",          
+    "Category": -81,
+    "Edibility": -100,
+    "Price": 225,
+
+    "ContextTags":
+    ["faeriegarden_forage",
+    "forage_item",
+    "feather_item",
+    "color_violet"],
+
+    "Texture": "Mods/wildflour.ateliercrops/ObjectsFG",
+    "SpriteIndex": 109
+}
+
+
+}
+}
+
+
+
+    ]
+}

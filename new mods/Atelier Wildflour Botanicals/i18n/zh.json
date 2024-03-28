@@ -1,0 +1,222 @@
+{
+
+//MACHINES
+
+	"atelierbotanicals_IncenseStation.name": "草药师工作站",
+	"atelierbotanicals_IncenseStation.description": "草药师的工作站；可以将花和草药制成焚香。",
+
+
+///////////////////////////
+// MACHINE NOTIFICATIONS //
+///////////////////////////
+
+	"atelierbotanicals_IncenseStation_InvalidCount.message": "需要 3 朵花",
+	"atelierbotanicals_IncenseStation_InvalidItem.message": "无法制作",	
+
+//DRIED ITEMS
+
+	"atelierbotanicals_dried_geranium.name": "干燥天竺葵",
+	"atelierbotanicals_dried_geranium.description": "一束干燥花，可以在这种状态下保存数个月甚至数年。",
+
+	"atelierbotanicals_dried_snapdragon.name": "干燥金鱼草",
+	"atelierbotanicals_dried_snapdragon.description": "一束干燥花，可以在这种状态下保存数个月甚至数年。",
+
+	"atelierbotanicals_dried_avalune.name": "干燥鲁冰花",
+	"atelierbotanicals_dried_avalune.description": "一束干燥花，可以在这种状态下保存数个月甚至数年。",
+
+	"atelierbotanicals_dried_bluechiffon.name": "干燥木槿",
+	"atelierbotanicals_dried_bluechiffon.description": "一束干燥花，可以在这种状态下保存数个月甚至数年。",
+
+	"atelierbotanicals_dried_chamomile.name": "干燥洋甘菊",
+	"atelierbotanicals_dried_chamomile.description": "一束干燥花，可以在这种状态下保存数个月甚至数年。",
+
+	"atelierbotanicals_dried_daisy.name": "干燥雏菊",
+	"atelierbotanicals_dried_daisy.description": "一束干燥花，可以在这种状态下保存数个月甚至数年。",
+
+	"atelierbotanicals_dried_dawn_lily.name": "干燥晨曦百合",
+	"atelierbotanicals_dried_dawn_lily.description": "一束干燥花，可以在这种状态下保存数个月甚至数年。",
+
+	"atelierbotanicals_dried_dusk_lily.name": "干燥薄暮百合",
+	"atelierbotanicals_dried_dusk_lily.description": "一束干燥花，可以在这种状态下保存数个月甚至数年。",
+
+	"atelierbotanicals_dried_puffball.name": "干燥蒲公英",
+	"atelierbotanicals_dried_puffball.description": "一束干燥花，可以在这种状态下保存数个月甚至数年。",
+
+	"atelierbotanicals_dried_jasmine.name": "干燥茉莉",
+	"atelierbotanicals_dried_jasmine.description": "一束干燥花，可以在这种状态下保存数个月甚至数年。",
+
+	"atelierbotanicals_dried_lavender.name": "干燥薰衣草",
+	"atelierbotanicals_dried_lavender.description": "一束干燥花，可以在这种状态下保存数个月甚至数年。",
+
+	"atelierbotanicals_dried_mysteria.name": "干燥谜藤花",
+	"atelierbotanicals_dried_mysteria.description": "一束干燥花，可以在这种状态下保存数个月甚至数年。",
+
+	"atelierbotanicals_dried_fae_wings.name": "干燥妖精翅膀",
+	"atelierbotanicals_dried_fae_wings.description": "一束干燥花，可以在这种状态下保存数个月甚至数年。",
+
+	"atelierbotanicals_dried_violet.name": "干燥紫罗兰",
+	"atelierbotanicals_dried_violet.description": "一束干燥花，可以在这种状态下保存数个月甚至数年。",
+
+	"atelierbotanicals_dried_moon_maiden.name": "干燥月下美人",
+	"atelierbotanicals_dried_moon_maiden.description": "一束干燥花，可以在这种状态下保存数个月甚至数年。",
+
+	"atelierbotanicals_dried_mugwort.name": "干燥北艾",
+	"atelierbotanicals_dried_mugwort.description": "一束干燥花，可以在这种状态下保存数个月甚至数年。",
+
+	"atelierbotanicals_dried_pixiesbreath.name": "干燥满天精灵",
+	"atelierbotanicals_dried_pixiesbreath.description": "一束干燥花，可以在这种状态下保存数个月甚至数年。",
+
+	"atelierbotanicals_dried_primrose.name": "干燥樱草",
+	"atelierbotanicals_dried_primrose.description": "一束干燥花，可以在这种状态下保存数个月甚至数年。",
+
+	"atelierbotanicals_dried_poppy.name": "干燥虞美人",
+	"atelierbotanicals_dried_poppy.description": "一束干燥花，可以在这种状态下保存数个月甚至数年。",
+
+	"atelierbotanicals_dried_thistle.name": "干燥蓟",
+	"atelierbotanicals_dried_thistle.description": "一束干燥花，可以在这种状态下保存数个月甚至数年。",
+
+	"atelierbotanicals_dried_valerian.name": "干燥欧缅草",
+	"atelierbotanicals_dried_valerian.description": "一束干燥花，可以在这种状态下保存数个月甚至数年。",
+
+	"atelierbotanicals_dried_yarrow.name": "干燥洋蓍草",
+	"atelierbotanicals_dried_yarrow.description": "一束干燥花，可以在这种状态下保存数个月甚至数年。",
+
+//DRIED MUSHROOMS
+
+	"atelierbotanicals_dried_amanita.name": "干燥毒蝇伞",
+	"atelierbotanicals_dried_amanita.description": "一罐干燥毒蝇伞，可以在这种状态下保存数个月甚至数年。",
+
+	"atelierbotanicals_dried_chanterelles.name": "干燥鸡油菌",
+	"atelierbotanicals_dried_chanterelles.description": "一罐干燥鸡油菌，可以在这种状态下保存数个月甚至数年。",
+
+	"atelierbotanicals_dried_chickenofthewoods.name": "干燥硫磺菌",
+	"atelierbotanicals_dried_chickenofthewoods.description": "一罐干燥硫磺菌，可以在这种状态下保存数个月甚至数年。",
+
+	"atelierbotanicals_dried_dawns_trumpet.name": "干燥晨曦杏鲍菇",
+	"atelierbotanicals_dried_dawns_trumpet.description": "一罐干燥晨曦杏鲍菇，可以在这种状态下保存数个月甚至数年。",
+
+	"atelierbotanicals_dried_dusk_cap.name": "干燥薄暮鹅膏菌",
+	"atelierbotanicals_dried_dusk_cap.description": "一罐干燥薄暮鹅膏菌，可以在这种状态下保存数个月甚至数年。",
+
+	"atelierbotanicals_dried_faerie_helmets.name": "干燥小鬼伞",
+	"atelierbotanicals_dried_faerie_helmets.description": "一罐干燥小鬼伞，可以在这种状态下保存数个月甚至数年。",
+
+	"atelierbotanicals_dried_golden_aura.name": "干燥黄金光环",
+	"atelierbotanicals_dried_golden_aura.description": "一罐干燥黄金光环，可以在这种状态下保存数个月甚至数年。",
+
+	"atelierbotanicals_dried_honeyfungus.name": "干燥蜜环菌",
+	"atelierbotanicals_dried_honeyfungus.description": "一罐干燥蜜环菌，可以在这种状态下保存数个月甚至数年。",
+
+	"atelierbotanicals_dried_meringueshrooms.name": "干燥蛋白霜蘑菇",
+	"atelierbotanicals_dried_meringueshrooms.description": "一罐干燥蛋白霜蘑菇，可以在这种状态下保存数个月甚至数年。",
+
+	"atelierbotanicals_dried_milkshrooms.name": "干燥印度丽蘑",
+	"atelierbotanicals_dried_milkshrooms.description": "一罐干燥印度丽蘑，可以在这种状态下保存数个月甚至数年。",
+
+	"atelierbotanicals_dried_peach_parasol.name": "干燥蜜桃雨伞菇",
+	"atelierbotanicals_dried_peach_parasol.description": "一罐干燥蜜桃雨伞菇，可以在这种状态下保存数个月甚至数年。",
+
+	"atelierbotanicals_dried_red_mushrooms.name": "干燥红蘑菇",
+	"atelierbotanicals_dried_red_mushrooms.description": "一罐干燥红蘑菇，可以在这种状态下保存数个月甚至数年。",
+
+	"atelierbotanicals_dried_slime_caps.name": "干燥松树伞",
+	"atelierbotanicals_dried_slime_caps.description": "一罐干燥潮红松树伞，可以在这种状态下保存数个月甚至数年。",
+
+	"atelierbotanicals_dried_verdigris_agaric.name": "干燥铜绿伞菌",
+	"atelierbotanicals_dried_verdigris_agaric.description": "一罐干燥铜绿伞菌，可以在这种状态下保存数个月甚至数年。",
+
+	"atelierbotanicals_dried_wheatshrooms.name": "干燥麦仁菌",
+	"atelierbotanicals_dried_wheatshrooms.description": "一罐干燥麦仁菌，可以在这种状态下保存数个月甚至数年。",
+	
+//INCENSE
+
+	"atelierbotanicals_autumn_incense.name":"劲秋焚香",
+	"atelierbotanicals_autumn_incense.description":"焚烧以用于芳香疗法与冥想的材料；此款以秋日花朵制成，用以迎接换季。",
+
+	"atelierbotanicals_chamomile_incense.name":"欢悦焚香",
+	"atelierbotanicals_chamomile_incense.description":"焚烧以用于芳香疗法与冥想的材料；此款以洋甘菊制成，象征和平与和谐。",
+
+	"atelierbotanicals_chiffon_incense.name":"和谐焚香",
+	"atelierbotanicals_chiffon_incense.description":"焚烧以用于芳香疗法与冥想的材料；此款以蓝雪纺制成，象征和谐与和平。",
+
+	"atelierbotanicals_daisy_incense.name":"希冀焚香",
+	"atelierbotanicals_daisy_incense.description":"焚烧以用于芳香疗法与冥想的材料；此款以天竺葵制成，象征希望与护佑。",
+
+	"atelierbotanicals_elder_incense.name":"耆老焚香",
+	"atelierbotanicals_elder_incense.description":"焚烧以用于芳香疗法与冥想的材料；此款以接骨木花制成，象征净化与纯洁。",
+
+	"atelierbotanicals_jasmine_incense.name":"冥想焚香",
+	"atelierbotanicals_jasmine_incense.description":"焚烧以用于芳香疗法与冥想的材料；此款以茉莉制成，象征和谐与灵性。",
+
+	"atelierbotanicals_lavender_incense.name":"松缓焚香",
+	"atelierbotanicals_lavender_incense.description":"焚烧以用于芳香疗法与冥想的材料；此款以薰衣草制成，具有放松的疗效。",
+
+	"atelierbotanicals_lily_incense.name":"护佑焚香",
+	"atelierbotanicals_lily_incense.description":"焚烧以用于芳香疗法与冥想的材料；此款以百合制成，象征挡咒。",
+
+	"atelierbotanicals_mandrake_incense.name":"曼德拉焚香",
+	"atelierbotanicals_mandrake_incense.description":"焚烧以用于芳香疗法与冥想的材料；此款以曼德拉草制成，具有魔法特性。",
+
+	"atelierbotanicals_mugwort_incense.name":"预见焚香",
+	"atelierbotanicals_mugwort_incense.description":"焚烧以用于芳香疗法与冥想的材料；此款以北艾制成，具有魔法特性。",
+
+	"atelierbotanicals_pixie_incense.name":"精灵焚香",
+	"atelierbotanicals_pixie_incense.description":"焚烧以用于芳香疗法与冥想的材料；此款以满天精灵制成，象征创造力。",
+
+	"atelierbotanicals_primrose_incense.name":"疗愈焚香",
+	"atelierbotanicals_primrose_incense.description":"焚烧以用于芳香疗法与冥想的材料；此款以粉晶樱草制成，象征积极乐观。",
+
+	"atelierbotanicals_mysteria_incense.name":"秘密焚香",
+	"atelierbotanicals_mysteria_incense.description":"焚烧以用于芳香疗法与冥想的材料；此款以稀有谜藤花制成，象征繁荣。",
+
+	"atelierbotanicals_spring_incense.name":"芳春焚香",
+	"atelierbotanicals_spring_incense.description":"焚烧以用于芳香疗法与冥想的材料；此款以春日花朵制成，用以迎接新年。",
+
+	"atelierbotanicals_summer_incense.name":"盛夏焚香",
+	"atelierbotanicals_summer_incense.description":"焚烧以用于芳香疗法与冥想的材料；此款以夏日花朵制成，用以迎接换季。",
+
+	"atelierbotanicals_thistle_incense.name":"辉耀焚香",
+	"atelierbotanicals_thistle_incense.description":"焚烧以用于芳香疗法与冥想的材料；此款以蓟制成，象征护佑与繁荣。",
+
+	"atelierbotanicals_valerian_incense.name":"美梦焚香",
+	"atelierbotanicals_valerian_incense.description":"焚烧以用于芳香疗法与冥想的材料；此款以欧缅草制成，具有镇静的疗效。",
+
+	"atelierbotanicals_vanilla_incense.name":"归根焚香",
+	"atelierbotanicals_vanilla_incense.description":"焚烧以用于芳香疗法与冥想的材料；此款以香草制成，具有放松的疗效。",
+
+	"atelierbotanicals_violet_incense.name":"优美焚香",
+	"atelierbotanicals_violet_incense.description":"焚烧以用于芳香疗法与冥想的材料；此款以紫罗兰制成，象征爱、丰饶与富足。",
+
+	"atelierbotanicals_winter_incense.name":"凛冬焚香",
+	"atelierbotanicals_winter_incense.description":"焚烧以用于芳香疗法与冥想的材料；此款以野生冬季番红花制成，用以迎接一年的结束。",
+
+	"atelierbotanicals_yarrow_incense.name":"无畏焚香",
+	"atelierbotanicals_yarrow_incense.description":"焚烧以用于芳香疗法与冥想的材料；此款以洋蓍草制成，象征勇敢与爱。",
+
+//////////
+// MAIL //
+//////////
+
+	"atelierbotanicals_IncenseStationRecipe.name":"焚香柜",
+	"atelierbotanicals_IncenseStationRecipe.text":"@，^^希望你最近过得顺利！我知道你觅食收获了很多花，但你有想过把他们做成焚香吗？如果想享受它们的香味与灵气好几个月，那这是个很棒的方法！^^艾米丽",
+
+	"atelierbotanicals_jas_gift.name":"蓬松花朵！",
+	"atelierbotanicals_jas_gift.text":"@，^^我在跳绳时发现这种蓬蓬的花朵！是不是很可爱？我觉得应该送给你因为我们是朋友了，要好好保存哦！^^贾斯",
+
+	"atelierbotanicals_leah_gift.name":"远古草药",
+	"atelierbotanicals_leah_gift.text":"@，^^我在森林觅食时发现一些野生洋蓍草！我不确定你知不知道，但这种植物已经被用在医药、宗教，甚至是巫术好几个世纪了！我很好奇森林里还有什么植物？^^莉亚",
+
+	"atelierbotanicals_abigail_gift.name":"你看我在森林找到什么！",
+	"atelierbotanicals_abigail_gift.text":"@，^^你看这蘑菇有多大！超扯的对吧！我不觉得自己应该吃了它……但要是留着它一定哪天就吞下去了，所以我决定把它送给你。好好享受吧！^^阿比盖尔",
+
+
+
+
+
+
+
+
+
+
+
+}

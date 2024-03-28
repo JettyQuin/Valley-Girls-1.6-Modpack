@@ -1,0 +1,297 @@
+{
+
+//MACHINES
+
+"atelierjuicebar_JuiceStation.name":"Extracteur de jus",
+"atelierjuicebar_JuiceStation.description":"Transforme des fruits en jus et autres boissons.",
+
+"atelierjuicebar_BobaStation.name":"Machine à bubble tea",
+"atelierjuicebar_BobaStation.description":"Pour préparer du thé aux perles.",
+
+
+//BOBA
+
+"atelierjuicebar_banana_boba.name": "Bubble tea à la banane",
+"atelierjuicebar_banana_boba.description": "Une boisson rigolote composée de thé glacé à la banane, de lait et de perles de tapioca !",
+
+"atelierjuicebar_blacktea_boba.name": "Bubble tea",
+"atelierjuicebar_blacktea_boba.description": "Une boisson rigolote composée de thé glacé, de lait et de perles de tapioca !",
+
+"atelierjuicebar_blueberry_boba.name": "Bubble tea à la myrtille",
+"atelierjuicebar_blueberry_boba.description": "Une boisson rigolote composée de thé glacé aux myrtilles, de lait et de perles de tapioca !",
+
+"atelierjuicebar_brownsugar_boba.name": "Bubble tea à la cassonnade",
+"atelierjuicebar_brownsugar_boba.description": "Une boisson rigolote composée de thé glacé très sucré, de lait et de perles de tapioca !",
+
+"atelierjuicebar_caramel_boba.name": "Bubble tea au caramel",
+"atelierjuicebar_caramel_boba.description": "Une boisson rigolote composée de thé glacé au caramel, de lait et de perles de tapioca !",
+
+"atelierjuicebar_coconut_boba.name": "Bubble tea à la noix de coco",
+"atelierjuicebar_coconut_boba.description": "Une boisson rigolote composée de thé glacé à la noix de coco, de lait et de perles de tapioca !",
+
+"atelierjuicebar_coffee_boba.name": "Bubble tea au café",
+"atelierjuicebar_coffee_boba.description": "Une boisson rigolote composée de thé glacé au café, de lait et de perles de tapioca !",
+
+"atelierjuicebar_jasmine_boba.name": "Bubble tea au jasmin",
+"atelierjuicebar_jasmine_boba.description": "Une boisson rigolote composée de thé au jasmin glacé, de lait et de perles de tapioca !",
+
+"atelierjuicebar_mango_boba.name": "Bubble tea à la mangue",
+"atelierjuicebar_mango_boba.description": "Une boisson rigolote composée de thé glacé à la mangue, de lait et de perles de tapioca !",
+
+"atelierjuicebar_matcha_boba.name": "Bubble tea matcha",
+"atelierjuicebar_matcha_boba.description": "Une boisson rigolote composée de thé matcha glacé, de lait et de perles de tapioca !",
+
+"atelierjuicebar_melon_boba.name": "Bubble tea au melon",
+"atelierjuicebar_melon_boba.description": "Une boisson rigolote composée de thé glacé au melon, de lait et de perles de tapioca !",
+
+"atelierjuicebar_oolong_boba.name": "Bubble tea oolong",
+"atelierjuicebar_oolong_boba.description": "Une boisson rigolote composée de thé oolong glacé, de lait et de perles de tapioca !",
+
+"atelierjuicebar_peach_boba.name": "Bubble tea à la pêche",
+"atelierjuicebar_peach_boba.description": "Une boisson rigolote composée de thé glacé à la pêche, de lait et de perles de tapioca !",
+
+"atelierjuicebar_rose_boba.name": "Bubble tea à la rose",
+"atelierjuicebar_rose_boba.description": "Une boisson rigolote composée de thé glacé à la rose, de lait et de perles de tapioca !",
+
+"atelierjuicebar_strawberry_boba.name": "Bubble tea à la fraise",
+"atelierjuicebar_strawberry_boba.description": "Une boisson rigolote composée de thé glacé à la fraise, de lait et de perles de tapioca !",
+
+"atelierjuicebar_taro_boba.name": "Bubble tea au taro",
+"atelierjuicebar_taro_boba.description": "Une boisson rigolote composée de thé glacé au taro, de lait et de perles de tapioca !",
+
+"atelierjuicebar_thai_boba.name": "Bubble tea thaï",
+"atelierjuicebar_thai_boba.description": "Une boisson rigolote composée de thé glacé aux épices, de lait de coco et de perles de tapioca !",
+
+"atelierjuicebar_vanilla_boba.name": "Bubble tea à la vanille",
+"atelierjuicebar_vanilla_boba.description": "Une boisson rigolote composée de thé glacé à la vanille, de lait et de perles de tapioca !",
+
+//FRUIT JUICES
+
+"atelierjuicebar_apple_juice.name": "Jus pom'pomme",
+"atelierjuicebar_apple_juice.description": "Fait avec des pommes fraîchement cueillies !",
+
+"atelierjuicebar_berry_juice.name": "Jus baie'xquis",
+"atelierjuicebar_berry_juice.description": "Fait avec des baies cueillies à la ferme !",
+
+"atelierjuicebar_carrot_juice.name": "Jus de carotte qui croque",
+"atelierjuicebar_carrot_juice.description": "Fait avec des carottes de la ferme !",
+
+"atelierjuicebar_grape_juice.name": "Jus de raisin frais",
+"atelierjuicebar_grape_juice.description": "Fait avec des raisins de la ferme !",
+
+"atelierjuicebar_mix_juice.name": "Jus tutti frutti",
+"atelierjuicebar_mix_juice.description": "Fait avec des fruits frais de la ferme !",
+
+"atelierjuicebar_orange_juice.name": "Jus d'orange pour lève-tôt",
+"atelierjuicebar_orange_juice.description": "Fait avec des oranges de la ferme !",
+
+"atelierjuicebar_pomegranate_juice.name": "Jus de grenade frais",
+"atelierjuicebar_pomegranate_juice.description": "Fait avec des grenades de la ferme !",
+
+"atelierjuicebar_tropical_juice.name": "Jus des tropiques",
+"atelierjuicebar_tropical_juice.description": "Fait avec des fruits de l'Île Gingembre !",
+
+"atelierjuicebar_fruit_punch.name": "Punch aux fruits",
+"atelierjuicebar_fruit_punch.description": "Fait avec des fruits frais de la ferme !",
+
+// FRUIT JUICES
+
+"atelierjuicebar_amber_juice.name": "Nectar de lune d'ambre",
+"atelierjuicebar_amber_juice.description": "Un jus tiré d'un raisin magique, le Gouttelune.",
+
+"atelierjuicebar_jade_juice.name": "Nectar de lune de jade",
+"atelierjuicebar_jade_juice.description": "Un jus tiré d'un raisin magique, le Gouttelune.",
+
+"atelierjuicebar_lapis_juice.name": "Nectar de lune de lapis",
+"atelierjuicebar_lapis_juice.description": "Un jus tiré d'un raisin magique, le Gouttelune.",
+
+"atelierjuicebar_pearl_juice.name": "Nectar de lune de perle",
+"atelierjuicebar_pearl_juice.description": "Un jus tiré d'un raisin magique, le Gouttelune.",
+
+"atelierjuicebar_apple_elixir.name": "Élixir de pomme poétique",
+"atelierjuicebar_apple_elixir.description": "Le jus de pommes mystiques fraîchement pressées.",
+
+"atelierjuicebar_apricot_elixir.name": "Élixir d'abricot abracadabrant",
+"atelierjuicebar_apricot_elixir.description": "Le jus d'abricots mystiques fraîchement pressés.",
+
+"atelierjuicebar_cherry_elixir.name": "Élixir de cerise splendide",
+"atelierjuicebar_cherry_elixir.description": "Le jus de cerises mystiques fraîchement pressées.",
+
+"atelierjuicebar_mango_elixir.name": "Élixir de mangue magnifique",
+"atelierjuicebar_mango_elixir.description": "Le jus de mangues mystiques fraîchement pressées.",
+
+"atelierjuicebar_orange_elixir.name": "Élixir d'orange onirique",
+"atelierjuicebar_orange_elixir.description": "Le jus d'oranges mystiques fraîchement pressées.",
+
+"atelierjuicebar_peach_elixir.name": "Élixir de pêche prospère",
+"atelierjuicebar_peach_elixir.description": "Le jus de pêches mystiques fraîchement pressées.",
+
+"atelierjuicebar_pomegranate_elixir.name": "Élixir de grenade grandiose",
+"atelierjuicebar_pomegranate_elixir.description": "Le jus de grenades mystiques fraîchement pressées.",
+
+//LEMONADES
+
+"atelierjuicebar_blackberry_lemonade.name": "Citronnade à la mûre",
+"atelierjuicebar_blackberry_lemonade.description": "De la citronnade fraîche aromatisée avec des mûres.",
+
+"atelierjuicebar_chamomile_lemonade.name": "Citronnade à la camomille",
+"atelierjuicebar_chamomile_lemonade.description": "De la citronnade fraîche aromatisée avec des fleurs de camomille.",
+
+"atelierjuicebar_cherry_limeade.name": "Limonade aux cerises",
+"atelierjuicebar_cherry_limeade.description": "Une boisson à base de citron vert aromatisée à la cerise.",
+
+"atelierjuicebar_classic_lemonade.name": "Citronnade classique",
+"atelierjuicebar_classic_lemonade.description": "Une boisson rafraîchissante à base de citrons fraîchement pressés.",
+
+"atelierjuicebar_green_lemonade.name": "Citronnade au thé vert",
+"atelierjuicebar_green_lemonade.description": "De la citronnade fraîche aromatisée avec du thé vert.",
+
+"atelierjuicebar_jasmine_lemonade.name": "Citronnade au jasmin",
+"atelierjuicebar_jasmine_lemonade.description": "De la citronnade fraîche aromatisée avec des pétales de jasmin.",
+
+"atelierjuicebar_lavender_lemonade.name": "Citronnade à la lavande",
+"atelierjuicebar_lavender_lemonade.description": "De la citronnade fraîche aromatisée avec de la lavande.",
+
+"atelierjuicebar_lime_lemonade.name": "Double citronnade",
+"atelierjuicebar_lime_lemonade.description": "De la citronnade fraîche aromatisée avec du jus de citron vert.",
+
+"atelierjuicebar_melon_lemonade.name": "Melonade",
+"atelierjuicebar_melon_lemonade.description": "De la citronnade fraîche aromatisée avec du melon d'été.",
+
+"atelierjuicebar_mint_lemonade.name": "Citronnade à la menthe",
+"atelierjuicebar_mint_lemonade.description": "De la citronnade fraîche aromatisée avec des feuilles de menthe.",
+
+"atelierjuicebar_pomegranate_lemonade.name": "Citronnade à la grenade",
+"atelierjuicebar_pomegranate_lemonade.description": "De la citronnade fraîche aromatisée avec du jus de grenade.",
+
+"atelierjuicebar_pink_lemonade.name": "Citronnade à la fraise",
+"atelierjuicebar_pink_lemonade.description": "De la citronnade fraîche aromatisée avec du jus de fraise.",
+
+"atelierjuicebar_rose_lemonade.name": "Citronnade à la rose",
+"atelierjuicebar_rose_lemonade.description": "De la citronnade fraîche aromatisée avec des pétales de rose.",
+
+"atelierjuicebar_raspberry_lemonade.name": "Citronnade à la framboise",
+"atelierjuicebar_raspberry_lemonade.description": "De la citronnade fraîche aromatisée avec du jus de framboise.",
+
+//ICED TEA
+
+"atelierjuicebar_iced_tea.name": "Thé glacé",
+"atelierjuicebar_iced_tea.description": "Un grand verre de thé glacé bien sucré.",
+
+"atelierjuicebar_green_icedtea.name": "Thé vert glacé",
+"atelierjuicebar_green_icedtea.description": "Un grand verre de thé vert glacé.",
+
+"atelierjuicebar_mango_icedtea.name": "Thé glacé à la mangue",
+"atelierjuicebar_mango_icedtea.description": "Un grand verre de thé glacé parfumé à la mangue.",
+
+"atelierjuicebar_peach_icedtea.name": "Thé glacé à la pêche",
+"atelierjuicebar_peach_icedtea.description": "Un grand verre de thé glacé parfumé à la pêche.",
+
+"atelierjuicebar_thai_icedtea.name": "Thé glacé thaï",
+"atelierjuicebar_thai_icedtea.description": "Un grand verre de thé glacé sucré au lait de coco.",
+
+//SMOOTHIES
+
+"atelierjuicebar_ancient_smoothie.name": "Smoothie à l'ancienne",
+"atelierjuicebar_ancient_smoothie.description": "Un smoothie plein de vitamines, pour un petit-déjeuner tout-en-un !",
+
+"atelierjuicebar_berry_smoothie.name": "Smoothie baie'xquis",
+"atelierjuicebar_berry_smoothie.description": "Un smoothie plein de vitamines, pour un petit-déjeuner tout-en-un !",
+
+"atelierjuicebar_berrybanana_smoothie.name": "Smoothie fraise-banane",
+"atelierjuicebar_berrybanana_smoothie.description": "Un smoothie plein de vitamines, pour un petit-déjeuner tout-en-un !",
+
+"atelierjuicebar_berrykale_smoothie.name": "Smoothie myrtilles et chou frisé",
+"atelierjuicebar_berrykale_smoothie.description": "Un smoothie plein de vitamines, pour un petit-déjeuner tout-en-un !",
+
+"atelierjuicebar_chocoberry_smoothie.name": "Smoothie choco-fruits des bois",
+"atelierjuicebar_chocoberry_smoothie.description": "Un smoothie plein de vitamines, pour un petit-déjeuner tout-en-un !",
+
+"atelierjuicebar_gemberry_smoothie.name": "Smoothie des gemmes",
+"atelierjuicebar_gemberry_smoothie.description": "Un smoothie plein de vitamines, pour un petit-déjeuner tout-en-un !",
+
+"atelierjuicebar_peachmango_smoothie.name": "Smoothie pêche-mangue",
+"atelierjuicebar_peachmango_smoothie.description": "Un smoothie plein de vitamines, pour un petit-déjeuner tout-en-un !",
+
+"atelierjuicebar_sunshine_smoothie.name": "Smoothie rayon de soleil",
+"atelierjuicebar_sunshine_smoothie.description": "Un smoothie plein de vitamines, pour un petit-déjeuner tout-en-un !",
+
+"atelierjuicebar_tropical_smoothie.name": "Smoothie oasis",
+"atelierjuicebar_tropical_smoothie.description": "Un smoothie plein de vitamines, pour un petit-déjeuner tout-en-un !",
+
+//////////
+// MAIL //
+//////////
+
+ "atelierjuicebar_JuicerRecipe.text":"Bonjour @, ^^ Je vois que ta ferme est plus prospère de jour en jour. J'imagine que tu dois avoir pas mal de fruits ! Robine m'a envoyé un schéma d'extracteur de jus il y a longtemps, mais ça te sera plus utile qu'à moi.^^ - Jodi",
+ "atelierjuicebar_BobaStationRecipe.text":"Salut @, ^^ Faire son propre thé aux perles, c'est comme une expérience en laboratoire que tu peux boire à la fin. Ce qui est déconseillé avec la plupart des expériences en laboratoire. Mais n'hésite pas à partager le résultat avec moi !^^ - Maru",
+ "atelierjuicebar_evelyn.text":"Bonjour mon petit, ^^ Tu n'ignores pas que j'adore le thé, mais je l'aime aussi quand il est glacé ! Tu trouveras des petits citrons avec cette lettre. Utilise-les voir pour aromatiser ton thé, qu'il soit chaud ou froid, d'ailleurs !^^ - Evelyn",
+ "atelierjuicebar_emily.text":"Coucou @, ^^ Maru m'a dit qu'elle t'avait donné les plans de fabrication d'une machine à bubble tea, c'est génial !^ Sais-tu que tu peux fabriquer des perles avec des racines d'hiver ? Maintenant oui !^ Apporte-moi du thé aux perles la prochaine fois que tu en fais, d'accord ?!^^ - Emily",
+ "atelierjuicebar_lewis.text":"Bonjour @, ^^ J'adore la citronnade fraîche, mais sais-tu que tu peux en faire avec du citron vert ? J'ai un petit limettier chez moi depuis quelques années. Essaie donc avec cette récolte !^^ - Lewis",
+
+////////////////////
+// SPECIAL ORDERS //
+////////////////////
+
+"atelierjuicebar_SO_1.name":"Petit déj' de champion",
+"atelierjuicebar_SO_1.text":"Je suis super occupé avec mon entraînement en ce moment et je n'ai pas le temps de préparer le petit-déjeuner tous les jours ! Quelqu'un peut-il m'aider ?",
+"atelierjuicebar_SO_1.deliver":"Livrez 5 smoothies myrtilles et chou frisé à Alex.",
+"atelierjuicebar_SO_1.accept":"Donc ces smoothies contiennent des protéines ET des fibres ? Génial ! Je vais me faire des super muscles.",
+
+"atelierjuicebar_SO_2.name":"Du thé qui bulle ?",
+"atelierjuicebar_SO_2.text":"Abigail me parlait l'autre jour de bouboule ti... non, de beuboule ti... Je ne sais plus trop ! Qu'est-ce que c'est ? C'est bon ? J'adorerais que quelqu'un m'en apporte pour que j'essaie par moi-même.",
+"atelierjuicebar_SO_2a.deliver":"Déposez 2 bubble teas au thé oolong dans la cuisine de Caroline.",
+"atelierjuicebar_SO_2b.deliver":"Déposez 2 bubble teas à la cassonnade dans la cuisine de Caroline.",
+"atelierjuicebar_SO_2c.deliver":"Déposez 2 bubble teas à la fraise dans la cuisine de Caroline.",
+
+"atelierjuicebar_SO_3.name":"Citronnade vs. thé glacé",
+"atelierjuicebar_SO_3.text":"Rien ne vaut une citronnade par une chaude journée... ou était-ce du thé glacé ? Je n'arrive pas à me rappeler lequel je préfère. Que quelqu'un m'apporte les deux pour que je puisse décider !",
+"atelierjuicebar_SO_3a.deliver":"Déposez 2 citronnades au thé vert dans la cuisine de George.",
+"atelierjuicebar_SO_3b.deliver":"Déposez 2 citronnades classiques dans la cuisine de George.",
+"atelierjuicebar_SO_3c.deliver":"Déposez 2 thés glacés dans la cuisine de George.",
+"atelierjuicebar_SO_3d.deliver":"Déposez 2 thés glacés à la pêche dans la cuisine de George.",
+
+"atelierjuicebar_SO_4.name":"Pressé pressé",
+"atelierjuicebar_SO_4.text":"J'essaie de réduire ma consommation de soda et j'aimerais trouver une alternative... Quelqu'un a une idée ?",
+"atelierjuicebar_SO_4a.deliver":"Déposez 2 jus de raisin frais dans la boîte dans la chambre de Sam.",
+"atelierjuicebar_SO_4b.deliver":"Déposez 2 jus pom'pomme dans la boîte dans la chambre de Sam.",
+"atelierjuicebar_SO_4c.deliver":"Déposez 2 jus baie'xquis dans la boîte dans la chambre de Sam.",
+"atelierjuicebar_SO_4d.deliver":"Déposez 2 jus d'orange pour lève-tôt dans la boîte dans la chambre de Sam.",
+
+"atelierjuicebar_SO_5.name":"Défi Désaltérants Délices",
+"atelierjuicebar_SO_5.text":"C'est reparti : le concours annuel Désaltérants Délices est ouvert ! Envoyez-nous vos meilleurs bubble teas, smoothies et autres sodas pour tenter de gagner le grand prix !",
+"atelierjuicebar_SO_5.ship":"Expédiez 100 boissons fraîches de qualité or.",
+
+"atelierjuicebar_SO_6.name": "Du bubble tea pour Emily",
+"atelierjuicebar_SO_6.text":"Je n'ai plus de thé aux perles ! Aidez-moi, s'il vous plaît !",
+"atelierjuicebar_SO_6.deliver":"Livrez 4 bubble teas à Emily.",
+"atelierjuicebar_SO_6.accept":"Quel soulagement ! Je ne me sens pas moi-même sans boire un bon thé aux perles de temps en temps. Merci !",
+
+"atelierjuicebar_SO_7.name":"Des smoothies pour Haley",
+"atelierjuicebar_SO_7.text":"J'étais tellement occupée la semaine dernière que je n'ai pas préparé de smoothies en avance ! Que vais-je manger au petit-déjeuner, maintenant ?",
+"atelierjuicebar_SO_7.deliver":"Livrez 4 smoothies à Haley.",
+"atelierjuicebar_SO_7.accept":"Ouf ! Sans un smoothie bien vitaminé le matin, je suis de mauvaise humeur toute la journée. Merci encore, @.",
+
+"atelierjuicebar_SO_8.name":"Des jus pour Shane",
+"atelierjuicebar_SO_8.text":"J'ai oublié que c'était à mon tour de ramener du jus de fruits pour Jas et ses amis. Encore. Est-ce que quelqu'un peut m'aider, s'il vous plaît ?",
+"atelierjuicebar_SO_8.deliver":"Livrez 8 jus de fruits à Shane.",
+"atelierjuicebar_SO_8.accept":"Merci énormément. Je crois que je me serai fait botter les fesses si j'étais arrivé les mains vides.",
+
+/////////////////////////
+// SPECIAL ORDERS MAIL //
+/////////////////////////
+
+"atelierjuicebar_SO2_reward.title": "Merci !",
+"atelierjuicebar_SO2_reward.text": "Qui aurait deviné que je tomberais éperdument amoureuse du bubble tea ! Merci de me l'avoir fait découvrir, @. Voici un petit quelque chose pour te remercier.",
+
+"atelierjuicebar_SO3_reward.title": "Un cocktail sans alcool",
+"atelierjuicebar_SO3_reward.text": "Ah, maintenant, je me souviens ! J'aime autant la limonade que le thé glacé ! À l'époque, j'avais un pote qui jouait au golf et qui mélangeait les deux. J'ai joint la recette au cas où ça t'intéresse.",
+
+"atelierjuicebar_SO4_reward.title": "Ma recette super secrète de soda maison",
+"atelierjuicebar_SO4_reward.text": "Merci encore pour les jus de fruits ! Ils étaient délicieux, mais j'ai appris qu'ils n'étaient pas moins riches en sucre que le soda... Du coup, je te file ma recette super secrète de soda pétillant.",
+
+"atelierjuicebar_SO5_reward.title": "Félicitations !",
+"atelierjuicebar_SO5_reward.text": "Votre dévouement est impressionnant. C'est avec fierté que nous vous offrons le premier prix du concours Désaltérants Délices. Veuillez recevoir ceci en récompense.",
+
+
+}

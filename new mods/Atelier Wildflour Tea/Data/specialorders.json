@@ -1,0 +1,593 @@
+{
+  "Changes": [
+
+////////////////
+// DROPBOXES //
+///////////////
+
+    {
+      "Action": "EditMap",
+      "Target": "Maps/JoshHouse",
+      "MapTiles": [
+      {
+       "Position": { "X": 2, "Y": 16},
+       "Layer": "Buildings",
+       "SetProperties": { "Action": "DropBox EvelynKitchen"}
+      }		
+      ]
+      },
+
+      {
+      "Action": "EditMap",
+      "Target": "Maps/ScienceHouse",
+      "MapTiles": [
+      {
+       "Position": { "X": 6, "Y": 19},
+       "Layer": "Buildings",
+       "SetProperties": { "Action": "DropBox RobinKombucha"}
+      }		
+      ]
+          },
+
+      {
+      "Action": "EditMap",
+      "Target": "Maps/SamHouse",
+      "MapTiles": [
+      {
+       "Position": { "X": 4, "Y": 4},
+       "Layer": "Buildings",
+       "SetProperties": { "Action": "DropBox JodiCounter"}
+      }		
+      ]
+      },
+
+
+/////////////////////
+// SPECIAL ORDER 1 //
+/////////////////////
+
+    {
+    "LogName": "Teas Order 1",
+    "Action": "EditData",
+    "Target": "Data/SpecialOrders",
+    "Entries": {
+      "wildflour.ateliertea_SO_1": {
+        "Name": "{{i18n:ateliertea_SO_1.name}}",
+        "Requester": "Caroline",
+        "Duration": "Week",
+        "Repeatable": "False",
+        "RequiredTags": "mail_CarolineTea, mail_gusGiantOmelet",
+        "OrderType": "",
+        "SpecialRule": "",
+        "ItemToRemoveOnEnd": null,
+        "MailToRemoveOnEnd": null,
+        "RandomizedElements": null,
+        "Text": "{{i18n:ateliertea_SO_1.text}}",
+        "Objectives": [
+
+          {
+            "Type": "Deliver",
+            "Text": "{{i18n:ateliertea_SO_1a.deliver}}",
+            "RequiredCount": "2",
+            "Data": {
+              "AcceptedContextTags": "item_wildflour.ateliertea_cinnamon_sachet",
+              "TargetName": "Caroline"
+            }
+          },
+          {
+            "Type": "Deliver",
+            "Text": "{{i18n:ateliertea_SO_1b.deliver}}",
+            "RequiredCount": "2",
+            "Data": {
+              "AcceptedContextTags": "item_wildflour.ateliertea_mint_sachet",
+              "TargetName": "Caroline"
+            }
+          },
+            {
+              "Type": "Deliver",
+              "Text": "{{i18n:ateliertea_SO_1c.deliver}}",
+              "RequiredCount": "2",
+              "Data": {
+                "AcceptedContextTags": "item_wildflour.ateliertea_grey_sachet",
+                "Message": "{{i18n:ateliertea_SO_1.accept}}",
+                "TargetName": "Caroline"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "3340"
+              }
+            },
+
+            {
+              "Type": "Friendship",
+              "Data": {
+                    "Amount": "250",
+                    "TargetName": "Caroline"
+                }
+              }
+          ]
+      }
+    }
+  },
+
+/////////////////////
+// SPECIAL ORDER 2 //
+/////////////////////
+
+    {
+      "LogName": "Teas Order 2",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "wildflour.ateliertea_SO_2": {
+          "Name": "{{i18n:ateliertea_SO_2.name}}",
+          "Requester": "Evelyn",
+          "Duration": "Week",
+          "Repeatable": "False",
+          "RequiredTags": "mail_CarolineTea, mail_gusGiantOmelet",
+          "OrderType": "",
+          "SpecialRule": "",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Text": "{{i18n:ateliertea_SO_2.text}}",
+          "Objectives": [
+              {
+                "Type": "Donate",
+                "Text": "{{i18n:ateliertea_SO_2a.deliver}}",
+                "RequiredCount": "2",
+                "Data": {
+                  "DropBox": "EvelynKitchen",
+                  "DropBoxGameLocation": "JoshHouse",
+                  "DropBoxIndicatorLocation": "2 16",
+                  "AcceptedContextTags": "item_wildflour.ateliertea_sakura_tea",
+                }
+              },
+              {
+                "Type": "Donate",
+                "Text": "{{i18n:ateliertea_SO_2b.deliver}}",
+                "RequiredCount": "2",
+                "Data": {
+                  "DropBox": "EvelynKitchen",
+                  "DropBoxGameLocation": "JoshHouse",
+                  "DropBoxIndicatorLocation": "2 16",
+                  "AcceptedContextTags": "item_wildflour.ateliertea_rose_tea",
+                }
+              },
+              {
+                "Type": "Donate",
+                "Text": "{{i18n:ateliertea_SO_2c.deliver}}",
+                "RequiredCount": "2",
+                "Data": {
+                  "DropBox": "EvelynKitchen",
+                  "DropBoxGameLocation": "JoshHouse",
+                  "DropBoxIndicatorLocation": "2 16",
+                  "AcceptedContextTags": "item_wildflour.ateliertea_breakfast_tea",
+                }
+              }
+            ],
+            "Rewards": [
+              {
+                "Type": "Money",
+                "Data": {
+                  "Amount": "6675"
+                }
+              },
+  
+              {
+                "Type": "Friendship",
+                "Data": {
+                      "Amount": "250",
+                      "TargetName": "Evelyn"
+                  }
+                },
+              {
+                "Type": "Mail",
+                "Data": {
+                      "MailReceived": "wildflour.ateliertea_SO2_complete",
+                      "NoLetter": "true"
+                }
+              }
+            ]
+        }
+      }
+    },
+
+/////////////////////
+// SPECIAL ORDER 3 //
+/////////////////////
+
+    {
+      "LogName": "Teas Order 3",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "wildflour.ateliertea_SO_3": {
+          "Name": "{{i18n:ateliertea_SO_3.name}}",
+          "Requester": "Robin",
+          "Duration": "TwoWeeks",
+          "Repeatable": "False",
+          "RequiredTags": "mail_CarolineTea, mail_gusGiantOmelet",
+          "OrderType": "",
+          "SpecialRule": "",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Text": "{{i18n:ateliertea_SO_3.text}}",
+          "Objectives": [
+              {
+                "Type": "Donate",
+                "Text": "{{i18n:ateliertea_SO_3a.deliver}}",
+                "RequiredCount": "2",
+                "Data": {
+                  "DropBox": "RobinKombucha",
+                  "DropBoxGameLocation": "ScienceHouse",
+                  "DropBoxIndicatorLocation": "6 19",
+                  "AcceptedContextTags": "item_wildflour.ateliertea_apple_kombucha",
+                }
+              },
+              {
+                "Type": "Donate",
+                "Text": "{{i18n:ateliertea_SO_3b.deliver}}",
+                "RequiredCount": "2",
+                "Data": {
+                  "DropBox": "RobinKombucha",
+                  "DropBoxGameLocation": "ScienceHouse",
+                  "DropBoxIndicatorLocation": "6 19",
+                  "AcceptedContextTags": "item_wildflour.ateliertea_raspberry_kombucha",
+                }
+              },
+              {
+                "Type": "Donate",
+                "Text": "{{i18n:ateliertea_SO_3c.deliver}}",
+                "RequiredCount": "2",
+                "Data": {
+                  "DropBox": "RobinKombucha",
+                  "DropBoxGameLocation": "ScienceHouse",
+                  "DropBoxIndicatorLocation": "6 19",
+                  "AcceptedContextTags": "item_wildflour.ateliertea_strawberry_kombucha",
+                }
+              },
+              {
+                "Type": "Donate",
+                "Text": "{{i18n:ateliertea_SO_3d.deliver}}",
+                "RequiredCount": "2",
+                "Data": {
+                  "DropBox": "RobinKombucha",
+                  "DropBoxGameLocation": "ScienceHouse",
+                  "DropBoxIndicatorLocation": "6 19",
+                  "AcceptedContextTags": "item_wildflour.ateliertea_pomegranate_kombucha",
+                }
+              }
+            ],
+            "Rewards": [
+              {
+                "Type": "Money",
+                "Data": {
+                  "Amount": "15000"
+                }
+              },
+  
+              {
+                "Type": "Friendship",
+                "Data": {
+                      "Amount": "250",
+                      "TargetName": "Robin"
+                  }
+                },
+              {
+                "Type": "Mail",
+                "Data": {
+                      "MailReceived": "wildflour.ateliertea_SO3_complete",
+                      "NoLetter": "true"
+                }
+              }
+            ]
+        }
+      }
+    },
+
+
+/////////////////////
+// SPECIAL ORDER 4 //
+/////////////////////
+
+{
+  "LogName": "Teas Order 4",
+  "Action": "EditData",
+  "Target": "Data/SpecialOrders",
+  "Entries": {
+      "wildflour.ateliertea_SO_4": {
+        "Name": "{{i18n:ateliertea_SO_4.name}}",
+        "Requester": "Jodi",
+        "Duration": "TwoWeeks",
+        "Repeatable": "False",
+        "RequiredTags": "mail_CarolineTea, mail_gusGiantOmelet",
+        "OrderType": "",
+        "SpecialRule": "",
+        "ItemToRemoveOnEnd": null,
+        "MailToRemoveOnEnd": null,
+        "RandomizedElements": null,
+        "Text": "{{i18n:ateliertea_SO_4.text}}",
+        "Objectives": [
+
+            {
+              "Type": "Donate",
+              "Text": "{{i18n:ateliertea_SO_4a.deliver}}",
+              "RequiredCount": "3",
+              "Data": {
+                "DropBox": "JodiCounter",
+                "DropBoxGameLocation": "SamHouse",
+                "DropBoxIndicatorLocation": "4 4",
+                "AcceptedContextTags": "item_wildflour.ateliertea_chamomile_sachet",
+              }
+            },
+            {
+              "Type": "Donate",
+              "Text": "{{i18n:ateliertea_SO_4b.deliver}}",
+              "RequiredCount": "3",
+              "Data": {
+                "DropBox": "JodiCounter",
+                "DropBoxGameLocation": "SamHouse",
+                "DropBoxIndicatorLocation": "4 4",
+                "AcceptedContextTags": "item_wildflour.ateliertea_mint_sachet",
+              }
+            },
+            {
+              "Type": "Donate",
+              "Text": "{{i18n:ateliertea_SO_4c.deliver}}",
+              "RequiredCount": "3",
+              "Data": {
+                "DropBox": "JodiCounter",
+                "DropBoxGameLocation": "SamHouse",
+                "DropBoxIndicatorLocation": "4 4",
+                "AcceptedContextTags": "item_wildflour.ateliertea_vanilla_sachet",
+              }
+            },
+            {
+              "Type": "Donate",
+              "Text": "{{i18n:ateliertea_SO_4d.deliver}}",
+              "RequiredCount": "3",
+              "Data": {
+                "DropBox": "JodiCounter",
+                "DropBoxGameLocation": "SamHouse",
+                "DropBoxIndicatorLocation": "4 4",
+                "AcceptedContextTags": "item_wildflour.ateliertea_lemon_sachet",
+              }
+            }
+          ],
+        "Rewards": [
+          {
+            "Type": "Money",
+            "Data": {
+              "Amount": "6730"
+            }
+          },
+
+          {
+            "Type": "Friendship",
+            "Data": {
+                  "Amount": "250",
+                  "TargetName": "Jodi"
+              }
+            },
+          {
+            "Type": "Mail",
+            "Data": {
+                  "MailReceived": "wildflour.ateliertea_SO4_complete",
+                  "NoLetter": "true"
+            }
+          }
+        ]
+    }
+  }
+},
+
+/////////////////////
+// SPECIAL ORDER 5 //
+/////////////////////
+
+{
+  "LogName": "Teas Order 5",
+  "Action": "EditData",
+  "Target": "Data/SpecialOrders",
+  "Entries": {
+      "wildflour.ateliertea_SO_5": {
+        "Name": "{{i18n:ateliertea_SO_5.name}}",
+        "Requester": "Lewis",
+        "Duration": "Month",
+        "Repeatable": "False",
+        "RequiredTags": "mail_wildflour.ateliertea_SO2_complete, mail_wildflour.ateliertea_SO3_complete, mail_wildflour.ateliertea_SO4_complete",
+        "OrderType": "",
+        "SpecialRule": "",
+        "ItemToRemoveOnEnd": null,
+        "MailToRemoveOnEnd": null,
+        "RandomizedElements": null,
+        "Text": "{{i18n:ateliertea_SO_5.text}}",
+        "Objectives": [
+            {
+              "Type": "Ship",
+              "Text": "{{i18n:ateliertea_SO_5.ship}}",
+              "RequiredCount": "100",
+              "Data": {
+                "AcceptedContextTags": "wildflour_tea_item/kombucha_item",
+              }
+            }
+          ],
+        "Rewards": [
+          {
+            "Type": "Money",
+            "Data": {
+              "Amount": "100000"
+            }
+          },
+
+          {
+            "Type": "Mail",
+            "Data": {
+                  "MailReceived": "wildflour.ateliertea_SO5_complete",
+                  "NoLetter": "true"
+            }
+          }
+        ]
+    }
+  }
+},
+
+/////////////////////
+// SPECIAL ORDER 6 //
+/////////////////////
+
+{
+  "LogName": "Teas Order 6",
+  "Action": "EditData",
+  "Target": "Data/SpecialOrders",
+  "Entries": {
+    "wildflour.ateliertea_SO_6": {
+      "Name": "{{i18n:ateliertea_SO_6.name}}",
+      "Requester": "Alex",
+      "Duration": "Week",
+      "Repeatable": "False",
+      "RequiredTags": "mail_CarolineTea, mail_gusGiantOmelet",
+      "OrderType": "",
+      "SpecialRule": "",
+      "ItemToRemoveOnEnd": null,
+      "MailToRemoveOnEnd": null,
+      "RandomizedElements": null,
+      "Text": "{{i18n:ateliertea_SO_6.text}}",
+      "Objectives": [
+          {
+            "Type": "Deliver",
+            "Text": "{{i18n:ateliertea_SO_6.deliver}}",
+            "RequiredCount": "4",
+            "Data": {
+              "AcceptedContextTags": "kombucha_item",
+              "Message": "{{i18n:ateliertea_SO_6.accept}}",
+              "TargetName": "Alex"
+            }
+          }
+        ],
+        "Rewards": [
+          {
+            "Type": "Money",
+            "Data": {
+              "Amount": "5000"
+            }
+          },
+
+          {
+            "Type": "Friendship",
+            "Data": {}
+            }
+        ]
+    }
+  }
+},
+
+/////////////////////
+// SPECIAL ORDER 7 //
+/////////////////////
+
+  {
+  "LogName": "Teas Order 7",
+  "Action": "EditData",
+  "Target": "Data/SpecialOrders",
+  "Entries": {
+    "wildflour.ateliertea_SO_7": {
+      "Name": "{{i18n:ateliertea_SO_7.name}}",
+      "Requester": "Haley",
+      "Duration": "Week",
+      "Repeatable": "False",
+      "RequiredTags": "mail_CarolineTea, mail_gusGiantOmelet",
+      "OrderType": "",
+      "SpecialRule": "",
+      "ItemToRemoveOnEnd": null,
+      "MailToRemoveOnEnd": null,
+      "RandomizedElements": null,
+      "Text": "{{i18n:ateliertea_SO_7.text}}",
+      "Objectives": [
+          {
+            "Type": "Deliver",
+            "Text": "{{i18n:ateliertea_SO_7.deliver}}",
+            "RequiredCount": "6",
+            "Data": {
+              "AcceptedContextTags": "tea_item",
+              "Message": "{{i18n:ateliertea_SO_7.accept}}",
+              "TargetName": "Haley"
+            }
+          }
+        ],
+        "Rewards": [
+          {
+            "Type": "Money",
+            "Data": {
+              "Amount": "7500"
+            }
+          },
+
+        {
+            "Type": "Friendship",
+            "Data": {}
+            }
+        ]
+    }
+  }
+},
+
+/////////////////////
+// SPECIAL ORDER 8 //
+/////////////////////
+
+  {
+  "LogName": "Teas Order 8",
+  "Action": "EditData",
+  "Target": "Data/SpecialOrders",
+  "Entries": {
+    "wildflour.ateliertea_SO_8": {
+      "Name": "{{i18n:ateliertea_SO_8.name}}",
+      "Requester": "Sandy",
+      "Duration": "TwoWeeks",
+      "Repeatable": "False",
+      "RequiredTags": "mail_CarolineTea, mail_gusGiantOmelet",
+      "OrderType": "",
+      "SpecialRule": "",
+      "ItemToRemoveOnEnd": null,
+      "MailToRemoveOnEnd": null,
+      "RandomizedElements": null,
+      "Text": "{{i18n:ateliertea_SO_8.text}}",
+      "Objectives": [
+          {
+            "Type": "Deliver",
+            "Text": "{{i18n:ateliertea_SO_8.deliver}}",
+            "RequiredCount": "8",
+            "Data": {
+              "AcceptedContextTags": "sachet_item",
+              "Message": "{{i18n:ateliertea_SO_8.accept}}",
+              "TargetName": "Sandy"
+            }
+          }
+        ],
+        "Rewards": [
+          {
+            "Type": "Money",
+            "Data": {
+              "Amount": "8000"
+            }
+          },
+
+          {
+            "Type": "Friendship",
+            "Data": {}
+            }
+        ]
+    }
+  }
+}
+
+  ]
+}
+

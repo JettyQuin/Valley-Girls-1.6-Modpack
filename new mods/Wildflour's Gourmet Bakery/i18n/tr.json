@@ -1,0 +1,466 @@
+{
+
+	//CAKES
+
+	"bakery_carrot_cake.name": "Bahar Çiçekli Havuçlu Pasta",
+	"bakery_carrot_cake.description": "Bu havuçlu kek taze bahar çiçekleriyle süslenmiş - bu yılın Yumurta Avı için mükemmel!",
+
+	"bakery_chocolate_cake.name": "Çikolatalı Kirazlı Katlı Pasta",
+	"bakery_chocolate_cake.description": "Bol çikolata ve taze toplanmış kirazlar birleşince enfes bir pasta oluyor.",
+
+	"bakery_chocolate_raspberry_cupcake.name": "Çikolatalı Ahududulu Kapkek",
+	"bakery_chocolate_raspberry_cupcake.description": "Bol çikolatalı ve ahududu reçeliyle dolu bir kapkek.",
+
+	"bakery_coconut_almond_cake.name": "Hindistan Cevizli Bademli Katlı Pasta",
+	"bakery_coconut_almond_cake.description": "Badem buzlamalı, hafif ve yumuşak hindistan cevizi keki.",
+
+	"bakery_confetti_cake.name": "Konfeti Pasta",
+	"bakery_confetti_cake.description": "Vanilya buzlamalı, rengarenk şekerlerle doldurulmuş ve süslenmiş vanilyalı pasta!",
+
+	"bakery_gingerbread_cake.name": "Zencefilli Rulo Pasta",
+	"bakery_gingerbread_cake.description": "Zengin zencefilli kek, kremsi vanilya buzlamayla sarılmış. Bayramda yemek için mükemmel.",
+
+	"bakery_lemon_cake.name": "Limonlu Şifon Pasta",
+	"bakery_lemon_cake.description": "Ufak limonlar ve şekerli krema bahar partileri için mükemmel yumuşak bir kek olmuş.",
+
+	"bakery_peach_cake.name": "Şeftalili Kremalı Pasta",
+	"bakery_peach_cake.description": "Taze toplanmış yaz şeftalileri vanilyalı pofuduk bir pastaya katılmış.",
+
+	"bakery_pineapple_cake.name": "Ananaslı Muzlu Pasta",
+	"bakery_pineapple_cake.description": "Taze ananas ve yemiş parçaları olan hafif acılı bir pasta!",
+
+	"bakery_pumpkin_cake.name": "Kabaklı Rulo Pasta",
+	"bakery_pumpkin_cake.description": "Mevsimsel bir favori: krem peynir buzlamasına sarılmış kabaklı kek.",
+
+	"bakery_red_velvet_cake.name": "Kırmızı Kadife Rulo Kek",
+	"bakery_red_velvet_cake.description": "Gıda boyası falan yok: bu klasik pasta eski usul renklendirildi, pancarla!",
+
+	"bakery_strawberry_cake.name": "Çilekli Kremalı Pasta",
+	"bakery_strawberry_cake.description": "Taze toplanmış çilek ve çırpılmış kremayla doldurulmuş hoş hafif bir pasta.",
+
+	"bakery_strawberry_cupcake.name": "Tatlı Çilekli Kapkek",
+	"bakery_strawberry_cupcake.description": "Çilekli buzlamayla süslenmiş küçük çilekli bir kek",
+
+	"bakery_vanilla_cupcake.name": "Tatlı Vanilyalı Kapkek",
+	"bakery_vanilla_cupcake.description": "Vanilyalı buzlamayla süslenmiş küçük vanilyalı bir kek.",
+
+	//MUFFINS
+
+	"bakery_apple_muffin.name": "Elmalı Muffin",
+	"bakery_apple_muffin.description": "Elma ve tarçın bu muffini sert bir güz sabahında kahvaltıda yemek için mükemmel yapıyor.",
+
+	"bakery_banana_muffin.name": "Muzlu Yemişli Muffin",
+	"bakery_banana_muffin.description": "Bu muffin tatlılığını en çok püre yapılmış taze muzlardan alır.",
+
+	"bakery_cinnamon_muffin.name": "Tarçınlı Muffin",
+	"bakery_cinnamon_muffin.description": "En güzel bir kupa kahveyle giden klasik bir muffin.",
+
+	"bakery_cornbread_muffin.name": "Yağlı Mısırlı Muffin",
+	"bakery_cornbread_muffin.description": "Yağlı, yumuşak ve sıcacık bir muffin, çorbayla çok iyi gider!",
+
+	"bakery_lemon_blueberry_muffin.name": "Limonmersinli Muffin",
+	"bakery_lemon_blueberry_muffin.description": "Küçük limonlar ve yaban mersini demek, bu muffin taze meyve aromasıyla dolu demek!",
+
+	"bakery_pumpkin_muffin.name": "Kabaklı Latte Muffin",
+	"bakery_pumpkin_muffin.description": "Espresso tozu ve tarçın eklenmiş kabaklı bir muffin.",
+
+	"bakery_strawberry_muffin.name": "Çilekli Uşkunlu Muffin",
+	"bakery_strawberry_muffin.description": "Çilek ve uşkun parçalarıyla dolu hafif bir muffin.",
+
+	//SCONES
+
+	"bakery_blackberry_scone.name": "Böğürtlenli Yeşil Limonlu Çörek",
+	"bakery_blackberry_scone.description": "Küçük yeşil limonlar böğürtlenlerin tadını gerçekten iyileştiriyor!",
+
+	"bakery_blueberry_scone.name": "Yabanmersini Kremalı Çörek",
+	"bakery_blueberry_scone.description": "Taze yabanmersinleriyle doldurulmuş kıtır kıtır bir çörek.",
+
+	"bakery_cinnamon_scone.name": "Tarçınlı Kuru Üzümlü Çörek",
+	"bakery_cinnamon_scone.description": "Tarçın ve kuru üzümle doldurulmuş kıtır kıtır bir çörek, kahvaltı için mükemmel!",
+
+	"bakery_peach_scone.name": "Şeftalili Ballı Çörek",
+	"bakery_peach_scone.description": "Tadı şeftalili tart gibi, ama elde tutulabiliyor o yüzden çok daha iyi!",
+
+	"bakery_pistachio_scone.name": "Antep Fıstıklı Çörek",
+	"bakery_pistachio_scone.description": "Antep fıstığı parçalarıyla doldurulmuş kıtır kıtır bir çörek.",
+
+	"bakery_pumpkin_scone.name": "Akçaağaç Kabaklı Çörek",
+	"bakery_pumpkin_scone.description": "Akçaağaç özü ve kabakla tatlandırılmış bir çörek, bir güz günü için hoş bir atıştırmalık.",
+
+	"bakery_raspberry_scone.name": "Ahududulu Vanilyalı Çörek",
+	"bakery_raspberry_scone.description": "Vanilya tohumları bu ahududulu çöreği daha da dayanılmaz yapıyor!",
+
+	"bakery_strawberry_scone.name": "Çilekli Shortcake Çörek",
+	"bakery_strawberry_scone.description": "Shortcake tarzında hazırlanmış bir çörek, ikiye ayırılıp çilek ve kremayla doldurulmuş!",
+
+	//CHEESECAKE
+
+	"bakery_blueberry_cheesecake.name": "Yabanmersinli Cheesecake Dilimi",
+	"bakery_blueberry_cheesecake.description": "Enfes yabanmersini reçeliyle süslenmiş bir dilim cheesecake.",
+
+	"bakery_cherry_cheesecake.name": "Kirazlı Cheesecake Dilimi",
+	"bakery_cherry_cheesecake.description": "Enfes kiraz reçeliyle süslenmiş bir dilim cheesecake.",
+
+	"bakery_cheesecake.name": "Klasik Cheesecake Dilimi",
+	"bakery_cheesecake.description": "Klasik cheesecake dilimi, kremsi ve leziz!",
+
+	"bakery_cookies_cream_cheesecake.name": "Kurabiyeli Cheesecake Dilimi",
+	"bakery_cookies_cream_cheesecake.description": "Her tarafında çikolatalı kurabiye parçaları olan cheesecake.",
+
+	"bakery_lemon_cheesecake.name": "Limonlu Cheesecake Dilimi",
+	"bakery_lemon_cheesecake.description": "Enfes limon ezmesiyle süslenmiş bir dilim cheesecake.",
+
+	"bakery_mango_cheesecake.name": "Mangolu Cheesecake Dilimi",
+	"bakery_mango_cheesecake.description": "Enfes mango reçeliyle süslenmiş bir dilim cheesecake.",
+
+	"bakery_mocha_cheesecake.name": "Mochalı Cheesecake Dilimi",
+	"bakery_mocha_cheesecake.description": "Çikolata ve espresso tozuyla harmanlanmış bir dilim cheesecake.",
+
+	"bakery_orange_cheesecake.name": "Portakallı Creamsicle Cheesecake Dilimi",
+	"bakery_orange_cheesecake.description": "Enfes portakal ezmesiyle süslenmiş bir dilim cheesecake.",
+
+	"bakery_pumpkin_cheesecake.name": "Kabaklı Cheesecake Dilimi",
+	"bakery_pumpkin_cheesecake.description": "Kabakla harmanlanmış bir dilim cheesecake.",
+
+	"bakery_raspberry_cheesecake.name": "Ahududulu Cheesecake Dilimi",
+	"bakery_raspberry_cheesecake.description": "Enfes ahududu reçeliyle süslenmiş bir dilim cheesecake.",
+
+	"bakery_strawberry_cheesecake.name": "Çilekli Cheesecake Dilimi",
+	"bakery_strawberry_cheesecake.description": "Enfes çilek reçeliyle süslenmiş bir dilim cheesecake.",
+
+	"bakery_white_cheesecake.name": "Beyaz Çikolatalı Yeşil Limonlu Cheesecake Dilimi",
+	"bakery_white_cheesecake.description": "Beyaz çikolata ve yeşil limondan yapılmış cheesecake.",
+
+	//PETIT FOURS
+
+	"bakery_almond_petit_fours.name": "Badem Pötifor",
+	"bakery_almond_petit_fours.description": "Bademle tatlandırılmış bir parti pastası.",
+
+	"bakery_chocolate_petit_fours.name": "Çikolatalı Fındık Pötifor",
+	"bakery_chocolate_petit_fours.description": "Çikolata ve fındıkla tatlandırılmış bir parti pastası.",
+
+	"bakery_lemon_petit_fours.name": "Enfes Limon Pötifor",
+	"bakery_lemon_petit_fours.description": "Taze limonla tatlandırılmış bir parti pastası.",
+
+	"bakery_matcha_petit_fours.name": "Matcha Pötifor",
+	"bakery_matcha_petit_fours.description": "Matchayla tatlandırılmış bir parti pastası.",
+
+	"bakery_peach_petit_fours.name": "Şeftali Pötifor",
+	"bakery_peach_petit_fours.description": "Taze toplanmış şeftalilerle tatlandırılmış bir parti pastası.",
+
+	"bakery_pistachio_petit_fours.name": "Antep Fıstığı Pötifor",
+	"bakery_pistachio_petit_fours.description": "Antep fıstığıyla tatlandırılmış bir parti pastası.",
+
+	"bakery_strawberry_petit_fours.name": "Strawberry Rose Pötifor",
+	"bakery_strawberry_petit_fours.description": "Çilek ve güllerle tatlandırılmış bir parti pastası.",
+
+	"bakery_tiramisu_petit_fours.name": "Tiramisu Pötifor",
+	"bakery_tiramisu_petit_fours.description": "Çikolata ve espresso tozuyla tatlandırılmış bir parti pastası.",
+
+	"bakery_tres_leches_petit_fours.name": "Triliçe Pötifor",
+	"bakery_tres_leches_petit_fours.description": "Farklı sütler ve tarçınla tatlandırılmış bir parti pastası.",
+
+	"bakery_tropical_petit_fours.name": "Tropikal Pötifor",
+	"bakery_tropical_petit_fours.description": "Tropikal meyvelerle tatlandırılmış bir parti pastası.",
+
+	"bakery_vanilla_petit_fours.name": "Vanilyalı Ahududu Pötifor",
+	"bakery_vanilla_petit_fours.description": "Taze toplanmış ahududularla tatlandırılmış bir parti pastası.",
+
+	//PIES
+
+	"bakery_apple_pie.name": "Eski Usul Elmalı Turta",
+	"bakery_apple_pie.description": "Yerel bahçelerden toplanan elmalarla yapılan turta.",
+
+	"bakery_banana_cream_pie.name": "Eski Usul Muz Kremalı Turta",
+	"bakery_banana_cream_pie.description": "Dilim muzlar ve kremayla katmanlanmış turta.",
+
+	"bakery_blueberry_pie.name": "Eski Usul Yabanmersinli Turta",
+	"bakery_blueberry_pie.description": "Taze toplanmış yabanmersinlerinden yapılan turta.",
+
+	"bakery_cherry_pie.name": "Eski Usul Kirazlı Turta",
+	"bakery_cherry_pie.description": "Yerel bahçelerden toplanan kirazlarla yapılan turta.",
+
+	"bakery_lemon_pie.name": "Eski Usul Limonlu Turta",
+	"bakery_lemon_pie.description": "Limon ezmesi ve kabuğuyla yapılan kremalı turta.",
+
+	"bakery_peach_pie.name": "Eski Usul Şeftalili Turta",
+	"bakery_peach_pie.description": "Yerel bahçelerden toplanan şeftalilerle yapılan turta.",
+
+	"bakery_lime_pie.name": "Eski Usul Yeşil Limonlu Turta",
+	"bakery_lime_pie.description": "Yeşil limon ezmesi ve kabuğuyla yapılan kremalı turta.",
+
+	"bakery_plum_pie.name": "Eski Usul Erikli Turta",
+	"bakery_plum_pie.description": "Toplanmış eriklerle yapılan turta.",
+
+	"bakery_pumpkin_pie.name": "Eski Usul Kabak Turtası",
+	"bakery_pumpkin_pie.description": "Taze toplanmış kabaklardan yapılan turta.",
+
+	"bakery_sweet_potato_pie.name": "Eski Usul Tatlı Patatesli Turta",
+	"bakery_sweet_potato_pie.description": "Şeker ve tarçınla pişirilen tatlı patateslerden hoş bir turta olmuş.",
+
+	//TARTS
+
+	"bakery_blueberry_tart.name": "Sade Yabanmersinli Tart",
+	"bakery_blueberry_tart.description": "İçi tatlı yabanmersini dolgulu kıtır kıtır bir tart.",
+
+	"bakery_chocolate_hazelnut_tart.name": "Çikolatalı Fındıklı Tart",
+	"bakery_chocolate_hazelnut_tart.description": "İçi çikolata ve fındık dolgulu kıtır kıtır bir tart.",
+
+	"bakery_lemon_tart.name": "Küçük Limonlu Tart",
+	"bakery_lemon_tart.description": "İçi enfes limon dolgulu kıtır kıtır bir tart.",
+
+	"bakery_mango_tart.name": "Ada Mangolu Tart",
+	"bakery_mango_tart.description": "İçi enfes mango dolgulu kıtır kıtır bir tart.",
+
+	"bakery_berry_tart.name": "Meyve Çalısı Tart",
+	"bakery_berry_tart.description": "İçi çeşit çeşit meyve dolgulu kıtır kıtır bir tart.",
+
+	"bakery_fruit_tart.name": "Tutti Frutti Tart",
+	"bakery_fruit_tart.description": "İçi elinde ne meyve varsa onunla dolgulu kıtır kıtır bir tart!",
+
+	"bakery_peppermint_tart.name": "Mochalı Naneli Tart",
+	"bakery_peppermint_tart.description": "İçi çikolata ve nane dolgulu kıtır kıtır bir tart.",
+
+	"bakery_pina_colada_tart.name": "Piña Colada Tart",
+	"bakery_pina_colada_tart.description": "İçi ananas ve hindistan cevizi dolgulu kıtır kıtır bir tart.",
+
+	"bakery_raspberry_tart.name": "Yabani Ahududulu Tart",
+	"bakery_raspberry_tart.description": "İçi tatlı ahududu dolgulu kıtır kıtır bir tart.",
+
+	"bakery_summer_tart.name": "Yaz Armağanı Tart",
+	"bakery_summer_tart.description": "İçi yaz mevsiminin en güzel meyveleriyle dolgulu kıtır kıtır bir tart.",
+
+	//ECLAIRS
+
+	"bakery_chocolate_eclair.name": "Çikolatalı Ekler",
+	"bakery_chocolate_eclair.description": "Çikolatalı bir kremayla dolu hoş bir tatlı.",
+
+	"bakery_maple_eclair.name": "Akçaağaçlı Ekler",
+	"bakery_maple_eclair.description": "Akçaağaçlı bir kremayla dolu hoş bir tatlı.",
+
+	"bakery_mocha_eclair.name": "Mochalı Ekler",
+	"bakery_mocha_eclair.description": "Mochalı bir kremayla dolu hoş bir tatlı.",
+
+	"bakery_pistachio_eclair.name": "Çikolatalı Antep Fıstıklı Ekler",
+	"bakery_pistachio_eclair.description": "Antep fıstıklı bir kremayla dolu hoş bir tatlı.",
+
+	"bakery_raspberry_eclair.name": "Ahududu-Limonlu Ekler",
+	"bakery_raspberry_eclair.description": "Ahududu ve limonlu bir kremayla dolu hoş bir tatlı.",
+
+	"bakery_strawberry_eclair.name": "Çilekli Cheesecake Ekler",
+	"bakery_strawberry_eclair.description": "Çilekli ve krem peynirli bir kremayla dolu hoş bir tatlı.",
+
+	"bakery_vanilla_eclair.name": "Vanilyalı Ekler",
+	"bakery_vanilla_eclair.description": "Vanilyalı bir kremayla dolu hoş bir tatlı.",
+
+	//MACARONS
+
+	"bakery_almond_macaron.name": "Zevkli Bademli Makaron",
+	"bakery_almond_macaron.description": "Badem ile tatlandırılmış karşı konulamaz kremalı bir kurabiye.",
+
+	"bakery_chocolate_macaron.name": "Zevkli Çikolatalı Fındıklı Makaron",
+	"bakery_chocolate_macaron.description": "Çikolata ve fındık ile tatlandırılmış karşı konulamaz kremalı bir kurabiye.",
+
+	"bakery_lavender_macaron.name": "Zevkli Lavantalı Makaron",
+	"bakery_lavender_macaron.description": "Lavanta ve vanilya ile tatlandırılmış karşı konulamaz kremalı bir kurabiye.",
+
+	"bakery_lemon_macaron.name": "Zevkli Limonlu Makaron",
+	"bakery_lemon_macaron.description": "Taze limon ile tatlandırılmış karşı konulamaz kremalı bir kurabiye.",
+
+	"bakery_lime_macaron.name": "Zevkli Yeşil Limonlu Makaron",
+	"bakery_lime_macaron.description": "Taze yeşil limon ile tatlandırılmış karşı konulamaz kremalı bir kurabiye.",
+
+	"bakery_mint_macaron.name": "Zevkli Naneli Makaron",
+	"bakery_mint_macaron.description": "Taze nane ile tatlandırılmış karşı konulamaz kremalı bir kurabiye.",
+
+	"bakery_pistachio_macaron.name": "Zevkli Antep Fıstıklı Makaron",
+	"bakery_pistachio_macaron.description": "Antep fıstıkları le tatlandırılmış karşı konulamaz kremalı bir kurabiye.",
+	
+	"bakery_raspberry_macaron.name": "Zevkli Ahududulu Makaron",
+	"bakery_raspberry_macaron.description": "Taze ahududular ile tatlandırılmış karşı konulamaz kremalı bir kurabiye.",
+	
+	"bakery_sakura_macaron.name": "Zevkli Kiraz Çiçekli Makaron",
+	"bakery_sakura_macaron.description": "Kiraz çiçeği yaprakları ile tatlandırılmış karşı konulamaz kremalı bir kurabiye.",
+	
+	"bakery_strawberry_macaron.name": "Zevkli Çilekli Makaron",
+	"bakery_strawberry_macaron.description": "Taze çilekler ile tatlandırılmış karşı konulamaz kremalı bir kurabiye.",
+	
+	//COOKIES
+
+	"bakery_cherry_cookie.name": "Kiraz Reçelli Başparmak Kurabiye",
+	"bakery_cherry_cookie.description": "Ortasında kiraz reçeli olan yağlı bir kurabiye.",
+
+	"bakery_chocolate_chip_cookies.name": "Eski Usul Çikolata Parçalı Kurabiye",
+	"bakery_chocolate_chip_cookies.description": "Klasiğin ta kendisi; büyük bir bardak sütle iyi gider.",
+
+	"bakery_chocolate_sandwich_cookie.name": "Klasik Çikolatalı Sandviç Kurabiye",
+	"bakery_chocolate_sandwich_cookie.description": "Vanilyalı kremayla birbirinin üstüne konulmuş çikolatalı kurabiyeler.",
+
+	"bakery_orange_cookie.name": "Portakal Reçelli Başparmak Kurabiye",
+	"bakery_orange_cookie.description": "Ortasında portakal reçeli olan yağlı bir kurabiye.",
+
+	"bakery_strawberry_cookie.name": "Çilek Reçelli Başparmak Kurabiye",
+	"bakery_strawberry_cookie.description": "Ortasında çilek reçeli olan yağlı bir kurabiye.",
+
+	"bakery_vanilla_sandwich_cookies.name": "Klasik Vanilyalı Sandviç Kurabiye",
+	"bakery_vanilla_sandwich_cookies.description": "Vanilyalı kremayla birbirinin üstüne konulmuş vanilyalı kurabiyeler.",
+
+	//BROWNIES
+
+	"bakery_cream_cheese_brownies.name": "Krem Peynirli Katlı Brownie",
+	"bakery_cream_cheese_brownies.description": "İçinde tatlandırılmış krem peynir olan yumuşak kek.",
+
+	"bakery_brownies.name": "Eski Usul Yumuşak Brownie",
+	"bakery_brownies.description": "Her kermeste olması gereken çikolatalı kek.",
+
+	"bakery_mint_brownies.name": "Naneli Çikolatalı Katlı Brownie",
+	"bakery_mint_brownies.description": "İçinde naneli krema olan yumuşacık kek.",
+
+	"bakery_nut_brownies.name": "Yemiş Ezmeli Katlı Brownie",
+	"bakery_nut_brownies.description": "İçinde yemiş ezmesi olan yumuşacık kek.",
+
+	//BREADS
+	
+	"bakery_cinnamon_roll.name": "Sade Tarçınlı Rulo Kek",
+	"bakery_cinnamon_roll.description": "Vanilyalı buzlamayla süslenmiş ve tarçınla tatlandırılmış şekerli ekmek.",
+	
+	"bakery_cranberry_bread.name": "Sade Kızılcıklı Cevizli Ekmek",
+	"bakery_cranberry_bread.description": "Kurutulmuş kızılcık ve ufalanmış cevizle doldurulmuş bir ekmek.",
+
+	"bakery_olive_bread.name": "Sade Zeytinli Ekmek",
+	"bakery_olive_bread.description": "Zeytinle doldurulmuş bir ekmek.",
+
+	"bakery_potato_bread.name": "Sade Patates Ekmeği",
+	"bakery_potato_bread.description": "Patatesten yapılmış bir ekmek. Peynirli tost için mükemmel!",
+
+	"bakery_pretzel.name": "Sade Pretzel",
+	"bakery_pretzel.description": "Üstüne deniz tuzu serpilmiş klasik bir pretzel. Enfes bir atıştırmalık için hardalla birlikte yiyin.",
+
+	"bakery_pumpernickel_bread.name": "Sade Çavdar Ekmeği",
+	"bakery_pumpernickel_bread.description": "Klasik, hafif tatlı bir çavdar ekmeği.",
+
+	"bakery_wheat_bread.name": "Sade Tam Buğday Ekmeği",
+	"bakery_wheat_bread.description": "Normal ekmekten daha fazla lif içeren bir ekmek.",
+	
+	"bakery_bread_loaf.name": "Sade Buğday Ekmeği",
+	"bakery_bread_loaf.description": "Sandviç yapımında kullanılan klasik bir ekmek.",
+
+	//DOUGHNUTS
+	
+	"bakery_chocolate_doughnut.name": "Çikolatalı Donut",
+	"bakery_chocolate_doughnut.description": "Çikolatalı ganaşla süslenmiş fırından taze bir donut.",
+	
+	"bakery_cream_chocolate_doughnut.name": "Çikolatalı Kremalı Donut",
+	"bakery_cream_chocolate_doughnut.description": "Çikolatalı buzlamayla süslenmiş ve vanilya kremayla doldurulmuş fırından taze bir donut.",
+
+	"bakery_strawberry_doughnut.name": "Çilekli Donut",
+	"bakery_strawberry_doughnut.description": "Çilekli buzlamayla süslenmiş fırından taze bir donut.",
+
+	"bakery_cream_strawberry_doughnut.name": "Çilekli Kremalı Donut",
+	"bakery_cream_strawberry_doughnut.description": "Çilekli buzlamayla süslenmiş ve vanilya kremayla doldurulmuş fırından taze bir donut.",
+
+	"bakery_vanilla_doughnut.name": "Vanilyalı Donut",
+	"bakery_vanilla_doughnut.description": "Vanilyalı buzlamayla süslenmiş fırından taze bir donut.",
+
+	"bakery_vanilla_jelly_doughnut.name": "Vanilyalı Reçelli Donut",
+	"bakery_vanilla_jelly_doughnut.description": "Vanilyalı buzlamayla süslenmiş ve meyve reçeliyle doldurulmuş fırından taze bir donut.",
+
+	//PUDDING
+	
+	"bakery_banana_pudding.name": "Muzlu Tatlı Puding",
+	"bakery_banana_pudding.description": "Muz, çilek, çikolata ve kirazlı kremalı bir tatlı.",
+
+	"bakery_chocolate_raspberry_pudding.name": "Çikolatalı Ahududulu Puding",
+	"bakery_chocolate_raspberry_pudding.description": "Çikolata ve ahududulu kremalı bir tatlı.",
+
+	"bakery_cookies_cream_pudding.name": "Kurabiye ve Kremalı Puding",
+	"bakery_cookies_cream_pudding.description": "Kurabiye sandviçli kremalı bir tatlı.",
+
+	"bakery_creme_brulee_pudding.name": "Krem Brule Puding",
+	"bakery_creme_brulee_pudding.description": "Karamelize şekerli kremalı bir tatlı.",
+
+	"bakery_lemon_pudding.name": "Limon Kremalı Puding",
+	"bakery_lemon_pudding.description": "Taze limonlu kremalı bir tatlı.",
+
+	"bakery_peach_pudding.name": "Şeftali-Mango Puding",
+	"bakery_peach_pudding.description": "Şeftalili ve mangolu kremalı bir tatlı.",
+
+	"bakery_pumpkin_maple_pudding.name": "Kabaklı Akçaaağaçlı Puding",
+	"bakery_pumpkin_maple_pudding.description": "Kabaklı ve akçaağaç özlü kremalı bir tatlı.",
+
+	"bakery_sakura_pudding.name": "Kiraz Çiçekli Puding",
+	"bakery_sakura_pudding.description": "Taze kiraz çiçekleri olan kremalı bir tatlı.",
+
+	"bakery_tiramisu_pudding.name": "Tiramisu Puding",
+	"bakery_tiramisu_pudding.description": "Kahve tozlu ve kremalı bir tatlı.",
+
+	"bakery_tropical_pudding.name": "Tropikal Puding",
+	"bakery_tropical_pudding.description": "Tropikal meyveli kremalı bir tatlı.",
+
+
+////////////////////
+// SPECIAL ORDERS //
+////////////////////
+
+
+"bakery_SO_1.name": "Bırak Kapkek Yesinler!",
+"bakery_SO_1.text": "Bir okul kermesi için Jas'in kapkeke ihtiyacı var ve kendim yapmak için çok meşgulüm. YARDIM EDİN!",
+"bakery_SO_1a.deliver": "Marnie'ye 2 vanilyalı kapkek ver.",
+"bakery_SO_1b.deliver": "Marnie'ye 2 çilekli kapkek ver.",
+"bakery_SO_1c.deliver": "Marnie'ye 2 çikolatalı kapkek ver.",
+"bakery_SO_1.accept": "Çok sevimli! Bunlar mükemmel, eminim kermeste kapış kapış gidecek!",
+
+"bakery_SO_2.name": "Pop Tartlar",
+"bakery_SO_2.text": "Kasabadaki çocuklar gerçek tatlı nedir bilmiyorlar. Pop Tart yerken gördüm onları! Gerçek meyve tartları ne kadar iyi onlara göstermek istiyorum.",
+"bakery_SO_2a.deliver": "Gus'ın buzdolabına 1 Tutti Frutti Tart bırak.",
+"bakery_SO_2b.deliver": "Gus'ın buzdolabına 1 Meyve Çalısı Tart bırak.",
+"bakery_SO_2c.deliver": "Gus'ın buzdolabına 1 Çikolatalı Fındıklı Tart bırak..",
+
+"bakery_SO_3.name": "Pastane Havası",
+"bakery_SO_3.text": "Güzel bir kitap, bir fincan çay ve birkaç sevimli makaronla rahatlamak istiyorum. Biri bana yardım eder mi?",
+"bakery_SO_3a.deliver": "Haley'in mutfağına 3 limonlu makaron bırak.",
+"bakery_SO_3b.deliver": "Haley'in mutfağına 3 lavantalı makaron bırak.",
+"bakery_SO_3c.deliver": "Haley'in mutfağına 3 çilekli makaron bırak.",
+"bakery_SO_3d.deliver": "Haley'in mutfağına 3 çikolatalı makaron bırak",
+
+"bakery_SO_4.name": "Çay Saati Tatlıları",
+"bakery_SO_4.text": "Evelyn beni çaya çağırıyor ve evine elim boş gitmek istemiyorum. Biri bana birkaç çörek verir mi?",
+"bakery_SO_4a.deliver": "Caroline'ın mutfağına 3 antep fıstıklı çörek bırak.",
+"bakery_SO_4b.deliver": "Caroline'ın mutfağına 3 ahududulu çörek bırak.",
+"bakery_SO_4c.deliver": "Caroline'ın mutfağına 3 böğürtlenli çörek bırak.",
+"bakery_SO_4d.deliver": "Caroline'ın mutfağına 3 kabaklı çörek bırak.",
+
+"bakery_SO_5.name": "Usta Pasta Şefi İmtihanı",
+"bakery_SO_5.text": "Senenin o zamanı yine geldi - Usta Pasta Şefi rolü için yıllık başvurular açık! Büyük ödülü alıp alamayacağınızı görmek için bize en iyi pastalarınızı gönderin!",
+"bakery_SO_5.ship": "100 Pasta gönder.",
+
+"bakery_SO_6.name": "Jodi için Cheesecake",
+"bakery_SO_6.text": "Haftasonu yapacağım bir parti için cheesecake gerekli",
+"bakery_SO_6.deliver": "Jodi'ye 4 cheesecake ver.",
+"bakery_SO_6.accept": "Mükemmel! Bu bana çok zaman kazandıracak, ve harika görünüyorlar. Teşekkürler!",
+
+"bakery_SO_7.name": "Büyücü için Turta",
+"bakery_SO_7.text": "Turtaya muhtaç durumdayım, ancak kendim için değil. Devam eden büyü çalışmaları için, ve görünüşe göre junimoların çok sevdiği bir yiyecek...",
+"bakery_SO_7.deliver": "Büyücü'ye 6 turta ver.",
+"bakery_SO_7.accept": "Belki junimolar artık dinlenmeme izin verirler. Umuyorum bu kadar yeter. Teşekkürler.",
+
+"bakery_SO_8.name": "Penny için Muffin",
+"bakery_SO_8.text": "Çocuklar şu aralar derslerinde çok iyi, onlara özel bir şeyle sürpriz yapmak istiyorum!",
+"bakery_SO_8.deliver": "Penny'e 12 muffin ver.",
+"bakery_SO_8.accept": "Yarınki dersten sonra bunlar tam atıştırmalık olacak! Çok sağol.",
+
+//BAKERY REWARDS MAIL
+ 
+"bakery_SO2_reward.title": "Teşekkürler!",
+"bakery_SO2_reward.text": "@,^^^ İşte ben bunlara pop tart derim! O çocuklar bir daha asla paketlenmiş kartonları istemeyecek..^-Gus",
+
+"bakery_SO3_reward.title": "Teşekkür ederim <3",
+"bakery_SO3_reward.text": "@,^^^ Vay be, bunlara bakarken bile zevkini alıyorum. Kişisel bakım günüm şimdi mükemmel olacak, tekrar teşekkürler! ^-Haley",
+
+"bakery_SO4_reward.title": "Teşekkür ederim; Artı Pastane Kutusu için Tarif!",
+"bakery_SO4_reward.text": "@,^^^ Bunlar harika! Evelyn'e ben yaptım desem çok darılır mısın? Sadece bu seferlik? Ah, teşekkür ederim tatlım, benim için bu çok anlamlı!^-Caroline",
+
+"bakery_SO5_reward.title": "Tebrikler!",
+"bakery_SO5_reward.text": "Değerli @,^^^ Azminiz oldukça etkileyici. Size Usta Pasta Şefi unvanını vermekten gurur duyuyoruz. Lütfen bunu bir ödül olarak kabul edin.",
+
+}

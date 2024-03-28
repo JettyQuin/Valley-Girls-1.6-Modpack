@@ -1,0 +1,57 @@
+{
+  "Changes": [
+
+    {
+      "Action": "EditData",
+      "Target": "Data/Furniture",
+      "Entries": {
+        "HXW.GreenhouseFurniture_BarrelWateringCan": "HXW_BarrelWateringCan/Decor/1 2/1 1/1/1500/2/{{i18n: GreenhouseFurniture_BarrelWateringCan}}/0/Mods\\HXW.GreenhouseFurniture\\Furniture/true/collection_hwgreenhousefurni",
+        "HXW.GreenhouseFurniture_BarrelWateringCanFlowers": "HXW_BarrelWateringCanFlowers/Decor/1 2/1 1/1/1500/1/{{i18n: GreenhouseFurniture_BarrelWateringCanFlowers}}/1/Mods\\HXW.GreenhouseFurniture\\Furniture/true/collection_hwgreenhousefurni",
+        "HXW.GreenhouseFurniture_MedBarrel": "HXW_MedBarrel/Decor/1 2/1 1/1/500/2/{{i18n: GreenhouseFurniture_MedBarrel}}/2/Mods\\HXW.GreenhouseFurniture\\Furniture/true/collection_hwgreenhousefurni",
+        "HXW.GreenhouseFurniture_SmBarrel1": "HXW_SmBarrel1/Decor/1 2/1 1/1/500/2/{{i18n: GreenhouseFurniture_SmBarrel1}}/3/Mods\\HXW.GreenhouseFurniture\\Furniture/true/collection_hwgreenhousefurni",
+        "HXW.GreenhouseFurniture_SmBarrel2": "HXW_SmBarrel2/Decor/1 2/1 1/1/500/2/{{i18n: GreenhouseFurniture_SmBarrel2}}/4/Mods\\HXW.GreenhouseFurniture\\Furniture/true/collection_hwgreenhousefurni",
+        "HXW.GreenhouseFurniture_SmBarrel3": "HXW_SmBarrel3/Decor/1 2/1 1/1/500/2/{{i18n: GreenhouseFurniture_SmBarrel3}}/5/Mods\\HXW.GreenhouseFurniture\\Furniture/true/collection_hwgreenhousefurni",
+        "HXW.GreenhouseFurniture_SmBarrel4": "HXW_SmBarrel4/Decor/1 2/1 1/1/500/2/{{i18n: GreenhouseFurniture_SmBarrel4}}/6/Mods\\HXW.GreenhouseFurniture\\Furniture/true/collection_hwgreenhousefurni",
+        "HXW.GreenhouseFurniture_SmPottedPlant1": "HXW_SmPottedPlant1/Decor/1 1/1 1/1/500/2/{{i18n: GreenhouseFurniture_SmPottedPlant1}}/23/Mods\\HXW.GreenhouseFurniture\\Furniture/true/collection_hwgreenhousefurni",
+        "HXW.GreenhouseFurniture_SmPottedPlant2": "HXW_SmPottedPlant2/Decor/1 1/1 1/1/500/2/{{i18n: GreenhouseFurniture_SmPottedPlant2}}/24/Mods\\HXW.GreenhouseFurniture\\Furniture/true/collection_hwgreenhousefurni",
+        "HXW.GreenhouseFurniture_SmPottedPlant3": "HXW_SmPottedPlant3/Decor/1 1/1 1/1/500/2/{{i18n: GreenhouseFurniture_SmPottedPlant3}}/25/Mods\\HXW.GreenhouseFurniture\\Furniture/true/collection_hwgreenhousefurni",
+        "HXW.GreenhouseFurniture_SmPottedPlant4": "HXW_SmPottedPlant4/Decor/1 1/1 1/1/500/2/{{i18n: GreenhouseFurniture_SmPottedPlant4}}/26/Mods\\HXW.GreenhouseFurniture\\Furniture/true/collection_hwgreenhousefurni",
+        "HXW.GreenhouseFurniture_PlantShelves1": "HXW_PlantShelves1/Painting/2 2/2 2/1/2500/2/{{i18n: GreenhouseFurniture_PlantShelves1}}/11/Mods\\HXW.GreenhouseFurniture\\Furniture/true/collection_hwgreenhousefurni",
+        "HXW.GreenhouseFurniture_FlowerVase": "HXW_FlowerVase/Decor/1 2/1 1/1/500/2/{{i18n: GreenhouseFurniture_FlowerVase}}/13/Mods\\HXW.GreenhouseFurniture\\Furniture/true/collection_hwgreenhousefurni",
+        "HXW.GreenhouseFurniture_Cooler": "HXW_Cooler/Decor/1 2/1 1/1/500/2/{{i18n: GreenhouseFurniture_Cooler}}/15/Mods\\HXW.GreenhouseFurniture\\Furniture/true/collection_hwgreenhousefurni",
+        
+        "HXW.GreenhouseFurniture_StumpSeat": "HXW_StumpSeat/Chair/-1/-1/1/1500/2/{{i18n: GreenhouseFurniture_StumpSeat}}/32/Mods\\HXW.GreenhouseFurniture\\Furniture/true/collection_hwgreenhousefurni",
+        "HXW.GreenhouseFurniture_BarrelSeat": "HXW_BarrelSeat/Chair/-1/-1/1/1500/2/{{i18n: GreenhouseFurniture_BarrelSeat}}/33/Mods\\HXW.GreenhouseFurniture\\Furniture/true/collection_hwgreenhousefurni",
+        "HXW.GreenhouseFurniture_PlantShelves2": "HXW_PlantShelves2/Painting/2 2/2 2/1/2500/2/{{i18n: GreenhouseFurniture_PlantShelves2}}/34/Mods\\HXW.GreenhouseFurniture\\Furniture/true/collection_hwgreenhousefurni",
+        "HXW.GreenhouseFurniture_Birdcage": "HXW_Birdcage/Decor/1 2/1 1/1/500/2/{{i18n: GreenhouseFurniture_Birdcage}}/36/Mods\\HXW.GreenhouseFurniture\\Furniture/true/collection_hwgreenhousefurni",
+        "HXW.GreenhouseFurniture_Rake": "HXW_Rake/Decor/1 2/1 1/1/500/2/{{i18n: GreenhouseFurniture_Rake}}/37/Mods\\HXW.GreenhouseFurniture\\Furniture/true/collection_hwgreenhousefurni",
+        "HXW.GreenhouseFurniture_Shovel": "HXW_Shovel/Decor/1 2/1 1/1/500/2/{{i18n: GreenhouseFurniture_Shovel}}/38/Mods\\HXW.GreenhouseFurniture\\Furniture/true/collection_hwgreenhousefurni",
+        "HXW.GreenhouseFurniture_PlantWithShovel": "HXW_PlantWithShovel/Decor/1 2/1 1/2/500/2/{{i18n: GreenhouseFurniture_PlantWithShovel}}/39/Mods\\HXW.GreenhouseFurniture\\Furniture/true/collection_hwgreenhousefurni",
+        "HXW.GreenhouseFurniture_BerryPottedPlant": "HXW_BerryPottedPlant/Decor/1 2/1 1/1/500/2/{{i18n: GreenhouseFurniture_BerryPottedPlant}}/41/Mods\\HXW.GreenhouseFurniture\\Furniture/true/collection_hwgreenhousefurni",
+        "HXW.GreenhouseFurniture_Boucage": "HXW_Boucage/Decor/1 2/1 1/1/500/2/{{i18n: GreenhouseFurniture_Boucage}}/42/Mods\\HXW.GreenhouseFurniture\\Furniture/true/collection_hwgreenhousefurni",
+        "HXW.GreenhouseFurniture_SmPottedFlower": "HXW_SmPottedFlower/Decor/1 2/1 1/1/500/2/{{i18n: GreenhouseFurniture_SmPottedFlower}}/43/Mods\\HXW.GreenhouseFurniture\\Furniture/true/collection_hwgreenhousefurni",
+        "HXW.GreenhouseFurniture_SmPot": "HXW_SmPot/Decor/1 1/1 1/1/500/2/{{i18n: GreenhouseFurniture_SmPot}}/60/Mods\\HXW.GreenhouseFurniture\\Furniture/true/collection_hwgreenhousefurni",
+        "HXW.GreenhouseFurniture_LgPot": "HXW_LgPot/Decor/1 2/1 1/1/500/2/{{i18n: GreenhouseFurniture_LgPot}}/45/Mods\\HXW.GreenhouseFurniture\\Furniture/true/collection_hwgreenhousefurni",
+        "HXW.GreenhouseFurniture_SmHangingFlowers": "HXW_SmHangingFlowers/Painting/1 2/1 2/1/1200/2/{{i18n: GreenhouseFurniture_SmHangingFlowers}}/46/Mods\\HXW.GreenhouseFurniture\\Furniture/true/collection_hwgreenhousefurni",
+        
+        "HXW.GreenhouseFurniture_CratePoppies": "HXW_CratePoppies/Decor/1 2/1 1/2/750/2/{{i18n: GreenhouseFurniture_CratePoppies}}/64/Mods\\HXW.GreenhouseFurniture\\Furniture/true/collection_hwgreenhousefurni",
+        "HXW.GreenhouseFurniture_CrateForage": "HXW_CrateForage/Decor/1 2/1 1/2/750/2/{{i18n: GreenhouseFurniture_CrateForage}}/66/Mods\\HXW.GreenhouseFurniture\\Furniture/true/collection_hwgreenhousefurni",
+        "HXW.GreenhouseFurniture_CrateGreens": "HXW_CrateGreens/Decor/1 2/1 1/2/750/2/{{i18n: GreenhouseFurniture_CrateGreens}}/68/Mods\\HXW.GreenhouseFurniture\\Furniture/true/collection_hwgreenhousefurni",
+        "HXW.GreenhouseFurniture_CrateFruit": "HXW_CrateFruit/Decor/1 2/1 1/2/750/2/{{i18n: GreenhouseFurniture_CrateFruit}}/70/Mods\\HXW.GreenhouseFurniture\\Furniture/true/collection_hwgreenhousefurni",
+        "HXW.GreenhouseFurniture_CrateVeg": "HXW_CrateVeg/Decor/1 2/1 1/2/750/2/{{i18n: GreenhouseFurniture_CrateVeg}}/72/Mods\\HXW.GreenhouseFurniture\\Furniture/true/collection_hwgreenhousefurni",
+        "HXW.GreenhouseFurniture_LgHangingFlowers": "HXW_LgHangingFlowers/Painting/2 3/2 3/1/1750/2/{{i18n: GreenhouseFurniture_LgHangingFlowers}}/74/Mods\\HXW.GreenhouseFurniture\\Furniture/true/collection_hwgreenhousefurni",
+        "HXW.GreenhouseFurniture_ButterflyHutch": "HXW_ButterflyHutch/Decor/3 3/3 2/1/5000/2/{{i18n: GreenhouseFurniture_ButterflyHutch}}/76/Mods\\HXW.GreenhouseFurniture\\Furniture/true/collection_hwgreenhousefurni",
+        
+        "HXW.GreenhouseFurniture_Bench": "HXW_Bench/Bench/-1/-1/4/250/2/{{i18n: GreenhouseFurniture_Bench}}/96/Mods\\HXW.GreenhouseFurniture\\Furniture/true/collection_hwgreenhousefurni",
+        "HXW.GreenhouseFurniture_Table1": "HXW_Table1/table/2 2/2 1/2/3000/2/{{i18n: GreenhouseFurniture_Table1}}/150/Mods\\HXW.GreenhouseFurniture\\Furniture/true/collection_hwgreenhousefurni",
+        "HXW.GreenhouseFurniture_Table2": "HXW_Table2/table/2 2/2 1/2/3000/2/{{i18n: GreenhouseFurniture_Table2}}/102/Mods\\HXW.GreenhouseFurniture\\Furniture/true/collection_hwgreenhousefurni",
+        "HXW.GreenhouseFurniture_LgPlantShelves1": "HXW_LgPlantShelves1/Decor/2 3/2 2/1/6500/2/{{i18n: GreenhouseFurniture_LgPlantShelves1}}/156/Mods\\HXW.GreenhouseFurniture\\Furniture/true/collection_hwgreenhousefurni",
+        "HXW.GreenhouseFurniture_LgPlantShelves2": "HXW_LgPlantShelves2/Decor/2 3/2 2/1/6500/2/{{i18n: GreenhouseFurniture_LgPlantShelves2}}/158/Mods\\HXW.GreenhouseFurniture\\Furniture/true/collection_hwgreenhousefurni",
+        "HXW.GreenhouseFurniture_PottingBench1": "HXW_PottingBench1/Decor/3 3/3 2/1/5000/2/{{i18n: GreenhouseFurniture_PottingBench1}}/144/Mods\\HXW.GreenhouseFurniture\\Furniture/true/collection_hwgreenhousefurni",
+        "HXW.GreenhouseFurniture_PottingBench2": "HXW_PottingBench2/Decor/3 3/3 2/1/5000/2/{{i18n: GreenhouseFurniture_PottingBench2}}/147/Mods\\HXW.GreenhouseFurniture\\Furniture/true/collection_hwgreenhousefurni"
+
+      }
+    }
+   
+  ]
+}

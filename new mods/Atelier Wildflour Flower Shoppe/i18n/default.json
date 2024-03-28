@@ -1,0 +1,358 @@
+{
+
+//////////////
+// MACHINES //
+//////////////
+
+    "atelierfloral_FlowerStation.name": "Flower Station",
+	"atelierfloral_FlowerStation.description": "Turns floral essence into luxury soap.",
+
+    "atelierfloral_BouquetStation.name": "Tub o' Wildflours",
+	"atelierfloral_BouquetStation.description": "Turns five flowers into a bouquet, or floral essence into potpourri.",
+
+    "atelierfloral_FragranceStation.name":"Fragrance Station",
+    "atelierfloral_FragranceStation.description":"Turns two floral essence into a luxury perfume.",
+
+    "atelierfloral_CandleStation.name": "Wax Cauldron",
+	"atelierfloral_CandleStation.description": "Turns flowers and honeycomb into beeswax candles.",
+
+///////////////////////////
+// MACHINE NOTIFICATIONS //
+///////////////////////////
+
+"atelierfloral_FlowerStation_InvalidItem.message": "Cannot Process This.",
+"atelierfloral_FlowerStation_InvalidCount.message": "Requires Essence or 3 flowers.",
+
+"atelierfloral_BouquetStation_InvalidItem.message": "Cannot Process This.",
+"atelierfloral_BouquetStation_InvalidCount.message": "Requires Essence or 5 flowers.",    
+
+"atelierfloral_FragranceStation_InvalidItem.message": "Cannot Process This.",
+"atelierfloral_FragranceStation_InvalidCount.message": "Requires 2 essence.",    
+
+"atelierfloral_CandleStation_InvalidItem.message": "Cannot Process This.",
+"atelierfloral_CandleStation_InvalidCount.message": "Requires honeycomb.",    
+
+//////////////
+// BOUQUETS //
+//////////////
+
+    "atelierfloral_jazz_bouquet.name": "Blue Jazz Bouquet",
+    "atelierfloral_jazz_bouquet.description": "A gorgeous bouquet of flowers that makes for a lovely gift!",
+
+    "atelierfloral_vanilla_bouquet.name": "Calico Vanilla Bouquet",
+    "atelierfloral_vanilla_bouquet.description": "A gorgeous bouquet of flowers that makes for a lovely gift!",
+
+    "atelierfloral_fairy_bouquet.name": "Fairy Rose Bouquet",
+    "atelierfloral_fairy_bouquet.description": "A gorgeous bouquet of flowers that makes for a lovely gift!",
+
+    "atelierfloral_chamomile_bouquet.name": "Forest Chamomile Bouquet",
+    "atelierfloral_chamomile_bouquet.description": "A gorgeous bouquet of flowers that makes for a lovely gift!",
+
+    "atelierfloral_lavender_bouquet.name": "Forest Lavender Bouquet",
+    "atelierfloral_lavender_bouquet.description": "A gorgeous bouquet of flowers that makes for a lovely gift!",
+
+    "atelierfloral_jasmine_bouquet.name": "Gem Isle Jasmine Bouquet",
+    "atelierfloral_jasmine_bouquet.description": "A gorgeous bouquet of flowers that makes for a lovely gift!",
+
+    "atelierfloral_mallow_bouquet.name": "Marsh Mallow Bouquet",
+    "atelierfloral_mallow_bouquet.description": "A gorgeous bouquet of flowers that makes for a lovely gift!",
+
+    "atelierfloral_poppy_bouquet.name": "Poppy Bouquet",
+    "atelierfloral_poppy_bouquet.description": "A gorgeous bouquet of flowers that makes for a lovely gift!",
+
+    "atelierfloral_sakura_bouquet.name": "Sakura Bouquet",
+    "atelierfloral_sakura_bouquet.description": "A gorgeous bouquet of flowers that makes for a lovely gift!",
+
+    "atelierfloral_spangle_bouquet.name": "Spangle Bouquet",
+    "atelierfloral_spangle_bouquet.description": "A gorgeous bouquet of flowers that makes for a lovely gift!",
+
+    "atelierfloral_sunflower_bouquet.name": "Sunflower Bouquet",
+    "atelierfloral_sunflower_bouquet.description": "A gorgeous bouquet of flowers that makes for a lovely gift!",
+    
+    "atelierfloral_tulip_bouquet.name": "Tulip Bouquet",
+    "atelierfloral_tulip_bouquet.description": "A gorgeous bouquet of flowers that makes for a lovely gift!",
+
+/////////////
+// PERFUME //
+/////////////
+
+    "atelierfloral_jazz_perfume.name": "Blue Jazz Eau de Toilette",
+    "atelierfloral_jazz_perfume.description": "A delicately scented type of perfume made from distilled flower essence.",
+
+    "atelierfloral_vanilla_perfume.name": "Calico Vanilla Eau de Toilette",
+    "atelierfloral_vanilla_perfume.description": "A delicately scented type of perfume made from distilled flower essence.",
+
+    "atelierfloral_fairy_perfume.name": "Fairy Rose Eau de Toilette",
+    "atelierfloral_fairy_perfume.description": "A delicately scented type of perfume made from distilled flower essence.",
+
+    "atelierfloral_chamomile_perfume.name": "Forest Chamomile Eau de Toilette",
+    "atelierfloral_chamomile_perfume.description": "A delicately scented type of perfume made from distilled flower essence.",
+
+    "atelierfloral_lavender_perfume.name": "Forest Lavender Eau de Toilette",
+    "atelierfloral_lavender_perfume.description": "A delicately scented type of perfume made from distilled flower essence.",
+
+    "atelierfloral_jasmine_perfume.name": "Gem Isle Jasmine Eau de Toilette",
+    "atelierfloral_jasmine_perfume.description": "A delicately scented type of perfume made from distilled flower essence.",
+
+    "atelierfloral_mallow_perfume.name": "Marsh Mallow Eau de Toilette",
+    "atelierfloral_mallow_perfume.description": "A delicately scented type of perfume made from distilled flower essence.",
+
+    "atelierfloral_poppy_perfume.name": "Poppy Eau de Toilette",
+    "atelierfloral_poppy_perfume.description": "A delicately scented type of perfume made from distilled flower essence.",
+    
+    "atelierfloral_sakura_perfume.name": "Sakura Eau de Toilette",
+    "atelierfloral_sakura_perfume.description": "A delicately scented type of perfume made from distilled flower essence.",
+    
+    "atelierfloral_spangle_perfume.name": "Spangle Eau de Toilette",
+    "atelierfloral_spangle_perfume.description": "A delicately scented type of perfume made from distilled flower essence.",
+
+    "atelierfloral_sunflower_perfume.name": "Sunflower Eau de Toilette",
+    "atelierfloral_sunflower_perfume.description": "A delicately scented type of perfume made from distilled flower essence.",
+
+    "atelierfloral_tulip_perfume.name": "Tulip Eau de Toilette",
+    "atelierfloral_tulip_perfume.description": "A delicately scented type of perfume made from distilled flower essence.",
+
+/////////////
+// ESSENCE //
+/////////////
+
+    "atelierfloral_jazz_essence.name": "Blue Jazz Essence",
+    "atelierfloral_jazz_essence.description": "A fragrant oil made with fresh flowers.",
+    
+    "atelierfloral_vanilla_essence.name": "Calico Vanilla Essence",
+    "atelierfloral_vanilla_essence.description": "A fragrant oil made with fresh flowers.",
+
+    "atelierfloral_fairy_essence.name": "Fairy Rose Essence",
+    "atelierfloral_fairy_essence.description": "A fragrant oil made with fresh flowers.",
+
+    "atelierfloral_chamomile_essence.name": "Forest Chamomile Essence",
+    "atelierfloral_chamomile_essence.description": "A fragrant oil made with fresh flowers.",
+
+    "atelierfloral_lavender_essence.name": "Forest Lavender Essence",
+    "atelierfloral_lavender_essence.description": "A fragrant oil made with fresh flowers.",
+
+    "atelierfloral_jasmine_essence.name": "Gem Isle Jasmine Essence",
+    "atelierfloral_jasmine_essence.description": "A fragrant oil made with fresh flowers.",
+
+    "atelierfloral_mallow_essence.name": "Marsh Mallow Essence",
+    "atelierfloral_mallow_essence.description": "A fragrant oil made with fresh flowers.",
+
+    "atelierfloral_poppy_essence.name": "Poppy Essence",
+    "atelierfloral_poppy_essence.description": "A fragrant oil made with fresh flowers.",
+
+    "atelierfloral_sakura_essence.name": "Sakura Essence",
+    "atelierfloral_sakura_essence.description": "A fragrant oil made with fresh flowers.",
+
+    "atelierfloral_spangle_essence.name": "Spangle Essence",
+    "atelierfloral_spangle_essence.description": "A fragrant oil made with fresh flowers.",
+
+    "atelierfloral_sunflower_essence.name": "Sunflower Essence",
+    "atelierfloral_sunflower_essence.description": "A fragrant oil made with fresh flowers.",
+
+    "atelierfloral_tulip_essence.name": "Tulip Essence",
+    "atelierfloral_tulip_essence.description": "A fragrant oil made with fresh flowers.",
+
+//////////
+// SOAP //
+//////////
+
+    "atelierfloral_jazz_soap.name": "Blue Jazz Luxury Soap",
+    "atelierfloral_jazz_soap.description": "A bar of scented luxury soap - how fancy!",
+
+    "atelierfloral_vanilla_soap.name": "Calico Vanilla Luxury Soap",
+    "atelierfloral_vanilla_soap.description": "A bar of scented luxury soap - how fancy!",
+
+    "atelierfloral_fairy_soap.name": "Fairy Rose Luxury Soap",
+    "atelierfloral_fairy_soap.description": "A bar of scented luxury soap - how fancy!",
+
+    "atelierfloral_chamomile_soap.name": "Forest Chamomile Luxury Soap",
+    "atelierfloral_chamomile_soap.description": "A bar of scented luxury soap - how fancy!",
+
+    "atelierfloral_lavender_soap.name": "Forest Lavender Luxury Soap",
+    "atelierfloral_lavender_soap.description": "A bar of scented luxury soap - how fancy!",
+
+    "atelierfloral_jasmine_soap.name": "Gem Isle Jasmine Luxury Soap",
+    "atelierfloral_jasmine_soap.description": "A bar of scented luxury soap - how fancy!",
+
+    "atelierfloral_mallow_soap.name": "Marsh Mallow Luxury Soap",
+    "atelierfloral_mallow_soap.description": "A bar of scented luxury soap - how fancy!",
+
+    "atelierfloral_poppy_soap.name": "Poppy Luxury Soap",
+    "atelierfloral_poppy_soap.description": "A bar of scented luxury soap - how fancy!",
+
+    "atelierfloral_sakura_soap.name": "Sakura Luxury Soap",
+    "atelierfloral_sakura_soap.description": "A bar of scented luxury soap - how fancy!",
+
+    "atelierfloral_spangle_soap.name": "Spangle Luxury Soap",
+    "atelierfloral_spangle_soap.description": "A bar of scented luxury soap - how fancy!",
+
+    "atelierfloral_sunflower_soap.name": "Sunflower Luxury Soap",
+    "atelierfloral_sunflower_soap.description": "A bar of scented luxury soap - how fancy!",
+
+    "atelierfloral_tulip_soap.name": "Tulip Luxury Soap",
+    "atelierfloral_tulip_soap.description": "A bar of scented luxury soap - how fancy!",
+
+///////////////
+// POTPOURRI //
+///////////////
+
+    "atelierfloral_jazz_potpourri.name": "Jazz Potpourri Sachet",
+    "atelierfloral_jazz_potpourri.description": "Dried flower petals in a muslin bag - perfect for keeping your closet or dresser drawers smelling nice.",
+
+    "atelierfloral_vanilla_potpourri.name": "Vanilla Potpourri Sachet",
+    "atelierfloral_vanilla_potpourri.description": "Dried flower petals in a muslin bag - perfect for keeping your closet or dresser drawers smelling nice.",
+
+    "atelierfloral_fairy_potpourri.name": "Fairy Rose Potpourri Sachet",
+    "atelierfloral_fairy_potpourri.description": "Dried flower petals in a muslin bag - perfect for keeping your closet or dresser drawers smelling nice.",
+
+    "atelierfloral_chamomile_potpourri.name": "Chamomile Potpourri Sachet",
+    "atelierfloral_chamomile_potpourri.description": "Dried flower petals in a muslin bag - perfect for keeping your closet or dresser drawers smelling nice.",
+
+    "atelierfloral_lavender_potpourri.name": "Lavender Potpourri Sachet",
+    "atelierfloral_lavender_potpourri.description": "Dried flower petals in a muslin bag - perfect for keeping your closet or dresser drawers smelling nice.",
+
+    "atelierfloral_jasmine_potpourri.name": "Jasmine Potpourri Sachet",
+    "atelierfloral_jasmine_potpourri.description": "Dried flower petals in a muslin bag - perfect for keeping your closet or dresser drawers smelling nice.",
+
+    "atelierfloral_mallow_potpourri.name": "Marshmallow Potpourri Sachet",
+    "atelierfloral_mallow_potpourri.description": "Dried flower petals in a muslin bag - perfect for keeping your closet or dresser drawers smelling nice.",
+
+    "atelierfloral_poppy_potpourri.name": "Poppy Potpourri Sachet",
+    "atelierfloral_poppy_potpourri.description": "Dried flower petals in a muslin bag - perfect for keeping your closet or dresser drawers smelling nice.",
+
+    "atelierfloral_sakura_potpourri.name": "Sakura Potpourri Sachet",
+    "atelierfloral_sakura_potpourri.description": "Dried flower petals in a muslin bag - perfect for keeping your closet or dresser drawers smelling nice.",
+
+    "atelierfloral_spangle_potpourri.name": "Spangle Potpourri Sachet",
+    "atelierfloral_spangle_potpourri.description": "Dried flower petals in a muslin bag - perfect for keeping your closet or dresser drawers smelling nice.",
+
+    "atelierfloral_sunflower_potpourri.name": "Sunflower Potpourri Sachet",
+    "atelierfloral_sunflower_potpourri.description": "Dried flower petals in a muslin bag - perfect for keeping your closet or dresser drawers smelling nice.",
+
+    "atelierfloral_tulip_potpourri.name": "Tulip Potpourri Sachet",
+    "atelierfloral_tulip_potpourri.description": "Dried flower petals in a muslin bag - perfect for keeping your closet or dresser drawers smelling nice.",
+
+/////////////
+// CANDLES //
+/////////////
+
+    "atelierfloral_jazz_candles.name": "Jazz Scented Candles",
+    "atelierfloral_jazz_candles.description": "A trio of pretty scented candles.",
+
+    "atelierfloral_vanilla_candles.name": "Vanilla Scented Candles",
+    "atelierfloral_vanilla_candles.description": "A trio of pretty scented candles.",
+
+    "atelierfloral_fairy_candles.name": "Fairy Rose Scented Candles",
+    "atelierfloral_fairy_candles.description": "A trio of pretty scented candles.",
+
+    "atelierfloral_chamomile_candles.name": "Chamomile Scented Candles",
+    "atelierfloral_chamomile_candles.description": "A trio of pretty scented candles.",
+
+    "atelierfloral_lavender_candles.name": "Lavender Scented Candles",
+    "atelierfloral_lavender_candles.description": "A trio of pretty scented candles.",
+
+    "atelierfloral_jasmine_candles.name": "Jasmine Scented Candles",
+    "atelierfloral_jasmine_candles.description": "A trio of pretty scented candles.",
+
+    "atelierfloral_mallow_candles.name": "Marshmallow Scented Candles",
+    "atelierfloral_mallow_candles.description": "A trio of pretty scented candles.",
+
+    "atelierfloral_poppy_candles.name": "Poppy Scented Candles",
+    "atelierfloral_poppy_candles.description": "A trio of pretty scented candles.",
+
+    "atelierfloral_sakura_candles.name": "Sakura Scented Candles",
+    "atelierfloral_sakura_candles.description": "A trio of pretty scented candles.",
+
+    "atelierfloral_spangle_candles.name": "Spangle Scented Candles",
+    "atelierfloral_spangle_candles.description": "A trio of pretty scented candles.",
+
+    "atelierfloral_sunflower_candles.name": "Sunflower Scented Candles",
+    "atelierfloral_sunflower_candles.description": "A trio of pretty scented candles.",
+
+    "atelierfloral_tulip_candles.name": "Tulip Scented Candles",
+    "atelierfloral_tulip_candles.description": "A trio of pretty scented candles.",
+
+
+//////////
+// MAIL //
+//////////
+
+    "atelierfloral_FlowerStationRecipe.name":"For the Budding Florist",
+    "atelierfloral_FlowerStationRecipe.text":"@, ^^ Did you know you can process flowers into scented candles and soaps? I like to do it with the flowers Jas brings home, but with your flowers you could probably earn quite a bit from working with a machine like this!^^ - Marnie",
+
+    "atelierfloral_FragranceStationRecipe.name":"Floral Essences",
+    "atelierfloral_FragranceStationRecipe.text":"@, ^^ I clipped this out of one of my magazines. Making your own infused essences is so trendy right now! Maybe you can try it out with flowers from your farm?^^ - Haley",
+
+    "atelierfloral_BouquetStationRecipe.name":"Handmade Bouquets",
+    "atelierfloral_BouquetStationRecipe.text":"@, ^^ You've seen me taking care of the flower beds in town, but I like to dabble in making bouquets and potpourri at home as well. With the recipe for a Tub of Wildflours you will be a top tier florist in no time.^^ - Evelyn",
+
+    "atelierfloral_jas_gift.name":"Flowers for the Farmer",
+    "atelierfloral_jas_gift.text":"@, ^^ Aunt Marnie sent you a letter about flowers and so I wanted to write you one too! We found these pretty smelling flowers in the forest together and she said you'd like them so here you go!^^ - Jas",
+
+    "atelierfloral_sandy_gift.name":"A flower for a Friend",
+    "atelierfloral_sandy_gift.text":"@, ^^ How's the flower farming going? I wish the desert could support more flowers but it just gets so hot here. One of my friends from the Gem Isles sent me these though and I thought maybe you could keep them in your greenhouse...^^ - Sandy",
+
+    "atelierfloral_emily_gift.name":"Some Bouquet Inspiration",
+    "atelierfloral_emily_gift.text":"@, ^^ Evelyn has been talking about your new flower projects and so I wanted to help! I think fairy roses would make for quite the stunning autumn bouquet, don't you?^^ - Emily",
+
+////////////////////
+// SPECIAL ORDERS //
+////////////////////
+
+    "atelierfloral_SO_1.name":"Spring Cleaning",
+    "atelierfloral_SO_1.text":"I'm busy with spring cleaning and I want to refresh all the closets with some potpourri; can anyone bring me some sachets?",
+    "atelierfloral_SO_1.deliver":"Deliver 6 potpourri sachets to Evelyn.",
+    "atelierfloral_SO_1.accept":"These smell lovely. The whole house will be fresh and clean in no time now!",
+
+    "atelierfloral_SO_2.name":"Stop and Smell the Roses",
+    "atelierfloral_SO_2.text":"I really do love fresh flowers, even if they make me sneeze sometimes. A bouquet of fairy roses would sure look nice in my room...",
+    "atelierfloral_SO_2.deliver":"Deliver 1 Fairy Rose Bouquet to Sam.",
+    "atelierfloral_SO_2.accept":"Wow that bouquet is so colorful and it smells GREAT! Maybe I'll put it on the far side of my room so I sneeze less...",
+
+    "atelierfloral_SO_3.name":"Scents-ational",
+    "atelierfloral_SO_3.text":"I'm all out of my favorite perfume! WHAT WILL I DO WITHOUT IT??",
+    "atelierfloral_SO_3a.deliver":"Deliver 2 Sunflower Eau de Toilette to Haley's house.",
+    "atelierfloral_SO_3b.deliver":"Deliver 2 Forest Lavender Eau de Toilette to Haley's house.",
+    "atelierfloral_SO_3c.deliver":"Deliver 2 Fairy Rose Eau de Toilette to Haley's house.",
+    "atelierfloral_SO_3d.deliver":"Deliver 2 Tulip Eau de Toilette to Haley's house.",
+
+    "atelierfloral_SO_4.name":"Soap Opera",
+    "atelierfloral_SO_4.text":"I'm doing scientific experiments on the lye in soap and I need some samples to compare with my test subjects!",
+    "atelierfloral_SO_4.deliver":"Deliver 10 soaps to the Drop Box in Maru's Lab.",
+
+    "atelierfloral_SO_5.name":"Master Florist",
+    "atelierfloral_SO_5.text":"It's that time of year again - annual applications for the role of Master Florist are open! Send us your highest quality floral wares to see if you can earn the grand prize!",
+    "atelierfloral_SO_5.ship":"Ship 100 Gold Quality Floral Goods.",
+
+    "atelierfloral_SO_6.name":"Bouquets for Shane",
+    "atelierfloral_SO_6.text":"Jas and Marnie are so patient with me and I'd like to get them something nice...",
+    "atelierfloral_SO_6.deliver":"Deliver 2 bouquets to Shane.",
+    "atelierfloral_SO_6.accept":"These are so beautiful. They are perfect for Jas and Marnie. Thanks, friend.",
+
+    "atelierfloral_SO_7.name":"Soap for Willy",
+    "atelierfloral_SO_7.text":"Fishing is hard work and it's really dried out my skin! Would love some high quality soaps to help me feel back to normal.",
+    "atelierfloral_SO_7.deliver":"Deliver 4 soaps to Willy.",
+    "atelierfloral_SO_7.accept":"You may have heard of dish pan hands, but I may as well have FISH pan hands they are so dry. Thanks for the soaps; I'm sure they'll help quite bit.",
+
+    "atelierfloral_SO_8.name":"Candles for Krobus",
+    "atelierfloral_SO_8.text":"Humans seem interested not only in flowers, but also in their smells. I want to make the sewers smell like flowers, can you help?",
+    "atelierfloral_SO_8.deliver":"Deliver 8 candles to Krobus.",
+    "atelierfloral_SO_8.accept":"Fascinating, the candles smell fragrant and also add a soothing glow to the area. Humans are truly intriguing creatures. Thank you for bringing these to me.",
+
+/////////////////////////
+// SPECIAL ORDERS MAIL //
+/////////////////////////
+
+    "atelierfloral_SO2_reward.title": "Thank you!",
+    "atelierfloral_SO2_reward.text": "@,^^^I really can't thank you enough for the bouquet, even if it does make my nose sniffle a little. ^^-Sam",
+
+    "atelierfloral_SO3_reward.title": "Thanks so much!",
+    "atelierfloral_SO3_reward.text": "@,^^^YOU ARE A LIFESAVER. A girl should never be without her favorite perfume, you know.^^-Haley",
+
+    "atelierfloral_SO4_reward.title": "Thank you!",
+    "atelierfloral_SO4_reward.text": "@,^^^These are perfect for my experiments! Did you know the actual term for making soap is soaponification? No? Oh well, off I go to test these against my own concoctions!. ^^-Maru",
+
+    "atelierfloral_SO5_reward.title": "Congratulations!",
+    "atelierfloral_SO5_reward.text": "Dear @,^^^ Your dedication is impressive. We are proud to offer you the title of Master Florist. Please take this as a reward.",
+
+}

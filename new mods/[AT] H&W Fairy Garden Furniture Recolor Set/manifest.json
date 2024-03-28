@@ -1,0 +1,17 @@
+﻿{
+	"Name": "[AT] Fairy Garden Furniture Pack Recolor Set",
+	"Author": "Himetarts and wildflourmods",
+	"Version": "2.0",
+	"Description": "AT pack for Hime and Wildflour's Fairy Garden Furniture Pack",
+	"UniqueID": "HXW.FairyGardenFurnitureAT",
+	"UpdateKeys": ["nexus:17707"],
+	"ContentPackFor": {
+		"UniqueID": "PeacefulEnd.AlternativeTextures"
+	},
+	"Dependencies": [
+		{
+			"UniqueID": "HXW.FairyGardenFurniture",
+			"IsRequired": true
+	 }
+	 ]
+}

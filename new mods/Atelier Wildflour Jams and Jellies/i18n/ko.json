@@ -1,0 +1,180 @@
+{
+	// Banana Maple Jam
+    "jams_banana_maple_jam.name": "바나나 메이플 잼",
+	"jams_banana_maple_jam.description": "바나나를 으깨어 익혀 메이플을 첨가하여 두 배로 달콤하다.",
+	
+	//Banana Split Jam
+	"jams_banana_split_jam.name": "바나나 스플릿 잼",
+	"jams_banana_split_jam.description": "바나나, 딸기와 체리의 환상적인 궁합!",
+	
+	//Blackberry Mint Jelly
+	"jams_blackberry_mint_jelly.name": "블랙베리 민트 젤리",
+	"jams_blackberry_mint_jelly.description": "채집한 블랙베리와 국내산 박하로 만든 달콤하며 시원한 젤리.",
+	
+	//Blueberry Lavender Jelly
+	"bluebery-lavender.name": "블루베리 라벤더 젤리",
+	"jams_blueberry_lavender_jelly.description": "블루베리와 라벤더를 넣어 만든 달콤한 젤리.",
+
+	//Blue Jazz Jelly
+	"jams_blue_jazz_jelly.name": "블루재즈 젤리",
+	"jams_blue_jazz_jelly.description": "블루재즈 꽃잎으로 만든 로얄 젤리.",
+	
+	//Cherry Vanilla Jam
+	"jams_cherry_vanilla_jam.name": "체리 바닐라 잼",
+	"jams_cherry_vanilla_jam.description": "갓 딴 체리와 바닐라빈으로 만든 잼.",
+
+	//Chamomile Jelly
+	"jams_chamomile_jelly.name":"캐모마일 젤리",
+	"jams_chamomile_jelly.description":"캐모마일 꽃잎을 넣어 만든 로얄 젤리.",
+	
+	//Cinnamon Apple Preserves
+	"jams_cinnamon_apple_preserves.name": "시나몬 애플 절임",
+	"jams_cinnamon_apple_preserves.description": "신선하고 바삭바삭한 사과와 매운 계피 - 가을의 맛을 즐기기 위해 이 잼들을 거의 모든 음식과 곁들이세요.",
+	
+	//Cranberry Chutney
+	"jams_cranberry_chutney.name": "크랜베리 처트니",
+	"jams_cranberry_chutney.description": "크랜베리 소스는 너무 과대평가됐다. 그것 대신 이 밝고 상큼한 맛이 나는 처트니를 먹어 봤어?",
+	
+	//Crocus Jelly
+	"jams_crocus_jelly.name": "크로커스 젤리",
+	"jams_crocus_jelly.description": "야생의 크로커스 꽃으로 만든 젤리. 맛은 약간의 바닐라와 향신료가 섞인 듯하다.",
+	
+	//Dandelion Jelly
+	"jams_dandelion_jelly.name": "민들레 젤리",
+	"jams_dandelion_jelly.description": "민들레로 만든 젤리. 맛이 우아하며 달콤하다.",
+	
+	//Honey Apricot Preserves
+	"jams_honey_apricot_preserves.name": "꿀 살구 잼",
+	"jams_honey_apricot_preserves.description": "현지 꿀과 갓 딴 살구로 만든 보존 식품.",
+	
+	//Honey Peach Preserves
+	"jams_honey_peach_preserves.name": "꿀 복숭아 절임",
+	"jams_honey_peach_preserves.description": "현지 꿀과 갓 딴 복숭아로 만든 보존 식품.",
+	
+	//Mango Chutney
+	"jams_mango_chutney.name": "망고 처트니",
+	"jams_mango_chutney.description": "이 여름다운 처트니는 갓 잡은 생선으로 만든 구이 위가 제격이다.",
+	
+	//Mixed Berry Preserves
+	"jams_mixed_berry_preserves.name": "믹스 베리 절임",
+	"jams_mixed_berry_preserves.description": "세 종류의 신선한 베리로 만든 보존 식품.",
+
+	//Peach Blossom Jelly
+	"jams_peach_blossom_jelly.name":"복숭아꽃 젤리",
+	"jams_peach_blossom_jelly.description":"갓 딴 복숭아와 체리꽃을 넣어 만든 젤리.",
+	
+	//Peach Ginger Preserves
+	"jams_peach_ginger_preserves.name": "복숭아 생강 절임",
+	"jams_peach_ginger_preserves.description": "풍미를 더하기 위해 복숭아와 진저 섬 생강을 조금 넣어 만든 보존 식품.",
+	
+	//Rose Petal Jelly
+	"rose-petal.name":"장미꽃 젤리",
+	"rose-petal.description":"식용 장미꽃잎을 넣어 만든 로열 젤리.",
+	
+	//Special Edition Flower Dance Jelly
+	"jams_flower_dance_jelly.name": "스페셜 에디션 봄꽃 무도회 젤리",
+	"jams_flower_dance_jelly.description": "펠리컨 마을의 연례 봄꽃 무도회 축제를 기념하여 만든 작은 젤리!",
+	
+	//Special Edition Luau Jam
+	"jams_luau_jam.name": "스페셜 에디션 루아우 잼",
+	"jams_luau_jam.description": "펠리컨 마을의 연례 루아우를 기념하기 위해 만든 작은 잼!",
+	
+	//Special Edition Spirits Eve Jam
+	"jams_spirits_eve_jam.name": "스페셜 에디션 영령의 전야제 잼",
+	"jams_spirits_eve_jam.description": "영령의 젼야제를 기념하기 위해 만든 작은 잼!",
+	
+	//Special Edition Winter Star Jelly
+	"jams_winter_star_jelly.name": "스페셜 에디션 겨울 별의 만찬 젤리",
+	"jams_winter_star_jelly.description": "겨울 별 축제를 기념하여 만든 작은 덩어리 젤리!",
+	
+	//Spring Lemon Marmalade
+	"jams_lemon_marmalade.name": "봄 레몬 마멀레이드",
+	"jams_lemon_marmalade.description": "레몬 제스트 덕분에, 레몬의 밝고 과감한 신맛이 강하게 전해집니다!",
+	
+	//Strawberry Rhubarb Jam
+	"jams_strawberry_rhubarb_jam.name": "딸기 대황 잼",
+	"jams_strawberry_rhubarb_jam.description": "달달한 딸기에 대황을 넣어 만든 잼.",
+
+	//Strawberry Rose Jelly
+	"jams_strawberry_rose_jelly.name":"장미딸기 젤리.",
+	"jams_strawberry_rose_jelly.description": "야생딸기와 장미꽃잎을 넣어 만든 달콤한 젤리.",
+	
+	//Summer Spangle Jelly
+	"jams_spangle_jelly.name": "여름별꽃 젤리",
+	"jams_spangle_jelly.description": "여름 최고의 여름별꽃으로 만든 젤리. 햇살과도 같은 맛이 난다.",
+	
+	//Summery Orange Marmalade
+	"jams_orange_marmalade.name": "여름 오렌지 마멀레이드",
+	"jams_orange_marmalade.description": "오렌지 제스트 덕분에, 오렌지의 밝고 대담한 맛이 강하게 전해집니다!",
+	
+	//Sunflower Jelly
+	"jams_sunflower_jelly.name": "해바라기 젤리",
+	"jams_sunflower_jelly.description": "해바라기 꽃잎으로 만든 젤리는 견과류 맛이 살짝 난다.",
+	
+	//Sweet Lime Marmalade
+	"jams_lime_marmalade.name": "스위트 라임 마멀레이드",
+	"jams_lime_marmalade.description": "라임 제스트 덕분에, 라임의 시큼하면서도 달콤한 맛이 강하게 전해집니다!",
+
+	//Sweet Jasmine Jelly
+	"jams_jasmine_jelly.name": "달콤한 자스민 젤리",
+	"jams_jasmine_jelly.description": "신선한 자스민 꽃을 사용해서 만든 젤리. 신선한 꽃 향기가 납니다.",
+	
+	//Triple Citrus Marmalade
+	"jams_citrus_marmalade.name": "트리플 시트러스 마멀레이드",
+	"jams_citrus_marmalade.description": "레몬, 라임, 오렌지가 함께 어우러져 감귤류의 맛을 더한다.",
+	
+	//Tulip Jelly
+	"jams_tulip_jelly.name": "튤립 젤리",
+	"jams_tulip_jelly.description": "갓 딴 튤립으로 만든 젤리는 신선하고 꽃맛이 난다.",
+	
+	//Vanilla Raspberry Preserves
+	"jams_vanilla_raspberry_preserves.name": "바닐라 라즈베리 절임",
+	"jams_vanilla_raspberry_preserves.description": "바닐라와 라즈베리의 완벽한 조합으로, 빵에 발라먹거나 케이크 등에 넣어 먹을 수 있는 달콤한 절임입니다!",
+
+	
+//SPECIAL ORDERS
+
+"jams_SO_1.name":"에블린을 위한 봄철 간식",
+"jams_SO_1.text":"에블린은 늘 나를 위해 많은 걸 해주고 있네. 그녀에게 고마움을 표현하고 싶을 무언가가 필요한데... 튤립은 에블린이 제일 좋아하는 꽃이니, 아마, 그녀가 먹을 스콘에 어울릴 튤립 젤리를 주고 싶어.",
+"jams_SO_1.deliver":"조지에게 튤립 젤리 5개 전달.",
+"jams_SO_1.accept":"에블린은 이걸 좋아할 것 같네 - 신세 졌네, 고맙네.",
+
+"jams_SO_2.name":"사랑스러운 분홍빛",
+"jams_SO_2.text":"재스는 요즘 분홍색을 사랑해서, 자기 음식까지 분홍색이 되었으면 하는 것 같아요. 누가 도와줄 수 있나요?",
+"jams_SO_2.deliver":"마니에게 장미딸기 젤리 5개 전달.",
+"jams_SO_2.accept":"오, 정말 다행이야! 아마 이걸 베이글에 올리면 아침을 먹게 할 수 있을거야...!                                ",
+
+"jams_SO_3.name":"완벽한 팬케이크에 곁들일 것",
+"jams_SO_3.text":"팬케이크는 우리 집에선 매주 일요일마다 먹는 간식인데, 평범한 메이플 시럽 대신 곁들여 먹을 걸 찾고 있어요. 아이디어를 주실 분?",
+"jams_SO_3a.deliver":"조디의 부엌 상자에 체리 바닐라 잼 3개 넣기.",
+"jams_SO_3b.deliver":"조디의 부엌 상자에 꿀 복숭아 절임 3개 넣기.",
+"jams_SO_3c.deliver":"조디의 부엌 상자에 딸기 대황 잼 3개 넣기.",
+
+"jams_SO_4.name":"비타민 C를 챙깁시다",
+"jams_SO_4.text":"비타민은 건강한 식단에 필수적이지. 어떤 마멀레이드에 들어있는 비타민 C도 같은 거라고 생각합니다. 그렇지요?",
+"jams_SO_4a.deliver":"루이스의 집 부엌 상자에 트리플 시트러스 마멀레이드 2개 넣기.",
+"jams_SO_4b.deliver":"루이스의 집 부엌 상자에 스위트 라임 마멀레이드 2개 넣기.",
+"jams_SO_4c.deliver":"루이스의 집 부엌 상자에 여름 오렌지 마멀레이드 2개 넣기.",
+"jams_SO_4d.deliver":"루이스의 집 부엌 상자에 봄 레몬 마멀레이드 2개 넣기.",
+
+"jams_SO_5.name":"최고의 잼 장인 챌린지",
+"jams_SO_5.text":"올해도 이 시기가 찾아왔습니다- 최고의 잼과 젤리 전문장인을 위한 공식 접수가 시작되었습니다! 대상을 위한 최고의 상품을 보내주세요!",
+"jams_SO_5.ship":"특별한 잼 100개 배송.",
+
+"jams_SO_6.name":"라이너스를 위한 잼",
+"jams_SO_6.text":"겨울이 오면 먹을 것이 줄어듭니다. 자연의 풍요로움을 느낄 수 있는 보존용 과일이 먹고 싶습니다...",
+"jams_SO_6.deliver":"라이너스에게 잼 3개 전달.",
+"jams_SO_6.accept":"사랑스럽기도 하지. 이제 한겨울에도 자연의 선물을 즐길 수 있겠네. 고맙네, 친구여.",
+
+"jams_SO_7.name":"페니를 위한 잼",
+"jams_SO_7.text":"저희 모녀는 아침 식사에 잼을 곁들이는 걸 좋아해요. 괜찮다면 몇 가지 다양한 맛을 제공해주실 수 있나요?",
+"jams_SO_7.deliver":"페니에게 잼 5개 전달.",
+"jams_SO_7.accept":"이건 선데이 팬케이크와 잘 어울릴 것 같아요! 고마워요!",
+
+"jams_SO_8.name":"클린트를 위한 잼",
+"jams_SO_8.text":"나는 내 저장실에 고급 재료를 좀 더 비축해두고 싶습니다. 젤리를 좋아하니, 거기서부터 시작하고 싶어요.",
+"jams_SO_8.deliver":"클린트에게 잼 10개 전달.",
+"jams_SO_8.accept":"이 잼들은 어떻게 먹는 게 좋을까? 좀 더 생각해봐야겠지만, 멋져 보이네. 고마워.",
+
+	
+}

@@ -1,0 +1,100 @@
+{
+    "Format": "2.0.0",
+
+    "ConfigSchema": {
+
+        "EnableSpecialOrders": 
+		{
+            "Description": "If you want to enable special orders that correspond to this mod's new items. True by default",
+			"AllowValues": "true, false",
+			"Default": "true",
+            "AllowBlank": false
+		}
+},
+    "Changes": [
+
+        //Include Crop Data
+
+        {
+            "LogName": "Wild Food Crops",
+            "Action": "Include",
+            "FromFile": "Data/crops.json"
+        },
+
+        {
+            "LogName": "Faerie Garden Crops",
+            "Action": "Include",
+            "FromFile": "Data/crops_fg.json",
+        },
+      
+        //Include Tree Data
+
+        {
+            "LogName": "Wild Food Trees",
+            "Action": "Include",
+            "FromFile": "Data/trees.json"
+        },
+
+        {
+            "LogName": "Faerie Garden Trees",
+            "Action": "Include",
+            "FromFile": "Data/trees_fg.json"
+        },
+
+        //Include Object Data
+
+        {
+            "LogName": "Wild Food Objects",
+            "Action": "Include",
+            "FromFile": "Data/objects.json"
+        },
+
+        {
+            "LogName": "Faerie Garden Objects",
+            "Action": "Include",
+            "FromFile": "Data/objects_fg.json"
+        },
+
+        //Include Gift Taste Data
+
+        {
+            "LogName": "Wild Food Gift Tastes",
+            "Action": "Include",
+            "FromFile": "Data/gifttastes.json"
+        },
+
+        //Include Machine Data
+
+        {
+            "LogName": "Wild Food Machine Rules",
+            "Action": "Include",
+            "FromFile": "Data/machines.json"
+        },
+
+        //Include Mail
+
+        {
+            "LogName": "Wild Food Mail",
+            "Action": "Include",
+            "FromFile": "Data/mail.json",
+            "When": {"EnableSpecialOrders": true}
+        },
+        
+        //Include Special Orders
+
+        {
+            "LogName": "Wild Food Special Orders",
+            "Action": "Include",
+            "FromFile": "Data/specialorders.json",
+            "When": {"EnableSpecialOrders": true}
+        },
+        
+        //Include Textures
+
+        {
+            "LogName": "Wild Food Textures",
+            "Action": "Include",
+            "FromFile": "Data/textures.json"
+        }
+    ]
+}

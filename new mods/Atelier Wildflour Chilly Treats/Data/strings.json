@@ -1,0 +1,14 @@
+{
+  "Changes": [
+    {
+      "LogName": "Generic Naming for Frozen Objects",
+      "Action": "EditData",
+      "Target": "Strings/Objects",
+      "Entries": {
+        "wildflour.atelierfrozen_fruit_popsicle": "{{i18n: atelierfrozen_fruit_popsicle}}",
+        "wildflour.atelierfrozen_fruit_ice_cream": "{{i18n: atelierfrozen_fruit_ice_cream}}"
+
+      },
+    }
+  ]
+}

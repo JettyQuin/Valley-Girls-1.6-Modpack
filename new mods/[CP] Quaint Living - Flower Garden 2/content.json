@@ -1,0 +1,111 @@
+{
+	"Format": "1.29",
+   "ConfigSchema":
+
+{
+        "SeasonalVariant": {
+            "AllowValues": "true, false",
+            "Default": "true",
+            "Description": "Automatically makes some of the multi-season flowers change varieties when the season change."
+        },
+},
+
+  "Changes": [
+
+         {
+              "LogName":"QL Sprites Load",
+              "Action": "Load",
+              "Target": "Mods/PC.QL.FlowerGarden2/Crops, Mods/PC.QL.FlowerGarden2/GiantCrops, Mods/PC.QL.FlowerGarden2/Objects, Mods/PC.QL.FlowerGarden2_FruitTrees, PC.QL.FlowerGarden2_BigCraftables",
+              "FromFile": "assets/{{TargetWithoutPath}}.png"
+          },
+
+
+        {
+              "LogName":"QL - Seasonal Variation Patch",
+              "Action": "EditData",
+              "Target": "Mods/PC.QL.FlowerGarden2/Crops, Mods/PC.QL.FlowerGarden2/GiantCrops, Mods/PC.QL.FlowerGarden2/Objects",
+              "FromFile": "assets/{{TargetWithoutPath}}_{{season}}.png",
+              "When": {"Season":"spring, summer, fall, winter", "SeasonalVariant" == true }
+  }, 
+
+
+
+//SPRING OBJECTS
+{
+      "LogName": "QL Flower Garden 2 - Seed Object Data",
+      "Action": "Include",
+      "FromFile": "assets/Data/SeedsData.json"
+},
+
+{
+      "LogName": "QL Flower Garden 2 - Object Data",
+      "Action": "Include",
+      "FromFile": "assets/Data/ObjectData.json"
+},
+
+{
+      "LogName": "QL Flower Garden 2 - Food Object Data",
+      "Action": "Include",
+      "FromFile": "assets/Data/FoodData.json"
+},
+
+{
+      "LogName": "QL Flower Garden 2 - Artisan Goods Data",
+      "Action": "Include",
+      "FromFile": "assets/Data/ArtisanGoods.json"
+},
+
+//CROP DATA
+{
+      "LogName": "QL Flower Garden 2 - Crop Data",
+      "Action": "Include",
+      "FromFile": "assets/Data/CropData.json"
+}, 
+{
+      "LogName": "QL Flower Garden 2 - Flower Bushes Data",
+      "Action": "Include",
+      "FromFile": "assets/Data/TreeData.json"
+},
+
+//MACHINES
+{
+      "LogName": "QL Flower Garden 2 - Machines Data",
+      "Action": "Include",
+      "FromFile": "assets/Data/Machines.json"
+},
+
+//GIFT TASTES
+{
+      "LogName": "QL Flower Garden 2 - Vanilla NPC Gift Tastes",
+      "Action": "Include",
+      "FromFile": "assets/Data/VanillaNPCGiftTastes.json"
+},
+
+//RECIPES
+{
+      "LogName": "QL Flower Garden 2 - Recipes",
+      "Action": "Include",
+      "FromFile": "assets/Data/Recipes.json"
+},
+
+//PRODUCTIONS
+{
+      "LogName": "QL Flower Garden 2 - Productions",
+      "Action": "Include",
+      "FromFile": "assets/Data/ArtisanGoods.json"
+},
+
+//SHOP DATA
+{
+      "LogName": "QL Flower Garden 2 - Shop Data",
+      "Action": "Include",
+      "FromFile": "assets/Data/ShopData.json"
+},
+
+
+
+
+      ]
+  }, 
+
+
