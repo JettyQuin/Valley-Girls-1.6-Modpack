@@ -1,0 +1,35 @@
+
+Purchase the Alternative Textures "Paint Bucket" tool from Robin's shop.
+
+To use the Paint Bucket, click on a wall or floor in the farmhouse to bring up a menu of all available textures. This includes the default textures (from the vanilla game or any Content Patcher mods you have installed) followed by walls or floors from any AT mods you have installed.
+
+You can use the search field to search by keyword.
+
+Search for "Cottage Core" (or Cottagecore) to see all walls or floors from this mod.
+
+SEARCH BY MATERIAL OR PATTERN:
+
+Wallpapers: Striped, Patterned, Stone, Tile, Wood Trim, Stone Trim
+Floors: Wood, Stone, Tile, Carpet, Vertical, Horizontal, Diagonal, Diamond, Square
+
+SEARCH BY COLOR:
+
+Black, Gray*, Cream, Pink, Green, Yellow (+ Orange for floors)
+* NOTE: "Gray" will show all walls or floors because it's included in the mod's ID. Add a space after "gray" to see the correct results (gray stone, gray tile, etc.) or search "grey".
+
+SEARCH BY RECOLOR:
+
+For wallpaper with wood trim, or for wood floors, you can search for a specific recolor:
+- Vanilla
+- Vibrant Pastoral Recolor (Search "Vibrant" or "VPR")
+- Rustic Country Town - Dark Wood (Search "Rustic Dark" or "RCT Dark")
+- Rustic Country Town - White Wood (Search "Rustic White" or "RCT White")
+
+DETAILED WALLPAPERS:
+
+Some wallpapers have other keywords such as:
+Vines
+Bees, Dandelions, Mushrooms
+Snails, Mushrooms, Vines
+Cute, Frogs, Strawberries, Foxes
+Delicate, Lace, Moths, Mushrooms

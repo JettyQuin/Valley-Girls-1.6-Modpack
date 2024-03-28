@@ -1,0 +1,13 @@
+{
+  "Name": "Opulence Wallpapers",
+  "Author": "Twinkle22",
+  "Version": "1.0.0",
+  "Description": "Alternative Textures pack for Wallpapers",
+  "UniqueID": "Twinkle22.AT_Opulencewallpapers",
+  "UpdateKeys": [],
+  "Dependencies": [],
+  "ContentPackFor": {
+    "UniqueID": "PeacefulEnd.AlternativeTextures",
+    "MinimumVersion": "3.14.0"
+	}
+}

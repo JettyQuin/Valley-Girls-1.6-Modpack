@@ -1,0 +1,311 @@
+{
+  "ItemName": "Floor",
+  "Type": "Decoration",
+  "TextureWidth": 32,
+  "TextureHeight": 32,
+  "Keywords": [ "Cottage Core", "Cottagecore" ],
+  "ManualVariations": [
+
+// Wood Planks
+
+    {
+      "Id": 0,
+      "Name": "CottageCore Vanilla Wood Planks Vertical",
+      "Keywords": [ "Vanilla Wood Planks", "Vertical" ]
+    },
+    {
+      "Id": 1,
+      "Name": "CottageCore VPR Wood Planks Vertical",
+      "Keywords": [ "VPR Wood Planks", "Vibrant Pastoral Recolor Wood Planks", "Vertical" ]
+    },
+    {
+      "Id": 2,
+      "Name": "CottageCore RCT Dark Wood Planks Vertical",
+      "Keywords": [ "RCT Dark Wood Planks", "Rustic Country Town Dark Wood Planks", "Rustic Dark Wood Planks", "Vertical" ]
+    },
+    {
+      "Id": 3,
+      "Name": "CottageCore RCT White Wood Planks Vertical",
+      "Keywords": [ "RCT White Wood Planks", "Rustic Country Town White Wood Planks", "Rustic White Wood Planks", "Vertical" ]
+    },
+
+    {
+      "Id": 4,
+      "Name": "CottageCore Vanilla Wood Planks Horizontal",
+      "Keywords": [ "Vanilla Wood Planks", "Horizontal" ]
+    },
+    {
+      "Id": 5,
+      "Name": "CottageCore VPR Wood Planks Horizontal",
+      "Keywords": [ "VPR Wood Planks", "Vibrant Pastoral Recolor Wood Planks", "Horizontal" ]
+    },
+    {
+      "Id": 6,
+      "Name": "CottageCore RCT Dark Wood Planks Horizontal",
+      "Keywords": [ "RCT Dark Wood Planks", "Rustic Country Town Dark Wood Planks", "Rustic Dark Wood Planks", "Horizontal" ]
+    },
+    {
+      "Id": 7,
+      "Name": "CottageCore RCT White Wood Planks Horizontal",
+      "Keywords": [ "RCT White Wood Planks", "Rustic Country Town White Wood Planks", "Rustic White Wood Planks", "Horizontal" ]
+    },
+
+    {
+      "Id": 8,
+      "Name": "CottageCore Vanilla Wood Planks Vertical",
+      "Keywords": [ "Vanilla Wood Planks", "Vertical" ]
+    },
+    {
+      "Id": 9,
+      "Name": "CottageCore VPR Wood Planks Vertical",
+      "Keywords": [ "VPR Wood Planks", "Vibrant Pastoral Recolor Wood Planks", "Vertical" ]
+    },
+    {
+      "Id": 10,
+      "Name": "CottageCore RCT Dark Wood Planks Vertical",
+      "Keywords": [ "RCT Dark Wood Planks", "Rustic Country Town Dark Wood Planks", "Rustic Dark Wood Planks", "Vertical" ]
+    },
+    {
+      "Id": 11,
+      "Name": "CottageCore RCT White Wood Planks Vertical",
+      "Keywords": [ "RCT White Wood Planks", "Rustic Country Town White Wood Planks", "Rustic White Wood Planks", "Vertical" ]
+    },
+
+    {
+      "Id": 12,
+      "Name": "CottageCore Vanilla Wood Planks Horizontal",
+      "Keywords": [ "Vanilla Wood Planks", "Horizontal" ]
+    },
+    {
+      "Id": 13,
+      "Name": "CottageCore VPR Wood Planks Horizontal",
+      "Keywords": [ "VPR Wood Planks", "Vibrant Pastoral Recolor Wood Planks", "Horizontal" ]
+    },
+    {
+      "Id": 14,
+      "Name": "CottageCore RCT Dark Wood Planks Horizontal",
+      "Keywords": [ "RCT Dark Wood Planks", "Rustic Country Town Dark Wood Planks", "Rustic Dark Wood Planks", "Horizontal" ]
+    },
+    {
+      "Id": 15,
+      "Name": "CottageCore RCT White Wood Planks Horizontal",
+      "Keywords": [ "RCT White Wood Planks", "Rustic Country Town White Wood Planks", "Rustic White Wood Planks", "Horizontal" ]
+    },
+
+    {
+      "Id": 16,
+      "Name": "CottageCore Vanilla Wood Planks Diagonal",
+      "Keywords": [ "Vanilla Wood Planks", "Diagonal" ]
+    },
+    {
+      "Id": 17,
+      "Name": "CottageCore VPR Wood Planks Diagonal",
+      "Keywords": [ "VPR Wood Planks", "Vibrant Pastoral Recolor Wood Planks", "Diagonal" ]
+    },
+    {
+      "Id": 18,
+      "Name": "CottageCore RCT Dark Wood Planks Diagonal",
+      "Keywords": [ "RCT Dark Wood Planks", "Rustic Country Town Dark Wood Planks", "Rustic Dark Wood Planks", "Diagonal" ]
+    },
+    {
+      "Id": 19,
+      "Name": "CottageCore RCT White Wood Planks Diagonal",
+      "Keywords": [ "RCT White Wood Planks", "Rustic Country Town White Wood Planks", "Rustic White Wood Planks", "Diagonal" ]
+    },
+
+    {
+      "Id": 20,
+      "Name": "CottageCore Vanilla Wood Planks Diagonal",
+      "Keywords": [ "Vanilla Wood Planks", "Diagonal" ]
+    },
+    {
+      "Id": 21,
+      "Name": "CottageCore VPR Wood Planks Diagonal",
+      "Keywords": [ "VPR Wood Planks", "Vibrant Pastoral Recolor Wood Planks", "Diagonal" ]
+    },
+    {
+      "Id": 22,
+      "Name": "CottageCore RCT Dark Wood Planks Diagonal",
+      "Keywords": [ "RCT Dark Wood Planks", "Rustic Country Town Dark Wood Planks", "Rustic Dark Wood Planks", "Diagonal" ]
+    },
+    {
+      "Id": 23,
+      "Name": "CottageCore RCT White Wood Planks Diagonal",
+      "Keywords": [ "RCT White Wood Planks", "Rustic Country Town White Wood Planks", "Rustic White Wood Planks", "Diagonal" ]
+    },
+
+// Tile
+
+    {
+      "Id": 24,
+      "Name": "CottageCore Black Tile Diamond",
+      "Keywords": [ "Black Tile", "Diamond" ]
+    },
+    {
+      "Id": 25,
+      "Name": "CottageCore Gray Tile Diamond",
+      "Keywords": [ "Gray Tile", "Grey Tile", "Diamond" ]
+    },
+    {
+      "Id": 26,
+      "Name": "CottageCore Cream Tile Diamond",
+      "Keywords": [ "Cream Tile", "Diamond" ]
+    },
+    {
+      "Id": 27,
+      "Name": "CottageCore Pink Tile Diamond",
+      "Keywords": [ "Pink Tile", "Diamond" ]
+    },
+    {
+      "Id": 28,
+      "Name": "CottageCore Green Tile Diamond",
+      "Keywords": [ "Green Tile", "Diamond" ]
+    },
+
+    {
+      "Id": 29,
+      "Name": "CottageCore Black Tile Horizontal",
+      "Keywords": [ "Black Tile", "Horizontal" ]
+    },
+    {
+      "Id": 30,
+      "Name": "CottageCore Gray Tile Horizontal",
+      "Keywords": [ "Gray Tile", "Grey Tile", "Horizontal" ]
+    },
+    {
+      "Id": 31,
+      "Name": "CottageCore Cream Tile Horizontal",
+      "Keywords": [ "Cream Tile", "Horizontal" ]
+    },
+    {
+      "Id": 32,
+      "Name": "CottageCore Pink Tile Horizontal",
+      "Keywords": [ "Pink Tile", "Horizontal" ]
+    },
+    {
+      "Id": 33,
+      "Name": "CottageCore Green Tile Horizontal",
+      "Keywords": [ "Green Tile", "Horizontal" ]
+    },
+
+    {
+      "Id": 34,
+      "Name": "CottageCore Black Tile Vertical",
+      "Keywords": [ "Black Tile", "Vertical" ]
+    },
+    {
+      "Id": 35,
+      "Name": "CottageCore Gray Tile Vertical",
+      "Keywords": [ "Gray Tile", "Grey Tile", "Vertical" ]
+    },
+    {
+      "Id": 36,
+      "Name": "CottageCore Cream Tile Vertical",
+      "Keywords": [ "Cream Tile", "Vertical" ]
+    },
+    {
+      "Id": 37,
+      "Name": "CottageCore Pink Tile Vertical",
+      "Keywords": [ "Pink Tile", "Vertical" ]
+    },
+    {
+      "Id": 38,
+      "Name": "CottageCore Green Tile Vertical",
+      "Keywords": [ "Green Tile", "Vertical" ]
+    },
+
+    {
+      "Id": 39,
+      "Name": "CottageCore Black Tile Square",
+      "Keywords": [ "Black Tile", "Square" ]
+    },
+    {
+      "Id": 40,
+      "Name": "CottageCore Gray Tile Square",
+      "Keywords": [ "Gray Tile", "Grey Tile", "Square" ]
+    },
+    {
+      "Id": 41,
+      "Name": "CottageCore Cream Tile Square",
+      "Keywords": [ "Cream Tile", "Square" ]
+    },
+    {
+      "Id": 42,
+      "Name": "CottageCore Pink Tile Square",
+      "Keywords": [ "Pink Tile", "Square" ]
+    },
+    {
+      "Id": 43,
+      "Name": "CottageCore Green Tile Square",
+      "Keywords": [ "Green Tile", "Square" ]
+    },
+
+// Stone Tile
+
+    {
+      "Id": 44,
+      "Name": "CottageCore Black Stone Tile Horizontal",
+      "Keywords": [ "Black Stone Tile", "Black Tile", "Horizontal" ]
+    },
+    {
+      "Id": 45,
+      "Name": "CottageCore Gray Stone Tile Horizontal",
+      "Keywords": [ "Gray Stone Tile", "Grey Stone Tile", "Gray Tile", "Grey Tile", "Horizontal" ]
+    },
+    {
+      "Id": 46,
+      "Name": "CottageCore Black Stone Tile Vertical",
+      "Keywords": [ "Black Stone Tile", "Black Tile", "Vertical" ]
+    },
+    {
+      "Id": 47,
+      "Name": "CottageCore Gray Stone Tile Vertical",
+      "Keywords": [ "Gray Stone Tile", "Grey Stone Tile", "Gray Tile", "Grey Tile", "Vertical" ]
+    },
+
+// Carpet
+
+    {
+      "Id": 48,
+      "Name": "CottageCore Black Carpet",
+      "Keywords": [ "Black Carpet" ]
+    },
+    {
+      "Id": 49,
+      "Name": "CottageCore Gray Carpet",
+      "Keywords": [ "Gray Carpet", "Grey Carpet" ]
+    },
+    {
+      "Id": 50,
+      "Name": "CottageCore Cream Carpet",
+      "Keywords": [ "Cream Carpet" ]
+    },
+    {
+      "Id": 51,
+      "Name": "CottageCore Pink Carpet",
+      "Keywords": [ "Pink Carpet" ]
+    },
+    {
+      "Id": 52,
+      "Name": "CottageCore Orange Carpet",
+      "Keywords": [ "Orange Carpet" ]
+    },
+    {
+      "Id": 53,
+      "Name": "CottageCore Yellow Carpet",
+      "Keywords": [ "Yellow Carpet" ]
+    },
+    {
+      "Id": 54,
+      "Name": "CottageCore Dark Green Carpet",
+      "Keywords": [ "Dark Green Carpet" ]
+    },
+    {
+      "Id": 55,
+      "Name": "CottageCore Light Green Carpet",
+      "Keywords": [ "Light Green Carpet" ]
+    },
+
+
+  ]
+}

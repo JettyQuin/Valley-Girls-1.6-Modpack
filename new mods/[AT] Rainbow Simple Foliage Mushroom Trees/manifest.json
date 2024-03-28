@@ -1,0 +1,13 @@
+{
+  "Name": "[AT] Rainbow Simple Foliage Mushroom Trees",
+  "Author": "PurpleChickadee",
+  "Version": "1.0.0",
+  "Description": "Rainbow versions of the Simple Foliage Mushroom Tree by Azrashar for Alternative Textures.",
+  "UniqueID": "PurpleChickadee.ATRainbowSimpleFoilageMushroomTrees",
+  "UpdateKeys": ["Nexus:13910"],
+  "Dependencies": [],
+  "ContentPackFor": {
+    "UniqueID": "PeacefulEnd.AlternativeTextures",
+    "MinimumVersion": "6.4.3"
+  }
+}

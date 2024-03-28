@@ -1,0 +1,12 @@
+{
+   "Name": "Ali's Enchanted Garden Buildings AT Version by glymr",
+   "Author": "glymr",
+   "Version": "1.0.0",
+   "Description": "Strawberrymilk95's overgrown mossy buildings to give your farm a secret garden feel, converted to Alternative Textures!",
+   "UniqueID": "glymr.EnchantedGardenAT",
+   "UpdateKeys": ["Nexus:18645"],
+   "ContentPackFor": {
+		"UniqueID": "PeacefulEnd.AlternativeTextures",
+		"MinimumVersion": "5.0.0"
+	},
+}

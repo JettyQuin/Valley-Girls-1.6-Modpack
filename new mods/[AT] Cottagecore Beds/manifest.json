@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Cottagecore Beds for Alternative Textures",
+  "Author": "JellyPaws",
+  "Version": "1.0.0",
+  "Description": "A set of cottagecore beds",
+  "UniqueID": "jellypawsCottageBeds",
+  "UpdateKeys": [ "" ],
+  "Dependencies": [],
+  "ContentPackFor": {
+    "UniqueID": "PeacefulEnd.AlternativeTextures",
+    "MinimumVersion": "3.3.2"
+  }
+}
