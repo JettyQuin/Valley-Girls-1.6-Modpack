@@ -1,0 +1,11 @@
+{
+  "Name": "Kkunma's 72 Hairstyles",
+  "Author": "halpyy",
+  "Version": "1.0.0",
+  "Description": "Fashion Pack for 72 Hairs.",
+  "UniqueID": "kkunma.final",
+  "UpdateKeys": [],
+  "ContentPackFor": {
+    "UniqueID": "PeacefulEnd.FashionSense"
+  }
+}
